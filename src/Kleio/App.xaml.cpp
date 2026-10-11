@@ -1,10 +1,33 @@
 #include "pch.h"
 #include "App.xaml.h"
-#include "PopupWindow.xaml.h"
+
+#include "AppController.h"
 
 namespace winrt
 {
     using namespace Microsoft::UI::Xaml;
+    using namespace Microsoft::Windows::AppLifecycle;
+    using namespace Windows::ApplicationModel::Activation;
+}
+
+namespace
+{
+    std::wstring ArgumentsOf(winrt::AppActivationArguments const& args)
+    {
+        if (args.Kind() == winrt::ExtendedActivationKind::Launch)
+        {
+            if (auto launch = args.Data().try_as<winrt::ILaunchActivatedEventArgs>())
+            {
+                return std::wstring{ launch.Arguments() };
+            }
+        }
+        return {};
+    }
+
+    bool Contains(std::wstring const& haystack, std::wstring_view needle)
+    {
+        return haystack.find(needle) != std::wstring::npos;
+    }
 }
 
 namespace winrt::Kleio::implementation
@@ -20,11 +43,72 @@ namespace winrt::Kleio::implementation
             }
         });
 #endif
+        // Kleio lives in the notification area: closing the popup or Settings must not end the app.
+        DispatcherShutdownMode(winrt::Microsoft::UI::Xaml::DispatcherShutdownMode::OnExplicitShutdown);
     }
 
     void App::OnLaunched(LaunchActivatedEventArgs const&)
     {
-        m_window = make<PopupWindow>();
-        m_window.Activate();
+        m_dispatcher = Microsoft::UI::Dispatching::DispatcherQueue::GetForCurrentThread();
+
+        ::Kleio::AppController::Current().Start();
+
+        auto instance = AppInstance::GetCurrent();
+        instance.Activated({ this, &App::OnActivated });
+        HandleActivation(instance.GetActivatedEventArgs(), true);
+    }
+
+    void App::OnActivated(IInspectable const&, AppActivationArguments const& args)
+    {
+        m_dispatcher.TryEnqueue([this, args] { HandleActivation(args, false); });
+    }
+
+    void App::HandleActivation(AppActivationArguments const& args, bool initial)
+    {
+        auto& controller = ::Kleio::AppController::Current();
+        auto& settings = ::Kleio::Settings::Instance();
+        std::wstring const arguments = ArgumentsOf(args);
+
+        if (Contains(arguments, L"--quit"))
+        {
+            controller.Quit();
+            return;
+        }
+        if (Contains(arguments, L"--ignore-next"))
+        {
+            controller.IgnoreNextCopy();
+            return;
+        }
+        if (Contains(arguments, L"--pause"))
+        {
+            settings.IgnoreOnlyNextEvent(false);
+            settings.IgnoreEvents(true);
+            return;
+        }
+        if (Contains(arguments, L"--resume"))
+        {
+            settings.IgnoreOnlyNextEvent(false);
+            settings.IgnoreEvents(false);
+            return;
+        }
+        if (Contains(arguments, L"--settings"))
+        {
+            controller.OpenSettings();
+            return;
+        }
+
+        // Started with Windows: stay in the notification area.
+        if (args.Kind() == ExtendedActivationKind::StartupTask)
+        {
+            return;
+        }
+        if (initial)
+        {
+            controller.ShowPopup();
+        }
+        else
+        {
+            controller.TogglePopup();
+        }
     }
 }

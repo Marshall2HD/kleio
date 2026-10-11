@@ -11,6 +11,14 @@ namespace winrt::Kleio::implementation
         void OnLaunched(Microsoft::UI::Xaml::LaunchActivatedEventArgs const&);
 
     private:
-        Microsoft::UI::Xaml::Window m_window{ nullptr };
+        // Handles activations redirected from a second launch (see Main.cpp). Raised on a
+        // background thread; marshalled to the UI thread.
+        void OnActivated(winrt::Windows::Foundation::IInspectable const&,
+                         Microsoft::Windows::AppLifecycle::AppActivationArguments const& args);
+        // Applies "--pause", "--resume", "--ignore-next", "--settings", "--quit"; with no recognised
+        // argument toggles the popup (like reopening Maccy). `initial` = first launch of the process.
+        void HandleActivation(Microsoft::Windows::AppLifecycle::AppActivationArguments const& args, bool initial);
+
+        Microsoft::UI::Dispatching::DispatcherQueue m_dispatcher{ nullptr };
     };
 }

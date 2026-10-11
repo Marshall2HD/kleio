@@ -1,0 +1,10 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass SettingsWindow : Microsoft.UI.Xaml.Window
+    {
+        SettingsWindow();
+        // Selects a page: "general", "storage", "appearance", "ignore", "advanced", "about".
+        void ShowPage(String tag);
+    }
+}

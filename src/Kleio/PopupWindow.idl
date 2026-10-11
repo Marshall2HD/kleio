@@ -4,5 +4,10 @@ namespace Kleio
     runtimeclass PopupWindow : Microsoft.UI.Xaml.Window
     {
         PopupWindow();
+        // Positions (per Settings::PopupPosition), shows and focuses the popup.
+        void ShowPopup();
+        // Hides without destroying; remembers size/position.
+        void HidePopup();
+        Boolean IsShown { get; };
     }
 }
