@@ -52,6 +52,12 @@ namespace Kleio
         std::function<std::vector<MenuItem>()> MenuProvider;
 
     private:
+        std::optional<LRESULT> OnMessage(UINT message, WPARAM wParam, LPARAM lParam);
+        void ShowContextMenu(int x, int y);
+        void RenderIcon();               // (re)creates m_icon for the current style/paused/theme/DPI
+        bool Notify(DWORD message);      // Shell_NotifyIconW with the current state
+        void Add();                      // NIM_ADD + NIM_SETVERSION
+
         MessageWindow& m_window;
         std::uint64_t m_handlerToken = 0;
         bool m_visible = false;
@@ -59,5 +65,7 @@ namespace Kleio
         TrayIconStyle m_style = TrayIconStyle::Kleio;
         std::wstring m_tooltip;
         HICON m_icon = nullptr;
+        UINT m_taskbarCreatedMessage = 0;
+        ULONGLONG m_lastInvokeTick = 0;
     };
 }

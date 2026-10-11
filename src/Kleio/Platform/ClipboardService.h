@@ -55,5 +55,7 @@ namespace Kleio
         MessageWindow& m_window;
         Settings& m_settings;
         std::uint64_t m_handlerToken = 0;
+        // GetClipboardSequenceNumber() of the last processed update (filters duplicate notifications).
+        std::uint32_t m_lastSequence = 0;
     };
 }

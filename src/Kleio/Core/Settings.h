@@ -8,6 +8,7 @@
 #include <optional>
 #include <string>
 #include <string_view>
+#include <utility>
 #include <vector>
 
 namespace Kleio
@@ -40,6 +41,10 @@ namespace Kleio
         virtual void Write(std::wstring_view key, std::wstring_view value) = 0;
         virtual void Remove(std::wstring_view key) = 0;
     };
+
+    // The production backend (ApplicationData::Current().LocalSettings(), falls back to an in-memory
+    // store when package identity is unavailable). Defined in Core/AppData.cpp.
+    std::unique_ptr<SettingsStore> CreateDefaultSettingsStore();
 
     // Strongly typed application settings, persisted in ApplicationData::Current().LocalSettings().
     // Every setter persists immediately and raises Changed(key) with the key constant below when the
@@ -218,5 +223,27 @@ namespace Kleio
 
     private:
         Settings() = default;
+
+        SettingsStore& Store() const;
+        // Raw (serialized) value: in-memory cache first, then the store.
+        std::optional<std::wstring> ReadRaw(std::wstring_view key) const;
+        // Persists `value` and raises Changed(key) unless it equals `current`.
+        void WriteRaw(std::wstring_view key, std::wstring const& value, std::wstring const& current);
+        void RemoveRaw(std::wstring_view key);
+
+        bool GetBool(std::wstring_view key, bool fallback) const;
+        void SetBool(std::wstring_view key, bool value, bool fallback);
+        std::int32_t GetInt(std::wstring_view key, std::int32_t fallback, std::int32_t minimum, std::int32_t maximum) const;
+        void SetInt(std::wstring_view key, std::int32_t value, std::int32_t fallback, std::int32_t minimum, std::int32_t maximum);
+        double GetDouble(std::wstring_view key, double fallback) const;
+        void SetDouble(std::wstring_view key, double value, double fallback);
+        KeyShortcut GetShortcut(std::wstring_view key, KeyShortcut fallback) const;
+        void SetShortcut(std::wstring_view key, KeyShortcut value, KeyShortcut fallback);
+        std::vector<std::wstring> GetList(std::wstring_view key, std::vector<std::wstring> const& fallback) const;
+        void SetList(std::wstring_view key, std::vector<std::wstring> const& value, std::vector<std::wstring> const& fallback);
+
+        mutable std::unique_ptr<SettingsStore> m_store;   // created lazily (CreateDefaultSettingsStore)
+        // Cache of raw values; nullopt caches "not stored".
+        mutable std::vector<std::pair<std::wstring, std::optional<std::wstring>>> m_cache;
     };
 }
