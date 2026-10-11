@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass AppearanceSettingsPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        AppearanceSettingsPage();
+    }
+}

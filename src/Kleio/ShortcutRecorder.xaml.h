@@ -49,7 +49,6 @@ namespace winrt::Kleio::implementation
         // Popup shortcut temporarily unregistered while recording, so pressing it records it
         // instead of opening the popup.
         bool m_hotKeysSuspended = false;
-        ::Kleio::KeyShortcut m_suspendedPopupShortcut;
 
         winrt::event<winrt::Windows::Foundation::TypedEventHandler<winrt::Kleio::ShortcutRecorder, winrt::Windows::Foundation::IInspectable>> m_shortcutChanged;
     };

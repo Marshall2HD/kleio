@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Kleio.StorageSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
+    Background="Transparent"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded">
+    <Page.Resources>
+        <Style TargetType="ToggleSwitch" BasedOn="{StaticResource SettingsToggleSwitchStyle}" />
+        <Style TargetType="ComboBox" BasedOn="{StaticResource SettingsComboBoxStyle}" />
+        <Style TargetType="NumberBox" BasedOn="{StaticResource SettingsNumberBoxStyle}" />
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Storage" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+
+        <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
+            <StackPanel Style="{StaticResource SettingsPageContentStyle}">
+
+                <!-- ===== Save ===== -->
+                <TextBlock Text="Save" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
+                <TextBlock Style="{StaticResource SettingsParagraphTextStyle}" Text="Change what types of copied content should be stored." />
+                <local:SettingsCard Header="Files" Glyph="&#xE8B7;" Description="Files and folders copied in File Explorer and other apps.">
+                    <ToggleSwitch x:Name="SaveFilesToggle" AutomationProperties.Name="Save files" Toggled="SaveFilesToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Images" Glyph="&#xEB9F;" Description="Pictures and screenshots.">
+                    <ToggleSwitch x:Name="SaveImagesToggle" AutomationProperties.Name="Save images" Toggled="SaveImagesToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Text" Glyph="&#xE8A5;" Description="Plain text, rich text and HTML.">
+                    <ToggleSwitch x:Name="SaveTextToggle" AutomationProperties.Name="Save text" Toggled="SaveTextToggle_Toggled" />
+                </local:SettingsCard>
+
+                <!-- ===== History ===== -->
+                <TextBlock Text="History" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Size" Glyph="&#xE81C;" Description="Number of history items to keep. Default: 200.">
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <TextBlock
+                            x:Name="DatabaseSizeText"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource SettingsDescriptionTextStyle}"
+                            ToolTipService.ToolTip="Current size on disk." />
+                        <NumberBox
+                            x:Name="HistorySizeBox"
+                            Minimum="1"
+                            Maximum="999"
+                            SmallChange="1"
+                            LargeChange="10"
+                            AutomationProperties.Name="History size"
+                            ValueChanged="HistorySizeBox_ValueChanged" />
+                    </StackPanel>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Sort by" Glyph="&#xE8CB;" Description="Order of the items in the history. Default: Time of last copy.">
+                    <ComboBox x:Name="SortByCombo" AutomationProperties.Name="Sort by" SelectionChanged="SortByCombo_SelectionChanged">
+                        <ComboBoxItem Content="Time of last copy" />
+                        <ComboBoxItem Content="Time of first copy" />
+                        <ComboBoxItem Content="Number of copies" />
+                    </ComboBox>
+                </local:SettingsCard>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

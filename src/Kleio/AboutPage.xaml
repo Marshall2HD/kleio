@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Kleio.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
+    Background="Transparent"
+    Loaded="Page_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="About" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+
+        <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
+            <StackPanel Style="{StaticResource SettingsPageContentStyle}">
+                <Border Style="{StaticResource SettingsCardBorderStyle}" Padding="24">
+                    <Grid ColumnSpacing="24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image
+                            Width="96"
+                            Height="96"
+                            VerticalAlignment="Top"
+                            Source="ms-appx:///Assets/Square150x150Logo.png"
+                            AutomationProperties.Name="Kleio logo" />
+                        <StackPanel Grid.Column="1" Spacing="4" VerticalAlignment="Center">
+                            <TextBlock Text="Kleio" Style="{StaticResource TitleTextBlockStyle}" />
+                            <TextBlock x:Name="VersionText" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" IsTextSelectionEnabled="True" />
+                            <TextBlock Text="A clipboard manager for Windows" Style="{StaticResource BodyTextBlockStyle}" Margin="0,4,0,0" />
+                            <Button
+                                x:Name="CheckUpdatesButton"
+                                Margin="0,12,0,0"
+                                Content="Check for updates"
+                                Click="CheckUpdatesButton_Click"
+                                Style="{StaticResource AccentButtonStyle}"
+                                AutomationProperties.Name="Check for updates" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                <InfoBar x:Name="UpdateInfoBar" IsClosable="True" />
+
+                <TextBlock Text="Credits" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Kleio is a port of Maccy by Alex Rodionov" Glyph="&#xE734;"
+                                    Description="Maccy is a lightweight clipboard manager for macOS. Kleio brings its features and layout to Windows 11.">
+                    <StackPanel Orientation="Horizontal" Spacing="4">
+                        <HyperlinkButton Content="Maccy website" NavigateUri="https://maccy.app" AutomationProperties.Name="Maccy website" />
+                        <HyperlinkButton Content="Maccy on GitHub" NavigateUri="https://github.com/p0deje/Maccy" AutomationProperties.Name="Maccy on GitHub" />
+                    </StackPanel>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Source code" Glyph="&#xE943;" Description="Report issues, suggest features and contribute on GitHub.">
+                    <HyperlinkButton Content="Kleio on GitHub" NavigateUri="https://github.com/Marshall2HD/kleio" AutomationProperties.Name="Kleio on GitHub" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="License" Glyph="&#xE8A5;" Description="Kleio and Maccy are free software released under the MIT License.">
+                    <HyperlinkButton Content="MIT License" NavigateUri="https://github.com/Marshall2HD/kleio/blob/HEAD/LICENSE" AutomationProperties.Name="MIT License" />
+                </local:SettingsCard>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

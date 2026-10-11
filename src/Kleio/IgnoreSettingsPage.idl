@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass IgnoreSettingsPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        IgnoreSettingsPage();
+    }
+}

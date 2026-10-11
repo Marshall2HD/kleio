@@ -1,0 +1,13 @@
+namespace Kleio
+{
+    // One history entry as shown by the popup (Maccy's HistoryItemDecorator). Created and updated by
+    // PopupWindow; the C++ implementation carries the Core HistoryItem, search highlight ranges,
+    // shortcut key and selection state. HistoryItemRow renders it.
+    [default_interface]
+    runtimeclass HistoryItemViewModel : Windows.Foundation.IStringable
+    {
+        HistoryItemViewModel();
+        Int64 Id { get; };
+        String Title { get; };
+    }
+}

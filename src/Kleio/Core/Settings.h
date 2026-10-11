@@ -235,6 +235,8 @@ namespace Kleio
         void SetBool(std::wstring_view key, bool value, bool fallback);
         std::int32_t GetInt(std::wstring_view key, std::int32_t fallback, std::int32_t minimum, std::int32_t maximum) const;
         void SetInt(std::wstring_view key, std::int32_t value, std::int32_t fallback, std::int32_t minimum, std::int32_t maximum);
+        // Enum stored as int; values outside [0, maximum] read as `fallback`.
+        std::int32_t GetEnum(std::wstring_view key, std::int32_t fallback, std::int32_t maximum) const;
         double GetDouble(std::wstring_view key, double fallback) const;
         void SetDouble(std::wstring_view key, double value, double fallback);
         KeyShortcut GetShortcut(std::wstring_view key, KeyShortcut fallback) const;

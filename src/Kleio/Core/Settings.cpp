@@ -506,6 +506,18 @@ namespace Kleio
         WriteRaw(key, FormatInt(value), FormatInt(GetInt(key, fallback, minimum, maximum)));
     }
 
+    std::int32_t Settings::GetEnum(std::wstring_view key, std::int32_t fallback, std::int32_t maximum) const
+    {
+        if (auto raw = ReadRaw(key))
+        {
+            if (auto value = ParseInt(*raw); value && *value >= 0 && *value <= maximum)
+            {
+                return *value;
+            }
+        }
+        return fallback;
+    }
+
     double Settings::GetDouble(std::wstring_view key, double fallback) const
     {
         if (auto raw = ReadRaw(key))
@@ -604,13 +616,13 @@ namespace Kleio
     void Settings::TogglePreviewShortcut(KeyShortcut value) { SetShortcut(kTogglePreviewShortcut, value, kDefaultTogglePreviewShortcut); }
     Kleio::SearchMode Settings::SearchMode() const
     {
-        return static_cast<Kleio::SearchMode>(GetInt(kSearchMode, 0, 0, 3));
+        return static_cast<Kleio::SearchMode>(GetEnum(kSearchMode, 0, 3));
     }
     void Settings::SearchMode(Kleio::SearchMode value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 3) return;
-        SetInt(kSearchMode, raw, 0, 0, 3);
+        WriteRaw(kSearchMode, FormatInt(raw), FormatInt(GetEnum(kSearchMode, 0, 3)));
     }
     bool Settings::PasteByDefault() const { return GetBool(kPasteByDefault, false); }
     void Settings::PasteByDefault(bool value) { SetBool(kPasteByDefault, value, false); }
@@ -632,37 +644,37 @@ namespace Kleio
     void Settings::HistorySize(std::int32_t value) { SetInt(kHistorySize, value, 200, 1, 999); }
     Kleio::SortBy Settings::SortBy() const
     {
-        return static_cast<Kleio::SortBy>(GetInt(kSortBy, 0, 0, 2));
+        return static_cast<Kleio::SortBy>(GetEnum(kSortBy, 0, 2));
     }
     void Settings::SortBy(Kleio::SortBy value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 2) return;
-        SetInt(kSortBy, raw, 0, 0, 2);
+        WriteRaw(kSortBy, FormatInt(raw), FormatInt(GetEnum(kSortBy, 0, 2)));
     }
 
     // ---- Appearance ----
     Kleio::PopupPosition Settings::PopupPosition() const
     {
-        return static_cast<Kleio::PopupPosition>(GetInt(kPopupPosition, 0, 0, 4));
+        return static_cast<Kleio::PopupPosition>(GetEnum(kPopupPosition, 0, 4));
     }
     void Settings::PopupPosition(Kleio::PopupPosition value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 4) return;
-        SetInt(kPopupPosition, raw, 0, 0, 4);
+        WriteRaw(kPopupPosition, FormatInt(raw), FormatInt(GetEnum(kPopupPosition, 0, 4)));
     }
     std::int32_t Settings::PopupScreen() const { return GetInt(kPopupScreen, 0, 0, kMaxInt); }
     void Settings::PopupScreen(std::int32_t value) { SetInt(kPopupScreen, value, 0, 0, kMaxInt); }
     PinsPosition Settings::PinTo() const
     {
-        return static_cast<PinsPosition>(GetInt(kPinTo, 0, 0, 1));
+        return static_cast<PinsPosition>(GetEnum(kPinTo, 0, 1));
     }
     void Settings::PinTo(PinsPosition value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 1) return;
-        SetInt(kPinTo, raw, 0, 0, 1);
+        WriteRaw(kPinTo, FormatInt(raw), FormatInt(GetEnum(kPinTo, 0, 1)));
     }
     std::int32_t Settings::ImageMaxHeight() const { return GetInt(kImageMaxHeight, 40, 1, 200); }
     void Settings::ImageMaxHeight(std::int32_t value) { SetInt(kImageMaxHeight, value, 40, 1, 200); }
@@ -672,13 +684,13 @@ namespace Kleio
     void Settings::PreviewDelay(std::int32_t value) { SetInt(kPreviewDelay, value, 1500, 200, 100000); }
     Kleio::HighlightMatch Settings::HighlightMatch() const
     {
-        return static_cast<Kleio::HighlightMatch>(GetInt(kHighlightMatch, 0, 0, 4));
+        return static_cast<Kleio::HighlightMatch>(GetEnum(kHighlightMatch, 0, 4));
     }
     void Settings::HighlightMatch(Kleio::HighlightMatch value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 4) return;
-        SetInt(kHighlightMatch, raw, 0, 0, 4);
+        WriteRaw(kHighlightMatch, FormatInt(raw), FormatInt(GetEnum(kHighlightMatch, 0, 4)));
     }
     bool Settings::ShowSpecialSymbols() const { return GetBool(kShowSpecialSymbols, true); }
     void Settings::ShowSpecialSymbols(bool value) { SetBool(kShowSpecialSymbols, value, true); }
@@ -686,13 +698,13 @@ namespace Kleio
     void Settings::ShowTrayIcon(bool value) { SetBool(kShowTrayIcon, value, true); }
     TrayIconStyle Settings::TrayIcon() const
     {
-        return static_cast<TrayIconStyle>(GetInt(kTrayIcon, 0, 0, 3));
+        return static_cast<TrayIconStyle>(GetEnum(kTrayIcon, 0, 3));
     }
     void Settings::TrayIcon(TrayIconStyle value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 3) return;
-        SetInt(kTrayIcon, raw, 0, 0, 3);
+        WriteRaw(kTrayIcon, FormatInt(raw), FormatInt(GetEnum(kTrayIcon, 0, 3)));
     }
     bool Settings::ShowRecentCopyInTray() const { return GetBool(kShowRecentCopyInTray, false); }
     void Settings::ShowRecentCopyInTray(bool value) { SetBool(kShowRecentCopyInTray, value, false); }
@@ -700,13 +712,13 @@ namespace Kleio
     void Settings::ShowSearch(bool value) { SetBool(kShowSearch, value, true); }
     Kleio::SearchVisibility Settings::SearchVisibility() const
     {
-        return static_cast<Kleio::SearchVisibility>(GetInt(kSearchVisibility, 0, 0, 1));
+        return static_cast<Kleio::SearchVisibility>(GetEnum(kSearchVisibility, 0, 1));
     }
     void Settings::SearchVisibility(Kleio::SearchVisibility value)
     {
         const auto raw = static_cast<std::int32_t>(value);
         if (raw < 0 || raw > 1) return;
-        SetInt(kSearchVisibility, raw, 0, 0, 1);
+        WriteRaw(kSearchVisibility, FormatInt(raw), FormatInt(GetEnum(kSearchVisibility, 0, 1)));
     }
     bool Settings::ShowTitle() const { return GetBool(kShowTitle, true); }
     void Settings::ShowTitle(bool value) { SetBool(kShowTitle, value, true); }

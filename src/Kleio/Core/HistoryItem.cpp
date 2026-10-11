@@ -10,10 +10,10 @@ namespace Kleio
 {
     namespace
     {
-        constexpr wchar_t kMiddleDot = L'·';        // '·' leading/trailing spaces
-        constexpr wchar_t kReturnSymbol = L'⏎';     // '⏎' newlines
-        constexpr wchar_t kTabSymbol = L'⇥';        // '⇥' tabs
-        constexpr wchar_t kObjectReplacement = L'￼';
+        constexpr wchar_t kMiddleDot = L'\u00B7';        // '·' leading/trailing spaces
+        constexpr wchar_t kReturnSymbol = L'\u23CE';     // '⏎' newlines
+        constexpr wchar_t kTabSymbol = L'\u21E5';        // '⇥' tabs
+        constexpr wchar_t kObjectReplacement = L'\uFFFC';   // OBJECT REPLACEMENT CHARACTER
         constexpr std::size_t kTitleMaxLength = 1000;
 
         // Maccy's transient pasteboard types, mapped to Kleio's markers: they describe *how* the
@@ -719,7 +719,7 @@ namespace Kleio
         struct GroupState
         {
             bool skip = false;
-            int unicodeSkip = 1;   // \ucN
+            int unicodeSkip = 1;   // RTF "uc" keyword
         };
 
         std::wstring out;
@@ -727,7 +727,7 @@ namespace Kleio
         std::vector<GroupState> stack;
         GroupState state;
         unsigned int codePage = kCodePageWindows1252;
-        int skipCount = 0;          // characters still to skip after \uN
+        int skipCount = 0;          // characters still to skip after a "u" keyword
 
         auto flush = [&]() {
             if (!pendingBytes.empty())

@@ -1,0 +1,12 @@
+namespace Kleio
+{
+    // A popup list row (Maccy's ListItemView): app icon, colour swatch, title with search highlights or
+    // image thumbnail, multi-selection badge and keyboard shortcut hint. In the history lists it
+    // renders the HistoryItemViewModel it gets as DataContext; the footer and paste stack configure
+    // it from code.
+    [default_interface]
+    runtimeclass HistoryItemRow : Microsoft.UI.Xaml.Controls.UserControl
+    {
+        HistoryItemRow();
+    }
+}

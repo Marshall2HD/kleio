@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass StorageSettingsPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        StorageSettingsPage();
+    }
+}

@@ -382,15 +382,9 @@ namespace winrt::Kleio::implementation
             return;
         }
         m_hotKeysSuspended = true;
-        auto& settings = ::Kleio::Settings::Instance();
-        m_suspendedPopupShortcut = settings.PopupShortcut();
-        if (!m_suspendedPopupShortcut.IsEmpty())
-        {
-            settings.PopupShortcut(::Kleio::KeyShortcut{});
-        }
-        ::Kleio::AppController::Current().ApplyHotKeys();
-        // Also let Win+V through to the recorder while recording.
-        ::Kleio::KeyboardHook::Instance().EnableWinVReplacement(false);
+        // Unregisters the popup hot key and the Win+V hook without touching the saved settings,
+        // so the recorder sees every key combination.
+        ::Kleio::AppController::Current().SuspendHotKeys(true);
     }
 
     void ShortcutRecorder::ResumeGlobalHotKeys() noexcept
@@ -402,13 +396,7 @@ namespace winrt::Kleio::implementation
         m_hotKeysSuspended = false;
         try
         {
-            auto& settings = ::Kleio::Settings::Instance();
-            if (!m_suspendedPopupShortcut.IsEmpty() && settings.PopupShortcut().IsEmpty())
-            {
-                settings.PopupShortcut(m_suspendedPopupShortcut);
-            }
-            // Re-registers the popup hot key and re-enables the Win+V replacement per settings.
-            ::Kleio::AppController::Current().ApplyHotKeys();
+            ::Kleio::AppController::Current().SuspendHotKeys(false);
         }
         catch (...)
         {

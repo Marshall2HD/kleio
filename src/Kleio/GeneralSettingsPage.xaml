@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Kleio.GeneralSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
+    Background="Transparent"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded">
+    <Page.Resources>
+        <Style TargetType="ToggleSwitch" BasedOn="{StaticResource SettingsToggleSwitchStyle}" />
+        <Style TargetType="ComboBox" BasedOn="{StaticResource SettingsComboBoxStyle}" />
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="General" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+
+        <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
+            <StackPanel Style="{StaticResource SettingsPageContentStyle}">
+
+                <!-- ===== Startup and updates ===== -->
+                <local:SettingsCard Header="Launch at login" Glyph="&#xE7E8;"
+                                    Description="Start Kleio automatically when you sign in to Windows.">
+                    <ToggleSwitch x:Name="LaunchAtLoginToggle" AutomationProperties.Name="Launch at login" Toggled="LaunchAtLoginToggle_Toggled" />
+                </local:SettingsCard>
+                <InfoBar
+                    x:Name="LaunchAtLoginInfoBar"
+                    Severity="Warning"
+                    IsClosable="True"
+                    Title="Launch at login is turned off by Windows"
+                    Message="Kleio was disabled in Task Manager &gt; Startup apps (or Settings &gt; Apps &gt; Startup). Turn it on there to launch Kleio at login." />
+
+                <local:SettingsCard Header="Check for updates automatically" Glyph="&#xE895;"
+                                    Description="Look for a newer Kleio release on GitHub from time to time.">
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <Button x:Name="CheckNowButton" Content="Check now" Click="CheckNowButton_Click" AutomationProperties.Name="Check for updates now" />
+                        <ToggleSwitch x:Name="CheckForUpdatesToggle" AutomationProperties.Name="Check for updates automatically" Toggled="CheckForUpdatesToggle_Toggled" />
+                    </StackPanel>
+                </local:SettingsCard>
+                <InfoBar x:Name="UpdateInfoBar" IsClosable="True" />
+
+                <!-- ===== Shortcuts ===== -->
+                <TextBlock Text="Shortcuts" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Open Kleio" Glyph="&#xE765;">
+                    <local:SettingsCard.Description>
+                        <TextBlock TextWrapping="Wrap">Global shortcut to open Kleio. Pressing the main key again while holding the modifiers selects the next item; releasing the modifiers then confirms the selection and closes the popup. Default: Win+Alt+V.</TextBlock>
+                    </local:SettingsCard.Description>
+                    <local:ShortcutRecorder x:Name="PopupRecorder" AutomationProperties.Name="Open Kleio shortcut" />
+                </local:SettingsCard>
+                <InfoBar
+                    x:Name="HotKeyInfoBar"
+                    Severity="Error"
+                    IsClosable="True"
+                    Title="Couldn't register the shortcut"
+                    Message="This shortcut is used by another app. Choose a different one." />
+                <local:SettingsCard Header="Pin" Glyph="&#xE718;" Description="Shortcut to pin or unpin the selected history item. Default: Alt+P.">
+                    <local:ShortcutRecorder x:Name="PinRecorder" AutomationProperties.Name="Pin shortcut" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Delete" Glyph="&#xE74D;" Description="Shortcut to delete the selected history item. Default: Alt+Delete.">
+                    <local:ShortcutRecorder x:Name="DeleteRecorder" AutomationProperties.Name="Delete shortcut" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Preview" Glyph="&#xE8FF;" Description="Shortcut to show or hide the preview with additional information. Default: Ctrl+Space.">
+                    <local:ShortcutRecorder x:Name="PreviewRecorder" AutomationProperties.Name="Preview shortcut" />
+                </local:SettingsCard>
+
+                <!-- ===== Search ===== -->
+                <TextBlock Text="Search" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Search mode" Glyph="&#xE721;" Description="How the text you type in the search field is matched against history items.">
+                    <ComboBox x:Name="SearchModeCombo" AutomationProperties.Name="Search mode" SelectionChanged="SearchModeCombo_SelectionChanged">
+                        <ComboBoxItem Content="Exact" />
+                        <ComboBoxItem Content="Fuzzy" />
+                        <ComboBoxItem Content="Regular expressions" />
+                        <ComboBoxItem Content="Mixed" />
+                    </ComboBox>
+                </local:SettingsCard>
+
+                <!-- ===== Behavior ===== -->
+                <TextBlock Text="Behavior" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Paste automatically" Glyph="&#xE77F;" Description="Paste the selected item into the active app instead of only copying it.">
+                    <ToggleSwitch x:Name="PasteAutomaticallyToggle" AutomationProperties.Name="Paste automatically" Toggled="PasteAutomaticallyToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Paste without formatting" Glyph="&#xE8D2;" Description="Remove fonts, colors and other formatting from the selected item.">
+                    <ToggleSwitch x:Name="RemoveFormattingToggle" AutomationProperties.Name="Paste without formatting" Toggled="RemoveFormattingToggle_Toggled" />
+                </local:SettingsCard>
+                <Border Style="{StaticResource SettingsCardBorderStyle}" MinHeight="0">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE946;" Style="{StaticResource SettingsCardIconStyle}" VerticalAlignment="Top" Margin="2,2,4,0" />
+                        <TextBlock x:Name="ModifiersDescription" Grid.Column="1" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" IsTextSelectionEnabled="True" />
+                    </Grid>
+                </Border>
+
+                <!-- ===== Windows clipboard ===== -->
+                <TextBlock Text="Windows clipboard" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <TextBlock Style="{StaticResource SettingsParagraphTextStyle}">Windows has its own clipboard history, opened with Win+V. Kleio can take over that shortcut while it is running, without changing any Windows settings.</TextBlock>
+                <local:SettingsCard Header="Replace Win+V" Glyph="&#xE8C8;"
+                                    Description="Win+V opens Kleio instead of the Windows clipboard history while Kleio is running. Windows settings are not changed.">
+                    <ToggleSwitch x:Name="ReplaceWinVToggle" AutomationProperties.Name="Replace Win+V" Toggled="ReplaceWinVToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Windows clipboard settings" Glyph="&#xE81C;"
+                                    Description="Turn the Windows clipboard history on or off, or clear it, in Settings &gt; System &gt; Clipboard.">
+                    <HyperlinkButton x:Name="ClipboardSettingsLink" Click="ClipboardSettingsLink_Click" AutomationProperties.Name="Open Windows clipboard settings">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Open" />
+                            <FontIcon FontSize="12" Glyph="&#xE8A7;" />
+                        </StackPanel>
+                    </HyperlinkButton>
+                </local:SettingsCard>
+
+                <!-- ===== Sounds ===== -->
+                <TextBlock Text="Sounds" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Play sounds" Glyph="&#xE767;" Description="Play a sound when Kleio copies or pastes an item.">
+                    <ToggleSwitch x:Name="PlaySoundsToggle" AutomationProperties.Name="Play sounds" Toggled="PlaySoundsToggle_Toggled" />
+                </local:SettingsCard>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

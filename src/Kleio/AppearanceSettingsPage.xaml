@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Kleio.AppearanceSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
+    Background="Transparent"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded">
+    <Page.Resources>
+        <Style TargetType="ToggleSwitch" BasedOn="{StaticResource SettingsToggleSwitchStyle}" />
+        <Style TargetType="NumberBox" BasedOn="{StaticResource SettingsNumberBoxStyle}" />
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Appearance" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+
+        <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
+            <StackPanel Style="{StaticResource SettingsPageContentStyle}">
+
+                <!-- ===== Popup ===== -->
+                <TextBlock Text="Popup" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Popup at" Glyph="&#xE962;" Description="Change the location where the popup appears. Default: Cursor.">
+                    <StackPanel Orientation="Horizontal" Spacing="8">
+                        <Button
+                            x:Name="ResetPositionButton"
+                            Click="ResetPositionButton_Click"
+                            Visibility="Collapsed"
+                            AutomationProperties.Name="Reset position"
+                            ToolTipService.ToolTip="Move the popup back to its default position">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon FontSize="14" Glyph="&#xE7A7;" />
+                                <TextBlock Text="Reset position" />
+                            </StackPanel>
+                        </Button>
+                        <ComboBox
+                            x:Name="PopupScreenCombo"
+                            MinWidth="180"
+                            VerticalAlignment="Center"
+                            Visibility="Collapsed"
+                            AutomationProperties.Name="Screen"
+                            SelectionChanged="PopupScreenCombo_SelectionChanged" />
+                        <ComboBox
+                            x:Name="PopupAtCombo"
+                            MinWidth="200"
+                            VerticalAlignment="Center"
+                            AutomationProperties.Name="Popup at"
+                            SelectionChanged="PopupAtCombo_SelectionChanged">
+                            <ComboBoxItem Content="Cursor" />
+                            <ComboBoxItem Content="Tray icon" />
+                            <ComboBoxItem Content="Active window center" />
+                            <ComboBoxItem Content="Screen center" />
+                            <ComboBoxItem Content="Last position" />
+                        </ComboBox>
+                    </StackPanel>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Pin to" Glyph="&#xE718;" Description="Change the location of pinned items. Default: Top.">
+                    <ComboBox x:Name="PinToCombo" MinWidth="200" VerticalAlignment="Center" AutomationProperties.Name="Pin to" SelectionChanged="PinToCombo_SelectionChanged">
+                        <ComboBoxItem Content="Top" />
+                        <ComboBoxItem Content="Bottom" />
+                    </ComboBox>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Image height" Glyph="&#xEB9F;" Description="Maximum image preview height, in pixels. Default: 40. Hint: set it to 16 to make images look like text items.">
+                    <NumberBox
+                        x:Name="ImageHeightBox"
+                        Minimum="1"
+                        Maximum="200"
+                        SmallChange="1"
+                        LargeChange="10"
+                        AutomationProperties.Name="Image height"
+                        ValueChanged="ImageHeightBox_ValueChanged" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Open preview automatically" Glyph="&#xE8FF;" Description="Show a preview with additional information about the selected item after a delay.">
+                    <ToggleSwitch x:Name="OpenPreviewToggle" AutomationProperties.Name="Open preview automatically" Toggled="OpenPreviewToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard x:Name="PreviewDelayCard" Header="Preview delay" Glyph="&#xE916;" Description="Delay in milliseconds until the preview is shown. Default: 1500.">
+                    <NumberBox
+                        x:Name="PreviewDelayBox"
+                        Minimum="200"
+                        Maximum="100000"
+                        SmallChange="100"
+                        LargeChange="1000"
+                        AutomationProperties.Name="Preview delay in milliseconds"
+                        ValueChanged="PreviewDelayBox_ValueChanged" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Highlight matches" Glyph="&#xE7E6;" Description="Change the highlighting style for search matches. Default: Bold.">
+                    <ComboBox x:Name="HighlightCombo" MinWidth="200" VerticalAlignment="Center" AutomationProperties.Name="Highlight matches" SelectionChanged="HighlightCombo_SelectionChanged">
+                        <ComboBoxItem Content="Bold" />
+                        <ComboBoxItem Content="Italic" />
+                        <ComboBoxItem Content="Underline" />
+                        <ComboBoxItem Content="Accent color" />
+                        <ComboBoxItem Content="None" />
+                    </ComboBox>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show special symbols" Glyph="&#xE943;" Description="Show newlines, tabs, and leading and trailing spaces as special symbols.">
+                    <ToggleSwitch x:Name="SpecialSymbolsToggle" AutomationProperties.Name="Show special symbols" Toggled="SpecialSymbolsToggle_Toggled" />
+                </local:SettingsCard>
+
+                <!-- ===== Notification area ===== -->
+                <TextBlock Text="Notification area" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Show tray icon" Glyph="&#xE7F4;" Description="Show the Kleio icon in the notification area of the taskbar.">
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <ComboBox x:Name="TrayIconCombo" MinWidth="160" VerticalAlignment="Center" AutomationProperties.Name="Tray icon style" SelectionChanged="TrayIconCombo_SelectionChanged">
+                            <ComboBoxItem AutomationProperties.Name="Kleio logo">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <Image Width="16" Height="16" VerticalAlignment="Center" Source="ms-appx:///Assets/Square44x44Logo.png" />
+                                    <TextBlock Text="Kleio" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ComboBoxItem>
+                            <ComboBoxItem AutomationProperties.Name="Clipboard">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <FontIcon FontSize="16" Glyph="&#xE77F;" />
+                                    <TextBlock Text="Clipboard" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ComboBoxItem>
+                            <ComboBoxItem AutomationProperties.Name="Paperclip">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <FontIcon FontSize="16" Glyph="&#xE723;" />
+                                    <TextBlock Text="Paperclip" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ComboBoxItem>
+                            <ComboBoxItem AutomationProperties.Name="Scissors">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <FontIcon FontSize="16" Glyph="&#xE8C6;" />
+                                    <TextBlock Text="Scissors" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </ComboBoxItem>
+                        </ComboBox>
+                        <ToggleSwitch x:Name="ShowTrayIconToggle" AutomationProperties.Name="Show tray icon" Toggled="ShowTrayIconToggle_Toggled" />
+                    </StackPanel>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show recent copy in tray icon tooltip" Glyph="&#xE8C8;" Description="Show the most recent copy when you point at the tray icon.">
+                    <ToggleSwitch x:Name="RecentCopyToggle" AutomationProperties.Name="Show recent copy in tray icon tooltip" Toggled="RecentCopyToggle_Toggled" />
+                </local:SettingsCard>
+
+                <!-- ===== Popup layout ===== -->
+                <TextBlock Text="Popup layout" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Show search field" Glyph="&#xE721;" Description="Show the search field always, or only once you start typing.">
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <ComboBox x:Name="SearchVisibilityCombo" MinWidth="160" VerticalAlignment="Center" AutomationProperties.Name="Search field visibility" SelectionChanged="SearchVisibilityCombo_SelectionChanged">
+                            <ComboBoxItem Content="Always" />
+                            <ComboBoxItem Content="During search" />
+                        </ComboBox>
+                        <ToggleSwitch x:Name="ShowSearchToggle" AutomationProperties.Name="Show search field" Toggled="ShowSearchToggle_Toggled" />
+                    </StackPanel>
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show title before search field" Glyph="&#xE8D2;" Description="Show &quot;Kleio&quot; to the left of the search field.">
+                    <ToggleSwitch x:Name="ShowTitleToggle" AutomationProperties.Name="Show title before search field" Toggled="ShowTitleToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show application icons" Glyph="&#xE71D;" Description="Show the icon of the app each item was copied from.">
+                    <ToggleSwitch x:Name="AppIconsToggle" AutomationProperties.Name="Show application icons" Toggled="AppIconsToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show color swatch for hex colors" Glyph="&#xE790;" Description="Show a color swatch next to hex color codes such as #0078D4.">
+                    <ToggleSwitch x:Name="ColorSwatchToggle" AutomationProperties.Name="Show color swatch for hex colors" Toggled="ColorSwatchToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Show footer" Glyph="&#xE7C3;" Description="Show the Clear, Settings, About and Quit commands at the bottom of the popup.">
+                    <ToggleSwitch x:Name="ShowFooterToggle" AutomationProperties.Name="Show footer" Toggled="ShowFooterToggle_Toggled" />
+                </local:SettingsCard>
+                <InfoBar
+                    x:Name="FooterInfoBar"
+                    Severity="Warning"
+                    IsClosable="False"
+                    Message="Without the footer, open Settings from the tray icon menu or with Ctrl+, in the popup." />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

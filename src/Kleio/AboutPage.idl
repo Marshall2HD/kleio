@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass AboutPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        AboutPage();
+    }
+}

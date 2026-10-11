@@ -81,6 +81,9 @@ namespace Kleio
         // Re-applies the global popup hot key / Win+V replacement after settings change. Returns
         // false if the popup shortcut could not be registered.
         bool ApplyHotKeys();
+        // Temporarily releases the popup hot key and the Win+V hook (e.g. while the shortcut
+        // recorder listens) without changing settings. Resuming re-applies them.
+        void SuspendHotKeys(bool suspend);
 
         // Shown by Settings when RegisterHotKey fails, etc.
         Event<winrt::hstring> HotKeyRegistrationFailed;
@@ -101,6 +104,7 @@ namespace Kleio
         std::unique_ptr<Kleio::TrayIcon> m_tray;
         Kleio::PasteService m_paste;
         std::optional<PasteStack> m_pasteStack;
+        bool m_hotKeysSuspended = false;
 
         winrt::Kleio::PopupWindow m_popup{ nullptr };
         winrt::Kleio::SettingsWindow m_settingsWindow{ nullptr };

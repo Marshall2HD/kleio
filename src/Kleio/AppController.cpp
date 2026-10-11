@@ -480,9 +480,9 @@ namespace Kleio
 
         // Win+V belongs to Explorer and cannot be registered; it is served by the keyboard hook.
         bool const shortcutIsWinV = shortcut == winV;
-        KeyboardHook::Instance().EnableWinVReplacement(s.ReplaceWinV() || shortcutIsWinV);
+        KeyboardHook::Instance().EnableWinVReplacement(!m_hotKeysSuspended && (s.ReplaceWinV() || shortcutIsWinV));
 
-        if (shortcut.IsEmpty() || shortcutIsWinV)
+        if (m_hotKeysSuspended || shortcut.IsEmpty() || shortcutIsWinV)
         {
             m_hotKeys->Unregister(HotKeyService::PopupHotKeyId);
             return true;
@@ -494,6 +494,12 @@ namespace Kleio
             HotKeyRegistrationFailed(winrt::hstring{ shortcut.ToString() });
         }
         return ok;
+    }
+
+    void AppController::SuspendHotKeys(bool suspend)
+    {
+        m_hotKeysSuspended = suspend;
+        ApplyHotKeys();
     }
 
     // ---- Events ----

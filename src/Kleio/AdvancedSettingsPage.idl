@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass AdvancedSettingsPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        AdvancedSettingsPage();
+    }
+}

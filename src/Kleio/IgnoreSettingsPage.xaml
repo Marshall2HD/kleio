@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Kleio.IgnoreSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
+    Background="Transparent"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded">
+    <Page.Resources>
+        <Style TargetType="ToggleSwitch" BasedOn="{StaticResource SettingsToggleSwitchStyle}" />
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Ignore" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+
+        <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
+            <StackPanel Style="{StaticResource SettingsPageContentStyle}">
+                <SelectorBar x:Name="SectionBar" Margin="-4,0,0,12" SelectionChanged="SectionBar_SelectionChanged" AutomationProperties.Name="Ignore sections">
+                    <SelectorBarItem x:Name="AppsSectionItem" Text="Applications" IsSelected="True" />
+                    <SelectorBarItem x:Name="FormatsSectionItem" Text="Clipboard formats" />
+                    <SelectorBarItem x:Name="RegexSectionItem" Text="Regular expressions" />
+                </SelectorBar>
+
+                <!-- ===== Applications ===== -->
+                <StackPanel x:Name="AppsSection" Spacing="4">
+                    <TextBlock Style="{StaticResource SettingsParagraphTextStyle}">Copies coming from certain applications can be ignored. Please note that this is not bullet-proof: Windows does not say which app copied something, so Kleio checks the app that owns the clipboard or is in the foreground. Prefer clipboard formats when possible.</TextBlock>
+                    <local:SettingsCard Header="Ignore all applications except listed" Glyph="&#xE71D;"
+                                        Description="Only save copies made in the applications listed below.">
+                        <ToggleSwitch x:Name="IgnoreAllExceptToggle" AutomationProperties.Name="Ignore all applications except listed" Toggled="IgnoreAllExceptToggle_Toggled" />
+                    </local:SettingsCard>
+                    <local:SettingsCard x:Name="AppsHeaderCard" Header="Applications" Glyph="&#xE8F8;"
+                                        Description="Copies made in these applications are not saved.">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <DropDownButton x:Name="RunningAppsButton" AutomationProperties.Name="Add a running app">
+                                <DropDownButton.Content>
+                                    <TextBlock Text="Add running app" />
+                                </DropDownButton.Content>
+                                <DropDownButton.Flyout>
+                                    <MenuFlyout x:Name="RunningAppsFlyout" Placement="BottomEdgeAlignedRight" Opening="RunningAppsFlyout_Opening" />
+                                </DropDownButton.Flyout>
+                            </DropDownButton>
+                            <Button x:Name="AddAppButton" Click="AddAppButton_Click" AutomationProperties.Name="Add an app by choosing its program file" Style="{StaticResource AccentButtonStyle}">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon FontSize="14" Glyph="&#xE710;" />
+                                    <TextBlock Text="Add app&#x2026;" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </local:SettingsCard>
+                    <StackPanel x:Name="AppsList" Spacing="4" />
+                    <TextBlock x:Name="NoAppsText" Style="{StaticResource SettingsParagraphTextStyle}" Margin="1,8,0,0" Text="No applications are ignored." />
+                </StackPanel>
+
+                <!-- ===== Clipboard formats ===== -->
+                <StackPanel x:Name="FormatsSection" Spacing="4" Visibility="Collapsed">
+                    <TextBlock Style="{StaticResource SettingsParagraphTextStyle}">Copies containing any of these clipboard formats are not saved. By default, Kleio.Transient is listed; you can remove it and add any custom formats you want.</TextBlock>
+                    <TextBlock x:Name="AlwaysIgnoredText" Style="{StaticResource SettingsParagraphTextStyle}" />
+                    <TextBlock Style="{StaticResource SettingsParagraphTextStyle}">To find the name of a format, copy something in the app and look at the clipboard with a clipboard viewer such as NirSoft InsideClipboard. Only registered formats (names, not numbers) can be listed.</TextBlock>
+                    <local:SettingsCard Header="Add a clipboard format" Glyph="&#xE710;">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBox x:Name="FormatTextBox" Width="300" PlaceholderText="Format name, e.g. Kleio.Transient" AutomationProperties.Name="Clipboard format name" KeyDown="FormatTextBox_KeyDown" />
+                            <Button x:Name="AddFormatButton" Content="Add" Click="AddFormatButton_Click" AutomationProperties.Name="Add clipboard format" />
+                        </StackPanel>
+                    </local:SettingsCard>
+                    <StackPanel x:Name="FormatsList" Spacing="4" />
+                    <TextBlock x:Name="NoFormatsText" Style="{StaticResource SettingsParagraphTextStyle}" Margin="1,8,0,0" Text="No clipboard formats are ignored." />
+                    <Button x:Name="ResetFormatsButton" Margin="0,8,0,0" Content="Reset to defaults" Click="ResetFormatsButton_Click" AutomationProperties.Name="Reset clipboard formats to defaults" />
+                </StackPanel>
+
+                <!-- ===== Regular expressions ===== -->
+                <StackPanel x:Name="RegexSection" Spacing="4" Visibility="Collapsed">
+                    <TextBlock Style="{StaticResource SettingsParagraphTextStyle}">Copies whose text matches any of these regular expressions are not saved. Expressions use the ECMAScript (JavaScript) syntax and can match anywhere in the text; use ^ and $ to match the whole text.</TextBlock>
+                    <Border Style="{StaticResource SettingsCardBorderStyle}" MinHeight="0">
+                        <StackPanel Spacing="6">
+                            <TextBlock Text="Examples" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                            <Grid ColumnSpacing="24" RowSpacing="4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Row="0" Style="{StaticResource SettingsMonospaceTextStyle}" Text="^[a-zA-Z0-9]{50}$" />
+                                <TextBlock Grid.Row="0" Grid.Column="1" Style="{StaticResource SettingsDescriptionTextStyle}" VerticalAlignment="Center" Text="50 letters or digits, like many API keys and tokens" />
+                                <TextBlock Grid.Row="1" Style="{StaticResource SettingsMonospaceTextStyle}" Text="^\d{6}$" />
+                                <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource SettingsDescriptionTextStyle}" VerticalAlignment="Center" Text="6-digit one-time codes" />
+                                <TextBlock Grid.Row="2" Style="{StaticResource SettingsMonospaceTextStyle}" Text="^(?:\d[ -]?){13,19}$" />
+                                <TextBlock Grid.Row="2" Grid.Column="1" Style="{StaticResource SettingsDescriptionTextStyle}" VerticalAlignment="Center" Text="Payment card numbers" />
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                    <local:SettingsCard Header="Add a regular expression" Glyph="&#xE710;">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBox x:Name="RegexTextBox" Width="300" FontFamily="Cascadia Mono, Consolas" PlaceholderText="^[a-zA-Z0-9]{50}$" AutomationProperties.Name="Regular expression" KeyDown="RegexTextBox_KeyDown" />
+                            <Button x:Name="AddRegexButton" Content="Add" Click="AddRegexButton_Click" AutomationProperties.Name="Add regular expression" />
+                        </StackPanel>
+                    </local:SettingsCard>
+                    <InfoBar x:Name="RegexInfoBar" Severity="Error" IsClosable="True" Title="Invalid regular expression" />
+                    <StackPanel x:Name="RegexList" Spacing="4" />
+                    <TextBlock x:Name="NoRegexText" Style="{StaticResource SettingsParagraphTextStyle}" Margin="1,8,0,0" Text="No regular expressions are defined." />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
