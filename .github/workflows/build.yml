@@ -46,7 +46,7 @@ jobs:
 
       - name: Build and package
         run: >-
-          msbuild Kleio.sln /m /v:minimal /clp:ErrorsOnly;Summary /bl:artifacts\build.binlog
+          msbuild Kleio.sln /m /v:minimal "/clp:ErrorsOnly;Summary" /bl:artifacts\build.binlog
           /p:Configuration=${{ env.Configuration }}
           /p:Platform=${{ matrix.platform }}
           /p:AppxBundle=Never
