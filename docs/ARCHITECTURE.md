@@ -54,7 +54,7 @@ or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cp
 | Maccy | Kleio |
 |---|---|
 | Menu bar status item | Notification-area (tray) icon; left click opens the popup, right click shows a context menu |
-| `⇧⌘C` global shortcut | `Win+Alt+V` (configurable). Optional *Replace Win+V* takes over the Windows clipboard shortcut |
+| `⇧⌘C` global shortcut | `Win+Shift+C` (configurable). Optional *Replace Win+V* takes over the Windows clipboard shortcut |
 | `⌘` / `⌥` modifiers | `Ctrl` / `Alt` (e.g. `Ctrl+1` copy 1st item, `Alt+Enter` paste, `Alt+Shift+Enter` paste plain) |
 | `⌥⌫` delete item, `⌥P` pin, `⌃Space` preview | `Alt+Delete`, `Alt+P`, `Ctrl+Space` (configurable) |
 | `⌥⌘⌫` clear, `⇧⌥⌘⌫` clear all | `Ctrl+Alt+Backspace`, `Ctrl+Alt+Shift+Backspace` |

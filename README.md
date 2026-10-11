@@ -51,7 +51,7 @@ Windows 11 (build 22000) or later is required.
 
 ## Usage
 
-1. <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> to open Kleio, or click its icon in the notification area.
+1. <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> to open Kleio, or click its icon in the notification area.
    You can also make <kbd>Win</kbd> + <kbd>V</kbd> open Kleio; see [Windows clipboard integration](#windows-clipboard-integration).
 2. Type what you want to find.
 3. To copy the history item you want, press <kbd>Enter</kbd>, click the item, or use the <kbd>Ctrl</kbd> + `n` shortcut.

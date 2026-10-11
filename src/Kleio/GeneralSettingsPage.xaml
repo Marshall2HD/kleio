@@ -47,7 +47,7 @@
                 <TextBlock Text="Shortcuts" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
                 <local:SettingsCard Header="Open Kleio" Glyph="&#xE765;">
                     <local:SettingsCard.Description>
-                        <TextBlock TextWrapping="Wrap">Global shortcut to open Kleio. Pressing the main key again while holding the modifiers selects the next item; releasing the modifiers then confirms the selection and closes the popup. Default: Win+Alt+V.</TextBlock>
+                        <TextBlock TextWrapping="Wrap">Global shortcut to open Kleio. Pressing the main key again while holding the modifiers selects the next item; releasing the modifiers then confirms the selection and closes the popup. Default: Win+Shift+C.</TextBlock>
                     </local:SettingsCard.Description>
                     <local:ShortcutRecorder x:Name="PopupRecorder" AutomationProperties.Name="Open Kleio shortcut" />
                 </local:SettingsCard>

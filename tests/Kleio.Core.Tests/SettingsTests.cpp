@@ -12,7 +12,7 @@ TEST(Settings_Defaults)
     ResetSettings();
     auto& s = Settings::Instance();
     CHECK_EQ(s.CheckForUpdates(), true);
-    CHECK_EQ(s.PopupShortcut(), (KeyShortcut{ Modifiers::Win | Modifiers::Alt, 'V' }));
+    CHECK_EQ(s.PopupShortcut(), (KeyShortcut{ Modifiers::Win | Modifiers::Shift, 'C' }));
     CHECK_EQ(s.PinShortcut(), (KeyShortcut{ Modifiers::Alt, 'P' }));
     CHECK_EQ(s.DeleteShortcut(), (KeyShortcut{ Modifiers::Alt, VK_DELETE }));
     CHECK_EQ(s.TogglePreviewShortcut(), (KeyShortcut{ Modifiers::Ctrl, VK_SPACE }));
@@ -95,7 +95,7 @@ TEST(Settings_ChangedRaisedOnlyOnActualChange)
     s.HistorySize(200);           // equals default
     s.PasteByDefault(false);      // equals default
     s.IgnoredFormats({ L"Kleio.Transient" });
-    s.PopupShortcut(KeyShortcut{ Modifiers::Win | Modifiers::Alt, 'V' });
+    s.PopupShortcut(KeyShortcut{ Modifiers::Win | Modifiers::Shift, 'C' });
     CHECK(changes.empty());
 
     s.HistorySize(50);

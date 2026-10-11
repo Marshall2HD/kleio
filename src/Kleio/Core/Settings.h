@@ -110,7 +110,7 @@ namespace Kleio
         // ---- General ----
         bool CheckForUpdates() const;                    // default true
         void CheckForUpdates(bool value);
-        KeyShortcut PopupShortcut() const;               // default Win+Alt+V (empty = disabled)
+        KeyShortcut PopupShortcut() const;               // default Win+Shift+C (empty = disabled)
         void PopupShortcut(KeyShortcut value);
         KeyShortcut PinShortcut() const;                 // default Alt+P
         void PinShortcut(KeyShortcut value);

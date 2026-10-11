@@ -590,7 +590,7 @@ namespace Kleio
 
     namespace
     {
-        constexpr KeyShortcut kDefaultPopupShortcut{ Modifiers::Win | Modifiers::Alt, 'V' };
+        constexpr KeyShortcut kDefaultPopupShortcut{ Modifiers::Win | Modifiers::Shift, 'C' };
         constexpr KeyShortcut kDefaultPinShortcut{ Modifiers::Alt, 'P' };
         constexpr KeyShortcut kDefaultDeleteShortcut{ Modifiers::Alt, VK_DELETE };
         constexpr KeyShortcut kDefaultTogglePreviewShortcut{ Modifiers::Ctrl, VK_SPACE };
