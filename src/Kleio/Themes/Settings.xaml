@@ -119,6 +119,25 @@
         <Setter Property="VerticalAlignment" Value="Center" />
     </Style>
 
+    <!-- Header/description/icon slot inside SettingsCard: a plain presenter of its own Content, wrapping text. -->
+    <Style x:Key="SettingsCardSlotStyle" TargetType="ContentControl">
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <ContentPresenter
+                        Content="{TemplateBinding Content}"
+                        ContentTemplate="{TemplateBinding ContentTemplate}"
+                        HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                        VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                        TextWrapping="Wrap" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <!-- A settings row: icon + header/description on the left, the control (Content) on the right.
          Implemented by Kleio.SettingsCard (SettingsCard.idl/.h/.cpp). -->
     <Style TargetType="local:SettingsCard">
@@ -147,30 +166,35 @@
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
+                        <!-- Header, description and icon slots are ContentControls, not ContentPresenters:
+                             a ContentPresenter in a ContentControl template whose Content is template-bound to a
+                             custom property (and null) falls back to the card's own Content, and the second
+                             presenter showing that element fails with E_INVALIDARG. -->
                         <Grid x:Name="IconHost" VerticalAlignment="Center" Margin="2,0,4,0">
                             <FontIcon
                                 x:Name="GlyphElement"
                                 Glyph="{TemplateBinding Glyph}"
                                 FontSize="20"
                                 AutomationProperties.AccessibilityView="Raw" />
-                            <ContentPresenter
+                            <ContentControl
                                 x:Name="HeaderIconPresenter"
+                                Style="{StaticResource SettingsCardSlotStyle}"
                                 Content="{TemplateBinding HeaderIcon}"
                                 Width="20"
                                 Height="20"
                                 AutomationProperties.AccessibilityView="Raw" />
                         </Grid>
                         <StackPanel x:Name="TextHost" Grid.Column="1" VerticalAlignment="Center" Spacing="1">
-                            <ContentPresenter
+                            <ContentControl
                                 x:Name="HeaderPresenter"
-                                Content="{TemplateBinding Header}"
-                                TextWrapping="Wrap" />
-                            <ContentPresenter
+                                Style="{StaticResource SettingsCardSlotStyle}"
+                                Content="{TemplateBinding Header}" />
+                            <ContentControl
                                 x:Name="DescriptionPresenter"
+                                Style="{StaticResource SettingsCardSlotStyle}"
                                 Content="{TemplateBinding Description}"
                                 FontSize="12"
-                                Foreground="{ThemeResource TextFillColorSecondaryBrush}"
-                                TextWrapping="Wrap" />
+                                Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
                         </StackPanel>
                         <ContentPresenter
                             x:Name="ContentPresenter"
