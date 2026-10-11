@@ -9,5 +9,9 @@ namespace Kleio
         // Hides without destroying; remembers size/position.
         void HidePopup();
         Boolean IsShown { get; };
+        // True when the popup hid itself because it lost activation (e.g. a click outside it) within
+        // the last `milliseconds`. Lets a tray icon click that deactivated the popup avoid
+        // immediately re-opening it in TogglePopup.
+        Boolean WasAutoHiddenWithin(UInt32 milliseconds);
     }
 }

@@ -1,13 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Kleio's popup (port of Maccy's floating panel / ContentView). Top to bottom: header (title, search,
+    preview toggle), paste stack, pinned items (PinTo top), unpinned history list, pinned items
+    (PinTo bottom), footer. The preview pane (Maccy's slideout) sits right or left of the list.
+    Fixed heights (header 44, rows 32, separators 9, footer rows 32) are relied upon by
+    PopupWindow::ContentHeight() to size the window to its content without a layout pass.
+-->
 <Window
     x:Class="Kleio.PopupWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Kleio"
     Title="Kleio">
+
     <Window.SystemBackdrop>
         <DesktopAcrylicBackdrop />
     </Window.SystemBackdrop>
-    <Grid>
-        <TextBlock x:Name="Placeholder" Text="Kleio" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+    <Grid x:Name="RootGrid">
+        <Grid.Resources>
+            <!-- Rows draw hover/selection themselves (lightweight styling of ListViewItem). -->
+            <SolidColorBrush x:Key="ListViewItemBackgroundPointerOver" Color="Transparent" />
+            <SolidColorBrush x:Key="ListViewItemBackgroundPressed" Color="Transparent" />
+            <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
+            <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
+            <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="Transparent" />
+
+            <DataTemplate x:Key="HistoryRowTemplate">
+                <local:HistoryItemRow />
+            </DataTemplate>
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="LayoutColumn0" Width="*" />
+            <ColumnDefinition x:Name="LayoutColumn1" Width="Auto" />
+            <ColumnDefinition x:Name="LayoutColumn2" Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <!-- ================= List side ================= -->
+        <Grid x:Name="ContentPanel" Grid.Column="0" MinWidth="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />  <!-- 0 header -->
+                <RowDefinition Height="Auto" />  <!-- 1 paste stack -->
+                <RowDefinition Height="Auto" />  <!-- 2 pinned (top) -->
+                <RowDefinition Height="Auto" />  <!-- 3 separator -->
+                <RowDefinition Height="*" />     <!-- 4 history -->
+                <RowDefinition Height="Auto" />  <!-- 5 separator -->
+                <RowDefinition Height="Auto" />  <!-- 6 pinned (bottom) -->
+                <RowDefinition Height="Auto" />  <!-- 7 footer -->
+            </Grid.RowDefinitions>
+
+            <!-- Header (Maccy HeaderView / ListHeaderView / SearchFieldView) -->
+            <Grid x:Name="HeaderPanel" Grid.Row="0" Height="44" Padding="8,8,8,4" Background="Transparent">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="HeaderTitle"
+                           Grid.Column="0"
+                           Margin="6,0,10,1"
+                           VerticalAlignment="Center"
+                           Text="Kleio"
+                           Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+
+                <TextBox x:Name="SearchBox"
+                         Grid.Column="1"
+                         VerticalAlignment="Center"
+                         Padding="34,5,6,6"
+                         PlaceholderText="Type to search&#x2026;"
+                         IsSpellCheckEnabled="False"
+                         AutomationProperties.Name="Search clipboard history" />
+                <FontIcon Grid.Column="1"
+                          Margin="12,0,0,0"
+                          HorizontalAlignment="Left"
+                          VerticalAlignment="Center"
+                          FontSize="14"
+                          Glyph="&#xE721;"
+                          IsHitTestVisible="False"
+                          Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+
+                <Button x:Name="PreviewToggleButton"
+                        Grid.Column="2"
+                        Margin="4,0,0,0"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Toggle preview">
+                    <FontIcon x:Name="PreviewToggleIcon" FontSize="16" Glyph="&#xE90D;" />
+                </Button>
+            </Grid>
+
+            <!-- Paste stack (Maccy PasteStackView) -->
+            <Grid x:Name="PasteStackPanel"
+                  Grid.Row="1"
+                  Margin="4,2,4,2"
+                  Visibility="Collapsed"
+                  CornerRadius="4"
+                  BorderThickness="1"
+                  BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                  Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+                <Border x:Name="PasteStackSelectionFill"
+                        Background="{ThemeResource SubtleFillColorSecondaryBrush}"
+                        Opacity="0" />
+                <Rectangle x:Name="PasteStackSelectionPill"
+                           Width="3"
+                           Height="16"
+                           Margin="0,8,0,0"
+                           RadiusX="1.5"
+                           RadiusY="1.5"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Fill="{ThemeResource AccentFillColorDefaultBrush}"
+                           Visibility="Collapsed" />
+                <StackPanel>
+                    <Grid Height="32" Padding="12,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Grid.Column="0" Margin="0,0,8,0" FontSize="14" Glyph="&#xE77F;" VerticalAlignment="Center" />
+                        <TextBlock x:Name="PasteStackTitle"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   TextTrimming="CharacterEllipsis"
+                                   Text="Paste stack" />
+                        <Button x:Name="PasteStackStopButton"
+                                Grid.Column="2"
+                                Style="{StaticResource PopupToolbarButtonStyle}"
+                                Width="30"
+                                Height="30"
+                                AutomationProperties.Name="Stop paste stack">
+                            <FontIcon FontSize="12" Glyph="&#xE711;" />
+                        </Button>
+                    </Grid>
+                    <StackPanel x:Name="PasteStackItems" Padding="0,0,0,2" />
+                </StackPanel>
+            </Grid>
+
+            <!-- Pinned items (Maccy PinsView); moved to row 6 when pins are at the bottom. -->
+            <ListView x:Name="PinnedList"
+                      Grid.Row="2"
+                      Padding="0"
+                      SelectionMode="None"
+                      IsItemClickEnabled="True"
+                      CanDragItems="True"
+                      CanReorderItems="True"
+                      AllowDrop="True"
+                      ScrollViewer.VerticalScrollMode="Disabled"
+                      ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                      ItemTemplate="{StaticResource HistoryRowTemplate}"
+                      ItemContainerStyle="{StaticResource PopupListViewItemStyle}"
+                      AutomationProperties.Name="Pinned items" />
+
+            <Rectangle x:Name="TopSeparator" Grid.Row="3" Style="{StaticResource PopupSeparatorStyle}" Visibility="Collapsed" />
+
+            <!-- Unpinned history (Maccy HistoryListView) -->
+            <ListView x:Name="HistoryList"
+                      Grid.Row="4"
+                      Padding="0"
+                      SelectionMode="None"
+                      IsItemClickEnabled="True"
+                      ItemTemplate="{StaticResource HistoryRowTemplate}"
+                      ItemContainerStyle="{StaticResource PopupListViewItemStyle}"
+                      AutomationProperties.Name="Clipboard history">
+                <ListView.ItemContainerTransitions>
+                    <TransitionCollection />
+                </ListView.ItemContainerTransitions>
+            </ListView>
+
+            <TextBlock x:Name="EmptyText"
+                       Grid.Row="4"
+                       Margin="24,0,24,0"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Foreground="{ThemeResource TextFillColorTertiaryBrush}"
+                       Visibility="Collapsed" />
+
+            <Rectangle x:Name="BottomSeparator" Grid.Row="5" Style="{StaticResource PopupSeparatorStyle}" Visibility="Collapsed" />
+
+            <!-- Footer (Maccy FooterView) -->
+            <StackPanel x:Name="FooterPanel" Grid.Row="7" Padding="0,0,0,4">
+                <Rectangle Style="{StaticResource PopupSeparatorStyle}" />
+                <local:HistoryItemRow x:Name="FooterClearRow" />
+                <local:HistoryItemRow x:Name="FooterClearAllRow" Visibility="Collapsed" />
+                <local:HistoryItemRow x:Name="FooterSettingsRow" />
+                <local:HistoryItemRow x:Name="FooterAboutRow" />
+                <local:HistoryItemRow x:Name="FooterQuitRow" />
+            </StackPanel>
+        </Grid>
+
+        <!-- ================= Preview (Maccy SlideoutView / PreviewItemView) ================= -->
+        <local:PopupSplitter x:Name="PreviewSplitter" Grid.Column="1" Visibility="Collapsed" />
+
+        <Grid x:Name="PreviewPanel"
+              Grid.Column="2"
+              Width="400"
+              Padding="8,6,12,12"
+              RowSpacing="8"
+              Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Toolbar (Maccy ToolbarView) -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="2">
+                <Button x:Name="PreviewCopyTextButton"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Copy text recognized in the image"
+                        Visibility="Collapsed">
+                    <FontIcon FontSize="14" Glyph="&#xE8C8;" />
+                </Button>
+                <Button x:Name="PreviewPinButton"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Pin">
+                    <FontIcon x:Name="PreviewPinIcon" FontSize="14" Glyph="&#xE718;" />
+                </Button>
+                <Button x:Name="PreviewEditButton"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Edit item">
+                    <FontIcon FontSize="14" Glyph="&#xE70F;" />
+                </Button>
+                <Button x:Name="PreviewDeleteButton"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Delete">
+                    <FontIcon FontSize="14" Glyph="&#xE74D;" />
+                </Button>
+                <Button x:Name="PreviewStopStackButton"
+                        Style="{StaticResource PopupToolbarButtonStyle}"
+                        AutomationProperties.Name="Stop paste stack"
+                        Visibility="Collapsed">
+                    <FontIcon FontSize="14" Glyph="&#xE71A;" />
+                </Button>
+            </StackPanel>
+
+            <ScrollViewer x:Name="PreviewScroll"
+                          Grid.Row="1"
+                          HorizontalScrollBarVisibility="Disabled"
+                          VerticalScrollBarVisibility="Auto">
+                <Grid Padding="4,0,8,0">
+                    <TextBlock x:Name="PreviewText"
+                               IsTextSelectionEnabled="True"
+                               TextWrapping="Wrap" />
+                    <Image x:Name="PreviewImage"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Stretch="Uniform"
+                           Visibility="Collapsed" />
+                </Grid>
+            </ScrollViewer>
+
+            <Rectangle Grid.Row="2" Height="1" Margin="4,0,8,0" Fill="{ThemeResource DividerStrokeColorDefaultBrush}" />
+
+            <StackPanel x:Name="PreviewInfo" Grid.Row="3" Padding="4,0,8,0" Spacing="2">
+                <StackPanel x:Name="PreviewAppRow" Orientation="Horizontal" Spacing="4">
+                    <TextBlock Style="{StaticResource PopupSecondaryTextStyle}" Text="Application:" />
+                    <Image x:Name="PreviewAppIcon" Width="14" Height="14" VerticalAlignment="Center" />
+                    <TextBlock x:Name="PreviewAppName" Style="{StaticResource PopupSecondaryTextStyle}" />
+                </StackPanel>
+                <TextBlock x:Name="PreviewDimensions" Style="{StaticResource PopupSecondaryTextStyle}" />
+                <TextBlock x:Name="PreviewFirstCopy" Style="{StaticResource PopupSecondaryTextStyle}" />
+                <TextBlock x:Name="PreviewLastCopy" Style="{StaticResource PopupSecondaryTextStyle}" />
+                <TextBlock x:Name="PreviewCopies" Style="{StaticResource PopupSecondaryTextStyle}" />
+                <TextBlock x:Name="PreviewPinHint" Margin="0,6,0,0" Style="{StaticResource PopupTertiaryTextStyle}" />
+                <TextBlock x:Name="PreviewDeleteHint" Style="{StaticResource PopupTertiaryTextStyle}" />
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

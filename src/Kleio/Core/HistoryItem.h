@@ -26,8 +26,8 @@ namespace Kleio
         inline constexpr std::wstring_view Png = L"PNG";
         // Put on the clipboard by Kleio itself when it copies an item (Maccy's "fromMaccy").
         inline constexpr std::wstring_view FromKleio = L"Kleio.FromKleio";
-        // Windows convention: "do not put this into clipboard history"; Kleio writes it with value 0
-        // when copying so that its own writes don't also land in the Windows clipboard history.
+        // Windows convention: a DWORD 0 under this format means "do not put this into clipboard
+        // history"; such copies (from password managers etc.) are ignored. Kleio never writes it.
         inline constexpr std::wstring_view CanIncludeInClipboardHistory = L"CanIncludeInClipboardHistory";
     }
 

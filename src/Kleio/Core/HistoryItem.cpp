@@ -628,8 +628,8 @@ namespace Kleio
         }
 
         // Newlines (CRLF, LF or CR) -> '⏎', tabs -> '⇥'.
-        std::wstring title;
-        title.reserve(source.size());
+        std::wstring result;
+        result.reserve(source.size());
         for (std::size_t i = 0; i < source.size(); ++i)
         {
             const wchar_t c = source[i];
@@ -639,22 +639,22 @@ namespace Kleio
                 {
                     ++i;
                 }
-                title += kReturnSymbol;
+                result += kReturnSymbol;
             }
             else if (c == L'\n')
             {
-                title += kReturnSymbol;
+                result += kReturnSymbol;
             }
             else if (c == L'\t')
             {
-                title += kTabSymbol;
+                result += kTabSymbol;
             }
             else
             {
-                title += c;
+                result += c;
             }
         }
-        return title;
+        return result;
     }
 
     std::optional<std::uint32_t> HistoryItem::HexColor() const

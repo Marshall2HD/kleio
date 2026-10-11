@@ -40,7 +40,9 @@ namespace Kleio
         bool operator==(KeyShortcut const&) const = default;
 
         // Serialized form used in settings, e.g. "Ctrl+Shift+C", "Alt+Delete", "Win+Alt+V".
-        // Modifier order is always Ctrl, Alt, Shift, Win. Empty shortcut <-> empty string.
+        // Modifier order is always Win, Ctrl, Alt, Shift (Windows convention); Parse accepts any
+        // order and is case-insensitive. Empty shortcut <-> empty string. Key names come from
+        // KeyName (layout independent); unnamed keys are written as "0xNN".
         std::wstring ToString() const;
         static std::optional<KeyShortcut> Parse(std::wstring_view text);
 

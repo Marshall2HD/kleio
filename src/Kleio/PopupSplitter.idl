@@ -1,0 +1,10 @@
+namespace Kleio
+{
+    // Vertical divider between the popup list and the preview pane. Shows the column resize cursor;
+    // PopupWindow handles the dragging.
+    [default_interface]
+    runtimeclass PopupSplitter : Microsoft.UI.Xaml.Controls.UserControl
+    {
+        PopupSplitter();
+    }
+}

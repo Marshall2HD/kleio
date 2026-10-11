@@ -455,7 +455,11 @@ namespace Kleio
 
     std::vector<std::wstring> History::SupportedPins() const
     {
-        std::vector<std::wstring> pins(std::begin(kBasePins), std::end(kBasePins));
+        std::vector<std::wstring> pins;
+        for (auto pin : kBasePins)
+        {
+            pins.emplace_back(pin);
+        }
         for (auto const& shortcut : { m_settings.PinShortcut(), m_settings.DeleteShortcut(), m_settings.TogglePreviewShortcut() })
         {
             if (shortcut.key >= 'A' && shortcut.key <= 'Z')

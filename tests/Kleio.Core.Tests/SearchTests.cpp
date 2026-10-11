@@ -171,6 +171,8 @@ TEST(Search_Mixed)
 
 namespace
 {
+    constexpr Timestamp kSorterNow = 1'800'000'000'000;
+
     struct SorterFixture
     {
         HistoryItemPtr item1;
@@ -179,11 +181,10 @@ namespace
 
         SorterFixture()
         {
-            const Timestamp now = 1'800'000'000'000;
-            auto make = [now](std::wstring_view text, int firstCopiedAt, int lastCopiedAt, int copies) {
+            auto make = [](std::wstring_view text, int firstCopiedAt, int lastCopiedAt, int copies) {
                 auto item = MakeTextItem(text);
-                item->firstCopiedAt = now + firstCopiedAt * 1000;
-                item->lastCopiedAt = now + lastCopiedAt * 1000;
+                item->firstCopiedAt = kSorterNow + firstCopiedAt * 1000;
+                item->lastCopiedAt = kSorterNow + lastCopiedAt * 1000;
                 item->numberOfCopies = copies;
                 return item;
             };

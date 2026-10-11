@@ -68,3 +68,26 @@ jobs:
             artifacts/Kleio.cer
             artifacts/build.binlog
           if-no-files-found: warn
+
+  test:
+    name: Core tests (x64)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: microsoft/setup-msbuild@v2
+
+      - name: Build Kleio.Core.Tests
+        run: >-
+          msbuild tests\Kleio.Core.Tests\Kleio.Core.Tests.vcxproj /m /v:minimal "/clp:ErrorsOnly;Summary"
+          /p:Configuration=Release
+          /p:Platform=x64
+
+      - name: Run Kleio.Core.Tests
+        shell: pwsh
+        run: |
+          & "tests\Kleio.Core.Tests\bin\x64\Release\Kleio.Core.Tests.exe"
+          if ($LASTEXITCODE -ne 0) {
+            Write-Error "Kleio.Core.Tests failed ($LASTEXITCODE failed checks)"
+            exit 1
+          }

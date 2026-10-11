@@ -4,6 +4,7 @@
 #include "Core/Settings.h"
 
 #include <filesystem>
+#include <functional>
 #include <map>
 #include <memory>
 #include <optional>

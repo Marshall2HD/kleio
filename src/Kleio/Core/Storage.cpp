@@ -30,7 +30,7 @@ namespace Kleio
             return result;
         }
 
-        void LogError(sqlite3* db, std::wstring const& what)
+        void LogSqliteError(sqlite3* db, std::wstring const& what)
         {
             Log(what + L": " + AsciiToWide(db ? sqlite3_errmsg(db) : "no database"));
         }
@@ -76,7 +76,7 @@ namespace Kleio
             {
                 if (sqlite3_prepare_v2(db, sql, -1, &m_stmt, nullptr) != SQLITE_OK)
                 {
-                    LogError(db, L"prepare failed");
+                    LogSqliteError(db, L"prepare failed");
                     m_stmt = nullptr;
                 }
             }
@@ -153,7 +153,7 @@ namespace Kleio
                 if (rc != SQLITE_DONE)
                 {
                     m_failed = true;
-                    LogError(m_db, L"step failed");
+                    LogSqliteError(m_db, L"step failed");
                 }
                 return false;
             }
@@ -401,7 +401,7 @@ namespace Kleio
         if (!InsertContents(m_db, item) || !transaction.Commit())
         {
             item.id = previousId;
-            LogError(m_db, L"insert failed");
+            LogSqliteError(m_db, L"insert failed");
         }
     }
 

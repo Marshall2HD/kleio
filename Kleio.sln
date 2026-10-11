@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kleio", "src\Kleio\Kleio.vcxproj", "{B9720D90-F68A-49C8-9003-C3A1CDCEF19C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kleio.Core.Tests", "tests\Kleio.Core.Tests\Kleio.Core.Tests.vcxproj", "{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,14 @@ Global
 		{B9720D90-F68A-49C8-9003-C3A1CDCEF19C}.Release|ARM64.ActiveCfg = Release|ARM64
 		{B9720D90-F68A-49C8-9003-C3A1CDCEF19C}.Release|ARM64.Build.0 = Release|ARM64
 		{B9720D90-F68A-49C8-9003-C3A1CDCEF19C}.Release|ARM64.Deploy.0 = Release|ARM64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Debug|x64.ActiveCfg = Debug|x64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Debug|x64.Build.0 = Debug|x64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Debug|ARM64.Build.0 = Debug|ARM64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Release|x64.ActiveCfg = Release|x64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Release|x64.Build.0 = Release|x64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Release|ARM64.ActiveCfg = Release|ARM64
+		{7003F3A4-5CA5-4DD1-B1AD-B57FECEE7833}.Release|ARM64.Build.0 = Release|ARM64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
