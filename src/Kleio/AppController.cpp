@@ -147,6 +147,12 @@ namespace Kleio
 
         m_tray = std::make_unique<Kleio::TrayIcon>(*m_messageWindow);
         m_tray->Invoked.Add([this](Modifiers modifiers) {
+            // Clicking the tray icon deactivates (and so auto-hides) an open popup just before the
+            // click arrives; don't immediately reopen it.
+            if (m_popup && m_popup.WasAutoHiddenWithin(400))
+            {
+                return;
+            }
             // Maccy: Option+click pauses, Option+Shift+click ignores only the next copy.
             if (HasFlag(modifiers, Modifiers::Alt) && HasFlag(modifiers, Modifiers::Shift))
             {

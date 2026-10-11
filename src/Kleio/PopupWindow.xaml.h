@@ -104,7 +104,7 @@ namespace winrt::Kleio::implementation
         void ApplyQuery();
         void SetQueryNow(std::wstring const& text);
         void FocusSearch();
-        bool IsSearchFocused() const;
+        bool IsSearchFocused();
 
         // ---- selection (Maccy NavigationManager) ----
         bool IsMultiSelect() const noexcept;

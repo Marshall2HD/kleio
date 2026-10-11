@@ -67,7 +67,7 @@ namespace Kleio
         {
             if (milliseconds <= 0)
             {
-                return L"—";
+                return L"\u2014";
             }
 
             ULARGE_INTEGER value{};
@@ -80,7 +80,7 @@ namespace Kleio
             SYSTEMTIME local{};
             if (!FileTimeToSystemTime(&fileTime, &utc) || !SystemTimeToTzSpecificLocalTime(nullptr, &utc, &local))
             {
-                return L"—";
+                return L"\u2014";
             }
 
             wchar_t date[128]{};
@@ -111,7 +111,7 @@ namespace Kleio
                     --cut;
                 }
                 text.resize(cut);
-                text += L'…';
+                text += L'\u2026';
             }
             return text;
         }
