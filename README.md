@@ -36,12 +36,13 @@ Download the `.msix` for your architecture (x64 or ARM64) from the
 [releases](https://github.com/Marshall2HD/kleio/releases/latest) page and open it.
 
 Development builds from CI (the `Kleio-x64` / `Kleio-ARM64` artifacts of the *Build* workflow) are
-signed with a throw-away test certificate and ship the Windows App SDK runtime packages they need.
+signed with a throw-away test certificate and ship the runtime packages they depend on (Windows App
+SDK runtime and the VC++ runtime for desktop apps).
 Trust the bundled `Kleio.cer` first (once, from an elevated PowerShell), then install:
 
 ```powershell
 Import-Certificate -FilePath .\Kleio.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople
-$packages = Get-ChildItem -Recurse -Filter *.msix
+$packages = Get-ChildItem -Recurse -Include *.msix, *.appx
 $packages | Where-Object DirectoryName -like '*Dependencies*' | ForEach-Object { Add-AppxPackage $_.FullName }
 $packages | Where-Object Name -like 'Kleio_*' | ForEach-Object { Add-AppxPackage $_.FullName }
 ```

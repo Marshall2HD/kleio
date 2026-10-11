@@ -77,6 +77,7 @@ jobs:
           path: |
             artifacts/AppPackages/**/Kleio_*.msix
             artifacts/AppPackages/**/Dependencies/${{ matrix.dependencies }}/*.msix
+            artifacts/AppPackages/**/Dependencies/${{ matrix.dependencies }}/*.appx
             artifacts/Kleio.cer
           if-no-files-found: error
 
