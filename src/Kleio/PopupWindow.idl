@@ -1,0 +1,8 @@
+namespace Kleio
+{
+    [default_interface]
+    runtimeclass PopupWindow : Microsoft.UI.Xaml.Window
+    {
+        PopupWindow();
+    }
+}

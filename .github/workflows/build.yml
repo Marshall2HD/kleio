@@ -1,0 +1,70 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build (${{ matrix.platform }})
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [x64, ARM64]
+    env:
+      Configuration: Release
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: microsoft/setup-msbuild@v2
+
+      - name: Create test signing certificate
+        id: cert
+        shell: pwsh
+        run: |
+          $password = [guid]::NewGuid().ToString()
+          $cert = New-SelfSignedCertificate -Type Custom -Subject "CN=Kleio" `
+            -KeyUsage DigitalSignature -FriendlyName "Kleio CI test certificate" `
+            -CertStoreLocation "Cert:\CurrentUser\My" `
+            -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.3", "2.5.29.19={text}")
+          $pfx = Join-Path $env:RUNNER_TEMP "Kleio.pfx"
+          Export-PfxCertificate -Cert $cert -FilePath $pfx -Password (ConvertTo-SecureString $password -AsPlainText -Force) | Out-Null
+          New-Item -ItemType Directory -Force -Path artifacts | Out-Null
+          Export-Certificate -Cert $cert -FilePath artifacts\Kleio.cer | Out-Null
+          "pfx=$pfx" >> $env:GITHUB_OUTPUT
+          "password=$password" >> $env:GITHUB_OUTPUT
+          Write-Output "::add-mask::$password"
+
+      - name: Restore
+        run: msbuild Kleio.sln /t:Restore /p:Configuration=${{ env.Configuration }} /p:Platform=${{ matrix.platform }} /v:minimal
+
+      - name: Build and package
+        run: >-
+          msbuild Kleio.sln /m /v:minimal /bl:artifacts\build.binlog
+          /p:Configuration=${{ env.Configuration }}
+          /p:Platform=${{ matrix.platform }}
+          /p:AppxBundle=Never
+          /p:UapAppxPackageBuildMode=SideloadOnly
+          /p:GenerateAppxPackageOnBuild=true
+          /p:AppxPackageDir=${{ github.workspace }}\artifacts\AppPackages\
+          /p:AppxPackageSigningEnabled=true
+          /p:PackageCertificateKeyFile=${{ steps.cert.outputs.pfx }}
+          /p:PackageCertificatePassword=${{ steps.cert.outputs.password }}
+
+      - name: Upload package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Kleio-${{ matrix.platform }}
+          path: |
+            artifacts/AppPackages/**/*.msix
+            artifacts/AppPackages/**/*.cer
+            artifacts/Kleio.cer
+            artifacts/build.binlog
+          if-no-files-found: warn
