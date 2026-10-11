@@ -358,7 +358,11 @@ namespace winrt::Kleio::implementation
             }
 
             // Screen readers: "<label set by the page>: Ctrl+Alt+V".
-            auto label = std::wstring{ winrt::AutomationProperties::GetName(this->as<winrt::DependencyObject>()) };
+            std::wstring label;
+            if (auto self = this->try_as<winrt::DependencyObject>())
+            {
+                label = winrt::AutomationProperties::GetName(self);
+            }
             if (label.empty())
             {
                 label = L"Shortcut";
