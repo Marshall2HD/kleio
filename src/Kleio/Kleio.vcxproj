@@ -115,7 +115,15 @@
                             the project root so that C++/WinRT finds the generated *.xaml.g.h files.
   -->
   <ItemGroup>
-    <ClInclude Include="*.h;Core\**\*.h;Platform\**\*.h" Exclude="*.xaml.h" />
+    <!-- Headers of non-XAML runtime classes must name their .idl in DependentUpon, otherwise the XAML
+         compiler cannot include them in XamlTypeInfo.g.cpp when the class is used in markup. -->
+    <ClInclude Include="*.h;Core\**\*.h;Platform\**\*.h" Exclude="*.xaml.h;HistoryItemViewModel.h;SettingsCard.h" />
+    <ClInclude Include="HistoryItemViewModel.h">
+      <DependentUpon>HistoryItemViewModel.idl</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="SettingsCard.h">
+      <DependentUpon>SettingsCard.idl</DependentUpon>
+    </ClInclude>
     <ClInclude Include="*.xaml.h">
       <DependentUpon>%(Filename)</DependentUpon>
     </ClInclude>
@@ -128,7 +136,13 @@
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="*.cpp;Core\**\*.cpp;Platform\**\*.cpp" Exclude="pch.cpp;*.xaml.cpp" />
+    <ClCompile Include="*.cpp;Core\**\*.cpp;Platform\**\*.cpp" Exclude="pch.cpp;*.xaml.cpp;HistoryItemViewModel.cpp;SettingsCard.cpp" />
+    <ClCompile Include="HistoryItemViewModel.cpp">
+      <DependentUpon>HistoryItemViewModel.idl</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="SettingsCard.cpp">
+      <DependentUpon>SettingsCard.idl</DependentUpon>
+    </ClCompile>
     <ClCompile Include="*.xaml.cpp">
       <DependentUpon>%(Filename)</DependentUpon>
     </ClCompile>

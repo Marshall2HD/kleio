@@ -24,6 +24,9 @@ tools/generate_assets.py       regenerates the logo PNGs/ICO
 
 The vcxproj picks files up by glob, so adding a file to the right folder is enough:
 `*.h/*.cpp` in root, `Core/`, `Platform/`; `*.idl` and `*.xaml` in root; `Themes/*.xaml`.
+Exception: a runtime class *without* XAML that is used in markup (e.g. `SettingsCard`) needs an
+explicit `ClInclude`/`ClCompile` entry with `<DependentUpon>Foo.idl</DependentUpon>` in the vcxproj,
+or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cpp`.
 
 ## Conventions
 
