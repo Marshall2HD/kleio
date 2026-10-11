@@ -16,7 +16,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [x64, ARM64]
+        include:
+          - platform: x64
+            dependencies: x64
+          - platform: ARM64
+            dependencies: arm64
     env:
       Configuration: Release
     steps:
@@ -57,17 +61,31 @@ jobs:
           /p:PackageCertificateKeyFile=${{ steps.cert.outputs.pfx }}
           /p:PackageCertificatePassword=${{ steps.cert.outputs.password }}
 
-      - name: Upload package
+      - name: List packages
         if: always()
+        shell: pwsh
+        run: |
+          if (Test-Path artifacts\AppPackages) {
+            Get-ChildItem artifacts\AppPackages -Recurse -File |
+              ForEach-Object { "{0,10:N0} KB  {1}" -f ($_.Length / 1KB), $_.FullName.Substring((Get-Location).Path.Length + 1) }
+          }
+
+      - name: Upload package
         uses: actions/upload-artifact@v4
         with:
           name: Kleio-${{ matrix.platform }}
           path: |
-            artifacts/AppPackages/**/*.msix
-            artifacts/AppPackages/**/*.cer
+            artifacts/AppPackages/**/Kleio_*.msix
+            artifacts/AppPackages/**/Dependencies/${{ matrix.dependencies }}/*.msix
             artifacts/Kleio.cer
-            artifacts/build.binlog
-          if-no-files-found: warn
+          if-no-files-found: error
+
+      - name: Upload build log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Kleio-${{ matrix.platform }}-binlog
+          path: artifacts/build.binlog
 
   test:
     name: Core tests (x64)

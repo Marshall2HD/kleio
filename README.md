@@ -35,12 +35,15 @@ Built with WinUI 3 (Windows App SDK 2.5), C++/WinRT and MSIX packaging.
 Download the `.msix` for your architecture (x64 or ARM64) from the
 [releases](https://github.com/Marshall2HD/kleio/releases/latest) page and open it.
 
-Development builds from CI are signed with a throw-away test certificate. Import the bundled
-`Kleio.cer` into *Local Machine → Trusted People* first, then install the package:
+Development builds from CI (the `Kleio-x64` / `Kleio-ARM64` artifacts of the *Build* workflow) are
+signed with a throw-away test certificate and ship the Windows App SDK runtime packages they need.
+Trust the bundled `Kleio.cer` first (once, from an elevated PowerShell), then install:
 
 ```powershell
-Import-Certificate -FilePath .\Kleio.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople   # elevated
-Add-AppxPackage .\Kleio_0.1.0.0_x64.msix
+Import-Certificate -FilePath .\Kleio.cer -CertStoreLocation Cert:\LocalMachine\TrustedPeople
+$packages = Get-ChildItem -Recurse -Filter *.msix
+$packages | Where-Object DirectoryName -like '*Dependencies*' | ForEach-Object { Add-AppxPackage $_.FullName }
+$packages | Where-Object Name -like 'Kleio_*' | ForEach-Object { Add-AppxPackage $_.FullName }
 ```
 
 Windows 11 (build 22000) or later is required.
