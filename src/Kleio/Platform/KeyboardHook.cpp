@@ -16,8 +16,13 @@ namespace Kleio
         // Intentionally leaked so that no COM release runs during static destruction.
         winrt::Microsoft::UI::Dispatching::DispatcherQueue& Queue()
         {
-            static auto* queue = new winrt::Microsoft::UI::Dispatching::DispatcherQueue{ nullptr };
-            return *queue;
+            // winrt projected types delete operator new; wrap the handle in a plain struct.
+            struct Holder
+            {
+                winrt::Microsoft::UI::Dispatching::DispatcherQueue queue{ nullptr };
+            };
+            static auto* holder = new Holder{};
+            return holder->queue;
         }
         bool g_leftWinDown = false;
         bool g_rightWinDown = false;

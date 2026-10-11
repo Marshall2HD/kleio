@@ -6,8 +6,8 @@
 
 #include <thread>
 
-using namespace winrt;
-using namespace Microsoft::Windows::AppLifecycle;
+using winrt::Microsoft::Windows::AppLifecycle::AppActivationArguments;
+using winrt::Microsoft::Windows::AppLifecycle::AppInstance;
 
 namespace
 {
@@ -54,7 +54,7 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
         return 0;
     }
 
-    Microsoft::UI::Xaml::Application::Start([](auto&&) {
+    winrt::Microsoft::UI::Xaml::Application::Start([](auto&&) {
         winrt::make<winrt::Kleio::implementation::App>();
     });
     return 0;

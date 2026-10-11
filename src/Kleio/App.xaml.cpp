@@ -7,7 +7,6 @@ namespace winrt
 {
     using namespace Microsoft::UI::Xaml;
     using namespace Microsoft::Windows::AppLifecycle;
-    using namespace Windows::ApplicationModel::Activation;
 }
 
 namespace
@@ -16,7 +15,7 @@ namespace
     {
         if (args.Kind() == winrt::ExtendedActivationKind::Launch)
         {
-            if (auto launch = args.Data().try_as<winrt::ILaunchActivatedEventArgs>())
+            if (auto launch = args.Data().try_as<winrt::Windows::ApplicationModel::Activation::ILaunchActivatedEventArgs>())
             {
                 return std::wstring{ launch.Arguments() };
             }
@@ -47,7 +46,7 @@ namespace winrt::Kleio::implementation
         DispatcherShutdownMode(winrt::Microsoft::UI::Xaml::DispatcherShutdownMode::OnExplicitShutdown);
     }
 
-    void App::OnLaunched(LaunchActivatedEventArgs const&)
+    void App::OnLaunched(Microsoft::UI::Xaml::LaunchActivatedEventArgs const&)
     {
         m_dispatcher = Microsoft::UI::Dispatching::DispatcherQueue::GetForCurrentThread();
 
