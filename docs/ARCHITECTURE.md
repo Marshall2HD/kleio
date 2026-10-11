@@ -69,17 +69,11 @@ The vcxproj picks files up by glob, so adding a file to the right folder is enou
 
 ### Windows clipboard conflicts
 
-Settings → General → *Windows clipboard* offers:
-
-* **Replace Win+V** – Kleio intercepts `Win+V` with a low-level keyboard hook while it runs and opens
-  its own popup instead of the Windows clipboard history (nothing changes system-wide; turning it off
-  restores the Windows behaviour immediately).
-* **Windows clipboard history** – toggles `HKCU\Software\Microsoft\Clipboard\EnableClipboardHistory`,
-  so Windows stops keeping its own history (the package manifest disables registry write
-  virtualization so this writes the real value).
-* **Disable Win+V in Windows** – adds `V` to Explorer's `DisabledHotkeys` (applies after Explorer
-  restarts; Kleio offers to restart it).
-* Link to *Settings → System → Clipboard*.
+Kleio does not change any Windows settings. The only integration is **Replace Win+V**
+(Settings → General): while Kleio runs, a low-level keyboard hook intercepts `Win+V` and opens
+Kleio's popup instead of the Windows clipboard history. Turning it off (or quitting Kleio) restores
+the Windows behaviour immediately. A link opens *Settings → System → Clipboard* for users who also
+want to turn off the built-in history themselves.
 
 ## Component map
 

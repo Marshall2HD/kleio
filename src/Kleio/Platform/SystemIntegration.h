@@ -9,17 +9,6 @@ namespace Kleio::SystemIntegration
     // Returns the resulting state (may be false if the user disabled it in Task Manager/Settings).
     winrt::Windows::Foundation::IAsyncOperation<bool> SetLaunchAtLoginEnabled(bool enable);
 
-    // ---- Windows clipboard integration (the "avoid conflicts with Windows" options) ----
-    // HKCU\Software\Microsoft\Clipboard\EnableClipboardHistory (DWORD, 1 = on). A missing
-    // value means "off", matching Windows.
-    bool IsWindowsClipboardHistoryEnabled();
-    void SetWindowsClipboardHistoryEnabled(bool enable);
-    // HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\DisabledHotkeys (REG_SZ list
-    // of characters). Contains 'V' -> Explorer ignores Win+V after it restarts.
-    bool IsWinVDisabledInExplorer();
-    void SetWinVDisabledInExplorer(bool disable);
-    // Restarts explorer.exe so DisabledHotkeys changes apply (asks nothing; caller confirms).
-    void RestartExplorer();
     // Opens Settings > System > Clipboard (ms-settings:clipboard).
     void OpenWindowsClipboardSettings();
 

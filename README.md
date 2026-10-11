@@ -72,15 +72,9 @@ modifiers swap when *Paste automatically* or *Paste without formatting* is enabl
 
 ## Windows clipboard integration
 
-Windows has its own clipboard history (<kbd>Win</kbd> + <kbd>V</kbd>). To avoid two clipboard managers
-competing, *Settings → General → Windows clipboard* offers:
-
-| Option | What it does |
-|---|---|
-| **Replace Win+V** | While Kleio runs, <kbd>Win</kbd> + <kbd>V</kbd> opens Kleio instead of the Windows clipboard history. Nothing changes system-wide; turn it off and Windows behaves as before. |
-| **Windows clipboard history** | Turns the built-in history on or off (`HKCU\Software\Microsoft\Clipboard\EnableClipboardHistory`). |
-| **Disable Win+V in Windows** | Removes the shortcut from Windows itself (Explorer `DisabledHotkeys`). It applies after Explorer restarts, which Kleio can do for you. |
-| **Windows clipboard settings** | Opens *Settings → System → Clipboard*. |
+Windows has its own clipboard history on <kbd>Win</kbd> + <kbd>V</kbd>. Enable **Replace Win+V** in
+*Settings → General* and, while Kleio runs, <kbd>Win</kbd> + <kbd>V</kbd> opens Kleio instead. Kleio
+doesn't change any Windows settings: turn the option off, or quit Kleio, and Windows behaves as before.
 
 ## Advanced
 
