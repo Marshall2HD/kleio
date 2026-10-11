@@ -19,14 +19,19 @@ namespace Kleio
     {
     public:
         History(Storage& storage, Settings& settings);
+        ~History();   // unsubscribes from Settings::Changed
+        History(History const&) = delete;
+        History& operator=(History const&) = delete;
 
         // Loads everything from storage, sorts, trims to HistorySize. Raises Changed.
         void Load();
 
         // Adds a freshly copied item (Maccy's History.add):
-        //  * If an existing item is superseded by `item` (see HistoryItem::Supersedes), the new item
-        //    takes over its firstCopiedAt, numberOfCopies (+= existing), pin, title (and
-        //    application unless the new copy came from Kleio itself); the old row is deleted.
+        //  * If an existing item supersedes `item` (existing->Supersedes(*item), i.e. `item` is a
+        //    duplicate), the new item takes over its contents, firstCopiedAt, numberOfCopies
+        //    (+= existing), pin, title and application (Maccy keeps the original source app; only
+        //    when the taken-over contents carry the FromKleio marker the new application is kept);
+        //    the old row is deleted.
         //  * Persists, inserts at the sorted position, trims unpinned items beyond HistorySize.
         // Returns the stored item. Raises ItemAdded(item, wasDuplicate) then Changed.
         HistoryItemPtr Add(HistoryItemPtr item);
@@ -36,10 +41,13 @@ namespace Kleio
         void ClearAll();                                   // removes everything; raises Changed
 
         // Pins with a random available letter (see AvailablePins) or unpins. Raises Changed.
+        // No-op when no pin letter is available.
         void TogglePin(HistoryItemPtr const& item);
         // Assigns a specific pin letter (must be available or already this item's). Raises Changed.
         void UpdatePin(HistoryItemPtr const& item, std::wstring const& pin);
         // Moves a pinned item within the pinned list (indices into PinnedItems()); persists PinOrder.
+        // `to` is the item's index *after* the move (clamped to the last index), e.g. MovePin(0, 1)
+        // swaps the first two pins.
         void MovePin(std::size_t from, std::size_t to);
 
         void UpdateTitle(HistoryItemPtr const& item, std::wstring title);   // e.g. after OCR; raises Changed
@@ -75,10 +83,19 @@ namespace Kleio
         void Resort();
         void Trim();
 
+        void TrimTo(std::size_t maxUnpinned);               // Maccy's limitHistorySize
+        void InsertUnpinned(HistoryItemPtr const& item);    // at its sorted position
+        void SortPinned();                                  // by PinOrder, stable
+        void ReconcilePinOrder();                           // drop unused pins, append missing ones
+        void RemovePinFromOrderIfUnused(std::wstring const& pin);
+        std::vector<std::wstring> SupportedPins() const;
+        void OnSettingChanged(std::wstring_view key);
+
         Storage& m_storage;
         Settings& m_settings;
         Search m_search;
         std::vector<HistoryItemPtr> m_pinned;
         std::vector<HistoryItemPtr> m_unpinned;
+        Event<std::wstring_view>::Token m_settingsToken = 0;
     };
 }

@@ -22,8 +22,6 @@ namespace winrt::Kleio::implementation
         static winrt::Microsoft::UI::Xaml::DependencyProperty GlyphProperty();
         static winrt::Microsoft::UI::Xaml::DependencyProperty HeaderIconProperty();
 
-        void OnApplyTemplate();
-
     private:
         static void EnsureProperties();
         static void OnVisualPropertyChanged(

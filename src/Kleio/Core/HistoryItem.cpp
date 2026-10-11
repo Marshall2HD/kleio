@@ -975,12 +975,21 @@ namespace Kleio
         bool pendingSpace = false;
         int preDepth = 0;
 
-        auto append = [&](std::uint32_t codePoint) {
+        auto flushSpace = [&]() {
             if (pendingSpace && !out.empty() && out.back() != L' ' && out.back() != L'\n' && out.back() != L'\t')
             {
                 out += L' ';
             }
             pendingSpace = false;
+        };
+        // A raw UTF-16 code unit from the document (surrogate halves are kept as they are).
+        auto appendUnit = [&](wchar_t unit) {
+            flushSpace();
+            out += unit;
+        };
+        // A decoded character reference.
+        auto appendCodePoint = [&](std::uint32_t codePoint) {
+            flushSpace();
             AppendCodePoint(out, codePoint);
         };
         auto trimTrailingSpaces = [&]() {
@@ -1034,7 +1043,7 @@ namespace Kleio
                 if (j == nameStart)
                 {
                     // Not a tag (e.g. "a < b"): keep the character.
-                    append(c);
+                    appendUnit(c);
                     ++i;
                     continue;
                 }
@@ -1147,12 +1156,12 @@ namespace Kleio
                     }
                     if (codePoint)
                     {
-                        append(*codePoint);
+                        appendCodePoint(*codePoint);
                         i = semicolon + 1;
                         continue;
                     }
                 }
-                append(L'&');
+                appendUnit(L'&');
                 ++i;
                 continue;
             }
@@ -1175,7 +1184,7 @@ namespace Kleio
                 continue;
             }
 
-            append(static_cast<std::uint32_t>(c));
+            appendUnit(c);
             ++i;
         }
 

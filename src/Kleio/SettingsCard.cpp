@@ -1,0 +1,139 @@
+#include "pch.h"
+#include "SettingsCard.h"
+#if __has_include("SettingsCard.g.cpp")
+#include "SettingsCard.g.cpp"
+#endif
+
+namespace winrt
+{
+    using namespace Microsoft::UI::Xaml;
+    using namespace Microsoft::UI::Xaml::Controls;
+}
+
+namespace winrt::Kleio::implementation
+{
+    winrt::DependencyProperty SettingsCard::s_headerProperty{ nullptr };
+    winrt::DependencyProperty SettingsCard::s_descriptionProperty{ nullptr };
+    winrt::DependencyProperty SettingsCard::s_glyphProperty{ nullptr };
+    winrt::DependencyProperty SettingsCard::s_headerIconProperty{ nullptr };
+
+    SettingsCard::SettingsCard()
+    {
+        EnsureProperties();
+        // The template parts only exist once the template is applied; Loaded comes after that.
+        // Both handlers are on this object's own events, so capturing `this` is safe.
+        Loaded([this](winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&) { UpdateVisuals(); });
+        IsEnabledChanged([this](winrt::Windows::Foundation::IInspectable const&, winrt::DependencyPropertyChangedEventArgs const&) { UpdateVisuals(); });
+    }
+
+    // Registered lazily (not at static-initialization time, before the XAML runtime is up).
+    void SettingsCard::EnsureProperties()
+    {
+        if (s_headerProperty)
+        {
+            return;
+        }
+        auto const owner = winrt::xaml_typename<winrt::Kleio::SettingsCard>();
+        winrt::PropertyChangedCallback const callback{ &SettingsCard::OnVisualPropertyChanged };
+        s_headerProperty = winrt::DependencyProperty::Register(
+            L"Header", winrt::xaml_typename<winrt::Windows::Foundation::IInspectable>(), owner,
+            winrt::PropertyMetadata{ nullptr, callback });
+        s_descriptionProperty = winrt::DependencyProperty::Register(
+            L"Description", winrt::xaml_typename<winrt::Windows::Foundation::IInspectable>(), owner,
+            winrt::PropertyMetadata{ nullptr, callback });
+        s_glyphProperty = winrt::DependencyProperty::Register(
+            L"Glyph", winrt::xaml_typename<winrt::hstring>(), owner,
+            winrt::PropertyMetadata{ winrt::box_value(winrt::hstring{}), callback });
+        s_headerIconProperty = winrt::DependencyProperty::Register(
+            L"HeaderIcon", winrt::xaml_typename<winrt::IconElement>(), owner,
+            winrt::PropertyMetadata{ nullptr, callback });
+    }
+
+    winrt::DependencyProperty SettingsCard::HeaderProperty()
+    {
+        EnsureProperties();
+        return s_headerProperty;
+    }
+
+    winrt::DependencyProperty SettingsCard::DescriptionProperty()
+    {
+        EnsureProperties();
+        return s_descriptionProperty;
+    }
+
+    winrt::DependencyProperty SettingsCard::GlyphProperty()
+    {
+        EnsureProperties();
+        return s_glyphProperty;
+    }
+
+    winrt::DependencyProperty SettingsCard::HeaderIconProperty()
+    {
+        EnsureProperties();
+        return s_headerIconProperty;
+    }
+
+    winrt::hstring SettingsCard::Glyph()
+    {
+        return winrt::unbox_value_or<winrt::hstring>(GetValue(GlyphProperty()), winrt::hstring{});
+    }
+
+    winrt::IconElement SettingsCard::HeaderIcon()
+    {
+        auto value = GetValue(HeaderIconProperty());
+        return value ? value.try_as<winrt::IconElement>() : nullptr;
+    }
+
+    void SettingsCard::OnVisualPropertyChanged(
+        winrt::DependencyObject const& sender, winrt::DependencyPropertyChangedEventArgs const&)
+    {
+        if (auto card = sender.try_as<winrt::Kleio::SettingsCard>())
+        {
+            winrt::get_self<SettingsCard>(card)->UpdateVisuals();
+        }
+    }
+
+    void SettingsCard::UpdateVisuals()
+    {
+        try
+        {
+            auto const hasIcon = HeaderIcon() != nullptr;
+            auto const hasGlyph = !Glyph().empty();
+            auto const description = Description();
+            bool hasDescription = description != nullptr;
+            if (hasDescription)
+            {
+                if (auto text = description.try_as<winrt::Windows::Foundation::IReference<winrt::hstring>>())
+                {
+                    hasDescription = !text.Value().empty();
+                }
+            }
+
+            auto visibility = [](bool visible) { return visible ? winrt::Visibility::Visible : winrt::Visibility::Collapsed; };
+            if (auto part = GetTemplateChild(L"IconHost").try_as<winrt::UIElement>())
+            {
+                part.Visibility(visibility(hasIcon || hasGlyph));
+                part.Opacity(IsEnabled() ? 1.0 : 0.4);
+            }
+            if (auto part = GetTemplateChild(L"GlyphElement").try_as<winrt::UIElement>())
+            {
+                part.Visibility(visibility(!hasIcon && hasGlyph));
+            }
+            if (auto part = GetTemplateChild(L"HeaderIconPresenter").try_as<winrt::UIElement>())
+            {
+                part.Visibility(visibility(hasIcon));
+            }
+            if (auto part = GetTemplateChild(L"DescriptionPresenter").try_as<winrt::UIElement>())
+            {
+                part.Visibility(visibility(hasDescription));
+            }
+            if (auto part = GetTemplateChild(L"TextHost").try_as<winrt::UIElement>())
+            {
+                part.Opacity(IsEnabled() ? 1.0 : 0.4);
+            }
+        }
+        catch (...)
+        {
+        }
+    }
+}
