@@ -1,0 +1,84 @@
+#pragma once
+
+#include "Event.h"
+#include "HistoryItem.h"
+#include "Search.h"
+#include "Settings.h"
+#include "Storage.h"
+
+#include <string>
+#include <string_view>
+#include <vector>
+
+namespace Kleio
+{
+    // In-memory, sorted view of the clipboard history backed by Storage. Port of Maccy's History +
+    // PinManager business logic (UI concerns such as selection live in the popup).
+    // UI thread only.
+    class History
+    {
+    public:
+        History(Storage& storage, Settings& settings);
+
+        // Loads everything from storage, sorts, trims to HistorySize. Raises Changed.
+        void Load();
+
+        // Adds a freshly copied item (Maccy's History.add):
+        //  * If an existing item is superseded by `item` (see HistoryItem::Supersedes), the new item
+        //    takes over its firstCopiedAt, numberOfCopies (+= existing), pin, title (and
+        //    application unless the new copy came from Kleio itself); the old row is deleted.
+        //  * Persists, inserts at the sorted position, trims unpinned items beyond HistorySize.
+        // Returns the stored item. Raises ItemAdded(item, wasDuplicate) then Changed.
+        HistoryItemPtr Add(HistoryItemPtr item);
+
+        void Delete(HistoryItemPtr const& item);           // raises Changed
+        void Clear();                                      // removes all unpinned; raises Changed
+        void ClearAll();                                   // removes everything; raises Changed
+
+        // Pins with a random available letter (see AvailablePins) or unpins. Raises Changed.
+        void TogglePin(HistoryItemPtr const& item);
+        // Assigns a specific pin letter (must be available or already this item's). Raises Changed.
+        void UpdatePin(HistoryItemPtr const& item, std::wstring const& pin);
+        // Moves a pinned item within the pinned list (indices into PinnedItems()); persists PinOrder.
+        void MovePin(std::size_t from, std::size_t to);
+
+        void UpdateTitle(HistoryItemPtr const& item, std::wstring title);   // e.g. after OCR; raises Changed
+        // Replaces an item's text content (item editor): sets Text, drops Html/Rtf, regenerates title.
+        void UpdateText(HistoryItemPtr const& item, std::wstring const& text);
+        void RegenerateTitles();                           // after ShowSpecialSymbols changes
+
+        // All items, already sorted. Pinned items in pin order.
+        std::vector<HistoryItemPtr> const& PinnedItems() const noexcept { return m_pinned; }
+        std::vector<HistoryItemPtr> const& UnpinnedItems() const noexcept { return m_unpinned; }
+        // Pinned + unpinned concatenated according to PinTo.
+        std::vector<HistoryItemPtr> AllItems() const;
+        HistoryItemPtr FindById(std::int64_t id) const;
+        HistoryItemPtr MostRecent() const;                 // most recently copied item (any)
+
+        // Letters usable as pins: b..y minus a, c, q, v, w, x, y, z (reserved for select all/copy/
+        // quit/paste/close/cut/redo/undo) minus the letters used by the pin/delete/preview shortcuts,
+        // minus pins already in use.
+        std::vector<std::wstring> AvailablePins() const;
+
+        // Runs the configured search over pinned and unpinned items separately.
+        struct Filtered
+        {
+            std::vector<SearchResult> pinned;
+            std::vector<SearchResult> unpinned;
+        };
+        Filtered Filter(std::wstring_view query) const;
+
+        Event<> Changed;
+        Event<HistoryItemPtr, bool> ItemAdded;             // (item, wasDuplicate)
+
+    private:
+        void Resort();
+        void Trim();
+
+        Storage& m_storage;
+        Settings& m_settings;
+        Search m_search;
+        std::vector<HistoryItemPtr> m_pinned;
+        std::vector<HistoryItemPtr> m_unpinned;
+    };
+}
