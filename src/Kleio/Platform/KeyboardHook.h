@@ -1,16 +1,19 @@
 #pragma once
 
 #include "Core/Event.h"
+#include "Core/KeyShortcut.h"
 
+#include <vector>
 #include <windows.h>
 
 namespace Kleio
 {
     // Low-level keyboard hook (WH_KEYBOARD_LL), installed on the UI thread, used for two things
     // RegisterHotKey cannot do:
-    //  * Replacing Win+V: when enabled, Win+V is swallowed (and the Start menu suppressed on Win key
-    //    release by injecting a dummy VK 0xE8 key) and WinV is raised instead, so Kleio opens
-    //    instead of the Windows clipboard history.
+    //  * Win-key shortcuts that Windows keeps for itself (Win+V, Win+Shift+C, ...): each shortcut
+    //    set with SetShortcuts is swallowed (and the Start menu suppressed on Win key release by
+    //    injecting a dummy VK 0xE8 key) and ShortcutPressed is raised instead, so Kleio opens
+    //    instead of the Windows feature.
     //  * Paste detection for the paste stack: PasteDetected is raised when the user presses Ctrl+V
     //    or Shift+Insert anywhere (raised on key up, like Maccy). Injected input (LLKHF_INJECTED,
     //    i.e. Kleio's own paste) is ignored.
@@ -21,10 +24,11 @@ namespace Kleio
     public:
         static KeyboardHook& Instance();
 
-        void EnableWinVReplacement(bool enable);
+        // Win-key shortcuts to intercept (empty = none). Each must include Modifiers::Win.
+        void SetShortcuts(std::vector<KeyShortcut> shortcuts);
         void EnablePasteDetection(bool enable);
 
-        Event<> WinV;
+        Event<> ShortcutPressed;
         Event<> PasteDetected;
 
     private:
@@ -33,7 +37,7 @@ namespace Kleio
         static LRESULT CALLBACK HookProc(int code, WPARAM wParam, LPARAM lParam);
 
         HHOOK m_hook = nullptr;
-        bool m_replaceWinV = false;
+        std::vector<KeyShortcut> m_shortcuts;
         bool m_detectPaste = false;
     };
 }

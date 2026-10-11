@@ -26,8 +26,8 @@ namespace Kleio
         }
         bool g_leftWinDown = false;
         bool g_rightWinDown = false;
-        bool g_swallowingV = false;      // a Win+V "V" key-down was swallowed; swallow repeats and the key-up
-        bool g_suppressStart = false;    // Win+V was handled; keep the Win key-up from opening Start
+        DWORD g_swallowingKey = 0;       // main key of an intercepted shortcut; swallow its repeats and key-up
+        bool g_suppressStart = false;    // a Win shortcut was handled; keep the Win key-up from opening Start
         bool g_pasteVDown = false;       // Ctrl+V down seen; raise PasteDetected on V up
         bool g_pasteInsertDown = false;  // Shift+Insert down seen; raise on Insert up
 
@@ -49,7 +49,7 @@ namespace Kleio
 
         enum class HookEvent
         {
-            WinV,
+            Shortcut,
             Paste,
         };
 
@@ -59,9 +59,9 @@ namespace Kleio
                 try
                 {
                     auto& hook = KeyboardHook::Instance();
-                    if (which == HookEvent::WinV)
+                    if (which == HookEvent::Shortcut)
                     {
-                        hook.WinV();
+                        hook.ShortcutPressed();
                     }
                     else
                     {
@@ -95,16 +95,16 @@ namespace Kleio
         return instance;
     }
 
-    void KeyboardHook::EnableWinVReplacement(bool enable)
+    void KeyboardHook::SetShortcuts(std::vector<KeyShortcut> shortcuts)
     {
-        if (m_replaceWinV == enable)
+        if (m_shortcuts == shortcuts)
         {
             return;
         }
-        m_replaceWinV = enable;
-        if (!enable)
+        m_shortcuts = std::move(shortcuts);
+        g_swallowingKey = 0;
+        if (m_shortcuts.empty())
         {
-            g_swallowingV = false;
             g_suppressStart = false;
         }
         UpdateHook();
@@ -124,7 +124,7 @@ namespace Kleio
 
     void KeyboardHook::UpdateHook()
     {
-        const bool needed = m_replaceWinV || m_detectPaste;
+        const bool needed = !m_shortcuts.empty() || m_detectPaste;
         if (needed && !m_hook)
         {
             try
@@ -147,7 +147,7 @@ namespace Kleio
         {
             UnhookWindowsHookEx(m_hook);
             m_hook = nullptr;
-            g_swallowingV = false;
+            g_swallowingKey = 0;
             g_suppressStart = false;
             g_pasteVDown = false;
             g_pasteInsertDown = false;
@@ -167,7 +167,10 @@ namespace Kleio
                 const bool injected = (info->flags & LLKHF_INJECTED) != 0;
                 const DWORD vk = info->vkCode;
 
-                if (!injected)
+                // Injected input still counts for shortcuts (remote desktop tools such as Parsec inject
+                // the user's keys); only our own dummy key is skipped. Paste detection below ignores all
+                // injected input so that Kleio's own Ctrl+V does not count as a user paste.
+                if (!(injected && vk == DummyKey))
                 {
                     if (vk == VK_LWIN && (down || up))
                     {
@@ -178,33 +181,40 @@ namespace Kleio
                         g_rightWinDown = down;
                     }
 
-                    // ---- Win+V replacement ----
-                    if (vk == VkV)
+                    // ---- Win-key shortcuts Windows keeps for itself (Win+V, Win+Shift+C, ...) ----
+                    if (vk == g_swallowingKey && (down || up))
                     {
-                        if (down && g_swallowingV)
+                        if (up)
                         {
-                            return 1; // auto-repeat of a swallowed Win+V
+                            g_swallowingKey = 0;
                         }
-                        if (up && g_swallowingV)
+                        return 1; // auto-repeat or release of a swallowed shortcut key
+                    }
+                    if (down && !self.m_shortcuts.empty())
+                    {
+                        const bool win = g_leftWinDown || g_rightWinDown || IsDown(VK_LWIN) || IsDown(VK_RWIN);
+                        if (win)
                         {
-                            g_swallowingV = false;
-                            return 1;
-                        }
-                        if (down && self.m_replaceWinV)
-                        {
-                            const bool win = g_leftWinDown || g_rightWinDown || IsDown(VK_LWIN) || IsDown(VK_RWIN);
-                            const bool others = IsDown(VK_CONTROL) || IsDown(VK_MENU) || IsDown(VK_SHIFT);
-                            if (win && !others)
+                            const bool ctrl = IsDown(VK_CONTROL);
+                            const bool alt = IsDown(VK_MENU);
+                            const bool shift = IsDown(VK_SHIFT);
+                            for (auto const& shortcut : self.m_shortcuts)
                             {
-                                g_swallowingV = true;
-                                g_suppressStart = true;
-                                InjectDummyKey(); // while Win is still held: Start stays closed on release
-                                RaiseLater(HookEvent::WinV);
-                                return 1;
+                                if (shortcut.key == vk &&
+                                    HasFlag(shortcut.modifiers, Modifiers::Ctrl) == ctrl &&
+                                    HasFlag(shortcut.modifiers, Modifiers::Alt) == alt &&
+                                    HasFlag(shortcut.modifiers, Modifiers::Shift) == shift)
+                                {
+                                    g_swallowingKey = vk;
+                                    g_suppressStart = true;
+                                    InjectDummyKey(); // while Win is still held: Start stays closed on release
+                                    RaiseLater(HookEvent::Shortcut);
+                                    return 1;
+                                }
                             }
                         }
                     }
-                    else if ((vk == VK_LWIN || vk == VK_RWIN) && up && g_suppressStart)
+                    if ((vk == VK_LWIN || vk == VK_RWIN) && up && g_suppressStart)
                     {
                         if (!g_leftWinDown && !g_rightWinDown)
                         {
@@ -214,7 +224,7 @@ namespace Kleio
                     }
 
                     // ---- Paste detection (Ctrl+V / Shift+Insert, raised on key up like Maccy) ----
-                    if (self.m_detectPaste)
+                    if (self.m_detectPaste && !injected)
                     {
                         if (vk == VkV)
                         {

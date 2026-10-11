@@ -142,7 +142,7 @@ namespace Kleio
         m_hotKeys = std::make_unique<HotKeyService>(*m_messageWindow);
 
         auto& hook = KeyboardHook::Instance();
-        hook.WinV.Add([this] { TogglePopup(); });
+        hook.ShortcutPressed.Add([this] { TogglePopup(); });
         hook.PasteDetected.Add([this] { OnPasteDetected(); });
 
         m_tray = std::make_unique<Kleio::TrayIcon>(*m_messageWindow);
@@ -215,7 +215,7 @@ namespace Kleio
             m_history->Clear();
         }
         auto& hook = KeyboardHook::Instance();
-        hook.EnableWinVReplacement(false);
+        hook.SetShortcuts({});
         hook.EnablePasteDetection(false);
         if (m_hotKeys)
         {
@@ -484,21 +484,36 @@ namespace Kleio
         KeyShortcut const shortcut = s.PopupShortcut();
         KeyShortcut const winV{ Modifiers::Win, 'V' };
 
-        // Win+V belongs to Explorer and cannot be registered; it is served by the keyboard hook.
-        bool const shortcutIsWinV = shortcut == winV;
-        KeyboardHook::Instance().EnableWinVReplacement(!m_hotKeysSuspended && (s.ReplaceWinV() || shortcutIsWinV));
+        // Explorer keeps several Win shortcuts for itself (Win+V, Win+Shift+C, ...), so RegisterHotKey
+        // fails for them; those are served by the keyboard hook instead.
+        std::vector<KeyShortcut> hooked;
+        if (!m_hotKeysSuspended && s.ReplaceWinV())
+        {
+            hooked.push_back(winV);
+        }
 
-        if (m_hotKeysSuspended || shortcut.IsEmpty() || shortcutIsWinV)
+        bool ok = true;
+        if (m_hotKeysSuspended || shortcut.IsEmpty())
         {
             m_hotKeys->Unregister(HotKeyService::PopupHotKeyId);
-            return true;
         }
-        bool const ok = m_hotKeys->Register(HotKeyService::PopupHotKeyId, shortcut, [this] { TogglePopup(); });
-        if (!ok)
+        else if (!m_hotKeys->Register(HotKeyService::PopupHotKeyId, shortcut, [this] { TogglePopup(); }))
         {
-            Log(L"Could not register the popup shortcut " + shortcut.ToString());
-            HotKeyRegistrationFailed(winrt::hstring{ shortcut.ToString() });
+            if (HasFlag(shortcut.modifiers, Modifiers::Win))
+            {
+                if (shortcut != winV || hooked.empty())
+                {
+                    hooked.push_back(shortcut);
+                }
+            }
+            else
+            {
+                ok = false;
+                Log(L"Could not register the popup shortcut " + shortcut.ToString());
+                HotKeyRegistrationFailed(winrt::hstring{ shortcut.ToString() });
+            }
         }
+        KeyboardHook::Instance().SetShortcuts(std::move(hooked));
         return ok;
     }
 
