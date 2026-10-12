@@ -403,10 +403,14 @@ namespace Kleio
         {
             return;
         }
-        std::erase_if(item->contents, [](HistoryItemContent const& content) {
-            return content.type == ContentType::Text || content.type == ContentType::Html || content.type == ContentType::Rtf;
-        });
-        item->contents.push_back(HistoryItemContent{ std::wstring{ ContentType::Text }, EncodeText(text) });
+        // Like Maccy's ItemEditorView.applyChanges: only the edited plain text is kept, so none of
+        // the other stored formats can paste the old content.
+        std::erase_if(item->contents, [](HistoryItemContent const& content) { return content.type != ContentType::Text; });
+        if (item->contents.empty())
+        {
+            item->contents.push_back(HistoryItemContent{ std::wstring{ ContentType::Text }, {} });
+        }
+        item->contents.front().value = EncodeText(text);
         item->title = item->GenerateTitle(m_settings.ShowSpecialSymbols());
         m_storage.UpdateContents(*item);
         m_storage.Update(*item);

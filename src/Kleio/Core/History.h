@@ -56,7 +56,8 @@ namespace Kleio
         void MovePin(std::size_t from, std::size_t to);
 
         void UpdateTitle(HistoryItemPtr const& item, std::wstring title);   // e.g. after OCR; raises Changed
-        // Replaces an item's text content (item editor): sets Text, drops Html/Rtf, regenerates title.
+        // Replaces an item's text content (item editor): sets Text, drops every other content
+        // (Maccy's ItemEditorView), regenerates title.
         void UpdateText(HistoryItemPtr const& item, std::wstring const& text);
         void RegenerateTitles();                           // after ShowSpecialSymbols changes
 

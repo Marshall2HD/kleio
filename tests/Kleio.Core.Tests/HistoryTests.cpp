@@ -556,7 +556,8 @@ TEST(History_ShowSpecialSymbolsRegeneratesTitles)
 TEST(History_UpdateTitleAndText)
 {
     Fixture f;
-    auto item = ItemWithContents({ Text(L"old"), { std::wstring{ ContentType::Html }, Bytes("<b>old</b>") } });
+    auto item = ItemWithContents({ { std::wstring{ ContentType::Html }, Bytes("<b>old</b>") }, Text(L"old"),
+                                   { L"Biff12", Bytes("old sheet") }, { std::wstring{ ContentType::FromKleio }, {} } });
     f.history->Add(item);
 
     f.history->UpdateTitle(item, L"recognized text");
@@ -565,6 +566,7 @@ TEST(History_UpdateTitleAndText)
     f.history->UpdateText(item, L"new text");
     CHECK_EQ(item->Text(), std::optional<std::wstring>{ L"new text" });
     CHECK(!item->Has(ContentType::Html));
+    CHECK_EQ(item->contents.size(), std::size_t{ 1 });   // like Maccy's editor: only the text remains
     CHECK_EQ(item->title, std::wstring{ L"new text" });
 
     History reloaded(*f.storage, Settings::Instance());
