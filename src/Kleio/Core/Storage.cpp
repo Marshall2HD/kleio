@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Core/Storage.h"
+#include "Core/ClipboardFormats.h"
 
 #include <map>
 #include <stdexcept>
@@ -319,6 +320,7 @@ namespace Kleio
         }
         // Orphans can only appear if foreign keys were ever off; drop them.
         Exec(m_db, "DELETE FROM contents WHERE item_id IS NULL OR item_id NOT IN (SELECT id FROM items)");
+        RemoveUnpersistableContents();
     }
 
     Storage::~Storage()
@@ -486,6 +488,44 @@ namespace Kleio
         {
             transaction.Commit();
         }
+    }
+
+    int Storage::RemoveUnpersistableContents()
+    {
+        if (!m_db)
+        {
+            return 0;
+        }
+        std::vector<std::wstring> unwanted;
+        {
+            Statement select(m_db, "SELECT DISTINCT type FROM contents");
+            while (select.Step())
+            {
+                auto type = select.Text(0);
+                if (!ClipboardFormats::IsPersistable(type))
+                {
+                    unwanted.push_back(std::move(type));
+                }
+            }
+        }
+        if (unwanted.empty())
+        {
+            return 0;
+        }
+        Transaction transaction(m_db);
+        Statement remove(m_db, "DELETE FROM contents WHERE type = ?1");
+        int removed = 0;
+        for (auto const& type : unwanted)
+        {
+            remove.Reset();
+            remove.BindText(1, type);
+            if (!remove.Run())
+            {
+                return 0;
+            }
+            removed += sqlite3_changes(m_db);
+        }
+        return transaction.Commit() ? removed : 0;
     }
 
     std::uint64_t Storage::SizeInBytes() const

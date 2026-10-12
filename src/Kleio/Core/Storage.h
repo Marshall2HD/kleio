@@ -15,6 +15,8 @@ namespace Kleio
     //         number_of_copies INTEGER, pin TEXT, title TEXT)
     //   contents(id INTEGER PRIMARY KEY, item_id INTEGER REFERENCES items(id) ON DELETE CASCADE,
     //            type TEXT, value BLOB)
+    //   contents.type is a clipboard format name (ContentType::* or any persistable format, see
+    //   Core/ClipboardFormats.h); value holds its bytes.
     // Throws std::runtime_error on failures to open; other operations log and return.
     class Storage
     {
@@ -33,7 +35,11 @@ namespace Kleio
         void Remove(std::int64_t id);
         void RemoveUnpinned();
         void RemoveAll();
-        std::uint64_t SizeInBytes() const;       // database file size (for the Storage settings page)
+        std::uint64_t SizeInBytes() const;
+        // Maccy's Storage.removeUnpersistableContents: deletes contents whose type is not
+        // persistable (ClipboardFormats::IsPersistable). Runs when the database is opened.
+        // Returns the number of removed rows.
+        int RemoveUnpersistableContents();       // database file size (for the Storage settings page)
 
     private:
         sqlite3* m_db = nullptr;

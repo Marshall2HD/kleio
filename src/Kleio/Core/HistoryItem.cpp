@@ -16,13 +16,25 @@ namespace Kleio
         constexpr wchar_t kObjectReplacement = L'\uFFFC';   // OBJECT REPLACEMENT CHARACTER
         constexpr std::size_t kTitleMaxLength = 1000;
 
-        // Maccy's transient pasteboard types, mapped to Kleio's markers: they describe *how* the
-        // data got onto the clipboard rather than the data itself and are ignored when looking
-        // for duplicates.
-        bool IsTransientType(std::wstring_view type) noexcept
+        // Registered clipboard format names are case-insensitive.
+        bool EqualsIgnoreAsciiCase(std::wstring_view a, std::wstring_view b) noexcept
         {
-            return type == ContentType::FromKleio || type == ContentType::CanIncludeInClipboardHistory ||
-                   type.starts_with(L"Kleio.");
+            if (a.size() != b.size())
+            {
+                return false;
+            }
+            for (std::size_t i = 0; i < a.size(); ++i)
+            {
+                wchar_t x = a[i];
+                wchar_t y = b[i];
+                if (x >= L'A' && x <= L'Z') x = static_cast<wchar_t>(x - L'A' + L'a');
+                if (y >= L'A' && y <= L'Z') y = static_cast<wchar_t>(y - L'A' + L'a');
+                if (x != y)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         bool IsHighSurrogate(wchar_t c) noexcept
@@ -435,6 +447,32 @@ namespace Kleio
 
     // ------------------------------------------------------------------ HistoryItem
 
+    bool IsTransientType(std::wstring_view type) noexcept
+    {
+        // Maccy's HistoryItem.transientTypes with their Windows counterparts.
+        static constexpr std::wstring_view kTransientTypes[] = {
+            ContentType::Modified,                      // x.nspasteboard.ModifiedType
+            ContentType::FromKleio,                     // org.p0deje.Maccy
+            ContentType::CanIncludeInClipboardHistory,  // clipboard policy markers (Windows)
+            ContentType::CanUploadToCloudClipboard,
+            L"Chromium internal source URL",            // org.chromium.source-url
+            L"Chromium Web Custom MIME Data Format",    // org.chromium.web-custom-data
+            L"text/x-moz-url-priv",                     // Firefox's source page URL
+        };
+        if (type.size() >= 6 && EqualsIgnoreAsciiCase(type.substr(0, 6), L"Kleio."))
+        {
+            return true;
+        }
+        for (auto transient : kTransientTypes)
+        {
+            if (EqualsIgnoreAsciiCase(type, transient))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     bool HistoryItem::Supersedes(HistoryItem const& other) const
     {
         for (auto const& content : other.contents)
@@ -464,6 +502,44 @@ namespace Kleio
             }
         }
         return nullptr;
+    }
+
+    std::optional<std::uint32_t> HistoryItem::Modified() const
+    {
+        // Swift's Int(String(data:encoding: .utf8)): optional sign, decimal digits, nothing else.
+        // A terminating NUL (usual for Windows text formats) is tolerated.
+        auto content = Find(ContentType::Modified);
+        if (!content)
+        {
+            return std::nullopt;
+        }
+        std::string_view text{ reinterpret_cast<char const*>(content->value.data()), content->value.size() };
+        while (!text.empty() && text.back() == '\0')
+        {
+            text.remove_suffix(1);
+        }
+        if (!text.empty() && text.front() == '+')
+        {
+            text.remove_prefix(1);
+        }
+        if (text.empty() || text.size() > 10)
+        {
+            return std::nullopt;
+        }
+        std::uint64_t value = 0;
+        for (char c : text)
+        {
+            if (!IsAsciiDigit(c))
+            {
+                return std::nullopt;
+            }
+            value = value * 10 + static_cast<std::uint64_t>(c - '0');
+        }
+        if (value > 0xFFFFFFFFull)
+        {
+            return std::nullopt;
+        }
+        return static_cast<std::uint32_t>(value);
     }
 
     std::optional<std::wstring> HistoryItem::Text() const

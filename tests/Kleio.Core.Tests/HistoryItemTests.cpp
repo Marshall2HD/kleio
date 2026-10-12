@@ -209,6 +209,73 @@ TEST(HistoryItem_Supersedes)
     CHECK(!rich.Supersedes(sameTypeDifferentBytes));
 }
 
+TEST(HistoryItem_SupersedesWithAllFormats)
+{
+    // An Office-like copy: every persistable format is compared, in any order.
+    HistoryItem office = TextItem(L"cell");
+    office.contents.push_back({ std::wstring{ ContentType::Html }, Bytes("<td>cell</td>") });
+    office.contents.push_back({ L"Biff12", Bytes("\x01\x02\x03") });
+    office.contents.push_back({ L"CF_ENHMETAFILE", Bytes("EMF") });
+    office.contents.push_back({ std::wstring{ ContentType::Png }, Bytes("png") });
+
+    HistoryItem again;
+    again.contents = { office.contents[3], office.contents[2], office.contents[1], office.contents[0], office.contents[4] };
+    CHECK(office.Supersedes(again));
+    CHECK(again.Supersedes(office));
+
+    HistoryItem changedSheet = again;
+    changedSheet.contents[1].value = Bytes("\x01\x02\x04");
+    CHECK(!office.Supersedes(changedSheet));
+
+    HistoryItem textOnly = TextItem(L"cell");
+    CHECK(office.Supersedes(textOnly));
+    CHECK(!textOnly.Supersedes(office));
+}
+
+TEST(HistoryItem_TransientTypes)
+{
+    // Maccy's transientTypes and their Windows counterparts don't make a copy different.
+    for (auto type : { L"x.nspasteboard.ModifiedType", L"Kleio.FromKleio", L"CanIncludeInClipboardHistory",
+                       L"CanUploadToCloudClipboard", L"Chromium internal source URL",
+                       L"Chromium Web Custom MIME Data Format", L"chromium web custom mime data format",
+                       L"text/x-moz-url-priv", L"Kleio.Anything" })
+    {
+        CHECK(IsTransientType(type));
+        HistoryItem plain = TextItem(L"one");
+        HistoryItem marked = TextItem(L"one");
+        marked.contents.push_back({ std::wstring{ type }, Bytes("1") });
+        CHECK(plain.Supersedes(marked));
+    }
+    for (auto type : { L"CF_UNICODETEXT", L"HTML Format", L"Biff12", L"PNG", L"Kleio" })
+    {
+        CHECK(!IsTransientType(type));
+    }
+}
+
+TEST(HistoryItem_Modified)
+{
+    CHECK(!TextItem(L"one").Modified().has_value());
+    CHECK_EQ(ItemWith(ContentType::Modified, "42").Modified(), std::optional<std::uint32_t>{ 42u });
+    CHECK_EQ(ItemWith(ContentType::Modified, std::string_view{ "42\0", 3 }).Modified(), std::optional<std::uint32_t>{ 42u });
+    CHECK_EQ(ItemWith(ContentType::Modified, "4294967295").Modified(), std::optional<std::uint32_t>{ 4294967295u });
+    CHECK(!ItemWith(ContentType::Modified, "4294967296").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, "").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, "4x").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, " 4").Modified().has_value());
+}
+
+TEST(HistoryItem_ImageWithText)
+{
+    // Maccy keeps both; the item is an image (OCR title, image preview) whose text is still
+    // pasted and used as previewable text.
+    HistoryItem item = TextItem(L"caption");
+    item.contents.push_back({ std::wstring{ ContentType::Png }, Bytes("png") });
+    CHECK(item.IsImage());
+    CHECK_EQ(item.GenerateTitle(true), std::wstring{});
+    CHECK_EQ(item.PreviewableText(), std::wstring{ L"caption" });
+    CHECK_EQ(item.Text(), std::optional<std::wstring>{ L"caption" });
+}
+
 // ---- HexColor (SwiftHEXColors semantics as used by ColorImage.from) ----
 
 TEST(HistoryItem_HexColor)

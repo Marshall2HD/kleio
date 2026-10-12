@@ -190,6 +190,102 @@ TEST(History_DifferentItemsAreNotMerged)
     CHECK_EQ(f.Items().size(), std::size_t{ 2 });
 }
 
+namespace
+{
+    HistoryItemContent ModifiedMarker(std::string_view changeCount)
+    {
+        return { std::wstring{ ContentType::Modified }, Bytes(changeCount) };
+    }
+}
+
+TEST(History_AddingItemWithDifferentModifiedType)
+{
+    // Port of Maccy's testAddingItemWithDifferentModifiedType: the marker is transient.
+    Fixture f;
+    const std::vector<HistoryItemContent> firstContents{ Text(L"one"), ModifiedMarker("1") };
+    f.history->Add(ItemWithContents(firstContents));
+    auto second = f.history->Add(ItemWithContents({ Text(L"one"), ModifiedMarker("2") }));
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ second }));
+    CHECK(second->contents == firstContents);
+}
+
+TEST(History_ModifiedAfterCopying)
+{
+    // Port of Maccy's testModifiedAfterCopying: an app rewrites the copy made at change count 7.
+    Fixture f;
+    auto foo = MakeTextItem(L"foo");
+    foo->changeCount = 7;
+    f.history->Add(foo);
+
+    auto bar = ItemWithContents({ Text(L"bar"), ModifiedMarker("7") });
+    bar->changeCount = 8;
+    auto merged = f.history->Add(bar);
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ merged }));
+    CHECK_EQ(merged->Text(), std::optional<std::wstring>{ L"bar" });   // the modified contents are kept
+    CHECK_EQ(merged->numberOfCopies, 2);
+    CHECK_EQ(merged->firstCopiedAt, foo->firstCopiedAt);
+    CHECK_EQ(f.StoredItems(), std::size_t{ 1 });
+    CHECK_EQ(f.StoredContents(), std::size_t{ 2 });
+
+    // Both change counts now lead to the merged item.
+    auto again = ItemWithContents({ Text(L"baz"), ModifiedMarker("7") });
+    auto mergedAgain = f.history->Add(again);
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ mergedAgain }));
+    CHECK_EQ(mergedAgain->numberOfCopies, 3);
+}
+
+TEST(History_ModifiedMarkerOutsideSessionIsANewCopy)
+{
+    Fixture f;
+    auto foo = MakeTextItem(L"foo");
+    foo->changeCount = 7;
+    f.history->Add(foo);
+
+    // Unknown change count.
+    f.history->Add(ItemWithContents({ Text(L"bar"), ModifiedMarker("6") }));
+    CHECK_EQ(f.Items().size(), std::size_t{ 2 });
+
+    // Deleted items leave the session log (Maccy's sessionLog.removeValues in delete()).
+    f.history->Delete(foo);
+    auto baz = f.history->Add(ItemWithContents({ Text(L"baz"), ModifiedMarker("7") }));
+    CHECK_EQ(f.Items().size(), std::size_t{ 2 });
+    CHECK_EQ(baz->numberOfCopies, 1);
+
+    // So do cleared ones.
+    auto qux = MakeTextItem(L"qux");
+    qux->changeCount = 9;
+    f.history->Add(qux);
+    f.history->Clear();
+    auto quux = f.history->Add(ItemWithContents({ Text(L"quux"), ModifiedMarker("9") }));
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ quux }));
+    CHECK_EQ(quux->numberOfCopies, 1);
+}
+
+TEST(History_DuplicateWithAllFormatsKeepsOriginalContents)
+{
+    // A FromKleio copy reads back every format Kleio wrote; it must merge into the original.
+    Fixture f;
+    const std::vector<HistoryItemContent> office{
+        Text(L"cell"),
+        { std::wstring{ ContentType::Html }, Bytes("<td>cell</td>") },
+        { L"Biff12", Bytes("sheet") },
+        { L"CF_ENHMETAFILE", Bytes("emf") },
+        { L"CanUploadToCloudClipboard", { 1, 0, 0, 0 } },
+    };
+    f.history->Add(ItemWithContents(office, L"EXCEL.EXE"));
+    std::vector<HistoryItemContent> readBack{ office.rbegin(), office.rend() };
+    readBack.push_back({ std::wstring{ ContentType::FromKleio }, {} });
+    auto copy = f.history->Add(ItemWithContents(readBack, L"Kleio.exe"));
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ copy }));
+    CHECK(copy->contents == office);
+    CHECK_EQ(copy->numberOfCopies, 2);
+    CHECK_EQ(copy->application, std::wstring{ L"EXCEL.EXE" });
+    CHECK_EQ(f.StoredContents(), office.size());
+}
+
 TEST(History_ClearingUnpinned)
 {
     Fixture f;
@@ -512,7 +608,8 @@ TEST(History_ShowSpecialSymbolsRegeneratesTitles)
 TEST(History_UpdateTitleAndText)
 {
     Fixture f;
-    auto item = ItemWithContents({ Text(L"old"), { std::wstring{ ContentType::Html }, Bytes("<b>old</b>") } });
+    auto item = ItemWithContents({ { std::wstring{ ContentType::Html }, Bytes("<b>old</b>") }, Text(L"old"),
+                                   { L"Biff12", Bytes("old sheet") }, { std::wstring{ ContentType::FromKleio }, {} } });
     f.history->Add(item);
 
     f.history->UpdateTitle(item, L"recognized text");
@@ -521,6 +618,7 @@ TEST(History_UpdateTitleAndText)
     f.history->UpdateText(item, L"new text");
     CHECK_EQ(item->Text(), std::optional<std::wstring>{ L"new text" });
     CHECK(!item->Has(ContentType::Html));
+    CHECK_EQ(item->contents.size(), std::size_t{ 1 });   // like Maccy's editor: only the text remains
     CHECK_EQ(item->title, std::wstring{ L"new text" });
 
     History reloaded(*f.storage, Settings::Instance());
@@ -635,5 +733,48 @@ TEST(Storage_RoundTripAndSize)
         storage.Insert(pinned);
         storage.RemoveAll();
         CHECK(storage.LoadAll().empty());
+    }
+}
+
+TEST(Storage_ArbitraryFormatNames)
+{
+    KleioTests::TempDatabase database;
+    Storage storage(database.Path());
+    HistoryItem item;
+    item.contents.push_back(Text(L"text"));
+    item.contents.push_back({ L"Art::GVML ClipFormat", Bytes("gvml") });
+    item.contents.push_back({ L"CF_ENHMETAFILE", std::vector<std::uint8_t>(70000, 0x5A) });
+    item.contents.push_back({ L"Format \u00E9\u4E2D", { 0x00, 0x01, 0x00 } });
+    item.contents.push_back({ L"x.nspasteboard.ModifiedType", Bytes("12") });
+    storage.Insert(item);
+    const auto loaded = storage.LoadAll();
+    CHECK(loaded.size() == 1 && loaded[0]->contents == item.contents);
+}
+
+TEST(Storage_RemovingUnpersistableContents)
+{
+    // Port of Maccy's testRemovingUnpersistableContents (runs when the database is opened).
+    KleioTests::TempDatabase database;
+    HistoryItem item;
+    item.contents.push_back(Text(L"live"));
+    item.contents.push_back({ L"Ole Private Data", Bytes("ole") });
+    item.contents.push_back({ L"CF_DIB", Bytes("dib") });
+    item.contents.push_back({ L"Biff12", Bytes("sheet") });
+    item.contents.push_back({ std::wstring{ ContentType::FromKleio }, {} });
+    {
+        Storage storage(database.Path());
+        storage.Insert(item);
+        CHECK_EQ(storage.RemoveUnpersistableContents(), 2);
+        CHECK_EQ(storage.RemoveUnpersistableContents(), 0);
+        const auto loaded = storage.LoadAll();
+        CHECK(loaded.size() == 1 && loaded[0]->contents.size() == 3);
+        storage.Insert(item);
+    }
+    Storage reopened(database.Path());
+    for (auto const& stored : reopened.LoadAll())
+    {
+        CHECK_EQ(stored->contents.size(), std::size_t{ 3 });
+        CHECK(!stored->Has(L"Ole Private Data") && !stored->Has(L"CF_DIB"));
+        CHECK(stored->Has(L"Biff12") && stored->Has(ContentType::FromKleio) && stored->Has(ContentType::Text));
     }
 }
