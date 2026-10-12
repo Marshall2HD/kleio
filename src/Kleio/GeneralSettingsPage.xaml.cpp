@@ -116,6 +116,8 @@ namespace winrt::Kleio::implementation
             RemoveFormattingToggle().IsOn(settings.RemoveFormattingByDefault());
             ReplaceWinVToggle().IsOn(settings.ReplaceWinV());
             PlaySoundsToggle().IsOn(settings.PlaySounds());
+            ShowNotificationsToggle().IsOn(settings.ShowNotifications());
+            NotificationsInfoBar().IsOpen(settings.ShowNotifications() && !::Kleio::SystemIntegration::AreAppNotificationsEnabled());
             RefreshModifiers();
         }
         catch (...)
@@ -283,6 +285,22 @@ namespace winrt::Kleio::implementation
             return;
         }
         ::Kleio::Settings::Instance().PlaySounds(PlaySoundsToggle().IsOn());
+    }
+
+    void GeneralSettingsPage::ShowNotificationsToggle_Toggled(winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&)
+    {
+        if (m_loading)
+        {
+            return;
+        }
+        bool const on = ShowNotificationsToggle().IsOn();
+        ::Kleio::Settings::Instance().ShowNotifications(on);
+        NotificationsInfoBar().IsOpen(on && !::Kleio::SystemIntegration::AreAppNotificationsEnabled());
+    }
+
+    void GeneralSettingsPage::NotificationSettingsLink_Click(winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&)
+    {
+        ::Kleio::SystemIntegration::OpenWindowsNotificationSettings();
     }
 
     void GeneralSettingsPage::OnShortcutChanged(winrt::Kleio::ShortcutRecorder const& sender, winrt::Windows::Foundation::IInspectable const&)

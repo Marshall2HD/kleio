@@ -77,37 +77,20 @@ namespace Kleio
             }
         }
 
-        winrt::fire_and_forget CheckForUpdatesInBackground()
+        // Maccy's notification body is the item title; images may not have one (yet).
+        std::wstring NotificationText(HistoryItem const& item)
         {
-            auto dispatcher = winrt::DispatcherQueue::GetForCurrentThread();
-            co_await winrt::resume_after(std::chrono::seconds(10));
-            winrt::IReference<winrt::hstring> version{ nullptr };
-            try
+            std::wstring text = item.title;
+            if (text.empty())
             {
-                version = co_await CheckForUpdateAsync();
+                text = item.IsImage() ? L"Image" : (!item.Files().empty() ? L"Files" : L"Clipboard item");
             }
-            catch (...)
+            if (text.size() > 250)
             {
+                text.resize(249);
+                text.push_back(L'…');
             }
-            if (!version)
-            {
-                co_return;
-            }
-            co_await wil::resume_foreground(dispatcher);
-            try
-            {
-                auto notification = winrt::AppNotificationBuilder()
-                    .AddText(L"Kleio " + version.Value() + L" is available")
-                    .AddText(L"Download the new version from GitHub.")
-                    .AddButton(winrt::AppNotificationButton(L"Download")
-                        .SetInvokeUri(winrt::Uri{ ReleasesUrl }))
-                    .BuildNotification();
-                winrt::AppNotificationManager::Default().Show(notification);
-            }
-            catch (...)
-            {
-                Log(L"Could not show the update notification");
-            }
+            return text;
         }
     }
 
@@ -192,6 +175,13 @@ namespace Kleio
 
         try
         {
+            // Must be subscribed before Register() so clicks reach this process.
+            auto dispatcher = winrt::DispatcherQueue::GetForCurrentThread();
+            winrt::AppNotificationManager::Default().NotificationInvoked(
+                [this, dispatcher](auto&&, winrt::AppNotificationActivatedEventArgs const& args) {
+                    auto arguments = args.Arguments();
+                    dispatcher.TryEnqueue([this, arguments] { OnNotificationInvoked(arguments); });
+                });
             winrt::AppNotificationManager::Default().Register();
         }
         catch (...)
@@ -202,14 +192,14 @@ namespace Kleio
         UpdateTray();
         ApplyHotKeys();
 
-        if (settings.CheckForUpdates())
-        {
-            CheckForUpdatesInBackground();
-        }
+        auto& updates = UpdateScheduler::Instance();
+        updates.UpdateFound.Add([this](UpdateInfo const& update) { ShowUpdateNotification(update); });
+        updates.Start();
     }
 
     void AppController::Shutdown()
     {
+        UpdateScheduler::Instance().Stop();
         if (m_history && Settings::Instance().ClearOnQuit())
         {
             m_history->Clear();
@@ -326,11 +316,7 @@ namespace Kleio
         }
 
         HidePopup();
-        m_clipboard->Copy(*item, plan.removeFormatting);
-        if (Settings::Instance().PlaySounds())
-        {
-            SystemIntegration::PlaySoundNamed(L"Knock");
-        }
+        CopyItem(*item, plan.removeFormatting);
         if (plan.paste)
         {
             m_paste.RestoreForegroundWindow();
@@ -356,7 +342,7 @@ namespace Kleio
         PasteStackChanged();
 
         HidePopup();
-        m_clipboard->Copy(*m_pasteStack->items.front(), plan.removeFormatting);
+        CopyItem(*m_pasteStack->items.front(), plan.removeFormatting);
         if (plan.paste)
         {
             m_paste.RestoreForegroundWindow();
@@ -389,7 +375,7 @@ namespace Kleio
                 return;
             }
             auto const plan = PlanFor(m_pasteStack->modifiers);
-            m_clipboard->Copy(*m_pasteStack->items.front(), plan.removeFormatting);
+            CopyItem(*m_pasteStack->items.front(), plan.removeFormatting);
             PasteStackChanged();
         });
         timer.Start();
@@ -537,9 +523,10 @@ namespace Kleio
         HistoryItemPtr stored = m_history->Add(std::move(item));
         m_history->ItemAdded.Remove(token);
 
-        if (!duplicate && Settings::Instance().PlaySounds())
+        // Maccy's History.add notifies (with the "write" sound) only for new items, not duplicates.
+        if (!duplicate && stored)
         {
-            SystemIntegration::PlaySoundNamed(L"Write");
+            Notify(*stored, L"Write");
         }
         if (stored && needsOcr && stored->title.empty())
         {
@@ -607,5 +594,183 @@ namespace Kleio
     {
         auto& s = Settings::Instance();
         return s.IgnoreEvents() || (!s.SaveFiles() && !s.SaveImages() && !s.SaveText());
+    }
+
+    // ---- Copy feedback (Maccy's Clipboard.copy + Notifier) ----
+
+    void AppController::CopyItem(HistoryItem const& item, bool removeFormatting)
+    {
+        m_clipboard->Copy(item, removeFormatting);
+        Notify(item, L"Knock");
+    }
+
+    void AppController::Notify(HistoryItem const& item, wchar_t const* sound)
+    {
+        auto& s = Settings::Instance();
+        // Maccy plays the sound itself (NSSound) next to a silent notification; Kleio keeps it
+        // under its own "Play sounds" setting, since Windows has no per-app sound permission to read.
+        if (s.PlaySounds())
+        {
+            SystemIntegration::PlaySoundNamed(sound);
+        }
+        if (!s.ShowNotifications())
+        {
+            return;
+        }
+        try
+        {
+            auto manager = winrt::AppNotificationManager::Default();
+            // Maccy checks the authorization status; here: notifications turned off for Kleio (or
+            // all apps) in Windows Settings, or by policy.
+            if (manager.Setting() != winrt::AppNotificationSetting::Enabled)
+            {
+                return;
+            }
+            auto notification = winrt::AppNotificationBuilder()
+                .AddText(NotificationText(item))
+                .MuteAudio()
+                .BuildNotification();
+            // One entry per kind in the notification center instead of one per copy.
+            notification.Tag(sound);
+            notification.Group(L"history");
+            notification.ExpiresOnReboot(true);
+            manager.Show(notification);
+        }
+        catch (...)
+        {
+            Log(L"Could not show a notification");
+        }
+    }
+
+    // ---- Notifications ----
+
+    void AppController::OnNotificationInvoked(winrt::Windows::Foundation::Collections::IMap<winrt::hstring, winrt::hstring> const& arguments)
+    {
+        auto get = [&arguments](wchar_t const* key) -> std::wstring {
+            try
+            {
+                if (arguments && arguments.HasKey(key))
+                {
+                    return std::wstring{ arguments.Lookup(key) };
+                }
+            }
+            catch (...)
+            {
+            }
+            return {};
+        };
+        std::wstring const action = get(L"action");
+        if (action == L"installUpdate")
+        {
+            UpdateInfo update{ get(L"version"), get(L"package"), get(L"release") };
+            // Only Kleio's own release assets.
+            if (!update.packageUrl.starts_with(L"https://github.com/Marshall2HD/kleio/releases/download/"))
+            {
+                update.packageUrl.clear();
+            }
+            InstallUpdate(update);
+        }
+        else if (action == L"skipUpdate")
+        {
+            Settings::Instance().SkippedUpdateVersion(get(L"version"));
+        }
+        else if (action == L"openPackage")
+        {
+            auto const package = get(L"package");
+            if (package.ends_with(L".msix") || package.ends_with(L".msixbundle"))
+            {
+                OpenPackageInstaller(package);
+            }
+        }
+        else if (action == L"showUpdate")
+        {
+            OpenAbout();
+        }
+    }
+
+    // ---- Updates ----
+
+    void AppController::ShowUpdateNotification(UpdateInfo const& update)
+    {
+        // Sparkle's update alert: Install Update / Skip This Version / Remind Me Later (= dismiss).
+        try
+        {
+            winrt::AppNotificationBuilder builder;
+            builder.AddArgument(L"action", L"showUpdate");
+            builder.AddText(L"A new version of Kleio is available!");
+            builder.AddText(L"Kleio " + update.version + L" is now available. You have " +
+                            std::wstring{ SystemIntegration::AppVersion() } + L".");
+            if (!update.packageUrl.empty())
+            {
+                builder.AddButton(winrt::AppNotificationButton(L"Install update")
+                                      .AddArgument(L"action", L"installUpdate")
+                                      .AddArgument(L"version", update.version)
+                                      .AddArgument(L"package", update.packageUrl)
+                                      .AddArgument(L"release", update.releaseUrl));
+            }
+            builder.AddButton(winrt::AppNotificationButton(L"Skip this version")
+                                  .AddArgument(L"action", L"skipUpdate")
+                                  .AddArgument(L"version", update.version));
+            if (!update.releaseUrl.empty())
+            {
+                builder.AddButton(winrt::AppNotificationButton(update.packageUrl.empty() ? L"Download" : L"Release notes")
+                                      .SetInvokeUri(winrt::Uri{ update.releaseUrl }));
+            }
+            auto notification = builder.BuildNotification();
+            notification.Tag(L"update");
+            notification.Group(L"updates");
+            winrt::AppNotificationManager::Default().Show(notification);
+        }
+        catch (...)
+        {
+            Log(L"Could not show the update notification");
+        }
+    }
+
+    void AppController::ShowUpdateFailedNotification(std::wstring const& error, std::wstring const& package, UpdateInfo const& update)
+    {
+        try
+        {
+            winrt::AppNotificationBuilder builder;
+            builder.AddText(L"Couldn't install Kleio " + update.version);
+            builder.AddText(error);
+            if (!package.empty())
+            {
+                builder.AddButton(winrt::AppNotificationButton(L"Open in App Installer")
+                                      .AddArgument(L"action", L"openPackage")
+                                      .AddArgument(L"package", package));
+            }
+            builder.AddButton(winrt::AppNotificationButton(L"Download")
+                                  .SetInvokeUri(winrt::Uri{ update.releaseUrl.empty() ? std::wstring{ ReleasesUrl } : update.releaseUrl }));
+            auto notification = builder.BuildNotification();
+            notification.Tag(L"update");
+            notification.Group(L"updates");
+            winrt::AppNotificationManager::Default().Show(notification);
+        }
+        catch (...)
+        {
+            Log(L"Could not show the update failure notification");
+        }
+    }
+
+    void AppController::InstallUpdate(UpdateInfo const& update)
+    {
+        try
+        {
+            auto notification = winrt::AppNotificationBuilder()
+                .AddText(L"Installing Kleio " + update.version)
+                .AddText(L"Kleio restarts when the update is installed.")
+                .MuteAudio()
+                .BuildNotification();
+            notification.Tag(L"update");
+            notification.Group(L"updates");
+            winrt::AppNotificationManager::Default().Show(notification);
+        }
+        catch (...)
+        {
+        }
+        ::Kleio::InstallUpdate(update, [this, update](std::wstring const& error, std::wstring const& package) {
+            ShowUpdateFailedNotification(error, package, update);
+        });
     }
 }

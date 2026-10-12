@@ -11,6 +11,7 @@
 #include "Platform/MessageWindow.h"
 #include "Platform/PasteService.h"
 #include "Platform/TrayIcon.h"
+#include "Platform/UpdateChecker.h"
 
 #include <winrt/Kleio.h>
 
@@ -88,16 +89,33 @@ namespace Kleio
         // Shown by Settings when RegisterHotKey fails, etc.
         Event<winrt::hstring> HotKeyRegistrationFailed;
 
+        // ---- App notifications (Maccy's Notifier) ----
+        // Button/body clicks of Kleio's notifications, from NotificationInvoked or from a launch by
+        // a notification (App::HandleActivation).
+        void OnNotificationInvoked(winrt::Windows::Foundation::Collections::IMap<winrt::hstring, winrt::hstring> const& arguments);
+
+        // ---- Updates (Maccy's SoftwareUpdater / Sparkle) ----
+        // Downloads and installs `update`; reports failures with a notification.
+        void InstallUpdate(UpdateInfo const& update);
+
     private:
         AppController() = default;
+
+        // Maccy's Clipboard.copy: puts the item on the clipboard, then plays the "knock" sound and
+        // shows a notification (when enabled).
+        void CopyItem(HistoryItem const& item, bool removeFormatting);
+        // Maccy's Notifier.notify(body:sound:): sound (PlaySounds) + notification (ShowNotifications).
+        void Notify(HistoryItem const& item, wchar_t const* sound);
+        void ShowUpdateNotification(UpdateInfo const& update);
+        void ShowUpdateFailedNotification(std::wstring const& error, std::wstring const& package, UpdateInfo const& update);
+        // True when no copies are being recorded: paused, or every Save type is off (Maccy's
+        // isStatusItemDisabled).
+        bool IsRecordingDisabled() const;
 
         void OnNewCopy(HistoryItemPtr item);
         void OnPasteDetected();
         void OnSettingChanged(std::wstring_view key);
         void UpdateTray();
-        // True when no copies are being recorded: paused, or every Save type is off (Maccy's
-        // isStatusItemDisabled).
-        bool IsRecordingDisabled() const;
 
         std::unique_ptr<MessageWindow> m_messageWindow;
         std::unique_ptr<Kleio::Storage> m_storage;

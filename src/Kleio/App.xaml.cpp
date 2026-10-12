@@ -3,6 +3,8 @@
 
 #include "AppController.h"
 
+#include <winrt/Microsoft.Windows.AppNotifications.h>
+
 namespace winrt
 {
     using namespace Microsoft::UI::Xaml;
@@ -68,6 +70,17 @@ namespace winrt::Kleio::implementation
         auto& settings = ::Kleio::Settings::Instance();
         std::wstring const arguments = ArgumentsOf(args);
 
+        // A click on one of Kleio's notifications while Kleio wasn't running (when it runs, the
+        // click arrives through AppNotificationManager::NotificationInvoked instead).
+        if (args.Kind() == ExtendedActivationKind::AppNotification)
+        {
+            if (auto notification = args.Data().try_as<winrt::Microsoft::Windows::AppNotifications::AppNotificationActivatedEventArgs>())
+            {
+                controller.OnNotificationInvoked(notification.Arguments());
+            }
+            return;
+        }
+
         if (Contains(arguments, L"--quit"))
         {
             controller.Quit();
@@ -96,8 +109,8 @@ namespace winrt::Kleio::implementation
             return;
         }
 
-        // Started with Windows: stay in the notification area.
-        if (args.Kind() == ExtendedActivationKind::StartupTask)
+        // Started with Windows or after an update (--updated): stay in the notification area.
+        if (args.Kind() == ExtendedActivationKind::StartupTask || Contains(arguments, L"--updated"))
         {
             return;
         }

@@ -35,7 +35,7 @@
                     Message="Kleio was disabled in Task Manager &gt; Startup apps (or Settings &gt; Apps &gt; Startup). Turn it on there to launch Kleio at login." />
 
                 <local:SettingsCard Header="Check for updates automatically" Glyph="&#xE895;"
-                                    Description="Look for a newer Kleio release on GitHub from time to time.">
+                                    Description="Look for a newer Kleio release on GitHub once a day and offer to install it.">
                     <StackPanel Orientation="Horizontal" Spacing="16">
                         <Button x:Name="CheckNowButton" Content="Check now" Click="CheckNowButton_Click" AutomationProperties.Name="Check for updates now" />
                         <ToggleSwitch x:Name="CheckForUpdatesToggle" AutomationProperties.Name="Check for updates automatically" Toggled="CheckForUpdatesToggle_Toggled" />
@@ -114,10 +114,28 @@
                     </HyperlinkButton>
                 </local:SettingsCard>
 
-                <!-- ===== Sounds ===== -->
-                <TextBlock Text="Sounds" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
-                <local:SettingsCard Header="Play sounds" Glyph="&#xE767;" Description="Play a sound when Kleio copies or pastes an item.">
+                <!-- ===== Notifications and sounds ===== -->
+                <TextBlock Text="Notifications and sounds" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard Header="Show notifications" Glyph="&#xEA8F;" Description="Show a notification with the item when Kleio copies an item or saves a new copy.">
+                    <ToggleSwitch x:Name="ShowNotificationsToggle" AutomationProperties.Name="Show notifications" Toggled="ShowNotificationsToggle_Toggled" />
+                </local:SettingsCard>
+                <InfoBar
+                    x:Name="NotificationsInfoBar"
+                    Severity="Warning"
+                    IsClosable="False"
+                    Title="Notifications are turned off in Windows"
+                    Message="Turn on notifications for Kleio in Windows notification settings to see them." />
+                <local:SettingsCard Header="Play sounds" Glyph="&#xE767;" Description="Play a sound when Kleio copies an item or saves a new copy.">
                     <ToggleSwitch x:Name="PlaySoundsToggle" AutomationProperties.Name="Play sounds" Toggled="PlaySoundsToggle_Toggled" />
+                </local:SettingsCard>
+                <local:SettingsCard Header="Windows notification settings" Glyph="&#xE713;"
+                                    Description="Choose how Kleio's notifications appear, or turn them off, in Settings &gt; System &gt; Notifications.">
+                    <HyperlinkButton x:Name="NotificationSettingsLink" Click="NotificationSettingsLink_Click" AutomationProperties.Name="Open Windows notification settings">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Open" />
+                            <FontIcon FontSize="12" Glyph="&#xE8A7;" />
+                        </StackPanel>
+                    </HyperlinkButton>
                 </local:SettingsCard>
             </StackPanel>
         </ScrollViewer>

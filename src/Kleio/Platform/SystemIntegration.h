@@ -11,6 +11,12 @@ namespace Kleio::SystemIntegration
 
     // Opens Settings > System > Clipboard (ms-settings:clipboard).
     void OpenWindowsClipboardSettings();
+    // Opens Settings > System > Notifications (ms-settings:notifications); Maccy's "Notifications
+    // and sounds" link to the macOS notification settings.
+    void OpenWindowsNotificationSettings();
+    // False when Windows blocks Kleio's notifications (turned off for Kleio or for all apps, or by
+    // policy): AppNotificationManager::Setting() != Enabled.
+    bool AreAppNotificationsEnabled();
 
     // ---- Misc ----
     void OpenUri(wchar_t const* uri);
