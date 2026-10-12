@@ -18,7 +18,8 @@ namespace Kleio
     // Icons: TrayIconStyle::Kleio uses Assets\Kleio.ico; the others are rendered at runtime from
     // Segoe Fluent Icons glyphs (Paste E77F, Attach E723, Cut E8C6) in white or black to match the
     // taskbar theme (HKCU ...\Themes\Personalize SystemUsesLightTheme), re-rendered on theme/DPI
-    // changes. When paused (ignoreEvents) the icon is drawn at reduced opacity.
+    // changes. When disabled (Maccy: paused, or every Save type off) the icon is drawn at reduced
+    // opacity, like Maccy's appearsDisabled status item.
     // The icon is re-added when Explorer restarts (TaskbarCreated).
     class TrayIcon
     {
@@ -38,7 +39,7 @@ namespace Kleio
         void Hide();
         bool IsVisible() const noexcept { return m_visible; }
         void SetStyle(TrayIconStyle style);
-        void SetPaused(bool paused);
+        void SetDisabled(bool disabled);
         void SetTooltip(std::wstring const& text);   // truncated to 127 chars
 
         // Screen rectangle of the icon (Shell_NotifyIconGetRect), in physical pixels.
@@ -54,14 +55,14 @@ namespace Kleio
     private:
         std::optional<LRESULT> OnMessage(UINT message, WPARAM wParam, LPARAM lParam);
         void ShowContextMenu(int x, int y);
-        void RenderIcon();               // (re)creates m_icon for the current style/paused/theme/DPI
+        void RenderIcon();               // (re)creates m_icon for the current style/disabled/theme/DPI
         bool Notify(DWORD message);      // Shell_NotifyIconW with the current state
         void Add();                      // NIM_ADD + NIM_SETVERSION
 
         MessageWindow& m_window;
         std::uint64_t m_handlerToken = 0;
         bool m_visible = false;
-        bool m_paused = false;
+        bool m_disabled = false;
         TrayIconStyle m_style = TrayIconStyle::Kleio;
         std::wstring m_tooltip;
         HICON m_icon = nullptr;

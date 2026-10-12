@@ -554,7 +554,8 @@ namespace Kleio
             ApplyHotKeys();
         }
         else if (key == Settings::kShowTrayIcon || key == Settings::kTrayIcon || key == Settings::kIgnoreEvents ||
-                 key == Settings::kShowRecentCopyInTray)
+                 key == Settings::kIgnoreOnlyNextEvent || key == Settings::kShowRecentCopyInTray ||
+                 key == Settings::kSaveFiles || key == Settings::kSaveImages || key == Settings::kSaveText)
         {
             UpdateTray();
         }
@@ -577,12 +578,17 @@ namespace Kleio
             m_tray->Show(s.TrayIcon());
         }
         m_tray->SetStyle(s.TrayIcon());
-        m_tray->SetPaused(s.IgnoreEvents());
+        // Maccy's isStatusItemDisabled: dimmed while paused or when nothing would be saved.
+        m_tray->SetDisabled(IsRecordingDisabled());
 
         std::wstring tooltip = L"Kleio";
         if (s.IgnoreEvents())
         {
             tooltip += s.IgnoreOnlyNextEvent() ? L" (ignoring next copy)" : L" (paused)";
+        }
+        else if (IsRecordingDisabled())
+        {
+            tooltip += L" (not saving any type)";
         }
         if (s.ShowRecentCopyInTray() && m_history)
         {
@@ -595,5 +601,11 @@ namespace Kleio
             }
         }
         m_tray->SetTooltip(tooltip);
+    }
+
+    bool AppController::IsRecordingDisabled() const
+    {
+        auto& s = Settings::Instance();
+        return s.IgnoreEvents() || (!s.SaveFiles() && !s.SaveImages() && !s.SaveText());
     }
 }

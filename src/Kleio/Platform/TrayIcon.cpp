@@ -335,13 +335,13 @@ namespace Kleio
         }
     }
 
-    void TrayIcon::SetPaused(bool paused)
+    void TrayIcon::SetDisabled(bool disabled)
     {
-        if (m_paused == paused)
+        if (m_disabled == disabled)
         {
             return;
         }
-        m_paused = paused;
+        m_disabled = disabled;
         if (m_visible)
         {
             RenderIcon();
@@ -430,7 +430,7 @@ namespace Kleio
         {
             size = MulDiv(16, static_cast<int>(dpi), 96);
         }
-        const double opacity = m_paused ? 0.5 : 1.0;
+        const double opacity = m_disabled ? 0.5 : 1.0;
 
         HICON icon = nullptr;
         if (m_style == TrayIconStyle::Kleio)
@@ -440,7 +440,7 @@ namespace Kleio
             HICON loaded = static_cast<HICON>(LoadImageW(nullptr, path.c_str(), IMAGE_ICON, size, size, LR_LOADFROMFILE));
             if (loaded)
             {
-                if (m_paused)
+                if (m_disabled)
                 {
                     icon = FadeIcon(loaded, size, opacity);
                     DestroyIcon(loaded);

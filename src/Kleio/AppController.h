@@ -95,6 +95,9 @@ namespace Kleio
         void OnPasteDetected();
         void OnSettingChanged(std::wstring_view key);
         void UpdateTray();
+        // True when no copies are being recorded: paused, or every Save type is off (Maccy's
+        // isStatusItemDisabled).
+        bool IsRecordingDisabled() const;
 
         std::unique_ptr<MessageWindow> m_messageWindow;
         std::unique_ptr<Kleio::Storage> m_storage;
