@@ -94,6 +94,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check translations
+        run: python tools/check_translations.py
+
       - uses: microsoft/setup-msbuild@v2
 
       - name: Build Kleio.Core.Tests
