@@ -11,20 +11,40 @@ namespace winrt
     using namespace Microsoft::Windows::AppLifecycle;
 }
 
-namespace
+namespace winrt::Kleio::implementation
 {
-    std::wstring ArgumentsOf(winrt::AppActivationArguments const& args)
+    // Read everything out of the activation arguments immediately. For a redirected activation
+    // they are a proxy into the second kleio.exe, which exits once the redirect completes; touching
+    // them later on the UI thread fails with RPC_S_CALL_FAILED (and crashed Kleio).
+    App::Activation App::Snapshot(AppActivationArguments const& args)
     {
-        if (args.Kind() == winrt::ExtendedActivationKind::Launch)
+        Activation activation;
+        activation.kind = args.Kind();
+        if (activation.kind == ExtendedActivationKind::Launch)
         {
             if (auto launch = args.Data().try_as<winrt::Windows::ApplicationModel::Activation::ILaunchActivatedEventArgs>())
             {
-                return std::wstring{ launch.Arguments() };
+                activation.arguments = launch.Arguments();
             }
         }
-        return {};
+        else if (activation.kind == ExtendedActivationKind::AppNotification)
+        {
+            if (auto notification = args.Data().try_as<winrt::Microsoft::Windows::AppNotifications::AppNotificationActivatedEventArgs>())
+            {
+                auto copy = winrt::single_threaded_map<winrt::hstring, winrt::hstring>();
+                for (auto const& pair : notification.Arguments())
+                {
+                    copy.Insert(pair.Key(), pair.Value());
+                }
+                activation.notificationArguments = copy;
+            }
+        }
+        return activation;
     }
+}
 
+namespace
+{
     bool Contains(std::wstring const& haystack, std::wstring_view needle)
     {
         return haystack.find(needle) != std::wstring::npos;
@@ -56,28 +76,43 @@ namespace winrt::Kleio::implementation
 
         auto instance = AppInstance::GetCurrent();
         instance.Activated({ this, &App::OnActivated });
-        HandleActivation(instance.GetActivatedEventArgs(), true);
+        HandleActivation(Snapshot(instance.GetActivatedEventArgs()), true);
     }
 
     void App::OnActivated(IInspectable const&, AppActivationArguments const& args)
     {
-        m_dispatcher.TryEnqueue([this, args] { HandleActivation(args, false); });
+        Activation activation;
+        try
+        {
+            activation = Snapshot(args);
+        }
+        catch (...)
+        {
+            return; // the redirecting process is already gone; nothing to act on
+        }
+        m_dispatcher.TryEnqueue([this, activation = std::move(activation)] {
+            try
+            {
+                HandleActivation(activation, false);
+            }
+            catch (...)
+            {
+                OutputDebugStringW(L"Kleio: exception while handling an activation\n");
+            }
+        });
     }
 
-    void App::HandleActivation(AppActivationArguments const& args, bool initial)
+    void App::HandleActivation(Activation const& activation, bool initial)
     {
         auto& controller = ::Kleio::AppController::Current();
         auto& settings = ::Kleio::Settings::Instance();
-        std::wstring const arguments = ArgumentsOf(args);
+        std::wstring const& arguments = activation.arguments;
 
         // A click on one of Kleio's notifications while Kleio wasn't running (when it runs, the
         // click arrives through AppNotificationManager::NotificationInvoked instead).
-        if (args.Kind() == ExtendedActivationKind::AppNotification)
+        if (activation.kind == ExtendedActivationKind::AppNotification)
         {
-            if (auto notification = args.Data().try_as<winrt::Microsoft::Windows::AppNotifications::AppNotificationActivatedEventArgs>())
-            {
-                controller.OnNotificationInvoked(notification.Arguments());
-            }
+            controller.OnNotificationInvoked(activation.notificationArguments);
             return;
         }
 
@@ -111,7 +146,7 @@ namespace winrt::Kleio::implementation
 
         // Started with Windows, by a scripting command (kleio --get ... starts Kleio with
         // --background) or after an update (--updated): stay in the notification area.
-        if (args.Kind() == ExtendedActivationKind::StartupTask || Contains(arguments, L"--background") ||
+        if (activation.kind == ExtendedActivationKind::StartupTask || Contains(arguments, L"--background") ||
             Contains(arguments, L"--updated"))
         {
             return;

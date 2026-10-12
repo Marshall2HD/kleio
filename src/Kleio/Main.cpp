@@ -21,13 +21,15 @@ namespace
     constexpr wchar_t InstanceKey[] = L"Kleio.Main";
 
     // RedirectActivationToAsync must not be awaited on the STA thread; run it on a worker thread.
+    // Bounded wait: if the running instance quits while handling the activation ("kleio --quit"),
+    // the operation can stay pending forever and the alias process would never exit.
     void RedirectTo(AppInstance const& instance, AppActivationArguments const& args)
     {
         std::thread worker([&] {
             winrt::init_apartment(winrt::apartment_type::multi_threaded);
             try
             {
-                instance.RedirectActivationToAsync(args).get();
+                instance.RedirectActivationToAsync(args).wait_for(std::chrono::seconds{ 5 });
             }
             catch (...)
             {

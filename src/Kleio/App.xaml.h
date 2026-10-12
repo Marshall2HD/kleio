@@ -11,6 +11,15 @@ namespace winrt::Kleio::implementation
         void OnLaunched(Microsoft::UI::Xaml::LaunchActivatedEventArgs const&);
 
     private:
+        // What HandleActivation needs, copied out of AppActivationArguments right away.
+        struct Activation
+        {
+            Microsoft::Windows::AppLifecycle::ExtendedActivationKind kind{};
+            std::wstring arguments;
+            winrt::Windows::Foundation::Collections::IMap<winrt::hstring, winrt::hstring> notificationArguments{ nullptr };
+        };
+        static Activation Snapshot(Microsoft::Windows::AppLifecycle::AppActivationArguments const& args);
+
         // Handles activations redirected from a second launch (see Main.cpp). Raised on a
         // background thread; marshalled to the UI thread.
         void OnActivated(winrt::Windows::Foundation::IInspectable const&,
@@ -19,7 +28,7 @@ namespace winrt::Kleio::implementation
         // "--background"/"--updated" and startup-task launches stay hidden; with no recognised
         // argument toggles the popup (like reopening Maccy). `initial` = first launch of the process.
         // (--get/--select/--delete/--clear never get here: see Main.cpp and Platform/ScriptingPipe.)
-        void HandleActivation(Microsoft::Windows::AppLifecycle::AppActivationArguments const& args, bool initial);
+        void HandleActivation(Activation const& activation, bool initial);
 
         Microsoft::UI::Dispatching::DispatcherQueue m_dispatcher{ nullptr };
     };
