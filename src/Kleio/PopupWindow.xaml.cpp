@@ -810,6 +810,7 @@ namespace winrt::Kleio::implementation
         }
         Guard([&] { SaveLastPosition(); });
         m_shown = false;
+        Guard([&] { EndCloakedResize(); });
 
         Guard([&] {
             ResetShortcutState();   // Maccy Popup.reset (panel close)
@@ -3537,14 +3538,105 @@ namespace winrt::Kleio::implementation
             }
             width = std::min<int>(width, work.right - work.left);
             x = ClampInt(x, work.left, work.right - width);
-            SetClientRect(x, client.top, width, client.bottom - client.top);
-            FitHeight();
+            // Width and height (Maccy computeSizeWithPreview: preferredHeight with the minimum preview
+            // height) change in one step; two resizes moved the window twice.
+            const int height = static_cast<int>(std::lround(DesiredHeight((work.bottom - work.top) / m_scale) * m_scale));
+            int y = m_anchorBottom ? client.bottom - height : client.top;
+            y = ClampInt(y, work.top, work.bottom - height);
+            if (!opening)
+            {
+                m_placementLeft = false;
+                ApplyPreviewLayout();
+            }
+            // XAML lays out the new size a frame or two after the window changes: without the cloak
+            // the new area flashes unpainted and, when the preview opens to the left, the whole list
+            // is drawn shifted until the layout catches up.
+            BeginCloakedResize(width, height);
+            SetClientRect(x, y, width, height);
         }
-        if (!opening)
+        else if (!opening)
         {
             m_placementLeft = false;
             ApplyPreviewLayout();
         }
+    }
+
+    void PopupWindow::BeginCloakedResize(int width, int height)
+    {
+        if (!m_hwnd || m_scale <= 0)
+        {
+            return;
+        }
+        BOOL cloak = TRUE;
+        if (!m_cloaked && FAILED(DwmSetWindowAttribute(m_hwnd, DWMWA_CLOAK, &cloak, sizeof(cloak))))
+        {
+            return;
+        }
+        m_cloaked = true;
+        m_cloakWidth = width / m_scale;
+        m_cloakHeight = height / m_scale;
+        m_cloakMatchedFrames = 0;
+
+        if (!m_cloakRenderingToken)
+        {
+            // Rendering fires before each XAML frame: once the root has the new size, the next
+            // Rendering means a frame with the new layout has been presented.
+            m_cloakRenderingToken = xaml::Media::CompositionTarget::Rendering(
+                [weak = get_weak()](IInspectable const&, IInspectable const&) {
+                    auto self = weak.get();
+                    if (!self || !self->m_cloaked)
+                    {
+                        return;
+                    }
+                    try
+                    {
+                        auto root = self->RootGrid();
+                        const bool sized = std::abs(root.ActualWidth() - self->m_cloakWidth) <= 1.5 &&
+                                           std::abs(root.ActualHeight() - self->m_cloakHeight) <= 1.5;
+                        if (sized && ++self->m_cloakMatchedFrames >= 2)
+                        {
+                            self->EndCloakedResize();
+                        }
+                    }
+                    catch (...)
+                    {
+                        self->EndCloakedResize();
+                    }
+                });
+        }
+        if (!m_cloakTimer)
+        {
+            m_cloakTimer = winrt::Microsoft::UI::Dispatching::DispatcherQueue::GetForCurrentThread().CreateTimer();
+            m_cloakTimer.IsRepeating(false);
+            m_cloakTimer.Interval(std::chrono::milliseconds{ 250 });
+            m_cloakTimer.Tick([weak = get_weak()](auto&&, auto&&) {
+                if (auto self = weak.get())
+                {
+                    self->EndCloakedResize(); // never leave the popup invisible
+                }
+            });
+        }
+        m_cloakTimer.Stop();
+        m_cloakTimer.Start();
+    }
+
+    void PopupWindow::EndCloakedResize()
+    {
+        if (m_cloakTimer)
+        {
+            m_cloakTimer.Stop();
+        }
+        if (m_cloakRenderingToken)
+        {
+            xaml::Media::CompositionTarget::Rendering(m_cloakRenderingToken);
+            m_cloakRenderingToken = {};
+        }
+        if (m_cloaked && m_hwnd)
+        {
+            BOOL cloak = FALSE;
+            DwmSetWindowAttribute(m_hwnd, DWMWA_CLOAK, &cloak, sizeof(cloak));
+        }
+        m_cloaked = false;
     }
 
     void PopupWindow::UpdatePreview()

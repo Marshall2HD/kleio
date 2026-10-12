@@ -187,6 +187,10 @@ namespace winrt::Kleio::implementation
         void FitHeight();
         bool GetClientScreenRect(RECT& rect) const;
         void SetClientRect(int x, int y, int width, int height);
+        // Hides the window (DWM cloak) until XAML has rendered a frame at the given client size, so
+        // a programmatic resize never shows stale content or unpainted areas.
+        void BeginCloakedResize(int width, int height);
+        void EndCloakedResize();
         void SaveLastPosition();
         void SetScale(double scale);
 
@@ -251,6 +255,13 @@ namespace winrt::Kleio::implementation
         bool m_anchorBottom = false;
         int m_lastClientWidth = 0;
         int m_lastClientHeight = 0;
+
+        bool m_cloaked = false;
+        double m_cloakWidth = 0;     // expected client size in DIPs
+        double m_cloakHeight = 0;
+        int m_cloakMatchedFrames = 0;
+        winrt::event_token m_cloakRenderingToken{};
+        winrt::Microsoft::UI::Dispatching::DispatcherQueueTimer m_cloakTimer{ nullptr };
 
         ::Kleio::Event<>::Token m_historyToken = 0;
         ::Kleio::Event<>::Token m_pasteStackToken = 0;
