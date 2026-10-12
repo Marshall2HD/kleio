@@ -1834,7 +1834,18 @@ namespace winrt::Kleio::implementation
         {
             return;
         }
-        if (!m_searchTimer.IsRunning())
+        if (m_searchTimer.IsRunning())
+        {
+            return; // a search is already scheduled; it reads the latest text
+        }
+        // Maccy's Throttler, as its comment describes it: run at once when the last search is more than
+        // 200 ms ago, otherwise coalesce into one run 200 ms later. (Maccy's comparison of a negative
+        // timeIntervalSinceNow is never true, so Maccy always waits 200 ms.)
+        if (std::chrono::steady_clock::now() - m_lastSearch >= std::chrono::milliseconds(200))
+        {
+            ApplyQuery();
+        }
+        else
         {
             m_searchTimer.Start();
         }
@@ -1852,6 +1863,7 @@ namespace winrt::Kleio::implementation
             return;
         }
         m_query = std::move(text);
+        m_lastSearch = std::chrono::steady_clock::now();
         Refresh(false);
 
         // Maccy History.searchQuery didSet.

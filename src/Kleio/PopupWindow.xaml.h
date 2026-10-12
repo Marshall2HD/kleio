@@ -219,6 +219,7 @@ namespace winrt::Kleio::implementation
 
         std::wstring m_query;
         winrt::Microsoft::UI::Dispatching::DispatcherQueueTimer m_searchTimer{ nullptr };
+        std::chrono::steady_clock::time_point m_lastSearch{};
         winrt::Microsoft::UI::Dispatching::DispatcherQueueTimer m_previewTimer{ nullptr };
 
         bool m_pinTop = true;
