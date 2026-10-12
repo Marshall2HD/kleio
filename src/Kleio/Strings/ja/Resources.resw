@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows 用クリップボード マネージャー</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>、</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>画像、{0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>クリップボードの項目</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>ピン留め済み</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>選択中、{0} / {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>ピン留め</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>ピン留めを外す</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>全てクリア</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>設定…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Kleio について</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio を開く</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio を一時停止</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>次のコピーを無視</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio を終了</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>ペーストスタックを停止</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>項目を編集</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>入力して検索…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボードの履歴を検索</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>プレビューの表示/非表示</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>ペーストスタック</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ペーストスタックを停止</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ピン留めされた項目</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボードの履歴</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>抽出したテキストをコピーします。</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>抽出したテキストをコピーします</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ピン留め</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>項目を編集</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ペーストスタックを停止</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>アプリケーション:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>固定されていない項目をクリアします。
+Shift を押しながら選択すると全てクリアします。</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>全ての項目をクリアします。</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Kleio の設定を開きます。</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>アプリケーションについての詳細を表示します。</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>アプリケーションを終了します。</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>何かをコピーすると、ここに表示されます。</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>結果がありません</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>プレビューを表示</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>プレビューを非表示</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>{0}でプレビューを表示します。</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>{0}でプレビューを非表示にします。</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>{0}でピン留めします。</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>{0}でピン留めを外します。</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>{0}で削除します。</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>ペーストスタック · {0} 項目</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>ペーストスタック · {0} 項目</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>ペーストスタック — 貼り付けるたびに次の項目がクリップボードに入ります。</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>書式なしで貼り付け</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>編集…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>履歴をクリアしますか?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>履歴をすべてクリアしますか?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>履歴をクリアしてもよろしいですか？ピン留めされた項目は残ります。この操作は元に戻せません。</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>ピン留めされた項目も含めて履歴をクリアしてもよろしいですか？この操作は元に戻せません。</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>今後確認しない</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>キー</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>このテキストは長すぎるため編集できません。</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>編集不可能なコンテンツ（画像またはファイル）</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>編集すると、すべてのフォーマットが破棄されます。</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>サイズ: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>最初にコピーした日時: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>最後にコピーした日時: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>コピー回数: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (一時停止中)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (次のコピーを無視)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (保存する種類なし)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio の新しいバージョンがあります!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} が利用可能です。現在のバージョンは {1} です。</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>アップデートをインストール</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>このバージョンをスキップ</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>リリース ノート</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0} をインストールできませんでした</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>アプリ インストーラーで開く</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} をインストールしています</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>アップデートのインストール後に Kleio が再起動します。</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>アップデートをインストールしています</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} をダウンロードしています。アップデートのインストール後に Kleio が再起動します。</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>アップデートをインストールできませんでした</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>アップデートがあります</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio は最新です</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} は最新バージョンです。</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>アップデートを確認できませんでした</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>公開されている Kleio のリリースが見つかりませんでした。</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>インターネット接続を確認して、もう一度お試しください。</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>このリリースには、この PC 用のインストール パッケージがありません。</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>ダウンロードに失敗しました (HTTP {0})。</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>ダウンロードしたパッケージを保存できませんでした。</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>アップデートをインストールできませんでした。</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} をインストールしました。使用するには Kleio を終了して再度開いてください。</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio の準備ができていません。</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>クリップボードの項目が見つかりません</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>クリップボードの項目に {0} の内容がありません</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>キャンセルしました</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>不明なコマンドです</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio が起動後に応答しませんでした。</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio が応答していません。</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio を起動できませんでした。</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio が要求を理解できませんでした。実行中の Kleio は同じバージョンですか?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>項目が大きすぎます。</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio はコマンドを実行できませんでした。</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio は終了中です。</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} 使い方は "kleio --help" を実行してください。</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Kleio にコマンドを送信できませんでした。</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio が応答しませんでした。</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio が無効な応答を返しました。</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>失敗しました。</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>{0} に書き込めませんでした。</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>--get、--select、--delete、--clear のいずれか 1 つだけを使用してください。</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>項目番号が複数指定されました。</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>項目番号は 1 以上にしてください。</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>予期しない引数: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format は --get と一緒にのみ使用できます。</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format には text、html、rtf、image、files のいずれかを指定してください。</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output は --get と一緒にのみ使用できます。</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output にはファイル パスが必要です。</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected は --get と一緒にのみ使用できます。</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes は --clear と一緒にのみ使用できます。</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>不明なオプション: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio の設定</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio の設定</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>保管</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>保管</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>保管</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>外見</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>外見</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>外見</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>無視</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>無視</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>無視</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Kleioについて</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleioについて</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Kleioについて</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>ショートカット</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>{0} をクリア</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}、{1}、{2} のいずれかを含めてください</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>ショートカットを押してください…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>記録中。ショートカットを押してください。Esc でキャンセル、Backspace でクリア</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>選択して新しいショートカットを記録します。Esc でキャンセル、Backspace でクリアします。</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ショートカットをクリア</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ショートカットをクリア</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>ログイン時に実行</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Windows にサインインしたときに Kleio を自動的に起動します。</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ログイン時に実行</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>ログイン時の実行が Windows によってオフにされています</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio はタスク マネージャー &gt; スタートアップ アプリ (または 設定 &gt; アプリ &gt; スタートアップ) で無効になっています。ログイン時に Kleio を起動するには、そこでオンにしてください。</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>自動的にアップデートを確認</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>1 日に 1 回 GitHub で新しい Kleio のリリースを探し、インストールを提案します。</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>今確認する</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>今すぐアップデートを確認</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>自動的にアップデートを確認</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio のメニュー、設定、メッセージの言語です。</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows の既定</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>新しい言語を使用するには Kleio を再起動してください。</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>今すぐ再起動</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>ショートカット</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio を開く</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>アプリケーションを開くグローバルショートカットキー。修飾キーを押しながらメインキーを繰り返し押すと、リストの次の項目が選択されます。このモードでは、修飾キーを離すと選択が確定し、ポップアップが閉じます。デフォルト：Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio を開くショートカット</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>ショートカットを登録できませんでした</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>このショートカットは別のアプリで使用されています。別のショートカットを選んでください。</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>ピン</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>履歴項目を固定するショートカット キー。デフォルト：Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ピン留めのショートカット</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>デリート</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>履歴項目を削除するショートカット キー。デフォルト：Alt+Delete。</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>削除のショートカット</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>追加情報付きのプレビューを表示します。デフォルト：Ctrl+Space。</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>プレビューのショートカット</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>検索モード</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>検索フィールドに入力したテキストを履歴の項目と照合する方法です。</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>検索モード</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>精密</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>あいまい</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>正規表現</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>自動的に貼り付け</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>選択した項目をコピーするだけでなく、アクティブなアプリに貼り付けます。</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>自動的に貼り付け</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>書式なしで貼り付け</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>選択した項目からフォント、色などの書式を削除します。</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>書式なしで貼り付け</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>項目選択時の動作カスタマイズ：
+• {0}を押しながら選択すると項目をコピーします。
+• {1}を押しながら選択すると項目をコピーして貼り付けます。
+• {2}を押しながら選択すると項目をコピーし、 書式なしで貼り付けます。</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows のクリップボード</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows には Win+V で開く独自のクリップボード履歴があります。Kleio は実行中、Windows の設定を変更せずにこのショートカットを引き継ぐことができます。</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V を置き換える</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio の実行中は、Win+V で Windows のクリップボード履歴の代わりに Kleio が開きます。Windows の設定は変更されません。</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V を置き換える</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows のクリップボード設定</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Windows のクリップボード履歴のオン/オフやクリアは、設定 &gt; システム &gt; クリップボード で行います。</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows のクリップボード設定を開く</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>通知と音</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>通知を表示</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio が項目をコピーしたときや新しいコピーを保存したときに、項目を含む通知を表示します。</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>通知を表示</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Windows で通知がオフになっています</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>通知を表示するには、Windows の通知設定で Kleio の通知をオンにしてください。</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>サウンドを再生</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio が項目をコピーしたときや新しいコピーを保存したときにサウンドを再生します。</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>サウンドを再生</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows の通知設定</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Kleio の通知の表示方法の選択やオフは、設定 &gt; システム &gt; 通知 で行います。</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows の通知設定を開く</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>保管するコピーコンテンツタイプを変更します。</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>エクスプローラーやその他のアプリでコピーしたファイルとフォルダー。</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ファイルを保存</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>画像とスクリーンショット。</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>画像を保存</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>プレーン テキスト、リッチ テキスト、HTML。</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>テキストを保存</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>履歴</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>保管する履歴の項目数。デフォルト：200。</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ディスク上の現在のサイズ。</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>履歴のサイズ</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>履歴内の項目の順序。デフォルト：最後にコピーした日時。</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>最後にコピーした日時</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>最初にコピーした日時</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>コピー回数</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>ポップアップ</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>ポップアップ場所</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>ポップアップが表れる場所を変更します。デフォルト：カーソル。</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>リセット位置</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ポップアップを既定の位置に戻します</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>リセット位置</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ポップアップ場所</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>カーソル</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>通知領域のアイコン</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>窓の中央</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>画面の中央</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>最終位置</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>アクティブスクリーン</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>ディスプレイ {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>ディスプレイ {0} (未接続)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>ピン留め場所</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>ピン留め項目の場所を変更します。デフォルト：上段。</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ピン留め場所</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>上段</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>下段</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>画像の高さ</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>プレビュー時の画像の最大の高さ。デフォルト：40。ヒント：16に設定するとテキスト項目と同じように見えます。</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>画像の高さ</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>プレビューを自動的に開く</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>しばらくすると、選択した項目の追加情報を含むプレビューを表示します。</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>プレビューを自動的に開く</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>プレビューの遅延</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>プレビュー ポップアップが表示されるまでのミリ秒単位の遅延。デフォルト：1500。</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>プレビューの遅延 (ミリ秒)</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>一致を強調表示する</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>検索一致の強調表示スタイルを変更します。デフォルト: 太字。</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>一致を強調表示する</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>太字</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>イタリック</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>特殊な記号を表示する</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>改行、タブ、先頭および末尾のスペースを特殊記号で表示します。</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>特殊な記号を表示する</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>通知領域</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>通知領域にアイコンを表示</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>タスク バーの通知領域に Kleio のアイコンを表示します。</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>通知領域にアイコンを表示</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>通知領域のアイコンのスタイル</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio のロゴ</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボード</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>クリップボード</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップ</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>クリップ</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>はさみ</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>はさみ</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>アイコンのヒントに最近のコピーを表示</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>通知領域のアイコンをポイントしたときに、最新のコピーを表示します。</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>アイコンのヒントに最近のコピーを表示</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>ポップアップのレイアウト</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>検索フィールド表示</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>検索フィールドを常に表示するか、入力を始めたときだけ表示します。</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>検索フィールド表示</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>検索フィールドの表示</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>常に</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>検索中</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>検索フィールドの前にタイトル表示</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>検索フィールドの左に「Kleio」を表示します。</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>検索フィールドの前にタイトル表示</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>アプリケーションのアイコンを表示する</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>各項目のコピー元のアプリのアイコンを表示します。</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>アプリケーションのアイコンを表示する</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>16進カラースウォッチを表示</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>16進カラーコードの横にカラースウォッチを表示します。</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>16進カラースウォッチを表示</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>フッター表示</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>ポップアップの下部に クリア、設定、Kleio について、終了 のコマンドを表示します。</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>フッター表示</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>フッターがない場合は、通知領域のアイコンのメニューか、ポップアップで Ctrl+, を押して設定を開きます。</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>無視する対象</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>アプリケーション</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>クリップボード形式</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>正規表現</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>特定のアプリケーションからのコピーを無視できます。ただし完全ではありません。Windows は何をどのアプリがコピーしたかを知らせないため、Kleio はクリップボードを所有しているアプリか前面にあるアプリを確認します。可能であればクリップボード形式を使用してください。</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>リストされているものを除くすべてのアプリケーションを無視する</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>下に一覧表示したアプリケーションでのコピーだけを保存します。</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>リストされているものを除くすべてのアプリケーションを無視する</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>アプリケーション</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>これらのアプリケーションでのコピーは保存されません。</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>実行中のアプリを追加</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>実行中のアプリを追加</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>プログラム ファイルを選んでアプリを追加</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>アプリを追加…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>無視しているアプリケーションはありません。</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>これらのクリップボード形式のいずれかを含むコピーは保存されません。既定では Kleio.Transient が登録されています。削除したり、任意の形式を追加したりできます。</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>形式の名前を調べるには、アプリで何かをコピーし、NirSoft InsideClipboard などのビューアーでクリップボードを確認してください。登録済みの形式 (番号ではなく名前) だけを指定できます。</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>クリップボード形式を追加</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>形式の名前 (例: Kleio.Transient)</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボード形式の名前</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボード形式を追加</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>無視しているクリップボード形式はありません。</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>既定値に戻す</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>クリップボード形式を既定値に戻す</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>テキストがこれらの正規表現のいずれかに一致するコピーは保存されません。式は ECMAScript (JavaScript) の構文を使い、テキストのどこにでも一致します。テキスト全体に一致させるには ^ と $ を使用してください。</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>例</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>多くの API キーやトークンのような 50 文字の英数字</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 桁のワンタイム コード</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>支払いカードの番号</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>正規表現を追加</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>正規表現</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>正規表現を追加</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>無効な正規表現</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>正規表現は定義されていません。</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio は「{0}」または「{1}」が付いたコピーを常に無視します。これらは、パスワード マネージャーなどのアプリが機密データをクリップボード マネージャーに渡さないために使う Windows の規約です。</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>{0} を削除</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>実行可能ファイルの名前</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>実行中のアプリが見つかりません</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>「{0}」は有効な ECMAScript の正規表現ではありません。</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio を一時停止</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>新しいコピーを一時的にすべて無視します。機密データをコピーする間 Kleio に記録させないのに便利です。</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio を一時停止</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>スクリプトから使用することが多いでしょう。機密データをコピーする間、コマンド ラインから Kleio を一時停止します:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… データをコピー …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause、データをコピー、その後 kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>次のコピーだけを無視するには:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… データをコピー …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next、その後データをコピー</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>通知領域のアイコンを Alt+クリックして Kleio を一時停止または再開することもできます。次のコピーだけを無視するには Alt+Shift+クリックします。</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>終了時、履歴をクリアする</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>アプリケーションを終了する前に、ピン留めされていない項目をすべて自動的に削除します。</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>終了時、履歴をクリアする</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>システムのクリップボードもクリア</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>有効にすると、履歴をクリアすると現在のシステム クリップボードもクリアされます。</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>システムのクリップボードもクリア</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio のロゴ</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>バージョン {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows 用クリップボード マネージャー</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>アップデートを確認</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>アップデートを確認</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>クレジット</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio は Alex Rodionov 氏の Maccy の移植版です</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy は macOS 用の軽量なクリップボード マネージャーです。Kleio はその機能とレイアウトを Windows 11 にもたらします。</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy の Web サイト</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy の Web サイト</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub の Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub の Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>ソース コード</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>GitHub で問題の報告、機能の提案、貢献ができます。</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub の Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub の Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>サポート: GitHub で問題を報告</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio と Maccy は MIT ライセンスで公開されているフリー ソフトウェアです。</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT ライセンス</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT ライセンス</value>
+  </data>
+</root>

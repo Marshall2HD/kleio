@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>מנהל לוח גזירים ל-Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>תמונה, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>קבצים</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>פריט מלוח הגזירים</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>נעוץ</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>נבחר, {0} מתוך {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>נעיצה</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>שחרור</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>מחיקה</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>פינוי</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>פינוי של הכול</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>הגדרות…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>על אודות Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>יציאה</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>פתיחת Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>השהיית Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>התעלמות מההעתקה הבאה</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>יציאה מ-Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>עצירת ערימת ההדבקה</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>עריכת פריט</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>רווח</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>למעלה</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>למטה</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>שמאלה</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>ימינה</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>הקלדה כאן תחפש…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>חיפוש בהיסטוריית לוח הגזירים</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגה או הסתרה של התצוגה המקדימה</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>ערימת הדבקה</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>עצירת ערימת ההדבקה</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פריטים נעוצים</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>היסטוריית לוח הגזירים</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>העתק את הטקסט שחולץ.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>העתק את הטקסט שחולץ</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>נעיצה</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>עריכת פריט</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מחיקה</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>עצירת ערימת ההדבקה</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>יישום:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>פינוי פריטים שלא ננעצו.
+אפשר לבחור עם Shift כדי לפנות הכול.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>לפנות את כל הפריטים.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>פתיחת ההגדרות של Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>מידע נוסף על היישום.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>יציאה מהיישום.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>יש להעתיק משהו כדי לראות אותו כאן.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>אין תוצאות</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>הצגת תצוגה מקדימה</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>הסתרת התצוגה המקדימה</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>יש ללחוץ על {0} כדי להציג תצוגה מקדימה.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>יש ללחוץ על {0} כדי להסתיר תצוגה מקדימה.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>יש ללחוץ על {0} כדי לנעוץ.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>יש ללחוץ על {0} כדי לנעוץ / לשחרר.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>יש ללחוץ על {0} כדי למחוק.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>ערימת הדבקה · פריט {0}</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>ערימת הדבקה · {0} פריטים</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>ערימת הדבקה — כל הדבקה מעבירה את הפריט הבא ללוח הגזירים.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>העתקה</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>הדבקה</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>להדביק בלי עיצוב</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>עריכה…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>לפנות את ההיסטוריה?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>לפנות את כל ההיסטוריה?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>לפנות את ההיסטוריה? פריטים נעוצים יישמרו. אי אפשר לבטל את הפעולה הזאת.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>לפנות את ההיסטוריה, כולל הפריטים הנעוצים? אי אפשר לבטל את הפעולה הזאת.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>לא לשאול שוב</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>מקש קישור</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>הטקסט הזה ארוך מכדי לערוך אותו.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>תוכן שאינו ניתן לעריכה (תמונה או קובץ)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>העריכה תבטל את כל העיצוב.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>שמירה</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>ממדים: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>מועד ההעתקה הראשונה: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>מועד ההעתקה האחרונה: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>מספר העותקים: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (מושהה)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (מתעלם מההעתקה הבאה)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (לא שומר אף סוג)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>גרסה חדשה של Kleio זמינה!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} זמין עכשיו. הגרסה שלך היא {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>התקנת העדכון</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>דילוג על הגרסה הזאת</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>הורדה</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>הערות גרסה</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>לא ניתן היה להתקין את Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>פתיחה במתקין היישומים</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} בהתקנה</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio יופעל מחדש לאחר התקנת העדכון.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>העדכון בהתקנה</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} בהורדה. Kleio יופעל מחדש לאחר התקנת העדכון.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>לא ניתן היה להתקין את העדכון</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>יש עדכון זמין</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio מעודכן</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} היא הגרסה העדכנית ביותר.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>לא ניתן היה לבדוק אם יש עדכונים</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>לא נמצאה גרסה מפורסמת של Kleio.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>גרסאות</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>יש לבדוק את החיבור לאינטרנט ולנסות שוב.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>לגרסה אין חבילת התקנה למחשב הזה.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>ההורדה נכשלה (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>לא ניתן היה לשמור את החבילה שהורדה.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>לא ניתן היה להתקין את העדכון.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} הותקן. יש לצאת מ-Kleio ולפתוח אותו מחדש כדי להשתמש בו.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio עדיין לא מוכן.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>הפריט מלוח הגזירים לא נמצא</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>לפריט מלוח הגזירים אין תוכן בפורמט {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>בוטל</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>פקודה לא מוכרת</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio לא הגיב לאחר ההפעלה.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio לא מגיב.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>לא ניתן היה להפעיל את Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio לא הבין את הבקשה. האם Kleio שפועל הוא באותה גרסה?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>הפריט גדול מדי.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio לא הצליח להריץ את הפקודה.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio בתהליך יציאה.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} להוראות שימוש יש להריץ "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>לא ניתן היה לשלוח את הפקודה ל-Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio לא ענה.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio שלח תשובה לא תקינה.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>נכשל.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>לא ניתן היה לכתוב את {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>יש להשתמש רק באחת מהאפשרויות --get,‏ --select,‏ --delete ו־--clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>צוין יותר ממספר פריט אחד.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>מספר הפריט חייב להיות 1 ומעלה.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>ארגומנט לא צפוי: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>אפשר להשתמש ב־--format רק עם --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>הערך של --format חייב להיות text,‏ html,‏ rtf,‏ image או files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>אפשר להשתמש ב־--output רק עם --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>‏--output דורש נתיב קובץ.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>אפשר להשתמש ב־--selected רק עם --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>אפשר להשתמש ב־--yes רק עם --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>אפשרות לא מוכרת: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>ההגדרות של Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>ההגדרות של Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>אחסון</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>אחסון</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>אחסון</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>מראה</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מראה</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>מראה</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>התעלמות</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>התעלמות</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>התעלמות</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>מתקדם</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>על אודות</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>על אודות</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>על אודות</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>קיצור מקשים</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>ניקוי {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>יש לכלול {0},‏ {1} או {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>יש ללחוץ על קיצור מקשים…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>בהקלטה. יש ללחוץ על קיצור מקשים, Esc לביטול, Backspace לניקוי</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>לא הוגדר</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>יש לבחור כדי להקליט קיצור מקשים חדש. Esc מבטל, Backspace מנקה.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>לא הוגדר</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ניקוי קיצור המקשים</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ניקוי קיצור המקשים</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>להפעיל עם הכניסה למערכת</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>הפעלה אוטומטית של Kleio בכניסה ל-Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>להפעיל עם הכניסה למערכת</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows כיבה את ההפעלה עם הכניסה למערכת</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio הושבת במנהל המשימות &gt; יישומי הפעלה (או בהגדרות &gt; יישומים &gt; הפעלה). יש להפעיל אותו שם כדי ש-Kleio יופעל בכניסה.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>לבדוק אוטומטית אם יש עדכונים</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>חיפוש גרסה חדשה יותר של Kleio ב-GitHub פעם ביום והצעה להתקין אותה.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>לבדוק עכשיו</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>בדיקת עדכונים עכשיו</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>לבדוק אוטומטית אם יש עדכונים</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>השפה של התפריטים, ההגדרות וההודעות של Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>ברירת המחדל של Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>יש להפעיל מחדש את Kleio כדי להשתמש בשפה החדשה.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>הפעלה מחדש עכשיו</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>קיצורי מקשים</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>פתיחת Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>מקש קיצור גלובלי לפתיחת היישום. לחיצה חוזרת על המקש הראשי תוך החזקת מקשי השינוי תבחר את הפריט הבא ברשימה. במצב זה, שחרור מקשי השינוי יאשר את הבחירה ויסגור את החלון הקופץ. ברירת מחדל: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>קיצור מקשים לפתיחת Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>לא ניתן היה לרשום את קיצור המקשים</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>קיצור המקשים הזה נמצא בשימוש של יישום אחר. יש לבחור קיצור אחר.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>נעיצה</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>צירוף מקשים לנעיצת פריט. ברירת מחדל: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>קיצור מקשים לנעיצה</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>מחיקה</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>צירוף מקשים למחיקת פריט מההיסטוריה. ברירת מחדל: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>קיצור מקשים למחיקה</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>הצג תצוגה מקדימה עם מידע נוסף. ברירת מחדל: Ctrl+רווח.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>קיצור מקשים לתצוגה מקדימה</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>מצב חיפוש</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>האופן שבו הטקסט שמקלידים בשדה החיפוש מותאם לפריטי ההיסטוריה.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מצב חיפוש</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>מדויק</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>מעורפל</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>ביטויים רגולריים</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>מעורבב</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>התנהגות</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>להדביק אוטומטית</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>הדבקת הפריט שנבחר ביישום הפעיל במקום רק להעתיק אותו.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>להדביק אוטומטית</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>להדביק בלי עיצוב</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>הסרת גופנים, צבעים ועיצוב אחר מהפריט שנבחר.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>להדביק בלי עיצוב</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>התאמת ההתנהגות בעת בחירת פריט:
+• יש לבחור תוך החזקה של {0} כדי להעתיק פריט.
+• יש לבחור תוך החזקה של {1} כדי להעתיק ולהדביק פריט.
+• יש לבחור תוך החזקה של {2} כדי להעתיק, להסיר את העיצוב ולהדביק.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>לוח הגזירים של Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>ל-Windows יש היסטוריית לוח גזירים משלו, שנפתחת עם Win+V. ‏Kleio יכול להשתלט על קיצור המקשים הזה בזמן שהוא פועל, בלי לשנות הגדרות של Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>החלפת Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>בזמן ש-Kleio פועל, ‏Win+V פותח את Kleio במקום את היסטוריית לוח הגזירים של Windows. הגדרות Windows לא משתנות.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>החלפת Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>הגדרות לוח הגזירים של Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>הפעלה, כיבוי או ניקוי של היסטוריית לוח הגזירים של Windows בהגדרות &gt; מערכת &gt; לוח.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פתיחת הגדרות לוח הגזירים של Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>פתיחה</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>התראות וצלילים</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>הצגת התראות</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>הצגת התראה עם הפריט כש-Kleio מעתיק פריט או שומר עותק חדש.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת התראות</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>ההתראות כבויות ב-Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>כדי לראות התראות, יש להפעיל את ההתראות של Kleio בהגדרות ההתראות של Windows.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>השמעת צלילים</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>השמעת צליל כש-Kleio מעתיק פריט או שומר עותק חדש.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>השמעת צלילים</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>הגדרות ההתראות של Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>בחירת אופן ההצגה של ההתראות של Kleio, או כיבוי שלהן, בהגדרות &gt; מערכת &gt; התראות.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פתיחת הגדרות ההתראות של Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>פתיחה</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>שמירה</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>לשנות אילו סוגים של תוכן מועתק יאוחסנו.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>קבצים</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>קבצים ותיקיות שהועתקו בסייר הקבצים וביישומים אחרים.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>שמירת קבצים</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>תמונות וצילומי מסך.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>שמירת תמונות</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>טקסט</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>טקסט פשוט, טקסט מעוצב ו-HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>שמירת טקסט</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>היסטוריה</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>גודל</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>מספר פריטי ההיסטוריה לשמירה. ברירת מחדל: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>גודל נוכחי בדיסק.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>גודל ההיסטוריה</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>סידור לפי</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>סדר הפריטים בהיסטוריה. ברירת מחדל: מועד העותק האחרון.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>סידור לפי</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>מועד העותק האחרון</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>מועד העותק הראשון</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>מספר עותקים</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>חלונית קופצת</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>הקפצת חלונית ב־</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>החלפת מקום הופעת החלונית הצצה. ברירת מחדל: סמן.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>אפס את המיקום</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>החזרת החלונית הקופצת למיקום ברירת המחדל</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>אפס את המיקום</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מסך</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הקפצת חלונית ב־</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>סמן</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>סמל באזור ההודעות</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>מרכז החלון</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>מרכז המסך</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>תפקיד אחרון</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>מסך פעיל</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>צג {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>צג {0} (לא מחובר)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>הצמדה אל</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>החלפת מקום הפריטים הנעוצים. ברירת מחדל: למעלה.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצמדה אל</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>למעלה</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>למטה</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>גובה תמונה:</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>גודל מרבי לתצוגה מקדימה של תמונות. ברירת מחדל: 40. עצה: יש להגדיר ל־16 כדי שייראו כמו פריטי טקסט.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>גובה תמונה:</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>פתח תצוגה מקדימה אוטומטית</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>הצגת תצוגה מקדימה עם מידע נוסף על הפריט שנבחר לאחר השהיה.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פתח תצוגה מקדימה אוטומטית</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>השהיית תצוגה מקדימה</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>השהיה באלפיות השנייה עד להופעת חלונית תצוגה מקדימה. ברירת מחדל: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>השהיית התצוגה המקדימה באלפיות שנייה</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>הדגשת תוצאות</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>החלפת סגנון ההדגשה לתוצאות החיפוש. ברירת המחדל: מודגש.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הדגשת תוצאות</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>מודגש</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>נטוי</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>קו תחתי</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>צֶבַע</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>ללא</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>הצגת סימנים מיוחדים</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>הצגת שורות חדשות, טאבים, רווחים פותחים וסוגרים דרך סימנים מיוחדים.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת סימנים מיוחדים</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>אזור ההודעות</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>הצגת סמל באזור ההודעות</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>הצגת הסמל של Kleio באזור ההודעות של שורת המשימות.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת סמל באזור ההודעות</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>סגנון הסמל באזור ההודעות</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הסמל של Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>לוח גזירים</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>לוח גזירים</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מהדק</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>מהדק</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מספריים</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>מספריים</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>הצגת ההעתקה האחרונה בתיאור הכלי של הסמל</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>הצגת ההעתקה האחרונה כשמצביעים על הסמל באזור ההודעות.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת ההעתקה האחרונה בתיאור הכלי של הסמל</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>פריסת החלונית הקופצת</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>הצגת שדה חיפוש</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>הצגת שדה החיפוש תמיד, או רק כשמתחילים להקליד.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת שדה חיפוש</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת שדה החיפוש</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>תָמִיד</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>במהלך החיפוש</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>הצגת כותרת לפני שדה החיפוש</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>הצגת „Kleio” לצד שדה החיפוש.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת כותרת לפני שדה החיפוש</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>הצג סמלי יישומים</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>הצגת הסמל של היישום שממנו הועתק כל פריט.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצג סמלי יישומים</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>הצג דוגמית צבע הקסדצימלי</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>הצג דוגמית צבע ליד קודי צבע הקסדצימליים.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצג דוגמית צבע הקסדצימלי</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>הצגת כותרת תחתונה</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>הצגת הפקודות פינוי, הגדרות, על אודות ויציאה בתחתית החלונית הקופצת.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הצגת כותרת תחתונה</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>בלי הכותרת התחתונה, אפשר לפתוח את ההגדרות מהתפריט של הסמל באזור ההודעות או עם Ctrl+, בחלונית הקופצת.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>מקטעי התעלמות</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>יישומים</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>פורמטים של לוח הגזירים</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>ביטויים רגולריים</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>אפשר להתעלם מהעתקות שמגיעות מיישומים מסוימים. לתשומת לבך, זה לא חסין לחלוטין: Windows לא מציין איזה יישום העתיק משהו, ולכן Kleio בודק את היישום שהלוח בבעלותו או שנמצא בחזית. עדיף להשתמש בפורמטים של לוח הגזירים כשאפשר.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>התעלמות מכל היישומים חוץ מאלו הרשומים</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>שמירה רק של העתקות מהיישומים שברשימה שלהלן.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>התעלמות מכל היישומים חוץ מאלו הרשומים</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>יישומים</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>העתקות מהיישומים האלה לא נשמרות.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הוספת יישום פועל</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>הוספת יישום פועל</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הוספת יישום על ידי בחירת קובץ התוכנית שלו</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>הוספת יישום…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>אין יישומים שמתעלמים מהם.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>העתקות שמכילות אחד מהפורמטים האלה של לוח הגזירים לא נשמרות. כברירת מחדל מופיע Kleio.Transient; אפשר להסיר אותו ולהוסיף כל פורמט מותאם אישית.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>כדי למצוא שם של פורמט, יש להעתיק משהו ביישום ולבחון את לוח הגזירים עם מציג כמו NirSoft InsideClipboard. אפשר לרשום רק פורמטים רשומים (שמות, לא מספרים).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>הוספת פורמט של לוח הגזירים</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>שם הפורמט, לדוגמה Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>שם הפורמט של לוח הגזירים</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>הוספה</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הוספת הפורמט של לוח הגזירים</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>אין פורמטים של לוח הגזירים שמתעלמים מהם.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>איפוס לברירות המחדל</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>איפוס הפורמטים של לוח הגזירים לברירות המחדל</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>העתקות שהטקסט שלהן תואם לאחד מהביטויים הרגולריים האלה לא נשמרות. הביטויים משתמשים בתחביר ECMAScript (JavaScript) ויכולים להתאים בכל מקום בטקסט; כדי להתאים לטקסט כולו יש להשתמש ב־^ וב־$.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>דוגמאות</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 אותיות או ספרות, כמו מפתחות API ואסימונים רבים</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>קודים חד־פעמיים בני 6 ספרות</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>מספרי כרטיסי תשלום</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>הוספת ביטוי רגולרי</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ביטוי רגולרי</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>הוספה</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הוספת הביטוי הרגולרי</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>ביטוי רגולרי לא תקין</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>לא הוגדרו ביטויים רגולריים.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio תמיד מתעלם מהעתקות שמסומנות ב־„{0}” או ב־„{1}”: המוסכמות של Windows שבהן מנהלי סיסמאות ויישומים אחרים משתמשים כדי להרחיק מידע רגיש ממנהלי לוח גזירים.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>הסרה</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>הסרת {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>שם קובץ ההפעלה</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>לא נמצאו יישומים פועלים</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}” אינו ביטוי רגולרי תקין של ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>השהיה</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>השהיית Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>התעלמות זמנית מכל ההעתקות החדשות. שימושי כדי ש-Kleio לא יתעד בזמן העתקת מידע רגיש.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>השהיית Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>סביר שישמש אותך בעיקר מתוך סקריפטים. אפשר להשהות את Kleio משורת הפקודה בזמן העתקת מידע רגיש:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… העתקת הנתונים …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, העתקת הנתונים, ואז kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>כדי להתעלם רק מההעתקה הבאה:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… העתקת הנתונים …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, ואז העתקת הנתונים</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>אפשר גם ללחוץ על הסמל באזור ההודעות עם Alt כדי להשהות את Kleio או לחדש אותו. כדי להתעלם רק מההעתקה הבאה, יש ללחוץ עליו עם Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>פינוי</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>פינוי היסטוריה עם היציאה</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>להסיר את כל הפריטים שאינם נעוצים בטרם יציאה מהיישום.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פינוי היסטוריה עם היציאה</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>פינוי לוח הגזירים של המערכת בנוסף</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>כאשר ההגדרה פעילה, פינוי ההיסטוריה יפנה גם את לוח הגזירים הנוכחי של המערכת.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>פינוי לוח הגזירים של המערכת בנוסף</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>הסמל של Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>גרסה {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>מנהל לוח גזירים ל-Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>בדיקת עדכונים</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>בדיקת עדכונים</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>תודות</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio הוא הסבה של Maccy מאת Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy הוא מנהל לוח גזירים קליל ל-macOS. ‏Kleio מביא את התכונות והפריסה שלו ל-Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>האתר של Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>האתר של Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy ב-GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy ב-GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>קוד מקור</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>דיווח על בעיות, הצעת תכונות ותרומה ב-GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio ב-GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio ב-GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>תמיכה</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>תמיכה: דיווח על בעיה ב-GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>רישיון</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio ו-Maccy הם תוכנה חופשית שמופצת תחת רישיון MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>רישיון MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>רישיון MIT</value>
+  </data>
+</root>

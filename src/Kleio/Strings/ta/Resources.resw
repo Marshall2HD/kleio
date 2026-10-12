@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows-க்கான கிளிப்போர்டு மேலாளர்</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>படம்</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>படம், {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>கோப்புகள்</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>கிளிப்போர்டு உருப்படி</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>பின் செய்யப்பட்டது</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்டது, {0} / {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>பின் செய்</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>பின்னை நீக்கு</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>அழி</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>அனைத்தையும் அழிக்கவும்</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ரத்துசெய்</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>அமைப்புகள்…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Kleio பற்றி</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>வெளியேறு</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio-ஐத் திற</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio-ஐ இடைநிறுத்து</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>அடுத்த நகலைப் புறக்கணி</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio-இலிருந்து வெளியேறு</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கை நிறுத்து</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>உருப்படியைத் திருத்து</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>மேலே</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>கீழே</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>இடது</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>வலது</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>தேட தட்டச்சு செய்யுங்கள்…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு வரலாற்றில் தேடு</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>முன்னோட்டத்தைக் காட்டு அல்லது மறை</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கு</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கை நிறுத்து</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பின் செய்யப்பட்ட உருப்படிகள்</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு வரலாறு</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>பிரித்தெடுக்கப்பட்ட உரையை நகலெடுக்கவும்.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பிரித்தெடுக்கப்பட்ட உரையை நகலெடுக்கவும்</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பின் செய்</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>உருப்படியைத் திருத்து</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கை நிறுத்து</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>பயன்பாடு:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>பின் செய்யப்படாத உருப்படிகளை அழிக்கவும்.
+அனைத்தையும் அழிக்க Shift உடன் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>எல்லா பொருட்களையும் அழிக்கவும்.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Kleio அமைப்புகளைத் திற.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>பயன்பாடு பற்றி மேலும் வாசிக்க.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>விண்ணப்பத்தை விட்டு.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>இங்கே பார்க்க எதையாவது நகலெடுக்கவும்.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>முடிவுகள் இல்லை</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>முன்னோட்டத்தைக் காட்டு</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>முன்னோட்டத்தை மறை</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>முன்னோட்டத்தைக் காட்ட {0} அழுத்தவும்.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>முன்னோட்டத்தை மறைக்க {0} அழுத்தவும்.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>பின் செய்ய {0} ஐ அழுத்தவும்.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>முள்ளை அகற்ற {0} ஐ அழுத்தவும்.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>நீக்க {0} ஐ அழுத்தவும்.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கு · {0} உருப்படி</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கு · {0} உருப்படிகள்</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>ஒட்டுதல் அடுக்கு — ஒவ்வொரு ஒட்டுதலும் அடுத்த உருப்படியைக் கிளிப்போர்டில் வைக்கும்.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>நகலெடு</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>ஒட்டு</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>வடிவமைக்காமல் ஒட்டவும்</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>திருத்து…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>வரலாற்றை அழிக்கவா?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>முழு வரலாற்றையும் அழிக்கவா?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>வரலாற்றை நிச்சயமாக அழிக்க வேண்டுமா? பின் செய்யப்பட்ட உருப்படிகள் வைக்கப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>பின் செய்யப்பட்ட உருப்படிகள் உட்பட வரலாற்றை நிச்சயமாக அழிக்க வேண்டுமா? இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>மீண்டும் கேட்க வேண்டாம்</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>தலைப்பு</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>விசை</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>உள்ளடக்கம்</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>இந்த உரை திருத்துவதற்கு மிக நீளமானது.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>திருத்த முடியாத உள்ளடக்கம் (படம் அல்லது கோப்பு)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>திருத்துதல் அனைத்து வடிவமைப்பையும் நிராகரிக்கும்.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>பரிமாணங்கள்: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>முதல் நகல் நேரம்: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>கடைசி நகல் நேரம்: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>பிரதிகளின் எண்ணிக்கை: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (இடைநிறுத்தப்பட்டது)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (அடுத்த நகலைப் புறக்கணிக்கிறது)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (எந்த வகையையும் சேமிக்கவில்லை)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio-இன் புதிய பதிப்பு கிடைக்கிறது!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} இப்போது கிடைக்கிறது. உங்களிடம் {1} உள்ளது.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>புதுப்பிப்பை நிறுவு</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>இந்தப் பதிப்பைத் தவிர்</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>பதிவிறக்கு</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>வெளியீட்டுக் குறிப்புகள்</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0}-ஐ நிறுவ முடியவில்லை</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>பயன்பாட்டு நிறுவியில் திற</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} நிறுவப்படுகிறது</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>புதுப்பிப்பு நிறுவப்பட்டதும் Kleio மீண்டும் தொடங்கும்.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>புதுப்பிப்பு நிறுவப்படுகிறது</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} பதிவிறக்கப்படுகிறது. புதுப்பிப்பு நிறுவப்பட்டதும் Kleio மீண்டும் தொடங்கும்.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>புதுப்பிப்பை நிறுவ முடியவில்லை</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>புதுப்பிப்பு கிடைக்கிறது</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio புதுப்பித்த நிலையில் உள்ளது</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} சமீபத்திய பதிப்பு.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>வெளியிடப்பட்ட Kleio பதிப்பு எதுவும் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>வெளியீடுகள்</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயலவும்.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>இந்த வெளியீட்டில் இந்தக் கணினிக்கான நிறுவல் தொகுப்பு இல்லை.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>பதிவிறக்கம் தோல்வியடைந்தது (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>பதிவிறக்கிய தொகுப்பைச் சேமிக்க முடியவில்லை.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>புதுப்பிப்பை நிறுவ முடியவில்லை.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} நிறுவப்பட்டது. அதைப் பயன்படுத்த Kleio-இலிருந்து வெளியேறி மீண்டும் திறக்கவும்.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio இன்னும் தயாராகவில்லை.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>கிளிப்போர்டு உருப்படி கிடைக்கவில்லை</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>கிளிப்போர்டு உருப்படியில் {0} உள்ளடக்கம் இல்லை</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>ரத்துசெய்யப்பட்டது</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>தெரியாத கட்டளை</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>தொடங்கிய பிறகு Kleio பதிலளிக்கவில்லை.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio பதிலளிக்கவில்லை.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio-ஐத் தொடங்க முடியவில்லை.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio-க்குக் கோரிக்கை புரியவில்லை. இயங்கும் Kleio அதே பதிப்பா?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>உருப்படி மிகப் பெரியது.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio-ஆல் கட்டளையை இயக்க முடியவில்லை.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio வெளியேறுகிறது.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} பயன்பாட்டுக்கு "kleio --help" ஐ இயக்கவும்.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>கட்டளையை Kleio-க்கு அனுப்ப முடியவில்லை.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio பதிலளிக்கவில்லை.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio தவறான பதிலை அனுப்பியது.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>தோல்வியடைந்தது.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>{0} ஐ எழுத முடியவில்லை.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>--get, --select, --delete, --clear ஆகியவற்றில் ஒன்றை மட்டும் பயன்படுத்தவும்.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>ஒன்றுக்கு மேற்பட்ட உருப்படி எண்கள் கொடுக்கப்பட்டன.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>உருப்படி எண் 1 அல்லது அதற்கு மேல் இருக்க வேண்டும்.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>எதிர்பாராத மதிப்புரு: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format ஐ --get உடன் மட்டுமே பயன்படுத்த முடியும்.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format ஆனது text, html, rtf, image, files இவற்றில் ஒன்றாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output ஐ --get உடன் மட்டுமே பயன்படுத்த முடியும்.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output க்கு ஒரு கோப்புப் பாதை தேவை.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected ஐ --get உடன் மட்டுமே பயன்படுத்த முடியும்.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes ஐ --clear உடன் மட்டுமே பயன்படுத்த முடியும்.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>தெரியாத விருப்பம்: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio அமைப்புகள்</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio அமைப்புகள்</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>பொது</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பொது</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>பொது</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>சேமிப்பு</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>சேமிப்பு</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>சேமிப்பு</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>தோற்றம்</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தோற்றம்</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>தோற்றம்</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>புறக்கணிக்கவும்</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>புறக்கணிக்கவும்</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>புறக்கணிக்கவும்</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>மேம்பட்ட</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மேம்பட்ட</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>மேம்பட்ட</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>பற்றி</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பற்றி</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>பற்றி</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>குறுக்குவிசை</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>{0} ஐ அழி</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}, {1} அல்லது {2} ஐச் சேர்க்கவும்</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>ஒரு குறுக்குவிசையை அழுத்தவும்…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>பதிவுசெய்கிறது. ஒரு குறுக்குவிசையை அழுத்தவும், ரத்துசெய்ய Esc, அழிக்க Backspace</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>புதிய குறுக்குவிசையைப் பதிவுசெய்யத் தேர்ந்தெடுக்கவும். Esc ரத்துசெய்யும், Backspace அழிக்கும்.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>அமைக்கப்படவில்லை</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>குறுக்குவிசையை அழி</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>குறுக்குவிசையை அழி</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>உள்நுழைவில் தொடங்கவும்</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Windows-இல் உள்நுழையும்போது Kleio-ஐத் தானாகத் தொடங்கு.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>உள்நுழைவில் தொடங்கவும்</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>உள்நுழைவில் தொடங்குதலை Windows முடக்கியுள்ளது</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>பணி நிர்வாகி &gt; தொடக்கப் பயன்பாடுகள் (அல்லது அமைப்புகள் &gt; பயன்பாடுகள் &gt; தொடக்கம்) இல் Kleio முடக்கப்பட்டுள்ளது. உள்நுழைவில் Kleio-ஐத் தொடங்க அங்கே அதை இயக்கவும்.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>புதுப்பிப்புகளை தானாக சரிபார்க்கவும்</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>நாளுக்கு ஒருமுறை GitHub-இல் புதிய Kleio வெளியீட்டைத் தேடி, அதை நிறுவப் பரிந்துரைக்கவும்.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>இப்போது சரிபார்க்க</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>இப்போது புதுப்பிப்புகளைச் சரிபார்</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>புதுப்பிப்புகளை தானாக சரிபார்க்கவும்</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio-இன் மெனுக்கள், அமைப்புகள், செய்திகளின் மொழி.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மொழி</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows இயல்புநிலை</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>புதிய மொழியைப் பயன்படுத்த Kleio-ஐ மீண்டும் தொடங்கவும்.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>இப்போது மீண்டும் தொடங்கு</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>குறுக்குவிசைகள்</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio-ஐத் திற</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>திறந்த பயன்பாட்டிற்கு உலகளாவிய குறுக்குவழி விசை. இயல்புநிலை: Win+Shift+C c.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio-ஐத் திறக்கும் குறுக்குவிசை</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>குறுக்குவிசையைப் பதிவுசெய்ய முடியவில்லை</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>இந்தக் குறுக்குவிசையை வேறொரு பயன்பாடு பயன்படுத்துகிறது. வேறொன்றைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>முள்</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>வரலாற்று உருப்படியைப் பின் செய்வதற்கான குறுக்குவிசை. இயல்புநிலை: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பின் செய்யும் குறுக்குவிசை</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>நீக்கு</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>வரலாற்று உருப்படியை நீக்குவதற்கான குறுக்குவிசை. இயல்புநிலை: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>நீக்கும் குறுக்குவிசை</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>முன்னோட்டம்</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>கூடுதல் தகவல்களுடன் முன்னோட்டத்தைக் காட்டு. இயல்புநிலை: Ctrl+Space.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>முன்னோட்டக் குறுக்குவிசை</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>தேடல்</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>தேடல் பயன்முறை</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>தேடல் புலத்தில் தட்டச்சு செய்யும் உரை வரலாற்று உருப்படிகளுடன் எவ்வாறு பொருத்தப்படுகிறது.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தேடல் பயன்முறை</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>சரியான</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>தெளிவில்லாமல்</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>வழக்கமான வெளிப்பாடுகள்</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>கலப்பு</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>நடத்தை</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>தானாக ஒட்டவும்</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>தேர்ந்தெடுத்த உருப்படியை நகலெடுப்பதுடன் நிற்காமல் செயலில் உள்ள பயன்பாட்டில் ஒட்டு.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தானாக ஒட்டவும்</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>வடிவமைக்காமல் ஒட்டவும்</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>தேர்ந்தெடுத்த உருப்படியிலிருந்து எழுத்துருக்கள், நிறங்கள், பிற வடிவமைப்புகளை நீக்கு.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>வடிவமைக்காமல் ஒட்டவும்</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>உருப்படியைத் தேர்ந்தெடுக்கும்போது நடத்தையைத் தனிப்பயனாக்கவும்:
+• உருப்படியை நகலெடுக்க {0} ஐ அழுத்தியபடி தேர்ந்தெடுக்கவும்.
+• உருப்படியை நகலெடுத்து ஒட்ட {1} ஐ அழுத்தியபடி தேர்ந்தெடுக்கவும்.
+• நகலெடுத்து, வடிவமைப்பை அழித்து ஒட்ட {2} ஐ அழுத்தியபடி தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows கிளிப்போர்டு</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows-க்குச் சொந்தக் கிளிப்போர்டு வரலாறு உள்ளது, அது Win+V மூலம் திறக்கும். Kleio இயங்கும்போது Windows அமைப்புகள் எதையும் மாற்றாமல் அந்தக் குறுக்குவிசையை எடுத்துக்கொள்ள முடியும்.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V ஐ மாற்று</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio இயங்கும்போது Win+V ஆனது Windows கிளிப்போர்டு வரலாற்றுக்குப் பதிலாக Kleio-ஐத் திறக்கும். Windows அமைப்புகள் மாற்றப்படாது.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V ஐ மாற்று</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows கிளிப்போர்டு அமைப்புகள்</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>அமைப்புகள் &gt; கணினி &gt; கிளிப்போர்டு இல் Windows கிளிப்போர்டு வரலாற்றை இயக்கவும், முடக்கவும் அல்லது அழிக்கவும்.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows கிளிப்போர்டு அமைப்புகளைத் திற</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>திற</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>அறிவிப்புகள் மற்றும் ஒலிகள்</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>அறிவிப்புகளைக் காட்டு</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது உருப்படியுடன் அறிவிப்பைக் காட்டு.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>அறிவிப்புகளைக் காட்டு</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Windows-இல் அறிவிப்புகள் முடக்கப்பட்டுள்ளன</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>அறிவிப்புகளைப் பார்க்க Windows அறிவிப்பு அமைப்புகளில் Kleio-க்கான அறிவிப்புகளை இயக்கவும்.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>ஒலிகளை இயக்கு</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது ஒலியை இயக்கு.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஒலிகளை இயக்கு</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows அறிவிப்பு அமைப்புகள்</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>அமைப்புகள் &gt; கணினி &gt; அறிவிப்புகள் இல் Kleio அறிவிப்புகள் எவ்வாறு தோன்ற வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும் அல்லது அவற்றை முடக்கவும்.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows அறிவிப்பு அமைப்புகளைத் திற</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>திற</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>சேமி</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>நகலெடுக்கப்பட்ட உள்ளடக்கத்தை எந்த வகையான சேமிக்க வேண்டும் என்பதை மாற்றவும்.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>கோப்புகள்</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>File Explorer மற்றும் பிற பயன்பாடுகளில் நகலெடுத்த கோப்புகளும் கோப்புறைகளும்.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கோப்புகளைச் சேமி</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>படங்கள்</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>படங்களும் திரைப்பிடிப்புகளும்.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>படங்களைச் சேமி</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>உரை</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>எளிய உரை, செறிவான உரை மற்றும் HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>உரையைச் சேமி</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>வரலாறு</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>அளவு</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>வைத்திருக்க வேண்டிய வரலாற்று உருப்படிகளின் எண்ணிக்கை. இயல்புநிலை: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>வட்டில் தற்போதைய அளவு.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>வரலாற்றின் அளவு</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>வழங்கியவர்</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>வரலாற்றில் உருப்படிகளின் வரிசை. இயல்புநிலை: கடைசி நகலின் நேரம்.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>வழங்கியவர்</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>கடைசி நகலின் நேரம்</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>முதல் நகலின் நேரம்</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>பிரதிகளின் எண்ணிக்கை</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>பாப்அப்</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>பாப்அப் இடம்</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>பாப்அப் தோன்றும் இடத்தை மாற்றவும். இயல்புநிலை: சுட்டி.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>இடத்தை மீட்டமை</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>பாப்அப்பை அதன் இயல்புநிலை இடத்துக்குத் திருப்பு</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>இடத்தை மீட்டமை</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>திரை</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பாப்அப் இடம்</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>சுட்டி</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதி ஐகான்</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>சாளரத்தின் மையம்</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>திரையின் மையம்</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>கடைசி இடம்</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>செயலில் உள்ள திரை</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>காட்சி {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>காட்சி {0} (இணைக்கப்படவில்லை)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>பின் செய்யும் இடம்</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>பின் செய்யப்பட்ட உருப்படிகளின் இடத்தை மாற்றவும். இயல்புநிலை: மேலே.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பின் செய்யும் இடம்</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>மேலே</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>கீழே</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>படத்தின் உயரம்</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>பட முன்னோட்டத்தின் அதிகபட்ச உயரம். இயல்புநிலை: 40. குறிப்பு: உரை உருப்படிகள் போலத் தோன்ற 16 என அமைக்கவும்.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>படத்தின் உயரம்</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>முன்னோட்டத்தை தானாகத் திற</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>சிறிது தாமதத்துக்குப் பிறகு, தேர்ந்தெடுத்த உருப்படி பற்றிய கூடுதல் தகவலுடன் முன்னோட்டத்தைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>முன்னோட்டத்தை தானாகத் திற</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>முன்னோட்டத் தாமதம்</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>முன்னோட்டம் காட்டப்படும் வரையிலான தாமதம், மில்லிவினாடிகளில். இயல்புநிலை: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>மில்லிவினாடிகளில் முன்னோட்டத் தாமதம்</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>பொருத்தங்களைத் தனிப்படுத்து</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>தேடல் பொருத்தங்களின் தனிப்படுத்தல் பாணியை மாற்றவும். இயல்புநிலை: தடிமன்.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பொருத்தங்களைத் தனிப்படுத்து</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>தடிமன்</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>சாய்வு</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>அடிக்கோடு</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>நிறம்</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>எதுவுமில்லை</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>சிறப்புக் குறியீடுகளைக் காட்டு</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>புதிய வரிகள், தாவல்கள், தொடக்க மற்றும் இறுதி இடைவெளிகளைச் சிறப்புக் குறியீடுகளாகக் காட்டு.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>சிறப்புக் குறியீடுகளைக் காட்டு</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதி</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதியில் ஐகானைக் காட்டு</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>பணிப்பட்டியின் அறிவிப்புப் பகுதியில் Kleio ஐகானைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதியில் ஐகானைக் காட்டு</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதி ஐகானின் பாணி</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio லோகோ</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>கிளிப்போர்டு</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>காகிதக் கிளிப்</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>காகிதக் கிளிப்</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கத்தரிக்கோல்</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>கத்தரிக்கோல்</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>ஐகானின் உதவிக்குறிப்பில் சமீபத்திய நகலைக் காட்டு</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>அறிவிப்புப் பகுதி ஐகானைச் சுட்டும்போது மிகச் சமீபத்திய நகலைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஐகானின் உதவிக்குறிப்பில் சமீபத்திய நகலைக் காட்டு</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>பாப்அப் தளவமைப்பு</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>தேடல் புலத்தைக் காட்டு</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>தேடல் புலத்தை எப்போதும் காட்டு, அல்லது நீங்கள் தட்டச்சு செய்யத் தொடங்கும்போது மட்டும்.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தேடல் புலத்தைக் காட்டு</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தேடல் புலத்தின் தெரிவுநிலை</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>எப்போதும்</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>தேடலின்போது</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>தேடல் புலத்துக்கு முன் தலைப்பைக் காட்டு</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>தேடல் புலத்தின் இடப்பக்கம் “Kleio” என்பதைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>தேடல் புலத்துக்கு முன் தலைப்பைக் காட்டு</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>பயன்பாட்டு ஐகான்களைக் காட்டு</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>ஒவ்வொரு உருப்படியும் நகலெடுக்கப்பட்ட பயன்பாட்டின் ஐகானைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பயன்பாட்டு ஐகான்களைக் காட்டு</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>ஹெக்ஸ் நிற மாதிரி காட்டு</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>ஹெக்ஸ் நிறக் குறியீடுகளுக்கு அருகில் நிற மாதிரியைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஹெக்ஸ் நிற மாதிரி காட்டு</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>அடிக்குறிப்பைக் காட்டு</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>பாப்அப்பின் கீழே அழி, அமைப்புகள், பற்றி, வெளியேறு கட்டளைகளைக் காட்டு.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>அடிக்குறிப்பைக் காட்டு</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>அடிக்குறிப்பு இல்லாமல், அறிவிப்புப் பகுதி ஐகானின் மெனுவிலிருந்து அல்லது பாப்அப்பில் Ctrl+, மூலம் அமைப்புகளைத் திறக்கவும்.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>புறக்கணிப்புப் பிரிவுகள்</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>பயன்பாடுகள்</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>கிளிப்போர்டு வடிவங்கள்</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>வழக்கமான வெளிப்பாடுகள்</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>குறிப்பிட்ட பயன்பாடுகளிலிருந்து வரும் நகல்களைப் புறக்கணிக்கலாம். இது முழுமையாக நம்பகமானதல்ல: எந்தப் பயன்பாடு நகலெடுத்தது என்பதை Windows சொல்வதில்லை, எனவே Kleio கிளிப்போர்டுக்கு உரிமையான அல்லது முன்புலத்தில் உள்ள பயன்பாட்டைச் சரிபார்க்கிறது. முடிந்தால் கிளிப்போர்டு வடிவங்களைப் பயன்படுத்தவும்.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>பட்டியலிடப்பட்டதைத் தவிர அனைத்து பயன்பாடுகளையும் புறக்கணிக்கவும்</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>கீழே பட்டியலிட்ட பயன்பாடுகளில் செய்த நகல்களை மட்டும் சேமி.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>பட்டியலிடப்பட்டதைத் தவிர அனைத்து பயன்பாடுகளையும் புறக்கணிக்கவும்</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>பயன்பாடுகள்</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>இந்தப் பயன்பாடுகளில் செய்த நகல்கள் சேமிக்கப்படாது.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>இயங்கும் பயன்பாட்டைச் சேர்</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>இயங்கும் பயன்பாட்டைச் சேர்</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>நிரல் கோப்பைத் தேர்ந்தெடுத்துப் பயன்பாட்டைச் சேர்</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>பயன்பாட்டைச் சேர்…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>எந்தப் பயன்பாடும் புறக்கணிக்கப்படவில்லை.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>இந்தக் கிளிப்போர்டு வடிவங்களில் ஏதேனும் ஒன்றைக் கொண்ட நகல்கள் சேமிக்கப்படாது. இயல்பாக Kleio.Transient பட்டியலில் உள்ளது; அதை நீக்கி நீங்கள் விரும்பும் தனிப்பயன் வடிவங்களைச் சேர்க்கலாம்.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>ஒரு வடிவத்தின் பெயரைக் கண்டறிய, பயன்பாட்டில் எதையாவது நகலெடுத்து NirSoft InsideClipboard போன்ற காட்சியி மூலம் கிளிப்போர்டைப் பாருங்கள். பதிவுசெய்யப்பட்ட வடிவங்களை (பெயர்கள், எண்கள் அல்ல) மட்டுமே சேர்க்க முடியும்.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>கிளிப்போர்டு வடிவத்தைச் சேர்</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>வடிவப் பெயர், எ.கா. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு வடிவப் பெயர்</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>சேர்</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு வடிவத்தைச் சேர்</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>எந்தக் கிளிப்போர்டு வடிவமும் புறக்கணிக்கப்படவில்லை.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>இயல்புநிலைக்கு மீட்டமை</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கிளிப்போர்டு வடிவங்களை இயல்புநிலைக்கு மீட்டமை</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>இந்த ரெகுலர் எக்ஸ்பிரஷன்களில் ஏதேனும் ஒன்றுடன் பொருந்தும் உரையைக் கொண்ட நகல்கள் சேமிக்கப்படாது. எக்ஸ்பிரஷன்கள் ECMAScript (JavaScript) தொடரியலைப் பயன்படுத்துகின்றன, உரையில் எங்கும் பொருந்தலாம்; முழு உரையையும் பொருத்த ^ மற்றும் $ ஐப் பயன்படுத்தவும்.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>எடுத்துக்காட்டுகள்</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>பல API விசைகள் மற்றும் டோக்கன்களைப் போல 50 எழுத்துகள் அல்லது எண்கள்</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 இலக்க ஒருமுறைக் குறியீடுகள்</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>கட்டண அட்டை எண்கள்</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>ரெகுலர் எக்ஸ்பிரஷனைச் சேர்</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ரெகுலர் எக்ஸ்பிரஷன்</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>சேர்</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ரெகுலர் எக்ஸ்பிரஷனைச் சேர்</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>தவறான ரெகுலர் எக்ஸ்பிரஷன்</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>ரெகுலர் எக்ஸ்பிரஷன்கள் எதுவும் வரையறுக்கப்படவில்லை.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>“{0}” அல்லது “{1}” எனக் குறிக்கப்பட்ட நகல்களை Kleio எப்போதும் புறக்கணிக்கும்: கடவுச்சொல் நிர்வாகிகளும் பிற பயன்பாடுகளும் உணர்திறன் வாய்ந்த தரவைக் கிளிப்போர்டு மேலாளர்களிடமிருந்து விலக்கி வைக்கப் பயன்படுத்தும் Windows மரபுகள் இவை.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>அகற்று</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>{0} ஐ அகற்று</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>இயக்கக்கூடிய கோப்பின் பெயர்</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>இயங்கும் பயன்பாடுகள் எதுவும் கிடைக்கவில்லை</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” சரியான ECMAScript ரெகுலர் எக்ஸ்பிரஷன் அல்ல.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>இடைநிறுத்தம்</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio-ஐ இடைநிறுத்து</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>எல்லாப் புதிய நகல்களையும் தற்காலிகமாகப் புறக்கணி. உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது Kleio பதிவுசெய்யாமல் இருக்கப் பயனுள்ளது.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio-ஐ இடைநிறுத்து</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>இதை ஸ்கிரிப்ட்களில் பயன்படுத்துவீர்கள். உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது கட்டளை வரியிலிருந்து Kleio-ஐ இடைநிறுத்தவும்:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… தரவை நகலெடு …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, தரவை நகலெடு, பிறகு kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>அடுத்த நகலை மட்டும் புறக்கணிக்க:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… தரவை நகலெடு …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, பிறகு தரவை நகலெடு</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Kleio-ஐ இடைநிறுத்த அல்லது தொடர அறிவிப்புப் பகுதி ஐகானில் Alt+கிளிக் செய்யலாம். அடுத்த நகலை மட்டும் புறக்கணிக்க அதில் Alt+Shift+கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>அழித்தல்</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>வெளியேறுவது குறித்த வரலாறு</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>பயன்பாட்டிலிருந்து விலகுவதற்கு முன் தானாகவே இணைக்கப்படாத அனைத்து பொருட்களையும் தானாக அகற்றவும்.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>வெளியேறுவது குறித்த வரலாறு</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>கணினி கிளிப்போர்டையும் அழிக்கவும்</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>இயக்கப்பட்டால், வரலாற்றை அழிப்பது தற்போதைய கணினி கிளிப்போர்டையும் அழிக்கும்.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>கணினி கிளிப்போர்டையும் அழிக்கவும்</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio லோகோ</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>பதிப்பு {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows-க்கான கிளிப்போர்டு மேலாளர்</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>புதுப்பிப்புகளைச் சரிபார்</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>நன்றி</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio என்பது Alex Rodionov உருவாக்கிய Maccy-இன் போர்ட்</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy என்பது macOS-க்கான இலகுவான கிளிப்போர்டு மேலாளர். Kleio அதன் அம்சங்களையும் தளவமைப்பையும் Windows 11-க்குக் கொண்டுவருகிறது.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy இணையதளம்</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy இணையதளம்</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub-இல் Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub-இல் Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>மூலக் குறியீடு</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>GitHub-இல் சிக்கல்களைப் புகாரளிக்கவும், அம்சங்களைப் பரிந்துரைக்கவும், பங்களிக்கவும்.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub-இல் Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub-இல் Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>ஆதரவு</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ஆதரவு: GitHub-இல் சிக்கலைப் புகாரளி</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>உரிமம்</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio மற்றும் Maccy ஆகியவை MIT உரிமத்தின் கீழ் வெளியிடப்பட்ட கட்டற்ற மென்பொருள்.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT உரிமம்</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT உரிமம்</value>
+  </data>
+</root>

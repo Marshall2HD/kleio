@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Administrilo de tondujo por Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bildo</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Bildo, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Dosieroj</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Ero de la tondujo</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Fiksita</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Elektita, {0} el {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Fiksi</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Malfiksi</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Forigi ĉion</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Nuligi</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Agordoj…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Pri Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Forlasi</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Malfermi Kleion</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Paŭzigi Kleion</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignori la sekvan kopion</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Forlasi Kleion</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Haltigi la algluan stakon</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Redakti eron</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Spaceto</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Supren</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Malsupren</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Maldekstren</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Dekstren</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Tajpu por serĉi…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Serĉi en la historio de la tondujo</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri aŭ kaŝi la antaŭrigardon</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Alglua stako</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Haltigi la algluan stakon</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fiksitaj eroj</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historio de la tondujo</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kopii eltiritan tekston.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kopii eltiritan tekston</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fiksi</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redakti eron</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Haltigi la algluan stakon</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Aplikaĵo:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Forigi la nefiksitajn erojn.
+Elekti per Shift por forigi ĉion.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Forigi ĉiujn erojn.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Malfermi la agordojn de Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Ekscii pli pri la aplikaĵo.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Forlasi la aplikaĵon.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Kopiu ion por vidi ĝin ĉi tie.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Neniu rezulto</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Montri antaŭrigardon</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Kaŝi antaŭrigardon</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Premu {0} por montri la antaŭrigardon.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Premu {0} por kaŝi la antaŭrigardon.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Premu {0} por fiksi.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Premu {0} por malfiksi.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Premu {0} por forigi.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Alglua stako · {0} ero</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Alglua stako · {0} eroj</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Alglua stako — ĉiu algluo metas la sekvan eron en la tondujon.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopii</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Alglui</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Alglui sen tekstaranĝo</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Redakti…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Ĉu forigi la historion?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Ĉu forigi la tutan historion?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Ĉu vi certe volas forigi la historion? Fiksitaj eroj restas. Vi ne povas malfari ĉi tiun agon.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Ĉu vi certe volas forigi la historion, inkluzive de fiksitaj eroj? Vi ne povas malfari ĉi tiun agon.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Ne plu demandi</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Klavo</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Enhavo</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Ĉi tiu teksto estas tro longa por redakti.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Ne-redaktebla enhavo (bildo aŭ dosiero)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Redaktado forigos ĉian tekstaranĝon.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Konservi</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimensioj: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Unue kopiita: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Laste kopiita: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Nombro de kopioj: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (paŭzita)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignoras la sekvan kopion)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (konservas neniun tipon)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Nova versio de Kleio disponeblas!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} nun disponeblas. Vi havas {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Instali la ĝisdatigon</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Preterlasi ĉi tiun version</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Elŝuti</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Eldonaj notoj</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Ne eblis instali Kleion {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Malfermi en App Installer</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Instalante Kleion {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio rekomenciĝos post la instalo de la ĝisdatigo.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Instalante la ĝisdatigon</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Elŝutante Kleion {0}. Kleio rekomenciĝos post la instalo de la ĝisdatigo.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Ne eblis instali la ĝisdatigon</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Ĝisdatigo disponeblas</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio estas ĝisdata</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} estas la plej nova versio.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Ne eblis kontroli ĝisdatigojn</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Neniu publikigita eldono de Kleio troviĝis.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Eldonoj</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Kontrolu vian retkonekton kaj reprovu.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>La eldono ne havas instalpakon por ĉi tiu komputilo.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>La elŝuto malsukcesis (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Ne eblis konservi la elŝutitan pakon.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Ne eblis instali la ĝisdatigon.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} estas instalita. Forlasu kaj remalfermu Kleion por uzi ĝin.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio ankoraŭ ne pretas.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Ero de la tondujo ne troviĝis</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>La ero de la tondujo ne havas enhavon {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Nuligita</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Nekonata komando</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio ne respondis post la lanĉo.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio ne respondas.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Ne eblis lanĉi Kleion.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio ne komprenis la peton. Ĉu la rulanta Kleio estas la sama versio?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>La ero estas tro granda.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio ne povis plenumi la komandon.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio fermiĝas.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Rulu "kleio --help" por la uzado.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Ne eblis sendi la komandon al Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio ne respondis.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio sendis nevalidan respondon.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Malsukcesis.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Ne eblis skribi {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Uzu nur unu el --get, --select, --delete kaj --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Pli ol unu numero de ero estis donita.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>La numero de la ero devas esti 1 aŭ pli.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Neatendita argumento: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format uzeblas nur kun --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format devas esti text, html, rtf, image aŭ files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output uzeblas nur kun --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output bezonas dosierindikon.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected uzeblas nur kun --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes uzeblas nur kun --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Nekonata opcio: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Agordoj de Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Agordoj de Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Ĝenerale</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ĝenerale</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Ĝenerale</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Konservado</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Konservado</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Konservado</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Aspekto</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aspekto</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Aspekto</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignori</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignori</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignori</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Altnivelaj agordoj</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Altnivelaj agordoj</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Altnivelaj agordoj</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Pri</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pri</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Pri</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Fulmoklavo</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Forviŝi {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Inkluzivu {0}, {1} aŭ {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Premu fulmoklavon…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Registrante. Premu fulmoklavon, Esc por nuligi, Backspace por forviŝi</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Ne agordita</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Elektu por registri novan fulmoklavon. Esc nuligas, Backspace forviŝas.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Ne agordita</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Forviŝi la fulmoklavon</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Forviŝi la fulmoklavon</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Lanĉi dum ensaluto</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Aŭtomate lanĉi Kleion kiam vi ensalutas en Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lanĉi dum ensaluto</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows malŝaltis la lanĉon dum ensaluto</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio estis malŝaltita en Task Manager &gt; Startup apps (aŭ Settings &gt; Apps &gt; Startup). Ŝaltu ĝin tie por lanĉi Kleion dum ensaluto.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Serĉi ĝisdatigojn aŭtomate</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Unufoje tage serĉi pli novan eldonon de Kleio en GitHub kaj proponi instali ĝin.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Kontroli nun</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kontroli ĝisdatigojn nun</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Serĉi ĝisdatigojn aŭtomate</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Lingvo</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>La lingvo de la menuoj, agordoj kaj mesaĝoj de Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lingvo</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Laŭ Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Rekomencu Kleion por uzi la novan lingvon.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Rekomenci nun</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Fulmoklavoj</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Malfermi Kleion</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Ĝenerala fulmoklavo por malfermi la aplikaĵon. Ripetita premo de la ĉefa klavo dum tenado de modifaj klavoj elektos la sekvan eron en la listo. En ĉi tiu reĝimo, liberigo de la modifaj klavoj konfirmos la elekton kaj fermos la ŝprucfenestron. Defaŭlta: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fulmoklavo por malfermi Kleion</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Ne eblis registri la fulmoklavon</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Alia aplikaĵo uzas ĉi tiun fulmoklavon. Elektu alian.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Fiksi</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Fulmoklavo por fiksi historian eron. Defaŭlta: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fulmoklavo por fiksi</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Fulmoklavo por forigi historian eron. Defaŭlta: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fulmoklavo por forigi</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Antaŭrigardo</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Montri antaŭrigardon kun aldonaj informoj. Defaŭlta: Ctrl+Spaceto.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fulmoklavo por antaŭrigardo</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Serĉi</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Serĉa reĝimo</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Kiel la teksto, kiun vi tajpas en la serĉujo, estas komparata kun la eroj de la historio.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Serĉa reĝimo</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Ekzakta</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Proksimuma</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Regulaj esprimoj</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Miksita</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Konduto</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Alglui aŭtomate</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Alglui la elektitan eron en la aktivan aplikaĵon anstataŭ nur kopii ĝin.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alglui aŭtomate</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Alglui sen tekstaranĝo</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Forigi tiparojn, kolorojn kaj alian formaton el la elektita ero.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alglui sen tekstaranĝo</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Agordu la konduton dum elekto de ero:
+• Elektu kun premita {0} por kopii la eron.
+• Elektu kun premita {1} por kopii kaj alglui la eron.
+• Elektu kun premita {2} por kopii, forigi la formaton kaj alglui la eron.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Tondujo de Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows havas propran historion de la tondujo, malfermatan per Win+V. Kleio povas transpreni tiun fulmoklavon dum ĝi funkcias, sen ŝanĝi iujn ajn agordojn de Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Anstataŭigi Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Dum Kleio funkcias, Win+V malfermas Kleion anstataŭ la historion de la tondujo de Windows. La agordoj de Windows ne ŝanĝiĝas.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Anstataŭigi Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Agordoj de la tondujo de Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Ŝaltu, malŝaltu aŭ forviŝu la historion de la tondujo de Windows en Settings &gt; System &gt; Clipboard.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Malfermi la agordojn de la tondujo de Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Malfermi</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Sciigoj kaj sonoj</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Montri sciigojn</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Montri sciigon kun la ero, kiam Kleio kopias eron aŭ konservas novan kopion.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri sciigojn</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Sciigoj estas malŝaltitaj en Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Ŝaltu sciigojn por Kleio en la sciigaj agordoj de Windows por vidi ilin.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Ludi sonojn</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Ludi sonon, kiam Kleio kopias eron aŭ konservas novan kopion.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ludi sonojn</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Sciigaj agordoj de Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Elektu, kiel aperas la sciigoj de Kleio, aŭ malŝaltu ilin, en Settings &gt; System &gt; Notifications.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Malfermi la sciigajn agordojn de Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Malfermi</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Konservi</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Ŝanĝi la specojn de kopiita enhavo, kiuj estu konservitaj.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Dosieroj</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Dosieroj kaj dosierujoj kopiitaj en la dosieresplorilo kaj aliaj aplikaĵoj.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Konservi dosierojn</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Bildoj</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Bildoj kaj ekrankopioj.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Konservi bildojn</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Teksto</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Plata teksto, riĉa teksto kaj HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Konservi tekston</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Historio</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Grando</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Nombro de historiaj eroj konservotaj. Defaŭlta: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nuna grando sur disko.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Grando de la historio</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Ordigi laŭ</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Ordo de la eroj en la historio. Defaŭlte: Momento de lasta kopio.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ordigi laŭ</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Momento de lasta kopio</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Momento de unua kopio</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Nombro de kopioj</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Ŝprucfenestro</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Loko de la ŝprucfenestro</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Ŝanĝi la aperlokon de la ŝprucfenestro. Defaŭlta: Musmontrilo.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restarigi la pozicion</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remeti la ŝprucfenestron al ĝia defaŭlta loko</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Restarigi la pozicion</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ekrano</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Loko de la ŝprucfenestro</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Musmontrilo</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Piktogramo en la sciiga areo</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Centro de la fenestro</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Centro de la ekrano</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Lasta pozicio</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktiva ekrano</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Ekrano {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Ekrano {0} (ne konektita)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Fiksi al</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Ŝanĝi la lokon de la fiksitaj eroj. Defaŭlta: Supro.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fiksi al</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Supro</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Malsupro</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Bilda alto</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Maksimuma alto de bilda antaŭrigardo. Defaŭlte: 40. Konsilo: Agordu al 16, por ke bildoj aspektu kiel tekstaj eroj.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bilda alto</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Malfermi antaŭrigardon aŭtomate</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Post prokrasto montri antaŭrigardon kun pliaj informoj pri la elektita ero.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Malfermi antaŭrigardon aŭtomate</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Antaŭrigarda prokrasto</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Prokrasto en milisekundoj ĝis la antaŭrigarda ŝprucfenestro montriĝas. Defaŭlto: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prokrasto de antaŭrigardo en milisekundoj</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Emfazi trafojn</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Ŝanĝi la stilon de emfazo de serĉtrafoj. Defaŭlte: Grasa.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Emfazi trafojn</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Grasa</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Kursiva</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Substrekita</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Koloro</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Neniu</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Montri specialajn simbolojn</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Montri linifinojn, taburojn kaj komencajn kaj finajn spacetojn per specialaj simboloj.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri specialajn simbolojn</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Sciiga areo</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Montri piktogramon en la sciiga areo</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Montri la piktogramon de Kleio en la sciiga areo de la taskopleto.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri piktogramon en la sciiga areo</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stilo de la piktogramo en la sciiga areo</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Emblemo de Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tondujo</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Tondujo</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paperkuntenilo</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Paperkuntenilo</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tondilo</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Tondilo</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Montri la lastan kopion en la ŝpruchelpilo de la piktogramo</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Montri la plej freŝan kopion, kiam vi montras al la piktogramo en la sciiga areo.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri la lastan kopion en la ŝpruchelpilo de la piktogramo</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Aranĝo de la ŝprucfenestro</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Montri la serĉujon</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Montri la serĉujon ĉiam, aŭ nur kiam vi ektajpas.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri la serĉujon</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Videbleco de la serĉujo</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Ĉiam</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Dum la serĉado</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Montri la titolon antaŭ la serĉujo</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Montri “Kleio” maldekstre de la serĉujo.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri la titolon antaŭ la serĉujo</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Montri bildsimbolojn de aplikaĵoj</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Montri la piktogramon de la aplikaĵo, el kiu ĉiu ero estis kopiita.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri bildsimbolojn de aplikaĵoj</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Montri kolorspecimenon de deksesuma koloro</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Montri kolorspecimenon apud deksesumaj kolorkodoj.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri kolorspecimenon de deksesuma koloro</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Montri la piedon</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Montri la komandojn Forigi, Agordoj, Pri kaj Forlasi sube de la ŝprucfenestro.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Montri la piedon</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Sen la piedo, malfermu la agordojn el la menuo de la piktogramo en la sciiga areo aŭ per Ctrl+, en la ŝprucfenestro.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sekcioj por ignori</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Aplikaĵoj</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Formatoj de la tondujo</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Regulaj esprimoj</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Eblas ignori kopiojn el certaj aplikaĵoj. Rimarku, ke tio ne estas tute fidinda: Windows ne diras, kiu aplikaĵo kopiis ion, do Kleio kontrolas la aplikaĵon, kiu posedas la tondujon aŭ estas malfone. Prefere uzu formatojn de la tondujo, kiam eblas.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignori ĉiujn aplikaĵojn krom la listigitajn</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Konservi nur kopiojn el la sube listigitaj aplikaĵoj.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignori ĉiujn aplikaĵojn krom la listigitajn</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Aplikaĵoj</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopioj el ĉi tiuj aplikaĵoj ne estas konservataj.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aldoni rulantan aplikaĵon</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Aldoni rulantan aplikaĵon</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aldoni aplikaĵon elektante ĝian programdosieron</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Aldoni aplikaĵon…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Neniu aplikaĵo estas ignorata.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopioj, kiuj enhavas iun el ĉi tiuj formatoj de la tondujo, ne estas konservataj. Defaŭlte Kleio.Transient estas listigita; vi povas forigi ĝin kaj aldoni ajnajn proprajn formatojn.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Por trovi la nomon de formato, kopiu ion en la aplikaĵo kaj rigardu la tondujon per vidigilo kiel NirSoft InsideClipboard. Nur registritaj formatoj (nomoj, ne numeroj) listigeblas.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Aldoni formaton de la tondujo</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Nomo de formato, ekz. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nomo de la formato de la tondujo</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Aldoni</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aldoni la formaton de la tondujo</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Neniu formato de la tondujo estas ignorata.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Restarigi la defaŭltojn</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restarigi la defaŭltajn formatojn de la tondujo</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopioj, kies teksto kongruas kun iu el ĉi tiuj regulesprimoj, ne estas konservataj. La esprimoj uzas la sintakson de ECMAScript (JavaScript) kaj povas kongrui ie ajn en la teksto; uzu ^ kaj $ por kongruigi la tutan tekston.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Ekzemploj</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 literoj aŭ ciferoj, kiel multaj API-ŝlosiloj kaj ĵetonoj</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Sesciferaj unufojaj kodoj</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Numeroj de pagkartoj</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Aldoni regulesprimon</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Regulesprimo</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Aldoni</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aldoni la regulesprimon</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Nevalida regulesprimo</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Neniu regulesprimo estas difinita.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio ĉiam ignoras kopiojn markitajn per “{0}” aŭ “{1}”: la konvencioj de Windows, per kiuj pasvortadministriloj kaj aliaj aplikaĵoj tenas sentemajn datumojn for de tondujaj administriloj.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Forigi</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Forigi {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Nomo de la plenumebla dosiero</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Neniu rulanta aplikaĵo troviĝis</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” ne estas valida regulesprimo de ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Paŭzo</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Paŭzigi Kleion</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Provizore ignori ĉiujn novajn kopiojn. Utila por ke Kleio nenion registru, dum vi kopias sentemajn datumojn.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paŭzigi Kleion</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Vi verŝajne uzos tion el skriptoj. Paŭzigu Kleion el la komandlinio dum vi kopias sentemajn datumojn:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopii datumojn …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopii datumojn, poste kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Por ignori nur la sekvan kopion:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopii datumojn …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, poste kopii datumojn</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Vi ankaŭ povas Alt+alklaki la piktogramon en la sciiga areo por paŭzigi aŭ daŭrigi Kleion. Por ignori nur la sekvan kopion, Alt+Shift+alklaku ĝin.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Forigado</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Forigi la historion dum forlaso</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Aŭtomate forigi ĉiujn nefiksitajn erojn antaŭ ol forlasi la aplikaĵon.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Forigi la historion dum forlaso</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Forigi ankaŭ la sisteman tondujon</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Kiam ŝaltita, forigo de la historio ankaŭ forigus la nunan sisteman tondujon.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Forigi ankaŭ la sisteman tondujon</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Emblemo de Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versio {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Administrilo de tondujo por Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Kontroli ĝisdatigojn</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kontroli ĝisdatigojn</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Dankoj</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio estas transporto de Maccy de Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy estas malpeza administrilo de tondujo por macOS. Kleio portas ĝiajn funkciojn kaj aranĝon al Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Retejo de Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Retejo de Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy en GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy en GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Fontkodo</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Raportu problemojn, proponu funkciojn kaj kontribuu en GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio en GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio en GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Subteno</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Subteno: raporti problemon en GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Permesilo</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio kaj Maccy estas libera programaro eldonita laŭ la permesilo MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Permesilo MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Permesilo MIT</value>
+  </data>
+</root>

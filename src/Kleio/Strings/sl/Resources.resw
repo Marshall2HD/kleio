@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Upravitelj odložišča za Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Slika, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Datoteke</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Element odložišča</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Pripeto</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Izbrano, {0} od {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Pripni</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Odpni</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Izbriši vse</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Prekliči</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Nastavitve…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>O programu Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Zapri</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Odpri Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Začasno ustavi Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Prezri naslednje kopiranje</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Zapri Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Ustavi sklad za lepljenje</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Uredi element</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Preslednica</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Gor</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Dol</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Levo</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Desno</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Vnesite za iskanje …</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iskanje po zgodovini odložišča</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži ali skrij predogled</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Sklad za lepljenje</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ustavi sklad za lepljenje</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pripeti elementi</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zgodovina odložišča</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kopiraj izvlečeno besedilo.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kopiraj izvlečeno besedilo</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pripni</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Uredi element</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ustavi sklad za lepljenje</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Aplikacija:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Počisti nepripete elemente.
+Izberite z Shift, da počistite vse.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Počisti vse elemente.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Odpri nastavitve programa Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Preberite več o aplikaciji.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Zapri aplikacijo.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Kopirajte nekaj, da se prikaže tukaj.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Ni rezultatov</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Prikaži predogled</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Skrij predogled</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Pritisnite {0} za prikaz predogleda.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Pritisnite {0} za skrivanje predogleda.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Pritisnite {0} za zapenjanje.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Pritisnite {0} za odzapenjanje.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Pritisnite {0} za brisanje.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Sklad za lepljenje · {0} element</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Sklad za lepljenje · število elementov: {0}</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Sklad za lepljenje — vsako lepljenje postavi naslednji element v odložišče.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Prilepi</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Prilepite brez oblikovanja</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Uredi …</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Želite izbrisati zgodovino?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Želite izbrisati vso zgodovino?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati zgodovino? Pripeti elementi se ohranijo. Tega dejanja ni mogoče razveljaviti.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati zgodovino, vključno s pripetimi elementi? Tega dejanja ni mogoče razveljaviti.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Ne sprašuj več</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Ključ</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Vsebina</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>To besedilo je predolgo za urejanje.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Vsebina, ki je ni mogoče urejati (slika ali datoteka)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Pri urejanju se bodo izgubile vse oblike.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimenzije: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Čas prvega kopiranja: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Čas zadnjega kopiranja: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Število kopiranj: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (začasno ustavljeno)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (prezre naslednje kopiranje)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (ne shranjuje nobene vrste)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Na voljo je nova različica programa Kleio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} je zdaj na voljo. Imate različico {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Namesti posodobitev</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Preskoči to različico</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Prenesi</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Opombe ob izdaji</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Programa Kleio {0} ni bilo mogoče namestiti</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Odpri v namestitvenem programu za aplikacije</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Nameščanje programa Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio se bo znova zagnal, ko bo posodobitev nameščena.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Nameščanje posodobitve</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Prenašanje programa Kleio {0}. Kleio se bo znova zagnal, ko bo posodobitev nameščena.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Posodobitve ni bilo mogoče namestiti</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Na voljo je posodobitev</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio je posodobljen</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} je najnovejša različica.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Posodobitev ni bilo mogoče preveriti</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Objavljene izdaje programa Kleio ni bilo mogoče najti.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Izdaje</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Preverite internetno povezavo in poskusite znova.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Izdaja nima namestitvenega paketa za ta računalnik.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Prenos ni uspel (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Prenesenega paketa ni bilo mogoče shraniti.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Posodobitve ni bilo mogoče namestiti.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} je nameščen. Zaprite in znova odprite Kleio, da ga boste uporabljali.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio še ni pripravljen.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Elementa odložišča ni mogoče najti</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Element odložišča nima vsebine v obliki {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Preklicano</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Neznan ukaz</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio se po zagonu ni odzval.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio se ne odziva.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Programa Kleio ni bilo mogoče zagnati.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio ni razumel zahteve. Ali je zagnani Kleio enake različice?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Element je prevelik.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio ukaza ni mogel izvesti.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio se zapira.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Za navodila zaženite "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Ukaza ni bilo mogoče poslati programu Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio ni odgovoril.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio je poslal neveljaven odgovor.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Ni uspelo.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>{0} ni bilo mogoče zapisati.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Uporabite samo eno od možnosti --get, --select, --delete in --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Navedena je več kot ena številka elementa.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Številka elementa mora biti 1 ali več.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Nepričakovan argument: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format je mogoče uporabiti samo z --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format mora biti text, html, rtf, image ali files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output je mogoče uporabiti samo z --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output potrebuje pot do datoteke.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected je mogoče uporabiti samo z --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes je mogoče uporabiti samo s --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Neznana možnost: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Nastavitve programa Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Nastavitve programa Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Splošno</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Splošno</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Splošno</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Shranjevanje</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Shranjevanje</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Shranjevanje</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Videz</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Videz</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Videz</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignoriraj</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignoriraj</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignoriraj</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Napredno</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Napredno</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Napredno</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Bližnjica</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Počisti: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Uporabite {0}, {1} ali {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Pritisnite bližnjico …</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Snemanje. Pritisnite bližnjico, Esc za preklic, Backspace za brisanje</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Ni nastavljeno</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Izberite za snemanje nove bližnjice. Esc prekliče, Backspace izbriše.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Ni nastavljeno</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Počisti bližnjico</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Počisti bližnjico</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Zaženi ob prijavi</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Samodejno zaženi Kleio, ko se prijavite v Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zaženi ob prijavi</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows je izklopil zagon ob prijavi</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio je bil onemogočen v upravitelju opravil &gt; Zagonske aplikacije (ali v Nastavitve &gt; Aplikacije &gt; Zagon). Tam ga vklopite, da se Kleio zažene ob prijavi.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Samodejno preverite, ali so na voljo posodobitve</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Enkrat na dan na GitHubu poišči novejšo izdajo programa Kleio in ponudi namestitev.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Preverite zdaj</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Preveri posodobitve zdaj</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Samodejno preverite, ali so na voljo posodobitve</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Jezik menijev, nastavitev in sporočil programa Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Privzeto v sistemu Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Znova zaženite Kleio, da uporabite nov jezik.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Znova zaženi zdaj</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Bližnjice</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Odpri Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Globalna bližnjična tipka za odpiranje aplikacije. Ponavljajoč pritisk glavne tipke, medtem ko držite modifikatorje, izberete naslednjo postavko na seznamu. V tem načinu boste s sprostitvijo modifikacijskih tipk potrdili izbiro in zaprli pojavno okno. Privzeto: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bližnjica za odpiranje programa Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Bližnjice ni bilo mogoče registrirati</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>To bližnjico uporablja druga aplikacija. Izberite drugo.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Pripni</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Bližnjična tipka za pripenjanje zgodovinskega elementa. Privzeto: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bližnjica za pripenjanje</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Bližnjična tipka za brisanje zgodovinskega elementa. Privzeto: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bližnjica za brisanje</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Predogled</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Prikaži predogled z dodatnimi informacijami. Privzeto: Ctrl+Preslednica.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bližnjica za predogled</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Iskanje</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Način iskanja</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Kako se besedilo, ki ga vnesete v polje za iskanje, primerja z elementi zgodovine.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Način iskanja</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Točno</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Mehko</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Regularni izrazi - Regex</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Mešano</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Vedenje</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Samodejno prilepite</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Izbrani element prilepi v aktivno aplikacijo, namesto da ga samo kopira.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Samodejno prilepite</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Prilepite brez oblikovanja</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Iz izbranega elementa odstrani pisave, barve in drugo oblikovanje.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prilepite brez oblikovanja</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Prilagodite vedenje pri izbiri predmeta:
+• Izberite s pritisnjenim {0}, da kopirate element.
+• Izberite s pritisnjenim {1}, da kopirate in prilepite element.
+• Izberite s pritisnjenim {2}, da kopirate, počistite oblikovanje in prilepite element.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Odložišče sistema Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows ima svojo zgodovino odložišča, ki se odpre z Win+V. Kleio lahko med delovanjem prevzame to bližnjico, ne da bi spremenil nastavitve sistema Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Zamenjaj Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Med delovanjem programa Kleio Win+V odpre Kleio namesto zgodovine odložišča sistema Windows. Nastavitve sistema Windows se ne spremenijo.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamenjaj Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Nastavitve odložišča sistema Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Vklopite, izklopite ali počistite zgodovino odložišča sistema Windows v Nastavitve &gt; Sistem &gt; Odložišče.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Odpri nastavitve odložišča sistema Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Obvestila in zvoki</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Prikaži obvestila</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Prikaži obvestilo z elementom, ko Kleio kopira element ali shrani novo kopijo.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži obvestila</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Obvestila so v sistemu Windows izklopljena</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Če jih želite videti, vklopite obvestila za Kleio v nastavitvah obvestil sistema Windows.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Predvajaj zvoke</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Predvajaj zvok, ko Kleio kopira element ali shrani novo kopijo.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Predvajaj zvoke</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Nastavitve obvestil sistema Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Izberite, kako se prikazujejo obvestila programa Kleio, ali jih izklopite v Nastavitve &gt; Sistem &gt; Obvestila.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Odpri nastavitve obvestil sistema Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Odpri</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Spremenite, katere vrste kopirane vsebine naj bodo shranjene.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Datoteke</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Datoteke in mape, kopirane v Raziskovalcu in drugih aplikacijah.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Shranjuj datoteke</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Slike</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Slike in posnetki zaslona.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Shranjuj slike</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Besedilo</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Navadno besedilo, oblikovano besedilo in HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Shranjuj besedilo</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Zgodovina</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Število zgodovinskih elementov za ohranjanje. Privzeto: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Trenutna velikost na disku.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Velikost zgodovine</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Razvrsti po</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Vrstni red elementov v zgodovini. Privzeto: Čas zadnjega kopiranja.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Razvrsti po</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Čas zadnjega kopiranja</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Čas prvega kopiranja</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Število kopiranj</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Pojavno okno</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Pojavno okno na</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Spremenite lokacijo pojavnega okna. Privzeto: Kazalec miške.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ponastavi položaj</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vrni pojavno okno na privzeti položaj</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Ponastavi položaj</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zaslon</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pojavno okno na</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Kazalcu miške</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Ikona v območju za obvestila</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Središču okna</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Središču zaslona</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Zadnji poziciji</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktivni zaslon</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Zaslon {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Zaslon {0} (ni povezan)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Pripni</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Spremenite lokacijo pripetih elementov. Privzeto: Zgoraj.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pripni</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Zgoraj</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Spodaj</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Višina slike</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Največja višina predogleda slike. Privzeto: 40. Namig: nastavite na 16, da bodo slike videti kot besedilni elementi.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Višina slike</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Samodejno odpri predogled</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Po zakasnitvi prikaži predogled z dodatnimi informacijami o izbranem elementu.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Samodejno odpri predogled</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Zakasnitev predogleda</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Zakasnitev v milisekundah, dokler se ne prikaže pojavno okno za predogled. Privzeto: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zakasnitev predogleda v milisekundah</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Označite ujemanja</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Spremenite slog označevanja za iskana ujemanja. Privzeto: Krepko.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Označite ujemanja</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Krepko</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Poševno</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Podčrtaj</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Brez</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Prikaži posebne simbole</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Prikaži nove vrstice, zavihke, presledke na začetku in na koncu s posebnimi simboli.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži posebne simbole</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Območje za obvestila</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Prikaži ikono v območju za obvestila</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Prikaži ikono programa Kleio v območju za obvestila v opravilni vrstici.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži ikono v območju za obvestila</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Slog ikone v območju za obvestila</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logotip Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Odložišče</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Odložišče</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sponka</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Sponka</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Škarje</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Škarje</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Prikaži zadnjo kopijo v opisu orodja ikone</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Prikaži najnovejšo kopijo, ko pokažete na ikono v območju za obvestila.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži zadnjo kopijo v opisu orodja ikone</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Postavitev pojavnega okna</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Pokaži polje za iskanje</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Polje za iskanje prikaži vedno ali šele, ko začnete tipkati.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pokaži polje za iskanje</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vidnost polja za iskanje</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Vedno</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Med iskanjem</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Prikaži naslov pred poljem za iskanje</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Prikaži »Kleio« levo od polja za iskanje.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži naslov pred poljem za iskanje</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Prikaži ikone aplikacij</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Prikaži ikono aplikacije, iz katere je bil kopiran posamezni element.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži ikone aplikacij</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Prikaži vzorec hex barve</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Prikaži barvni vzorec ob hex barvnih kodah.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži vzorec hex barve</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Prikaži nogo</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Prikaži ukaze Izbriši, Nastavitve, O programu in Zapri na dnu pojavnega okna.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prikaži nogo</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Brez noge odprete nastavitve iz menija ikone v območju za obvestila ali z Ctrl+, v pojavnem oknu.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Razdelki za prezrtje</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Aplikacije</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Oblike odložišča</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Regularni izrazi - Regex</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Kopije iz določenih aplikacij je mogoče prezreti. Upoštevajte, da to ni zanesljivo: Windows ne pove, katera aplikacija je nekaj kopirala, zato Kleio preveri aplikacijo, ki ima v lasti odložišče ali je v ospredju. Kadar je mogoče, raje uporabite oblike odložišča.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Prezri vse aplikacije razen navedenih</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Shranjuj samo kopije iz spodaj navedenih aplikacij.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prezri vse aplikacije razen navedenih</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Aplikacije</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopije iz teh aplikacij se ne shranjujejo.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dodaj zagnano aplikacijo</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Dodaj zagnano aplikacijo</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dodaj aplikacijo z izbiro njene programske datoteke</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Dodaj aplikacijo …</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Nobena aplikacija ni prezrta.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopije, ki vsebujejo katero od teh oblik odložišča, se ne shranijo. Privzeto je navedena oblika Kleio.Transient; lahko jo odstranite in dodate poljubne svoje oblike.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Ime oblike najdete tako, da v aplikaciji nekaj kopirate in odložišče pregledate s pregledovalnikom, kot je NirSoft InsideClipboard. Navesti je mogoče samo registrirane oblike (imena, ne številke).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Dodaj obliko odložišča</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Ime oblike, npr. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ime oblike odložišča</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dodaj obliko odložišča</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Nobena oblika odložišča ni prezrta.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Ponastavi na privzeto</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ponastavi oblike odložišča na privzete</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopije, katerih besedilo se ujema s katerim od teh regularnih izrazov, se ne shranijo. Izrazi uporabljajo sintakso ECMAScript (JavaScript) in se lahko ujemajo kjer koli v besedilu; za ujemanje s celotnim besedilom uporabite ^ in $.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Primeri</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 črk ali števk, kot pri mnogih ključih API in žetonih</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6-mestne enkratne kode</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Številke plačilnih kartic</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Dodaj regularni izraz</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Regularni izraz</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dodaj regularni izraz</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Neveljaven regularni izraz</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Ni določenih regularnih izrazov.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio vedno prezre kopije, označene z »{0}« ali »{1}«: to so dogovori sistema Windows, s katerimi upravitelji gesel in druge aplikacije ohranjajo občutljive podatke zunaj upraviteljev odložišča.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Odstrani</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Odstrani {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Ime izvršljive datoteke</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Ni zagnanih aplikacij</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>»{0}« ni veljaven regularni izraz ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Premor</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Začasno ustavi Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Začasno prezri vse nove kopije. Uporabno, da Kleio ne beleži ničesar, medtem ko kopirate občutljive podatke.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Začasno ustavi Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>To boste najverjetneje uporabljali v skriptih. Začasno ustavite Kleio iz ukazne vrstice, medtem ko kopirate občutljive podatke:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopiranje podatkov …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopiranje podatkov, nato kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Če želite prezreti samo naslednje kopiranje:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopiranje podatkov …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, nato kopiranje podatkov</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Kleio lahko začasno ustavite ali nadaljujete tudi z Alt+klikom na ikono v območju za obvestila. Če želite prezreti samo naslednje kopiranje, kliknite z Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Brisanje</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Počisti zgodovino pri izhodu</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Preden zaprete aplikacijo, samodejno odstranite vse nepripete elemente.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Počisti zgodovino pri izhodu</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Počistite tudi sistemsko odložišče</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Ko je ta možnost omogočena, bi brisanje zgodovine počistilo tudi trenutno sistemsko odložišče.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Počistite tudi sistemsko odložišče</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logotip Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Različica {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Upravitelj odložišča za Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Preveri posodobitve</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Preveri posodobitve</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Zahvale</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio je priredba programa Maccy avtorja Alexa Rodionova</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy je lahek upravitelj odložišča za macOS. Kleio prinaša njegove funkcije in postavitev v Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Spletno mesto Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spletno mesto Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy na GitHubu</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy na GitHubu</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Izvorna koda</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Prijavite težave, predlagajte funkcije in prispevajte na GitHubu.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio na GitHubu</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio na GitHubu</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Podpora</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Podpora: prijavite težavo na GitHubu</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licenca</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio in Maccy sta prosto programje, izdano pod licenco MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Licenca MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Licenca MIT</value>
+  </data>
+</root>

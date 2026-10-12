@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Trình quản lý bảng nhớ tạm cho Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Hình ảnh, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Mục bảng nhớ tạm</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Đã ghim</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Đã chọn, {0} trên {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Ghim</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Bỏ ghim</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Dọn dẹp</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Xóa tất cả</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Cài đặt…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Giới thiệu về Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Mở Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Tạm dừng Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Bỏ qua lần sao chép tiếp theo</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Thoát Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Dừng ngăn xếp dán</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Chỉnh sửa mục</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Phím cách</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Nhập từ khóa để tìm kiếm…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tìm kiếm trong lịch sử bảng nhớ tạm</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiện hoặc ẩn bản xem trước</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Ngăn xếp dán</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dừng ngăn xếp dán</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Các mục đã ghim</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lịch sử bảng nhớ tạm</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Sao chép văn bản đã trích xuất.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sao chép văn bản đã trích xuất</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ghim</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chỉnh sửa mục</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dừng ngăn xếp dán</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Ứng dụng:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Xóa các mục chưa được ghim.
+Chọn với Shift để xóa tất cả.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Xóa tất cả các mục.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Mở cài đặt Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Đọc thêm thông tin về ứng dụng.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Thoát ứng dụng.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Hãy sao chép thứ gì đó để thấy nó ở đây.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Không có kết quả</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Hiện bản xem trước</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Ẩn bản xem trước</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Nhấn {0} để hiển thị bản xem trước.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Nhấn {0} để ẩn bản xem trước.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Nhấn {0} để ghim.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Nhấn {0} để bỏ ghim.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Nhấn {0} để xóa.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Ngăn xếp dán · {0} mục</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Ngăn xếp dán · {0} mục</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Ngăn xếp dán — mỗi lần dán sẽ đưa mục tiếp theo vào bảng nhớ tạm.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Dán</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Dán không định dạng</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Chỉnh sửa…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Xóa lịch sử?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Xóa toàn bộ lịch sử?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa lịch sử không? Các mục đã ghim sẽ được giữ lại. Không thể hoàn tác thao tác này.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa lịch sử, kể cả các mục đã ghim không? Không thể hoàn tác thao tác này.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Không hỏi lại</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Phím</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Văn bản này quá dài để chỉnh sửa.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Nội dung không thể chỉnh sửa (hình ảnh hoặc tệp tin)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Chỉnh sửa sẽ loại bỏ tất cả định dạng.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Kích thước: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Sao chép lần đầu: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Sao chép lần cuối: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Số lần sao chép: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (đã tạm dừng)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (đang bỏ qua lần sao chép tiếp theo)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (không lưu loại nào)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Đã có phiên bản Kleio mới!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} hiện đã có. Bạn đang dùng {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Cài đặt bản cập nhật</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Bỏ qua phiên bản này</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Ghi chú phát hành</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Không thể cài đặt Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Mở trong Trình cài đặt ứng dụng</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Đang cài đặt Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Đang cài đặt bản cập nhật</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Đang tải xuống Kleio {0}. Kleio sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Không thể cài đặt bản cập nhật</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Có bản cập nhật</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio đã được cập nhật</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} là phiên bản mới nhất.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Không thể kiểm tra bản cập nhật</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Không tìm thấy bản phát hành Kleio nào.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Bản phát hành</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Hãy kiểm tra kết nối Internet rồi thử lại.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Bản phát hành không có gói cài đặt cho máy tính này.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Tải xuống không thành công (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Không thể lưu gói đã tải xuống.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Không thể cài đặt bản cập nhật.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Đã cài đặt Kleio {0}. Hãy thoát và mở lại Kleio để sử dụng.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio chưa sẵn sàng.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Không tìm thấy mục bảng nhớ tạm</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Mục bảng nhớ tạm không có nội dung {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Đã hủy</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Lệnh không xác định</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio không phản hồi sau khi khởi động.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio không phản hồi.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Không thể khởi động Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio không hiểu yêu cầu. Kleio đang chạy có cùng phiên bản không?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Mục quá lớn.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio không thể chạy lệnh.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio đang thoát.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Chạy "kleio --help" để xem cách dùng.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Không thể gửi lệnh tới Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio không trả lời.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio đã gửi câu trả lời không hợp lệ.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Không thành công.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Không thể ghi {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Chỉ dùng một trong --get, --select, --delete và --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Đã cung cấp nhiều hơn một số thứ tự mục.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Số thứ tự mục phải từ 1 trở lên.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Đối số không mong muốn: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>Chỉ có thể dùng --format với --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format phải là text, html, rtf, image hoặc files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>Chỉ có thể dùng --output với --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output cần một đường dẫn tệp.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>Chỉ có thể dùng --selected với --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>Chỉ có thể dùng --yes với --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Tùy chọn không xác định: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Cài đặt Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Cài đặt Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Lưu trữ</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lưu trữ</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Lưu trữ</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Loại trừ</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Loại trừ</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Loại trừ</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Phím tắt</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Xóa {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Hãy kèm {0}, {1} hoặc {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Nhấn một phím tắt…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Đang ghi. Nhấn một phím tắt, Esc để hủy, Backspace để xóa</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Chưa đặt</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Chọn để ghi phím tắt mới. Esc để hủy, Backspace để xóa.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Chưa đặt</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Xóa phím tắt</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Xóa phím tắt</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Khởi động khi đăng nhập</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Tự động khởi động Kleio khi bạn đăng nhập vào Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Khởi động khi đăng nhập</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows đã tắt tính năng khởi động khi đăng nhập</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio đã bị tắt trong Trình quản lý tác vụ &gt; Ứng dụng khởi động (hoặc Cài đặt &gt; Ứng dụng &gt; Khởi động). Hãy bật lại ở đó để Kleio khởi động khi đăng nhập.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Kiểm tra cập nhật tự động</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Mỗi ngày một lần tìm bản phát hành Kleio mới hơn trên GitHub và đề nghị cài đặt.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Kiểm tra ngay</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiểm tra bản cập nhật ngay</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiểm tra cập nhật tự động</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Ngôn ngữ của menu, cài đặt và thông báo của Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Mặc định của Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Hãy khởi động lại Kleio để dùng ngôn ngữ mới.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Khởi động lại ngay</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Phím tắt</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Mở Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Phím tắt mở ứng dụng. Nhấn giữ phím chính cùng với các phím sửa đổi sẽ chọn mục tiếp theo trong danh sách. Trong chế độ này, thả các phím sửa đổi sẽ xác nhận lựa chọn và đóng cửa sổ popup. Mặc định: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phím tắt mở Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Không thể đăng ký phím tắt</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Phím tắt này đang được một ứng dụng khác sử dụng. Hãy chọn phím tắt khác.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Ghim</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Phím tắt để ghim một mục. Mặc định: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phím tắt ghim</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Phím tắt để xóa một mục. Mặc định: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phím tắt xóa</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Xem trước</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Hiển thị xem trước với thông tin bổ sung. Mặc định: Ctrl+Phím cách.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phím tắt xem trước</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Chế độ tìm kiếm</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Cách văn bản bạn nhập vào ô tìm kiếm được so khớp với các mục trong lịch sử.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chế độ tìm kiếm</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Chính xác</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Gần đúng</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Biểu thức chính quy</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Hỗn hợp</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Hành vi</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Tự động dán</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Dán mục đã chọn vào ứng dụng đang hoạt động thay vì chỉ sao chép.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tự động dán</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Dán không định dạng</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Xóa phông chữ, màu sắc và định dạng khác khỏi mục đã chọn.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dán không định dạng</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Tùy chỉnh hành vi khi chọn mục:
+• Chọn bằng cách giữ {0} để sao chép mục.
+• Chọn bằng cách giữ {1} để sao chép và dán mục.
+• Chọn bằng cách giữ {2} để sao chép, xóa định dạng, và dán mục.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Bảng nhớ tạm của Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows có lịch sử bảng nhớ tạm riêng, mở bằng Win+V. Kleio có thể dùng phím tắt đó khi đang chạy mà không thay đổi cài đặt nào của Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Thay thế Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Khi Kleio đang chạy, Win+V mở Kleio thay vì lịch sử bảng nhớ tạm của Windows. Cài đặt Windows không bị thay đổi.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thay thế Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Cài đặt bảng nhớ tạm của Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Bật, tắt hoặc xóa lịch sử bảng nhớ tạm của Windows trong Cài đặt &gt; Hệ thống &gt; Bảng nhớ tạm.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mở cài đặt bảng nhớ tạm của Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Thông báo và âm thanh</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Hiện thông báo</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Hiện thông báo kèm mục khi Kleio sao chép một mục hoặc lưu một bản sao mới.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiện thông báo</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Thông báo đang tắt trong Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Hãy bật thông báo cho Kleio trong cài đặt thông báo của Windows để xem chúng.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Phát âm thanh</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Phát âm thanh khi Kleio sao chép một mục hoặc lưu một bản sao mới.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Phát âm thanh</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Cài đặt thông báo của Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Chọn cách hiển thị thông báo của Kleio hoặc tắt chúng trong Cài đặt &gt; Hệ thống &gt; Thông báo.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mở cài đặt thông báo của Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Chọn loại nội dung sao chép nào sẽ được lưu trữ.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Tệp và thư mục được sao chép trong File Explorer và các ứng dụng khác.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lưu tệp</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Hình ảnh và ảnh chụp màn hình.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lưu hình ảnh</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Văn bản thuần, văn bản có định dạng và HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lưu văn bản</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Lịch sử</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Số mục lịch sử cần giữ lại. Mặc định: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dung lượng hiện đang chiếm trên ổ đĩa.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kích thước lịch sử</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Sắp xếp theo</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Thứ tự các mục trong lịch sử. Mặc định: Sao chép mới nhất.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sắp xếp theo</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Sao chép mới nhất</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Sao chép cũ nhất</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Sao chép nhiều nhất</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Hiện popup tại</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Thay đổi vị trí hiển thị của cửa sổ popup. Mặc định: Con trỏ.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đặt lại vị trí</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Đưa popup về vị trí mặc định</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Đặt lại vị trí</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Màn hình</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiện popup tại</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Con trỏ</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Biểu tượng vùng thông báo</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Trung tâm cửa sổ</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Trung tâm màn hình</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Vị trí cuối cùng</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Màn hình hoạt động</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Màn hình {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Màn hình {0} (chưa kết nối)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Ghim vào</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Thay đổi vị trí của các mục đã ghim. Mặc định: Trên cùng.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ghim vào</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Trên cùng</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Dưới cùng</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Chiều cao hình ảnh</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Chiều cao xem trước hình ảnh tối đa. Mặc định: 40. Gợi ý: Đặt thành 16 sẽ trông giống như các mục văn bản.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Chiều cao hình ảnh</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Tự động mở xem trước</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Sau một khoảng trễ, hiện bản xem trước kèm thông tin bổ sung về mục đã chọn.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tự động mở xem trước</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Trì hoãn xem trước</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Thời gian trễ (tính bằng mili giây) trước khi hiển thị cửa sổ xem trước. Mặc định: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Độ trễ xem trước tính bằng mili giây</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Đánh dấu kết quả khớp</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Thay đổi kiểu đánh dấu cho kết quả tìm kiếm. Mặc định: In đậm.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đánh dấu kết quả khớp</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>In đậm</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>In nghiêng</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Gạch chân</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Hiển thị các ký tự đặc biệt</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Hiển thị các ký tự xuống dòng, tab, khoảng trắng đầu và cuối bằng các ký hiệu đặc biệt.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị các ký tự đặc biệt</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Vùng thông báo</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Hiện biểu tượng trong vùng thông báo</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Hiện biểu tượng Kleio trong vùng thông báo của thanh tác vụ.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiện biểu tượng trong vùng thông báo</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiểu biểu tượng vùng thông báo</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biểu trưng Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bảng nhớ tạm</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Bảng nhớ tạm</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kẹp giấy</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Kẹp giấy</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kéo</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Kéo</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Hiện bản sao gần đây trong chú giải của biểu tượng</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Hiện bản sao mới nhất khi bạn trỏ vào biểu tượng vùng thông báo.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiện bản sao gần đây trong chú giải của biểu tượng</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Bố cục popup</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Hiển thị thanh tìm kiếm</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Luôn hiện ô tìm kiếm, hoặc chỉ hiện khi bạn bắt đầu nhập.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị thanh tìm kiếm</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị ô tìm kiếm</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Luôn luôn</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Trong quá trình tìm kiếm</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Hiển thị tiêu đề trước ô tìm kiếm</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Hiện “Kleio” ở bên trái ô tìm kiếm.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị tiêu đề trước ô tìm kiếm</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Hiển thị biểu tượng ứng dụng</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Hiện biểu tượng của ứng dụng mà từng mục được sao chép từ đó.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị biểu tượng ứng dụng</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Hiển thị mẫu màu hex</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Hiển thị mẫu màu bên cạnh mã màu hex.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị mẫu màu hex</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Hiển thị phần chân trang</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Hiện các lệnh Dọn dẹp, Cài đặt, Thông tin và Thoát ở cuối popup.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hiển thị phần chân trang</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Khi không có chân trang, hãy mở cài đặt từ menu của biểu tượng vùng thông báo hoặc bằng Ctrl+, trong popup.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Các phần loại trừ</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Ứng dụng</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Định dạng bảng nhớ tạm</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Biểu thức chính quy</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Có thể bỏ qua các bản sao đến từ một số ứng dụng nhất định. Xin lưu ý rằng cách này không hoàn toàn chắc chắn: Windows không cho biết ứng dụng nào đã sao chép, vì vậy Kleio kiểm tra ứng dụng sở hữu bảng nhớ tạm hoặc đang ở nền trước. Hãy ưu tiên dùng định dạng bảng nhớ tạm khi có thể.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Loại trừ tất cả các ứng dụng trừ những ứng dụng được liệt kê</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Chỉ lưu các bản sao được tạo trong những ứng dụng được liệt kê bên dưới.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Loại trừ tất cả các ứng dụng trừ những ứng dụng được liệt kê</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Ứng dụng</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Các bản sao được tạo trong những ứng dụng này sẽ không được lưu.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thêm ứng dụng đang chạy</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Thêm ứng dụng đang chạy</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thêm ứng dụng bằng cách chọn tệp chương trình của nó</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Thêm ứng dụng…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Không có ứng dụng nào bị loại trừ.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Các bản sao chứa bất kỳ định dạng bảng nhớ tạm nào sau đây sẽ không được lưu. Theo mặc định, Kleio.Transient có trong danh sách; bạn có thể xóa nó và thêm bất kỳ định dạng tùy chỉnh nào.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Để tìm tên một định dạng, hãy sao chép thứ gì đó trong ứng dụng rồi xem bảng nhớ tạm bằng trình xem như NirSoft InsideClipboard. Chỉ có thể liệt kê các định dạng đã đăng ký (tên, không phải số).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Thêm định dạng bảng nhớ tạm</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Tên định dạng, ví dụ Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tên định dạng bảng nhớ tạm</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thêm định dạng bảng nhớ tạm</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Không có định dạng bảng nhớ tạm nào bị loại trừ.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Đặt lại mặc định</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Đặt lại định dạng bảng nhớ tạm về mặc định</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Các bản sao có văn bản khớp với bất kỳ biểu thức chính quy nào sau đây sẽ không được lưu. Biểu thức dùng cú pháp ECMAScript (JavaScript) và có thể khớp ở bất kỳ đâu trong văn bản; dùng ^ và $ để khớp toàn bộ văn bản.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Ví dụ</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 chữ cái hoặc chữ số, như nhiều khóa API và token</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Mã dùng một lần gồm 6 chữ số</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Số thẻ thanh toán</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Thêm biểu thức chính quy</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biểu thức chính quy</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Thêm biểu thức chính quy</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Biểu thức chính quy không hợp lệ</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Chưa có biểu thức chính quy nào.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio luôn bỏ qua các bản sao được đánh dấu bằng “{0}” hoặc “{1}”: đây là quy ước của Windows mà trình quản lý mật khẩu và các ứng dụng khác dùng để giữ dữ liệu nhạy cảm tránh xa trình quản lý bảng nhớ tạm.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Xóa {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Tên tệp thực thi</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Không tìm thấy ứng dụng nào đang chạy</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” không phải là biểu thức chính quy ECMAScript hợp lệ.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Tạm dừng</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Tạm dừng Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Tạm thời bỏ qua mọi bản sao mới. Hữu ích để Kleio không ghi lại khi bạn sao chép dữ liệu nhạy cảm.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tạm dừng Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Bạn có thể sẽ dùng tính năng này từ script. Hãy tạm dừng Kleio từ dòng lệnh trong khi sao chép dữ liệu nhạy cảm:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… sao chép dữ liệu …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, sao chép dữ liệu, rồi kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Để chỉ bỏ qua lần sao chép tiếp theo:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… sao chép dữ liệu …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, rồi sao chép dữ liệu</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Bạn cũng có thể Alt+nhấp vào biểu tượng vùng thông báo để tạm dừng hoặc tiếp tục Kleio. Để chỉ bỏ qua lần sao chép tiếp theo, hãy Alt+Shift+nhấp vào biểu tượng.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Dọn dẹp</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Xóa lịch sử khi thoát</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Tự động xóa bỏ tất cả các mục không được ghim khi thoát khỏi ứng dụng.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Xóa lịch sử khi thoát</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Xóa cả bảng nhớ tạm của hệ thống nữa</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Khi được kích hoạt, việc xóa lịch sử cũng sẽ xóa bảng nhớ tạm hiện tại của hệ thống.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Xóa cả bảng nhớ tạm của hệ thống nữa</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biểu trưng Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Phiên bản {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Trình quản lý bảng nhớ tạm cho Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Kiểm tra bản cập nhật</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiểm tra bản cập nhật</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Ghi công</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio là bản chuyển thể từ Maccy của Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy là trình quản lý bảng nhớ tạm gọn nhẹ cho macOS. Kleio mang các tính năng và bố cục của nó lên Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Trang web Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Trang web Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy trên GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy trên GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Mã nguồn</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Báo cáo sự cố, đề xuất tính năng và đóng góp trên GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio trên GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio trên GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hỗ trợ: báo cáo sự cố trên GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Giấy phép</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio và Maccy là phần mềm tự do được phát hành theo Giấy phép MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Giấy phép MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Giấy phép MIT</value>
+  </data>
+</root>

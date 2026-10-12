@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Správce schránky pro Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Obrázek</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Obrázek, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Soubory</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Položka schránky</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Připnuto</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Vybráno, {0} z {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Odepnout</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Vyčistit</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Odebrat všechny</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Nastavení…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>O aplikaci Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Ukončit</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Otevřít Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Pozastavit Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignorovat další kopii</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Ukončit Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Zastavit zásobník vložení</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Upravit položku</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Mezerník</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Nahoru</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Dolů</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Vlevo</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Vpravo</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Piš pro hledání…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hledat v historii schránky</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazit nebo skrýt náhled</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Zásobník vložení</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zastavit zásobník vložení</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Připnuté položky</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historie schránky</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Zkopírovat extrahovaný text.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zkopírovat extrahovaný text</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Upravit položku</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zastavit zásobník vložení</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Aplikace:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Odebrat nepřipnuté položky.
+Vyber s Shift pro odebrání všech.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Odebrat všechny položky.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Otevřít nastavení Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Přečíst si víc o aplikaci.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Ukončit aplikaci.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Zkopíruj něco a uvidíš to tady.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Žádné výsledky</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Zobrazit náhled</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Skrýt náhled</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Stiskni {0} pro zobrazení náhledu.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Stiskni {0} pro skrytí náhledu.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Stiskni {0} pro připnutí.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Stiskni {0} pro odepnutí.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Stiskni {0} pro smazání.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Zásobník vložení · {0} položka</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Zásobník vložení · počet položek: {0}</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Zásobník vložení — každé vložení dá do schránky další položku.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Vložit bez formátování</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Upravit…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Vymazat historii?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Vymazat celou historii?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Opravdu chceš vymazat historii? Připnuté položky zůstanou zachovány. Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Opravdu chceš vymazat historii včetně připnutých položek? Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Příště se neptat</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Klávesa</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Obsah</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Tento text je příliš dlouhý na úpravy.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Neupravitelný obsah (obrázek nebo soubor)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Při úpravách se zruší veškeré formátování.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Rozměry: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Čas prvního kopírování: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Čas posledního kopírování: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Počet kopírování: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (pozastaveno)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignoruje další kopii)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (neukládá žádný typ)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Je k dispozici nová verze Kleio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} je nyní k dispozici. Máš verzi {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Nainstalovat aktualizaci</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Přeskočit tuto verzi</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Stáhnout</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Poznámky k verzi</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0} se nepodařilo nainstalovat</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Otevřít v Instalační službě aplikací</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Instaluje se Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio se po instalaci aktualizace restartuje.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Instaluje se aktualizace</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Stahuje se Kleio {0}. Kleio se po instalaci aktualizace restartuje.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Aktualizaci se nepodařilo nainstalovat</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Je dostupná aktualizace</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Máš nejnovější verzi</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} je nejnovější verze.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Aktualizace se nepodařilo zkontrolovat</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Nebyla nalezena žádná zveřejněná verze Kleio.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Vydání</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Zkontroluj připojení k internetu a zkus to znovu.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Vydání neobsahuje instalační balíček pro tento počítač.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Stahování selhalo (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Stažený balíček se nepodařilo uložit.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Aktualizaci nebylo možné nainstalovat.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} bylo nainstalováno. Ukonči a znovu otevři Kleio, abys ho mohl(a) používat.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio ještě není připraveno.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Položka schránky nebyla nalezena</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Položka schránky nemá obsah ve formátu {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Zrušeno</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Neznámý příkaz</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio po spuštění neodpovědělo.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio neodpovídá.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio se nepodařilo spustit.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio nerozumělo požadavku. Je spuštěné Kleio ve stejné verzi?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Položka je příliš velká.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio nemohlo spustit příkaz.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio se ukončuje.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Nápovědu zobrazíš příkazem "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Příkaz se nepodařilo odeslat do Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio neodpovědělo.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio poslalo neplatnou odpověď.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Nezdařilo se.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Nepodařilo se zapsat {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Použij jen jednu z voleb --get, --select, --delete a --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Bylo zadáno více než jedno číslo položky.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Číslo položky musí být 1 nebo větší.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Neočekávaný argument: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format lze použít jen s --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format musí být text, html, rtf, image nebo files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output lze použít jen s --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output vyžaduje cestu k souboru.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected lze použít jen s --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes lze použít jen s --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Neznámá volba: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Nastavení Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Nastavení Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Úložistě</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Úložistě</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Úložistě</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Vzhled</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vzhled</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Vzhled</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignorovat</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorovat</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignorovat</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Pokročilé</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Klávesová zkratka</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Vymazat: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Použij {0}, {1} nebo {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Stiskni klávesovou zkratku…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Nahrávání. Stiskni klávesovou zkratku, Esc zruší, Backspace vymaže</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Nenastaveno</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vyber a nahraj novou klávesovou zkratku. Esc zruší, Backspace vymaže.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Nenastaveno</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vymazat klávesovou zkratku</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vymazat klávesovou zkratku</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Spustit při přihlášení</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Automaticky spouštět Kleio po přihlášení do Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spustit při přihlášení</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Spouštění při přihlášení vypnul systém Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio bylo zakázáno ve Správci úloh &gt; Aplikace po spuštění (nebo v Nastavení &gt; Aplikace &gt; Po spuštění). Povol ho tam, aby se Kleio spouštělo při přihlášení.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Automaticky kontrolovat aktualizace</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Jednou denně hledat novější verzi Kleio na GitHubu a nabídnout její instalaci.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Zkontrolovat teď</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zkontrolovat aktualizace hned</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automaticky kontrolovat aktualizace</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Jazyk nabídek, nastavení a zpráv Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Podle Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Restartuj Kleio, aby se použil nový jazyk.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Restartovat</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Klávesové zkratky</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Otevřít Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Globální klávesová zkratka pro otevření aplikace. Pakliže opakovaně stisknete hlavní klávesu a podržíte modifikátory, vyberete další položku v seznamu. V tomto režimu uvolnění modifikátorových kláves potvrdí výběr a zavře vyskakovací okno. Výchozí: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klávesová zkratka pro otevření Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Klávesovou zkratku se nepodařilo zaregistrovat</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Tuto klávesovou zkratku používá jiná aplikace. Zvol jinou.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Klávesová zkratka pro připnutí položky. Výchozí: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klávesová zkratka pro připnutí</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Klávesová zkratka pro smazání položky historie. Výchozí: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klávesová zkratka pro smazání</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Náhled</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Zobrazit náhled s dodatečnými informacemi. Výchozí: Ctrl+Mezerník.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klávesová zkratka pro náhled</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Vyhledávání</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Režim hledání</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Jak se text zadaný do pole hledání porovnává s položkami historie.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Režim hledání</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Přesné</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Přibližné</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Regulární výrazy</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Smíšené</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Chování</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Vložit automaticky</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Vložit vybranou položku do aktivní aplikace, místo aby se jen zkopírovala.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vložit automaticky</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Vložit bez formátování</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Odstranit z vybrané položky písma, barvy a další formátování.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vložit bez formátování</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Přizpůsob chování při volbě položky:
+• Vyber se stisknutím {0} pro zkopírování položky.
+• Vyber se stisknutím {1} pro zkopírování a vložení položky.
+• Vyber se stisknutím {2} pro zkopírování, odstranění formátování a vložení položky.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Schránka Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows má vlastní historii schránky, která se otevírá klávesami Win+V. Kleio může tuto zkratku převzít, dokud běží, aniž by měnilo jakékoli nastavení Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Nahradit Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Dokud Kleio běží, Win+V otevírá Kleio místo historie schránky Windows. Nastavení Windows se nemění.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nahradit Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Nastavení schránky Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Zapni, vypni nebo vymaž historii schránky Windows v Nastavení &gt; Systém &gt; Schránka.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Otevřít nastavení schránky Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Notifikace a zvuky</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Zobrazovat oznámení</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Zobrazit oznámení s položkou, když Kleio zkopíruje položku nebo uloží novou kopii.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat oznámení</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Oznámení jsou ve Windows vypnutá</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Aby se oznámení zobrazovala, zapni je pro Kleio v nastavení oznámení Windows.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Přehrávat zvuky</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Přehrát zvuk, když Kleio zkopíruje položku nebo uloží novou kopii.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Přehrávat zvuky</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Nastavení oznámení Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Vyber, jak se oznámení Kleio zobrazují, nebo je vypni v Nastavení &gt; Systém &gt; Oznámení.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Otevřít nastavení oznámení Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Ukládat</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Vyber jaké typy kopírovaného obsahu mají být ukládány.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Soubory</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Soubory a složky zkopírované v Průzkumníku souborů a jiných aplikacích.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ukládat soubory</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Obrázky</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Obrázky a snímky obrazovky.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ukládat obrázky</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Prostý text, formátovaný text a HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ukládat text</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Historie</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Počet položek uchovávaných v historii. Výchozí: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aktuální velikost na disku.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Velikost historie</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Řadit podle</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Pořadí položek v historii. Výchozí: Čas posledního kopírování.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Řadit podle</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Čas posledního kopírování</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Čas prvního kopírování</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Počet kopírování</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Zobrazovat popup vedle</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Změňte umístění vyskakovacího okna. Výchozí: Kurzoru.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vynulování polohy</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vrátit popup na výchozí pozici</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Vynulování polohy</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obrazovka</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat popup vedle</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Kurzoru</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Ikona v oznamovací oblasti</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Středu okna</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Středu obrazovky</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Poslední pozice</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktivní obrazovka</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Displej {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Displej {0} (nepřipojen)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Změnit umístění připnutí položek. Výchozí: Nahoru.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Nahoru</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Dolů</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Výška obrázku</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Maximální výška náhledu obrázku. Výchozí: 40. Tip: Zvol 16 pro stejnou podobu jako textové položky.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Výška obrázku</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Automaticky otevřít náhled</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Po prodlevě zobrazit náhled s dalšími informacemi o vybrané položce.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automaticky otevřít náhled</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Zpoždení náhledu</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Zpoždění v milisekundách před zobrazením popup okna. Výchozí: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prodleva náhledu v milisekundách</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Zvýraznit shody</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Změnit styl zvýraznění výsledků hledání. Výchozí: Tučně.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zvýraznit shody</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Tučně</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Kurzívou</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Podtržením</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Žádné</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Zobrazovat speciální znaky</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Zobrazovat nové řádky, tabulátory, úvodní a koncové mezery pomocí speciálních znaků.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat speciální znaky</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Oznamovací oblast</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Zobrazovat ikonu v oznamovací oblasti</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Zobrazovat ikonu Kleio v oznamovací oblasti hlavního panelu.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat ikonu v oznamovací oblasti</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Styl ikony v oznamovací oblasti</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Schránka</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Schránka</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kancelářská sponka</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Kancelářská sponka</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nůžky</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Nůžky</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Zobrazovat poslední kopii v popisku ikony</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Zobrazit nejnovější kopii, když najedeš na ikonu v oznamovací oblasti.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat poslední kopii v popisku ikony</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Rozložení popupu</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Zobrazovat vyhledávací pole</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Zobrazovat pole hledání vždy, nebo až když začneš psát.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat vyhledávací pole</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Viditelnost pole hledání</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Vždy</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Během vyhledávání</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Zobrazovat název aplikace před vyhledávacím polem</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Zobrazovat „Kleio“ vlevo od pole hledání.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat název aplikace před vyhledávacím polem</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Zobrazení ikon aplikací</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Zobrazovat ikonu aplikace, ze které byla každá položka zkopírována.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazení ikon aplikací</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Zobrazit vzorek hex barvy</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Zobrazit barevný vzorek vedle hex kódů barev.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazit vzorek hex barvy</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Zobrazovat patičku</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Zobrazovat příkazy Vyčistit, Nastavení, O aplikaci a Ukončit dole v popupu.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zobrazovat patičku</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Bez patičky otevřeš nastavení z nabídky ikony v oznamovací oblasti nebo klávesami Ctrl+, v popupu.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sekce ignorování</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Formáty schránky</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Regulární výrazy</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Kopie z určitých aplikací lze ignorovat. Upozorňujeme, že to není neprůstřelné: Windows neříká, která aplikace něco zkopírovala, takže Kleio kontroluje aplikaci, které patří schránka nebo která je v popředí. Pokud to jde, používej raději formáty schránky.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignorovat všechny aplikace kromě zalistovaných</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Ukládat jen kopie z níže uvedených aplikací.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorovat všechny aplikace kromě zalistovaných</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopie z těchto aplikací se neukládají.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Přidat spuštěnou aplikaci</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Přidat spuštěnou aplikaci</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Přidat aplikaci výběrem jejího programového souboru</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Přidat aplikaci…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Žádné aplikace se neignorují.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopie obsahující některý z těchto formátů schránky se neukládají. Ve výchozím stavu je v seznamu Kleio.Transient; můžeš ho odebrat a přidat libovolné vlastní formáty.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Název formátu zjistíš tak, že v aplikaci něco zkopíruješ a prohlédneš si schránku prohlížečem, například NirSoft InsideClipboard. Uvést lze jen registrované formáty (názvy, ne čísla).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Přidat formát schránky</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Název formátu, např. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Název formátu schránky</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Přidat formát schránky</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Žádné formáty schránky se neignorují.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Obnovit výchozí</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Obnovit výchozí formáty schránky</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopie, jejichž text odpovídá některému z těchto regulárních výrazů, se neukládají. Výrazy používají syntaxi ECMAScript (JavaScript) a mohou odpovídat kdekoli v textu; pro shodu s celým textem použij ^ a $.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Příklady</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 písmen nebo číslic, jako mnoho klíčů API a tokenů</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6místné jednorázové kódy</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Čísla platebních karet</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Přidat regulární výraz</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Regulární výraz</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Přidat regulární výraz</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Neplatný regulární výraz</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Nejsou definovány žádné regulární výrazy.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio vždy ignoruje kopie označené „{0}“ nebo „{1}“: konvence Windows, kterými správci hesel a jiné aplikace chrání citlivá data před správci schránky.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Odebrat</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Odebrat {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Název spustitelného souboru</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Nebyly nalezeny žádné spuštěné aplikace</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}“ není platný regulární výraz ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pozastavení</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Pozastavit Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Dočasně ignorovat všechny nové kopie. Hodí se, aby Kleio nic nezaznamenávalo, zatímco kopíruješ citlivá data.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pozastavit Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Nejspíš to budeš používat ve skriptech. Pozastav Kleio z příkazového řádku, zatímco kopíruješ citlivá data:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopírování dat …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopírování dat, potom kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Pro ignorování jen další kopie:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopírování dat …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, potom kopírování dat</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Kleio můžeš také pozastavit nebo obnovit kliknutím na ikonu v oznamovací oblasti s klávesou Alt. Pro ignorování jen další kopie na ni klikni s Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Mazání</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Vymazat historii při ukončení</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Automaticky odebrat všechny nepřipnuté položky před ukončením aplikace.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vymazat historii při ukončení</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Vymazat taky systémovou schránku</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Pokud je povoleno, smazání historie smaže i aktuální systémovou schránku.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vymazat taky systémovou schránku</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Verze {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Správce schránky pro Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Zkontrolovat aktualizace</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zkontrolovat aktualizace</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Poděkování</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio je port aplikace Maccy od Alexe Rodionova</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy je odlehčený správce schránky pro macOS. Kleio přináší jeho funkce a rozložení do Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Web Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Web Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy na GitHubu</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy na GitHubu</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Zdrojový kód</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Hlas problémy, navrhuj funkce a přispívej na GitHubu.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio na GitHubu</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio na GitHubu</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Podpora</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Podpora: nahlásit problém na GitHubu</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio a Maccy jsou svobodný software vydaný pod licencí MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Licence MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Licence MIT</value>
+  </data>
+</root>

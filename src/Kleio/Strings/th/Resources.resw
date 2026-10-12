@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ตัวจัดการคลิปบอร์ดสำหรับ Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>รูปภาพ {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>ไฟล์</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>รายการคลิปบอร์ด</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>ปักหมุดแล้ว</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>เลือกแล้ว {0} จาก {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>ปักหมุด</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>เลิกปักหมุด</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>ล้าง</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>ล้างทั้งหมด</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>ตั้งค่า…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>เกี่ยวกับ Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>ออก</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>เปิด Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>หยุด Kleio ชั่วคราว</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>ไม่สนใจการคัดลอกครั้งถัดไป</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>ออกจาก Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>หยุดกองการวาง</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>แก้ไขรายการ</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>ขึ้น</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>ลง</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>ซ้าย</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>ขวา</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>พิมพ์เพื่อค้นหา…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ค้นหาในประวัติคลิปบอร์ด</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงหรือซ่อนตัวอย่าง</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>กองการวาง</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หยุดกองการวาง</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>รายการที่ปักหมุด</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ประวัติคลิปบอร์ด</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>คัดลอกข้อความที่แยกออกมา</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>คัดลอกข้อความที่แยกออกมา</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปักหมุด</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แก้ไขรายการ</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หยุดกองการวาง</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>แอปพลิเคชัน:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>ล้างรายการปักหมุด.
+เลือกแล้วกด Shift เพื่อล้างทั้งหมด</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>ล้างรายการทั้งหมด</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>เปิดการตั้งค่า Kleio</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>อ่านเพิ่มเติมเกี่ยวกับแอปพลิเคชัน</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>ออกแอปพลิเคชัน</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>คัดลอกบางอย่างเพื่อดูที่นี่</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>ไม่พบผลลัพธ์</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>แสดงตัวอย่าง</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>ซ่อนตัวอย่าง</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>กด {0} เพื่อแสดงตัวอย่าง</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>กด {0} เพื่อซ่อนตัวอย่าง</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>กด {0} เพื่อปักหมุด</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>กด {0} เพื่อเลิกปักหมุด</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>กด {0} เพื่อลบ</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>กองการวาง · {0} รายการ</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>กองการวาง · {0} รายการ</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>กองการวาง — การวางแต่ละครั้งจะนำรายการถัดไปไปไว้ในคลิปบอร์ด</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>วาง</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>วางโดยไม่จัดรูปแบบ</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>แก้ไข…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>ล้างประวัติหรือไม่</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>ล้างประวัติทั้งหมดหรือไม่</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติ รายการที่ปักหมุดจะยังคงอยู่ คุณไม่สามารถเลิกทำการกระทำนี้ได้</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติ รวมถึงรายการที่ปักหมุด คุณไม่สามารถเลิกทำการกระทำนี้ได้</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>ไม่ต้องถามอีก</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>หัวข้อ</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>คีย์</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>เนื้อหา</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>ข้อความนี้ยาวเกินกว่าจะแก้ไขได้</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>เนื้อหาที่ไม่สามารถแก้ไขได้ (รูปภาพหรือไฟล์)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>การแก้ไขจะลบการจัดรูปแบบทั้งหมด</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>ขนาด: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>เวลาคัดลอกครั้งแรก: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>เวลาคัดลอกสุดท้าย: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>จำนวนการคัดลอก: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (หยุดชั่วคราว)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ไม่สนใจการคัดลอกครั้งถัดไป)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (ไม่บันทึกประเภทใดเลย)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>มี Kleio เวอร์ชันใหม่แล้ว!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} พร้อมใช้งานแล้ว คุณใช้เวอร์ชัน {1}</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>ติดตั้งการอัปเดต</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>ข้ามเวอร์ชันนี้</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>บันทึกประจำรุ่น</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>ไม่สามารถติดตั้ง Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>เปิดในตัวติดตั้งแอป</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>กำลังติดตั้ง Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio จะเริ่มใหม่เมื่อติดตั้งการอัปเดตเสร็จ</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>กำลังติดตั้งการอัปเดต</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>กำลังดาวน์โหลด Kleio {0} Kleio จะเริ่มใหม่เมื่อติดตั้งการอัปเดตเสร็จ</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>ไม่สามารถติดตั้งการอัปเดต</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>มีการอัปเดต</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio เป็นเวอร์ชันล่าสุดแล้ว</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} เป็นเวอร์ชันล่าสุด</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>ไม่สามารถตรวจหาการอัปเดต</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>ไม่พบ Kleio รุ่นที่เผยแพร่</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>รุ่นที่เผยแพร่</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>รุ่นนี้ไม่มีแพ็กเกจติดตั้งสำหรับพีซีเครื่องนี้</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>การดาวน์โหลดล้มเหลว (HTTP {0})</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>ไม่สามารถบันทึกแพ็กเกจที่ดาวน์โหลด</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>ไม่สามารถติดตั้งการอัปเดตได้</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>ติดตั้ง Kleio {0} แล้ว ออกแล้วเปิด Kleio ใหม่เพื่อใช้งาน</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio ยังไม่พร้อม</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>ไม่พบรายการคลิปบอร์ด</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>รายการคลิปบอร์ดไม่มีเนื้อหา {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>ยกเลิกแล้ว</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>คำสั่งที่ไม่รู้จัก</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio ไม่ตอบสนองหลังจากเริ่มทำงาน</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio ไม่ตอบสนอง</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>ไม่สามารถเริ่ม Kleio</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio ไม่เข้าใจคำขอ Kleio ที่ทำงานอยู่เป็นเวอร์ชันเดียวกันหรือไม่</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>รายการมีขนาดใหญ่เกินไป</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio ไม่สามารถเรียกใช้คำสั่ง</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio กำลังออก</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} เรียกใช้ "kleio --help" เพื่อดูวิธีใช้</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>ไม่สามารถส่งคำสั่งไปยัง Kleio</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio ไม่ตอบกลับ</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio ส่งคำตอบที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>ล้มเหลว</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>ไม่สามารถเขียน {0}</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>ใช้ได้เพียงหนึ่งใน --get, --select, --delete และ --clear</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>ระบุหมายเลขรายการมากกว่าหนึ่งหมายเลข</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>หมายเลขรายการต้องเป็น 1 ขึ้นไป</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>อาร์กิวเมนต์ที่ไม่คาดคิด: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>ใช้ --format ได้กับ --get เท่านั้น</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format ต้องเป็น text, html, rtf, image หรือ files</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>ใช้ --output ได้กับ --get เท่านั้น</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output ต้องมีเส้นทางไฟล์</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>ใช้ --selected ได้กับ --get เท่านั้น</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>ใช้ --yes ได้กับ --clear เท่านั้น</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>ตัวเลือกที่ไม่รู้จัก: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>การตั้งค่า Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>การตั้งค่า Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>ทั่วไป</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ทั่วไป</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>ทั่วไป</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>พื้นที่</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>พื้นที่</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>พื้นที่</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>หน้าตา</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หน้าตา</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>หน้าตา</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>ไม่สนใจ</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ไม่สนใจ</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>ไม่สนใจ</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>ขั้นสูง</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>เกี่ยวกับเรา</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เกี่ยวกับเรา</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>เกี่ยวกับเรา</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>ปุ่มลัด</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>ล้าง{0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>ต้องมี {0}, {1} หรือ {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>กดปุ่มลัด…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>กำลังบันทึก กดปุ่มลัด Esc เพื่อยกเลิก Backspace เพื่อล้าง</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>ไม่ได้ตั้งค่า</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>เลือกเพื่อบันทึกปุ่มลัดใหม่ Esc ยกเลิก Backspace ล้าง</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>ไม่ได้ตั้งค่า</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ล้างปุ่มลัด</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ล้างปุ่มลัด</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>เปิดเมื่อเข้าสู่ระบบ</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>เริ่ม Kleio โดยอัตโนมัติเมื่อคุณลงชื่อเข้าใช้ Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เปิดเมื่อเข้าสู่ระบบ</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows ปิดการเปิดเมื่อเข้าสู่ระบบแล้ว</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio ถูกปิดใช้งานในตัวจัดการงาน &gt; แอปเริ่มต้น (หรือการตั้งค่า &gt; แอป &gt; เริ่มต้น) เปิดใช้งานที่นั่นเพื่อให้ Kleio เปิดเมื่อเข้าสู่ระบบ</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>ตรวจสอบ update อัตโนมัติ</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>ค้นหา Kleio รุ่นใหม่กว่าบน GitHub วันละครั้งและเสนอให้ติดตั้ง</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>ตรวจสอบทันที</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ตรวจหาการอัปเดตตอนนี้</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ตรวจสอบ update อัตโนมัติ</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>ภาษาของเมนู การตั้งค่า และข้อความของ Kleio</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>ค่าเริ่มต้นของ Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>เริ่ม Kleio ใหม่เพื่อใช้ภาษาใหม่</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>เริ่มใหม่ตอนนี้</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>ปุ่มลัด</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>เปิด Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>คีย์ลัดระดับโลกเพื่อเปิดแอปพลิเคชัน การกดคีย์หลักซ้ำ ๆ พร้อมกับค้างคีย์โมดิฟายเออร์ไว้ จะเลือกไอเท็มถัดไปในรายการ ในโหมดนี้ การปล่อยคีย์โมดิฟายเออร์จะยืนยันการเลือกและปิดป๊อปอัพ ค่าเริ่มต้น: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปุ่มลัดสำหรับเปิด Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>ไม่สามารถลงทะเบียนปุ่มลัด</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>แอปอื่นใช้ปุ่มลัดนี้อยู่ เลือกปุ่มลัดอื่น</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>ปักหมุด</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>ปุ่มลัดเพื่อปักหมุดรายการประวัติ ค่าเริ่มต้น: Alt+P</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปุ่มลัดสำหรับปักหมุด</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>อลบ</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>ปุ่มลัดเพื่อลบรายการประวัติ ค่าเริ่มต้น: Alt+Delete</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปุ่มลัดสำหรับลบ</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>แสดงตัวอย่าง</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>แสดงตัวอย่างพร้อมข้อมูลเพิ่มเติม ค่าเริ่มต้น: Ctrl+Space</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปุ่มลัดสำหรับแสดงตัวอย่าง</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>โหมดการค้นหา</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>วิธีจับคู่ข้อความที่คุณพิมพ์ในช่องค้นหากับรายการในประวัติ</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>โหมดการค้นหา</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>แม่นยำ</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>เลือน</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>นิพจน์ทั่วไป</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>ผสม</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>พฤติกรรม</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>วางอัตโนมัติ</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>วางรายการที่เลือกลงในแอปที่ใช้งานอยู่ แทนที่จะคัดลอกอย่างเดียว</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>วางอัตโนมัติ</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>วางโดยไม่จัดรูปแบบ</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>ลบแบบอักษร สี และการจัดรูปแบบอื่นๆ ออกจากรายการที่เลือก</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>วางโดยไม่จัดรูปแบบ</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>ปรับแต่งพฤติกรรมเมื่อเลือกรายการ:
+• เลือกแล้วกด {0} เพื่อคัดลอก
+• เลือกแล้วกด {1} เพื่อคัดลอกและวางรายการ
+• เลือกแล้วกด {2} เพื่อคัดลอก, ล้างรูปแบบและวางรายการ</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>คลิปบอร์ดของ Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows มีประวัติคลิปบอร์ดของตัวเองซึ่งเปิดด้วย Win+V Kleio สามารถใช้ปุ่มลัดนั้นแทนได้ขณะทำงาน โดยไม่เปลี่ยนการตั้งค่าใดๆ ของ Windows</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>แทนที่ Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>ขณะที่ Kleio ทำงาน Win+V จะเปิด Kleio แทนประวัติคลิปบอร์ดของ Windows การตั้งค่า Windows จะไม่ถูกเปลี่ยน</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แทนที่ Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>การตั้งค่าคลิปบอร์ดของ Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>เปิด ปิด หรือล้างประวัติคลิปบอร์ดของ Windows ได้ในการตั้งค่า &gt; ระบบ &gt; คลิปบอร์ด</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เปิดการตั้งค่าคลิปบอร์ดของ Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>การแจ้งเตือนและเสียง</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>แสดงการแจ้งเตือน</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>แสดงการแจ้งเตือนพร้อมรายการเมื่อ Kleio คัดลอกรายการหรือบันทึกสำเนาใหม่</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงการแจ้งเตือน</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>การแจ้งเตือนถูกปิดใน Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>เปิดการแจ้งเตือนสำหรับ Kleio ในการตั้งค่าการแจ้งเตือนของ Windows เพื่อดูการแจ้งเตือน</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>เล่นเสียง</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>เล่นเสียงเมื่อ Kleio คัดลอกรายการหรือบันทึกสำเนาใหม่</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เล่นเสียง</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>การตั้งค่าการแจ้งเตือนของ Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>เลือกวิธีแสดงการแจ้งเตือนของ Kleio หรือปิดได้ในการตั้งค่า &gt; ระบบ &gt; การแจ้งเตือน</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เปิดการตั้งค่าการแจ้งเตือนของ Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>เปลี่ยนประเภทการคัดลอก ที่ต้องการเก็บ</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>ไฟล์</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>ไฟล์และโฟลเดอร์ที่คัดลอกใน File Explorer และแอปอื่นๆ</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>บันทึกไฟล์</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>รูปภาพและภาพหน้าจอ</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>บันทึกรูปภาพ</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>ข้อความ</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>ข้อความธรรมดา ข้อความที่มีรูปแบบ และ HTML</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>บันทึกข้อความ</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>ประวัติ</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>ขนาด</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>จำนวนประวัติรายการที่ต้องการเก็บ. ค่าเริ่มต้น: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ขนาดปัจจุบันบนดิสก์</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ขนาดประวัติ</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>เรียงตาม</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>ลำดับของรายการในประวัติ ค่าเริ่มต้น: เวลาคัดลอกสุดท้าย</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เรียงตาม</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>เวลาคัดลอกสุดท้าย</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>เวลาคัดลอกครั้งแรก</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>จำนวนการคัดลอก</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>ป๊อปอัป</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>แสดงที่</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>เปลี่ยนตำแหน่งที่ popup แสดง. ค่าเริ่มต้น: Cursor</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>รีเซ็ตตำแหน่ง</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ย้ายป๊อปอัปกลับไปยังตำแหน่งเริ่มต้น</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>รีเซ็ตตำแหน่ง</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หน้าจอ</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงที่</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>เคอร์เซอร์</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>ไอคอนในพื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>ตรงกลางหน้าต่าง</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>ตรงกลางจอภาพ</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>ตำแหน่งสุดท้าย</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>หน้าจอที่ใช้งานอยู่</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>จอแสดงผล {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>จอแสดงผล {0} (ไม่ได้เชื่อมต่อ)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>ปักหมุดไปยัง</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>เปลี่ยนตำแหน่งรายการปักหมุด ค่าเริ่มต้น: ข้างบน</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ปักหมุดไปยัง</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>ข้างบน</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>ข้างล่าง</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>ความสูงของรูป</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>ความสูงสุดของตัวอย่างรูป. ค่าเริ่มต้น: 40. Hint: ตั้งเป็น 16 ขนาดรายการข้อความ</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ความสูงของรูป</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>เปิดตัวอย่างโดยอัตโนมัติ</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>แสดงตัวอย่างพร้อมข้อมูลเพิ่มเติมเกี่ยวกับรายการที่เลือกหลังจากหน่วงเวลา</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เปิดตัวอย่างโดยอัตโนมัติ</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>ความล่าช้าในการดูตัวอย่าง</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>หน่วงเวลาเป็นมิลลิวินาทีจนกว่าจะแสดงตัวอย่างป๊อปอัป. ค่าเริ่มต้น: 1500</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ระยะหน่วงของตัวอย่างเป็นมิลลิวินาที</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>ไฮไลต์คำที่ตรงกัน</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>เปลี่ยนรูปแบบการไฮไลต์สำหรับการค้นหาที่ตรงกัน ค่าเริ่มต้น: ตัวหนา</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ไฮไลต์คำที่ตรงกัน</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>ตัวหนา</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>ตัวเอียง</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>ขีดเส้นใต้</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>สี</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>แสดงสัญลักษณ์พิเศษ</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>แสดงการขึ้นบรรทัดใหม่ แท็บ ช่องว่างนำหน้าและต่อท้ายด้วยสัญลักษณ์พิเศษ</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงสัญลักษณ์พิเศษ</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>พื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>แสดงไอคอนในพื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>แสดงไอคอน Kleio ในพื้นที่แจ้งเตือนของแถบงาน</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงไอคอนในพื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>สไตล์ไอคอนในพื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>โลโก้ Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>คลิปบอร์ด</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>คลิปบอร์ด</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>คลิปหนีบกระดาษ</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>คลิปหนีบกระดาษ</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>กรรไกร</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>กรรไกร</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>แสดงสำเนาล่าสุดในคำแนะนำเครื่องมือของไอคอน</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>แสดงสำเนาล่าสุดเมื่อคุณชี้ไปที่ไอคอนในพื้นที่แจ้งเตือน</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงสำเนาล่าสุดในคำแนะนำเครื่องมือของไอคอน</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>เค้าโครงป๊อปอัป</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>แสดงช่องค้นหา</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>แสดงช่องค้นหาตลอดเวลา หรือเฉพาะเมื่อคุณเริ่มพิมพ์</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงช่องค้นหา</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>การแสดงช่องค้นหา</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>เสมอ</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>ระหว่างการค้นหา</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>แสดงหัวข้อก่อนช่องค้นหา</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>แสดง “Kleio” ทางซ้ายของช่องค้นหา</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงหัวข้อก่อนช่องค้นหา</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>แสดงไอคอนแอปพลิเคชั่น</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>แสดงไอคอนของแอปที่คัดลอกแต่ละรายการมา</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงไอคอนแอปพลิเคชั่น</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>แสดงตัวอย่างสีเลขฐานสิบหก</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>แสดงตัวอย่างสีถัดจากรหัสสีเลขฐานสิบหก</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงตัวอย่างสีเลขฐานสิบหก</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>แสดงส่วนท้าย</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>แสดงคำสั่งล้าง การตั้งค่า เกี่ยวกับ และออก ที่ด้านล่างของป๊อปอัป</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>แสดงส่วนท้าย</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>เมื่อไม่มีส่วนท้าย ให้เปิดการตั้งค่าจากเมนูของไอคอนในพื้นที่แจ้งเตือน หรือกด Ctrl+, ในป๊อปอัป</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หมวดที่ไม่สนใจ</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>แอปพลิเคชัน</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>รูปแบบคลิปบอร์ด</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>นิพจน์ทั่วไป</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>สามารถละเว้นสำเนาที่มาจากแอปพลิเคชันบางตัวได้ โปรดทราบว่าวิธีนี้ไม่ได้แม่นยำทั้งหมด เพราะ Windows ไม่บอกว่าแอปใดคัดลอก Kleio จึงตรวจสอบแอปที่เป็นเจ้าของคลิปบอร์ดหรืออยู่เบื้องหน้า ควรใช้รูปแบบคลิปบอร์ดเมื่อทำได้</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>ละเว้นแอปพลิเคชันทั้งหมดยกเว้นในรายการ</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>บันทึกเฉพาะสำเนาจากแอปพลิเคชันที่อยู่ในรายการด้านล่าง</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ละเว้นแอปพลิเคชันทั้งหมดยกเว้นในรายการ</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>แอปพลิเคชัน</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>สำเนาจากแอปพลิเคชันเหล่านี้จะไม่ถูกบันทึก</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เพิ่มแอปที่กำลังทำงาน</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>เพิ่มแอปที่กำลังทำงาน</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เพิ่มแอปโดยเลือกไฟล์โปรแกรม</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>เพิ่มแอป…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>ไม่มีแอปพลิเคชันที่ถูกละเว้น</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>สำเนาที่มีรูปแบบคลิปบอร์ดเหล่านี้จะไม่ถูกบันทึก ค่าเริ่มต้นมี Kleio.Transient อยู่ในรายการ คุณสามารถลบและเพิ่มรูปแบบที่กำหนดเองได้</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>หากต้องการหาชื่อรูปแบบ ให้คัดลอกบางอย่างในแอปแล้วดูคลิปบอร์ดด้วยโปรแกรมดู เช่น NirSoft InsideClipboard ระบุได้เฉพาะรูปแบบที่ลงทะเบียนแล้ว (ชื่อ ไม่ใช่หมายเลข)</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>เพิ่มรูปแบบคลิปบอร์ด</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>ชื่อรูปแบบ เช่น Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ชื่อรูปแบบคลิปบอร์ด</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เพิ่มรูปแบบคลิปบอร์ด</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>ไม่มีรูปแบบคลิปบอร์ดที่ถูกละเว้น</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>รีเซ็ตเป็นค่าเริ่มต้น</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>รีเซ็ตรูปแบบคลิปบอร์ดเป็นค่าเริ่มต้น</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>สำเนาที่ข้อความตรงกับนิพจน์ทั่วไปเหล่านี้จะไม่ถูกบันทึก นิพจน์ใช้ไวยากรณ์ ECMAScript (JavaScript) และตรงกันได้ทุกตำแหน่งในข้อความ ใช้ ^ และ $ เพื่อให้ตรงกับข้อความทั้งหมด</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>ตัวอย่าง</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>ตัวอักษรหรือตัวเลข 50 ตัว เช่นเดียวกับคีย์ API และโทเค็นจำนวนมาก</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>รหัสใช้ครั้งเดียว 6 หลัก</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>หมายเลขบัตรชำระเงิน</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>เพิ่มนิพจน์ทั่วไป</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>นิพจน์ทั่วไป</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เพิ่มนิพจน์ทั่วไป</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>นิพจน์ทั่วไปไม่ถูกต้อง</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>ไม่มีนิพจน์ทั่วไปที่กำหนดไว้</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio จะละเว้นสำเนาที่มีเครื่องหมาย “{0}” หรือ “{1}” เสมอ ซึ่งเป็นแบบแผนของ Windows ที่ตัวจัดการรหัสผ่านและแอปอื่นๆ ใช้เพื่อกันข้อมูลสำคัญไม่ให้ไปถึงตัวจัดการคลิปบอร์ด</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>เอาออก</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>เอา {0} ออก</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>ชื่อไฟล์ปฏิบัติการ</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>ไม่พบแอปที่กำลังทำงาน</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” ไม่ใช่นิพจน์ทั่วไป ECMAScript ที่ถูกต้อง</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>หยุดชั่วคราว</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>หยุด Kleio ชั่วคราว</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>ละเว้นสำเนาใหม่ทั้งหมดชั่วคราว มีประโยชน์เพื่อไม่ให้ Kleio บันทึกขณะคุณคัดลอกข้อมูลสำคัญ</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>หยุด Kleio ชั่วคราว</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>คุณน่าจะใช้ฟีเจอร์นี้จากสคริปต์ หยุด Kleio ชั่วคราวจากบรรทัดคำสั่งขณะคัดลอกข้อมูลสำคัญ:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… คัดลอกข้อมูล …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, คัดลอกข้อมูล, แล้ว kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>หากต้องการละเว้นเฉพาะการคัดลอกครั้งถัดไป:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… คัดลอกข้อมูล …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, แล้วคัดลอกข้อมูล</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>คุณยังสามารถกด Alt ค้างแล้วคลิกไอคอนในพื้นที่แจ้งเตือนเพื่อหยุดหรือทำงาน Kleio ต่อ หากต้องการละเว้นเฉพาะการคัดลอกครั้งถัดไป ให้กด Alt+Shift ค้างแล้วคลิก</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>การล้าง</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>ล้างประวัติเมื่อออก</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>ลบรายการที่เลิกปักหมุดทั้งหมดออกโดยอัตโนมัติก่อนออกจากแอปพลิเคชัน</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ล้างประวัติเมื่อออก</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>ล้างคลิปบอร์ดของระบบด้วย</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>เมื่อเปิดใช้งาน การล้างประวัติจะเป็นการล้างคลิปบอร์ดของระบบปัจจุบันด้วย</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ล้างคลิปบอร์ดของระบบด้วย</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>โลโก้ Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>เวอร์ชัน {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>ตัวจัดการคลิปบอร์ดสำหรับ Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>ตรวจหาการอัปเดต</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ตรวจหาการอัปเดต</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>เครดิต</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio เป็นการพอร์ต Maccy ของ Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy เป็นตัวจัดการคลิปบอร์ดขนาดเล็กสำหรับ macOS Kleio นำฟีเจอร์และเค้าโครงของมันมาสู่ Windows 11</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>เว็บไซต์ Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>เว็บไซต์ Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy บน GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy บน GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>ซอร์สโค้ด</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>รายงานปัญหา เสนอฟีเจอร์ และร่วมพัฒนาบน GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio บน GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio บน GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>การสนับสนุน</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>การสนับสนุน: รายงานปัญหาบน GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>สัญญาอนุญาต</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio และ Maccy เป็นซอฟต์แวร์เสรีที่เผยแพร่ภายใต้สัญญาอนุญาต MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>สัญญาอนุญาต MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>สัญญาอนุญาต MIT</value>
+  </data>
+</root>

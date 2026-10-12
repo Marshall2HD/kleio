@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows uchun bufer menejeri</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Rasm</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Rasm, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Fayllar</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Bufer elementi</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Biriktirilgan</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Tanlangan, {0}/{1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Biriktirish</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Biriktirishni olib tashlash</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>O‘chirish</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Tozalash</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Hammasini tozalash</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Bekor qilish</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Sozlamalar…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Kleio haqida</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Chiqish</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio’ni ochish</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio’ni pauza qilish</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Keyingi nusxani e’tiborsiz qoldirish</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio’dan chiqish</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Joylashtirish to‘plamini to‘xtatish</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Elementni tahrirlash</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Probel</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Yuqoriga</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Pastga</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Chapga</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>O‘ngga</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Qidirish uchun yozing…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer tarixidan qidirish</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ko‘rib chiqishni ko‘rsatish yoki yashirish</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Joylashtirish to‘plami</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Joylashtirish to‘plamini to‘xtatish</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biriktirilgan elementlar</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer tarixi</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Ajratib olingan matnni nusxalash.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajratib olingan matnni nusxalash</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biriktirish</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Elementni tahrirlash</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>O‘chirish</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Joylashtirish to‘plamini to‘xtatish</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Dastur:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Ochilmagan elemetlarni tozalang.
+Hammasini tozalash uchun Shift bosing.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Barcha elementlarni tozlash.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Kleio sozlamalarini ochish.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Ilova haqida ko'proq o'qish.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Ilovadan chiqish.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Bu yerda ko‘rish uchun biror narsadan nusxa oling.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Natija yo‘q</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Ko‘rib chiqishni ko‘rsatish</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Ko‘rib chiqishni yashirish</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Oldindan ko‘rishni ko‘rsatish uchun {0} tugmasini bosing.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Oldindan ko‘rishni yashirish uchun {0} tugmasini bosing.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Biriktirish uchun {0} tugmasini bosing.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Biriktirishni o‘chirish uchun {0} tugmasini bosing.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>O‘chirish uchun {0} tugmasini bosing.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Joylashtirish to‘plami · {0} element</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Joylashtirish to‘plami · {0} element</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Joylashtirish to‘plami — har bir joylashtirish keyingi elementni buferga qo‘yadi.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Nusxalash</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Joylashtirish</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Formatlashsiz joylashtirish</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Tahrirlash…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Tarix tozalansinmi?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Butun tarix tozalansinmi?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Tarixni tozalashni istaysizmi? Biriktirilgan elementlar saqlanib qoladi. Bu amalni bekor qilib bo‘lmaydi.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Tarixni biriktirilgan elementlar bilan birga tozalashni istaysizmi? Bu amalni bekor qilib bo‘lmaydi.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Boshqa so‘ralmasin</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Sarlavha</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Kalit</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Kontent</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Bu matn tahrirlash uchun juda uzun.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Tahrirlanmaydigan kontent (rasm yoki fayl)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Tahrirlash barcha formatlashni bekor qiladi.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Saqlash</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>O'lchamlar: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Nusxalangan vaqti: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Oxirgi nusxa olingan vaqti: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Nusxalar jami soni: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (pauza qilingan)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (keyingi nusxa e’tiborsiz qoldiriladi)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (hech qanday tur saqlanmaydi)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio’ning yangi versiyasi chiqdi!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} endi mavjud. Sizda {1} versiyasi.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Yangilanishni o‘rnatish</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Bu versiyani o‘tkazib yuborish</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Yuklab olish</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Reliz qaydlari</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0} o‘rnatilmadi</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Ilovalar o‘rnatuvchisida ochish</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} o‘rnatilmoqda</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Yangilanish o‘rnatilgach, Kleio qayta ishga tushadi.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Yangilanish o‘rnatilmoqda</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} yuklab olinmoqda. Yangilanish o‘rnatilgach, Kleio qayta ishga tushadi.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Yangilanish o‘rnatilmadi</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Yangilanish mavjud</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio yangilangan</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} eng so‘nggi versiya.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Yangilanishlarni tekshirib bo‘lmadi</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Kleio’ning e’lon qilingan relizi topilmadi.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Relizlar</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Internet ulanishini tekshiring va qayta urinib ko‘ring.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Relizda bu kompyuter uchun o‘rnatish paketi yo‘q.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Yuklab olib bo‘lmadi (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Yuklab olingan paketni saqlab bo‘lmadi.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Yangilanishni o‘rnatib bo‘lmadi.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} o‘rnatildi. Undan foydalanish uchun Kleio’dan chiqib, qayta oching.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio hali tayyor emas.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Bufer elementi topilmadi</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Bufer elementida {0} tarkibi yo‘q</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Bekor qilindi</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Noma’lum buyruq</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio ishga tushgandan keyin javob bermadi.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio javob bermayapti.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio’ni ishga tushirib bo‘lmadi.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio so‘rovni tushunmadi. Ishlab turgan Kleio xuddi shu versiyami?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Element juda katta.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio buyruqni bajara olmadi.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio yopilmoqda.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Foydalanish bo‘yicha: "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Buyruqni Kleio’ga yuborib bo‘lmadi.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio javob bermadi.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio noto‘g‘ri javob yubordi.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Muvaffaqiyatsiz.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>{0} yozib bo‘lmadi.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>--get, --select, --delete va --clear dan faqat bittasini ishlating.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Bir nechta element raqami berildi.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Element raqami 1 yoki undan katta bo‘lishi kerak.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Kutilmagan argument: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format faqat --get bilan ishlatiladi.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format qiymati text, html, rtf, image yoki files bo‘lishi kerak.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output faqat --get bilan ishlatiladi.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output uchun fayl yo‘li kerak.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected faqat --get bilan ishlatiladi.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes faqat --clear bilan ishlatiladi.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Noma’lum parametr: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio sozlamalari</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio sozlamalari</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Asosiy</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Asosiy</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Asosiy</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Hotira</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hotira</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Hotira</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Tashqi ko'rinish</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tashqi ko'rinish</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Tashqi ko'rinish</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>E'tibor bermaslik</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>E'tibor bermaslik</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>E'tibor bermaslik</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Qo'shimchalar</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qo'shimchalar</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Qo'shimchalar</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Ilova haqida</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ilova haqida</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Ilova haqida</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Tezkor tugma</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Tozalash: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}, {1} yoki {2} qo‘shing</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Tezkor tugmani bosing…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Yozib olinmoqda. Tezkor tugmani bosing, bekor qilish uchun Esc, tozalash uchun Backspace</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Belgilanmagan</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Yangi tezkor tugmani yozib olish uchun tanlang. Esc bekor qiladi, Backspace tozalaydi.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Belgilanmagan</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tezkor tugmani tozalash</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tezkor tugmani tozalash</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Kirish paytida ishga tushirish</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Windows’ga kirganingizda Kleio’ni avtomatik ishga tushirish.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kirish paytida ishga tushirish</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Kirishda ishga tushirish Windows tomonidan o‘chirilgan</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio Vazifalar dispetcheri &gt; Ishga tushish ilovalari (yoki Sozlamalar &gt; Ilovalar &gt; Ishga tushish) bo‘limida o‘chirilgan. Kleio kirishda ishga tushishi uchun uni o‘sha yerda yoqing.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Yangilanishlarni avtomatik ravishda tekshirish</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Kuniga bir marta GitHub’dan Kleio’ning yangiroq relizini qidirish va o‘rnatishni taklif qilish.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Hozir tekshir</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yangilanishlarni hozir tekshirish</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yangilanishlarni avtomatik ravishda tekshirish</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio menyulari, sozlamalari va xabarlari tili.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows standarti</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Yangi tildan foydalanish uchun Kleio’ni qayta ishga tushiring.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Hozir qayta ishga tushirish</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Tezkor tugmalar</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio’ni ochish</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Ilovani ochish uchun global yorliq. Oʻzgartirgichlarni ushlab turganda asosiy tugmani qayta-qayta bosish roʻyxatdagi keyingi elementni tanlaydi. Bu rejimda modifikator tugmachalarini bo‘shatish tanlovni tasdiqlaydi va qalqib chiquvchi oynani yopadi. Standart: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio’ni ochish tezkor tugmasi</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Tezkor tugmani ro‘yxatdan o‘tkazib bo‘lmadi</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Bu tezkor tugmadan boshqa ilova foydalanmoqda. Boshqasini tanlang.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Mustahkamlash</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Tarix elementini mahkamlash uchun yorliq tugmasi. Standart: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biriktirish tezkor tugmasi</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>O'chirish</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Tarix elementini o'chirish uchun yorliq tugmasi. Standart: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>O‘chirish tezkor tugmasi</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Ko'rib chiqish</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Qo'shimcha ma'lumot bilan ko'rib chiqishni ko'rsatish. Standart: Ctrl+Probel.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ko‘rib chiqish tezkor tugmasi</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Qidirish</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Qidiruv rejimi</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Qidiruv maydoniga yozgan matningiz tarix elementlari bilan qanday solishtirilishi.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qidiruv rejimi</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Aniq</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Noaniq</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Muntazam ifodalar</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Aralash</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Xatti-harakat</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Avtomatik joylashtirish</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Tanlangan elementni faqat nusxalash o‘rniga faol ilovaga joylashtirish.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avtomatik joylashtirish</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Formatlashsiz joylashtirish</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Tanlangan elementdan shriftlar, ranglar va boshqa formatlashni olib tashlash.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Formatlashsiz joylashtirish</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Elementni tanlashda harakatni moslashtiring: 
+• Elementni nusxalash uchun {0} tugmasini bosgan holda tanlang. 
+• Elementni nusxalash va joylashtirish uchun {1} bosilgan holda tanlang. 
+• Nusxa olish, formatlashni tozalash va joylashtirish uchun {2} bosilganda tanlang.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows buferi</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows’ning Win+V bilan ochiladigan o‘z bufer tarixi bor. Kleio ishlayotganda Windows sozlamalarini o‘zgartirmasdan bu tezkor tugmani o‘z zimmasiga olishi mumkin.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V ni almashtirish</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio ishlayotganda Win+V Windows bufer tarixi o‘rniga Kleio’ni ochadi. Windows sozlamalari o‘zgartirilmaydi.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V ni almashtirish</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows bufer sozlamalari</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Windows bufer tarixini Sozlamalar &gt; Tizim &gt; Bufer bo‘limida yoqing, o‘chiring yoki tozalang.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows bufer sozlamalarini ochish</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Ochish</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Bildirishnoma va tovushlar</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Bildirishnomalarni ko‘rsatish</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio elementdan nusxa olganda yoki yangi nusxani saqlaganda element bilan bildirishnoma ko‘rsatish.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirishnomalarni ko‘rsatish</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Windows’da bildirishnomalar o‘chirilgan</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Ularni ko‘rish uchun Windows bildirishnoma sozlamalarida Kleio uchun bildirishnomalarni yoqing.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Tovushlarni ijro etish</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio elementdan nusxa olganda yoki yangi nusxani saqlaganda tovush ijro etish.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tovushlarni ijro etish</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows bildirishnoma sozlamalari</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Kleio bildirishnomalari qanday ko‘rinishini Sozlamalar &gt; Tizim &gt; Bildirishnomalar bo‘limida tanlang yoki ularni o‘chiring.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows bildirishnoma sozlamalarini ochish</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Ochish</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Saqlash</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Qaysi turdagi nusxalangan kontentni saqlash kerakligini o'zgartiring.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Fayllar</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Fayl boshqaruvchisi va boshqa ilovalarda nusxalangan fayl va jildlar.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fayllarni saqlash</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Rasmlar</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Rasmlar va skrinshotlar.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rasmlarni saqlash</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Matn</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Oddiy matn, formatlangan matn va HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Matnni saqlash</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Tarix</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Hajmi</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Saqlanishi kerak bo'lgan tarix elementlari soni. Standart: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Diskdagi joriy o'lcham.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tarix hajmi</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Saralash turi</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Tarixdagi elementlar tartibi. Standart: Oxirgi nusxa vaqti.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Saralash turi</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Oxirgi nusxa vaqti</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Birinchi nusxaning vaqti</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Nusxalar soni</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna paydo bo'ladigan joyni o'zgartiring. Standart: kursor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Asil holatiga qaytarish</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Qalqib chiquvchi oynani standart joyiga qaytarish</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Asil holatiga qaytarish</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ekran</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Kursor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Bildirishnomalar sohasidagi belgi</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Markazga joylashtirish</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Ekran markazi</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Oxirgi pozitsiya</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Faol ekran</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Displey {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Displey {0} (ulanmagan)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Mahkamlangan</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Mustahkamlangan elementlarning joylashuvini o'zgartirish. Standart: Tepada.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mahkamlangan</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Yuqorida</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Pastda</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Rasm bo'yi</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Tasvirni oldindan ko'rishning maksimal balandligi. Standart: 40. Maslahat: Matn elementlariga o'xshash bo'lish uchun 16 ga o'rnating.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rasm bo'yi</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Oldindan ko'rishni avtomatik ochish</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Biroz kutgandan so‘ng tanlangan element haqida qo‘shimcha ma’lumot bilan ko‘rib chiqishni ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oldindan ko'rishni avtomatik ochish</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Ko‘rish kechikishi</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Oldindan ko'rish qalqib chiquvchi oyna paydo bo'lguncha millisekundlarda kechiktiring. Standart: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ko‘rib chiqish kechikishi millisoniyalarda</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Mosliklarni ajratib ko‘rsatish</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Qidiruv mosliklari uchun ta'kidlash uslubini o'zgartiring. Standart: Qalin.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mosliklarni ajratib ko‘rsatish</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Qalin</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Yotiq</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Tagchiziq</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Ran</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Yo‘q</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Maxsus belgilarni ko'rsating</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Yangi qatorlarni, yorliqlarni, bosh va keyingi bo'shliqlarni maxsus belgilar orqali ko'rsatish.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maxsus belgilarni ko'rsating</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Bildirishnomalar sohasi</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Bildirishnomalar sohasida belgini ko‘rsatish</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Kleio belgisini vazifalar panelining bildirishnomalar sohasida ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirishnomalar sohasida belgini ko‘rsatish</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirishnomalar sohasidagi belgi uslubi</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logotipi</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Bufer</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qisqich</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Qisqich</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qaychi</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Qaychi</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Oxirgi nusxani belgi maslahatida ko‘rsatish</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Bildirishnomalar sohasidagi belgiga ko‘rsatkichni olib borganingizda eng so‘nggi nusxani ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oxirgi nusxani belgi maslahatida ko‘rsatish</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna tartibi</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Qidiruv maydonini ko'rsatish</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Qidiruv maydonini doim yoki faqat yozishni boshlaganingizda ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qidiruv maydonini ko'rsatish</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qidiruv maydonining ko‘rinishi</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Har doim</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Qidiruv paytida</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Qidiruv maydonidan oldin sarlavhani ko'rsatish</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Qidiruv maydonining chap tomonida “Kleio” yozuvini ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Qidiruv maydonidan oldin sarlavhani ko'rsatish</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Ilova piktogrammalarini ko'rsatish</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Har bir element nusxalangan ilova belgisini ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ilova piktogrammalarini ko'rsatish</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Hex rang namunasini koʻrsatish</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Hex rang kodlari yonida rang namunasini koʻrsatish.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hex rang namunasini koʻrsatish</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Pastgi qisimni ko'rsatish</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Qalqib chiquvchi oyna pastida Tozalash, Sozlamalar, Ilova haqida va Chiqish buyruqlarini ko‘rsatish.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pastgi qisimni ko'rsatish</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Pastki qismsiz sozlamalarni bildirishnomalar sohasidagi belgi menyusidan yoki qalqib chiquvchi oynada Ctrl+, bilan oching.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>E’tiborsiz qoldirish bo‘limlari</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Ilovalar</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Bufer formatlari</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Muntazam ifodalar</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Muayyan ilovalardan kelgan nusxalarni e’tiborsiz qoldirish mumkin. Bu to‘liq ishonchli emas: Windows nimani qaysi ilova nusxalaganini aytmaydi, shuning uchun Kleio buferga egalik qiluvchi yoki oldingi planda turgan ilovani tekshiradi. Iloji bo‘lsa, bufer formatlaridan foydalaning.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ro'yxatdagilardan tashqari barcha ilovalarga e'tibor bermang</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Faqat quyida ro‘yxatga olingan ilovalardagi nusxalarni saqlash.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ro'yxatdagilardan tashqari barcha ilovalarga e'tibor bermang</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Ilovalar</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Bu ilovalardagi nusxalar saqlanmaydi.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ishlayotgan ilovani qo‘shish</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Ishlayotgan ilovani qo‘shish</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dastur faylini tanlab ilova qo‘shish</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Ilova qo‘shish…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>E’tiborsiz qoldirilgan ilovalar yo‘q.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Ushbu bufer formatlaridan birini o‘z ichiga olgan nusxalar saqlanmaydi. Standart bo‘yicha ro‘yxatda Kleio.Transient bor; uni olib tashlab, istalgan maxsus formatlarni qo‘shishingiz mumkin.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Format nomini topish uchun ilovada biror narsadan nusxa oling va buferni NirSoft InsideClipboard kabi ko‘ruvchi bilan ko‘rib chiqing. Faqat ro‘yxatdan o‘tgan formatlarni (raqamlarni emas, nomlarni) qo‘shish mumkin.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Bufer formatini qo‘shish</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Format nomi, masalan Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer formati nomi</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Qo‘shish</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer formatini qo‘shish</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>E’tiborsiz qoldirilgan bufer formatlari yo‘q.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Standartga qaytarish</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bufer formatlarini standartga qaytarish</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Matni ushbu muntazam ifodalardan biriga mos keladigan nusxalar saqlanmaydi. Ifodalar ECMAScript (JavaScript) sintaksisidan foydalanadi va matnning istalgan joyiga mos kelishi mumkin; butun matnga moslash uchun ^ va $ dan foydalaning.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Misollar</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>Ko‘plab API kalitlari va tokenlardagi kabi 50 ta harf yoki raqam</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 xonali bir martalik kodlar</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>To‘lov kartalari raqamlari</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Muntazam ifoda qo‘shish</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Muntazam ifoda</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Qo‘shish</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Muntazam ifodani qo‘shish</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Noto‘g‘ri muntazam ifoda</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Muntazam ifodalar belgilanmagan.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio “{0}” yoki “{1}” bilan belgilangan nusxalarni doim e’tiborsiz qoldiradi: bular parol menejerlari va boshqa ilovalar maxfiy ma’lumotlarni bufer menejerlaridan uzoq tutish uchun foydalanadigan Windows qoidalari.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Olib tashlash</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Olib tashlash: {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Bajariladigan fayl nomi</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Ishlayotgan ilovalar topilmadi</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” to‘g‘ri ECMAScript muntazam ifodasi emas.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio’ni pauza qilish</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Barcha yangi nusxalarni vaqtincha e’tiborsiz qoldirish. Maxfiy ma’lumotlardan nusxa olayotganingizda Kleio hech narsani yozib olmasligi uchun foydali.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio’ni pauza qilish</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Ehtimol, buni skriptlardan ishlatasiz. Maxfiy ma’lumotlardan nusxa olayotganda Kleio’ni buyruq satridan pauza qiling:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… ma’lumotlardan nusxa olish …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, ma’lumotlardan nusxa olish, keyin kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Faqat keyingi nusxani e’tiborsiz qoldirish uchun:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… ma’lumotlardan nusxa olish …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, keyin ma’lumotlardan nusxa olish</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Kleio’ni pauza qilish yoki davom ettirish uchun bildirishnomalar sohasidagi belgini Alt+bosish ham mumkin. Faqat keyingi nusxani e’tiborsiz qoldirish uchun uni Alt+Shift+bosing.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Tozalash</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Dastur yopilganda tarixni tozalash</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Ilovani yopishdan oldin barcha qo'shilmagan yozuvlarni avtomatik ravishda o'chirish.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dastur yopilganda tarixni tozalash</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Operatsion tizim buferini ham tozalang</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Yoqilgan bo'lsa, tarixni tozalash joriy tizim buferini ham tozalaydi.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Operatsion tizim buferini ham tozalang</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logotipi</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versiya {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows uchun bufer menejeri</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Yangilanishlarni tekshirish</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yangilanishlarni tekshirish</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Minnatdorchilik</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio — Alex Rodionov yaratgan Maccy’ning porti</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy — macOS uchun yengil bufer menejeri. Kleio uning funksiyalari va tartibini Windows 11 ga olib keladi.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy veb-sayti</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy veb-sayti</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub’da Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub’da Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Manba kodi</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>GitHub’da muammolar haqida xabar bering, funksiyalar taklif qiling va hissa qo‘shing.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub’da Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub’da Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Yordam</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yordam: GitHub’da muammo haqida xabar berish</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Litsenziya</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio va Maccy MIT litsenziyasi ostida chiqarilgan erkin dasturlardir.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT litsenziyasi</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT litsenziyasi</value>
+  </data>
+</root>

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows용 클립보드 관리자</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>이미지, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>클립보드 항목</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>고정됨</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>선택됨, {0}/{1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>고정</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>고정 해제</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>모두 지우기</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>설정…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Kleio 정보</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio 열기</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio 일시 중지</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>다음 복사 무시</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio 종료</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>붙여넣기 스택 중지</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>항목 편집</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>스페이스바</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>위쪽</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>아래쪽</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>오른쪽</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>검색어를 입력하세요…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드 기록 검색</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>미리보기 표시 또는 숨기기</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>붙여넣기 스택</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>붙여넣기 스택 중지</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>고정된 항목</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드 기록</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>추출된 텍스트를 복사합니다.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>추출된 텍스트를 복사합니다</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>고정</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>항목 편집</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>붙여넣기 스택 중지</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>어플리케이션:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>고정되지 않은 항목들을 지웁니다.
+Shift 와 함께 선택시 모두 지웁니다.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>모든 항목을 지웁니다.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Kleio 설정을 엽니다.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>어플리케이션에 관하여 더 보기.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>어플리케이션을 종료합니다.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>무언가를 복사하면 여기에 표시됩니다.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>결과 없음</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>미리보기 표시</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>미리보기 숨기기</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>{0}를 눌러 미리보기를 표시합니다.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>{0}를 눌러 미리보기를 숨깁니다.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>{0}를 눌러 고정합니다.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>{0}를 눌러 고정(해제)합니다.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>{0}를 눌러 제거합니다.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>붙여넣기 스택 · 항목 {0}개</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>붙여넣기 스택 · 항목 {0}개</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>붙여넣기 스택 — 붙여넣을 때마다 다음 항목이 클립보드에 들어갑니다.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>붙여넣기</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>서식없이 붙여넣기</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>편집…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>기록을 지울까요?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>기록을 모두 지울까요?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>기록을 지우시겠습니까? 고정된 항목은 유지됩니다. 이 작업은 되돌릴 수 없습니다.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>고정된 항목을 포함해 기록을 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>다시 묻지 않음</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>타이틀</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>키</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>콘텐츠</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>이 텍스트는 너무 길어서 편집할 수 없습니다.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>편집할 수 없는 콘텐츠(이미지 또는 파일)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>편집하면 모든 서식이 삭제됩니다.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>크기: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>처음 복사한 시간: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>마지막 복사한 시간: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>복사 횟수: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (일시 정지됨)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (다음 복사 무시 중)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (저장하는 유형 없음)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio의 새 버전을 사용할 수 있습니다!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0}을(를) 사용할 수 있습니다. 현재 버전은 {1}입니다.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>업데이트 설치</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>이 버전 건너뛰기</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>릴리스 정보</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0}을(를) 설치할 수 없습니다</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>앱 설치 관리자에서 열기</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} 설치 중</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>업데이트가 설치되면 Kleio가 다시 시작됩니다.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>업데이트 설치 중</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} 다운로드 중. 업데이트가 설치되면 Kleio가 다시 시작됩니다.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>업데이트를 설치할 수 없습니다</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>업데이트 사용 가능</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio가 최신 상태입니다</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0}이(가) 최신 버전입니다.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>업데이트를 확인할 수 없습니다</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>게시된 Kleio 릴리스를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>릴리스</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>인터넷 연결을 확인하고 다시 시도하세요.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>이 릴리스에는 이 PC용 설치 패키지가 없습니다.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>다운로드하지 못했습니다(HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>다운로드한 패키지를 저장할 수 없습니다.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>업데이트를 설치할 수 없습니다.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0}이(가) 설치되었습니다. 사용하려면 Kleio를 종료한 후 다시 여세요.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio가 아직 준비되지 않았습니다.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>클립보드 항목을 찾을 수 없음</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>클립보드 항목에 {0} 콘텐츠가 없습니다</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>취소됨</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>알 수 없는 명령</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio가 시작된 후 응답하지 않았습니다.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio가 응답하지 않습니다.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio를 시작할 수 없습니다.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio가 요청을 이해하지 못했습니다. 실행 중인 Kleio가 같은 버전인가요?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>항목이 너무 큽니다.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio가 명령을 실행할 수 없습니다.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio가 종료되는 중입니다.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} 사용법은 "kleio --help"를 실행하세요.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Kleio에 명령을 보낼 수 없습니다.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio가 응답하지 않았습니다.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio가 잘못된 응답을 보냈습니다.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>실패했습니다.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>{0}에 쓸 수 없습니다.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>--get, --select, --delete, --clear 중 하나만 사용하세요.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>항목 번호가 두 개 이상 지정되었습니다.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>항목 번호는 1 이상이어야 합니다.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>예상치 못한 인수: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format은 --get과 함께만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format은 text, html, rtf, image, files 중 하나여야 합니다.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output은 --get과 함께만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output에는 파일 경로가 필요합니다.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected는 --get과 함께만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes는 --clear와 함께만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>알 수 없는 옵션: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio 설정</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio 설정</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>보관</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>보관</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>보관</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>모양</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>모양</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>모양</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>제외</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>제외</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>제외</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>고급</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>고급</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>고급</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>관하여</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>관하여</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>관하여</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>바로 가기 키</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>{0} 지우기</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}, {1} 또는 {2}을(를) 포함하세요</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>바로 가기 키를 누르세요…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>기록 중. 바로 가기 키를 누르세요. Esc는 취소, Backspace는 지우기</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>설정 안 됨</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>선택하여 새 바로 가기 키를 기록합니다. Esc는 취소, Backspace는 지우기입니다.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>설정 안 됨</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>바로 가기 키 지우기</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>바로 가기 키 지우기</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>로그인 시 실행</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Windows에 로그인할 때 Kleio를 자동으로 시작합니다.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>로그인 시 실행</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows에서 로그인 시 실행을 껐습니다</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>작업 관리자 &gt; 시작 앱(또는 설정 &gt; 앱 &gt; 시작 프로그램)에서 Kleio가 사용 안 함으로 설정되어 있습니다. 로그인할 때 Kleio를 시작하려면 그곳에서 켜세요.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>자동으로 업데이트 확인</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>하루에 한 번 GitHub에서 새 Kleio 릴리스를 찾고 설치를 제안합니다.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>지금 확인하기</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>지금 업데이트 확인</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>자동으로 업데이트 확인</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio의 메뉴, 설정, 메시지 언어입니다.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows 기본값</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>새 언어를 사용하려면 Kleio를 다시 시작하세요.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>지금 다시 시작</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>바로 가기 키</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio 열기</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>애플리케이션을 여는 글로벌 단축키. 수식어를 누른 상태에서 메인 키를 반복해서 누르면 목록의 다음 항목이 선택됩니다. 이 모드에서는 수정자 키에서 손을 떼면 선택이 확인되고 팝업이 닫힙니다. 기본값: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 열기 바로 가기 키</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>바로 가기 키를 등록할 수 없습니다</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>다른 앱에서 이 바로 가기 키를 사용하고 있습니다. 다른 키를 선택하세요.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>핀</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>고정 기록 항목에 대한 단축키입니다. 기본값: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>고정 바로 가기 키</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>기록 항목 삭제 단축키입니다. 기본값: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>삭제 바로 가기 키</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>미리보기</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>추가 정보와 함께 미리보기를 표시합니다. 기본값: Ctrl+스페이스바.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>미리보기 바로 가기 키</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>검색 모드</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>검색 필드에 입력한 텍스트를 기록 항목과 비교하는 방식입니다.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>검색 모드</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>정확한</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>퍼지</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>정규식</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>혼합</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>동작</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>자동으로 붙여넣기</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>선택한 항목을 복사만 하지 않고 활성 앱에 붙여넣습니다.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>자동으로 붙여넣기</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>서식없이 붙여넣기</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>선택한 항목에서 글꼴, 색 및 기타 서식을 제거합니다.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>서식없이 붙여넣기</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>항목 선택시 동작 커스터마이즈:
+• {0}와 함께 선택시 항목을 복사합니다.
+• {1}와 함께 선택시 항복을 복사하여 붙여넣기 합니다.
+• {2}와 함께 선택시 항목을 복사하여 서식없이 붙여넣기 합니다.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows 클립보드</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows에는 Win+V로 여는 자체 클립보드 기록이 있습니다. Kleio는 실행 중에 Windows 설정을 변경하지 않고 이 바로 가기 키를 대신 사용할 수 있습니다.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V 대체</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio가 실행 중이면 Win+V가 Windows 클립보드 기록 대신 Kleio를 엽니다. Windows 설정은 변경되지 않습니다.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V 대체</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows 클립보드 설정</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>설정 &gt; 시스템 &gt; 클립보드에서 Windows 클립보드 기록을 켜거나 끄거나 지울 수 있습니다.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows 클립보드 설정 열기</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>알림 및 소리</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>알림 표시</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio가 항목을 복사하거나 새 복사본을 저장할 때 항목이 포함된 알림을 표시합니다.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>알림 표시</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Windows에서 알림이 꺼져 있습니다</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>알림을 보려면 Windows 알림 설정에서 Kleio 알림을 켜세요.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>소리 재생</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio가 항목을 복사하거나 새 복사본을 저장할 때 소리를 재생합니다.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>소리 재생</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows 알림 설정</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>설정 &gt; 시스템 &gt; 알림에서 Kleio 알림이 표시되는 방식을 선택하거나 알림을 끌 수 있습니다.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows 알림 설정 열기</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>보관할 복사 컨텐츠 타입을 변경합니다.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>파일 탐색기와 다른 앱에서 복사한 파일과 폴더.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>파일 저장</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>그림과 스크린샷.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>이미지 저장</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>텍스트</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>일반 텍스트, 서식 있는 텍스트 및 HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>텍스트 저장</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>기록</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>보관할 기록 항목 수. 기본값: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>디스크의 현재 크기입니다.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>기록 크기</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>기록에 있는 항목의 순서입니다. 기본값: 마지막 복사한 시간.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>마지막 복사한 시간</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>처음 복사한 시간</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>복사 횟수</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>팝업</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>팝업 위치</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>팝업이 나타나는 위치를 변경합니다. 기본값: 커서.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>위치 재설정</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>팝업을 기본 위치로 되돌립니다</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>위치 재설정</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>화면</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>팝업 위치</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>커서</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>알림 영역 아이콘</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>창의 중앙</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>화면 중앙</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>마지막 위치</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>활성 화면</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>디스플레이 {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>디스플레이 {0}(연결 안 됨)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>고정 위치</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>고정된 항목의 위치를 변경합니다. 기본값: 상단.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>고정 위치</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>상단</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>하단</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>이미지 세로 높이</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>이미지 미리보기 최대 세로 높이. 기본값: 40. Hint: 16으로 설정하면 텍스트 항목과 같아 보입니다.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>이미지 세로 높이</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>미리보기를 자동으로 열기</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>잠시 후 선택한 항목에 대한 추가 정보가 포함된 미리보기를 표시합니다.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>미리보기를 자동으로 열기</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>미리보기 지연</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>미리보기 팝업이 표시될 때까지 밀리초 단위로 지연됩니다. 기본값: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>미리보기 지연 시간(밀리초)</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>매칭된 항목 하이라이트</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>검색 일치 항목의 강조 스타일을 변경합니다. 기본값: 굵게.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>매칭된 항목 하이라이트</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>굵게</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>이탤릭체</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>밑줄</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>색상</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>특수 기호 표시</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>특수 기호를 통해 개행, 탭, 선행 및 후행 공백을 표시합니다.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>특수 기호 표시</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>알림 영역</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>알림 영역에 아이콘 표시</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>작업 표시줄의 알림 영역에 Kleio 아이콘을 표시합니다.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>알림 영역에 아이콘 표시</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>알림 영역 아이콘 스타일</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 로고</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>클립보드</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>클립</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>가위</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>가위</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>아이콘 도구 설명에 최근 복사 표시</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>알림 영역 아이콘을 가리키면 가장 최근 복사본을 표시합니다.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>아이콘 도구 설명에 최근 복사 표시</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>팝업 레이아웃</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>검색 필드 표시</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>검색 필드를 항상 표시하거나 입력을 시작할 때만 표시합니다.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>검색 필드 표시</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>검색 필드 표시</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>항상</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>검색 중</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>검색 필드 앞에 타이틀 표시</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>검색 필드 왼쪽에 "Kleio"를 표시합니다.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>검색 필드 앞에 타이틀 표시</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>애플리케이션 아이콘 표시</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>각 항목을 복사한 앱의 아이콘을 표시합니다.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>애플리케이션 아이콘 표시</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>16진수 색상 견본 표시</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>16진수 색상 코드 옆에 색상 견본을 표시합니다.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>16진수 색상 견본 표시</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>푸터 표시</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>팝업 아래쪽에 지우기, 설정, 정보, 종료 명령을 표시합니다.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>푸터 표시</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>푸터가 없으면 알림 영역 아이콘 메뉴에서 또는 팝업에서 Ctrl+,를 눌러 설정을 여세요.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>제외 섹션</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>어플리케이션</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>클립보드 형식</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>정규식</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>특정 애플리케이션에서 복사한 항목을 무시할 수 있습니다. 완벽하지는 않습니다. Windows는 어떤 앱이 복사했는지 알려 주지 않으므로 Kleio는 클립보드를 소유한 앱이나 포그라운드에 있는 앱을 확인합니다. 가능하면 클립보드 형식을 사용하세요.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>나열된 애플리케이션을 제외한 모든 애플리케이션 무시</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>아래에 나열된 애플리케이션에서 복사한 항목만 저장합니다.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>나열된 애플리케이션을 제외한 모든 애플리케이션 무시</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>어플리케이션</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>이 애플리케이션에서 복사한 항목은 저장되지 않습니다.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>실행 중인 앱 추가</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>실행 중인 앱 추가</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>프로그램 파일을 선택하여 앱 추가</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>앱 추가…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>무시하는 애플리케이션이 없습니다.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>이 클립보드 형식 중 하나라도 포함된 복사 항목은 저장되지 않습니다. 기본적으로 Kleio.Transient가 목록에 있으며, 제거하고 원하는 사용자 지정 형식을 추가할 수 있습니다.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>형식 이름을 찾으려면 앱에서 무언가를 복사한 다음 NirSoft InsideClipboard 같은 뷰어로 클립보드를 확인하세요. 등록된 형식(번호가 아닌 이름)만 추가할 수 있습니다.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>클립보드 형식 추가</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>형식 이름(예: Kleio.Transient)</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드 형식 이름</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드 형식 추가</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>무시하는 클립보드 형식이 없습니다.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>기본값으로 재설정</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>클립보드 형식을 기본값으로 재설정</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>텍스트가 이 정규식 중 하나와 일치하는 복사 항목은 저장되지 않습니다. 식은 ECMAScript(JavaScript) 구문을 사용하며 텍스트의 어느 부분과도 일치할 수 있습니다. 전체 텍스트와 일치시키려면 ^와 $를 사용하세요.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>많은 API 키와 토큰처럼 50자의 문자 또는 숫자</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6자리 일회용 코드</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>결제 카드 번호</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>정규식 추가</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>정규식</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>정규식 추가</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>잘못된 정규식</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>정의된 정규식이 없습니다.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio는 "{0}" 또는 "{1}"로 표시된 복사 항목을 항상 무시합니다. 이는 암호 관리자와 다른 앱이 중요한 데이터를 클립보드 관리자로부터 보호하는 데 사용하는 Windows 규칙입니다.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>{0} 제거</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>실행 파일 이름</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>실행 중인 앱이 없습니다</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>"{0}"은(는) 올바른 ECMAScript 정규식이 아닙니다.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>일시 중지</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio 일시 중지</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>새 복사 항목을 모두 일시적으로 무시합니다. 중요한 데이터를 복사하는 동안 Kleio가 기록하지 않게 할 때 유용합니다.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 일시 중지</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>주로 스크립트에서 사용하게 됩니다. 중요한 데이터를 복사하는 동안 명령줄에서 Kleio를 일시 중지하세요.</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… 데이터 복사 …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, 데이터 복사, 그다음 kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>다음 복사만 무시하려면:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… 데이터 복사 …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, 그다음 데이터 복사</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>알림 영역 아이콘을 Alt+클릭하여 Kleio를 일시 중지하거나 다시 시작할 수도 있습니다. 다음 복사만 무시하려면 Alt+Shift+클릭하세요.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>종료시 기록 지우기</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>애플리케이션을 종료하기 전에 고정 해제된 모든 항목을 자동으로 제거합니다.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>종료시 기록 지우기</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>시스템 클립보드도 지우기</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>활성화되면 기록을 지우면 현재 시스템 클립보드도 지워집니다.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>시스템 클립보드도 지우기</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 로고</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>버전 {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows용 클립보드 관리자</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>만든 사람</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio는 Alex Rodionov의 Maccy를 이식한 앱입니다</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy는 macOS용 가벼운 클립보드 관리자입니다. Kleio는 그 기능과 레이아웃을 Windows 11로 가져옵니다.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy 웹 사이트</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy 웹 사이트</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub의 Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub의 Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>소스 코드</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>GitHub에서 문제를 보고하고, 기능을 제안하고, 기여하세요.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub의 Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub의 Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>지원</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>지원: GitHub에서 문제 보고</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>라이선스</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio와 Maccy는 MIT 라이선스로 배포되는 자유 소프트웨어입니다.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT 라이선스</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT 라이선스</value>
+  </data>
+</root>

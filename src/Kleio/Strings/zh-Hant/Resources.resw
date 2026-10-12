@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows 剪貼簿管理員</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>，</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>影像</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>影像，{0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>剪貼簿項目</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>已固定</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>已選取，第 {0} 項，共 {1} 項</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>取消固定</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>全部清除</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>設定…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>關於 Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>開啟 Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>暫停 Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>忽略下一次複製</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>結束 Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>停止貼上堆疊</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>編輯項目</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>空白鍵</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>搜尋…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>搜尋剪貼簿歷史</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示或隱藏預覽</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>貼上堆疊</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>停止貼上堆疊</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>已固定的項目</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>剪貼簿歷史</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>複製擷取的文字。</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>複製擷取的文字</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>編輯項目</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>停止貼上堆疊</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>應用:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>清除未釘選的項目。
+按住 Shift 並選取以全部清除。</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>清除全部項目。</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>開啟 Kleio 設定。</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>了解應用程式詳情。</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>退出應用程式。</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>複製一些內容，就會在這裡看到。</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>沒有結果</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>顯示預覽</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>隱藏預覽</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>按 {0} 顯示預覽。</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>按 {0} 隱藏預覽。</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>按 {0} 固定。</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>按 {0} (取消)固定。</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>按 {0} 刪除。</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>貼上堆疊 · {0} 個項目</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>貼上堆疊 · {0} 個項目</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>貼上堆疊 — 每次貼上都會將下一個項目放到剪貼簿。</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>純文字貼上</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>編輯…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>清除歷史？</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>清除所有歷史？</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>確定要清除歷史嗎？已固定的項目會保留。此動作無法復原。</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>確定要清除包含已固定項目在內的歷史嗎？此動作無法復原。</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>不要再詢問</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>快捷鍵</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>此文字太長，無法編輯。</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>不可編輯的內容（影像或檔案）</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>編輯時會捨棄所有格式。</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>尺寸: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>首次拷貝時間: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>上次拷貝時間: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>拷貝次數: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (已暫停)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio（忽略下一次複製）</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio（不儲存任何類型）</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio 有新版本可用！</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} 現已推出。你目前的版本是 {1}。</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>安裝更新</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>略過此版本</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>版本資訊</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>無法安裝 Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>在應用程式安裝程式中開啟</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>正在安裝 Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>更新安裝完成後 Kleio 會重新啟動。</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>正在安裝更新</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>正在下載 Kleio {0}。更新安裝完成後 Kleio 會重新啟動。</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>無法安裝更新</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>有可用的更新</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio 已是最新版本</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} 是最新版本。</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>無法檢查更新</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>找不到已發佈的 Kleio 版本。</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>版本發佈</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>請檢查網際網路連線，然後再試一次。</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>此版本沒有適用於這部電腦的安裝套件。</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>下載失敗（HTTP {0}）。</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>無法儲存下載的套件。</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>無法安裝更新。</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>已安裝 Kleio {0}。請結束並重新開啟 Kleio 以使用新版本。</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio 尚未就緒。</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>找不到剪貼簿項目</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>剪貼簿項目沒有 {0} 內容</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>未知的命令</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio 啟動後沒有回應。</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio 沒有回應。</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>無法啟動 Kleio。</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio 無法理解該要求。正在執行的 Kleio 是同一個版本嗎？</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>項目太大。</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio 無法執行該命令。</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio 正在結束。</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} 執行 "kleio --help" 以檢視用法。</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>無法將命令傳送給 Kleio。</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio 沒有回應。</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio 傳回了無效的回應。</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>失敗。</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>無法寫入 {0}。</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>只能使用 --get、--select、--delete 和 --clear 其中之一。</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>指定了多個項目編號。</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>項目編號必須大於或等於 1。</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>未預期的引數：{0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format 只能與 --get 搭配使用。</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format 必須是 text、html、rtf、image 或 files 其中之一。</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output 只能與 --get 搭配使用。</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output 需要檔案路徑。</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected 只能與 --get 搭配使用。</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes 只能與 --clear 搭配使用。</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>未知的選項：{0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio 設定</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio 設定</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>外觀</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>外觀</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>外觀</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>快速鍵</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>清除{0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>請包含 {0}、{1} 或 {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>請按下快速鍵…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>正在錄製。請按下快速鍵，按 Esc 取消，按 Backspace 清除</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>選取以錄製新的快速鍵。Esc 取消，Backspace 清除。</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>未設定</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>清除快速鍵</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>清除快速鍵</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>登入時啟動</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>登入 Windows 時自動啟動 Kleio。</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>登入時啟動</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>登入時啟動已被 Windows 關閉</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio 已在工作管理員 &gt; 啟動應用程式（或設定 &gt; 應用程式 &gt; 啟動）中停用。請在該處啟用，讓 Kleio 在登入時啟動。</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>自動檢查更新</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>每天在 GitHub 上尋找一次較新的 Kleio 版本，並提供安裝。</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>立即檢查</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>立即檢查更新</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>自動檢查更新</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio 選單、設定和訊息使用的語言。</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows 預設</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>重新啟動 Kleio 以使用新語言。</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>立即重新啟動</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>快速鍵</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>開啟 Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>全局快捷键，用于打开应用程序。在按住修改器的同时重复按下主键将选择列表中的下一个项目。在此模式下，鬆開變量鍵將確認選擇並關閉彈出窗口。預設：Win+Shift+C。</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>開啟 Kleio 的快速鍵</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>無法註冊快速鍵</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>此快速鍵已被其他應用程式使用。請選擇其他快速鍵。</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>釘選</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>釘選歷史記錄項目的快捷鍵。預設：Alt+P。</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>固定快速鍵</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>刪除歷史記錄項目的快捷鍵。預設：Alt+Delete。</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>刪除快速鍵</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>預覽</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>顯示帶有附加資訊的預覽。預設：Ctrl+空白鍵。</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>預覽快速鍵</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>搜尋模式</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>在搜尋欄位中輸入的文字與歷史項目比對的方式。</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>搜尋模式</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>精確</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>模糊</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>正規表示式</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>行為</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>自動貼上</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>將選取的項目貼到使用中的應用程式，而不只是複製。</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>自動貼上</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>純文字貼上</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>移除選取項目中的字型、色彩和其他格式。</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>純文字貼上</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>自訂選擇項目時的行為：
+• 按住 {0} 並選取以複製項目。
+• 按住 {1} 並選取以複製和貼上項目。
+• 按住 {2} 並選取以複製，清除格式並貼上項目。</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows 剪貼簿</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows 有自己的剪貼簿歷史，以 Win+V 開啟。Kleio 執行時可以接管此快速鍵，而不變更任何 Windows 設定。</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>取代 Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio 執行時，Win+V 會開啟 Kleio 而非 Windows 剪貼簿歷史。不會變更 Windows 設定。</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>取代 Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows 剪貼簿設定</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>在「設定 &gt; 系統 &gt; 剪貼簿」中開啟、關閉或清除 Windows 剪貼簿歷史。</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>開啟 Windows 剪貼簿設定</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>通知和聲音</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>顯示通知</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio 複製項目或儲存新複本時，顯示包含該項目的通知。</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示通知</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Windows 中已關閉通知</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>請在 Windows 通知設定中為 Kleio 開啟通知，以便看到通知。</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>播放音效</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio 複製項目或儲存新複本時播放音效。</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>播放音效</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows 通知設定</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>在「設定 &gt; 系統 &gt; 通知」中選擇 Kleio 通知的顯示方式或將其關閉。</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>開啟 Windows 通知設定</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>選擇應儲存的複製內容類型。</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>在檔案總管和其他應用程式中複製的檔案和資料夾。</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>儲存檔案</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>圖片和螢幕擷取畫面。</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>儲存圖片</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>純文字、RTF 格式文字和 HTML。</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>儲存文字</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>歷史</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>要保留的歷史記錄項目數量。預設：200。</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>目前在磁碟上的大小。</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>歷史大小</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>排序方式</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>歷史中項目的順序。預設：上次拷貝時間。</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>排序方式</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>上次拷貝時間</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>首次拷貝時間</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>拷貝次數</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>彈窗</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>彈窗位置</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>更改彈窗顯示位置。預設：指標。</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>重設位置</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>將彈窗移回預設位置</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>重設位置</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>螢幕</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>彈窗位置</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>滑鼠指標</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>通知區域圖示</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>窗口中心</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>螢幕中央</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>最後位置</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>使用中的螢幕</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>顯示器 {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>顯示器 {0}（未連接）</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>固定項目位置</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>更改固定項目的位置。預設：置頂。</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>固定項目位置</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>置頂</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>置底</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>圖片高度</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>圖片預覽最高。預設：40 提示：設定 16 可符合文字項目大小。</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>圖片高度</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>自動開啟預覽</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>稍待片刻後，顯示選取項目的預覽和其他資訊。</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>自動開啟預覽</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>預覽延遲</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>顯示預覽彈出視窗的延遲，單位為毫秒。預設：1500。</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>預覽延遲（毫秒）</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>凸顯相符項目</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>變更搜尋符合項目的凸顯樣式。預設：粗體。</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>凸顯相符項目</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>粗體</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>斜體</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>底線</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>顯示特殊符號</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>透過特殊符號顯示換行符、製表符、前導和尾隨空格。</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示特殊符號</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>通知區域</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>在通知區域顯示圖示</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>在工作列的通知區域顯示 Kleio 圖示。</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>在通知區域顯示圖示</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>通知區域圖示樣式</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 標誌</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>剪貼簿</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>剪貼簿</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>迴紋針</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>迴紋針</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>剪刀</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>剪刀</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>在圖示工具提示中顯示最近的複製內容</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>指向通知區域圖示時，顯示最近複製的內容。</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>在圖示工具提示中顯示最近的複製內容</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>彈窗版面配置</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>顯示搜尋框</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>一律顯示搜尋欄位，或只在開始輸入時顯示。</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示搜尋框</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>搜尋欄位可見性</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>總是</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>搜尋期間</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>搜尋列旁顯示 Kleio</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>在搜尋欄位左側顯示「Kleio」。</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>搜尋列旁顯示 Kleio</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>顯示應用程式圖示</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>顯示每個項目來源應用程式的圖示。</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示應用程式圖示</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>顯示十六進位顏色色塊</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>在十六進位顏色代碼旁邊顯示顏色色塊。</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示十六進位顏色色塊</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>顯示底部操作選單</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>在彈窗底部顯示「清除」、「設定」、「關於」和「結束」命令。</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>顯示底部操作選單</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>隱藏底部操作選單後，可從通知區域圖示的選單或在彈窗中按 Ctrl+, 開啟設定。</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>忽略類別</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>應用程式</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>剪貼簿格式</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>正規表示式</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>可以忽略來自特定應用程式的複製。請注意這並非萬無一失：Windows 不會告知是哪個應用程式複製了內容，因此 Kleio 會檢查擁有剪貼簿或位於前景的應用程式。可能的話，請改用剪貼簿格式。</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>忽略除了列表中的所有應用程式</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>只儲存在下列應用程式中進行的複製。</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>忽略除了列表中的所有應用程式</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>應用程式</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>不儲存在這些應用程式中進行的複製。</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>新增執行中的應用程式</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>新增執行中的應用程式</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>選擇程式檔案以新增應用程式</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>新增應用程式…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>沒有忽略任何應用程式。</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>包含下列任一剪貼簿格式的複製不會被儲存。預設會列出 Kleio.Transient；你可以將它移除並新增任何自訂格式。</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>若要找出格式名稱，請在應用程式中複製內容，再用 NirSoft InsideClipboard 等檢視器查看剪貼簿。只能列出已註冊的格式（名稱而非編號）。</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>新增剪貼簿格式</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>格式名稱，例如 Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>剪貼簿格式名稱</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>新增剪貼簿格式</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>沒有忽略任何剪貼簿格式。</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>重設為預設值</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>將剪貼簿格式重設為預設值</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>文字符合下列任一規則運算式的複製不會被儲存。運算式使用 ECMAScript（JavaScript）語法，可比對文字中的任何位置；使用 ^ 和 $ 比對整段文字。</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>範例</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 個字母或數字，如許多 API 金鑰和權杖</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 位數一次性驗證碼</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>支付卡號</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>新增規則運算式</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>規則運算式</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>新增規則運算式</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>無效的規則運算式</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>尚未定義規則運算式。</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio 一律忽略標示為「{0}」或「{1}」的複製：這是密碼管理員和其他應用程式用來讓敏感資料遠離剪貼簿管理員的 Windows 慣例。</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>移除 {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>執行檔名稱</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>找不到執行中的應用程式</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>「{0}」不是有效的 ECMAScript 規則運算式。</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>暫停 Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>暫時忽略所有新的複製。適合在複製敏感資料時防止 Kleio 記錄。</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>暫停 Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>你很可能會從指令碼使用此功能。複製敏感資料時，從命令列暫停 Kleio：</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… 複製資料 …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause，複製資料，然後 kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>只忽略下一次複製：</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… 複製資料 …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next，然後複製資料</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>也可以按住 Alt 並按一下通知區域圖示來暫停或繼續 Kleio。若只要忽略下一次複製，請按住 Alt+Shift 並按一下。</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>退出時清除歷史記錄</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>退出應用程式時自動移除所有未釘選的項目。</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>退出時清除歷史記錄</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>同時清除系統剪貼簿</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>啟用後，清除歷史記錄也會清除系統目前的剪貼簿。</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>同時清除系統剪貼簿</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio 標誌</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows 剪貼簿管理員</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>致謝</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio 是 Alex Rodionov 所開發 Maccy 的移植版</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy 是適用於 macOS 的輕量剪貼簿管理員。Kleio 將它的功能和版面配置帶到 Windows 11。</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy 網站</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy 網站</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub 上的 Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub 上的 Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>原始程式碼</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>在 GitHub 上回報問題、建議功能並參與貢獻。</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub 上的 Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub 上的 Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>支援：在 GitHub 上回報問題</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>授權</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio 和 Maccy 是以 MIT 授權發佈的自由軟體。</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT 授權</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT 授權</value>
+  </data>
+</root>

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Iškarpinės tvarkytuvė, skirta „Windows“</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Vaizdas</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Vaizdas, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Failai</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Iškarpinės elementas</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Prisegta</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Pasirinkta, {0} iš {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Atsegti</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Išvalyti</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Išvalyti visus</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Parametrai…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Apie „Kleio“</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Atidaryti „Kleio“</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Pristabdyti „Kleio“</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Nepaisyti kito kopijavimo</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Uždaryti „Kleio“</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Sustabdyti įklijavimo rietuvę</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Redaguoti elementą</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Tarpas</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Aukštyn</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Žemyn</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Kairėn</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Dešinėn</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Įveskite paiešką…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ieškoti iškarpinės istorijoje</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti arba slėpti peržiūrą</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Įklijavimo rietuvė</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sustabdyti įklijavimo rietuvę</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prisegti elementai</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iškarpinės istorija</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kopijuoti išgautą tekstą.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kopijuoti išgautą tekstą</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redaguoti elementą</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sustabdyti įklijavimo rietuvę</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Programa:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Išvalyti neprisegtus elementus.
+Pasirinkite su Shift, kad išvalytumėte visus.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Išvalyti visus elementus.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Atidaryti „Kleio“ parametrus.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Sužinokite daugiau apie programą.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Uždaryti programą.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Nukopijuokite ką nors, kad pamatytumėte čia.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Rezultatų nėra</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Rodyti peržiūrą</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Slėpti peržiūrą</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Paspauskite {0}, kad parodytumėte peržiūrą.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Paspauskite {0}, kad paslėptumėte peržiūrą.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Paspauskite {0}, kad prisegtumėte.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Paspauskite {0}, kad neprisegtumėte.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Paspauskite {0}, kad ištrintumėte.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Įklijavimo rietuvė · {0} elementas</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Įklijavimo rietuvė · elementų: {0}</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Įklijavimo rietuvė – kiekvienas įklijavimas į iškarpinę įdeda kitą elementą.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopijuoti</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Įklijuoti</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Įklijuoti be formatavimo</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Redaguoti…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Išvalyti istoriją?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Išvalyti visą istoriją?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Ar tikrai norite išvalyti istoriją? Prisegti elementai išliks. Šio veiksmo anuliuoti negalima.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Ar tikrai norite išvalyti istoriją kartu su prisegtais elementais? Šio veiksmo anuliuoti negalima.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Daugiau neklausti</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Klavišas</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Turinys</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Šis tekstas per ilgas, kad būtų galima jį redaguoti.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Neredaguojamas turinys (vaizdas arba failas)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Redaguojant bus panaikintas visas formatavimas.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Įrašyti</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Matmenys: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Pirmojo kopijavimo laikas: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Paskutinio kopijavimo laikas: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Kopijų skaičius: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (pristabdyta)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>„Kleio“ (nepaiso kito kopijavimo)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>„Kleio“ (neišsaugo jokio tipo)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Yra nauja „Kleio“ versija!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Jau galima gauti „Kleio“ {0}. Jūsų versija – {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Įdiegti naujinimą</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Praleisti šią versiją</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Leidimo pastabos</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Nepavyko įdiegti „Kleio“ {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Atidaryti programėlių diegimo programoje</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Diegiama „Kleio“ {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Įdiegus naujinimą „Kleio“ pasileis iš naujo.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Diegiamas naujinimas</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Atsisiunčiama „Kleio“ {0}. Įdiegus naujinimą „Kleio“ pasileis iš naujo.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Nepavyko įdiegti naujinimo</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Yra naujinimas</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>„Kleio“ yra naujausia</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>„Kleio“ {0} yra naujausia versija.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Nepavyko patikrinti naujinimų</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Nerasta jokio paskelbto „Kleio“ leidimo.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Leidimai</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Patikrinkite interneto ryšį ir bandykite dar kartą.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Leidime nėra diegimo paketo šiam kompiuteriui.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Atsisiųsti nepavyko (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Nepavyko įrašyti atsisiųsto paketo.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Naujinimo įdiegti nepavyko.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>„Kleio“ {0} įdiegta. Uždarykite ir vėl atidarykite „Kleio“, kad galėtumėte ja naudotis.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>„Kleio“ dar neparengta.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Iškarpinės elementas nerastas</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Iškarpinės elementas neturi {0} formato turinio</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Atšaukta</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Nežinoma komanda</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>„Kleio“ neatsakė po paleidimo.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>„Kleio“ nereaguoja.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Nepavyko paleisti „Kleio“.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>„Kleio“ nesuprato užklausos. Ar veikia ta pati „Kleio“ versija?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Elementas per didelis.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>„Kleio“ nepavyko įvykdyti komandos.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>„Kleio“ uždaroma.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Naudojimo informacija: "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Nepavyko nusiųsti komandos į „Kleio“.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>„Kleio“ neatsakė.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>„Kleio“ atsiuntė netinkamą atsakymą.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Nepavyko.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Nepavyko įrašyti {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Naudokite tik vieną iš parinkčių --get, --select, --delete ir --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Nurodytas daugiau nei vienas elemento numeris.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Elemento numeris turi būti 1 arba didesnis.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Netikėtas argumentas: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format galima naudoti tik su --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format turi būti text, html, rtf, image arba files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output galima naudoti tik su --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output reikia failo kelio.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected galima naudoti tik su --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes galima naudoti tik su --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Nežinoma parinktis: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>„Kleio“ parametrai</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>„Kleio“ parametrai</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Bendra</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bendra</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Bendra</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Išsaugojimas</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išsaugojimas</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Išsaugojimas</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Išvaizda</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išvaizda</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Išvaizda</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Nepaisyti</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nepaisyti</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Nepaisyti</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Išplėstiniai nustatymai</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išplėstiniai nustatymai</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Išplėstiniai nustatymai</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Spartusis klavišas</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Išvalyti: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Įtraukite {0}, {1} arba {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Paspauskite sparčiųjų klavišų derinį…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Įrašoma. Paspauskite sparčiųjų klavišų derinį, Esc – atšaukti, Backspace – išvalyti</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Nenustatyta</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pasirinkite, kad įrašytumėte naują spartųjį klavišą. Esc atšaukia, Backspace išvalo.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Nenustatyta</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išvalyti spartųjį klavišą</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Išvalyti spartųjį klavišą</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Paleisti prisijungus</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Automatiškai paleisti „Kleio“, kai prisijungiate prie „Windows“.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paleisti prisijungus</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>„Windows“ išjungė paleidimą prisijungus</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>„Kleio“ išjungta užduočių tvarkytuvėje &gt; Paleisties programėlės (arba Parametrai &gt; Programėlės &gt; Paleistis). Įjunkite ją ten, kad „Kleio“ pasileistų prisijungus.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Automatiškai tikrinti, ar yra atnaujinimų</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Kartą per dieną ieškoti naujesnio „Kleio“ leidimo „GitHub“ ir pasiūlyti jį įdiegti.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Patikrinti dabar</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tikrinti naujinimus dabar</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatiškai tikrinti, ar yra atnaujinimų</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>„Kleio“ meniu, parametrų ir pranešimų kalba.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>„Windows“ numatytoji</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Paleiskite „Kleio“ iš naujo, kad būtų naudojama nauja kalba.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Paleisti iš naujo dabar</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Spartieji klavišai</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Atidaryti „Kleio“</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Pasaulinis spartusis klavišas programai atidaryti. Pakartotinai paspaudus pagrindinį klavišą ir laikant modifikatorių, bus pasirinktas kitas sąrašo elementas. Šiuo režimu atleidus modifikavimo klavišus bus patvirtintas pasirinkimas ir uždarytas iškylantysis langas. Numatytasis: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Kleio“ atidarymo spartusis klavišas</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Nepavyko užregistruoti sparčiojo klavišo</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Šį spartųjį klavišą naudoja kita programėlė. Pasirinkite kitą.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Spartusis klavišas istorijos elementui prisegti. Numatytasis spartusis klavišas: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prisegimo spartusis klavišas</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Spartusis klavišas istorijos elementui ištrinti. Numatytasis spartusis klavišas: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ištrynimo spartusis klavišas</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Rodyti peržiūrą su papildoma informacija. Numatytasis spartusis klavišas: Ctrl+Tarpas.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Peržiūros spartusis klavišas</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Paieška</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Paieškos režimas</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Kaip paieškos lauke įvestas tekstas lyginamas su istorijos elementais.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paieškos režimas</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Tikslus</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Apytikslis</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Reguliarios išraiškos</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Mišrus</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Elgsena</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Įklijuoti automatiškai</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Įklijuoti pasirinktą elementą į aktyvią programėlę, o ne tik jį nukopijuoti.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Įklijuoti automatiškai</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Įklijuoti be formatavimo</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Pašalinti šriftus, spalvas ir kitą formatavimą iš pasirinkto elemento.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Įklijuoti be formatavimo</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Pritaikykite elgseną, kai pasirenkamas elementas:
+• Pasirinkite paspaudę {0}, kad nukopijuotumėte elementą.
+• Pasirinkite paspaudę {1}, jei norite kopijuoti ir įklijuoti elementą.
+• Pasirinkite paspaudę {2}, kad nukopijuotumėte, panaikintumėte formatavimą ir įklijuotumėte elementą.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>„Windows“ iškarpinė</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>„Windows“ turi savo iškarpinės istoriją, atidaromą klavišais Win+V. Kol veikia, „Kleio“ gali perimti šį spartųjį klavišą nekeisdama jokių „Windows“ parametrų.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Pakeisti Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kol veikia „Kleio“, Win+V atidaro „Kleio“ vietoj „Windows“ iškarpinės istorijos. „Windows“ parametrai nekeičiami.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pakeisti Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>„Windows“ iškarpinės parametrai</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Įjunkite, išjunkite arba išvalykite „Windows“ iškarpinės istoriją skiltyje Parametrai &gt; Sistema &gt; Iškarpinė.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Atidaryti „Windows“ iškarpinės parametrus</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Atidaryti</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Pranešimai ir garsai</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Rodyti pranešimus</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Rodyti pranešimą su elementu, kai „Kleio“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti pranešimus</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Pranešimai „Windows“ išjungti</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Kad juos matytumėte, įjunkite „Kleio“ pranešimus „Windows“ pranešimų parametruose.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Leisti garsus</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Leisti garsą, kai „Kleio“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Leisti garsus</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>„Windows“ pranešimų parametrai</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Pasirinkite, kaip rodomi „Kleio“ pranešimai, arba juos išjunkite skiltyje Parametrai &gt; Sistema &gt; Pranešimai.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Atidaryti „Windows“ pranešimų parametrus</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Atidaryti</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Pakeiskite, kokių tipų nukopijuotas turinys turėtų būti išsaugomas.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Failai</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Failai ir aplankai, nukopijuoti failų naršyklėje ir kitose programėlėse.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išsaugoti failus</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Vaizdai</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Paveikslėliai ir ekrano kopijos.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išsaugoti paveikslėlius</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Tekstas</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Paprastasis tekstas, raiškusis tekstas ir HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Išsaugoti tekstą</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Dydis</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Išsaugotinų istorijos elementų skaičius. Numatytoji reikšmė: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dabartinis dydis diske.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Istorijos dydis</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Rikiuoti pagal</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Elementų tvarka istorijoje. Numatytasis: Paskutinės kopijos padarymo laikas.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rikiuoti pagal</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Paskutinės kopijos padarymo laikas</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Pirmosios kopijos laikas</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Kopijų skaičius</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Iššokantis langas</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Iššokančio lango vieta</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Pakeiskite vietą, kurioje rodomas iššokantis langas. Numatytoji reikšmė: Pelės žymeklis.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iš naujo nustatyti vietą</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Grąžinti iššokantį langą į numatytąją vietą</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Iš naujo nustatyti vietą</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ekranas</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iššokančio lango vieta</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Pelės žymeklis</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Pranešimų srities piktograma</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Lango centras</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Ekrano centras</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Paskutinė vieta</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktyvus ekranas</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Ekranas {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Ekranas {0} (neprijungtas)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Pakeiskite prisegtų elementų vietą. Numatytoji reikšmė: Viršuje.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Viršuje</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Apačioje</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Paveikslėlio aukštis</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Didžiausias paveikslėlio peržiūros aukštis. Numatytoji reikšmė: 40. Patarimas: Nustatykite 16, kad atrodytų kaip teksto elementai.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paveikslėlio aukštis</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Automatiškai atidaryti peržiūrą</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Po delsos rodyti peržiūrą su papildoma informacija apie pasirinktą elementą.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatiškai atidaryti peržiūrą</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Peržiūros vėlavimas</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Vėlavimas milisekundėmis, kol bus parodytas iškylantysis peržiūros langas. Numatytoji reikšmė: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Peržiūros delsa milisekundėmis</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Paryškinti atitikimus</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Pakeiskite paieškos atitikmenų paryškinimo stilių. Numatytoji reikšmė: Paryškintu šriftu.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paryškinti atitikimus</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Paryškintu šriftu</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Kursyvu</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Pabraukimu</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Spalva</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Nėra</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Rodyti specialiuosius simbolius</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Rodyti naujas eilutes, skirtukus, pradinius ir galinius tarpus naudojant specialius simbolius.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti specialiuosius simbolius</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Pranešimų sritis</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Rodyti piktogramą pranešimų srityje</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Rodyti „Kleio“ piktogramą užduočių juostos pranešimų srityje.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti piktogramą pranešimų srityje</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pranešimų srities piktogramos stilius</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Kleio“ logotipas</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iškarpinė</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Iškarpinė</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sąvaržėlė</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Sąvaržėlė</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Žirklės</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Žirklės</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Rodyti paskutinę kopiją piktogramos patarime</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Rodyti naujausią kopiją, kai užvedate žymiklį ant pranešimų srities piktogramos.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti paskutinę kopiją piktogramos patarime</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Iššokančio lango išdėstymas</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Rodyti paieškos laukelį</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Rodyti paieškos lauką visada arba tik pradėjus rašyti.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti paieškos laukelį</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paieškos lauko matomumas</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Visada</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Paieškos metu</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Rodyti pavadinimą prieš paieškos laukelį</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Rodyti „Kleio“ paieškos lauko kairėje.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti pavadinimą prieš paieškos laukelį</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Rodyti programų piktogramas</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Rodyti programėlės, iš kurios nukopijuotas kiekvienas elementas, piktogramą.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti programų piktogramas</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Rodyti šešioliktainės spalvos pavyzdį</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Rodyti spalvos pavyzdį šalia šešioliktainių spalvų kodų.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti šešioliktainės spalvos pavyzdį</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Rodyti poraštę</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Rodyti komandas „Išvalyti“, „Parametrai“, „Apie“ ir „Uždaryti“ iššokančio lango apačioje.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rodyti poraštę</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Be poraštės parametrus atidarykite iš pranešimų srities piktogramos meniu arba iššokančiame lange paspaudę Ctrl+,.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nepaisymo skyriai</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Programos</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Iškarpinės formatai</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Reguliarios išraiškos</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Galima nepaisyti kopijų iš tam tikrų programų. Atkreipkite dėmesį, kad tai nėra visiškai patikima: „Windows“ nepraneša, kuri programėlė ką nors nukopijavo, todėl „Kleio“ tikrina programėlę, kuriai priklauso iškarpinė arba kuri yra priekiniame plane. Kai įmanoma, verčiau naudokite iškarpinės formatus.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Nepaisyti visų programų, išskyrus įtrauktas</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Išsaugoti tik kopijas iš toliau išvardytų programų.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nepaisyti visų programų, išskyrus įtrauktas</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Programos</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopijos iš šių programų neišsaugomos.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pridėti veikiančią programėlę</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Pridėti veikiančią programėlę</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pridėti programėlę pasirenkant jos programos failą</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Pridėti programėlę…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Nepaisoma jokių programų.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopijos, kuriose yra bet kuris iš šių iškarpinės formatų, neišsaugomos. Pagal numatytuosius nustatymus sąraše yra Kleio.Transient; galite jį pašalinti ir pridėti bet kokius savo formatus.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Norėdami sužinoti formato pavadinimą, programėlėje ką nors nukopijuokite ir peržiūrėkite iškarpinę peržiūros programa, pvz., „NirSoft InsideClipboard“. Galima nurodyti tik registruotus formatus (pavadinimus, ne skaičius).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Pridėti iškarpinės formatą</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Formato pavadinimas, pvz., Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Iškarpinės formato pavadinimas</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pridėti iškarpinės formatą</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Nepaisoma jokių iškarpinės formatų.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Atkurti numatytuosius</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Atkurti numatytuosius iškarpinės formatus</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopijos, kurių tekstas atitinka bet kurį iš šių reguliariųjų reiškinių, neišsaugomos. Reiškiniai naudoja ECMAScript (JavaScript) sintaksę ir gali atitikti bet kurią teksto vietą; norėdami atitikti visą tekstą, naudokite ^ ir $.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Pavyzdžiai</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 raidžių arba skaitmenų, kaip daugelis API raktų ir prieigos raktų</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 skaitmenų vienkartiniai kodai</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Mokėjimo kortelių numeriai</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Pridėti reguliarųjį reiškinį</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguliarusis reiškinys</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pridėti reguliarųjį reiškinį</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Netinkamas reguliarusis reiškinys</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Reguliariųjų reiškinių nenustatyta.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>„Kleio“ visada nepaiso kopijų, pažymėtų „{0}“ arba „{1}“: tai „Windows“ susitarimai, kuriais slaptažodžių tvarkytuvės ir kitos programėlės apsaugo slaptus duomenis nuo iškarpinės tvarkytuvių.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Šalinti</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Šalinti {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Vykdomojo failo pavadinimas</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Veikiančių programėlių nerasta</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}“ nėra tinkamas ECMAScript reguliarusis reiškinys.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pristabdymas</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Pristabdyti „Kleio“</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Laikinai nepaisyti visų naujų kopijų. Naudinga, kad „Kleio“ nieko neįrašytų, kol kopijuojate slaptus duomenis.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pristabdyti „Kleio“</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Tikriausiai tai naudosite scenarijuose. Kopijuodami slaptus duomenis pristabdykite „Kleio“ iš komandų eilutės:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopijuojami duomenys …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopijuojami duomenys, tada kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Kad būtų nepaisoma tik kito kopijavimo:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopijuojami duomenys …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, tada kopijuojami duomenys</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>„Kleio“ taip pat galite pristabdyti arba tęsti spustelėję pranešimų srities piktogramą laikydami Alt. Kad būtų nepaisoma tik kito kopijavimo, spustelėkite laikydami Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Valymas</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Ištrinti istoriją išjungiant</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Automatiškai pašalinti visus neprisegtus elementus prieš išjungiant programą.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ištrinti istoriją išjungiant</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Taip pat išvalyti sistemos iškarpinę</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Jei ši funkcija įjungta, istorijos ištrynimas taip pat ištrina dabartinę sistemos iškarpinę.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taip pat išvalyti sistemos iškarpinę</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Kleio“ logotipas</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versija {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Iškarpinės tvarkytuvė, skirta „Windows“</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Tikrinti naujinimus</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tikrinti naujinimus</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Padėkos</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>„Kleio“ – tai Alexo Rodionovo „Maccy“ perkėlimas</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>„Maccy“ – lengva iškarpinės tvarkytuvė, skirta „macOS“. „Kleio“ perkelia jos funkcijas ir išdėstymą į „Windows 11“.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>„Maccy“ svetainė</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Maccy“ svetainė</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>„Maccy“ „GitHub“</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Maccy“ „GitHub“</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Šaltinio kodas</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Praneškite apie problemas, siūlykite funkcijas ir prisidėkite „GitHub“.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>„Kleio“ „GitHub“</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>„Kleio“ „GitHub“</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pagalba: pranešti apie problemą „GitHub“</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licencija</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>„Kleio“ ir „Maccy“ yra laisvoji programinė įranga, išleista pagal MIT licenciją.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT licencija</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT licencija</value>
+  </data>
+</root>

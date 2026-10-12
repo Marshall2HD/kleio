@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Klembordbeheerder voor Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Afbeelding</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Afbeelding, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Klembord-item</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Gepind</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Geselecteerd, {0} van {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Pinnen</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Ontpinnen</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Wis</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Wis alles</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleer</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Instellingen…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Over Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Sluit</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio openen</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio pauzeren</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Volgende kopie negeren</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio afsluiten</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Plakstapel stoppen</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Item bewerken</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Spatiebalk</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Omhoog</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Omlaag</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Type om te zoeken…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klembordgeschiedenis doorzoeken</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Voorbeeld tonen of verbergen</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Plakstapel</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Plakstapel stoppen</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gepinde items</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klembordgeschiedenis</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Geëxtraheerde tekst kopiëren.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Geëxtraheerde tekst kopiëren</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pinnen</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Item bewerken</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Plakstapel stoppen</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>App:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Wis niet vastgemaakte items.
+Selecteer met Shift om alles te wissen.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Wis alle items.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Open de instellingen van Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Lees meer over de app.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Sluit app.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Kopieer iets om het hier te zien.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Geen resultaten</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Voorbeeld tonen</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Voorbeeld verbergen</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Druk op {0} om het voorbeeld te tonen.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Druk op {0} om het voorbeeld te verbergen.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Druk op {0} om te pinnen.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Druk op {0} om te ontpinnen.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Druk op {0} om te verwijderen.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Plakstapel · {0} item</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Plakstapel · {0} items</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Plakstapel — elke keer plakken zet het volgende item op het klembord.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Plakken zonder opmaak</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Bewerken…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Geschiedenis wissen?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Hele geschiedenis wissen?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Weet je zeker dat je de geschiedenis wilt wissen? Gepinde items blijven behouden. Je kunt deze actie niet ongedaan maken.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Weet je zeker dat je de geschiedenis wilt wissen, inclusief gepinde items? Je kunt deze actie niet ongedaan maken.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Niet meer vragen</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Sleutel</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Inhoud</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Deze tekst is te lang om te bewerken.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Niet bewerkbare inhoud (afbeelding of bestand)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Bewerken verwijdert alle opmaak.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Afmetingen: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Eerste kopie: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Laatste kopie: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Aantal kopieën: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (gepauzeerd)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (negeert de volgende kopie)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (slaat geen enkel type op)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Er is een nieuwe versie van Kleio beschikbaar!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} is nu beschikbaar. Je hebt {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Update installeren</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Deze versie overslaan</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Downloaden</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Release-opmerkingen</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kan Kleio {0} niet installeren</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Openen in App Installer</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} installeren</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio start opnieuw wanneer de update is geïnstalleerd.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Update installeren</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} downloaden. Kleio start opnieuw wanneer de update is geïnstalleerd.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Kan de update niet installeren</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Update beschikbaar</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio is up-to-date</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} is de nieuwste versie.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Kan niet controleren op updates</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Er is geen gepubliceerde versie van Kleio gevonden.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Releases</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Controleer je internetverbinding en probeer het opnieuw.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>De release bevat geen installatiepakket voor deze pc.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Het downloaden is mislukt (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Kan het gedownloade pakket niet opslaan.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>De update kon niet worden geïnstalleerd.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} is geïnstalleerd. Sluit Kleio af en open het opnieuw om de nieuwe versie te gebruiken.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio is nog niet klaar.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Klembord-item niet gevonden</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Het klembord-item heeft geen {0}-inhoud</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Onbekende opdracht</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio reageerde niet na het starten.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio reageert niet.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kan Kleio niet starten.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio begreep het verzoek niet. Is de actieve Kleio dezelfde versie?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Het item is te groot.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio kon de opdracht niet uitvoeren.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio wordt afgesloten.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Voer "kleio --help" uit voor het gebruik.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Kan de opdracht niet naar Kleio sturen.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio gaf geen antwoord.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio stuurde een ongeldig antwoord.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Mislukt.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Kan {0} niet schrijven.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Gebruik maar één van --get, --select, --delete en --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Er is meer dan één itemnummer opgegeven.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Het itemnummer moet 1 of groter zijn.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Onverwacht argument: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format kan alleen met --get worden gebruikt.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format moet text, html, rtf, image of files zijn.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output kan alleen met --get worden gebruikt.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output heeft een bestandspad nodig.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected kan alleen met --get worden gebruikt.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes kan alleen met --clear worden gebruikt.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Onbekende optie: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio-instellingen</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio-instellingen</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Opslag</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Opslag</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Opslag</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Negeer</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Negeer</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Negeer</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Geavanceerd</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Geavanceerd</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Geavanceerd</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Sneltoets</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>{0} wissen</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Gebruik {0}, {1} of {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Druk op een sneltoets…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Opnemen. Druk op een sneltoets, Esc om te annuleren, Backspace om te wissen</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Niet ingesteld</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Selecteer om een nieuwe sneltoets op te nemen. Esc annuleert, Backspace wist.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Niet ingesteld</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sneltoets wissen</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sneltoets wissen</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Start bij inloggen</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Kleio automatisch starten wanneer je je aanmeldt bij Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Start bij inloggen</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Start bij inloggen is uitgeschakeld door Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio is uitgeschakeld in Taakbeheer &gt; Opstart-apps (of Instellingen &gt; Apps &gt; Opstarten). Schakel het daar in om Kleio bij het inloggen te starten.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Controleer automatisch op updates</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Eén keer per dag op GitHub naar een nieuwere Kleio-release zoeken en aanbieden die te installeren.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Controleer nu</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nu controleren op updates</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Controleer automatisch op updates</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>De taal van de menu's, instellingen en meldingen van Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows-standaard</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Start Kleio opnieuw om de nieuwe taal te gebruiken.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Nu opnieuw starten</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Sneltoetsen</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio openen</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Algemene sneltoets om de applicatie te openen. Een herhaalde druk op de hoofdtoets terwijl de modificatietoetsen ingedrukt worden gehouden, selecteert het volgende item in de lijst. In deze modus zal het loslaten van de modificatietoetsen de selectie bevestigen en het popupvenster sluiten. Standaard: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sneltoets om Kleio te openen</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Kan de sneltoets niet registreren</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Deze sneltoets wordt door een andere app gebruikt. Kies een andere.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Pinnen</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Sneltoets om geschiedenisitem vast te zetten. Standaard: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sneltoets om te pinnen</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Sneltoets om geschiedenisitem te verwijderen. Standaard: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sneltoets om te verwijderen</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Voorbeeld weergeven met aanvullende informatie. Standaard: Ctrl+Spatiebalk.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sneltoets voor het voorbeeld</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Zoek</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Zoekmodus</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Hoe de tekst die je in het zoekveld typt wordt vergeleken met de items in de geschiedenis.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zoekmodus</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Vage</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Reguliere expressies</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Gemengd</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Gedrag</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Plak automatisch</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Het geselecteerde item in de actieve app plakken in plaats van het alleen te kopiëren.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Plak automatisch</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Plakken zonder opmaak</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Lettertypen, kleuren en andere opmaak uit het geselecteerde item verwijderen.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Plakken zonder opmaak</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Pas het gedrag aan bij het selecteren van een item:
+• Selecteer met {0} ingedrukt om item te kopiëren.
+• Selecteer met {1} ingedrukt om item te kopiëren en te plakken.
+• Selecteer met {2} ingedrukt om te kopiëren, opmaak te wissen en te plakken.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows-klembord</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows heeft een eigen klembordgeschiedenis, die je opent met Win+V. Kleio kan die sneltoets overnemen zolang het actief is, zonder Windows-instellingen te wijzigen.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V vervangen</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Win+V opent Kleio in plaats van de klembordgeschiedenis van Windows zolang Kleio actief is. Windows-instellingen worden niet gewijzigd.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V vervangen</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Klembordinstellingen van Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Schakel de klembordgeschiedenis van Windows in of uit, of wis die, via Instellingen &gt; Systeem &gt; Klembord.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klembordinstellingen van Windows openen</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Meldingen en geluiden</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Meldingen tonen</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Een melding met het item tonen wanneer Kleio een item kopieert of een nieuwe kopie opslaat.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Meldingen tonen</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Meldingen zijn uitgeschakeld in Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Schakel meldingen voor Kleio in via de meldingsinstellingen van Windows om ze te zien.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Geluiden afspelen</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Een geluid afspelen wanneer Kleio een item kopieert of een nieuwe kopie opslaat.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Geluiden afspelen</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Meldingsinstellingen van Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Kies hoe meldingen van Kleio worden weergegeven, of schakel ze uit, via Instellingen &gt; Systeem &gt; Meldingen.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Meldingsinstellingen van Windows openen</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Verander welke soorten gekopieerde inhoud moeten worden opgeslagen.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Bestanden</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Bestanden en mappen die zijn gekopieerd in Verkenner en andere apps.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bestanden opslaan</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Afbeeldingen</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Afbeeldingen en schermafbeeldingen.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afbeeldingen opslaan</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Platte tekst, opgemaakte tekst en HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tekst opslaan</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Geschiedenis</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Grootte</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Aantal te bewaren geschiedenisitems. Standaard: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Huidige grootte op schijf.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Grootte van de geschiedenis</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Sorteer op</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Volgorde van de items in de geschiedenis. Standaard: Tijd van laatste kopie.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sorteer op</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Tijd van laatste kopie</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Tijd van eerste kopie</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Aantal kopieën</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Pop-up</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Pop-up bij</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Wijzig de locatie waar de pop-up verschijnt. Standaard: Cursor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Positie terugzetten</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>De pop-up terugzetten op de standaardpositie</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Positie terugzetten</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Scherm</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pop-up bij</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Systeemvakpictogram</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Venstercentrum</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Schermcentrum</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Laatste positie</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Actief scherm</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Beeldscherm {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Beeldscherm {0} (niet verbonden)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Maak vast</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Wijzig de locatie van vastgemaakte items. Standaard: Boven.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maak vast</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Boven</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Onder</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Afbeeldingshoogte</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Maximale hoogte afbeeldingsvoorbeeld. Standaard: 40. Hint: Stel in op 16 zodat het lijkt op tekstitems.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afbeeldingshoogte</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Voorbeeld automatisch openen</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Na een vertraging een voorbeeld met extra informatie over het geselecteerde item tonen.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Voorbeeld automatisch openen</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Vertraging</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Vertraging in milliseconden totdat een voorbeeldpop-up wordt weergegeven. Standaard: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Voorbeeldvertraging in milliseconden</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Markeer overeenkomsten</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Wijzig de markeerstijl voor zoekresultaten. Standaard: Bold.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Markeer overeenkomsten</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Vetgedrukt</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Cursief</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Onderstreep</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Kleur</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Toon speciale symbolen</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Toon nieuwe regels, tabs, voorloop- en volgspaties via speciale symbolen.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toon speciale symbolen</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Systeemvak</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Systeemvakpictogram tonen</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Het Kleio-pictogram in het systeemvak van de taakbalk tonen.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Systeemvakpictogram tonen</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stijl van het systeemvakpictogram</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio-logo</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klembord</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Klembord</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paperclip</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Paperclip</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Schaar</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Schaar</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Recente kopie tonen in de knopinfo van het systeemvakpictogram</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>De meest recente kopie tonen wanneer je naar het systeemvakpictogram wijst.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recente kopie tonen in de knopinfo van het systeemvakpictogram</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Pop-upindeling</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Toon zoekveld</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Het zoekveld altijd tonen, of pas wanneer je begint te typen.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toon zoekveld</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zichtbaarheid van het zoekveld</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Altijd</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Tijdens het zoeken</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Toon titel voor zoekveld</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>„Kleio” links van het zoekveld tonen.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toon titel voor zoekveld</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Toepassingspictogrammen weergeven</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Het pictogram tonen van de app waaruit elk item is gekopieerd.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toepassingspictogrammen weergeven</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Hex kleurstaal tonen</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Toon kleurstaal naast hex kleurcodes.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hex kleurstaal tonen</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Toon voettekst</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>De opdrachten Wis, Instellingen, Over en Sluit onderaan de pop-up tonen.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toon voettekst</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Zonder voettekst open je de instellingen via het menu van het systeemvakpictogram of met Ctrl+, in de pop-up.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Te negeren onderdelen</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Applicaties</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Klembordindelingen</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Reguliere expressies</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Kopieën uit bepaalde applicaties kunnen worden genegeerd. Houd er rekening mee dat dit niet waterdicht is: Windows laat niet weten welke app iets heeft gekopieerd, dus Kleio controleert de app die eigenaar is van het klembord of op de voorgrond staat. Gebruik zo mogelijk klembordindelingen.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Negeer alle apps behalve de vermelde</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Alleen kopieën uit de hieronder vermelde applicaties opslaan.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Negeer alle apps behalve de vermelde</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Applicaties</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopieën uit deze applicaties worden niet opgeslagen.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Een actieve app toevoegen</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Actieve app toevoegen</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Een app toevoegen door het programmabestand te kiezen</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>App toevoegen…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Er worden geen applicaties genegeerd.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopieën die een van deze klembordindelingen bevatten, worden niet opgeslagen. Standaard staat Kleio.Transient in de lijst; je kunt die verwijderen en eigen indelingen toevoegen.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Om de naam van een indeling te vinden, kopieer je iets in de app en bekijk je het klembord met een viewer zoals NirSoft InsideClipboard. Alleen geregistreerde indelingen (namen, geen nummers) kunnen worden vermeld.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Een klembordindeling toevoegen</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Naam van de indeling, bijv. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Naam van de klembordindeling</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klembordindeling toevoegen</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Er worden geen klembordindelingen genegeerd.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Standaardwaarden herstellen</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Standaard klembordindelingen herstellen</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopieën waarvan de tekst overeenkomt met een van deze reguliere expressies, worden niet opgeslagen. De expressies gebruiken de ECMAScript-syntaxis (JavaScript) en kunnen overal in de tekst overeenkomen; gebruik ^ en $ voor de hele tekst.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Voorbeelden</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 letters of cijfers, zoals veel API-sleutels en tokens</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Eenmalige codes van 6 cijfers</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Betaalkaartnummers</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Een reguliere expressie toevoegen</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguliere expressie</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguliere expressie toevoegen</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Ongeldige reguliere expressie</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Er zijn geen reguliere expressies ingesteld.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio negeert altijd kopieën die gemarkeerd zijn met „{0}” of „{1}”: de Windows-conventies waarmee wachtwoordbeheerders en andere apps gevoelige gegevens buiten klembordbeheerders houden.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>{0} verwijderen</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Naam van het uitvoerbare bestand</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Geen actieve apps gevonden</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}” is geen geldige reguliere ECMAScript-expressie.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pauzeren</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio pauzeren</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Alle nieuwe kopieën tijdelijk negeren. Handig om te voorkomen dat Kleio iets vastlegt terwijl je gevoelige gegevens kopieert.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio pauzeren</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Je gebruikt dit waarschijnlijk vanuit scripts. Pauzeer Kleio via de opdrachtregel terwijl je gevoelige gegevens kopieert:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… gegevens kopiëren …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, gegevens kopiëren, daarna kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Om alleen de volgende kopie te negeren:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… gegevens kopiëren …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, daarna gegevens kopiëren</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Je kunt Kleio ook pauzeren of hervatten met Alt+klik op het systeemvakpictogram. Om alleen de volgende kopie te negeren, klik je met Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Wissen</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Wis geschiedenis bij afsluiten</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Verwijder automatisch alle niet vastgemaakte items voordat u de app afsluit.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Wis geschiedenis bij afsluiten</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Wis ook het systeemklembord</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Als dit is ingeschakeld, wordt bij het wissen van de geschiedenis ook het huidige klembord van het systeem gewist..</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Wis ook het systeemklembord</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio-logo</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versie {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Klembordbeheerder voor Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Controleren op updates</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Controleren op updates</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Met dank aan</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio is een port van Maccy door Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy is een lichtgewicht klembordbeheerder voor macOS. Kleio brengt de functies en de indeling ervan naar Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Website van Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Website van Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy op GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy op GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Broncode</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Meld problemen, stel functies voor en draag bij op GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio op GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio op GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Ondersteuning</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ondersteuning: een probleem melden op GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licentie</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio en Maccy zijn vrije software, uitgebracht onder de MIT-licentie.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT-licentie</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT-licentie</value>
+  </data>
+</root>

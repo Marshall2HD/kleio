@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Windows için pano yöneticisi</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Görüntü</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Görüntü, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Dosyalar</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Pano ögesi</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>İğnelendi</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Seçildi, {0}/{1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>İğnele</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>İğneyi kaldır</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Hepsini temizle</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Ayarlar…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Kleio hakkında</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Çık</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio'yu aç</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio'yu duraklat</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Sonraki kopyalamayı yok say</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kleio'dan çık</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Yapıştırma yığınını durdur</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Öğeyi düzenle</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Ara Çubuğu</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Aramak için yazın…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano geçmişinde ara</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Önizlemeyi göster veya gizle</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Yapıştırma yığını</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yapıştırma yığınını durdur</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>İğnelenmiş ögeler</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano geçmişi</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Çıkarılan metni kopyala.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Çıkarılan metni kopyala</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>İğnele</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Öğeyi düzenle</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yapıştırma yığınını durdur</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Uygulama:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Sabitlenmemiş öğeleri temizle.
+Hepsini temizlemek için Shift ile seçin.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Tüm ögeleri temizle.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Kleio ayarlarını aç.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Uygulama hakkında daha fazla bilgi edinin.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Uygulamadan çık.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Burada görmek için bir şey kopyalayın.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Sonuç yok</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Önizlemeyi göster</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Önizlemeyi gizle</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Önizlemeyi göstermek için {0} tuşuna basın.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Önizlemeyi gizlemek için {0} tuşuna basın.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>İğnelemek için {0}'a basın.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Kaldırmak için {0}'a basın.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Silmek için {0}'a basın.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Yapıştırma yığını · {0} öge</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Yapıştırma yığını · {0} öge</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Yapıştırma yığını — her yapıştırma sonraki ögeyi panoya koyar.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Biçimlendirme olmadan yapıştır</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Düzenle…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Geçmiş temizlensin mi?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Tüm geçmiş temizlensin mi?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Geçmişi temizlemek istediğinizden emin misiniz? İğnelenmiş ögeler korunur. Bu işlem geri alınamaz.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>İğnelenmiş ögeler dahil geçmişi temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Bir daha sorma</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Düğme</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>İçerik</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Bu metin düzenlenemeyecek kadar uzun.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Düzenlenemeyen içerik (resim veya dosya)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Düzenleme tüm biçimlendirmeyi atacaktır.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Boyutlar: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>İlk kopyalama zamanı: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Son kopyalama zamanı: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Kopya sayısı: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (duraklatıldı)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (sonraki kopyalama yok sayılıyor)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (hiçbir tür kaydedilmiyor)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleio'nun yeni bir sürümü var!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} artık kullanılabilir. Sizdeki sürüm: {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Güncellemeyi yükle</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Bu sürümü atla</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Sürüm notları</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0} yüklenemedi</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Uygulama Yükleyicisi'nde aç</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Kleio {0} yükleniyor</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Güncelleme yüklendiğinde Kleio yeniden başlar.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Güncelleme yükleniyor</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Kleio {0} indiriliyor. Güncelleme yüklendiğinde Kleio yeniden başlar.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Güncelleme yüklenemedi</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Güncelleme var</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio güncel</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} en son sürüm.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Güncellemeler denetlenemedi</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Yayımlanmış bir Kleio sürümü bulunamadı.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Sürümler</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>İnternet bağlantınızı denetleyip yeniden deneyin.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Bu sürümde bu bilgisayar için yükleme paketi yok.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>İndirme başarısız oldu (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>İndirilen paket kaydedilemedi.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Güncelleme yüklenemedi.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} yüklendi. Kullanmak için Kleio'dan çıkıp yeniden açın.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio henüz hazır değil.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Pano ögesi bulunamadı</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Pano ögesinin şu biçimde içeriği yok: {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>İptal edildi</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Bilinmeyen komut</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio başlatıldıktan sonra yanıt vermedi.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio yanıt vermiyor.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio başlatılamadı.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio isteği anlamadı. Çalışan Kleio aynı sürüm mü?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Öge çok büyük.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio komutu çalıştıramadı.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio kapanıyor.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Kullanım için "kleio --help" komutunu çalıştırın.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Komut Kleio'ya gönderilemedi.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio yanıt vermedi.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio geçersiz bir yanıt gönderdi.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Başarısız.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Yazılamadı: {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>--get, --select, --delete ve --clear seçeneklerinden yalnızca birini kullanın.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Birden fazla öge numarası verildi.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Öge numarası 1 veya daha büyük olmalıdır.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Beklenmeyen bağımsız değişken: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format yalnızca --get ile kullanılabilir.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format şunlardan biri olmalıdır: text, html, rtf, image, files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output yalnızca --get ile kullanılabilir.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output bir dosya yolu gerektirir.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected yalnızca --get ile kullanılabilir.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes yalnızca --clear ile kullanılabilir.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Bilinmeyen seçenek: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio Ayarları</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio Ayarları</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Depolama</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Depolama</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Depolama</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Yok Say</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yok Say</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Yok Say</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Kısayol</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Temizle: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}, {1} veya {2} tuşunu ekleyin</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Bir kısayola basın…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Kaydediliyor. Bir kısayola basın; iptal için Esc, temizlemek için Backspace</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Ayarlanmadı</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Yeni bir kısayol kaydetmek için seçin. Esc iptal eder, Backspace temizler.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Ayarlanmadı</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kısayolu temizle</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kısayolu temizle</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Girişte başlat</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Windows'ta oturum açtığınızda Kleio'yu otomatik olarak başlat.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Girişte başlat</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Girişte başlatma Windows tarafından kapatıldı</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio, Görev Yöneticisi &gt; Başlangıç uygulamaları (veya Ayarlar &gt; Uygulamalar &gt; Başlangıç) bölümünde devre dışı bırakıldı. Kleio'nun oturum açılışında başlaması için orada açın.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Güncellemeleri otomatik olarak denetle</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Günde bir kez GitHub'da daha yeni bir Kleio sürümü ara ve yüklemeyi öner.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Şimdi denetle</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Güncellemeleri şimdi denetle</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Güncellemeleri otomatik olarak denetle</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleio'nun menülerinin, ayarlarının ve iletilerinin dili.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows varsayılanı</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Yeni dili kullanmak için Kleio'yu yeniden başlatın.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Şimdi yeniden başlat</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Kısayollar</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio'yu aç</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Uygulamayı açmak için global kısayol tuşu. Değiştiricileri basılı tutarken ana tuşa tekrar basmak listedeki bir sonraki öğeyi seçecektir. Bu modda, değiştirici tuşların bırakılması seçimi onaylayacak ve açılır pencereyi kapatacaktır. Varsayılan: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio'yu açma kısayolu</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Kısayol kaydedilemedi</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Bu kısayol başka bir uygulama tarafından kullanılıyor. Farklı bir kısayol seçin.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>İğnelemek</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Geçmiş öğesini sabitlemek için kısayol düğmesi. Varsayılan: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>İğneleme kısayolu</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Silmek</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Geçmiş öğesini silmek için kısayol düğmesi. Varsayılan: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Silme kısayolu</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Ek bilgilerle önizleme göster. Varsayılan: Ctrl+Ara Çubuğu.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Önizleme kısayolu</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Arama modu</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Arama alanına yazdığınız metnin geçmiş ögeleriyle nasıl karşılaştırılacağı.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arama modu</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Kesin</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Bulanık</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Düzenli ifadeler</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Karışık</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Davranış</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Otomatik olarak yapıştır</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Seçili ögeyi yalnızca kopyalamak yerine etkin uygulamaya yapıştır.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Otomatik olarak yapıştır</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Biçimlendirme olmadan yapıştır</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Seçili ögeden yazı tiplerini, renkleri ve diğer biçimlendirmeleri kaldır.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Biçimlendirme olmadan yapıştır</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Ögeyi seçme davranışını özelleştirin:
+• Ögeyi kopyalamak için {0}'a basılıyken seçin.
+• Ögeyi kopyalayıp yopıştırmak için {1}'a basılıyken seçin.
+• Ögeyi kopyalamak, biçimlendirmesini temizlemek ve yapıştırmak için {2}'e basılıyken seçin.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows panosu</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows'un Win+V ile açılan kendi pano geçmişi vardır. Kleio, çalıştığı sürece hiçbir Windows ayarını değiştirmeden bu kısayolu devralabilir.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V kısayolunu değiştir</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kleio çalışırken Win+V, Windows pano geçmişi yerine Kleio'yu açar. Windows ayarları değiştirilmez.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V kısayolunu değiştir</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows pano ayarları</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Windows pano geçmişini Ayarlar &gt; Sistem &gt; Pano bölümünden açın, kapatın veya temizleyin.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows pano ayarlarını aç</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Bildirimler ve sesler</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Bildirimleri göster</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Kleio bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ögeyle birlikte bildirim göster.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirimleri göster</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Bildirimler Windows'ta kapalı</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Bildirimleri görmek için Windows bildirim ayarlarında Kleio bildirimlerini açın.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Ses çal</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Kleio bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ses çal.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ses çal</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows bildirim ayarları</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Kleio bildirimlerinin nasıl görüneceğini Ayarlar &gt; Sistem &gt; Bildirimler bölümünden seçin veya kapatın.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Windows bildirim ayarlarını aç</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Ne tür kopyalanmış içerik türlerinin depolanacağını değiştirin.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Dosyalar</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Dosya Gezgini'nde ve diğer uygulamalarda kopyalanan dosya ve klasörler.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dosyaları kaydet</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Görseller</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Resimler ve ekran görüntüleri.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Resimleri kaydet</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Düz metin, zengin metin ve HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Metni kaydet</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Sayı</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Tutulacak geçmiş ögesi sayısı. Saptanmış: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Diskteki geçerli boyut.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Geçmiş boyutu</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Şuna göre sırala</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Geçmişteki ögelerin sırası. Varsayılan: Son kopyanın zamanı.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Şuna göre sırala</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Son kopyanın zamanı</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>İlk kopyanın zamanı</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Kopya sayısı</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Açılır pencere</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Açılır pencereyi şurada aç</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Açılır pencerenin göründüğü konumu değiştirin. Saptanmış: İmleç.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pozisyonu sıfırla</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Açılır pencereyi varsayılan konumuna döndür</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Pozisyonu sıfırla</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ekran</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Açılır pencereyi şurada aç</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>İmleç</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Bildirim alanı simgesi</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Pencere merkezi</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Ekran merkezi</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Son pozisyon</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktif ekran</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Ekran {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Ekran {0} (bağlı değil)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Şuraya iğnele</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>İğnelenen ögelerin konumunu değiştir. Saptanmış: Üst.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Şuraya iğnele</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Üst</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Görsel boyu</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>En yüksek görsel önizlemesi boyu. Saptanmış: 40. İpucu: Metin ögeleri gibi görünmeleri için 16 olarak ayarlayın.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Görsel boyu</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Önizlemeyi otomatik olarak aç</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Bir gecikmenin ardından seçili öge hakkında ek bilgi içeren önizlemeyi göster.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Önizlemeyi otomatik olarak aç</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Önizleme gecikmesi</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Önizleme açılır penceresi gösterilene kadar milisaniye cinsinden gecikme. Saptanmış: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Milisaniye cinsinden önizleme gecikmesi</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Eşleşmeleri vurgula</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Arama eşleşmeleri için vurgulama stilini değiştirin. Saptanmış: Kalın.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Eşleşmeleri vurgula</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Italik</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Altını çizmek</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Özel sembolleri göster</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Yeni satırları, sekmeleri, baştaki ve sondaki boşlukları özel sembollerle gösterin.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Özel sembolleri göster</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Bildirim alanı</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Bildirim alanında simge göster</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Kleio simgesini görev çubuğunun bildirim alanında göster.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirim alanında simge göster</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildirim alanı simgesinin stili</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logosu</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ataç</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Ataç</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Makas</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Makas</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Son kopyayı simgenin araç ipucunda göster</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Bildirim alanı simgesinin üzerine geldiğinizde en son kopyayı göster.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Son kopyayı simgenin araç ipucunda göster</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Açılır pencere düzeni</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Arama alanını göster</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Arama alanını her zaman veya yalnızca yazmaya başladığınızda göster.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arama alanını göster</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arama alanının görünürlüğü</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Her zaman</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Arama sırasında</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Arama alanı öncesi başlığı göster</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Arama alanının solunda “Kleio” yazısını göster.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arama alanı öncesi başlığı göster</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Uygulama simgelerini göster</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Her ögenin kopyalandığı uygulamanın simgesini göster.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Uygulama simgelerini göster</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Hex renk örneğini göster</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Hex renk kodlarının yanında renk örneği göster.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hex renk örneğini göster</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Altbilgiyi göster</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Açılır pencerenin altında Temizle, Ayarlar, Hakkında ve Çık komutlarını göster.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Altbilgiyi göster</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Altbilgi olmadan ayarları bildirim alanı simgesinin menüsünden veya açılır pencerede Ctrl+, ile açın.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yok sayma bölümleri</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Pano biçimleri</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Düzenli ifadeler</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Belirli uygulamalardan gelen kopyalar yok sayılabilir. Bunun kusursuz olmadığını unutmayın: Windows bir şeyi hangi uygulamanın kopyaladığını söylemez, bu yüzden Kleio panonun sahibi olan veya ön planda olan uygulamayı denetler. Mümkün olduğunda pano biçimlerini tercih edin.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Listelenenler dışındaki tüm uygulamaları yoksay</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Yalnızca aşağıda listelenen uygulamalarda yapılan kopyaları kaydet.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Listelenenler dışındaki tüm uygulamaları yoksay</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Bu uygulamalarda yapılan kopyalar kaydedilmez.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Çalışan bir uygulama ekle</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Çalışan uygulama ekle</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Program dosyasını seçerek uygulama ekle</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Uygulama ekle…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Yok sayılan uygulama yok.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Bu pano biçimlerinden herhangi birini içeren kopyalar kaydedilmez. Varsayılan olarak Kleio.Transient listededir; bunu kaldırıp istediğiniz özel biçimleri ekleyebilirsiniz.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Bir biçimin adını bulmak için uygulamada bir şey kopyalayın ve panoyu NirSoft InsideClipboard gibi bir görüntüleyiciyle inceleyin. Yalnızca kayıtlı biçimler (sayılar değil, adlar) listelenebilir.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Pano biçimi ekle</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Biçim adı, ör. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano biçiminin adı</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano biçimini ekle</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Yok sayılan pano biçimi yok.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Varsayılanlara sıfırla</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pano biçimlerini varsayılanlara sıfırla</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Metni bu normal ifadelerden herhangi biriyle eşleşen kopyalar kaydedilmez. İfadeler ECMAScript (JavaScript) söz dizimini kullanır ve metnin herhangi bir yerinde eşleşebilir; metnin tamamını eşleştirmek için ^ ve $ kullanın.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Örnekler</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>Birçok API anahtarı ve belirteç gibi 50 harf veya rakam</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 haneli tek kullanımlık kodlar</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Ödeme kartı numaraları</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Normal ifade ekle</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Normal ifade</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Normal ifadeyi ekle</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Geçersiz normal ifade</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Tanımlı normal ifade yok.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio, “{0}” veya “{1}” ile işaretlenmiş kopyaları her zaman yok sayar: bunlar parola yöneticilerinin ve diğer uygulamaların hassas verileri pano yöneticilerinden uzak tutmak için kullandığı Windows kurallarıdır.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Kaldır: {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Yürütülebilir dosya adı</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Çalışan uygulama bulunamadı</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” geçerli bir ECMAScript normal ifadesi değil.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Duraklat</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio'yu duraklat</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Tüm yeni kopyaları geçici olarak yok say. Hassas verileri kopyalarken Kleio'nun kayıt yapmasını önlemek için kullanışlıdır.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio'yu duraklat</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Bunu büyük olasılıkla betiklerden kullanacaksınız. Hassas verileri kopyalarken Kleio'yu komut satırından duraklatın:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… verileri kopyala …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, verileri kopyala, ardından kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Yalnızca sonraki kopyalamayı yok saymak için:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… verileri kopyala …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, ardından verileri kopyala</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Kleio'yu duraklatmak veya sürdürmek için bildirim alanı simgesine Alt+tıklama da yapabilirsiniz. Yalnızca sonraki kopyalamayı yok saymak için Alt+Shift+tıklayın.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Temizleme</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Çıkışta geçmişi temizle</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Uygulamadan çıkmadan önce tüm iğnesi çıkarılmış ögeleri kendiliğinden kaldır.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Çıkışta geçmişi temizle</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Sistem panosunu da temizle</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Etkinleştirildiğinde, geçmişin temizlenmesi mevcut sistem panosunu da temizler.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sistem panosunu da temizle</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logosu</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Sürüm {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Windows için pano yöneticisi</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Güncellemeleri denetle</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Güncellemeleri denetle</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Emeği geçenler</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio, Alex Rodionov'un Maccy uygulamasının bir uyarlamasıdır</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy, macOS için hafif bir pano yöneticisidir. Kleio onun özelliklerini ve düzenini Windows 11'e taşır.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy web sitesi</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy web sitesi</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>GitHub'da Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub'da Maccy</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Kaynak kodu</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>GitHub'da sorun bildirin, özellik önerin ve katkıda bulunun.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>GitHub'da Kleio</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>GitHub'da Kleio</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Destek</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Destek: GitHub'da sorun bildir</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Lisans</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio ve Maccy, MIT Lisansı altında yayımlanan özgür yazılımlardır.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
+</root>

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Менеджер буфера обмена для Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Изображение, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Элемент буфера обмена</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Прикреплено</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Выбрано, {0} из {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Очистить всё</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Настройки…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>О Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Открыть Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Приостановить Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Игнорировать следующее копирование</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Завершить Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Остановить стек вставки</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Редактировать элемент</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Пробел</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Начните печатать для поиска…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Поиск в истории буфера обмена</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показать или скрыть предпросмотр</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Стек вставки</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Остановить стек вставки</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Прикреплённые элементы</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>История буфера обмена</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Скопировать извлеченный текст.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Скопировать извлеченный текст</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Редактировать элемент</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Остановить стек вставки</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Приложение:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Очистить неприкреплённые записи.
+Выберите нажав Shift чтобы очистить всё.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Очистить все записи.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Открыть настройки Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Узнать больше о приложении.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Завершить приложение.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Скопируйте что-нибудь, чтобы увидеть это здесь.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Ничего не найдено</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Показать предпросмотр</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Скрыть предпросмотр</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Нажмите {0}, чтобы показать предпросмотр.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Нажмите {0}, чтобы скрыть предпросмотр.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Нажмите {0}, чтобы прикрепить.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Нажмите {0}, чтобы открепить.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Нажмите {0}, чтобы удалить.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Стек вставки · {0} элемент</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Стек вставки · элементов: {0}</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Стек вставки — при каждой вставке в буфер обмена помещается следующий элемент.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Вставлять без форматирования</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Редактировать…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Очистить историю?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Очистить всю историю?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите очистить историю? Прикреплённые элементы сохранятся. Это действие нельзя отменить.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите очистить историю, включая прикреплённые элементы? Это действие нельзя отменить.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Больше не спрашивать</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Клавиша</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Этот текст слишком длинный для редактирования.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Не редактируемое содержимое (изображение или файл)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>При редактировании все форматирование будет удалено.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Размеры: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Время первого копирования: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Время последнего копирования: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Количество копирований: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (приостановлено)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (следующее копирование игнорируется)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (не сохраняет ни один тип)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Доступна новая версия Kleio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Доступна версия Kleio {0}. У вас установлена {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Установить обновление</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Пропустить эту версию</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Примечания к выпуску</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Не удалось установить Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Открыть в установщике приложений</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Установка Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio перезапустится после установки обновления.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Установка обновления</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Загрузка Kleio {0}. Kleio перезапустится после установки обновления.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Не удалось установить обновление</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Установлена последняя версия</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} — последняя версия.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Не удалось проверить обновления</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Опубликованный выпуск Kleio не найден.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Выпуски</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Проверьте подключение к Интернету и повторите попытку.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>В выпуске нет установочного пакета для этого компьютера.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Ошибка загрузки (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Не удалось сохранить загруженный пакет.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Не удалось установить обновление.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} установлен. Завершите и снова откройте Kleio, чтобы использовать новую версию.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio ещё не готов.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Элемент буфера обмена не найден</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>У элемента буфера обмена нет содержимого в формате {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Неизвестная команда</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio не ответил после запуска.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio не отвечает.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Не удалось запустить Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio не понял запрос. Запущена та же версия Kleio?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Элемент слишком большой.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio не смог выполнить команду.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio завершает работу.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Справка по использованию: "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Не удалось отправить команду в Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio не ответил.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio отправил недопустимый ответ.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Ошибка.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Не удалось записать {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Используйте только один из параметров --get, --select, --delete и --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Указано больше одного номера элемента.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Номер элемента должен быть не меньше 1.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Неожиданный аргумент: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format можно использовать только с --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format должен быть одним из: text, html, rtf, image, files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output можно использовать только с --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>Для --output нужен путь к файлу.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected можно использовать только с --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes можно использовать только с --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Неизвестный параметр: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Настройки Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Настройки Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Хранение</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Хранение</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Хранение</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Внешний Вид</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Внешний Вид</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Внешний Вид</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Игнорирование</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Игнорирование</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Игнорирование</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Дополнения</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Дополнения</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Дополнения</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Сочетание клавиш</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Очистить: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Добавьте {0}, {1} или {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Нажмите сочетание клавиш…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Запись. Нажмите сочетание клавиш, Esc — отмена, Backspace — очистить</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Не задано</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Выберите, чтобы записать новое сочетание клавиш. Esc — отмена, Backspace — очистить.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Не задано</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Очистить сочетание клавиш</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Очистить сочетание клавиш</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Запускать при логине</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Автоматически запускать Kleio при входе в Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Запускать при логине</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Запуск при входе отключён Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio отключён в диспетчере задач &gt; Автозагрузка приложений (или Параметры &gt; Приложения &gt; Автозагрузка). Включите его там, чтобы Kleio запускался при входе.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Автоматически проверять обновления</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Раз в день искать новый выпуск Kleio на GitHub и предлагать установить его.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Проверить сейчас</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Проверить обновления сейчас</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Автоматически проверять обновления</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Язык меню, настроек и сообщений Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Как в Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Перезапустите Kleio, чтобы использовать новый язык.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Перезапустить</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Сочетания клавиш</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Открыть Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Глобальная клавиша быстрого доступа для открытия приложения. Повторное нажатие основной клавиши при удерживании модификаторов выберет следующий пункт в списке. В этом режиме, отпустив клавиши-модификаторы, вы подтвердите выбор и закроете всплывающее окно. По умолчанию: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сочетание клавиш для открытия Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Не удалось зарегистрировать сочетание клавиш</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Это сочетание клавиш используется другим приложением. Выберите другое.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Горячая клавиша для прикрепления записи. По умолчанию: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сочетание клавиш для прикрепления</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Горячая клавиша для удаления записи. По умолчанию: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сочетание клавиш для удаления</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Показать предварительный просмотр с дополнительной информацией. По умолчанию: Ctrl+Пробел.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сочетание клавиш для предпросмотра</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Режим поиска</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Как текст, введённый в поле поиска, сопоставляется с элементами истории.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Режим поиска</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Точный</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Неточный</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Регулярные выражения</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Смешанный</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Автоматически вставлять</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Вставлять выбранный элемент в активное приложение, а не только копировать его.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Автоматически вставлять</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Вставлять без форматирования</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Удалять шрифты, цвета и другое форматирование из выбранного элемента.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Вставлять без форматирования</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Настроить поведение при выборе записи:
+• Выберите, зажав {0}, чтобы скопировать запись.
+• Выберите, зажав {1}, чтобы скопировать и вставить запись.
+• Выберите, зажав {2}, чтобы скопировать, очистить форматирование и вставить запись.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Буфер обмена Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>В Windows есть собственная история буфера обмена, которая открывается по Win+V. Kleio может перехватывать это сочетание клавиш, пока работает, не меняя параметры Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Заменить Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Пока Kleio работает, Win+V открывает Kleio вместо истории буфера обмена Windows. Параметры Windows не меняются.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Заменить Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Параметры буфера обмена Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Включите, отключите или очистите историю буфера обмена Windows в разделе Параметры &gt; Система &gt; Буфер обмена.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Открыть параметры буфера обмена Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Уведомления и звуки</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Показывать уведомления</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Показывать уведомление с элементом, когда Kleio копирует элемент или сохраняет новую копию.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать уведомления</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Уведомления отключены в Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Чтобы видеть уведомления, включите их для Kleio в параметрах уведомлений Windows.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Воспроизводить звуки</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Воспроизводить звук, когда Kleio копирует элемент или сохраняет новую копию.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Воспроизводить звуки</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Параметры уведомлений Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Выберите, как отображаются уведомления Kleio, или отключите их в разделе Параметры &gt; Система &gt; Уведомления.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Открыть параметры уведомлений Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Сохранять</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Изменить хранимые типы записей.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Файлы и папки, скопированные в проводнике и других приложениях.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сохранять файлы</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Изображения и снимки экрана.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сохранять изображения</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Обычный текст, форматированный текст и HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сохранять текст</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Количество записей в истории для хранения. По умолчанию: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Текущий размер на диске.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Размер истории</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Сортировать</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Порядок элементов в истории. По умолчанию: Время последнего копирования.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сортировать</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Время последнего копирования</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Время первого копирования</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Количество копирований</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Всплывающее окно</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Всплывать у</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Изменить место для появления всплывающего окна. По умолчанию: Курсор.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сбросить позицию</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Вернуть всплывающее окно в положение по умолчанию</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Сбросить позицию</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Экран</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Всплывать у</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Курсора</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Значок в области уведомлений</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Центра окна</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Центра экрана</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Последнее положение</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Активный экран</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Дисплей {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Дисплей {0} (не подключён)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Прикреплять к</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Изменить место прикрепленных записей. По умолчанию: Верх.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Прикреплять к</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Верху</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Низу</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Высота изображений</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Максимальная высота предпросмотра изображений. По умолчанию: 40. Совет: Поставьте 16 для схожести с текстовыми записями.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Высота изображений</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Открывать предварительный просмотр автоматически</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Через некоторое время показывать предпросмотр с дополнительной информацией о выбранном элементе.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Открывать предварительный просмотр автоматически</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Задержка предварительного просмотра</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Задержка в миллисекундах до появления всплывающего окна предварительного просмотра. По умолчанию: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Задержка предпросмотра в миллисекундах</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Выделить совпадения</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Измените стиль выделения для совпадений при поиске. По умолчанию: Жирный.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Выделить совпадения</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Жирный</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Показывать специальные символы</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Показывать символы новой строки, табуляции, начальные и конечные пробелы с помощью специальных символов.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать специальные символы</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Область уведомлений</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Показывать значок в области уведомлений</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Показывать значок Kleio в области уведомлений панели задач.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать значок в области уведомлений</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Стиль значка в области уведомлений</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Логотип Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Буфер обмена</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Буфер обмена</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Скрепка</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Скрепка</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ножницы</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Ножницы</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Показывать последнюю копию в подсказке значка</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Показывать последнюю копию при наведении на значок в области уведомлений.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать последнюю копию в подсказке значка</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Макет всплывающего окна</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Показывать поле поиска</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Показывать поле поиска всегда или только когда вы начинаете печатать.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать поле поиска</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Видимость поля поиска</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Всегда</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Во время поиска</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Показывать название перед поиском</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Показывать «Kleio» слева от поля поиска.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать название перед поиском</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Показать значки приложений</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Показывать значок приложения, из которого скопирован каждый элемент.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показать значки приложений</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Показывать образец hex-цвета</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Показывать образец цвета рядом с hex-кодами цветов.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать образец hex-цвета</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Показывать нижний колонтитул</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Показывать команды «Очистить», «Настройки», «О Kleio» и «Завершить» внизу всплывающего окна.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показывать нижний колонтитул</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Без нижнего колонтитула откройте настройки из меню значка в области уведомлений или клавишами Ctrl+, во всплывающем окне.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Разделы игнорирования</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Форматы буфера обмена</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Регулярные выражения</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Копии из определённых приложений можно игнорировать. Учтите, что это не всегда надёжно: Windows не сообщает, какое приложение что-то скопировало, поэтому Kleio проверяет приложение, владеющее буфером обмена или находящееся на переднем плане. По возможности используйте форматы буфера обмена.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Игнорировать все приложения, кроме перечисленных</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Сохранять только копии из перечисленных ниже приложений.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Игнорировать все приложения, кроме перечисленных</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Копии из этих приложений не сохраняются.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Добавить запущенное приложение</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Добавить запущенное приложение</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Добавить приложение, выбрав его исполняемый файл</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Добавить приложение…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Игнорируемых приложений нет.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Копии, содержащие любой из этих форматов буфера обмена, не сохраняются. По умолчанию в списке Kleio.Transient; его можно удалить и добавить любые свои форматы.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Чтобы узнать имя формата, скопируйте что-нибудь в приложении и посмотрите буфер обмена в просмотрщике, например NirSoft InsideClipboard. Добавлять можно только зарегистрированные форматы (имена, а не номера).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Добавить формат буфера обмена</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Имя формата, например Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Имя формата буфера обмена</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Добавить формат буфера обмена</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Игнорируемых форматов буфера обмена нет.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Восстановить значения по умолчанию</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Восстановить форматы буфера обмена по умолчанию</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Копии, текст которых соответствует любому из этих регулярных выражений, не сохраняются. Выражения используют синтаксис ECMAScript (JavaScript) и могут совпадать в любом месте текста; используйте ^ и $, чтобы сопоставить весь текст.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Примеры</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 букв или цифр, как у многих ключей API и токенов</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6-значные одноразовые коды</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Номера платёжных карт</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Добавить регулярное выражение</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Регулярное выражение</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Добавить регулярное выражение</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Недопустимое регулярное выражение</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Регулярные выражения не заданы.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio всегда игнорирует копии, помеченные «{0}» или «{1}»: это соглашения Windows, с помощью которых менеджеры паролей и другие приложения скрывают конфиденциальные данные от менеджеров буфера обмена.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Удалить {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Имя исполняемого файла</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Запущенные приложения не найдены</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>«{0}» не является допустимым регулярным выражением ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Приостановить Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Временно игнорировать все новые копии. Полезно, чтобы Kleio ничего не записывал, пока вы копируете конфиденциальные данные.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Приостановить Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Скорее всего, вы будете использовать это в скриптах. Приостановите Kleio из командной строки на время копирования конфиденциальных данных:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… копирование данных …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, копирование данных, затем kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Чтобы игнорировать только следующее копирование:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… копирование данных …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, затем копирование данных</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Также можно щёлкнуть значок в области уведомлений с Alt, чтобы приостановить или возобновить Kleio. Чтобы игнорировать только следующее копирование, щёлкните с Alt+Shift.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Очистка</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Очищать историю при закрытии</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Автоматически удалять все неприкрепленные записи перед закрытием приложения.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Очищать историю при закрытии</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Также очищать системный буфер обмена</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Если этот параметр включен, очистка истории также очистит текущий системный буфер обмена.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Также очищать системный буфер обмена</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Логотип Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Версия {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Менеджер буфера обмена для Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Благодарности</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio — это порт Maccy от Алекса Родионова</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy — лёгкий менеджер буфера обмена для macOS. Kleio переносит его функции и интерфейс в Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Сайт Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сайт Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy на GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy на GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Исходный код</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Сообщайте о проблемах, предлагайте функции и участвуйте в разработке на GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio на GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio на GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Поддержка: сообщить о проблеме на GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio и Maccy — свободное программное обеспечение под лицензией MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Лицензия MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Лицензия MIT</value>
+  </data>
+</root>

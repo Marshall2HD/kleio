@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Vágólapkezelő Windowshoz</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Kép</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Kép, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Fájlok</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Vágólapelem</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Kitűzve</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Kijelölve, {0} / {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Kitűzés megszüntetése</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Összes törlése</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Beállítások…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>A Kleio névjegye</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Kleio megnyitása</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Kleio szüneteltetése</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Következő másolás mellőzése</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Kilépés a Kleióból</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Beillesztési verem leállítása</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Elem szerkesztése</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Szóköz</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Le</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Balra</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Jobbra</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Írj a kereséshez…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Keresés a vágólap előzményeiben</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előnézet megjelenítése vagy elrejtése</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Beillesztési verem</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Beillesztési verem leállítása</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kitűzött elemek</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vágólapelőzmények</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kinyert szöveg másolása.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kinyert szöveg másolása</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Elem szerkesztése</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Beillesztési verem leállítása</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Alkalmazás:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Rögzítettlen elemek törlése
+Válassz a Shift-el az összes törléséhez.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Minden elem törlése.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>A Kleio beállításainak megnyitása.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Tudj meg többet az alkalmazásról.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Alkalmazás bezárása.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Másolj valamit, hogy itt lásd.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Nincs találat</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Előnézet megjelenítése</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Előnézet elrejtése</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Nyomja meg a {0} gombot az előnézet megjelenítéséhez.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Nyomja meg a {0} gombot az előnézet elrejtéséhez.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Nyomd meg a {0} gombokat a kitűzéshez.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Nyomd meg a {0} gombokat a kitűzés levételéhez.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Nyomd meg a {0} gombokat a törléshez.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Beillesztési verem · {0} elem</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Beillesztési verem · {0} elem</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Beillesztési verem — minden beillesztés a következő elemet teszi a vágólapra.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Másolás</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Beillesztés</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Beillesztés formázások nélkül</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Szerkesztés…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Törlöd az előzményeket?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Törlöd az összes előzményt?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Biztosan törölni szeretnéd az előzményeket? A kitűzött elemek megmaradnak. Ez a művelet nem vonható vissza.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Biztosan törölni szeretnéd az előzményeket a kitűzött elemekkel együtt? Ez a művelet nem vonható vissza.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Ne kérdezze újra</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Gomb</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Tartalom</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Ez a szöveg túl hosszú a szerkesztéshez.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Nem szerkeszthető tartalom (kép vagy fájl)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>A szerkesztés elveti az összes formázást.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Méretek: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Első másolás ideje: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Utolsó másolás ideje: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Másolások száma: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (szüneteltetve)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (a következő másolást mellőzi)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (egyetlen típust sem tárol)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Elérhető a Kleio új verziója!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Elérhető a Kleio {0}. A te verziód: {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Frissítés telepítése</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Verzió kihagyása</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Kiadási megjegyzések</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Nem sikerült telepíteni: Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Megnyitás az Alkalmazástelepítőben</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Telepítés: Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>A Kleio a frissítés telepítése után újraindul.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Frissítés telepítése</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Letöltés: Kleio {0}. A Kleio a frissítés telepítése után újraindul.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Nem sikerült telepíteni a frissítést</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Frissítés érhető el</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>A Kleio naprakész</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>A Kleio {0} a legújabb verzió.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Nem sikerült frissítéseket keresni</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Nem található közzétett Kleio-kiadás.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Kiadások</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Ellenőrizd az internetkapcsolatot, és próbáld újra.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>A kiadásban nincs telepítőcsomag ehhez a géphez.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>A letöltés nem sikerült (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Nem sikerült menteni a letöltött csomagot.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>A frissítést nem sikerült telepíteni.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>A Kleio {0} telepítve. Lépj ki, majd nyisd meg újra a Kleiót a használatához.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>A Kleio még nem áll készen.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>A vágólapelem nem található</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>A vágólapelemnek nincs {0} formátumú tartalma</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Megszakítva</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Ismeretlen parancs</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>A Kleio nem válaszolt az indítás után.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>A Kleio nem válaszol.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Nem sikerült elindítani a Kleiót.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>A Kleio nem értette a kérést. Ugyanaz a Kleio-verzió fut?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Az elem túl nagy.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>A Kleio nem tudta végrehajtani a parancsot.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>A Kleio kilép.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} A használathoz futtasd: "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Nem sikerült elküldeni a parancsot a Kleiónak.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>A Kleio nem válaszolt.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>A Kleio érvénytelen választ küldött.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Sikertelen.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Nem sikerült írni: {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>A --get, --select, --delete és --clear közül csak egyet használj.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Több elemszám is meg lett adva.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Az elemszámnak legalább 1-nek kell lennie.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Váratlan argumentum: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>A --format csak a --get kapcsolóval használható.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>A --format értéke text, html, rtf, image vagy files lehet.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>Az --output csak a --get kapcsolóval használható.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>Az --output kapcsolóhoz fájlútvonal kell.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>A --selected csak a --get kapcsolóval használható.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>A --yes csak a --clear kapcsolóval használható.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Ismeretlen kapcsoló: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio beállításai</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio beállításai</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Tárhely</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tárhely</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Tárhely</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Mellőzés</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mellőzés</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Mellőzés</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Haladó</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Haladó</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Haladó</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Billentyűparancs</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Törlés: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Használj {0}, {1} vagy {2} billentyűt is</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Nyomj meg egy billentyűparancsot…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Rögzítés. Nyomj meg egy billentyűparancsot, Esc: mégse, Backspace: törlés</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Nincs beállítva</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Válaszd ki új billentyűparancs rögzítéséhez. Esc: mégse, Backspace: törlés.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Nincs beállítva</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Billentyűparancs törlése</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Billentyűparancs törlése</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Indítás a bejelentkezéssel együtt</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>A Kleio automatikus indítása, amikor bejelentkezel a Windowsba.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Indítás a bejelentkezéssel együtt</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>A Windows kikapcsolta az indítást bejelentkezéskor</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>A Kleio le van tiltva a Feladatkezelő &gt; Indítási alkalmazások (vagy a Beállítások &gt; Alkalmazások &gt; Indítás) helyen. Kapcsold be ott, hogy a Kleio bejelentkezéskor elinduljon.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Frissítések automatikus keresése</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Naponta egyszer újabb Kleio-kiadás keresése a GitHubon, és telepítés felajánlása.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Ellenőrzés most</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frissítések keresése most</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frissítések automatikus keresése</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>A Kleio menüinek, beállításainak és üzeneteinek nyelve.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>A Windows alapértelmezése</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Indítsd újra a Kleiót az új nyelv használatához.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Újraindítás most</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Billentyűparancsok</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Kleio megnyitása</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Globális gyorsbillentyű az alkalmazás megnyitásához. A fő billentyű ismételt lenyomása a módosítók lenyomva tartása mellett a következő elemet választja ki a listában. Ebben az üzemmódban a módosító billentyűk elengedése megerősíti a kiválasztást és bezárja a felugró ablakot. Egyértelmezett: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>A Kleio megnyitásának billentyűparancsa</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Nem sikerült regisztrálni a billentyűparancsot</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Ezt a billentyűparancsot egy másik alkalmazás használja. Válassz másikat.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Gyorsbillentyű az előzmény elem kitűzéséhez. Alapértelmezett: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kitűzés billentyűparancsa</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Gyorsbillentyű az előzmény elem törléséhez. Alapértelmezett: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Törlés billentyűparancsa</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Előnézet</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Előnézet megjelenítése további információkkal. Alapértelmezett: Ctrl+Szóköz.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előnézet billentyűparancsa</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Keresési mód</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Hogyan vessük össze a keresőmezőbe írt szöveget az előzmények elemeivel.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Keresési mód</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Egyező</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Hasonló</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Reguláris kifejezés</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Kevert</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Viselkedés</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Automatikus beillesztés</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>A kiválasztott elem beillesztése az aktív alkalmazásba ahelyett, hogy csak másolnánk.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Automatikus beillesztés</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Beillesztés formázások nélkül</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Betűtípusok, színek és egyéb formázások eltávolítása a kiválasztott elemből.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Beillesztés formázások nélkül</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Viselkedés testreszabása az elem kiválasztásakor:
+• Tartsd nyomva a {0} gombot és válaszd ki az elemet a másoláshoz.
+• Tartsd nyomva a {1} gombot és válaszd ki az elemet a másoláshoz es a beillesztéshez.
+• Tartsd nyomva a {2} gombot és válaszd ki az elemet a másoláshoz, a formázások törléséhez és a beillesztéshez.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows vágólap</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>A Windowsnak saját vágólapelőzményei vannak, amelyek a Win+V billentyűkkel nyílnak meg. A Kleio futás közben átveheti ezt a billentyűparancsot anélkül, hogy bármilyen Windows-beállítást módosítana.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Win+V lecserélése</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Amíg a Kleio fut, a Win+V a Kleiót nyitja meg a Windows vágólapelőzményei helyett. A Windows beállításai nem módosulnak.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+V lecserélése</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows vágólap-beállításai</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>A Windows vágólapelőzményeinek be- vagy kikapcsolása, illetve törlése a Beállítások &gt; Rendszer &gt; Vágólap helyen.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>A Windows vágólap-beállításainak megnyitása</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Megnyitás</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Értesítések és hangok</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Értesítések megjelenítése</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Értesítés megjelenítése az elemmel, amikor a Kleio másol egy elemet vagy új másolatot ment.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Értesítések megjelenítése</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Az értesítések ki vannak kapcsolva a Windowsban</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Kapcsold be a Kleio értesítéseit a Windows értesítési beállításaiban, hogy lásd őket.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Hangok lejátszása</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Hang lejátszása, amikor a Kleio másol egy elemet vagy új másolatot ment.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hangok lejátszása</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows értesítési beállításai</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Válaszd ki, hogyan jelenjenek meg a Kleio értesítései, vagy kapcsold ki őket a Beállítások &gt; Rendszer &gt; Értesítések helyen.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>A Windows értesítési beállításainak megnyitása</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Megnyitás</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Válaszd ki, milyen típusú másolt tartalom legyen tárolva.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Fájlok</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>A Fájlkezelőben és más alkalmazásokban másolt fájlok és mappák.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fájlok mentése</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Képek</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Képek és képernyőképek.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Képek mentése</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Szöveg</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Egyszerű szöveg, formázott szöveg és HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Szöveg mentése</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Előzmények</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Méret</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>A megtartott előzmények száma. Alapértelmezett: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Jelenlegi méret a lemezen.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előzmények mérete</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Rendezés</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Az elemek sorrendje az előzményekben. Alapértelmezett: Utolsó másolás ideje.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rendezés</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Utolsó másolás ideje</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Első másolás ideje</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Másolások száma</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Felugró ablak</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Felugrás helye</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Változtasd meg a felugrás helyét. Alapértelmezett: Kurzor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pozíció visszaállítása</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>A felugró ablak visszahelyezése az alapértelmezett helyére</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Pozíció visszaállítása</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Képernyő</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Felugrás helye</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Kurzor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Értesítési terület ikonja</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Ablak közepe</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Képernyő közepe</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Legutóbbi pozíció</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktív képernyő</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>{0}. kijelző</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>{0}. kijelző (nincs csatlakoztatva)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Változtasd meg a kitűzött elemek helyét. Alapértelmezett: Fent.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Fent</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Kép magassága</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Az előnézeti kép maximum magassága. Alapértelmezett: 40. Tipp: Allítsd 16-ra, hogy akkora legyen, mint a szövegek.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kép magassága</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Előnézet automatikus megnyitása</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Késleltetés után előnézet megjelenítése a kiválasztott elem további adataival.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előnézet automatikus megnyitása</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Előnézet késleltetése</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>A késleltetés milliszekundumokban mielőtt a felugró előnézet megjelenik. Alapértelmezett: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előnézet késleltetése ezredmásodpercben</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Egyezések kiemelése</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Változtasd meg a keresési találatok kiemelésének a stílusát. Alapértelmezett: Vastag.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Egyezések kiemelése</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Vastag</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Dőlt</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Aláhúzott</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Szín</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Nincs</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Speciális karakterek megjelenítése</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Az újsorok, tabulátorok, kezdő és záró szóközök megjelenítése speciális szimbólumokkal.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Speciális karakterek megjelenítése</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Értesítési terület</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Ikon megjelenítése az értesítési területen</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>A Kleio ikonjának megjelenítése a tálca értesítési területén.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ikon megjelenítése az értesítési területen</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Az értesítési területen lévő ikon stílusa</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio embléma</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vágólap</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Vágólap</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gemkapocs</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Gemkapocs</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Olló</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Olló</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Legutóbbi másolat megjelenítése az ikon elemleírásában</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>A legutóbbi másolat megjelenítése, amikor az értesítési terület ikonjára mutatsz.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Legutóbbi másolat megjelenítése az ikon elemleírásában</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Felugró ablak elrendezése</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Keresőmező megjelenítése</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>A keresőmező megjelenítése mindig, vagy csak ha elkezdesz gépelni.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Keresőmező megjelenítése</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Keresőmező láthatósága</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Mindig</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>A keresés során</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Cím megjelenítése a keresőmező előtt</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>„Kleio” megjelenítése a keresőmezőtől balra.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cím megjelenítése a keresőmező előtt</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Alkalmazás ikonok megjelenítése</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Annak az alkalmazásnak az ikonja, amelyből az elemet másoltad.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alkalmazás ikonok megjelenítése</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Hex színminta megjelenítése</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Színminta megjelenítése a hex színkódok mellett.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hex színminta megjelenítése</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Lábléc megjelenítése</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>A Törlés, Beállítások, Névjegy és Bezárás parancsok megjelenítése a felugró ablak alján.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lábléc megjelenítése</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Lábléc nélkül a beállításokat az értesítési terület ikonjának menüjéből vagy a felugró ablakban a Ctrl+, billentyűkkel nyithatod meg.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mellőzési szakaszok</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Alkalmazások</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Vágólapformátumok</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Reguláris kifejezés</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Bizonyos alkalmazásokból származó másolatok mellőzhetők. Ez nem tökéletesen megbízható: a Windows nem árulja el, melyik alkalmazás másolt valamit, ezért a Kleio a vágólap tulajdonosát vagy az előtérben lévő alkalmazást ellenőrzi. Ha lehet, inkább vágólapformátumokat használj.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Az összes alkalmazás figyelmen kívül hagyása kivéve a listázottakat</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Csak az alább felsorolt alkalmazásokban készült másolatok mentése.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Az összes alkalmazás figyelmen kívül hagyása kivéve a listázottakat</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Alkalmazások</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Az ezekben az alkalmazásokban készült másolatok nem lesznek mentve.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Futó alkalmazás hozzáadása</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Futó alkalmazás hozzáadása</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alkalmazás hozzáadása a programfájl kiválasztásával</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Alkalmazás hozzáadása…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Nincs mellőzött alkalmazás.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Az ilyen vágólapformátumokat tartalmazó másolatok nem lesznek mentve. Alapértelmezés szerint a Kleio.Transient szerepel a listán; eltávolíthatod, és bármilyen saját formátumot hozzáadhatsz.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Egy formátum nevének megtalálásához másolj valamit az alkalmazásban, és nézd meg a vágólapot egy megjelenítővel, például a NirSoft InsideClipboard programmal. Csak regisztrált formátumok (nevek, nem számok) adhatók meg.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Vágólapformátum hozzáadása</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Formátum neve, pl. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vágólapformátum neve</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Hozzáadás</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vágólapformátum hozzáadása</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Nincs mellőzött vágólapformátum.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Alapértékek visszaállítása</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Alapértelmezett vágólapformátumok visszaállítása</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Azok a másolatok, amelyek szövege illeszkedik valamelyik reguláris kifejezésre, nem lesznek mentve. A kifejezések ECMAScript (JavaScript) szintaxist használnak, és a szöveg bármely részére illeszkedhetnek; a teljes szövegre ^ és $ használatával illeszthetsz.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Példák</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 betű vagy számjegy, mint sok API-kulcs és token</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6 jegyű egyszer használatos kódok</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Bankkártyaszámok</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Reguláris kifejezés hozzáadása</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguláris kifejezés</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Hozzáadás</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguláris kifejezés hozzáadása</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Érvénytelen reguláris kifejezés</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Nincsenek megadott reguláris kifejezések.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>A Kleio mindig mellőzi a „{0}” vagy „{1}” jelöléssel ellátott másolatokat: ezek azok a Windows-konvenciók, amelyekkel a jelszókezelők és más alkalmazások távol tartják a bizalmas adatokat a vágólapkezelőktől.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Eltávolítás</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Eltávolítás: {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Végrehajtható fájl neve</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Nem található futó alkalmazás</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}” nem érvényes ECMAScript reguláris kifejezés.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Szüneteltetés</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Kleio szüneteltetése</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Minden új másolat ideiglenes mellőzése. Hasznos, hogy a Kleio ne rögzítsen semmit, amíg bizalmas adatokat másolsz.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio szüneteltetése</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Valószínűleg szkriptekből fogod használni. Szüneteltesd a Kleiót a parancssorból, amíg bizalmas adatokat másolsz:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… adatok másolása …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, adatok másolása, majd kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Csak a következő másolás mellőzéséhez:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… adatok másolása …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, majd adatok másolása</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>A Kleiót az értesítési terület ikonjára Alt+kattintással is szüneteltetheted vagy folytathatod. Csak a következő másolás mellőzéséhez kattints Alt+Shift lenyomásával.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Előzmények törlése kilépésnél</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Az összes kitűzetlen elem automatikus törlése mielőtt az alkalmazás bezáródik.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Előzmények törlése kilépésnél</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>A rendszer vágólapjának is a törlése</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Ha be van kapcsolva, az előzmények törlésével a rendszer aktuális vágólapját is törli.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>A rendszer vágólapjának is a törlése</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio embléma</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Verzió: {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Vágólapkezelő Windowshoz</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Frissítések keresése</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Frissítések keresése</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Köszönetnyilvánítás</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>A Kleio Alex Rodionov Maccy alkalmazásának átirata</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>A Maccy egy könnyű vágólapkezelő macOS-re. A Kleio a funkcióit és az elrendezését hozza el Windows 11-re.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>A Maccy webhelye</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>A Maccy webhelye</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy a GitHubon</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy a GitHubon</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Forráskód</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Jelents hibákat, javasolj funkciókat, és működj közre a GitHubon.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio a GitHubon</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio a GitHubon</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Támogatás: hiba jelentése a GitHubon</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licenc</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>A Kleio és a Maccy MIT-licenc alatt kiadott szabad szoftver.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT-licenc</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT-licenc</value>
+  </data>
+</root>

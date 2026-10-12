@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>مدیر کلیپ‌بورد برای Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>، </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>تصویر</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>تصویر، {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>فایل‌ها</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>مورد کلیپ‌بورد</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>سنجاق‌شده</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>انتخاب‌شده، {0} از {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>سنجاق کردن</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>برداشتن سنجاق</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>پاک کردن همه</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>تنظیمات…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>درباره Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>باز کردن Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>توقف موقت Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>نادیده گرفتن کپی بعدی</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>خروج از Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>توقف پشتهٔ جای‌گذاری</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>ویرایش مورد</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>فاصله</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>پایین</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>چپ</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>راست</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>جستجو کنید…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>جستجو در تاریخچه کلیپ‌بورد</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش یا پنهان کردن پیش‌نمایش</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>پشتهٔ جای‌گذاری</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>توقف پشتهٔ جای‌گذاری</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>موارد سنجاق‌شده</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>تاریخچه کلیپ‌بورد</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>متن استخراج‌شده را کپی کنید.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>متن استخراج‌شده را کپی کنید</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>سنجاق کردن</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ویرایش مورد</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>توقف پشتهٔ جای‌گذاری</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>اپلیکیشن:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>پاک کردن موارد سنجاق نشده
+برای پاک کردن همه Shift را نگه دارید.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>پاک کردن همه ی موارد</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>باز کردن تنظیمات Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>اطلاعات بیشتری دربارهٔ برنامه بخوانید.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>خروج از برنامه.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>چیزی کپی کنید تا اینجا نمایش داده شود.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>نتیجه‌ای یافت نشد</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>نمایش پیش‌نمایش</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>پنهان کردن پیش‌نمایش</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>برای نمایش پیش‌نمایش، کلید {0} را فشار دهید.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>برای پنهان کردن پیش‌نمایش، کلید {0} را فشار دهید.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>برای سنجاق کردن، کلید {0} را فشار دهید.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>برای برداشتن سنجاق، کلید {0} را فشار دهید.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>برای حذف، کلید {0} را فشار دهید.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>پشتهٔ جای‌گذاری · {0} مورد</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>پشتهٔ جای‌گذاری · {0} مورد</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>پشتهٔ جای‌گذاری — هر بار جای‌گذاری، مورد بعدی را در کلیپ‌بورد قرار می‌دهد.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>کپی</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>جای‌گذاری</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>چسباندن بدون قالب‌بندی</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>ویرایش…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>تاریخچه پاک شود؟</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>همه تاریخچه پاک شود؟</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>آیا مطمئن هستید که می‌خواهید تاریخچه را پاک کنید؟ موارد سنجاق‌شده حفظ می‌شوند. این کار قابل بازگشت نیست.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>آیا مطمئن هستید که می‌خواهید تاریخچه را همراه با موارد سنجاق‌شده پاک کنید؟ این کار قابل بازگشت نیست.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>دیگر نپرس</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>کلید</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>محتوا</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>این متن برای ویرایش بیش از حد طولانی است.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>محتوای غیرقابل ویرایش(عکس یا فایل)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>ویرایش باعث دور انداختن همه فرمت‌ها می‌شود.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>ابعاد: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>زمان اولین کپی: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>آخرین زمان کپی: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>تعداد کپی‌ها: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (مکث‌شده)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (کپی بعدی نادیده گرفته می‌شود)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (هیچ نوعی ذخیره نمی‌شود)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>نسخه جدیدی از Kleio در دسترس است!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} اکنون در دسترس است. نسخه شما {1} است.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>نصب به‌روزرسانی</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>رد کردن این نسخه</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>بارگیری</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>یادداشت‌های انتشار</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>نصب Kleio {0} ممکن نشد</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>باز کردن در نصب‌کننده برنامه</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>در حال نصب Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>پس از نصب به‌روزرسانی، Kleio دوباره راه‌اندازی می‌شود.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>در حال نصب به‌روزرسانی</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>در حال بارگیری Kleio {0}. پس از نصب به‌روزرسانی، Kleio دوباره راه‌اندازی می‌شود.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>نصب به‌روزرسانی ممکن نشد</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>به‌روزرسانی در دسترس است</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio به‌روز است</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} جدیدترین نسخه است.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>بررسی به‌روزرسانی‌ها ممکن نشد</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>هیچ نسخه منتشرشده‌ای از Kleio یافت نشد.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>نسخه‌ها</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>اتصال اینترنت را بررسی کنید و دوباره امتحان کنید.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>این نسخه بسته نصبی برای این رایانه ندارد.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>بارگیری ناموفق بود (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>ذخیره بسته بارگیری‌شده ممکن نشد.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>به‌روزرسانی نصب نشد.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} نصب شد. برای استفاده، از Kleio خارج شوید و دوباره آن را باز کنید.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio هنوز آماده نیست.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>مورد کلیپ‌بورد یافت نشد</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>مورد کلیپ‌بورد محتوای {0} ندارد</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>لغو شد</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>فرمان ناشناخته</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio پس از راه‌اندازی پاسخ نداد.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio پاسخ نمی‌دهد.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>راه‌اندازی Kleio ممکن نشد.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio درخواست را متوجه نشد. آیا Kleio در حال اجرا همان نسخه است؟</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>مورد خیلی بزرگ است.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio نتوانست فرمان را اجرا کند.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio در حال خروج است.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} برای راهنمای استفاده "kleio --help" را اجرا کنید.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>ارسال فرمان به Kleio ممکن نشد.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio پاسخ نداد.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio پاسخ نامعتبری فرستاد.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>ناموفق.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>نوشتن {0} ممکن نشد.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>فقط یکی از --get، --select، --delete و --clear را به کار ببرید.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>بیش از یک شماره مورد داده شده است.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>شماره مورد باید 1 یا بیشتر باشد.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>آرگومان غیرمنتظره: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>‏--format فقط با --get قابل استفاده است.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>‏--format باید یکی از text، html، rtf، image یا files باشد.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>‏--output فقط با --get قابل استفاده است.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>‏--output به مسیر پرونده نیاز دارد.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>‏--selected فقط با --get قابل استفاده است.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>‏--yes فقط با --clear قابل استفاده است.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>گزینه ناشناخته: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>تنظیمات Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>تنظیمات Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>حافظه</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>حافظه</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>حافظه</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>ظاهر</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ظاهر</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>ظاهر</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>نادیده گرفتن</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نادیده گرفتن</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>نادیده گرفتن</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>میان‌بر</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>پاک کردن {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>{0}، {1} یا {2} را هم به کار ببرید</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>یک میان‌بر را فشار دهید…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>در حال ضبط. یک میان‌بر را فشار دهید، Esc برای لغو، Backspace برای پاک کردن</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>تنظیم نشده</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>برای ضبط میان‌بر جدید انتخاب کنید. Esc لغو می‌کند، Backspace پاک می‌کند.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>تنظیم نشده</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>پاک کردن میان‌بر</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>پاک کردن میان‌بر</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>باز شدن هنگام ورود</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>هنگام ورود به Windows، ‏Kleio به‌طور خودکار اجرا شود.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>باز شدن هنگام ورود</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows باز شدن هنگام ورود را خاموش کرده است</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio در مدیر وظیفه &gt; برنامه‌های راه‌اندازی (یا تنظیمات &gt; برنامه‌ها &gt; راه‌اندازی) غیرفعال شده است. برای اجرای Kleio هنگام ورود، آن را در آنجا روشن کنید.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>بررسی خودکار به روز رسانی</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>روزی یک بار در GitHub به دنبال نسخه جدیدتر Kleio بگرد و نصب آن را پیشنهاد کن.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>بررسی کن</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بررسی به‌روزرسانی‌ها همین حالا</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بررسی خودکار به روز رسانی</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>زبان منوها، تنظیمات و پیام‌های Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>پیش‌فرض Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>برای استفاده از زبان جدید، Kleio را دوباره راه‌اندازی کنید.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>راه‌اندازی دوباره اکنون</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>میان‌برها</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>باز کردن Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>میانبر سراسری برای باز کردن برنامه. با نگه داشتن کلیدهای تغییر (modifiers) و فشار دادن دوباره کلید اصلی، مورد بعدی در فهرست انتخاب می‌شود. در این حالت، رها کردن کلیدهای تغییر، انتخاب را تأیید کرده و پنجرهٔ بازشو را می‌بندد. مقدار پیش‌فرض: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>میان‌بر باز کردن Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>ثبت میان‌بر ممکن نشد</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>این میان‌بر را برنامه دیگری استفاده می‌کند. میان‌بر دیگری انتخاب کنید.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>سنجاق</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>میانبر برای سنجاق کردن مورد تاریخچه. مقدار پیش‌فرض: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>میان‌بر سنجاق کردن</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>میانبر برای حذف مورد تاریخچه. مقدار پیش‌فرض: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>میان‌بر حذف</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>پیش‌نمایش</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>نمایش پیش‌نمایش با اطلاعات اضافی. مقدار پیش‌فرض: Ctrl+فاصله.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>میان‌بر پیش‌نمایش</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>حالت جستجو</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>اینکه متن واردشده در کادر جستجو چگونه با موارد تاریخچه تطبیق داده می‌شود.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>حالت جستجو</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>دقیق</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>تقریبی</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>عبارات منظم</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>ترکیبی</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>رفتار</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>چسباندن خودکار</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>مورد انتخاب‌شده به‌جای فقط کپی شدن، در برنامه فعال جای‌گذاری شود.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>چسباندن خودکار</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>چسباندن بدون قالب‌بندی</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>قلم‌ها، رنگ‌ها و قالب‌بندی‌های دیگر از مورد انتخاب‌شده حذف شوند.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>چسباندن بدون قالب‌بندی</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>رفتار هنگام انتخاب مورد را سفارشی کنید:
+• با نگه داشتن {0} انتخاب کنید تا مورد کپی شود.
+• با نگه داشتن {1} انتخاب کنید تا مورد کپی و جای‌گذاری شود.
+• با نگه داشتن {2} انتخاب کنید تا مورد کپی، قالب‌بندی آن پاک و جای‌گذاری شود.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>کلیپ‌بورد Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows تاریخچه کلیپ‌بورد خودش را دارد که با Win+V باز می‌شود. ‏Kleio می‌تواند تا وقتی در حال اجراست این میان‌بر را در اختیار بگیرد، بدون اینکه تنظیمی از Windows را تغییر دهد.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>جایگزینی Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>تا وقتی Kleio در حال اجراست، ‏Win+V به‌جای تاریخچه کلیپ‌بورد Windows، ‏Kleio را باز می‌کند. تنظیمات Windows تغییر نمی‌کند.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>جایگزینی Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>تنظیمات کلیپ‌بورد Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>تاریخچه کلیپ‌بورد Windows را در تنظیمات &gt; سیستم &gt; کلیپ‌بورد روشن، خاموش یا پاک کنید.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>باز کردن تنظیمات کلیپ‌بورد Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>باز کردن</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>اعلان‌ها و صداها</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>نمایش اعلان‌ها</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>وقتی Kleio موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، اعلانی همراه با آن مورد نمایش داده شود.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش اعلان‌ها</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>اعلان‌ها در Windows خاموش هستند</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>برای دیدن اعلان‌ها، اعلان‌های Kleio را در تنظیمات اعلان Windows روشن کنید.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>پخش صدا</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>وقتی Kleio موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، صدایی پخش شود.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>پخش صدا</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>تنظیمات اعلان Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>نحوه نمایش اعلان‌های Kleio را در تنظیمات &gt; سیستم &gt; اعلان‌ها انتخاب یا آن‌ها را خاموش کنید.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>باز کردن تنظیمات اعلان Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>باز کردن</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>تعیین کنید کدام نوع از محتوای کپی‌شده باید ذخیره شود.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>فایل‌ها</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>پرونده‌ها و پوشه‌هایی که در File Explorer و برنامه‌های دیگر کپی شده‌اند.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ذخیره پرونده‌ها</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>تصاویر</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>تصاویر و نماگرفت‌ها.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ذخیره تصاویر</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>متن</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>متن ساده، متن قالب‌دار و HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ذخیره متن</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>تاریخچه</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>اندازه</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>تعداد موارد تاریخچه که نگه داشته می‌شوند. پیش‌فرض: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>اندازه فعلی روی دیسک.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>اندازه تاریخچه</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>مرتب‌سازی بر اساس</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>ترتیب موارد در تاریخچه. پیش‌فرض: زمان آخرین کپی.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مرتب‌سازی بر اساس</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>زمان آخرین کپی</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>زمان اولین کپی</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>تعداد کپی‌ها</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>پنجره بازشو</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>مکان باز شدن پنجره</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>محل نمایش پنجره را تغییر دهید. پیش‌فرض: مکان‌نما.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بازنشانی مکان</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>بازگرداندن پنجره بازشو به مکان پیش‌فرض</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>بازنشانی مکان</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>صفحه‌نمایش</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مکان باز شدن پنجره</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>مکان‌نما (Cursor)</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>نماد ناحیه اعلان</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>مرکز پنجره</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>مرکز صفحه نمایش</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>آخرین مکان</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>صفحه‌نمایش فعال</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>نمایشگر {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>نمایشگر {0} (متصل نیست)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>سنجاق کردن در</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>مکان موارد سنجاق‌شده را تغییر دهید. پیش‌فرض: بالا.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>سنجاق کردن در</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>پایین</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>ارتفاع تصویر</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>حداکثر ارتفاع پیش‌نمایش تصویر. پیش‌فرض: 40. نکته: برای شبیه شدن به موارد متنی آن را 16 بگذارید.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ارتفاع تصویر</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>باز کردن خودکار پیش‌نمایش</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>پس از کمی تأخیر، پیش‌نمایشی با اطلاعات بیشتر درباره مورد انتخاب‌شده نمایش داده شود.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>باز کردن خودکار پیش‌نمایش</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>تأخیر پیش‌نمایش</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>تأخیر به میلی‌ثانیه تا نمایش پیش‌نمایش. پیش‌فرض: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>تأخیر پیش‌نمایش به میلی‌ثانیه</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>برجسته کردن موارد منطبق</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>سبک برجسته کردن نتایج جستجو را تغییر دهید. پیش‌فرض: پررنگ.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>برجسته کردن موارد منطبق</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>پررنگ</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>کج</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>زیرخط</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>هیچ‌کدام</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>نمایش نمادهای ویژه</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>نمایش خطوط جدید، تب‌ها و فاصله‌های ابتدا و انتها با نمادهای ویژه.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش نمادهای ویژه</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>ناحیه اعلان</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>نمایش نماد در ناحیه اعلان</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>نماد Kleio در ناحیه اعلان نوار وظیفه نمایش داده شود.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش نماد در ناحیه اعلان</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>سبک نماد ناحیه اعلان</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نشان Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>کلیپ‌بورد</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>کلیپ‌بورد</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>گیره کاغذ</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>گیره کاغذ</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>قیچی</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>قیچی</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>نمایش آخرین کپی در راهنمای ابزار نماد</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>وقتی روی نماد ناحیه اعلان اشاره می‌کنید، آخرین کپی نمایش داده شود.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش آخرین کپی در راهنمای ابزار نماد</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>چیدمان پنجره بازشو</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>نمایش کادر جستجو</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>کادر جستجو همیشه نمایش داده شود، یا فقط وقتی شروع به تایپ می‌کنید.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش کادر جستجو</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش کادر جستجو</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>همیشه</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>هنگام جستجو</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>نمایش عنوان پیش از کادر جستجو</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>نمایش «Kleio» کنار کادر جستجو.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش عنوان پیش از کادر جستجو</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>نمایش نماد برنامه‌ها</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>نماد برنامه‌ای که هر مورد از آن کپی شده است نمایش داده شود.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش نماد برنامه‌ها</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>نمایش نمونه رنگ هگزادسیمال</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>نمایش نمونه رنگ در کنار کدهای رنگ هگزادسیمال.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش نمونه رنگ هگزادسیمال</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>نمایش پانویس</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>نمایش فرمان‌های پاک کردن، تنظیمات، درباره و خروج در پایین پنجره بازشو.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نمایش پانویس</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>بدون پانویس، تنظیمات را از منوی نماد ناحیه اعلان یا با Ctrl+, در پنجره بازشو باز کنید.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بخش‌های نادیده گرفتن</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>اپلیکیشن</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>قالب‌های کلیپ‌بورد</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>عبارات منظم</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>می‌توان کپی‌های برخی برنامه‌ها را نادیده گرفت. توجه کنید که این روش بی‌نقص نیست: Windows نمی‌گوید کدام برنامه چیزی را کپی کرده است، پس Kleio برنامه‌ای را بررسی می‌کند که مالک کلیپ‌بورد است یا در پیش‌زمینه قرار دارد. در صورت امکان از قالب‌های کلیپ‌بورد استفاده کنید.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>تمام برنامه‌ها را نادیده بگیر، مگر آن‌هایی که در لیست هستند</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>فقط کپی‌های برنامه‌های فهرست‌شده در زیر ذخیره شوند.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>تمام برنامه‌ها را نادیده بگیر، مگر آن‌هایی که در لیست هستند</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>اپلیکیشن</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>کپی‌های این برنامه‌ها ذخیره نمی‌شوند.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>افزودن برنامه در حال اجرا</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>افزودن برنامه در حال اجرا</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>افزودن برنامه با انتخاب پرونده اجرایی آن</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>افزودن برنامه…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>هیچ برنامه‌ای نادیده گرفته نمی‌شود.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>کپی‌هایی که هر یک از این قالب‌های کلیپ‌بورد را داشته باشند ذخیره نمی‌شوند. به‌طور پیش‌فرض Kleio.Transient در فهرست است؛ می‌توانید آن را حذف کنید و هر قالب دلخواهی اضافه کنید.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>برای یافتن نام یک قالب، چیزی را در برنامه کپی کنید و کلیپ‌بورد را با نمایشگری مانند NirSoft InsideClipboard بررسی کنید. فقط قالب‌های ثبت‌شده (نام، نه شماره) قابل افزودن هستند.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>افزودن قالب کلیپ‌بورد</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>نام قالب، مثلاً Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نام قالب کلیپ‌بورد</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>افزودن قالب کلیپ‌بورد</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>هیچ قالب کلیپ‌بوردی نادیده گرفته نمی‌شود.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>بازنشانی به پیش‌فرض</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بازنشانی قالب‌های کلیپ‌بورد به پیش‌فرض</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>کپی‌هایی که متنشان با هر یک از این عبارت‌های باقاعده منطبق باشد ذخیره نمی‌شوند. عبارت‌ها از نحو ECMAScript (JavaScript) استفاده می‌کنند و ممکن است در هر جای متن منطبق شوند؛ برای انطباق با کل متن از ^ و $ استفاده کنید.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>نمونه‌ها</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 حرف یا رقم، مانند بسیاری از کلیدهای API و توکن‌ها</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>کدهای یک‌بارمصرف 6 رقمی</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>شماره کارت‌های پرداخت</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>افزودن عبارت باقاعده</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>عبارت باقاعده</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>افزودن عبارت باقاعده</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>عبارت باقاعده نامعتبر</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>هیچ عبارت باقاعده‌ای تعریف نشده است.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio همیشه کپی‌هایی را که با «{0}» یا «{1}» علامت‌گذاری شده‌اند نادیده می‌گیرد: قراردادهای Windows که مدیران گذرواژه و برنامه‌های دیگر برای دور نگه داشتن داده‌های حساس از مدیران کلیپ‌بورد به کار می‌برند.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>حذف {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>نام پرونده اجرایی</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>برنامه در حال اجرایی یافت نشد</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>«{0}» عبارت باقاعده معتبر ECMAScript نیست.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>توقف موقت</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>توقف موقت Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>همه کپی‌های جدید موقتاً نادیده گرفته شوند. برای اینکه Kleio هنگام کپی داده‌های حساس چیزی ثبت نکند مفید است.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>توقف موقت Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>احتمالاً از این در اسکریپت‌ها استفاده می‌کنید. هنگام کپی داده‌های حساس، Kleio را از خط فرمان موقتاً متوقف کنید:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… کپی داده‌ها …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause، کپی داده‌ها، سپس kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>برای نادیده گرفتن فقط کپی بعدی:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… کپی داده‌ها …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next، سپس کپی داده‌ها</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>همچنین می‌توانید با Alt+کلیک روی نماد ناحیه اعلان، Kleio را موقتاً متوقف یا ادامه دهید. برای نادیده گرفتن فقط کپی بعدی، Alt+Shift+کلیک کنید.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>پاک کردن تاریخچه هنگام خروج</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>پیش از خروج از برنامه، همه موارد سنجاق‌نشده به‌طور خودکار حذف شوند.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>پاک کردن تاریخچه هنگام خروج</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>کلیپ‌بورد سیستم هم پاک شود</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>اگر فعال باشد، پاک کردن تاریخچه کلیپ‌بورد فعلی سیستم را هم پاک می‌کند.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>کلیپ‌بورد سیستم هم پاک شود</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>نشان Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>نسخه {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>مدیر کلیپ‌بورد برای Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>بررسی به‌روزرسانی‌ها</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بررسی به‌روزرسانی‌ها</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>سپاسگزاری</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio نسخه منتقل‌شده Maccy ساخته Alex Rodionov است</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy یک مدیر کلیپ‌بورد سبک برای macOS است. Kleio ویژگی‌ها و چیدمان آن را به Windows 11 می‌آورد.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>وب‌سایت Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>وب‌سایت Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy در GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy در GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>کد منبع</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>در GitHub مشکلات را گزارش دهید، ویژگی پیشنهاد کنید و مشارکت کنید.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio در GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio در GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>پشتیبانی</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>پشتیبانی: گزارش مشکل در GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>مجوز</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio و Maccy نرم‌افزار آزاد هستند و با مجوز MIT منتشر شده‌اند.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>مجوز MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مجوز MIT</value>
+  </data>
+</root>

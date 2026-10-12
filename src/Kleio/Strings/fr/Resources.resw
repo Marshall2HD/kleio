@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Gestionnaire de presse-papiers pour Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Image, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Fichiers</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Élément du presse-papiers</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Épinglé</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Sélectionné, {0} sur {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Épingler</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Détacher</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Tout supprimer</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Paramètres…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>À propos de Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Ouvrir Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Mettre Kleio en pause</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignorer la prochaine copie</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Quitter Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Arrêter la pile de collage</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Modifier l’élément</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Maj</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Espace</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Entrée</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Suppr</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Retour arrière</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Échap</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Inser</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Origine</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>Pg préc</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>Pg suiv</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Haut</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Bas</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Gauche</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Droite</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Tapez pour rechercher…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rechercher dans l’historique du presse-papiers</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher ou masquer l’aperçu</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Pile de collage</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arrêter la pile de collage</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Éléments épinglés</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historique du presse-papiers</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Copier le texte extrait.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copier le texte extrait</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Épingler</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Modifier l’élément</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Arrêter la pile de collage</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Application :</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Supprimer les éléments non épinglés.
+Sélectionnez avec Maj pour tout supprimer.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Supprimer toute la liste.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Ouvrir les paramètres de Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Plus d'informations à propos de l'application.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Quitter l'application.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Copiez quelque chose pour le voir ici.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Aucun résultat</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Afficher l’aperçu</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Masquer l’aperçu</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Appuyez sur {0} pour afficher l'aperçu.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Appuyez sur {0} pour masquer l'aperçu.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Appuyez sur {0} pour épingler.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Appuyez sur {0} pour détacher.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Appuyez sur {0} pour supprimer.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Pile de collage · {0} élément</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Pile de collage · {0} éléments</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Pile de collage — chaque collage place l’élément suivant dans le presse-papiers.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Coller sans formatage</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Modifier…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Effacer l’historique ?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Effacer tout l’historique ?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Voulez-vous vraiment effacer l’historique ? Les éléments épinglés sont conservés. Cette action est irréversible.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Voulez-vous vraiment effacer l’historique, y compris les éléments épinglés ? Cette action est irréversible.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Ne plus demander</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Clé</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Contenu</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Ce texte est trop long pour être modifié.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Contenu non modifiable (image ou fichier)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>L'édition ne tient pas compte de la mise en forme.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimensions : {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Date de la première copie : {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Date de la dernière copie : {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Nombre de copies : {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (en pause)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignore la prochaine copie)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (aucun type n’est enregistré)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Une nouvelle version de Kleio est disponible !</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} est disponible. Vous avez la version {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Installer la mise à jour</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Ignorer cette version</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Notes de version</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Impossible d’installer Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Ouvrir dans le Programme d’installation d’application</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Installation de Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio redémarre une fois la mise à jour installée.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Installation de la mise à jour</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Téléchargement de Kleio {0}. Kleio redémarre une fois la mise à jour installée.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Impossible d’installer la mise à jour</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Mise à jour disponible</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio est à jour</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} est la dernière version.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Impossible de rechercher des mises à jour</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Aucune version publiée de Kleio n’a été trouvée.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Versions</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Vérifiez votre connexion Internet et réessayez.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Cette version ne contient pas de package d’installation pour ce PC.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Le téléchargement a échoué (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Impossible d’enregistrer le package téléchargé.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>La mise à jour n’a pas pu être installée.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} a été installé. Quittez et rouvrez Kleio pour l’utiliser.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio n’est pas encore prêt.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Élément du presse-papiers introuvable</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>L’élément du presse-papiers n’a pas de contenu au format {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Commande inconnue</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio n’a pas répondu après son démarrage.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio ne répond pas.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Impossible de démarrer Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio n’a pas compris la requête. Le Kleio en cours d’exécution est-il de la même version ?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>L’élément est trop volumineux.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio n’a pas pu exécuter la commande.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio est en train de quitter.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Exécutez "kleio --help" pour connaître l’utilisation.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Impossible d’envoyer la commande à Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio n’a pas répondu.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio a envoyé une réponse non valide.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Échec.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Impossible d’écrire {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Utilisez une seule des options --get, --select, --delete et --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Plusieurs numéros d’élément ont été indiqués.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Le numéro d’élément doit être supérieur ou égal à 1.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Argument inattendu : {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format ne peut être utilisé qu’avec --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format doit valoir text, html, rtf, image ou files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output ne peut être utilisé qu’avec --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output nécessite un chemin de fichier.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected ne peut être utilisé qu’avec --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes ne peut être utilisé qu’avec --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Option inconnue : {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Paramètres de Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Paramètres de Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Stockage</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stockage</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Stockage</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Apparence</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Avancé</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Raccourci</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0} : {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Effacer : {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Inclure {0}, {1} ou {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Appuyez sur un raccourci…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Enregistrement. Appuyez sur un raccourci, Échap pour annuler, Retour arrière pour effacer</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Non défini</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sélectionnez pour enregistrer un nouveau raccourci. Échap annule, Retour arrière efface.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Non défini</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Effacer le raccourci</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Effacer le raccourci</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Lancer au démarrage</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Démarrer Kleio automatiquement lorsque vous ouvrez une session Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lancer au démarrage</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Le lancement au démarrage a été désactivé par Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio a été désactivé dans le Gestionnaire des tâches &gt; Applications de démarrage (ou Paramètres &gt; Applications &gt; Démarrage). Activez-le à cet endroit pour lancer Kleio à l’ouverture de session.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Vérifier les mises à jour automatiquement</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Rechercher une nouvelle version de Kleio sur GitHub une fois par jour et proposer de l’installer.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Vérifier maintenant</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rechercher des mises à jour maintenant</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vérifier les mises à jour automatiquement</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>La langue des menus, des paramètres et des messages de Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Langue de Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Redémarrez Kleio pour utiliser la nouvelle langue.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Redémarrer maintenant</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Raccourcis</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Ouvrir Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Touche de raccourci globale pour ouvrir l'application. Une pression répétée sur la touche principale tout en maintenant les modificateurs enfoncés permet de sélectionner l'élément suivant dans la liste. Dans ce mode, le relâchement des touches de modification confirmera la sélection et fermera la fenêtre contextuelle. Par défaut : Win+Maj+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Raccourci pour ouvrir Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Impossible d’enregistrer le raccourci</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Ce raccourci est utilisé par une autre application. Choisissez-en un autre.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Épingler</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Touche de raccourci pour épingler un élément de l’historique. Par défaut : Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Raccourci pour épingler</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Touche de raccourci pour supprimer un élément de l’historique. Par défaut : Alt+Suppr.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Raccourci pour supprimer</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Afficher l'aperçu avec des informations supplémentaires. Par défaut : Ctrl+Espace.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Raccourci pour l’aperçu</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Mode de recherche</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Comment le texte saisi dans le champ de recherche est comparé aux éléments de l’historique.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mode de recherche</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Exacte</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Approximative</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Expressions régulières</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Mixte</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Comportement</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Coller automatiquement</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Coller l’élément sélectionné dans l’application active au lieu de seulement le copier.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Coller automatiquement</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Coller sans formatage</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Supprimer les polices, les couleurs et toute autre mise en forme de l’élément sélectionné.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Coller sans formatage</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Personnaliser le comportement lors de la sélection de l’élément :
+— sélectionnez avec {0} pressé pour copier un élément ;
+— sélectionnez avec {1} pressé pour copier et coller l’élément ;
+— sélectionnez avec {2} pressé pour copier, reformater et coller l’élément.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Presse-papiers de Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows a son propre historique du presse-papiers, ouvert avec Win+V. Kleio peut reprendre ce raccourci pendant son exécution, sans modifier aucun paramètre de Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Remplacer Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Win+V ouvre Kleio au lieu de l’historique du presse-papiers de Windows pendant l’exécution de Kleio. Les paramètres de Windows ne sont pas modifiés.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Remplacer Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Paramètres du presse-papiers de Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Activez, désactivez ou effacez l’historique du presse-papiers de Windows dans Paramètres &gt; Système &gt; Presse-papiers.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ouvrir les paramètres du presse-papiers de Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Notifications et sons</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Afficher les notifications</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Afficher une notification avec l’élément lorsque Kleio copie un élément ou enregistre une nouvelle copie.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher les notifications</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Les notifications sont désactivées dans Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Activez les notifications pour Kleio dans les paramètres de notification de Windows pour les voir.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Émettre des sons</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Émettre un son lorsque Kleio copie un élément ou enregistre une nouvelle copie.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Émettre des sons</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Paramètres de notification de Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Choisissez comment les notifications de Kleio s’affichent, ou désactivez-les, dans Paramètres &gt; Système &gt; Notifications.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ouvrir les paramètres de notification de Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Sauver</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Modifiez les types de contenu copié à stocker.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Fichiers</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Fichiers et dossiers copiés dans l’Explorateur de fichiers et d’autres applications.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sauver les fichiers</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Images et captures d’écran.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sauver les images</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Textes</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Texte brut, texte enrichi et HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sauver les textes</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Nombre d'éléments à garder dans l'historique. Par défaut : 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Taille actuelle sur le disque.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Taille de l’historique</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Trier par</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Ordre des éléments dans l’historique. Par défaut : Date de dernière copie.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Trier par</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Date de dernière copie</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Date de première copie</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Nombre de copies</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Popup sur</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Changer la localisation de l’apparition du popup. Par défaut : Curseur.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Réinitialiser la position</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Replacer le popup à sa position par défaut</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Réinitialiser la position</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Écran</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Popup sur</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Curseur</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Icône de la zone de notification</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Centre de la fenêtre</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Centre de l’écran</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Dernière position</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Écran actif</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Écran {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Écran {0} (non connecté)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Épingler à</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Change la localisation des éléments épinglés. Par défaut : Haut.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Épingler à</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Haut</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Bas</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Hauteur de l'image</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Hauteur maximale de l’aperçu de l’image. Par défaut : 40. Astuce : réglez sur 16 pour qu’ils ressemblent à des éléments de texte.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hauteur de l'image</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Ouvrir l’aperçu automatiquement</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Afficher après un délai un aperçu avec des informations supplémentaires sur l’élément sélectionné.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ouvrir l’aperçu automatiquement</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Délai de prévisualisation</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Délai en millisecondes jusqu’à ce qu’une fenêtre d’aperçu s'affiche. Par défaut : 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Délai de prévisualisation en millisecondes</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Format des termes trouvés</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Modifiez le style de surbrillance des correspondances de recherche. Par défaut : Gras.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Format des termes trouvés</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Gras</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Italique</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Souligner</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Afficher les symboles spéciaux</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Afficher les nouvelles lignes, les tabulations, les espaces de début et de fin via des symboles spéciaux.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher les symboles spéciaux</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Zone de notification</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Afficher l’icône dans la zone de notification</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Afficher l’icône de Kleio dans la zone de notification de la barre des tâches.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher l’icône dans la zone de notification</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Style de l’icône de la zone de notification</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo de Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Presse-papiers</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Presse-papiers</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Trombone</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Trombone</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ciseaux</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Ciseaux</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Afficher la dernière copie dans l’info-bulle de l’icône</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Afficher la copie la plus récente lorsque vous pointez sur l’icône de la zone de notification.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher la dernière copie dans l’info-bulle de l’icône</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Disposition du popup</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Afficher le champ de recherche</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Afficher le champ de recherche toujours, ou seulement lorsque vous commencez à taper.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher le champ de recherche</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visibilité du champ de recherche</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Toujours</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Pendant la recherche</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Afficher le titre avant la barre de recherche</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Afficher « Kleio » à gauche du champ de recherche.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher le titre avant la barre de recherche</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Afficher les icônes des applications</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Afficher l’icône de l’application d’où provient chaque élément.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher les icônes des applications</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Afficher l'échantillon de couleur hexadécimale</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Afficher un échantillon de couleur à côté des codes couleur hexadécimaux.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher l'échantillon de couleur hexadécimale</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Afficher le bas de l’application</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Afficher les commandes Supprimer, Paramètres, À propos et Quitter en bas du popup.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afficher le bas de l’application</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Sans le bas de l’application, ouvrez les paramètres depuis le menu de l’icône de la zone de notification ou avec Ctrl+, dans le popup.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sections à ignorer</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Formats du presse-papiers</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Expressions régulières</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Il est possible d’ignorer les copies provenant de certaines applications. Notez que cela n’est pas infaillible : Windows n’indique pas quelle application a copié quelque chose, donc Kleio vérifie l’application qui possède le presse-papiers ou qui est au premier plan. Privilégiez les formats du presse-papiers lorsque c’est possible.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignorer toutes les applications sauf celles listées</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>N’enregistrer que les copies faites dans les applications listées ci-dessous.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorer toutes les applications sauf celles listées</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Les copies faites dans ces applications ne sont pas enregistrées.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajouter une application en cours d’exécution</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Ajouter une application ouverte</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajouter une application en choisissant son fichier programme</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Ajouter une application…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Aucune application n’est ignorée.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Les copies contenant l’un de ces formats du presse-papiers ne sont pas enregistrées. Par défaut, Kleio.Transient est listé ; vous pouvez le supprimer et ajouter les formats personnalisés de votre choix.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Pour trouver le nom d’un format, copiez quelque chose dans l’application et examinez le presse-papiers avec une visionneuse comme NirSoft InsideClipboard. Seuls les formats enregistrés (des noms, pas des numéros) peuvent être listés.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Ajouter un format du presse-papiers</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Nom du format, par ex. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nom du format du presse-papiers</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajouter le format du presse-papiers</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Aucun format du presse-papiers n’est ignoré.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Rétablir les valeurs par défaut</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rétablir les formats du presse-papiers par défaut</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Les copies dont le texte correspond à l’une de ces expressions régulières ne sont pas enregistrées. Les expressions utilisent la syntaxe ECMAScript (JavaScript) et peuvent correspondre n’importe où dans le texte ; utilisez ^ et $ pour correspondre au texte entier.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Exemples</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 lettres ou chiffres, comme de nombreux jetons et clés d’API</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Codes à usage unique à 6 chiffres</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Numéros de carte bancaire</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Ajouter une expression régulière</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Expression régulière</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ajouter l’expression régulière</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Expression régulière non valide</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Aucune expression régulière n’est définie.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio ignore toujours les copies marquées par « {0} » ou « {1} » : les conventions de Windows que les gestionnaires de mots de passe et d’autres applications utilisent pour tenir les données sensibles à l’écart des gestionnaires de presse-papiers.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Supprimer {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Nom de l’exécutable</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Aucune application en cours d’exécution</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>« {0} » n’est pas une expression régulière ECMAScript valide.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Mettre Kleio en pause</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Ignorer temporairement toutes les nouvelles copies. Utile pour empêcher Kleio d’enregistrer pendant que vous copiez des données sensibles.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mettre Kleio en pause</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Vous l’utiliserez probablement dans des scripts. Mettez Kleio en pause depuis la ligne de commande pendant la copie de données sensibles :</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… copier les données …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, copier les données, puis kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Pour ignorer seulement la prochaine copie :</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… copier les données …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, puis copier les données</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Vous pouvez aussi faire Alt+clic sur l’icône de la zone de notification pour mettre Kleio en pause ou le reprendre. Pour ignorer seulement la prochaine copie, faites Alt+Maj+clic.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Effacement</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Effacer l’historique en quittant</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Supprimez automatiquement tous les éléments non épinglés avant de quitter l’application.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Effacer l’historique en quittant</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Effacer également le presse-papiers du système</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Lorsqu’elle est activée, l’effacement de l’historique effacera également le presse-papiers du système actuel.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Effacer également le presse-papiers du système</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo de Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Gestionnaire de presse-papiers pour Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Rechercher des mises à jour</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rechercher des mises à jour</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Remerciements</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio est un portage de Maccy par Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy est un gestionnaire de presse-papiers léger pour macOS. Kleio apporte ses fonctionnalités et sa disposition à Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Site web de Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Site web de Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy sur GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy sur GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Code source</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Signalez des problèmes, proposez des fonctionnalités et contribuez sur GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio sur GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio sur GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Support : signaler un problème sur GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio et Maccy sont des logiciels libres publiés sous licence MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Licence MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Licence MIT</value>
+  </data>
+</root>

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Urklippshanterare för Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Bild, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Urklippsobjekt</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Fäst</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Vald, {0} av {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Fäst</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Lossa</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Rensa allt</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Inställningar…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Om Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Öppna Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Pausa Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignorera nästa kopiering</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Avsluta Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Stoppa inklistringsstacken</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Redigera objekt</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Skift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Blanksteg</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Upp</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Ned</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Vänster</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Höger</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Skriv för att söka…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sök i urklippshistoriken</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa eller dölj förhandsvisning</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Inklistringsstack</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stoppa inklistringsstacken</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fästa objekt</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Urklippshistorik</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kopiera extraherad text.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kopiera extraherad text</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fäst</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redigera objekt</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stoppa inklistringsstacken</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Program:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Rensa objekt som inte är fästa.
+Välj med Skift för att rensa allt.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Rensa alla objekt.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Öppna inställningarna för Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Läs mer om programmet.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Avsluta programmet.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Kopiera något för att se det här.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Inga resultat</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Visa förhandsvisning</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Dölj förhandsvisning</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Tryck {0} för att visa förhandsvisningen.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Tryck {0} för att dölja förhandsvisningen.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Tryck på {0} för att fästa.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Tryck på {0} för att lossa.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Tryck på {0} för att radera.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Inklistringsstack · {0} objekt</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Inklistringsstack · {0} objekt</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Inklistringsstack – varje inklistring lägger nästa objekt i Urklipp.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Klistra in</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Klistra in utan formatering</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Redigera…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Vill du rensa historiken?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Vill du rensa hela historiken?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Är du säker på att du vill rensa historiken? Fästa objekt behålls. Det går inte att ångra.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Är du säker på att du vill rensa historiken, inklusive fästa objekt? Det går inte att ångra.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Fråga inte igen</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Tangent</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Texten är för lång för att redigeras.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Innehåll som inte kan redigeras (bild eller fil)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Redigering tar bort all formatering.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Mått: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Första kopiering: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Senaste kopiering: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Antal kopior: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (pausad)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignorerar nästa kopiering)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (sparar ingen typ)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>En ny version av Kleio finns!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} finns nu. Du har {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Installera uppdatering</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Hoppa över den här versionen</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Ladda ned</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Versionsinformation</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Det gick inte att installera Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Öppna i Appinstallationsprogrammet</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Installerar Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio startas om när uppdateringen har installerats.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Installerar uppdatering</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Laddar ned Kleio {0}. Kleio startas om när uppdateringen har installerats.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Det gick inte att installera uppdateringen</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Uppdatering tillgänglig</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio är uppdaterat</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} är den senaste versionen.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Det gick inte att söka efter uppdateringar</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Ingen publicerad version av Kleio hittades.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Versioner</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Kontrollera internetanslutningen och försök igen.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Versionen har inget installationspaket för den här datorn.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Nedladdningen misslyckades (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Det gick inte att spara det nedladdade paketet.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Uppdateringen kunde inte installeras.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} har installerats. Avsluta och öppna Kleio igen för att använda det.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio är inte klart än.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Urklippsobjektet hittades inte</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Urklippsobjektet har inget innehåll i formatet {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Avbrutet</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Okänt kommando</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio svarade inte efter start.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio svarar inte.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Det gick inte att starta Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio förstod inte begäran. Är det körande Kleio samma version?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Objektet är för stort.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio kunde inte köra kommandot.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio avslutas.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Kör "kleio --help" för att se användning.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Det gick inte att skicka kommandot till Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio svarade inte.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio skickade ett ogiltigt svar.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Misslyckades.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Det gick inte att skriva {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Använd bara ett av --get, --select, --delete och --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Mer än ett objektnummer angavs.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Objektnumret måste vara 1 eller större.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Oväntat argument: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format kan bara användas med --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format måste vara text, html, rtf, image eller files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output kan bara användas med --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output kräver en filsökväg.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected kan bara användas med --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes kan bara användas med --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Okänt alternativ: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Inställningar för Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Inställningar för Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Lagring</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Utseende</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignorera</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorera</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignorera</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Avancerad</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avancerad</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Avancerad</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Kortkommando</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Rensa {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Ta med {0}, {1} eller {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Tryck på ett kortkommando…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Spelar in. Tryck på ett kortkommando, Esc för att avbryta, Backspace för att rensa</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Inte angivet</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Välj för att spela in ett nytt kortkommando. Esc avbryter, Backspace rensar.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Inte angivet</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rensa kortkommando</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Rensa kortkommando</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Starta vid inloggning</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Starta Kleio automatiskt när du loggar in i Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Starta vid inloggning</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Start vid inloggning har stängts av av Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio har inaktiverats i Aktivitetshanteraren &gt; Autostartade appar (eller Inställningar &gt; Appar &gt; Autostart). Aktivera det där för att starta Kleio vid inloggning.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Kontrollera efter uppdateringar automatiskt</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Leta efter en nyare version av Kleio på GitHub en gång om dagen och erbjud att installera den.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Kontrollera nu</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sök efter uppdateringar nu</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kontrollera efter uppdateringar automatiskt</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Språket i Kleios menyer, inställningar och meddelanden.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows-standard</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Starta om Kleio för att använda det nya språket.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Starta om nu</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Kortkommandon</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Öppna Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Globalt kortkommando för att öppna applikationen. Förval: Win+Skift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kortkommando för att öppna Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Det gick inte att registrera kortkommandot</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Kortkommandot används av en annan app. Välj ett annat.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Fästa</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Kortkommando för att fästa historikpost . Förval: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kortkommando för att fästa</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Kortkommando för att ta bort historikpost Förval: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kortkommando för att radera</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Förhandsvisning</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Visa förhandsgranskning med ytterligare information. Förval: Ctrl+Blanksteg.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kortkommando för förhandsvisning</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Sökläge</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Hur texten du skriver i sökfältet jämförs med historikobjekten.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sökläge</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Exakt</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Ungefärlig</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Reguljära uttryck</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Blandad</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Beteende</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Klistra in automatiskt</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Klistra in det valda objektet i den aktiva appen i stället för att bara kopiera det.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klistra in automatiskt</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Klistra in utan formatering</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Ta bort teckensnitt, färger och annan formatering från det valda objektet.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klistra in utan formatering</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Anpassa beteendet vid val av post:
+• Välj med {0} nedtryckt för att kopiera posten.
+• Välj med {1} nedtryckt för att kopiera och klistra in posten.
+• Välj med {2} nedtryckt för att kopiera, rensa formatering och klistra in posten.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Urklipp i Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows har en egen urklippshistorik som öppnas med Win+V. Kleio kan ta över det kortkommandot medan det körs, utan att ändra några Windows-inställningar.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Ersätt Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Win+V öppnar Kleio i stället för urklippshistoriken i Windows medan Kleio körs. Windows-inställningarna ändras inte.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ersätt Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Urklippsinställningar i Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Aktivera, inaktivera eller rensa urklippshistoriken i Windows under Inställningar &gt; System &gt; Urklipp.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Öppna urklippsinställningarna i Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Öppna</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Notiser och ljud</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Visa meddelanden</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Visa ett meddelande med objektet när Kleio kopierar ett objekt eller sparar en ny kopia.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa meddelanden</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Meddelanden är avstängda i Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Aktivera meddelanden för Kleio i meddelandeinställningarna i Windows för att se dem.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Spela upp ljud</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Spela upp ett ljud när Kleio kopierar ett objekt eller sparar en ny kopia.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spela upp ljud</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Meddelandeinställningar i Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Välj hur meddelanden från Kleio visas, eller stäng av dem, under Inställningar &gt; System &gt; Meddelanden.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Öppna meddelandeinställningarna i Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Öppna</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Ändra vilka typer av kopierat innehåll som ska lagras.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Filer och mappar som kopierats i Utforskaren och andra appar.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spara filer</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Bilder och skärmbilder.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spara bilder</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Oformaterad text, formaterad text och HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Spara text</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Historik</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Storlek</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Antal historikobjekt att behålla. Standard: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Aktuell storlek på disken.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historikens storlek</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Sortera efter</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Ordningen på objekten i historiken. Standard: Tid för senaste kopiering.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sortera efter</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Tid för senaste kopiering</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Tid för första kopiering</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Antal kopior</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Popup vid</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Ändra var popupen visas. Standard: Markör.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Återställ position</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Flytta tillbaka popupen till standardpositionen</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Återställ position</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Skärm</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Popup vid</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Markör</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Ikon i meddelandefältet</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Fönstrets mitt</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Skärmens mitt</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Senaste position</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktiv skärm</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Bildskärm {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Bildskärm {0} (inte ansluten)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Fäst vid</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Ändra var fästa objekt visas. Standard: Överst.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fäst vid</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Överst</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Nederst</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Bildhöjd</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Maximal höjd för bildförhandsvisning. Standard: 40. Tips: Ange 16 för att likna textobjekt.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bildhöjd</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Öppna förhandsvisning automatiskt</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Visa efter en fördröjning en förhandsvisning med mer information om det valda objektet.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Öppna förhandsvisning automatiskt</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Fördröjning för förhandsvisning</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Fördröjning i millisekunder innan en förhandsvisning visas. Standard: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fördröjning för förhandsvisning i millisekunder</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Markera träffar</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Ändra hur sökträffar markeras. Standard: Fet.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Markera träffar</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Fet</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Understruken</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Färg</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Visa specialtecken</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Visa radbrytningar, tabbar och inledande och avslutande blanksteg med specialtecken.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa specialtecken</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Meddelandefältet</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Visa ikon i meddelandefältet</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Visa Kleios ikon i meddelandefältet i aktivitetsfältet.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa ikon i meddelandefältet</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stil för ikonen i meddelandefältet</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleios logotyp</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Urklipp</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Urklipp</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sax</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Sax</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Visa senaste kopian i ikonens knappbeskrivning</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Visa den senaste kopian när du pekar på ikonen i meddelandefältet.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa senaste kopian i ikonens knappbeskrivning</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Popuplayout</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Visa sökfält</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Visa sökfältet alltid, eller först när du börjar skriva.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa sökfält</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sökfältets synlighet</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Alltid</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Under sökning</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Visa titel före sökfältet</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Visa ”Kleio” till vänster om sökfältet.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa titel före sökfältet</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Visa programikoner</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Visa ikonen för appen som varje objekt kopierades från.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa programikoner</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Visa hexadecimalt färgprov</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Visa färgprov bredvid hexadecimala färgkoder.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa hexadecimalt färgprov</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Visa sidfot</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Visa kommandona Rensa, Inställningar, Om och Avsluta längst ned i popupen.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visa sidfot</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Utan sidfot öppnar du inställningarna från menyn för ikonen i meddelandefältet eller med Ctrl+, i popupen.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avsnitt att ignorera</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Appar</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Urklippsformat</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Reguljära uttryck</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Kopior från vissa appar kan ignoreras. Observera att detta inte är helt säkert: Windows talar inte om vilken app som kopierade något, så Kleio kontrollerar appen som äger Urklipp eller är i förgrunden. Använd hellre urklippsformat när det går.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignorera alla appar utom de som listas</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Spara bara kopior från apparna som listas nedan.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignorera alla appar utom de som listas</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Appar</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Kopior från de här apparna sparas inte.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lägg till en app som körs</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Lägg till app som körs</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lägg till en app genom att välja dess programfil</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Lägg till app…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Inga appar ignoreras.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopior som innehåller något av dessa urklippsformat sparas inte. Som standard listas Kleio.Transient; du kan ta bort det och lägga till egna format.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Du hittar namnet på ett format genom att kopiera något i appen och titta på Urklipp med ett visningsprogram som NirSoft InsideClipboard. Bara registrerade format (namn, inte nummer) kan listas.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Lägg till ett urklippsformat</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Formatnamn, t.ex. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Urklippsformatets namn</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lägg till urklippsformat</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Inga urklippsformat ignoreras.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Återställ standard</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Återställ urklippsformaten till standard</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopior vars text matchar något av dessa reguljära uttryck sparas inte. Uttrycken använder ECMAScript-syntax (JavaScript) och kan matcha var som helst i texten; använd ^ och $ för att matcha hela texten.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Exempel</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 bokstäver eller siffror, som många API-nycklar och token</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Sexsiffriga engångskoder</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Betalkortsnummer</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Lägg till ett reguljärt uttryck</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reguljärt uttryck</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lägg till reguljärt uttryck</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Ogiltigt reguljärt uttryck</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Inga reguljära uttryck har angetts.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio ignorerar alltid kopior som är märkta med ”{0}” eller ”{1}”: Windows-konventionerna som lösenordshanterare och andra appar använder för att hålla känsliga data borta från urklippshanterare.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Ta bort {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Namn på körbar fil</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Inga appar som körs hittades</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>”{0}” är inte ett giltigt reguljärt ECMAScript-uttryck.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Paus</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Pausa Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Ignorera tillfälligt alla nya kopior. Användbart för att hindra Kleio från att spela in medan du kopierar känsliga data.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pausa Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Du kommer troligen att använda detta från skript. Pausa Kleio från kommandoraden medan du kopierar känsliga data:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopiera data …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopiera data, sedan kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Så här ignorerar du bara nästa kopiering:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopiera data …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, sedan kopiera data</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Du kan också Alt+klicka på ikonen i meddelandefältet för att pausa eller återuppta Kleio. Om du bara vill ignorera nästa kopiering Alt+Skift+klickar du på den.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Rensning</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Rensa historiken vid avslut</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Ta automatiskt bort alla objekt som inte är fästa innan programmet avslutas.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rensa historiken vid avslut</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Rensa även systemets Urklipp</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>När detta är aktiverat rensas även det aktuella systemurklippet när historiken rensas.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Rensa även systemets Urklipp</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleios logotyp</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Urklippshanterare för Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Sök efter uppdateringar</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sök efter uppdateringar</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Tack till</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio är en portering av Maccy av Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy är en lättviktig urklippshanterare för macOS. Kleio för över dess funktioner och layout till Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccys webbplats</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccys webbplats</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy på GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy på GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Källkod</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Rapportera problem, föreslå funktioner och bidra på GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio på GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio på GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Support: rapportera ett problem på GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licens</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio och Maccy är fri programvara som släpps under MIT-licensen.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+</root>

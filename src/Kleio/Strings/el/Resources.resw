@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Διαχείριση Προχείρου για Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Εικόνα</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Εικόνα, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Αρχεία</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Στοιχείο Προχείρου</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Καρφιτσωμένο</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Επιλεγμένο, {0} από {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Καρφίτσωμα</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Ξεκαρφίτσωμα</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Καθαρισμός</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Καθαρισμός όλων</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Ρυθμίσεις…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Σχετικά με το Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Άνοιγμα του Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Παύση του Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Παράβλεψη της επόμενης αντιγραφής</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Έξοδος από το Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Διακοπή στοίβας επικόλλησης</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Επεξεργασία στοιχείου</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Διάστημα</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Επάνω</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Κάτω</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Αριστερά</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Δεξιά</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Πληκτρολόγησε για αναζήτηση…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αναζήτηση στο ιστορικό Προχείρου</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση ή απόκρυψη προεπισκόπησης</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Στοίβα επικόλλησης</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Διακοπή στοίβας επικόλλησης</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Καρφιτσωμένα στοιχεία</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ιστορικό Προχείρου</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Αντιγραφή εξαγμένου κειμένου.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αντιγραφή εξαγμένου κειμένου</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Καρφίτσωμα</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Επεξεργασία στοιχείου</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Διακοπή στοίβας επικόλλησης</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Εφαρμογή:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Καθαρισμός μη καρφιτσωμένων αντικειμένων.
+Επίλεξε με Shift για εκκαθάριση όλων.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Καθαρισμός όλων των αντικειμένων.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Άνοιγμα των ρυθμίσεων του Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Διάβασε περισσότερα σχετικά με την εφαρμογή.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Έξοδος από την εφαρμογή.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Αντίγραψε κάτι για να το δεις εδώ.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Δεν υπάρχουν αποτελέσματα</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Εμφάνιση προεπισκόπησης</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Απόκρυψη προεπισκόπησης</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Πατήστε {0} για εμφάνιση της προεπισκόπησης.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Πατήστε {0} για απόκρυψη της προεπισκόπησης.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Πάτησε {0} για καρφίτσωμα.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Πάτησε {0} για ξεκαρφίτσωμα.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Πάτησε {0} για διαγραφή.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Στοίβα επικόλλησης · {0} στοιχείο</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Στοίβα επικόλλησης · {0} στοιχεία</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Στοίβα επικόλλησης — κάθε επικόλληση βάζει το επόμενο στοιχείο στο Πρόχειρο.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Αντιγραφή</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Επικόλληση</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Επικόλληση χωρίς μορφοποίηση</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Επεξεργασία…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Εκκαθάριση ιστορικού;</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Εκκαθάριση όλου του ιστορικού;</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Θέλεις σίγουρα να καθαρίσεις το ιστορικό; Τα καρφιτσωμένα στοιχεία διατηρούνται. Αυτή η ενέργεια δεν αναιρείται.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Θέλεις σίγουρα να καθαρίσεις το ιστορικό, μαζί με τα καρφιτσωμένα στοιχεία; Αυτή η ενέργεια δεν αναιρείται.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Να μην ερωτηθώ ξανά</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Πλήκτρο</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Περιεχόμενο</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Αυτό το κείμενο είναι πολύ μεγάλο για επεξεργασία.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Μη επεξεργάσιμο περιεχόμενο (εικόνα ή αρχείο)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Η επεξεργασία θα καταργήσει όλη τη μορφοποίηση.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Διαστάσεις: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Πρώτη αντιγραφή: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Τελευταία αντιγραφή: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Αριθμός αντιγραφών: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (σε παύση)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (παραβλέπει την επόμενη αντιγραφή)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (δεν αποθηκεύει κανέναν τύπο)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Υπάρχει νέα έκδοση του Kleio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Το Kleio {0} είναι πλέον διαθέσιμο. Έχεις την {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Εγκατάσταση ενημέρωσης</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Παράλειψη αυτής της έκδοσης</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Σημειώσεις έκδοσης</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εγκατάσταση του Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Άνοιγμα στο Πρόγραμμα εγκατάστασης εφαρμογών</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Εγκατάσταση του Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Το Kleio θα επανεκκινηθεί όταν εγκατασταθεί η ενημέρωση.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Εγκατάσταση ενημέρωσης</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Λήψη του Kleio {0}. Το Kleio θα επανεκκινηθεί όταν εγκατασταθεί η ενημέρωση.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εγκατάσταση της ενημέρωσης</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Υπάρχει διαθέσιμη ενημέρωση</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Το Kleio είναι ενημερωμένο</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Το Kleio {0} είναι η πιο πρόσφατη έκδοση.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατός ο έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Δεν βρέθηκε δημοσιευμένη έκδοση του Kleio.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Εκδόσεις</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Έλεγξε τη σύνδεση στο Internet και δοκίμασε ξανά.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Η έκδοση δεν έχει πακέτο εγκατάστασης για αυτόν τον υπολογιστή.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Η λήψη απέτυχε (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αποθήκευση του πακέτου που λήφθηκε.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εγκατάσταση της ενημέρωσης.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Το Kleio {0} εγκαταστάθηκε. Κλείσε και άνοιξε ξανά το Kleio για να το χρησιμοποιήσεις.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Το Kleio δεν είναι ακόμη έτοιμο.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Το στοιχείο του Προχείρου δεν βρέθηκε</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Το στοιχείο του Προχείρου δεν έχει περιεχόμενο σε μορφή {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Ακυρώθηκε</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Άγνωστη εντολή</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Το Kleio δεν απάντησε μετά την εκκίνηση.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Το Kleio δεν αποκρίνεται.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εκκίνηση του Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Το Kleio δεν κατάλαβε το αίτημα. Εκτελείται η ίδια έκδοση του Kleio;</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Το στοιχείο είναι πολύ μεγάλο.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Το Kleio δεν μπόρεσε να εκτελέσει την εντολή.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Το Kleio τερματίζεται.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Για οδηγίες χρήσης εκτέλεσε "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αποστολή της εντολής στο Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Το Kleio δεν απάντησε.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Το Kleio έστειλε μη έγκυρη απάντηση.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Απέτυχε.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εγγραφή του {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Χρησιμοποίησε μόνο ένα από τα --get, --select, --delete και --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Δόθηκαν περισσότεροι από ένας αριθμοί στοιχείου.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Ο αριθμός στοιχείου πρέπει να είναι 1 ή μεγαλύτερος.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Μη αναμενόμενο όρισμα: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>Το --format μπορεί να χρησιμοποιηθεί μόνο με το --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>Το --format πρέπει να είναι text, html, rtf, image ή files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>Το --output μπορεί να χρησιμοποιηθεί μόνο με το --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>Το --output χρειάζεται διαδρομή αρχείου.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>Το --selected μπορεί να χρησιμοποιηθεί μόνο με το --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>Το --yes μπορεί να χρησιμοποιηθεί μόνο με το --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Άγνωστη επιλογή: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Ρυθμίσεις του Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Ρυθμίσεις του Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Εμφάνιση</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Αγνόηση</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αγνόηση</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Αγνόηση</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Για προχωρημένους</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Για προχωρημένους</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Για προχωρημένους</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Συντόμευση</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Εκκαθάριση: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Συμπερίλαβε {0}, {1} ή {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Πάτησε μια συντόμευση…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Εγγραφή. Πάτησε μια συντόμευση, Esc για ακύρωση, Backspace για εκκαθάριση</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Δεν έχει οριστεί</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Επίλεξε για να καταγράψεις νέα συντόμευση. Το Esc ακυρώνει, το Backspace καθαρίζει.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Δεν έχει οριστεί</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εκκαθάριση συντόμευσης</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Εκκαθάριση συντόμευσης</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Εκκίνηση κατά τη σύνδεση</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Αυτόματη εκκίνηση του Kleio όταν συνδέεσαι στα Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εκκίνηση κατά τη σύνδεση</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Τα Windows απενεργοποίησαν την εκκίνηση κατά τη σύνδεση</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Το Kleio απενεργοποιήθηκε στη Διαχείριση εργασιών &gt; Εφαρμογές εκκίνησης (ή Ρυθμίσεις &gt; Εφαρμογές &gt; Εκκίνηση). Ενεργοποίησέ το εκεί για να ξεκινά το Kleio κατά τη σύνδεση.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Αυτόματος έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Αναζήτηση νεότερης έκδοσης του Kleio στο GitHub μία φορά την ημέρα και πρόταση εγκατάστασης.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Έλεγχος τώρα</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις τώρα</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αυτόματος έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Η γλώσσα των μενού, των ρυθμίσεων και των μηνυμάτων του Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Προεπιλογή των Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Επανεκκίνησε το Kleio για να χρησιμοποιηθεί η νέα γλώσσα.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Επανεκκίνηση τώρα</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Συντομεύσεις</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Άνοιγμα του Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Καθολική συντόμευση για το άνοιγμα της εφαρμογής. Αν πατάς ξανά το κύριο πλήκτρο κρατώντας τα πλήκτρα τροποποίησης, επιλέγεται το επόμενο στοιχείο της λίστας. Σε αυτή τη λειτουργία, όταν αφήνεις τα πλήκτρα τροποποίησης, η επιλογή επιβεβαιώνεται και το αναδυόμενο παράθυρο κλείνει. Προεπιλογή: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Συντόμευση ανοίγματος του Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η καταχώρηση της συντόμευσης</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Αυτή η συντόμευση χρησιμοποιείται από άλλη εφαρμογή. Επίλεξε διαφορετική.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Καρφίτσωμα</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Συντόμευση για το καρφίτσωμα στοιχείου του ιστορικού. Προεπιλογή: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Συντόμευση καρφιτσώματος</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Συντόμευση για τη διαγραφή στοιχείου του ιστορικού. Προεπιλογή: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Συντόμευση διαγραφής</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Εμφάνιση προεπισκόπησης με πρόσθετες πληροφορίες. Προεπιλογή: Ctrl+Διάστημα.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Συντόμευση προεπισκόπησης</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Λειτουργία αναζήτησης</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Πώς συγκρίνεται το κείμενο που πληκτρολογείς στο πεδίο αναζήτησης με τα στοιχεία του ιστορικού.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Λειτουργία αναζήτησης</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Ακριβής</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Ασαφής</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Κανονικές εκφράσεις</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Μικτή</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Συμπεριφορά</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Αυτόματη επικόλληση</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Επικόλληση του επιλεγμένου στοιχείου στην ενεργή εφαρμογή αντί για απλή αντιγραφή.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αυτόματη επικόλληση</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Επικόλληση χωρίς μορφοποίηση</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Κατάργηση γραμματοσειρών, χρωμάτων και άλλης μορφοποίησης από το επιλεγμένο στοιχείο.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Επικόλληση χωρίς μορφοποίηση</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Προσάρμοσε τη συμπεριφορά κατά την επιλογή στοιχείου:
+• Επίλεξε κρατώντας {0} για αντιγραφή του στοιχείου.
+• Επίλεξε κρατώντας {1} για αντιγραφή και επικόλληση του στοιχείου.
+• Επίλεξε κρατώντας {2} για αντιγραφή, κατάργηση μορφοποίησης και επικόλληση του στοιχείου.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Πρόχειρο των Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Τα Windows έχουν δικό τους ιστορικό Προχείρου, που ανοίγει με Win+V. Το Kleio μπορεί να αναλάβει αυτή τη συντόμευση όσο εκτελείται, χωρίς να αλλάξει καμία ρύθμιση των Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Αντικατάσταση του Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Όσο εκτελείται το Kleio, το Win+V ανοίγει το Kleio αντί για το ιστορικό Προχείρου των Windows. Οι ρυθμίσεις των Windows δεν αλλάζουν.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αντικατάσταση του Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Ρυθμίσεις Προχείρου των Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Ενεργοποίησε, απενεργοποίησε ή καθάρισε το ιστορικό Προχείρου των Windows στις Ρυθμίσεις &gt; Σύστημα &gt; Πρόχειρο.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Άνοιγμα ρυθμίσεων Προχείρου των Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Άνοιγμα</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Ειδοποιήσεις και ήχοι</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Εμφάνιση ειδοποιήσεων</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Εμφάνιση ειδοποίησης με το στοιχείο όταν το Kleio αντιγράφει ένα στοιχείο ή αποθηκεύει νέο αντίγραφο.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση ειδοποιήσεων</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Οι ειδοποιήσεις είναι απενεργοποιημένες στα Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Ενεργοποίησε τις ειδοποιήσεις για το Kleio στις ρυθμίσεις ειδοποιήσεων των Windows για να τις βλέπεις.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Αναπαραγωγή ήχων</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Αναπαραγωγή ήχου όταν το Kleio αντιγράφει ένα στοιχείο ή αποθηκεύει νέο αντίγραφο.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αναπαραγωγή ήχων</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Ρυθμίσεις ειδοποιήσεων των Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Επίλεξε πώς εμφανίζονται οι ειδοποιήσεις του Kleio ή απενεργοποίησέ τις στις Ρυθμίσεις &gt; Σύστημα &gt; Ειδοποιήσεις.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Άνοιγμα ρυθμίσεων ειδοποιήσεων των Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Άνοιγμα</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Άλλαξε ποιοι τύποι αντιγραμμένου περιεχομένου αποθηκεύονται.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Αρχεία</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Αρχεία και φάκελοι που αντιγράφονται στην Εξερεύνηση αρχείων και σε άλλες εφαρμογές.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αποθήκευση αρχείων</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Εικόνες</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Εικόνες και στιγμιότυπα οθόνης.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αποθήκευση εικόνων</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Κείμενο</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Απλό κείμενο, μορφοποιημένο κείμενο και HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αποθήκευση κειμένου</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Ιστορικό</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Μέγεθος</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Αριθμός στοιχείων ιστορικού που διατηρούνται. Προεπιλογή: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Τρέχον μέγεθος στον δίσκο.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Μέγεθος ιστορικού</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Ταξινόμηση κατά</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Σειρά των στοιχείων στο ιστορικό. Προεπιλογή: Χρόνος τελευταίας αντιγραφής.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ταξινόμηση κατά</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Χρόνος τελευταίας αντιγραφής</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Χρόνος πρώτης αντιγραφής</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Αριθμός αντιγραφών</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Αναδυόμενο παράθυρο</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Αναδυόμενο σε</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Άλλαξε τη θέση όπου εμφανίζεται το αναδυόμενο παράθυρο. Προεπιλογή: Δρομέας.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Επαναφορά θέσης</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Επαναφορά του αναδυόμενου παραθύρου στην προεπιλεγμένη θέση</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Επαναφορά θέσης</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Οθόνη</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αναδυόμενο σε</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Δρομέας</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Εικονίδιο περιοχής ειδοποιήσεων</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Κέντρο παραθύρου</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Κέντρο οθόνης</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Τελευταία θέση</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Ενεργή οθόνη</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Οθόνη {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Οθόνη {0} (δεν είναι συνδεδεμένη)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Καρφίτσωμα στο</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Άλλαξε τη θέση των καρφιτσωμένων στοιχείων. Προεπιλογή: Επάνω.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Καρφίτσωμα στο</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Επάνω</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Κάτω</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Ύψος εικόνας</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Μέγιστο ύψος προεπισκόπησης εικόνας. Προεπιλογή: 40. Συμβουλή: Όρισε 16 για να μοιάζει με στοιχεία κειμένου.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ύψος εικόνας</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Άνοιγμα προεπισκόπησης αυτόματα</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Εμφάνιση, μετά από καθυστέρηση, προεπισκόπησης με πρόσθετες πληροφορίες για το επιλεγμένο στοιχείο.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Άνοιγμα προεπισκόπησης αυτόματα</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Καθυστέρηση προεπισκόπησης</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Καθυστέρηση σε χιλιοστά του δευτερολέπτου μέχρι να εμφανιστεί η προεπισκόπηση. Προεπιλογή: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Καθυστέρηση προεπισκόπησης σε χιλιοστά του δευτερολέπτου</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Επισήμανση αντιστοιχιών</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Άλλαξε το στυλ επισήμανσης των αποτελεσμάτων αναζήτησης. Προεπιλογή: Έντονα.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Επισήμανση αντιστοιχιών</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Έντονα</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Πλάγια</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Υπογράμμιση</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Καμία</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Εμφάνιση ειδικών συμβόλων</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Εμφάνιση αλλαγών γραμμής, στηλοθετών και κενών στην αρχή και στο τέλος με ειδικά σύμβολα.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση ειδικών συμβόλων</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Περιοχή ειδοποιήσεων</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Εμφάνιση εικονιδίου στην περιοχή ειδοποιήσεων</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Εμφάνιση του εικονιδίου του Kleio στην περιοχή ειδοποιήσεων της γραμμής εργασιών.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση εικονιδίου στην περιοχή ειδοποιήσεων</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Στυλ εικονιδίου περιοχής ειδοποιήσεων</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Λογότυπο του Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Πρόχειρο</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Πρόχειρο</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Συνδετήρας</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Συνδετήρας</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ψαλίδι</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Ψαλίδι</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Εμφάνιση της πρόσφατης αντιγραφής στην επεξήγηση του εικονιδίου</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Εμφάνιση της πιο πρόσφατης αντιγραφής όταν δείχνεις το εικονίδιο της περιοχής ειδοποιήσεων.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση της πρόσφατης αντιγραφής στην επεξήγηση του εικονιδίου</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Διάταξη αναδυόμενου παραθύρου</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Εμφάνιση πεδίου αναζήτησης</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Εμφάνιση του πεδίου αναζήτησης πάντα ή μόνο όταν αρχίζεις να πληκτρολογείς.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση πεδίου αναζήτησης</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ορατότητα πεδίου αναζήτησης</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Πάντα</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Κατά την αναζήτηση</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Εμφάνιση τίτλου πριν από το πεδίο αναζήτησης</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Εμφάνιση του «Kleio» αριστερά από το πεδίο αναζήτησης.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση τίτλου πριν από το πεδίο αναζήτησης</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Εμφάνιση εικονιδίων εφαρμογών</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Εμφάνιση του εικονιδίου της εφαρμογής από την οποία αντιγράφηκε κάθε στοιχείο.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση εικονιδίων εφαρμογών</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Εμφάνιση δείγματος δεκαεξαδικού χρώματος</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Εμφάνιση δείγματος χρώματος δίπλα σε δεκαεξαδικούς κωδικούς χρωμάτων.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση δείγματος δεκαεξαδικού χρώματος</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Εμφάνιση υποσέλιδου</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Εμφάνιση των εντολών Καθαρισμός, Ρυθμίσεις, Σχετικά και Έξοδος στο κάτω μέρος του αναδυόμενου παραθύρου.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εμφάνιση υποσέλιδου</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Χωρίς υποσέλιδο, άνοιξε τις ρυθμίσεις από το μενού του εικονιδίου στην περιοχή ειδοποιήσεων ή με Ctrl+, στο αναδυόμενο παράθυρο.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ενότητες αγνόησης</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Εφαρμογές</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Μορφές Προχείρου</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Κανονικές εκφράσεις</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Μπορείς να αγνοείς αντιγραφές από συγκεκριμένες εφαρμογές. Σημείωσε ότι αυτό δεν είναι απόλυτα αξιόπιστο: τα Windows δεν λένε ποια εφαρμογή αντέγραψε κάτι, οπότε το Kleio ελέγχει την εφαρμογή που κατέχει το Πρόχειρο ή βρίσκεται σε πρώτο πλάνο. Προτίμησε τις μορφές Προχείρου όπου είναι δυνατό.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Αγνόησε όλες τις εφαρμογές εκτός από την λίστα</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Αποθήκευση μόνο των αντιγραφών από τις εφαρμογές της παρακάτω λίστας.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αγνόησε όλες τις εφαρμογές εκτός από την λίστα</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Εφαρμογές</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Οι αντιγραφές από αυτές τις εφαρμογές δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Προσθήκη εφαρμογής που εκτελείται</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Προσθήκη εφαρμογής που εκτελείται</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Προσθήκη εφαρμογής με επιλογή του αρχείου προγράμματος</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Προσθήκη εφαρμογής…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Καμία εφαρμογή δεν αγνοείται.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Οι αντιγραφές που περιέχουν κάποια από αυτές τις μορφές Προχείρου δεν αποθηκεύονται. Από προεπιλογή υπάρχει το Kleio.Transient· μπορείς να το αφαιρέσεις και να προσθέσεις όποιες δικές σου μορφές θέλεις.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Για να βρεις το όνομα μιας μορφής, αντίγραψε κάτι στην εφαρμογή και δες το Πρόχειρο με ένα πρόγραμμα προβολής όπως το NirSoft InsideClipboard. Μπορούν να καταχωρηθούν μόνο εγγεγραμμένες μορφές (ονόματα, όχι αριθμοί).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Προσθήκη μορφής Προχείρου</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Όνομα μορφής, π.χ. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Όνομα μορφής Προχείρου</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Προσθήκη μορφής Προχείρου</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Καμία μορφή Προχείρου δεν αγνοείται.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Επαναφορά προεπιλογών</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Επαναφορά των προεπιλεγμένων μορφών Προχείρου</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Οι αντιγραφές των οποίων το κείμενο ταιριάζει με κάποια από αυτές τις κανονικές εκφράσεις δεν αποθηκεύονται. Οι εκφράσεις χρησιμοποιούν σύνταξη ECMAScript (JavaScript) και μπορούν να ταιριάζουν οπουδήποτε στο κείμενο· χρησιμοποίησε ^ και $ για να ταιριάξει όλο το κείμενο.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Παραδείγματα</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 γράμματα ή ψηφία, όπως πολλά κλειδιά API και διακριτικά</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Κωδικοί μίας χρήσης 6 ψηφίων</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Αριθμοί καρτών πληρωμής</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Προσθήκη κανονικής έκφρασης</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Κανονική έκφραση</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Προσθήκη κανονικής έκφρασης</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Μη έγκυρη κανονική έκφραση</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Δεν έχουν οριστεί κανονικές εκφράσεις.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Το Kleio αγνοεί πάντα τις αντιγραφές που φέρουν την ένδειξη «{0}» ή «{1}»: τις συμβάσεις των Windows με τις οποίες οι διαχειριστές κωδικών πρόσβασης και άλλες εφαρμογές κρατούν τα ευαίσθητα δεδομένα μακριά από τους διαχειριστές Προχείρου.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Κατάργηση</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Κατάργηση {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Όνομα εκτελέσιμου αρχείου</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Δεν βρέθηκαν εφαρμογές σε εκτέλεση</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>Το «{0}» δεν είναι έγκυρη κανονική έκφραση ECMAScript.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Παύση</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Παύση του Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Προσωρινή αγνόηση όλων των νέων αντιγραφών. Χρήσιμο ώστε το Kleio να μην καταγράφει όσο αντιγράφεις ευαίσθητα δεδομένα.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Παύση του Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Πιθανότατα θα το χρησιμοποιείς από σενάρια. Κάνε παύση του Kleio από τη γραμμή εντολών όσο αντιγράφεις ευαίσθητα δεδομένα:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… αντιγραφή δεδομένων …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, αντιγραφή δεδομένων, μετά kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Για αγνόηση μόνο της επόμενης αντιγραφής:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… αντιγραφή δεδομένων …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, μετά αντιγραφή δεδομένων</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Μπορείς επίσης να κάνεις Alt+κλικ στο εικονίδιο της περιοχής ειδοποιήσεων για παύση ή συνέχιση του Kleio. Για αγνόηση μόνο της επόμενης αντιγραφής, κάνε Alt+Shift+κλικ.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Εκκαθάριση</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Εκκαθάριση ιστορικού κατά την έξοδο</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Αυτόματη αφαίρεση όλων των μη καρφιτσωμένων στοιχείων πριν από την έξοδο από την εφαρμογή.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εκκαθάριση ιστορικού κατά την έξοδο</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Εκκαθάριση και του Προχείρου του συστήματος</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Όταν είναι ενεργό, η εκκαθάριση του ιστορικού καθαρίζει και το τρέχον Πρόχειρο του συστήματος.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Εκκαθάριση και του Προχείρου του συστήματος</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Λογότυπο του Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Έκδοση {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Διαχείριση Προχείρου για Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Ευχαριστίες</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Το Kleio είναι μεταφορά του Maccy του Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Το Maccy είναι ένα ελαφρύ πρόγραμμα διαχείρισης Προχείρου για macOS. Το Kleio φέρνει τις λειτουργίες και τη διάταξή του στα Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Ιστότοπος του Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ιστότοπος του Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Το Maccy στο GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Το Maccy στο GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Πηγαίος κώδικας</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Ανάφερε προβλήματα, πρότεινε λειτουργίες και συνεισέφερε στο GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Το Kleio στο GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Το Kleio στο GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Υποστήριξη</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Υποστήριξη: αναφορά προβλήματος στο GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Άδεια χρήσης</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Το Kleio και το Maccy είναι ελεύθερο λογισμικό με άδεια MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
+</root>

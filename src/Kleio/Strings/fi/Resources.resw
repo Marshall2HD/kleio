@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Leikepöydän hallinta Windowsille</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Kuva</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Kuva, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Tiedostot</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Leikepöydän kohde</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Kiinnitetty</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Valittu, {0}/{1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Kiinnitä</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Irrota</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Tyhjennä</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Tyhjennä kaikki</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Asetukset…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Tietoja Kleiosta</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Lopeta</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Avaa Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Keskeytä Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ohita seuraava kopiointi</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Lopeta Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Pysäytä liittämispino</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Muokkaa kohdetta</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Vaihto</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Välilyönti</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Askelpalautin</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Sarkain</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Ylös</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Alas</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Vasen</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Oikea</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Hae kirjoittamalla…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hae leikepöydän historiasta</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä tai piilota esikatselu</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Liittämispino</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pysäytä liittämispino</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiinnitetyt kohteet</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Leikepöydän historia</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Kopioi tunnistettu teksti.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kopioi tunnistettu teksti</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiinnitä</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Muokkaa kohdetta</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pysäytä liittämispino</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Sovellus:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Tyhjennä kiinnittämättömät kohteet.
+Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Tyhjennä kaikki kohteet.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Avaa Kleion asetukset.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Lue lisää sovelluksesta.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Lopeta sovellus.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Kopioi jotain, niin näet sen tässä.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Ei tuloksia</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Näytä esikatselu</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Piilota esikatselu</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Paina {0} näyttääksesi esikatselun.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Paina {0} piilottaaksesi esikatselun.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Kiinnitä painamalla {0}.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Irrota painamalla {0}.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Poista painamalla {0}.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Liittämispino · {0} kohde</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Liittämispino · {0} kohdetta</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Liittämispino – jokainen liittäminen siirtää seuraavan kohteen leikepöydälle.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Kopioi</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Liitä</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Liitä ilman muotoilua</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Muokkaa…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Tyhjennetäänkö historia?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Tyhjennetäänkö koko historia?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Haluatko varmasti tyhjentää historian? Kiinnitetyt kohteet säilytetään. Toimintoa ei voi kumota.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Haluatko varmasti tyhjentää historian kiinnitetyt kohteet mukaan lukien? Toimintoa ei voi kumota.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Älä kysy uudelleen</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Otsikko</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Näppäin</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Sisältö</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Teksti on liian pitkä muokattavaksi.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Sisältöä ei voi muokata (kuva tai tiedosto)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Muokkaaminen poistaa kaiken muotoilun.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Mitat: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Ensimmäinen kopiointi: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Viimeisin kopiointi: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Kopiointikertoja: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (keskeytetty)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ohittaa seuraavan kopioinnin)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (ei tallenna mitään tyyppiä)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Kleiosta on saatavilla uusi versio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} on nyt saatavilla. Sinulla on {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Asenna päivitys</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Ohita tämä versio</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Lataa</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Julkaisutiedot</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0}:n asentaminen epäonnistui</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Avaa sovellusten asennusohjelmassa</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Asennetaan Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio käynnistyy uudelleen, kun päivitys on asennettu.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Asennetaan päivitystä</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Ladataan Kleio {0}. Kleio käynnistyy uudelleen, kun päivitys on asennettu.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Päivityksen asentaminen epäonnistui</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Päivitys saatavilla</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio on ajan tasalla</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} on uusin versio.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Päivitysten tarkistaminen epäonnistui</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Julkaistua Kleio-versiota ei löytynyt.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Julkaisut</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Tarkista internetyhteys ja yritä uudelleen.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Julkaisussa ei ole asennuspakettia tälle tietokoneelle.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Lataus epäonnistui (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Ladatun paketin tallentaminen epäonnistui.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Päivitystä ei voitu asentaa.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} on asennettu. Lopeta Kleio ja avaa se uudelleen, niin voit käyttää sitä.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio ei ole vielä valmis.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Leikepöydän kohdetta ei löytynyt</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Leikepöydän kohteella ei ole sisältöä muodossa {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Peruutettu</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Tuntematon komento</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio ei vastannut käynnistyksen jälkeen.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio ei vastaa.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleion käynnistäminen epäonnistui.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio ei ymmärtänyt pyyntöä. Onko käynnissä oleva Kleio samaa versiota?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Kohde on liian suuri.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio ei voinut suorittaa komentoa.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio on sulkeutumassa.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Käyttöohjeet: "kleio --help".</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Komennon lähettäminen Kleiolle epäonnistui.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio ei vastannut.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio lähetti virheellisen vastauksen.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Epäonnistui.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Kohteen {0} kirjoittaminen epäonnistui.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Käytä vain yhtä valitsimista --get, --select, --delete ja --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Kohteen numeroita annettiin useampi kuin yksi.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Kohteen numeron on oltava vähintään 1.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Odottamaton argumentti: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>Valitsinta --format voi käyttää vain valitsimen --get kanssa.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>Valitsimen --format arvon on oltava text, html, rtf, image tai files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>Valitsinta --output voi käyttää vain valitsimen --get kanssa.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>Valitsin --output tarvitsee tiedostopolun.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>Valitsinta --selected voi käyttää vain valitsimen --get kanssa.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>Valitsinta --yes voi käyttää vain valitsimen --clear kanssa.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Tuntematon valitsin: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleion asetukset</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleion asetukset</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Yleiset</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Yleiset</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Yleiset</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Tallennus</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tallennus</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Tallennus</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Ulkoasu</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ulkoasu</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Ulkoasu</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ohita</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ohita</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ohita</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Lisäasetukset</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisäasetukset</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Lisäasetukset</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Pikanäppäin</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Tyhjennä: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Käytä myös {0}-, {1}- tai {2}-näppäintä</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Paina pikanäppäintä…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Tallennetaan. Paina pikanäppäintä, Esc peruuttaa, Askelpalautin tyhjentää</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Ei asetettu</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Valitse ja tallenna uusi pikanäppäin. Esc peruuttaa, Askelpalautin tyhjentää.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Ei asetettu</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tyhjennä pikanäppäin</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tyhjennä pikanäppäin</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Käynnistä kirjauduttaessa</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Käynnistä Kleio automaattisesti, kun kirjaudut Windowsiin.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Käynnistä kirjauduttaessa</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Windows on poistanut käynnistyksen kirjauduttaessa käytöstä</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio on poistettu käytöstä Tehtävienhallinnan kohdassa Käynnistyssovellukset (tai Asetukset &gt; Sovellukset &gt; Käynnistys). Ota se siellä käyttöön, jotta Kleio käynnistyy kirjauduttaessa.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Tarkista päivitykset automaattisesti</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Etsi kerran päivässä GitHubista uudempaa Kleio-julkaisua ja tarjoa sen asentamista.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Tarkista nyt</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tarkista päivitykset nyt</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tarkista päivitykset automaattisesti</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Kleion valikoiden, asetusten ja viestien kieli.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windowsin oletus</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Käynnistä Kleio uudelleen, niin uusi kieli otetaan käyttöön.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Käynnistä uudelleen nyt</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Pikanäppäimet</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Avaa Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Yleinen pikanäppäin sovelluksen avaamiseen. Kun painat päänäppäintä uudelleen muokkausnäppäimiä pitäen, luettelon seuraava kohde valitaan. Tässä tilassa muokkausnäppäinten vapauttaminen vahvistaa valinnan ja sulkee ponnahdusikkunan. Oletus: Win+Vaihto+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleion avaamisen pikanäppäin</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Pikanäppäimen rekisteröinti epäonnistui</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Toinen sovellus käyttää tätä pikanäppäintä. Valitse jokin toinen.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Kiinnitä</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Pikanäppäin historiakohteen kiinnittämiseen. Oletus: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiinnittämisen pikanäppäin</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Pikanäppäin historiakohteen poistamiseen. Oletus: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Poistamisen pikanäppäin</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Esikatselu</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Näytä esikatselu lisätietoineen. Oletus: Ctrl+Välilyönti.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Esikatselun pikanäppäin</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Haku</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Hakutapa</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Miten hakukenttään kirjoittamaasi tekstiä verrataan historian kohteisiin.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hakutapa</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Tarkka</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Sumea</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Säännölliset lausekkeet</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Yhdistetty</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Toiminta</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Liitä automaattisesti</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Liitä valittu kohde aktiiviseen sovellukseen sen sijaan, että vain kopioisit sen.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Liitä automaattisesti</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Liitä ilman muotoilua</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Poista valitusta kohteesta fontit, värit ja muu muotoilu.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Liitä ilman muotoilua</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Mukauta toimintaa kohdetta valittaessa:
+• Valitse {0} painettuna kopioidaksesi kohteen.
+• Valitse {1} painettuna kopioidaksesi ja liittääksesi kohteen.
+• Valitse {2} painettuna kopioidaksesi kohteen, poistaaksesi muotoilun ja liittääksesi sen.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windowsin leikepöytä</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windowsissa on oma leikepöydän historia, joka avataan näppäinyhdistelmällä Win+V. Kleio voi ottaa tämän pikanäppäimen käyttöön ollessaan käynnissä muuttamatta Windowsin asetuksia.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Korvaa Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Kun Kleio on käynnissä, Win+V avaa Kleion Windowsin leikepöydän historian sijaan. Windowsin asetuksia ei muuteta.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Korvaa Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windowsin leikepöytäasetukset</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Ota Windowsin leikepöydän historia käyttöön tai poista se käytöstä tai tyhjennä se kohdassa Asetukset &gt; Järjestelmä &gt; Leikepöytä.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avaa Windowsin leikepöytäasetukset</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Avaa</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Ilmoitukset ja äänet</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Näytä ilmoitukset</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Näytä ilmoitus kohteesta, kun Kleio kopioi kohteen tai tallentaa uuden kopion.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä ilmoitukset</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Ilmoitukset on poistettu käytöstä Windowsissa</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Ota Kleion ilmoitukset käyttöön Windowsin ilmoitusasetuksissa, niin näet ne.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Toista äänet</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Toista ääni, kun Kleio kopioi kohteen tai tallentaa uuden kopion.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Toista äänet</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windowsin ilmoitusasetukset</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Valitse, miten Kleion ilmoitukset näytetään, tai poista ne käytöstä kohdassa Asetukset &gt; Järjestelmä &gt; Ilmoitukset.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avaa Windowsin ilmoitusasetukset</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Avaa</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Valitse, minkä tyyppinen kopioitu sisältö tallennetaan.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Tiedostot</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Resurssienhallinnassa ja muissa sovelluksissa kopioidut tiedostot ja kansiot.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tallenna tiedostot</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Kuvat</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Kuvat ja näyttökuvat.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tallenna kuvat</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Teksti</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Pelkkä teksti, muotoiltu teksti ja HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tallenna teksti</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Koko</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Säilytettävien historiakohteiden määrä. Oletus: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nykyinen koko levyllä.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historian koko</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Lajitteluperuste</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Historian kohteiden järjestys. Oletus: Viimeisimmän kopioinnin aika.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lajitteluperuste</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Viimeisimmän kopioinnin aika</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Ensimmäisen kopioinnin aika</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Kopiointikertojen määrä</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Ponnahdusikkuna</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Ponnahdusikkunan sijainti</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Muuta paikkaa, jossa ponnahdusikkuna näkyy. Oletus: Osoitin.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Palauta sijainti</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Siirrä ponnahdusikkuna takaisin oletussijaintiin</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Palauta sijainti</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näyttö</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ponnahdusikkunan sijainti</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Osoitin</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Ilmaisinalueen kuvake</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Ikkunan keskusta</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Näytön keskusta</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Viimeisin sijainti</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Aktiivinen näyttö</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Näyttö {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Näyttö {0} (ei yhdistetty)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Kiinnitä</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Muuta kiinnitettyjen kohteiden sijaintia. Oletus: Ylös.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kiinnitä</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Ylös</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Alas</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Kuvan korkeus</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Kuvan esikatselun enimmäiskorkeus. Oletus: 40. Vihje: Arvolla 16 kuvat näyttävät tekstikohteilta.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kuvan korkeus</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Avaa esikatselu automaattisesti</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Näytä viiveen jälkeen esikatselu, jossa on lisätietoja valitusta kohteesta.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avaa esikatselu automaattisesti</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Esikatselun viive</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Viive millisekunteina ennen esikatselun näyttämistä. Oletus: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Esikatselun viive millisekunteina</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Korosta osumat</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Muuta hakuosumien korostustyyliä. Oletus: Lihavoitu.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Korosta osumat</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Lihavoitu</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Kursivoitu</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Alleviivattu</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Väri</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Ei mitään</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Näytä erikoismerkit</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Näytä rivinvaihdot, sarkaimet sekä alussa ja lopussa olevat välilyönnit erikoismerkkeinä.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä erikoismerkit</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Ilmaisinalue</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Näytä kuvake ilmaisinalueella</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Näytä Kleion kuvake tehtäväpalkin ilmaisinalueella.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä kuvake ilmaisinalueella</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ilmaisinalueen kuvakkeen tyyli</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleion logo</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Leikepöytä</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Leikepöytä</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paperiliitin</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Paperiliitin</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sakset</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Sakset</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Näytä viimeisin kopio kuvakkeen työkaluvihjeessä</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Näytä viimeisin kopio, kun osoitat ilmaisinalueen kuvaketta.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä viimeisin kopio kuvakkeen työkaluvihjeessä</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Ponnahdusikkunan asettelu</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Näytä hakukenttä</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Näytä hakukenttä aina tai vasta, kun alat kirjoittaa.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä hakukenttä</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hakukentän näkyvyys</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Aina</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Haun aikana</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Näytä otsikko ennen hakukenttää</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Näytä ”Kleio” hakukentän vasemmalla puolella.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä otsikko ennen hakukenttää</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Näytä sovelluskuvakkeet</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Näytä sen sovelluksen kuvake, josta kukin kohde kopioitiin.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä sovelluskuvakkeet</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Näytä heksavärin värimalli</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Näytä värimalli heksadesimaalisten värikoodien vieressä.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä heksavärin värimalli</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Näytä alatunniste</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Näytä komennot Tyhjennä, Asetukset, Tietoja ja Lopeta ponnahdusikkunan alaosassa.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Näytä alatunniste</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Ilman alatunnistetta voit avata asetukset ilmaisinalueen kuvakkeen valikosta tai painamalla ponnahdusikkunassa Ctrl+,.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ohitettavien osiot</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Sovellukset</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Leikepöytämuodot</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Säännölliset lausekkeet</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Tietyistä sovelluksista tulevat kopiot voidaan ohittaa. Huomaa, että tämä ei ole täysin luotettavaa: Windows ei kerro, mikä sovellus kopioi jotain, joten Kleio tarkistaa sovelluksen, joka omistaa leikepöydän tai on etualalla. Käytä mieluummin leikepöytämuotoja, kun se on mahdollista.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ohita kaikki sovellukset paitsi luetellut</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Tallenna vain alla lueteltujen sovellusten kopiot.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ohita kaikki sovellukset paitsi luetellut</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Sovellukset</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Näiden sovellusten kopioita ei tallenneta.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisää käynnissä oleva sovellus</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Lisää käynnissä oleva sovellus</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisää sovellus valitsemalla sen ohjelmatiedosto</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Lisää sovellus…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Mitään sovelluksia ei ohiteta.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Kopioita, jotka sisältävät jonkin näistä leikepöytämuodoista, ei tallenneta. Oletuksena luettelossa on Kleio.Transient; voit poistaa sen ja lisätä haluamiasi omia muotoja.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Löydät muodon nimen kopioimalla jotain sovelluksessa ja tarkastelemalla leikepöytää katseluohjelmalla, kuten NirSoft InsideClipboard. Vain rekisteröityjä muotoja (nimiä, ei numeroita) voi lisätä.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Lisää leikepöytämuoto</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Muodon nimi, esim. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Leikepöytämuodon nimi</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisää leikepöytämuoto</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Mitään leikepöytämuotoja ei ohiteta.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Palauta oletukset</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Palauta leikepöytämuotojen oletukset</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Kopioita, joiden teksti vastaa jotakin näistä säännöllisistä lausekkeista, ei tallenneta. Lausekkeet käyttävät ECMAScript-syntaksia (JavaScript) ja voivat osua mihin tahansa kohtaan tekstiä; käytä merkkejä ^ ja $, jos haluat koko tekstin vastaavan.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Esimerkkejä</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 kirjainta tai numeroa, kuten monet API-avaimet ja tunnukset</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6-numeroiset kertakäyttökoodit</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Maksukorttien numerot</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Lisää säännöllinen lauseke</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Säännöllinen lauseke</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisää säännöllinen lauseke</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Virheellinen säännöllinen lauseke</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Säännöllisiä lausekkeita ei ole määritetty.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio ohittaa aina kopiot, jotka on merkitty muodolla ”{0}” tai ”{1}”: näillä Windowsin käytännöillä salasanojen hallintaohjelmat ja muut sovellukset pitävät arkaluonteiset tiedot poissa leikepöydän hallintaohjelmista.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Poista {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Suoritettavan tiedoston nimi</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Käynnissä olevia sovelluksia ei löytynyt</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>”{0}” ei ole kelvollinen ECMAScript-säännöllinen lauseke.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Tauko</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Keskeytä Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Ohita tilapäisesti kaikki uudet kopiot. Hyödyllistä, jotta Kleio ei tallenna mitään, kun kopioit arkaluonteisia tietoja.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Keskeytä Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Käytät tätä todennäköisesti komentosarjoista. Keskeytä Kleio komentoriviltä arkaluonteisten tietojen kopioinnin ajaksi:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… kopioi tiedot …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, kopioi tiedot, sitten kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Vain seuraavan kopioinnin ohittaminen:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… kopioi tiedot …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, sitten kopioi tiedot</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Voit myös keskeyttää Kleion tai jatkaa sitä napsauttamalla ilmaisinalueen kuvaketta Alt-näppäin painettuna. Jos haluat ohittaa vain seuraavan kopioinnin, napsauta Alt+Vaihto painettuna.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Tyhjennys</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Tyhjennä historia lopetettaessa</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Poista automaattisesti kaikki kiinnittämättömät kohteet ennen sovelluksen lopettamista.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tyhjennä historia lopetettaessa</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Tyhjennä myös järjestelmän leikepöytä</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Kun tämä on käytössä, historian tyhjentäminen tyhjentää myös järjestelmän nykyisen leikepöydän.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tyhjennä myös järjestelmän leikepöytä</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleion logo</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versio {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Leikepöydän hallinta Windowsille</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tarkista päivitykset</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Tekijät</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio on Alex Rodionovin Maccyn sovitus</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy on kevyt leikepöydän hallintaohjelma macOS:lle. Kleio tuo sen ominaisuudet ja asettelun Windows 11:een.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccyn verkkosivusto</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccyn verkkosivusto</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy GitHubissa</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy GitHubissa</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Lähdekoodi</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Ilmoita ongelmista, ehdota ominaisuuksia ja osallistu GitHubissa.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio GitHubissa</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio GitHubissa</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Tuki</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tuki: ilmoita ongelmasta GitHubissa</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Käyttöoikeus</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio ja Maccy ovat vapaita ohjelmistoja, jotka on julkaistu MIT-lisenssillä.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT-lisenssi</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT-lisenssi</value>
+  </data>
+</root>

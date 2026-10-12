@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Pengelola papan klip untuk Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Gambar, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Berkas</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Item papan klip</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Disematkan</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Dipilih, {0} dari {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Sematkan</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Lepas sematan</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Bersihkan</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Bersihkan semua</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Pengaturan…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Tentang Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Buka Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Jeda Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Abaikan salinan berikutnya</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Keluar dari Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Hentikan tumpukan tempel</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Edit item</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Spasi</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Atas</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Bawah</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Kiri</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Kanan</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Ketik untuk mencari…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cari di riwayat papan klip</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan atau sembunyikan pratinjau</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Tumpukan tempel</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hentikan tumpukan tempel</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Item yang disematkan</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Riwayat papan klip</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Salin teks yang diekstrak.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salin teks yang diekstrak</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sematkan</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Edit item</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hentikan tumpukan tempel</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Aplikasi:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Bersihkan item yang tak disematkan.
+Klik item dengan Shift untuk bersihkan.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Bersihkan semuanya.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Buka pengaturan Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Baca selengkapnya mengenai aplikasi.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Keluar aplikasi.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Salin sesuatu untuk melihatnya di sini.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Tidak ada hasil</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Tampilkan pratinjau</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Sembunyikan pratinjau</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Tekan tombol {0} untuk menampilkan pratinjau.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Tekan tombol {0} untuk menyembunyikan pratinjau.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Tekan {0} untuk menyematkan.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Tekan tombol {0} untuk melepas pin.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Tekan {0} untuk menghapus.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Tumpukan tempel · {0} item</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Tumpukan tempel · {0} item</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Tumpukan tempel — setiap kali menempel, item berikutnya dimasukkan ke papan klip.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Salin</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Tempel</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Tempel tanpa format</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Edit…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Bersihkan riwayat?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Bersihkan semua riwayat?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Apakah Anda yakin ingin membersihkan riwayat? Item yang disematkan tetap disimpan. Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Apakah Anda yakin ingin membersihkan riwayat, termasuk item yang disematkan? Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Jangan tanya lagi</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Tombol</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Isi</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Teks ini terlalu panjang untuk diedit.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Konten yang tidak dapat disunting (gambar atau berkas)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Menyunting akan menghapus semua format.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimensi: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Waktu menyalin pertama: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Waktu menyalin terakhir: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Jumlah salinan: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (dijeda)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (mengabaikan salinan berikutnya)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (tidak menyimpan jenis apa pun)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Versi baru Kleio tersedia!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} kini tersedia. Anda memiliki {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Instal pembaruan</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Lewati versi ini</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Unduh</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Catatan rilis</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Tidak dapat menginstal Kleio {0}</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Buka di Penginstal Aplikasi</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Menginstal Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio akan dimulai ulang setelah pembaruan terinstal.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Menginstal pembaruan</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Mengunduh Kleio {0}. Kleio akan dimulai ulang setelah pembaruan terinstal.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Tidak dapat menginstal pembaruan</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Pembaruan tersedia</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio sudah yang terbaru</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} adalah versi terbaru.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Tidak dapat memeriksa pembaruan</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Tidak ditemukan rilis Kleio yang dipublikasikan.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Rilis</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Periksa koneksi internet Anda, lalu coba lagi.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Rilis ini tidak memiliki paket penginstal untuk PC ini.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Unduhan gagal (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Tidak dapat menyimpan paket yang diunduh.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Pembaruan tidak dapat diinstal.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} telah diinstal. Keluar lalu buka kembali Kleio untuk menggunakannya.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio belum siap.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Item papan klip tidak ditemukan</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Item papan klip tidak memiliki konten {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Dibatalkan</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Perintah tidak dikenal</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio tidak merespons setelah dimulai.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio tidak merespons.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Tidak dapat memulai Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio tidak memahami permintaan. Apakah Kleio yang berjalan versinya sama?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Item terlalu besar.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio tidak dapat menjalankan perintah.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio sedang ditutup.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Jalankan "kleio --help" untuk cara penggunaan.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Tidak dapat mengirim perintah ke Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio tidak menjawab.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio mengirim jawaban yang tidak valid.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Gagal.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Tidak dapat menulis {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Gunakan hanya salah satu dari --get, --select, --delete, dan --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>Lebih dari satu nomor item diberikan.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Nomor item harus 1 atau lebih.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Argumen tak terduga: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format hanya dapat digunakan dengan --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format harus salah satu dari text, html, rtf, image, files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output hanya dapat digunakan dengan --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output memerlukan jalur file.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected hanya dapat digunakan dengan --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes hanya dapat digunakan dengan --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Opsi tidak dikenal: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Pengaturan Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Pengaturan Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>Umum</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Umum</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>Umum</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Penyimpanan</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Penyimpanan</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Penyimpanan</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Tampilan</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Abaian</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Abaian</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Abaian</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Mengenai</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mengenai</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Mengenai</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Pintasan</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Hapus {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Sertakan {0}, {1}, atau {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Tekan pintasan…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Merekam. Tekan pintasan, Esc untuk membatalkan, Backspace untuk menghapus</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Belum diatur</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pilih untuk merekam pintasan baru. Esc membatalkan, Backspace menghapus.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Belum diatur</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hapus pintasan</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hapus pintasan</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Luncurkan saat masuk</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Mulai Kleio secara otomatis saat Anda masuk ke Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Luncurkan saat masuk</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Luncurkan saat masuk dinonaktifkan oleh Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio dinonaktifkan di Pengelola Tugas &gt; Aplikasi startup (atau Pengaturan &gt; Aplikasi &gt; Startup). Aktifkan di sana agar Kleio diluncurkan saat masuk.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Periksa pembaruan otomatis</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Cari rilis Kleio yang lebih baru di GitHub sekali sehari dan tawarkan untuk menginstalnya.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Periksa sekarang</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Periksa pembaruan sekarang</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Periksa pembaruan otomatis</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Bahasa menu, pengaturan, dan pesan Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Bawaan Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Mulai ulang Kleio untuk menggunakan bahasa baru.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Mulai ulang sekarang</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Pintasan</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Buka Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Tombol pintasan global untuk membuka aplikasi. Tekan berulang kali tombol utama sambil menahan tombol modifikasi akan memilih item berikutnya dalam daftar. Dalam mode ini, melepaskan tombol modifikasi akan mengonfirmasi pemilihan dan menutup popup. Default: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pintasan untuk membuka Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Tidak dapat mendaftarkan pintasan</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Pintasan ini digunakan oleh aplikasi lain. Pilih yang lain.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Sematkan</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Tombol pintasan untuk menyematkan item riwayat. Bawaan: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pintasan untuk menyematkan</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Tombol pintasan untuk menghapus item riwayat. Bawaan: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pintasan untuk menghapus</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Pratinjau</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Tampilkan pratinjau dengan informasi tambahan. Default: Ctrl+Spasi.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pintasan pratinjau</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Mode pencarian</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Cara teks yang Anda ketik di kolom pencarian dicocokkan dengan item riwayat.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mode pencarian</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Tepat</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Rancu</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Ekspresi reguler</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Campuran</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Perilaku</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Salin otomatis</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Tempelkan item yang dipilih ke aplikasi aktif, bukan hanya menyalinnya.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salin otomatis</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Tempel tanpa format</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Hapus font, warna, dan format lain dari item yang dipilih.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tempel tanpa format</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Ubahsuai perilaku saat memilih item:
+• Pilih dengan {0} ditekan untuk menyalin item.
+• Pilih dengan {1} ditekan untuk menyalin dan menempelkan item.
+• Pilih dengan {2} ditekan untuk menyalin, menghapus format, dan menempelkan item.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Papan klip Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows memiliki riwayat papan klip sendiri yang dibuka dengan Win+V. Kleio dapat mengambil alih pintasan itu selama berjalan, tanpa mengubah pengaturan Windows apa pun.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Ganti Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Selama Kleio berjalan, Win+V membuka Kleio, bukan riwayat papan klip Windows. Pengaturan Windows tidak diubah.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ganti Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Pengaturan papan klip Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Aktifkan, nonaktifkan, atau hapus riwayat papan klip Windows di Pengaturan &gt; Sistem &gt; Papan klip.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Buka pengaturan papan klip Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Pemberitahuan dan suara</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Tampilkan pemberitahuan</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Tampilkan pemberitahuan berisi item saat Kleio menyalin item atau menyimpan salinan baru.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan pemberitahuan</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Pemberitahuan dinonaktifkan di Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Aktifkan pemberitahuan untuk Kleio di pengaturan pemberitahuan Windows agar dapat melihatnya.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Putar suara</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Putar suara saat Kleio menyalin item atau menyimpan salinan baru.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Putar suara</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Pengaturan pemberitahuan Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Pilih cara pemberitahuan Kleio ditampilkan, atau nonaktifkan, di Pengaturan &gt; Sistem &gt; Pemberitahuan.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Buka pengaturan pemberitahuan Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Mengubah jenis konten tersalin yang disimpan.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Berkas</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>File dan folder yang disalin di File Explorer dan aplikasi lain.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Simpan file</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Gambar dan cuplikan layar.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Simpan gambar</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Teks biasa, teks kaya, dan HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Simpan teks</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Riwayat</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Ukuran</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Jumlah item riwayat untuk disimpan. Default: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ukuran saat ini pada cakram.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ukuran riwayat</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Menurut</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Urutan item dalam riwayat. Bawaan: Waktu menyalin terakhir.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Menurut</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Waktu menyalin terakhir</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Waktu menyalin pertama</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Jumlah salinan</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Munculkan di</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Mengubah tempat popup muncul. Bawaan: Kursor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Atur ulang posisi</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kembalikan popup ke posisi bawaan</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Atur ulang posisi</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Layar</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Munculkan di</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Kursor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Ikon area pemberitahuan</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Tengah jendela</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Tengah layar</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Posisi akhir</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Layar aktif</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Layar {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Layar {0} (tidak tersambung)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Sematkan ke</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Mengubah tempat item tersemat. Default: Atas.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sematkan ke</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Atas</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Bawah</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Tinggi gambar</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Tinggi maksimum pratinjau gambar. Bawaan: 40. Petunjuk: Atur ke 16 agar tampil seperti item teks.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tinggi gambar</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Buka pratinjau secara otomatis</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Setelah jeda, tampilkan pratinjau dengan informasi tambahan tentang item yang dipilih.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Buka pratinjau secara otomatis</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Jeda pratinjau</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Jeda (dalam milidetik) sampai pop-up pratinjau ditampilkan. Default: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jeda pratinjau dalam milidetik</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Sorot hasil pencarian</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Mengubah gaya sorot untuk hasil pencarian. Bawaan: Tebal.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sorot hasil pencarian</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Tebal</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Miring</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Garis bawah</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Warna</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Tidak ada</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Tampilkan simbol khusus</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Menampilkan baris baru, tab, spasi awal, dan spasi akhir dengan simbol khusus.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan simbol khusus</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Area pemberitahuan</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Tampilkan ikon di area pemberitahuan</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Tampilkan ikon Kleio di area pemberitahuan pada bilah tugas.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan ikon di area pemberitahuan</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gaya ikon area pemberitahuan</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Papan klip</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Papan klip</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Klip kertas</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Klip kertas</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Gunting</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Gunting</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Tampilkan salinan terbaru di tooltip ikon</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Tampilkan salinan terbaru saat Anda mengarahkan penunjuk ke ikon area pemberitahuan.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan salinan terbaru di tooltip ikon</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Tata letak popup</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Tampilkan kolom pencarian</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Tampilkan kolom pencarian selalu, atau hanya saat Anda mulai mengetik.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan kolom pencarian</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Visibilitas kolom pencarian</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Selalu</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>Saat mencari</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Tampilkan judul sebelum kolom pencarian</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Tampilkan “Kleio” di sebelah kiri kolom pencarian.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan judul sebelum kolom pencarian</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Tampilkan ikon aplikasi</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Tampilkan ikon aplikasi asal setiap item disalin.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan ikon aplikasi</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Tampilkan contoh warna hex</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Tampilkan contoh warna di samping kode warna hex.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan contoh warna hex</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Tampilkan footer</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Tampilkan perintah Bersihkan, Pengaturan, Mengenai, dan Keluar di bagian bawah popup.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tampilkan footer</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Tanpa footer, buka pengaturan dari menu ikon area pemberitahuan atau dengan Ctrl+, di popup.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bagian abaian</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Aplikasi</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Format papan klip</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Ekspresi reguler</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Salinan dari aplikasi tertentu dapat diabaikan. Perlu diingat bahwa ini tidak sepenuhnya andal: Windows tidak memberi tahu aplikasi mana yang menyalin sesuatu, jadi Kleio memeriksa aplikasi pemilik papan klip atau yang ada di latar depan. Sebisa mungkin gunakan format papan klip.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Mengabaikan semua aplikasi kecuali yang terdaftar</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Hanya simpan salinan dari aplikasi yang tercantum di bawah.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mengabaikan semua aplikasi kecuali yang terdaftar</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Aplikasi</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Salinan dari aplikasi ini tidak disimpan.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tambahkan aplikasi yang sedang berjalan</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Tambah aplikasi yang berjalan</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tambahkan aplikasi dengan memilih file programnya</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Tambah aplikasi…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Tidak ada aplikasi yang diabaikan.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Salinan yang berisi salah satu format papan klip ini tidak disimpan. Secara bawaan, Kleio.Transient tercantum; Anda dapat menghapusnya dan menambahkan format kustom apa pun.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Untuk mengetahui nama format, salin sesuatu di aplikasi lalu periksa papan klip dengan penampil seperti NirSoft InsideClipboard. Hanya format terdaftar (nama, bukan angka) yang dapat dicantumkan.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Tambahkan format papan klip</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Nama format, mis. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nama format papan klip</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tambahkan format papan klip</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Tidak ada format papan klip yang diabaikan.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Kembalikan ke bawaan</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kembalikan format papan klip ke bawaan</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Salinan yang teksnya cocok dengan salah satu ekspresi reguler ini tidak disimpan. Ekspresi menggunakan sintaks ECMAScript (JavaScript) dan dapat cocok di mana saja dalam teks; gunakan ^ dan $ untuk mencocokkan seluruh teks.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Contoh</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 huruf atau angka, seperti banyak kunci API dan token</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Kode sekali pakai 6 digit</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Nomor kartu pembayaran</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Tambahkan ekspresi reguler</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ekspresi reguler</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tambahkan ekspresi reguler</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Ekspresi reguler tidak valid</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Tidak ada ekspresi reguler yang ditentukan.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio selalu mengabaikan salinan yang ditandai dengan “{0}” atau “{1}”: konvensi Windows yang digunakan pengelola kata sandi dan aplikasi lain untuk menjauhkan data sensitif dari pengelola papan klip.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Hapus {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Nama file yang dapat dieksekusi</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Tidak ditemukan aplikasi yang berjalan</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” bukan ekspresi reguler ECMAScript yang valid.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Jeda</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Jeda Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Abaikan semua salinan baru untuk sementara. Berguna agar Kleio tidak merekam saat Anda menyalin data sensitif.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jeda Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Anda kemungkinan akan menggunakannya dari skrip. Jeda Kleio dari baris perintah saat menyalin data sensitif:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… salin data …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, salin data, lalu kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Untuk mengabaikan salinan berikutnya saja:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… salin data …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, lalu salin data</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Anda juga dapat Alt+klik ikon area pemberitahuan untuk menjeda atau melanjutkan Kleio. Untuk mengabaikan salinan berikutnya saja, Alt+Shift+klik ikon tersebut.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Pembersihan</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Hapus riwayat saat keluar</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Hapus otomatis semua item yang tidak disematkan sebelum keluar dari aplikasi.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Hapus riwayat saat keluar</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Juga hapus papan klip sistem</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Ketika menyala, menghapus riwayat juga akan menghapus papan klip sistem saat ini.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Juga hapus papan klip sistem</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Logo Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versi {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Pengelola papan klip untuk Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Periksa pembaruan</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Periksa pembaruan</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio adalah porting Maccy karya Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy adalah pengelola papan klip ringan untuk macOS. Kleio membawa fitur dan tata letaknya ke Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Situs web Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Situs web Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy di GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy di GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Kode sumber</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Laporkan masalah, sarankan fitur, dan berkontribusi di GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio di GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio di GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Dukungan</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dukungan: laporkan masalah di GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Lisensi</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio dan Maccy adalah perangkat lunak bebas yang dirilis dengan Lisensi MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Lisensi MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lisensi MIT</value>
+  </data>
+</root>

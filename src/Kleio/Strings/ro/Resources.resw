@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Manager de clipboard pentru Windows</value>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagine</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Imagine, {0}×{1}</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Fișiere</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Element din clipboard</value>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Fixat</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Selectat, {0} din {1}</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Fixează</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Detașează</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Șterge tot</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Setări…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>Despre Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Deschide Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Întrerupe Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignoră următoarea copiere</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Închide Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Oprește stiva de lipire</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Editează elementul</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Spațiu</value>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Sus</value>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Jos</value>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Tastează pentru a căuta…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Caută în istoricul clipboardului</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează sau ascunde previzualizarea</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Stivă de lipire</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oprește stiva de lipire</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Elemente fixate</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Istoricul clipboardului</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Copiază textul extras.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copiază textul extras</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fixează</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Editează elementul</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Oprește stiva de lipire</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Aplicație:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Șterge elementele nefixate.
+Selectează cu Shift pentru a șterge tot.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Șterge tot.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Deschide setările Kleio.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Citește mai mult despre aplicație.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Închide aplicația.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Copiază ceva pentru a-l vedea aici.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>Niciun rezultat</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Afișează previzualizarea</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Ascunde previzualizarea</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Apasă {0} pentru a afișa previzualizarea.</value>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Apasă {0} pentru a ascunde previzualizarea.</value>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Apasă {0} pentru a fixa.</value>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Apasă {0} pentru a detașa.</value>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Apasă {0} pentru a șterge.</value>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Stivă de lipire · {0} element</value>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Stivă de lipire · elemente: {0}</value>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Stivă de lipire — fiecare lipire pune următorul element în clipboard.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Copiază</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Lipește</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Lipește fără formatare</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Editează…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Ștergi istoricul?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Ștergi tot istoricul?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Sigur vrei să ștergi istoricul? Elementele fixate sunt păstrate. Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Sigur vrei să ștergi istoricul, inclusiv elementele fixate? Această acțiune nu poate fi anulată.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Nu mai întreba</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Tastă</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Conținut</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>Acest text este prea lung pentru a fi editat.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Conținut needitabil (imagine sau fișier)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Editarea va șterge formatarea existentă.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimensiuni: {0}×{1}</value>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>Data primei copii: {0}</value>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Data ultimei copii: {0}</value>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Numărul de copii: {0}</value>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (în pauză)</value>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignoră următoarea copiere)</value>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (nu stochează niciun tip)</value>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>Este disponibilă o versiune nouă de Kleio!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} este acum disponibil. Ai versiunea {1}.</value>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Instalează actualizarea</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Omite această versiune</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Descarcă</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Note de lansare</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Kleio {0} nu a putut fi instalat</value>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Deschide în Programul de instalare a aplicațiilor</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Se instalează Kleio {0}</value>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio repornește după instalarea actualizării.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Se instalează actualizarea</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Se descarcă Kleio {0}. Kleio repornește după instalarea actualizării.</value>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Actualizarea nu a putut fi instalată</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Actualizare disponibilă</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>Kleio este la zi</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} este cea mai recentă versiune.</value>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Nu s-au putut căuta actualizări</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>Nu s-a găsit nicio versiune publicată de Kleio.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Versiuni</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Verifică conexiunea la internet și încearcă din nou.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>Versiunea nu are un pachet de instalare pentru acest PC.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>Descărcarea a eșuat (HTTP {0}).</value>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Pachetul descărcat nu a putut fi salvat.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>Actualizarea nu a putut fi instalată.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} a fost instalat. Închide și redeschide Kleio pentru a-l folosi.</value>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio nu este încă pregătit.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Elementul din clipboard nu a fost găsit</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>Elementul din clipboard nu are conținut {0}</value>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Anulat</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Comandă necunoscută</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio nu a răspuns după pornire.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio nu răspunde.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Kleio nu a putut fi pornit.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio nu a înțeles cererea. Kleio care rulează are aceeași versiune?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>Elementul este prea mare.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio nu a putut executa comanda.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio se închide.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Rulează "kleio --help" pentru utilizare.</value>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Comanda nu a putut fi trimisă către Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio nu a răspuns.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio a trimis un răspuns nevalid.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Eșec.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Nu s-a putut scrie {0}.</value>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Folosește doar una dintre opțiunile --get, --select, --delete și --clear.</value>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>S-a indicat mai mult de un număr de element.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>Numărul elementului trebuie să fie cel puțin 1.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Argument neașteptat: {0}</value>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format poate fi folosit doar cu --get.</value>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format trebuie să fie text, html, rtf, image sau files.</value>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output poate fi folosit doar cu --get.</value>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output necesită o cale de fișier.</value>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected poate fi folosit doar cu --get.</value>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes poate fi folosit doar cu --clear.</value>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Opțiune necunoscută: {0}</value>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Setări Kleio</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Setări Kleio</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Stocare</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stocare</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Stocare</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Aspect</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignoră</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignoră</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignoră</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Comandă rapidă</value>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Șterge: {0}</value>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Include {0}, {1} sau {2}</value>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Apasă o comandă rapidă…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Înregistrare. Apasă o comandă rapidă, Esc pentru anulare, Backspace pentru ștergere</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Nesetată</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Selectează pentru a înregistra o comandă rapidă nouă. Esc anulează, Backspace șterge.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Nesetată</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Șterge comanda rapidă</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Șterge comanda rapidă</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Deschide la login</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Pornește Kleio automat când te conectezi la Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Deschide la login</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Pornirea la conectare a fost dezactivată de Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio a fost dezactivat în Manager activități &gt; Aplicații de pornire (sau Setări &gt; Aplicații &gt; Pornire). Activează-l acolo pentru ca Kleio să pornească la conectare.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Verifică actualizările automat</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Caută o dată pe zi o versiune mai nouă de Kleio pe GitHub și oferă instalarea ei.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Verifică acum</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Caută actualizări acum</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Verifică actualizările automat</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>Limba meniurilor, setărilor și mesajelor Kleio.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Limba Windows</value>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Repornește Kleio pentru a folosi noua limbă.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Repornește acum</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Comenzi rapide</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Deschide Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Tastă globală de comandă rapidă pentru a deschide aplicația. O apăsare repetată a tastei principale, în timp ce taste "modifier" sunt menținute apăsate, va selecta următorul element din listă. Eliberare unei taste "modifier" va confirma selecția și va închide fereastra popup. Implicit: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Comandă rapidă pentru deschiderea Kleio</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Comanda rapidă nu a putut fi înregistrată</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>Această comandă rapidă este folosită de altă aplicație. Alege alta.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Fixează</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Tastă de comandă rapidă pentru a fixa un element din istoric. Implicit: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Comandă rapidă pentru fixare</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Tastă de comandă rapidă pentru a șterge un element din istoric. Implicit: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Comandă rapidă pentru ștergere</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Afișează previzualizarea cu informații suplimentare. Implicit: Ctrl+Spațiu.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Comandă rapidă pentru previzualizare</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Mod de căutare</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>Cum este comparat textul introdus în câmpul de căutare cu elementele din istoric.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mod de căutare</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Exactă</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Aproximativă</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Expresii regulate</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Mixt</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Comportament</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Lipește automat</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Lipește elementul selectat în aplicația activă în loc doar să-l copieze.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lipește automat</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Lipește fără formatare</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Elimină fonturile, culorile și alte formatări din elementul selectat.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lipește fără formatare</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Personalizați comportamentul la selectarea unui element:
+- Selectați cu {0} apăsat pentru a copia un element.
+- Selectați cu {1} apăsat pentru a copia și lipi un element.
+- Selectați cu {2} apăsat pentru a copia, șterge formatarea și lipi un element.</value>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Clipboardul Windows</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows are propriul istoric al clipboardului, deschis cu Win+V. Kleio poate prelua această comandă rapidă cât timp rulează, fără a modifica nicio setare Windows.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Înlocuiește Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Cât timp Kleio rulează, Win+V deschide Kleio în locul istoricului clipboardului Windows. Setările Windows nu sunt modificate.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Înlocuiește Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Setările clipboardului Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Activează, dezactivează sau șterge istoricul clipboardului Windows în Setări &gt; Sistem &gt; Clipboard.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Deschide setările clipboardului Windows</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Deschide</value>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Notificări și sunet</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Afișează notificări</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Afișează o notificare cu elementul când Kleio copiază un element sau salvează o copie nouă.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează notificări</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Notificările sunt dezactivate în Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Activează notificările pentru Kleio în setările de notificare Windows pentru a le vedea.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Redă sunete</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Redă un sunet când Kleio copiază un element sau salvează o copie nouă.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redă sunete</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Setările de notificare Windows</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Alege cum apar notificările Kleio sau dezactivează-le în Setări &gt; Sistem &gt; Notificări.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Deschide setările de notificare Windows</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Deschide</value>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Modifică ce tip de conținut copiat ar trebui să fie stocat.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Fișiere</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Fișiere și foldere copiate în Explorer și în alte aplicații.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salvează fișiere</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Imagini și capturi de ecran.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salvează imagini</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Text simplu, text formatat și HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Salvează text</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>Istoric</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Dimensiune</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Numărul de elemente din istoric de păstrat. Implicit: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Dimensiunea curentă pe disc.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Dimensiunea istoricului</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Sortare după</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Ordinea elementelor din istoric. Implicit: Data ultimei copii.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sortare după</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Data ultimei copii</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Data primei copii</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Numărul de copii</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Popup-ul apare</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Schimba unde apare popup-ul. Implicit: Cursor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reseteaza locatia</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Readu popup-ul la poziția implicită</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Reseteaza locatia</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ecran</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Popup-ul apare</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Pictograma din zona de notificare</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Centrul ferestrei</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Centrul ecranului</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Ultima locatie</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Ecranul activ</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Ecranul {0}</value>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Ecranul {0} (neconectat)</value>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Fixează la</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Schimbă poziția elementelor fixate. Implicit: Sus.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Fixează la</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Sus</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Jos</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Înălțimea imaginii</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Înălțime maximă pentru previzualizarea imaginii. Implicit: 40. Sugestie: Setează la 16 pentru a semăna cu elementele de tip text.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Înălțimea imaginii</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Deschide automat previzualizarea</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Afișează după o întârziere o previzualizare cu informații suplimentare despre elementul selectat.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Deschide automat previzualizarea</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Temporizare previzualizare</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Întârzierea în milisecunde până la afișarea ferestrei popup de previzualizare. Implicit: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Întârzierea previzualizării în milisecunde</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Evidențiere potriviri</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Schimbă stilul de evidențiere pentru potrivirile din căutare. Implicit: Aldin (bold).</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Evidențiere potriviri</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Aldin (bold)</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Cursiv</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Subliniat</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Culoare</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>Fără</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Afișează simboluri speciale</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Afișează caractere speciale pentru linie nouă, tabulator, spațiile de la început și de la sfârșit.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează simboluri speciale</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Zona de notificare</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Afișează pictograma în zona de notificare</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Afișează pictograma Kleio în zona de notificare a barei de activități.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează pictograma în zona de notificare</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stilul pictogramei din zona de notificare</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sigla Kleio</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Agrafă</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Agrafă</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Foarfece</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Foarfece</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Afișează ultima copie în sfatul pictogramei</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Afișează cea mai recentă copie când indici pictograma din zona de notificare.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează ultima copie în sfatul pictogramei</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Aspectul popup-ului</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Afișează câmpul de căutare</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Afișează câmpul de căutare mereu sau doar când începi să tastezi.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează câmpul de căutare</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Vizibilitatea câmpului de căutare</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Întotdeauna</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>În timpul căutării</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Afișează titlul înaintea câmpului de căutare</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Afișează „Kleio” în stânga câmpului de căutare.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează titlul înaintea câmpului de căutare</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Afișează iconițele aplicațiilor</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Afișează pictograma aplicației din care a fost copiat fiecare element.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează iconițele aplicațiilor</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Afișare mostră de culoare hexazecimală</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Afișare mostră de culoare lângă codurile de culoare hexazecimale.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișare mostră de culoare hexazecimală</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Afișează subsolul</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Afișează comenzile Șterge, Setări, Despre și Închide în partea de jos a popup-ului.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Afișează subsolul</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Fără subsol, deschide setările din meniul pictogramei din zona de notificare sau cu Ctrl+, în popup.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Secțiuni de ignorare</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Applicații</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Formate de clipboard</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Expresii regulate</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Copiile provenite din anumite aplicații pot fi ignorate. Reține că metoda nu este infailibilă: Windows nu spune ce aplicație a copiat ceva, așa că Kleio verifică aplicația care deține clipboardul sau care este în prim-plan. Folosește formatele de clipboard când este posibil.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignoră toate aplicațiile cu excepția celor din listă</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Salvează doar copiile făcute în aplicațiile de mai jos.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignoră toate aplicațiile cu excepția celor din listă</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Applicații</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Copiile făcute în aceste aplicații nu sunt salvate.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Adaugă o aplicație care rulează</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Adaugă o aplicație care rulează</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Adaugă o aplicație alegând fișierul programului</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Adaugă aplicație…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>Nu este ignorată nicio aplicație.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Copiile care conțin oricare dintre aceste formate de clipboard nu sunt salvate. Implicit, în listă se află Kleio.Transient; îl poți elimina și poți adăuga orice formate personalizate dorești.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>Pentru a afla numele unui format, copiază ceva în aplicație și inspectează clipboardul cu un vizualizator precum NirSoft InsideClipboard. Pot fi listate doar formatele înregistrate (nume, nu numere).</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Adaugă un format de clipboard</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Numele formatului, de ex. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Numele formatului de clipboard</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Adaugă formatul de clipboard</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>Nu este ignorat niciun format de clipboard.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Resetează la valorile implicite</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Resetează formatele de clipboard la valorile implicite</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Copiile al căror text se potrivește cu oricare dintre aceste expresii regulate nu sunt salvate. Expresiile folosesc sintaxa ECMAScript (JavaScript) și se pot potrivi oriunde în text; folosește ^ și $ pentru a potrivi tot textul.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Exemple</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 de litere sau cifre, ca multe chei API și tokenuri</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>Coduri unice din 6 cifre</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Numere de carduri de plată</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Adaugă o expresie regulată</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Expresie regulată</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Adaugă expresia regulată</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Expresie regulată nevalidă</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>Nu sunt definite expresii regulate.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio ignoră întotdeauna copiile marcate cu „{0}” sau „{1}”: convențiile Windows prin care managerii de parole și alte aplicații țin datele sensibile departe de managerii de clipboard.</value>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Elimină {0}</value>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Numele executabilului</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>Nu s-au găsit aplicații care rulează</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>„{0}” nu este o expresie regulată ECMAScript validă.</value>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Întrerupere</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Întrerupe Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Ignoră temporar toate copiile noi. Util ca Kleio să nu înregistreze nimic cât timp copiezi date sensibile.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Întrerupe Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>Probabil vei folosi asta din scripturi. Întrerupe Kleio din linia de comandă cât timp copiezi date sensibile:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… copierea datelor …
+kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, copierea datelor, apoi kleio.exe --resume</value>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>Pentru a ignora doar următoarea copiere:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… copierea datelor …</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, apoi copierea datelor</value>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>Poți și să faci Alt+clic pe pictograma din zona de notificare pentru a întrerupe sau relua Kleio. Pentru a ignora doar următoarea copiere, fă Alt+Shift+clic.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Ștergere</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Șterge istoricul la închiderea aplicației</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Elimină automat toate elementele nefixate înainte de a închide aplicația.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Șterge istoricul la închiderea aplicației</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Șterge și clipboard-ul sistemului</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>Când este activat, ștergerea istoricului va șterge și clipboard-ul actual al sistemului.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Șterge și clipboard-ul sistemului</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sigla Kleio</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Versiunea {0}</value>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Manager de clipboard pentru Windows</value>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Caută actualizări</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Caută actualizări</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Mulțumiri</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio este o adaptare a Maccy de Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy este un manager de clipboard ușor pentru macOS. Kleio aduce funcțiile și aspectul său pe Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Site-ul Maccy</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Site-ul Maccy</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy pe GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy pe GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Cod sursă</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Raportează probleme, sugerează funcții și contribuie pe GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio pe GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio pe GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Asistență</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Asistență: raportează o problemă pe GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>Licență</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio și Maccy sunt software liber publicat sub licența MIT.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>Licența MIT</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Licența MIT</value>
+  </data>
+</root>
