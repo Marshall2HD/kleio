@@ -28,6 +28,8 @@ Built with WinUI 3 (Windows App SDK 2.5), C++/WinRT and MSIX packaging.
 * Native Windows 11 UI: Acrylic popup, Mica settings, light/dark theme, Segoe Fluent icons
 * Search: exact, fuzzy, regular expression, or mixed
 * Pins, preview pane, paste stack, item editor, OCR titles for images
+* Scriptable from the command line: get, select, delete and clear history items
+* Updates itself from GitHub releases
 * Open source and free (MIT)
 
 ## Install
@@ -70,6 +72,7 @@ Windows 11 (build 22000) or later is required.
 12. To pause Kleio and ignore new copies, <kbd>Alt</kbd> + click the notification-area icon or choose *Pause Kleio* from its menu.
 13. To ignore only the next copy, <kbd>Alt</kbd> + <kbd>Shift</kbd> + click the icon or choose *Ignore next copy*.
 14. To customise the behaviour, open *Settings* (<kbd>Ctrl</kbd> + <kbd>,</kbd>).
+    *Settings → General → Notifications and sounds* turns on a notification and a sound for each copy.
 
 The pin, delete, preview and open shortcuts can be changed in *Settings → General*. The copy and paste
 modifiers swap when *Paste automatically* or *Paste without formatting* is enabled, the same as in Maccy.
@@ -81,6 +84,37 @@ Windows has its own clipboard history on <kbd>Win</kbd> + <kbd>V</kbd>. Enable *
 doesn't change any Windows settings: turn the option off, or quit Kleio, and Windows behaves as before.
 
 ## Advanced
+
+### Script Kleio from the command line
+
+Kleio's counterpart to Maccy's Shortcuts actions. The `kleio` command works from PowerShell, the
+Command Prompt and scripts; it talks to the running Kleio and starts it in the background if needed.
+
+```powershell
+kleio --get                  # the item selected in Kleio (else the first unpinned item)
+kleio --get 3                # the 3rd item
+kleio --get 1 --format html  # text, html, rtf, image or files
+kleio --get 2 --format image --output shot.png
+kleio --select 2             # copy the 2nd item, as if you chose it in Kleio
+kleio --delete 4             # delete the 4th item
+kleio --clear                # clear the history except pinned items (asks first)
+kleio --clear --yes          # ... without asking
+kleio --help
+```
+
+* Items are numbered from 1 in the order Kleio lists them, pinned items included.
+* `--get` prints the item's text. Without `--format` it prints the first of text, files (one path
+  per line), image, HTML and RTF that the item has. Images are printed as base64; use `--output`
+  to save the PNG instead. `--output` writes any format to a file and prints the file's path.
+* `--select` copies the item and also pastes it when *Paste automatically* is on, then prints the item's title.
+* `--clear` asks for confirmation unless you chose *Don't ask again* when clearing in Kleio.
+* Output is UTF-8. In Windows PowerShell 5.1, set `[Console]::OutputEncoding = [Text.Encoding]::UTF8`
+  before capturing non-ASCII text, or use `--output`.
+* Exit codes: `0` success, `1` no such item (or it lacks the requested format), `2` invalid
+  arguments, `3` Kleio couldn't be reached, `4` you cancelled the confirmation. Errors go to stderr.
+* `kleio.exe` is a windowed app, so an interactive shell may show its prompt before the output
+  appears. Scripts, pipes and redirection (`$text = kleio --get 1`, `kleio --get 1 > item.txt`)
+  wait for it as usual.
 
 ### Ignore copied items
 
@@ -94,15 +128,22 @@ kleio --settings     # open Settings
 kleio --quit
 ```
 
+You can also <kbd>Alt</kbd> + click the notification-area icon. To ignore only the next copy,
+<kbd>Alt</kbd> + <kbd>Shift</kbd> + click it. The icon is dimmed while Kleio is paused, or when
+*Settings → Storage* saves no type at all.
+
 ### Ignore applications, formats and patterns
 
 *Settings → Ignore* lets you skip copies:
 
 * **Applications**: copies from the listed apps (or from every app except the listed ones).
 * **Clipboard formats**: copies that contain one of the listed clipboard formats. Kleio always
-  ignores `ExcludeClipboardContentFromMonitorProcessing` and `Clipboard Viewer Ignore`. It also
-  ignores content that is marked as excluded from clipboard history (`CanIncludeInClipboardHistory` = 0).
-  Password managers such as KeePassXC, Bitwarden and 1Password set these formats.
+  ignores these, which password managers such as KeePassXC, Bitwarden and 1Password set:
+  * `ExcludeClipboardContentFromMonitorProcessing`
+  * `Clipboard Viewer Ignore`
+  * `CanIncludeInClipboardHistory` set to 0 (content excluded from clipboard history)
+
+  The list also contains `Kleio.Transient` by default; you can remove it or add your own formats.
   Use a clipboard viewer such as [InsideClipboard](https://www.nirsoft.net/utils/inside_clipboard.html) to find the format names an app uses.
 * **Regular expressions**: text copies that match one of the patterns (for example `^[0-9]{6}$` for one-time codes).
 
@@ -136,6 +177,14 @@ Pick another shortcut, or enable *Replace Win+V*.
 
 Open Kleio and press <kbd>Ctrl</kbd> + <kbd>,</kbd>, or choose *Settings…* from the notification-area
 icon's menu, then enable *Show footer* in *Appearance*.
+
+### How does Kleio update?
+
+With *Check for updates automatically* on (*Settings → General*), Kleio looks for a new
+[release](https://github.com/Marshall2HD/kleio/releases) once a day. When there is one, a
+notification offers to install it or skip that version. *Check now* (also in *About*) checks
+right away. Installing downloads the `.msix` for your PC and updates Kleio, which then restarts.
+If that fails, Kleio offers to open the package in App Installer or the release page.
 
 ### Where is my history stored?
 
