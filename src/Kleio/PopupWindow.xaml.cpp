@@ -1996,6 +1996,11 @@ namespace winrt::Kleio::implementation
 
         const bool leadChanged = !(m_lead == lead);
         m_lead = lead;
+        if (leadChanged)
+        {
+            // "kleio --get" without a number returns the selected item (Maccy's Get intent default).
+            Controller().SetSelectedItem(m_lead ? Impl(m_lead)->Item() : nullptr);
+        }
         if (leadChanged && m_lead)
         {
             Announce(m_lead);   // Maccy NavigationManager.leadHistoryItem didSet
