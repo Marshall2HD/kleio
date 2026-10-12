@@ -3,6 +3,8 @@
 
 #include <mmsystem.h>
 
+#include <winrt/Microsoft.Windows.AppNotifications.h>
+
 #pragma comment(lib, "Winmm.lib")
 #pragma comment(lib, "shell32.lib")
 
@@ -84,6 +86,24 @@ namespace Kleio::SystemIntegration
     void OpenWindowsClipboardSettings()
     {
         OpenUri(L"ms-settings:clipboard");
+    }
+
+    void OpenWindowsNotificationSettings()
+    {
+        OpenUri(L"ms-settings:notifications");
+    }
+
+    bool AreAppNotificationsEnabled()
+    {
+        try
+        {
+            return winrt::Microsoft::Windows::AppNotifications::AppNotificationManager::Default().Setting() ==
+                winrt::Microsoft::Windows::AppNotifications::AppNotificationSetting::Enabled;
+        }
+        catch (...)
+        {
+            return false;
+        }
     }
 
     void OpenUri(wchar_t const* uri)

@@ -4,11 +4,13 @@
 #include "Platform/AppInfo.h"
 #include "Platform/SystemIntegration.h"
 #include "Platform/UpdateChecker.h"
+#include "Core/Settings.h"
 
 namespace winrt
 {
     using namespace Microsoft::UI::Xaml;
     using namespace Microsoft::UI::Xaml::Controls;
+    using namespace Microsoft::UI::Xaml::Controls::Primitives;
     using namespace Microsoft::UI::Xaml::Media::Imaging;
     using namespace Windows::Storage::Streams;
 }
@@ -78,60 +80,118 @@ namespace Kleio::SettingsUi
         return bitmap;
     }
 
+    namespace
+    {
+        void ShowInfo(winrt::InfoBar const& infoBar, winrt::InfoBarSeverity severity, std::wstring const& title,
+                      std::wstring const& message, winrt::ButtonBase const& action)
+        {
+            infoBar.Severity(severity);
+            infoBar.Title(title);
+            infoBar.Message(message);
+            infoBar.ActionButton(action);
+            infoBar.IsOpen(true);
+        }
+
+        winrt::HyperlinkButton Link(wchar_t const* text, std::wstring const& uri)
+        {
+            winrt::HyperlinkButton link;
+            link.Content(winrt::box_value(winrt::hstring{ text }));
+            link.NavigateUri(winrt::Windows::Foundation::Uri{ uri });
+            return link;
+        }
+
+        // Sparkle's "Install Update" from the update alert, reported in the same InfoBar.
+        void InstallFromInfoBar(winrt::InfoBar infoBar, winrt::Button checkButton, Kleio::UpdateInfo update)
+        {
+            checkButton.IsEnabled(false);
+            ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, L"Installing update",
+                     L"Downloading Kleio " + update.version + L". Kleio restarts when the update is installed.", nullptr);
+            Kleio::InstallUpdate(update, [infoBar, checkButton, update](std::wstring const& error, std::wstring const& package) {
+                try
+                {
+                    checkButton.IsEnabled(true);
+                    winrt::ButtonBase action{ nullptr };
+                    if (!package.empty())
+                    {
+                        winrt::Button open;
+                        open.Content(winrt::box_value(L"Open in App Installer"));
+                        open.Click([package](auto&&, auto&&) { Kleio::OpenPackageInstaller(package); });
+                        action = open;
+                    }
+                    else
+                    {
+                        action = Link(L"Download", update.releaseUrl.empty() ? std::wstring{ Kleio::ReleasesUrl } : update.releaseUrl);
+                    }
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Error, L"Couldn't install the update", error, action);
+                }
+                catch (...)
+                {
+                }
+            });
+        }
+    }
+
     winrt::fire_and_forget CheckForUpdates(winrt::InfoBar infoBar, winrt::Button button)
     {
-        auto dispatcher = winrt::Microsoft::UI::Dispatching::DispatcherQueue::GetForCurrentThread();
-        winrt::Windows::Foundation::IReference<winrt::hstring> newVersion{ nullptr };
-        bool failed = false;
         try
         {
             button.IsEnabled(false);
             infoBar.IsOpen(false);
-            newVersion = co_await Kleio::CheckForUpdateAsync();
-        }
-        catch (...)
-        {
-            failed = true;
-        }
-        co_await wil::resume_foreground(dispatcher);
-        try
-        {
-            button.IsEnabled(true);
-            if (newVersion)
-            {
-                std::wstring message = L"Kleio ";
-                message += newVersion.Value().c_str();
-                message += L" is available.";
-                winrt::HyperlinkButton link;
-                link.Content(winrt::box_value(L"Download"));
-                link.NavigateUri(winrt::Windows::Foundation::Uri{ Kleio::ReleasesUrl });
-                infoBar.Severity(winrt::InfoBarSeverity::Success);
-                infoBar.Title(L"Update available");
-                infoBar.Message(message);
-                infoBar.ActionButton(link);
-            }
-            else if (failed)
-            {
-                infoBar.Severity(winrt::InfoBarSeverity::Warning);
-                infoBar.Title(L"Couldn't check for updates");
-                infoBar.Message(L"Check your internet connection and try again.");
-                infoBar.ActionButton(nullptr);
-            }
-            else
-            {
-                std::wstring message = L"Kleio ";
-                message += Kleio::SystemIntegration::AppVersion().c_str();
-                message += L" is the latest version.";
-                infoBar.Severity(winrt::InfoBarSeverity::Informational);
-                infoBar.Title(L"You're up to date");
-                infoBar.Message(message);
-                infoBar.ActionButton(nullptr);
-            }
-            infoBar.IsOpen(true);
         }
         catch (...)
         {
         }
+        // Like Sparkle, a manual check also counts as the last check.
+        Kleio::Settings::Instance().LastUpdateCheck(Kleio::UnixNow());
+        Kleio::CheckForUpdate([infoBar, button](Kleio::UpdateCheckResult const& result) {
+            try
+            {
+                button.IsEnabled(true);
+                switch (result.status)
+                {
+                case Kleio::UpdateCheckStatus::Available:
+                {
+                    auto const update = result.update;
+                    std::wstring message = L"Kleio " + update.version + L" is available. You have " +
+                        std::wstring{ Kleio::SystemIntegration::AppVersion() } + L".";
+                    winrt::ButtonBase action{ nullptr };
+                    if (!update.packageUrl.empty())
+                    {
+                        winrt::Button install;
+                        install.Content(winrt::box_value(L"Install update"));
+                        install.Click([infoBar, button, update](auto&&, auto&&) { InstallFromInfoBar(infoBar, button, update); });
+                        action = install;
+                    }
+                    else
+                    {
+                        action = Link(L"Download", update.releaseUrl);
+                    }
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Success, L"Update available", message, action);
+                    infoBar.Content(Link(L"Release notes", update.releaseUrl));
+                    break;
+                }
+                case Kleio::UpdateCheckStatus::UpToDate:
+                    infoBar.Content(nullptr);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, L"You're up to date",
+                             L"Kleio " + std::wstring{ Kleio::SystemIntegration::AppVersion() } + L" is the latest version.", nullptr);
+                    break;
+                case Kleio::UpdateCheckStatus::NoRelease:
+                    infoBar.Content(nullptr);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, L"Couldn't check for updates",
+                             L"No published Kleio release was found.", Link(L"Releases", Kleio::ReleasesUrl));
+                    break;
+                default:
+                    infoBar.Content(nullptr);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, L"Couldn't check for updates",
+                             L"Check your internet connection and try again.", nullptr);
+                    break;
+                }
+            }
+            catch (...)
+            {
+            }
+        });
+        co_return;
     }
 
     namespace

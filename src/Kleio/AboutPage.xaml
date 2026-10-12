@@ -52,7 +52,10 @@
                     </StackPanel>
                 </local:SettingsCard>
                 <local:SettingsCard Header="Source code" Glyph="&#xE943;" Description="Report issues, suggest features and contribute on GitHub.">
-                    <HyperlinkButton Content="Kleio on GitHub" NavigateUri="https://github.com/Marshall2HD/kleio" AutomationProperties.Name="Kleio on GitHub" />
+                    <StackPanel Orientation="Horizontal" Spacing="4">
+                        <HyperlinkButton Content="Kleio on GitHub" NavigateUri="https://github.com/Marshall2HD/kleio" AutomationProperties.Name="Kleio on GitHub" />
+                        <HyperlinkButton Content="Support" NavigateUri="https://github.com/Marshall2HD/kleio/issues" AutomationProperties.Name="Support: report an issue on GitHub" />
+                    </StackPanel>
                 </local:SettingsCard>
                 <local:SettingsCard Header="License" Glyph="&#xE8A5;" Description="Kleio and Maccy are free software released under the MIT License.">
                     <HyperlinkButton Content="MIT License" NavigateUri="https://github.com/Marshall2HD/kleio/blob/HEAD/LICENSE" AutomationProperties.Name="MIT License" />

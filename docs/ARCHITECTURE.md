@@ -67,9 +67,12 @@ or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cp
 | UserDefaults | `ApplicationData.LocalSettings` |
 | Vision OCR for image titles | `Windows.Media.Ocr` |
 | LaunchAtLogin | MSIX `StartupTask` |
-| Sparkle | GitHub Releases check |
+| Sparkle (daily check, Install / Skip this version) | `UpdateScheduler` (daily GitHub Releases check) + `InstallUpdate` (download `.msix`, `PackageManager.AddPackageAsync`, restart) |
+| App Intents (Get, Select, Delete, Clear) | `kleio --get/--select/--delete/--clear` over a named pipe (`Platform/ScriptingPipe`) |
+| `Notifier` (UNUserNotificationCenter, opt-in via permission prompt) | App notifications (`Microsoft.Windows.AppNotifications`), opt-in *Show notifications* setting |
 | Accessibility permission (to paste) | not needed: `SendInput` |
 | `defaults write ignoreEvents` | `kleio.exe --pause` / `--resume` / `--ignore-next` (app execution alias) |
+| Status item `appearsDisabled` (paused or no Save type) | Tray icon drawn at half opacity (`TrayIcon::SetDisabled`) |
 
 ### Windows clipboard conflicts
 
@@ -87,6 +90,8 @@ App ──► AppController ──► Settings (LocalSettings)            Core
                      ├──► MessageWindow ◄── ClipboardService, HotKeyService, TrayIcon   Platform
                      ├──► KeyboardHook (Win+V, paste-stack Ctrl+V detection)
                      ├──► PasteService (SendInput Ctrl+V)
+                     ├──► ScriptingPipe::Server ◄── kleio --get/--select/... (Main.cpp → RunClient)
+                     ├──► UpdateScheduler / InstallUpdate (GitHub releases, PackageManager)
                      ├──► PopupWindow ──► HistoryItemViewModel / HistoryItemRow       UI
                      └──► SettingsWindow ──► *SettingsPage, ShortcutRecorder
 ```
@@ -96,4 +101,12 @@ Copy flow: `WM_CLIPBOARDUPDATE` → settle delay → `ClipboardService` filters 
 refreshes; image items get an OCR title asynchronously via `History::UpdateTitle`.
 
 Select flow: popup → `AppController::Select(item, modifiers)` → hide popup →
-`ClipboardService::Copy` → (optionally) `PasteService::RestoreForegroundWindow` + `Paste`.
+`CopyItem` (`ClipboardService::Copy`, sound, notification) → (optionally) `PasteService::RestoreForegroundWindow` + `Paste`.
+
+Scripting flow: `kleio --get 2` → `Main.cpp` parses it (`Core/Scripting`) instead of redirecting the
+activation → `ScriptingPipe::RunClient` connects to `\\.\pipe\Kleio.Scripting.<SID>.<session>`
+(starting Kleio with `--background` if no instance is registered) → the running instance's
+`ScriptingPipe::Server` thread hands the command to `AppController::RunScript` on the UI thread →
+the result (exit code, error, payload) goes back over the pipe and the client prints it to its
+standard handles or the parent console (`AttachConsole(ATTACH_PARENT_PROCESS)`).
+Activation redirection (`--pause` etc.) can't return anything, hence the pipe.

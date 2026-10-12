@@ -632,6 +632,8 @@ namespace Kleio
     void Settings::ReplaceWinV(bool value) { SetBool(kReplaceWinV, value, false); }
     bool Settings::PlaySounds() const { return GetBool(kPlaySounds, false); }
     void Settings::PlaySounds(bool value) { SetBool(kPlaySounds, value, false); }
+    bool Settings::ShowNotifications() const { return GetBool(kShowNotifications, false); }
+    void Settings::ShowNotifications(bool value) { SetBool(kShowNotifications, value, false); }
 
     // ---- Storage ----
     bool Settings::SaveFiles() const { return GetBool(kSaveFiles, true); }
@@ -771,4 +773,8 @@ namespace Kleio
     void Settings::SuppressClearAlert(bool value) { SetBool(kSuppressClearAlert, value, false); }
     std::vector<std::wstring> Settings::PinOrder() const { return GetList(kPinOrder, {}); }
     void Settings::PinOrder(std::vector<std::wstring> const& value) { SetList(kPinOrder, value, {}); }
+    double Settings::LastUpdateCheck() const { return GetDouble(kLastUpdateCheck, 0.0); }
+    void Settings::LastUpdateCheck(double value) { SetDouble(kLastUpdateCheck, value, 0.0); }
+    std::wstring Settings::SkippedUpdateVersion() const { return ReadRaw(kSkippedUpdateVersion).value_or(std::wstring{}); }
+    void Settings::SkippedUpdateVersion(std::wstring const& value) { WriteRaw(kSkippedUpdateVersion, value, SkippedUpdateVersion()); }
 }

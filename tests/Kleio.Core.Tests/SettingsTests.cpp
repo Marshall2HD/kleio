@@ -58,6 +58,23 @@ TEST(Settings_Defaults)
     CHECK_EQ(s.ClearSystemClipboard(), false);
     CHECK_EQ(s.SuppressClearAlert(), false);
     CHECK(s.PinOrder().empty());
+    CHECK_EQ(s.ShowNotifications(), false);
+    CHECK_EQ(s.LastUpdateCheck(), 0.0);
+    CHECK_EQ(s.SkippedUpdateVersion(), std::wstring{});
+}
+
+TEST(Settings_UpdateState)
+{
+    auto& store = ResetSettings();
+    auto& s = Settings::Instance();
+    s.LastUpdateCheck(1767225600.5);
+    s.SkippedUpdateVersion(L"1.2.3");
+    s.ShowNotifications(true);
+    CHECK_EQ(store.values[L"lastUpdateCheck"], std::wstring{ L"1767225600.5" });
+    CHECK_EQ(store.values[L"skippedUpdateVersion"], std::wstring{ L"1.2.3" });
+    CHECK_EQ(store.values[L"showNotifications"], std::wstring{ L"1" });
+    CHECK_EQ(s.LastUpdateCheck(), 1767225600.5);
+    CHECK_EQ(s.SkippedUpdateVersion(), std::wstring{ L"1.2.3" });
 }
 
 TEST(Settings_Clamping)
