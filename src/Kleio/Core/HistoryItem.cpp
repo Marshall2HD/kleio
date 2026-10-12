@@ -504,6 +504,44 @@ namespace Kleio
         return nullptr;
     }
 
+    std::optional<std::uint32_t> HistoryItem::Modified() const
+    {
+        // Swift's Int(String(data:encoding: .utf8)): optional sign, decimal digits, nothing else.
+        // A terminating NUL (usual for Windows text formats) is tolerated.
+        auto content = Find(ContentType::Modified);
+        if (!content)
+        {
+            return std::nullopt;
+        }
+        std::string_view text{ reinterpret_cast<char const*>(content->value.data()), content->value.size() };
+        while (!text.empty() && text.back() == '\0')
+        {
+            text.remove_suffix(1);
+        }
+        if (!text.empty() && text.front() == '+')
+        {
+            text.remove_prefix(1);
+        }
+        if (text.empty() || text.size() > 10)
+        {
+            return std::nullopt;
+        }
+        std::uint64_t value = 0;
+        for (char c : text)
+        {
+            if (!IsAsciiDigit(c))
+            {
+                return std::nullopt;
+            }
+            value = value * 10 + static_cast<std::uint64_t>(c - '0');
+        }
+        if (value > 0xFFFFFFFFull)
+        {
+            return std::nullopt;
+        }
+        return static_cast<std::uint32_t>(value);
+    }
+
     std::optional<std::wstring> HistoryItem::Text() const
     {
         if (auto content = Find(ContentType::Text))

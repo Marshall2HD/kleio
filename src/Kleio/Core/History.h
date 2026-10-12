@@ -6,6 +6,7 @@
 #include "Settings.h"
 #include "Storage.h"
 
+#include <map>
 #include <string>
 #include <string_view>
 #include <vector>
@@ -32,7 +33,11 @@ namespace Kleio
         //    (+= existing), pin, title and application (Maccy keeps the original source app; only
         //    when the taken-over contents carry the FromKleio marker the new application is kept);
         //    the old row is deleted.
-        //  * Persists, inserts at the sorted position, trims unpinned items beyond HistorySize.
+        //  * Otherwise, if `item` carries the ContentType::Modified marker naming the change count of
+        //    an item added in this session (Maccy's isModified / sessionLog), that item is the one
+        //    replaced: same as above, except that `item` keeps its own (modified) contents.
+        //  * Persists, inserts at the sorted position, trims unpinned items beyond HistorySize, and
+        //    records the item under item->changeCount in the session log (when non-zero).
         // Returns the stored item. Raises ItemAdded(item, wasDuplicate) then Changed.
         HistoryItemPtr Add(HistoryItemPtr item);
 
@@ -88,6 +93,8 @@ namespace Kleio
         void SortPinned();                                  // by PinOrder, stable
         void ReconcilePinOrder();                           // drop unused pins, append missing ones
         void RemovePinFromOrderIfUnused(std::wstring const& pin);
+        HistoryItemPtr IsModified(HistoryItem const& item) const;   // Maccy's isModified
+        void ForgetInSessionLog(HistoryItemPtr const& item);
         std::vector<std::wstring> SupportedPins() const;
         void OnSettingChanged(std::wstring_view key);
 
@@ -96,6 +103,8 @@ namespace Kleio
         Search m_search;
         std::vector<HistoryItemPtr> m_pinned;
         std::vector<HistoryItemPtr> m_unpinned;
+        // Items added in this session by clipboard change count (Maccy's sessionLog). Not persisted.
+        std::map<std::uint32_t, HistoryItemPtr> m_sessionLog;
         Event<std::wstring_view>::Token m_settingsToken = 0;
     };
 }

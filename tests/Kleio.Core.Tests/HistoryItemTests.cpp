@@ -252,6 +252,18 @@ TEST(HistoryItem_TransientTypes)
     }
 }
 
+TEST(HistoryItem_Modified)
+{
+    CHECK(!TextItem(L"one").Modified().has_value());
+    CHECK_EQ(ItemWith(ContentType::Modified, "42").Modified(), std::optional<std::uint32_t>{ 42u });
+    CHECK_EQ(ItemWith(ContentType::Modified, std::string_view{ "42\0", 3 }).Modified(), std::optional<std::uint32_t>{ 42u });
+    CHECK_EQ(ItemWith(ContentType::Modified, "4294967295").Modified(), std::optional<std::uint32_t>{ 4294967295u });
+    CHECK(!ItemWith(ContentType::Modified, "4294967296").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, "").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, "4x").Modified().has_value());
+    CHECK(!ItemWith(ContentType::Modified, " 4").Modified().has_value());
+}
+
 TEST(HistoryItem_ImageWithText)
 {
     // Maccy keeps both; the item is an image (OCR title, image preview) whose text is still

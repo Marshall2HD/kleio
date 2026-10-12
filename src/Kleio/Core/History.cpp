@@ -117,7 +117,8 @@ namespace Kleio
             replacedPinnedIndex = static_cast<std::size_t>(alreadyPinned - m_pinned.begin());
         }
 
-        // findSimilarItem: the first stored item (pinned first) that supersedes the new one.
+        // findSimilarItem: the first stored item (pinned first) that supersedes the new one, else
+        // the item this copy says it modified.
         HistoryItemPtr existing;
         for (auto const* list : { &m_pinned, &m_unpinned })
         {
@@ -134,12 +135,25 @@ namespace Kleio
                 break;
             }
         }
+        HistoryItemPtr modified = IsModified(*item);
+        if (modified == item)
+        {
+            modified = nullptr;
+        }
+        if (!existing)
+        {
+            existing = modified;
+        }
 
         const bool wasDuplicate = existing != nullptr;
         if (existing)
         {
-            // transferContents(from: existing, to: item)
-            item->contents = existing->contents;
+            // transferContents(from: existing, to: item), unless the new contents are a modified
+            // version of the existing ones.
+            if (!modified)
+            {
+                item->contents = existing->contents;
+            }
             item->firstCopiedAt = existing->firstCopiedAt;
             item->numberOfCopies += existing->numberOfCopies;
             item->pin = existing->pin;
@@ -166,6 +180,14 @@ namespace Kleio
                 }
             }
             m_storage.Remove(existing->id);
+            // Change counts that pointed at the replaced item now point at its successor.
+            for (auto& entry : m_sessionLog)
+            {
+                if (entry.second == existing)
+                {
+                    entry.second = item;
+                }
+            }
         }
         else if (item->title.empty() && !item->IsImage())
         {
@@ -175,6 +197,11 @@ namespace Kleio
         // Remove exceeding items. Done before inserting so that a duplicate keeps the size stable.
         const auto size = static_cast<std::size_t>(m_settings.HistorySize());
         TrimTo(item->IsPinned() ? size : size - 1);
+
+        if (item->changeCount != 0)
+        {
+            m_sessionLog[item->changeCount] = item;
+        }
 
         if (item->id == 0)
         {
@@ -222,6 +249,7 @@ namespace Kleio
         m_storage.Remove(item->id);
         Erase(m_pinned, item);
         Erase(m_unpinned, item);
+        ForgetInSessionLog(item);
         if (item->IsPinned())
         {
             RemovePinFromOrderIfUnused(item->pin);
@@ -233,6 +261,7 @@ namespace Kleio
     {
         m_storage.RemoveUnpinned();
         m_unpinned.clear();
+        std::erase_if(m_sessionLog, [](auto const& entry) { return !entry.second->IsPinned(); });
         Changed();
     }
 
@@ -241,6 +270,7 @@ namespace Kleio
         m_storage.RemoveAll();
         m_pinned.clear();
         m_unpinned.clear();
+        m_sessionLog.clear();
         m_settings.PinOrder({});
         Changed();
     }
@@ -513,6 +543,7 @@ namespace Kleio
             auto item = m_unpinned.back();
             m_unpinned.pop_back();
             m_storage.Remove(item->id);
+            ForgetInSessionLog(item);
         }
     }
 
@@ -558,6 +589,23 @@ namespace Kleio
             }
         }
         m_settings.PinOrder(order);
+    }
+
+    HistoryItemPtr History::IsModified(HistoryItem const& item) const
+    {
+        if (const auto modified = item.Modified())
+        {
+            if (const auto it = m_sessionLog.find(*modified); it != m_sessionLog.end())
+            {
+                return it->second;
+            }
+        }
+        return nullptr;
+    }
+
+    void History::ForgetInSessionLog(HistoryItemPtr const& item)
+    {
+        std::erase_if(m_sessionLog, [&item](auto const& entry) { return entry.second == item; });
     }
 
     void History::RemovePinFromOrderIfUnused(std::wstring const& pin)

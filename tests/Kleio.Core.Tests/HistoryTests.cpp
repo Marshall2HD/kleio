@@ -190,6 +190,79 @@ TEST(History_DifferentItemsAreNotMerged)
     CHECK_EQ(f.Items().size(), std::size_t{ 2 });
 }
 
+namespace
+{
+    HistoryItemContent ModifiedMarker(std::string_view changeCount)
+    {
+        return { std::wstring{ ContentType::Modified }, Bytes(changeCount) };
+    }
+}
+
+TEST(History_AddingItemWithDifferentModifiedType)
+{
+    // Port of Maccy's testAddingItemWithDifferentModifiedType: the marker is transient.
+    Fixture f;
+    const std::vector<HistoryItemContent> firstContents{ Text(L"one"), ModifiedMarker("1") };
+    f.history->Add(ItemWithContents(firstContents));
+    auto second = f.history->Add(ItemWithContents({ Text(L"one"), ModifiedMarker("2") }));
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ second }));
+    CHECK(second->contents == firstContents);
+}
+
+TEST(History_ModifiedAfterCopying)
+{
+    // Port of Maccy's testModifiedAfterCopying: an app rewrites the copy made at change count 7.
+    Fixture f;
+    auto foo = MakeTextItem(L"foo");
+    foo->changeCount = 7;
+    f.history->Add(foo);
+
+    auto bar = ItemWithContents({ Text(L"bar"), ModifiedMarker("7") });
+    bar->changeCount = 8;
+    auto merged = f.history->Add(bar);
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ merged }));
+    CHECK_EQ(merged->Text(), std::optional<std::wstring>{ L"bar" });   // the modified contents are kept
+    CHECK_EQ(merged->numberOfCopies, 2);
+    CHECK_EQ(merged->firstCopiedAt, foo->firstCopiedAt);
+    CHECK_EQ(f.StoredItems(), std::size_t{ 1 });
+    CHECK_EQ(f.StoredContents(), std::size_t{ 2 });
+
+    // Both change counts now lead to the merged item.
+    auto again = ItemWithContents({ Text(L"baz"), ModifiedMarker("7") });
+    auto mergedAgain = f.history->Add(again);
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ mergedAgain }));
+    CHECK_EQ(mergedAgain->numberOfCopies, 3);
+}
+
+TEST(History_ModifiedMarkerOutsideSessionIsANewCopy)
+{
+    Fixture f;
+    auto foo = MakeTextItem(L"foo");
+    foo->changeCount = 7;
+    f.history->Add(foo);
+
+    // Unknown change count.
+    f.history->Add(ItemWithContents({ Text(L"bar"), ModifiedMarker("6") }));
+    CHECK_EQ(f.Items().size(), std::size_t{ 2 });
+
+    // Deleted items leave the session log (Maccy's sessionLog.removeValues in delete()).
+    f.history->Delete(foo);
+    auto baz = f.history->Add(ItemWithContents({ Text(L"baz"), ModifiedMarker("7") }));
+    CHECK_EQ(f.Items().size(), std::size_t{ 2 });
+    CHECK_EQ(baz->numberOfCopies, 1);
+
+    // So do cleared ones.
+    auto qux = MakeTextItem(L"qux");
+    qux->changeCount = 9;
+    f.history->Add(qux);
+    f.history->Clear();
+    auto quux = f.history->Add(ItemWithContents({ Text(L"quux"), ModifiedMarker("9") }));
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ quux }));
+    CHECK_EQ(quux->numberOfCopies, 1);
+}
+
 TEST(History_DuplicateWithAllFormatsKeepsOriginalContents)
 {
     // A FromKleio copy reads back every format Kleio wrote; it must merge into the original.

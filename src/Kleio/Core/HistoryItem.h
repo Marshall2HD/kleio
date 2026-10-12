@@ -67,6 +67,9 @@ namespace Kleio
         std::wstring pin;                    // single lowercase letter when pinned, empty otherwise
         std::wstring title;                  // display title (see GenerateTitle)
         std::vector<HistoryItemContent> contents;
+        // Not persisted: clipboard change count (GetClipboardSequenceNumber) at which the copy was
+        // read, 0 when unknown. History keys its session log by it (Maccy's sessionLog).
+        std::uint32_t changeCount = 0;
 
         bool IsPinned() const noexcept { return !pin.empty(); }
 
@@ -84,6 +87,8 @@ namespace Kleio
         std::vector<std::uint8_t> const* Image() const;    // PNG bytes or nullptr
         bool IsImage() const noexcept { return Image() != nullptr; }
         bool FromKleio() const noexcept { return Has(ContentType::FromKleio); }
+        // Change count carried by the ContentType::Modified marker (Maccy's HistoryItem.modified).
+        std::optional<std::uint32_t> Modified() const;
 
         // Plain text used for searching/preview: file paths, else text, else text extracted from
         // RTF/HTML, else the title.
