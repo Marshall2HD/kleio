@@ -40,6 +40,10 @@ namespace winrt::Kleio::implementation
         // Re-reads the view model and the popup UI state.
         void Render();
 
+        // Footer and paste stack rows are standalone UI Automation elements (named via
+        // AutomationProperties.Name); history rows are described by their ListViewItem container.
+        winrt::Microsoft::UI::Xaml::Automation::Peers::AutomationPeer OnCreateAutomationPeer();
+
     private:
         void HandleDataContextChanged(winrt::Microsoft::UI::Xaml::FrameworkElement const& sender,
                                       winrt::Microsoft::UI::Xaml::DataContextChangedEventArgs const& args);
@@ -54,6 +58,8 @@ namespace winrt::Kleio::implementation
         void ApplyTitle(std::wstring const& title, std::vector<::Kleio::TextRange> const& ranges);
         void ApplyBadge(int badge);
         void ApplyShortcut(std::wstring const& text);
+        void ApplyAutomation();
+        winrt::Microsoft::UI::Xaml::DependencyObject AutomationTarget();
         void Unsubscribe() noexcept;
 
         winrt::Kleio::HistoryItemViewModel m_viewModel{ nullptr };
@@ -62,6 +68,8 @@ namespace winrt::Kleio::implementation
         int m_badge = 0;
         bool m_footerSelected = false;
         std::wstring m_footerTooltip;
+        std::wstring m_automationName;
+        std::wstring m_automationShortcut;
     };
 }
 

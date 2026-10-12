@@ -37,6 +37,12 @@ namespace winrt::Kleio::implementation
         bool IsImage() const noexcept { return m_isImage; }
         bool IsPinned() const noexcept { return !m_pin.empty(); }
 
+        // Screen reader texts (Maccy HistoryItemDecorator.accessibilityLabel and the announcement of
+        // NavigationManager.leadHistoryItem): "<title or Image, WxH>, <application>, Pinned" plus
+        // "Selected, i of n" during a multi-selection (`selectionCount` > 0).
+        std::wstring AccessibilityLabel(std::size_t selectionCount);
+        std::wstring SelectionAnnouncement() const;
+
         // -1 when not selected, otherwise the position in the (multi-)selection.
         int SelectionIndex() const noexcept { return m_selectionIndex; }
         bool IsSelected() const noexcept { return m_selectionIndex >= 0; }

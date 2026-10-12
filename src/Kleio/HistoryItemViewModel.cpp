@@ -85,6 +85,62 @@ namespace winrt::Kleio::implementation
         return changed;
     }
 
+    std::wstring HistoryItemViewModel::AccessibilityLabel(std::size_t selectionCount)
+    {
+        if (!m_item)
+        {
+            return {};
+        }
+        std::wstring label;
+        if (m_isImage)
+        {
+            const auto size = ImagePixelSize();
+            label = size.IsEmpty() ? std::wstring{ L"Image" }
+                                   : L"Image, " + std::to_wstring(size.width) + L"x" + std::to_wstring(size.height);
+        }
+        else
+        {
+            label = m_title;
+        }
+        if (!m_application.empty())
+        {
+            if (auto const& name = ::Kleio::PopupImages::AppName(m_application); !name.empty())
+            {
+                label += L", " + name;
+            }
+        }
+        if (IsPinned())
+        {
+            label += L", Pinned";
+        }
+        if (selectionCount > 0 && IsSelected())
+        {
+            label += L", Selected, " + std::to_wstring(m_selectionIndex + 1) + L" of " + std::to_wstring(selectionCount);
+        }
+        return label;
+    }
+
+    std::wstring HistoryItemViewModel::SelectionAnnouncement() const
+    {
+        if (!m_item)
+        {
+            return {};
+        }
+        std::wstring text = m_isImage ? std::wstring{ L"Image" } : m_title;
+        if (!m_application.empty())
+        {
+            if (auto const& name = ::Kleio::PopupImages::AppName(m_application); !name.empty())
+            {
+                text += L", " + name;
+            }
+        }
+        if (IsPinned())
+        {
+            text += L", Pinned";
+        }
+        return text;
+    }
+
     void HistoryItemViewModel::SetSelectionIndex(int index, bool force)
     {
         if (index == m_selectionIndex && !force)

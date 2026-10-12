@@ -33,6 +33,8 @@ namespace Kleio
         Modifiers modifiers = Modifiers::None;
         // Multi-selection in progress: rows show their selection order badge.
         bool multiSelect = false;
+        // Number of selected items (rows' accessibility label "Selected, i of n").
+        std::size_t selectionCount = 0;
 
         // Settings snapshot (refreshed by the popup when settings change).
         bool showApplicationIcons = false;
@@ -53,7 +55,9 @@ namespace Kleio
 
         // "Ctrl+1" style hint for an item whose shortcut key is `key` ("1".."9" or a pin letter),
         // following the held modifiers like Maccy's KeyShortcut.isVisible. Empty when there is none.
-        std::wstring ShortcutHint(std::wstring const& key) const;
+        std::wstring ShortcutHint(std::wstring const& key) const { return ShortcutHint(key, modifiers); }
+        // Same for explicitly given held modifiers (None: the primary shortcut, e.g. for screen readers).
+        std::wstring ShortcutHint(std::wstring const& key, Modifiers pressedModifiers) const;
 
         // Modifiers that trigger `action` with the current settings (None if no modifiers do).
         Modifiers ModifiersFor(ItemAction action) const noexcept

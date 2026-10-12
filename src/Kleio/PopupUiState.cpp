@@ -3,7 +3,7 @@
 
 namespace Kleio
 {
-    std::wstring PopupUiState::ShortcutHint(std::wstring const& key) const
+    std::wstring PopupUiState::ShortcutHint(std::wstring const& key, Modifiers pressedModifiers) const
     {
         if (key.empty())
         {
@@ -42,7 +42,7 @@ namespace Kleio
                 break;
             }
         }
-        const Modifiers pressed = modifiers & (Modifiers::Ctrl | Modifiers::Alt | Modifiers::Shift);
+        const Modifiers pressed = pressedModifiers & (Modifiers::Ctrl | Modifiers::Alt | Modifiers::Shift);
         if (pressed != Modifiers::None)
         {
             for (std::size_t i = 0; i < all.size(); ++i)

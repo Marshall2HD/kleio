@@ -781,6 +781,7 @@ namespace winrt::Kleio::implementation
             PlaceAndShow(target);
             m_shown = true;
             FocusSearch();
+            Announce(m_lead);
             StartAutoOpen();
         }
         catch (winrt::hresult_error const& error)
@@ -1983,14 +1984,22 @@ namespace winrt::Kleio::implementation
             m_manualMulti = false;
         }
         const bool isMulti = IsMultiSelect();
-        ::Kleio::PopupUiState::Get().multiSelect = isMulti;
+        auto& ui = ::Kleio::PopupUiState::Get();
+        ui.multiSelect = isMulti;
+        ui.selectionCount = m_selection.size();
+        // Re-render every selected row when the badges or "Selected, i of n" labels change.
+        const bool forceRender = wasMulti != isMulti || (isMulti && previousCount != m_selection.size());
         for (std::size_t i = 0; i < m_selection.size(); ++i)
         {
-            Impl(m_selection[i])->SetSelectionIndex(static_cast<int>(i), wasMulti != isMulti);
+            Impl(m_selection[i])->SetSelectionIndex(static_cast<int>(i), forceRender);
         }
 
         const bool leadChanged = !(m_lead == lead);
         m_lead = lead;
+        if (leadChanged && m_lead)
+        {
+            Announce(m_lead);   // Maccy NavigationManager.leadHistoryItem didSet
+        }
         if (footer != m_footerSelection)
         {
             m_footerSelection = footer;
@@ -2014,6 +2023,34 @@ namespace winrt::Kleio::implementation
             {
                 StartAutoOpen();
             }
+        }
+    }
+
+    void PopupWindow::Announce(ViewModel const& viewModel)
+    {
+        // Maccy announceForAccessibility (medium priority: rapid selection changes replace each
+        // other): a UIA notification from the focused search box; screen readers read it, it's a
+        // no-op without one.
+        if (!m_shown || !viewModel)
+        {
+            return;
+        }
+        const std::wstring text = ::Kleio::PopupText::Truncate(Impl(viewModel)->SelectionAnnouncement(), 200);
+        if (text.empty())
+        {
+            return;
+        }
+        namespace peers = xaml::Automation::Peers;
+        auto peer = peers::FrameworkElementAutomationPeer::FromElement(SearchBox());
+        if (!peer)
+        {
+            peer = peers::FrameworkElementAutomationPeer::CreatePeerForElement(SearchBox());
+        }
+        if (peer)
+        {
+            peer.RaiseNotificationEvent(peers::AutomationNotificationKind::ActionCompleted,
+                                        peers::AutomationNotificationProcessing::MostRecent,
+                                        winrt::hstring{ text }, L"KleioSelectionChanged");
         }
     }
 

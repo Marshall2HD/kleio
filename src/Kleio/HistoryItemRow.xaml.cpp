@@ -33,6 +33,55 @@ namespace winrt::Kleio::implementation
         PointerMoved({ this, &HistoryItemRow::HandleRowPointerMoved });
         RightTapped({ this, &HistoryItemRow::HandleRowRightTapped });
         RowToolTip().Opened({ this, &HistoryItemRow::HandleToolTipOpened });
+        // The ListViewItem container exists only once the row is in the tree.
+        Loaded([this](auto&&, auto&&) { ApplyAutomation(); });
+    }
+
+    xaml::Automation::Peers::AutomationPeer HistoryItemRow::OnCreateAutomationPeer()
+    {
+        if (m_mode == Mode::History)
+        {
+            return nullptr;
+        }
+        return xaml::Automation::Peers::FrameworkElementAutomationPeer{ *this };
+    }
+
+    xaml::DependencyObject HistoryItemRow::AutomationTarget()
+    {
+        if (m_mode != Mode::History)
+        {
+            return *this;
+        }
+        // DataTemplate root -> ListViewItemPresenter -> ListViewItem (a few levels at most).
+        xaml::DependencyObject current = *this;
+        for (int i = 0; i < 6 && current; ++i)
+        {
+            current = xaml::Media::VisualTreeHelper::GetParent(current);
+            if (auto container = current ? current.try_as<xaml::Controls::ListViewItem>() : nullptr)
+            {
+                return container;
+            }
+        }
+        return nullptr;
+    }
+
+    void HistoryItemRow::ApplyAutomation()
+    {
+        try
+        {
+            auto target = AutomationTarget();
+            if (!target)
+            {
+                return;
+            }
+            // Maccy ListItemView: the row is one element labelled with the full description; its
+            // visual parts are hidden (AccessibilityView="Raw" in the XAML).
+            xaml::Automation::AutomationProperties::SetName(target, hstring{ m_automationName });
+            xaml::Automation::AutomationProperties::SetAcceleratorKey(target, hstring{ m_automationShortcut });
+        }
+        catch (...)
+        {
+        }
     }
 
     void HistoryItemRow::Unsubscribe() noexcept
@@ -96,7 +145,9 @@ namespace winrt::Kleio::implementation
         ApplyBadge(0);
         ApplyShortcut(std::wstring{ shortcut });
         RowRoot().Height(30);
-        xaml::Automation::AutomationProperties::SetName(RowRoot(), title);
+        m_automationName = std::wstring{ title };
+        m_automationShortcut = std::wstring{ shortcut };
+        ApplyAutomation();
         Render();
     }
 
@@ -132,6 +183,9 @@ namespace winrt::Kleio::implementation
                 TitleText().Text(L"");
                 ApplyBadge(0);
                 ApplyShortcut({});
+                m_automationName.clear();
+                m_automationShortcut.clear();
+                ApplyAutomation();
                 return;
             }
 
@@ -209,16 +263,11 @@ namespace winrt::Kleio::implementation
 
             ApplyShortcut(m_mode == Mode::History ? ui.ShortcutHint(vm->ShortcutKey()) : std::wstring{});
 
-            std::wstring name = vm->IsImage() ? std::wstring{ L"Image" } : vm->DisplayTitle();
-            if (vm->IsImage() && !vm->DisplayTitle().empty())
-            {
-                name += L", " + vm->DisplayTitle();
-            }
-            if (vm->IsPinned())
-            {
-                name += L", Pinned";
-            }
-            xaml::Automation::AutomationProperties::SetName(RowRoot(), hstring{ ::Kleio::PopupText::Truncate(name, 200) });
+            // Maccy HistoryItemDecorator.accessibilityLabel (+ the item's primary shortcut, e.g. Ctrl+1).
+            const std::size_t count = m_mode == Mode::History && ui.multiSelect ? ui.selectionCount : 0;
+            m_automationName = ::Kleio::PopupText::Truncate(vm->AccessibilityLabel(count), 200);
+            m_automationShortcut = m_mode == Mode::History ? ui.ShortcutHint(vm->ShortcutKey(), ::Kleio::Modifiers::None) : std::wstring{};
+            ApplyAutomation();
         }
         catch (...)
         {

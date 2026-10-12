@@ -148,6 +148,7 @@ namespace winrt::Kleio::implementation
         void ExtendNext(bool forward);
         void ExtendRange(bool toLast);
         void ToggleInSelection(ViewModel const& viewModel);
+        void Announce(ViewModel const& viewModel);
 
         // ---- actions ----
         void ActivateSelection(::Kleio::Modifiers modifiers);

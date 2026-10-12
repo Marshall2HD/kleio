@@ -7,6 +7,8 @@
     HorizontalContentAlignment="Stretch"
     IsTabStop="False">
 
+    <!-- UI Automation: the row is a single element (Maccy ListItemView .accessibilityElement(children: .ignore));
+         HistoryItemRow::ApplyAutomation names it, so the visual parts below are Raw. -->
     <Grid x:Name="RowRoot" Height="30" Margin="4,1,4,1" CornerRadius="4" Background="Transparent">
         <ToolTipService.ToolTip>
             <ToolTip x:Name="RowToolTip" />
@@ -37,6 +39,7 @@
             </Grid.ColumnDefinitions>
 
             <Image x:Name="AppIconImage"
+                   AutomationProperties.AccessibilityView="Raw"
                    Grid.Column="0"
                    Width="16"
                    Height="16"
@@ -56,6 +59,7 @@
                     Visibility="Collapsed" />
 
             <TextBlock x:Name="TitleText"
+                   AutomationProperties.AccessibilityView="Raw"
                        Grid.Column="2"
                        VerticalAlignment="Center"
                        TextTrimming="CharacterEllipsis"
@@ -63,6 +67,7 @@
                        MaxLines="1" />
 
             <Image x:Name="ThumbnailImage"
+                   AutomationProperties.AccessibilityView="Raw"
                    Grid.Column="2"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Center"
@@ -80,6 +85,7 @@
                     Background="{ThemeResource AccentFillColorDefaultBrush}"
                     Visibility="Collapsed">
                 <TextBlock x:Name="SelectionBadgeText"
+                           AutomationProperties.AccessibilityView="Raw"
                            FontSize="11"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
@@ -97,6 +103,7 @@
                     Background="{ThemeResource ControlFillColorSecondaryBrush}"
                     Visibility="Collapsed">
                 <TextBlock x:Name="ShortcutText"
+                           AutomationProperties.AccessibilityView="Raw"
                            FontSize="11"
                            Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
             </Border>
