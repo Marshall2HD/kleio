@@ -59,7 +59,8 @@ or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cp
 | `⌥⌫` delete item, `⌥P` pin, `⌃Space` preview | `Alt+Delete`, `Alt+P`, `Ctrl+Space` (configurable) |
 | `⌥⌘⌫` clear, `⇧⌥⌘⌫` clear all | `Ctrl+Alt+Backspace`, `Ctrl+Alt+Shift+Backspace` |
 | `⌘,` preferences, `⌘Q` quit | `Ctrl+,`, `Ctrl+Q` |
-| NSPasteboard polling | `AddClipboardFormatListener` (event driven) |
+| NSPasteboard polling (every 0.5 s) | `AddClipboardFormatListener`, debounced: a burst of `WM_CLIPBOARDUPDATE`s (e.g. `OleSetClipboard` + `OleFlushClipboard`) is one copy |
+| All persistable pasteboard types (minus `dyn.*`, OLE sources) | All persistable clipboard formats (minus synthesized ones, GDI handles, OLE plumbing, shell drag state); see `Core/ClipboardFormats.h` |
 | Pasteboard types (`org.nspasteboard.ConcealedType`...) | Clipboard formats (`ExcludeClipboardContentFromMonitorProcessing`, `CanIncludeInClipboardHistory`=0, ...) |
 | Bundle identifiers | Executable paths / names |
 | SwiftData | SQLite (`winsqlite3`, part of Windows) in the package's LocalFolder |
@@ -90,7 +91,7 @@ App ──► AppController ──► Settings (LocalSettings)            Core
                      └──► SettingsWindow ──► *SettingsPage, ShortcutRecorder
 ```
 
-Copy flow: `WM_CLIPBOARDUPDATE` → `ClipboardService` filters & reads → `NewCopy` →
+Copy flow: `WM_CLIPBOARDUPDATE` → settle delay → `ClipboardService` filters & reads every persistable format → `NewCopy` →
 `AppController::OnNewCopy` → `History::Add` (dedupe, persist, trim) → `History::Changed` → popup
 refreshes; image items get an OCR title asynchronously via `History::UpdateTitle`.
 
