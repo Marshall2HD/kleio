@@ -28,6 +28,9 @@ namespace winrt::Kleio::implementation
             winrt::Microsoft::UI::Xaml::DependencyObject const& sender,
             winrt::Microsoft::UI::Xaml::DependencyPropertyChangedEventArgs const& args);
         void UpdateVisuals();
+        void UpdateWrap();
+        bool m_wrapped = false;
+        bool m_wrapApplied = false;
 
         static winrt::Microsoft::UI::Xaml::DependencyProperty s_headerProperty;
         static winrt::Microsoft::UI::Xaml::DependencyProperty s_descriptionProperty;

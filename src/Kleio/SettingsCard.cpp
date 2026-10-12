@@ -24,6 +24,7 @@ namespace winrt::Kleio::implementation
         // Both handlers are on this object's own events, so capturing `this` is safe.
         Loaded([this](winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&) { UpdateVisuals(); });
         IsEnabledChanged([this](winrt::Windows::Foundation::IInspectable const&, winrt::DependencyPropertyChangedEventArgs const&) { UpdateVisuals(); });
+        SizeChanged([this](winrt::Windows::Foundation::IInspectable const&, winrt::SizeChangedEventArgs const&) { UpdateWrap(); });
     }
 
     // Registered lazily (not at static-initialization time, before the XAML runtime is up).
@@ -90,6 +91,40 @@ namespace winrt::Kleio::implementation
         if (auto card = sender.try_as<winrt::Kleio::SettingsCard>())
         {
             winrt::get_self<SettingsCard>(card)->UpdateVisuals();
+        }
+    }
+
+    // Narrow cards put the control under the header and description instead of squeezing the text
+    // column to nothing (Windows Settings / Community Toolkit SettingsCard behaviour).
+    void SettingsCard::UpdateWrap()
+    {
+        try
+        {
+            auto presenter = GetTemplateChild(L"ContentPresenter").try_as<winrt::FrameworkElement>();
+            auto content = Content().try_as<winrt::UIElement>();
+            if (!presenter || !content)
+            {
+                return;
+            }
+            constexpr double kMinTextWidth = 200;
+            auto const padding = Padding();
+            auto const border = BorderThickness();
+            const double icon = (HeaderIcon() || !Glyph().empty()) ? 26.0 + 16.0 : 0.0;   // icon host + column spacing
+            const double available = ActualWidth() - padding.Left - padding.Right - border.Left - border.Right - icon - 16.0;
+            const bool wrap = available - content.DesiredSize().Width < kMinTextWidth;
+            if (wrap == m_wrapped && m_wrapApplied)
+            {
+                return;
+            }
+            m_wrapped = wrap;
+            m_wrapApplied = true;
+            winrt::Grid::SetRow(presenter, wrap ? 1 : 0);
+            winrt::Grid::SetColumn(presenter, wrap ? 1 : 2);
+            presenter.Margin(wrap ? winrt::Thickness{ 0, 8, 0, 0 } : winrt::Thickness{});
+            presenter.HorizontalAlignment(wrap ? winrt::HorizontalAlignment::Left : HorizontalContentAlignment());
+        }
+        catch (...)
+        {
         }
     }
 

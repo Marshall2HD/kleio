@@ -164,6 +164,12 @@
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
+                        <!-- Row 1 holds the control when the card is too narrow for it beside the text
+                             (SettingsCard::UpdateWrap, like the Windows Settings cards). -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
                         <!-- Header, description and icon slots are ContentControls, not ContentPresenters:
                              a ContentPresenter in a ContentControl template whose Content is template-bound to a
                              custom property (and null) falls back to the card's own Content, and the second

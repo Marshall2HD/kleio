@@ -420,18 +420,35 @@ namespace winrt::Kleio::implementation
 
         SearchBox().TextChanged([this](auto&&, auto&&) { Guard([&] { HandleSearchTextChanged(); }); });
         // The context-menu key (or Shift+F10) arrives as ContextRequested on the focused search box,
-        // which would open its Cut/Copy/Paste menu: show the selected item's menu instead. A right
-        // click on the search box keeps the text menu.
-        SearchBox().ContextRequested([this](IInspectable const&, xaml::Input::ContextRequestedEventArgs const& args) {
-            Guard([&] {
-                winrt::Windows::Foundation::Point point{};
-                if (!args.TryGetPosition(nullptr, point) && m_lead)
-                {
-                    args.Handled(true);
-                    OpenContextMenuForLead();
-                }
-            });
-        });
+        // and TextBox handles it itself by opening its Paste/Undo flyout. Take the flyout over: the
+        // keyboard opens the selected item's menu, a right click on the search box keeps the text menu.
+        if (auto textMenu = SearchBox().ContextFlyout())
+        {
+            SearchBox().ContextFlyout(nullptr);
+            SearchBox().AddHandler(xaml::UIElement::ContextRequestedEvent(),
+                winrt::box_value(winrt::Windows::Foundation::TypedEventHandler<xaml::UIElement, xaml::Input::ContextRequestedEventArgs>(
+                    [this, textMenu](xaml::UIElement const&, xaml::Input::ContextRequestedEventArgs const& args) {
+                        Guard([&] {
+                            args.Handled(true);
+                            winrt::Windows::Foundation::Point point{};
+                            if (args.TryGetPosition(SearchBox(), point))
+                            {
+                                controls::Primitives::FlyoutShowOptions options;
+                                options.Position(point);
+                                textMenu.ShowAt(SearchBox(), options);
+                            }
+                            else if (m_lead)
+                            {
+                                OpenContextMenuForLead();
+                            }
+                            else
+                            {
+                                textMenu.ShowAt(SearchBox());
+                            }
+                        });
+                    })),
+                true);
+        }
         // On the very first show the tree loads after Activate(); focus the search box once it exists.
         SearchBox().Loaded([this](auto&&, auto&&) {
             Guard([&] {
