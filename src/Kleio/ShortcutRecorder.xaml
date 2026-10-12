@@ -20,14 +20,14 @@
             BorderThickness="1"
             Click="EditButton_Click"
             LostFocus="EditButton_LostFocus"
-            ToolTipService.ToolTip="Select to record a new shortcut. Esc cancels, Backspace clears.">
+            x:Uid="Recorder_Edit">
             <StackPanel Orientation="Horizontal" Spacing="10">
                 <StackPanel x:Name="KeysPanel" Orientation="Horizontal" Spacing="4" VerticalAlignment="Center" />
                 <TextBlock
                     x:Name="StatusText"
+                    x:Uid="Recorder_Status"
                     VerticalAlignment="Center"
-                    Foreground="{ThemeResource TextFillColorSecondaryBrush}"
-                    Text="Not set" />
+                    Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
                 <FontIcon
                     x:Name="EditGlyph"
                     VerticalAlignment="Center"
@@ -44,8 +44,7 @@
             Background="Transparent"
             BorderThickness="0"
             Click="ClearButton_Click"
-            AutomationProperties.Name="Clear shortcut"
-            ToolTipService.ToolTip="Clear shortcut">
+            x:Uid="Recorder_Clear">
             <FontIcon FontSize="12" Glyph="&#xE711;" />
         </Button>
     </StackPanel>

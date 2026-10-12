@@ -4,6 +4,8 @@
 #include "SettingsWindow.g.cpp"
 #endif
 
+#include "Strings.h"
+
 namespace winrt
 {
     using namespace Microsoft::UI::Windowing;
@@ -36,6 +38,10 @@ namespace winrt::Kleio::implementation
     void SettingsWindow::InitializeComponent()
     {
         SettingsWindowT<SettingsWindow>::InitializeComponent();
+        // Window is not a DependencyObject, so x:Uid can't set its title.
+        Title(winrt::hstring{ ::Kleio::Strings::Get(L"Settings_WindowTitle") });
+        // Pages mirror for right-to-left languages; the title bar keeps the caption buttons' side.
+        NavView().FlowDirection(::Kleio::Strings::FlowDirection());
         SetUpWindow();
 
         // Release the pages when the window closes so their resources (and a shortcut recorder

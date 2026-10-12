@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "Core/Scripting.h"
 
+#include "Core/Localization.h"
+
 namespace Kleio::Scripting
 {
     namespace
@@ -174,7 +176,7 @@ namespace Kleio::Scripting
                 {
                     if (verb && *verb != Verb::Help && *verb != *found)
                     {
-                        return { std::nullopt, L"Use only one of --get, --select, --delete and --clear." };
+                        return { std::nullopt, Localization::Text(L"Script_OneVerb", L"Use only one of --get, --select, --delete and --clear.") };
                     }
                     if (!verb || *verb == Verb::Help)
                     {
@@ -206,17 +208,17 @@ namespace Kleio::Scripting
                 {
                     if (command.number)
                     {
-                        return { std::nullopt, L"More than one item number was given." };
+                        return { std::nullopt, Localization::Text(L"Script_TwoNumbers", L"More than one item number was given.") };
                     }
                     auto number = ParseNumber(arg);
                     if (!number || *number < 1)
                     {
-                        return { std::nullopt, L"The item number must be 1 or greater." };
+                        return { std::nullopt, Localization::Text(L"Script_NumberTooSmall", L"The item number must be 1 or greater.") };
                     }
                     command.number = number;
                     continue;
                 }
-                return { std::nullopt, L"Unexpected argument: " + std::wstring{ arg } };
+                return { std::nullopt, Localization::Format(Localization::Text(L"Script_UnexpectedArgument", L"Unexpected argument: {0}"), { arg }) };
             }
 
             // --name=value
@@ -247,13 +249,13 @@ namespace Kleio::Scripting
             {
                 if (command.verb != Verb::Get)
                 {
-                    return { std::nullopt, L"--format can only be used with --get." };
+                    return { std::nullopt, Localization::Text(L"Script_FormatOnlyWithGet", L"--format can only be used with --get.") };
                 }
                 auto value = takeValue();
                 auto format = value ? FormatFromName(*value) : std::nullopt;
                 if (!format)
                 {
-                    return { std::nullopt, L"--format must be one of text, html, rtf, image, files." };
+                    return { std::nullopt, Localization::Text(L"Script_FormatValues", L"--format must be one of text, html, rtf, image, files.") };
                 }
                 command.format = *format;
             }
@@ -261,12 +263,12 @@ namespace Kleio::Scripting
             {
                 if (command.verb != Verb::Get)
                 {
-                    return { std::nullopt, L"--output can only be used with --get." };
+                    return { std::nullopt, Localization::Text(L"Script_OutputOnlyWithGet", L"--output can only be used with --get.") };
                 }
                 auto value = takeValue();
                 if (!value || value->empty())
                 {
-                    return { std::nullopt, L"--output needs a file path." };
+                    return { std::nullopt, Localization::Text(L"Script_OutputNeedsPath", L"--output needs a file path.") };
                 }
                 command.output = *value;
             }
@@ -274,20 +276,20 @@ namespace Kleio::Scripting
             {
                 if (command.verb != Verb::Get)
                 {
-                    return { std::nullopt, L"--selected can only be used with --get." };
+                    return { std::nullopt, Localization::Text(L"Script_SelectedOnlyWithGet", L"--selected can only be used with --get.") };
                 }
             }
             else if (EqualsAscii(key, L"yes") || EqualsAscii(key, L"y"))
             {
                 if (command.verb != Verb::Clear)
                 {
-                    return { std::nullopt, L"--yes can only be used with --clear." };
+                    return { std::nullopt, Localization::Text(L"Script_YesOnlyWithClear", L"--yes can only be used with --clear.") };
                 }
                 command.yes = true;
             }
             else
             {
-                return { std::nullopt, L"Unknown option: " + std::wstring{ arg } };
+                return { std::nullopt, Localization::Format(Localization::Text(L"Script_UnknownOption", L"Unknown option: {0}"), { arg }) };
             }
         }
 

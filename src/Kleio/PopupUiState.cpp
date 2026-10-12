@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "PopupUiState.h"
 
+#include "Strings.h"
+
 namespace Kleio
 {
     std::wstring PopupUiState::ShortcutHint(std::wstring const& key, Modifiers pressedModifiers) const
@@ -58,7 +60,7 @@ namespace Kleio
         KeyShortcut shortcut;
         shortcut.modifiers = all[chosen];
         shortcut.key = virtualKey;
-        return shortcut.ToString();
+        return Strings::ShortcutText(shortcut);
     }
 
     namespace PopupText

@@ -10,6 +10,7 @@
 #include "Core/Settings.h"
 #include "Platform/KeyboardHook.h"
 #include "SettingsHelpers.h"
+#include "Strings.h"
 
 namespace winrt
 {
@@ -57,10 +58,13 @@ namespace
     std::vector<std::wstring> ModifierNames(Kleio::Modifiers modifiers)
     {
         std::vector<std::wstring> names;
-        if (Kleio::HasFlag(modifiers, Kleio::Modifiers::Ctrl)) names.emplace_back(L"Ctrl");
-        if (Kleio::HasFlag(modifiers, Kleio::Modifiers::Alt)) names.emplace_back(L"Alt");
-        if (Kleio::HasFlag(modifiers, Kleio::Modifiers::Shift)) names.emplace_back(L"Shift");
-        if (Kleio::HasFlag(modifiers, Kleio::Modifiers::Win)) names.emplace_back(L"Win");
+        for (auto const flag : { Kleio::Modifiers::Ctrl, Kleio::Modifiers::Alt, Kleio::Modifiers::Shift, Kleio::Modifiers::Win })
+        {
+            if (Kleio::HasFlag(modifiers, flag))
+            {
+                names.push_back(Kleio::Strings::ModifierName(flag));
+            }
+        }
         return names;
     }
 }
@@ -203,7 +207,9 @@ namespace winrt::Kleio::implementation
             if (m_requireModifier && !HasRequiredModifier(modifiers) && !IsFunctionKey(vk))
             {
                 m_pendingModifiers = modifiers;
-                m_hint = L"Include Ctrl, Alt or Win";
+                m_hint = ::Kleio::Strings::Format(L"Settings_IncludeModifier", ::Kleio::Strings::ModifierName(::Kleio::Modifiers::Ctrl),
+                                                  ::Kleio::Strings::ModifierName(::Kleio::Modifiers::Alt),
+                                                  ::Kleio::Strings::ModifierName(::Kleio::Modifiers::Win));
                 UpdateView();
                 return;
             }
@@ -316,9 +322,9 @@ namespace winrt::Kleio::implementation
                 }
                 else if (m_pendingModifiers == ::Kleio::Modifiers::None)
                 {
-                    status = L"Press a shortcut…";
+                    status = ::Kleio::Strings::Get(L"Settings_PressShortcut");
                 }
-                spoken = L"Recording. Press a shortcut, Esc to cancel, Backspace to clear";
+                spoken = ::Kleio::Strings::Get(L"Settings_Recording");
             }
             else
             {
@@ -329,13 +335,13 @@ namespace winrt::Kleio::implementation
                     {
                         AddKeycap(name, false);
                     }
-                    AddKeycap(::Kleio::KeyShortcut::KeyName(parsed->key), false);
-                    spoken = std::wstring{ m_shortcut };
+                    AddKeycap(::Kleio::Strings::KeyText(parsed->key), false);
+                    spoken = ::Kleio::Strings::ShortcutText(*parsed);
                 }
                 else
                 {
-                    status = L"Not set";
-                    spoken = L"Not set";
+                    status = ::Kleio::Strings::Get(L"Settings_NotSet");
+                    spoken = status;
                 }
             }
 
@@ -365,10 +371,10 @@ namespace winrt::Kleio::implementation
             }
             if (label.empty())
             {
-                label = L"Shortcut";
+                label = ::Kleio::Strings::Get(L"Settings_Shortcut");
             }
-            winrt::AutomationProperties::SetName(EditButton(), winrt::hstring{ label + L": " + spoken });
-            winrt::AutomationProperties::SetName(ClearButton(), winrt::hstring{ L"Clear " + label });
+            winrt::AutomationProperties::SetName(EditButton(), winrt::hstring{ ::Kleio::Strings::Format(L"Settings_NameValue", label, spoken) });
+            winrt::AutomationProperties::SetName(ClearButton(), winrt::hstring{ ::Kleio::Strings::Format(L"Settings_ClearNamed", label) });
         }
         catch (...)
         {

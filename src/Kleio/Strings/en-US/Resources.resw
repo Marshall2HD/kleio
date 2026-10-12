@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Do not translate. LeftToRight, or RightToLeft for right-to-left languages.</comment>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Clipboard manager for Windows</value>
+    <comment>Package description and About page.</comment>
+  </data>
+  <data name="ListSeparator" xml:space="preserve">
+    <value>, </value>
+    <comment>Joins the parts of a spoken item description, e.g. "Image, Paint, Pinned".</comment>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageWithSize" xml:space="preserve">
+    <value>Image, {0}x{1}</value>
+    <comment>{0} = width, {1} = height in pixels.</comment>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="ClipboardItem" xml:space="preserve">
+    <value>Clipboard item</value>
+    <comment>Notification text for an item without a title.</comment>
+  </data>
+  <data name="Pinned" xml:space="preserve">
+    <value>Pinned</value>
+  </data>
+  <data name="SelectedOf" xml:space="preserve">
+    <value>Selected, {0} of {1}</value>
+    <comment>{0} = position in the selection, {1} = number of selected items.</comment>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="Unpin" xml:space="preserve">
+    <value>Unpin</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Clear all</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingsEllipsis" xml:space="preserve">
+    <value>Settings…</value>
+  </data>
+  <data name="AboutKleio" xml:space="preserve">
+    <value>About Kleio</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="OpenKleio" xml:space="preserve">
+    <value>Open Kleio</value>
+  </data>
+  <data name="PauseKleio" xml:space="preserve">
+    <value>Pause Kleio</value>
+  </data>
+  <data name="IgnoreNextCopy" xml:space="preserve">
+    <value>Ignore next copy</value>
+  </data>
+  <data name="QuitKleio" xml:space="preserve">
+    <value>Quit Kleio</value>
+  </data>
+  <data name="StopPasteStack" xml:space="preserve">
+    <value>Stop paste stack</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>Edit item</value>
+  </data>
+  <data name="Key_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Alt" xml:space="preserve">
+    <value>Alt</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Shift" xml:space="preserve">
+    <value>Shift</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Win" xml:space="preserve">
+    <value>Win</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Space" xml:space="preserve">
+    <value>Space</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Enter" xml:space="preserve">
+    <value>Enter</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Tab" xml:space="preserve">
+    <value>Tab</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Escape" xml:space="preserve">
+    <value>Esc</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Insert" xml:space="preserve">
+    <value>Insert</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_End" xml:space="preserve">
+    <value>End</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_PageUp" xml:space="preserve">
+    <value>PageUp</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_PageDown" xml:space="preserve">
+    <value>PageDown</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Up" xml:space="preserve">
+    <value>Up</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Down" xml:space="preserve">
+    <value>Down</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Left" xml:space="preserve">
+    <value>Left</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Key_Right" xml:space="preserve">
+    <value>Right</value>
+    <comment>Key name as printed on keyboards in this language. Shown in shortcuts such as Ctrl+Shift+C.</comment>
+  </data>
+  <data name="Popup_Search.PlaceholderText" xml:space="preserve">
+    <value>Type to search…</value>
+  </data>
+  <data name="Popup_Search.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Search clipboard history</value>
+  </data>
+  <data name="Popup_PreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show or hide preview</value>
+  </data>
+  <data name="Popup_PasteStackTitle.Text" xml:space="preserve">
+    <value>Paste stack</value>
+  </data>
+  <data name="Popup_PasteStackStop.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stop paste stack</value>
+  </data>
+  <data name="Popup_PinnedList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pinned items</value>
+  </data>
+  <data name="Popup_HistoryList.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clipboard history</value>
+  </data>
+  <data name="Popup_CopyExtractedText" xml:space="preserve">
+    <value>Copy extracted text.</value>
+  </data>
+  <data name="Popup_PreviewCopyText.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copy extracted text</value>
+  </data>
+  <data name="Popup_PreviewPin.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="Popup_PreviewEdit.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Edit item</value>
+  </data>
+  <data name="Popup_PreviewDelete.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Popup_PreviewStopStack.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Stop paste stack</value>
+  </data>
+  <data name="Popup_PreviewApplication.Text" xml:space="preserve">
+    <value>Application:</value>
+  </data>
+  <data name="Popup_ClearTooltip" xml:space="preserve">
+    <value>Clear unpinned items.
+Select with Shift to clear all.</value>
+  </data>
+  <data name="Popup_ClearAllTooltip" xml:space="preserve">
+    <value>Clear all items.</value>
+  </data>
+  <data name="Popup_SettingsTooltip" xml:space="preserve">
+    <value>Open Kleio settings.</value>
+  </data>
+  <data name="Popup_AboutTooltip" xml:space="preserve">
+    <value>Read more about the application.</value>
+  </data>
+  <data name="Popup_QuitTooltip" xml:space="preserve">
+    <value>Quit application.</value>
+  </data>
+  <data name="Popup_Empty" xml:space="preserve">
+    <value>Copy something to see it here.</value>
+  </data>
+  <data name="Popup_NoResults" xml:space="preserve">
+    <value>No results</value>
+  </data>
+  <data name="Popup_ShowPreview" xml:space="preserve">
+    <value>Show preview</value>
+  </data>
+  <data name="Popup_HidePreview" xml:space="preserve">
+    <value>Hide preview</value>
+  </data>
+  <data name="Popup_PressToShowPreview" xml:space="preserve">
+    <value>Press {0} to show preview.</value>
+    <comment>{0} = shortcut, e.g. Ctrl+Space.</comment>
+  </data>
+  <data name="Popup_PressToHidePreview" xml:space="preserve">
+    <value>Press {0} to hide preview.</value>
+    <comment>{0} = shortcut, e.g. Ctrl+Space.</comment>
+  </data>
+  <data name="Popup_PressToPin" xml:space="preserve">
+    <value>Press {0} to pin.</value>
+    <comment>{0} = shortcut, e.g. Alt+P.</comment>
+  </data>
+  <data name="Popup_PressToUnpin" xml:space="preserve">
+    <value>Press {0} to unpin.</value>
+    <comment>{0} = shortcut, e.g. Alt+P.</comment>
+  </data>
+  <data name="Popup_PressToDelete" xml:space="preserve">
+    <value>Press {0} to delete.</value>
+    <comment>{0} = shortcut, e.g. Alt+Delete.</comment>
+  </data>
+  <data name="Popup_PasteStackCountOne" xml:space="preserve">
+    <value>Paste stack · {0} item</value>
+    <comment>Paste stack header with one item. {0} = 1.</comment>
+  </data>
+  <data name="Popup_PasteStackCountOther" xml:space="preserve">
+    <value>Paste stack · {0} items</value>
+    <comment>Paste stack header with several items. {0} = number of items.</comment>
+  </data>
+  <data name="Popup_PasteStackPreview" xml:space="preserve">
+    <value>Paste stack — each paste puts the next item on the clipboard.</value>
+  </data>
+  <data name="Popup_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Popup_Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Popup_PasteWithoutFormatting" xml:space="preserve">
+    <value>Paste without formatting</value>
+  </data>
+  <data name="Popup_Edit" xml:space="preserve">
+    <value>Edit…</value>
+  </data>
+  <data name="Popup_ClearTitle" xml:space="preserve">
+    <value>Clear history?</value>
+  </data>
+  <data name="Popup_ClearAllTitle" xml:space="preserve">
+    <value>Clear all history?</value>
+  </data>
+  <data name="Popup_ClearMessage" xml:space="preserve">
+    <value>Are you sure you want to clear the history? Pinned items are kept. You can't undo this action.</value>
+  </data>
+  <data name="Popup_ClearAllMessage" xml:space="preserve">
+    <value>Are you sure you want to clear the history, including pinned items? You can't undo this action.</value>
+  </data>
+  <data name="Popup_DontAskAgain" xml:space="preserve">
+    <value>Don't ask again</value>
+  </data>
+  <data name="Popup_EditorTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Popup_EditorKey" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Popup_EditorContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Popup_EditorTooLong" xml:space="preserve">
+    <value>This text is too long to edit.</value>
+  </data>
+  <data name="Popup_EditorNotText" xml:space="preserve">
+    <value>Non-editable content (image or file)</value>
+  </data>
+  <data name="Popup_EditorRichText" xml:space="preserve">
+    <value>Editing will discard all formatting.</value>
+  </data>
+  <data name="Popup_EditorSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Popup_Dimensions" xml:space="preserve">
+    <value>Dimensions: {0}×{1}</value>
+    <comment>{0} = width, {1} = height in pixels.</comment>
+  </data>
+  <data name="Popup_FirstCopyTime" xml:space="preserve">
+    <value>First copy time: {0}</value>
+    <comment>{0} = date and time.</comment>
+  </data>
+  <data name="Popup_LastCopyTime" xml:space="preserve">
+    <value>Last copy time: {0}</value>
+    <comment>{0} = date and time.</comment>
+  </data>
+  <data name="Popup_NumberOfCopies" xml:space="preserve">
+    <value>Number of copies: {0}</value>
+    <comment>{0} = number.</comment>
+  </data>
+  <data name="Tray_Paused" xml:space="preserve">
+    <value>Kleio (paused)</value>
+    <comment>Tooltip of the notification-area icon.</comment>
+  </data>
+  <data name="Tray_IgnoringNext" xml:space="preserve">
+    <value>Kleio (ignoring next copy)</value>
+    <comment>Tooltip of the notification-area icon.</comment>
+  </data>
+  <data name="Tray_NotSaving" xml:space="preserve">
+    <value>Kleio (not saving any type)</value>
+    <comment>Tooltip of the notification-area icon.</comment>
+  </data>
+  <data name="Update_NotificationTitle" xml:space="preserve">
+    <value>A new version of Kleio is available!</value>
+  </data>
+  <data name="Update_Available" xml:space="preserve">
+    <value>Kleio {0} is now available. You have {1}.</value>
+    <comment>{0} = new version, {1} = installed version.</comment>
+  </data>
+  <data name="Update_Install" xml:space="preserve">
+    <value>Install update</value>
+  </data>
+  <data name="Update_Skip" xml:space="preserve">
+    <value>Skip this version</value>
+  </data>
+  <data name="Update_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Release notes</value>
+  </data>
+  <data name="Update_InstallFailedTitle" xml:space="preserve">
+    <value>Couldn't install Kleio {0}</value>
+    <comment>{0} = version.</comment>
+  </data>
+  <data name="Update_OpenInAppInstaller" xml:space="preserve">
+    <value>Open in App Installer</value>
+  </data>
+  <data name="Update_Installing" xml:space="preserve">
+    <value>Installing Kleio {0}</value>
+    <comment>{0} = version.</comment>
+  </data>
+  <data name="Update_RestartsWhenInstalled" xml:space="preserve">
+    <value>Kleio restarts when the update is installed.</value>
+  </data>
+  <data name="Update_InstallingTitle" xml:space="preserve">
+    <value>Installing update</value>
+  </data>
+  <data name="Update_Downloading" xml:space="preserve">
+    <value>Downloading Kleio {0}. Kleio restarts when the update is installed.</value>
+    <comment>{0} = version.</comment>
+  </data>
+  <data name="Update_InstallFailed" xml:space="preserve">
+    <value>Couldn't install the update</value>
+  </data>
+  <data name="Update_AvailableTitle" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="Update_UpToDateTitle" xml:space="preserve">
+    <value>You're up to date</value>
+  </data>
+  <data name="Update_UpToDate" xml:space="preserve">
+    <value>Kleio {0} is the latest version.</value>
+    <comment>{0} = installed version.</comment>
+  </data>
+  <data name="Update_CheckFailed" xml:space="preserve">
+    <value>Couldn't check for updates</value>
+  </data>
+  <data name="Update_NoRelease" xml:space="preserve">
+    <value>No published Kleio release was found.</value>
+  </data>
+  <data name="Update_Releases" xml:space="preserve">
+    <value>Releases</value>
+  </data>
+  <data name="Update_CheckConnection" xml:space="preserve">
+    <value>Check your internet connection and try again.</value>
+  </data>
+  <data name="Update_NoPackage" xml:space="preserve">
+    <value>The release has no installer package for this PC.</value>
+  </data>
+  <data name="Update_DownloadFailed" xml:space="preserve">
+    <value>The download failed (HTTP {0}).</value>
+    <comment>{0} = HTTP status code.</comment>
+  </data>
+  <data name="Update_SaveFailed" xml:space="preserve">
+    <value>Couldn't save the downloaded package.</value>
+  </data>
+  <data name="Update_NotInstalled" xml:space="preserve">
+    <value>The update couldn't be installed.</value>
+  </data>
+  <data name="Update_InstalledRestart" xml:space="preserve">
+    <value>Kleio {0} was installed. Quit and reopen Kleio to use it.</value>
+    <comment>{0} = version.</comment>
+  </data>
+  <data name="Script_NotReady" xml:space="preserve">
+    <value>Kleio isn't ready yet.</value>
+  </data>
+  <data name="Script_NotFound" xml:space="preserve">
+    <value>Clipboard item not found</value>
+  </data>
+  <data name="Script_NoFormat" xml:space="preserve">
+    <value>The clipboard item has no {0} content</value>
+    <comment>{0} = format name as typed on the command line: text, html, rtf, image or files.</comment>
+  </data>
+  <data name="Script_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Script_UnknownCommand" xml:space="preserve">
+    <value>Unknown command</value>
+  </data>
+  <data name="Script_NoResponseAfterStart" xml:space="preserve">
+    <value>Kleio didn't respond after starting.</value>
+  </data>
+  <data name="Script_NotResponding" xml:space="preserve">
+    <value>Kleio isn't responding.</value>
+  </data>
+  <data name="Script_CouldNotStart" xml:space="preserve">
+    <value>Couldn't start Kleio.</value>
+  </data>
+  <data name="Script_BadRequest" xml:space="preserve">
+    <value>Kleio didn't understand the request. Is the running Kleio the same version?</value>
+  </data>
+  <data name="Script_TooLarge" xml:space="preserve">
+    <value>The item is too large.</value>
+  </data>
+  <data name="Script_CouldNotRun" xml:space="preserve">
+    <value>Kleio couldn't run the command.</value>
+  </data>
+  <data name="Script_Quitting" xml:space="preserve">
+    <value>Kleio is quitting.</value>
+  </data>
+  <data name="Script_SeeHelp" xml:space="preserve">
+    <value>{0} Run "kleio --help" for usage.</value>
+    <comment>{0} = error message. Keep "kleio --help" as is.</comment>
+  </data>
+  <data name="Script_SendFailed" xml:space="preserve">
+    <value>Couldn't send the command to Kleio.</value>
+  </data>
+  <data name="Script_NoAnswer" xml:space="preserve">
+    <value>Kleio didn't answer.</value>
+  </data>
+  <data name="Script_InvalidAnswer" xml:space="preserve">
+    <value>Kleio sent an invalid answer.</value>
+  </data>
+  <data name="Script_Failed" xml:space="preserve">
+    <value>Failed.</value>
+  </data>
+  <data name="Script_WriteFailed" xml:space="preserve">
+    <value>Couldn't write {0}.</value>
+    <comment>{0} = file path.</comment>
+  </data>
+  <data name="Script_OneVerb" xml:space="preserve">
+    <value>Use only one of --get, --select, --delete and --clear.</value>
+    <comment>Keep the options as is.</comment>
+  </data>
+  <data name="Script_TwoNumbers" xml:space="preserve">
+    <value>More than one item number was given.</value>
+  </data>
+  <data name="Script_NumberTooSmall" xml:space="preserve">
+    <value>The item number must be 1 or greater.</value>
+  </data>
+  <data name="Script_UnexpectedArgument" xml:space="preserve">
+    <value>Unexpected argument: {0}</value>
+    <comment>{0} = the argument.</comment>
+  </data>
+  <data name="Script_FormatOnlyWithGet" xml:space="preserve">
+    <value>--format can only be used with --get.</value>
+    <comment>Keep the options as is.</comment>
+  </data>
+  <data name="Script_FormatValues" xml:space="preserve">
+    <value>--format must be one of text, html, rtf, image, files.</value>
+    <comment>Keep the options and values as is.</comment>
+  </data>
+  <data name="Script_OutputOnlyWithGet" xml:space="preserve">
+    <value>--output can only be used with --get.</value>
+    <comment>Keep the options as is.</comment>
+  </data>
+  <data name="Script_OutputNeedsPath" xml:space="preserve">
+    <value>--output needs a file path.</value>
+    <comment>Keep the option as is.</comment>
+  </data>
+  <data name="Script_SelectedOnlyWithGet" xml:space="preserve">
+    <value>--selected can only be used with --get.</value>
+    <comment>Keep the options as is.</comment>
+  </data>
+  <data name="Script_YesOnlyWithClear" xml:space="preserve">
+    <value>--yes can only be used with --clear.</value>
+    <comment>Keep the options as is.</comment>
+  </data>
+  <data name="Script_UnknownOption" xml:space="preserve">
+    <value>Unknown option: {0}</value>
+    <comment>{0} = the option.</comment>
+  </data>
+  <data name="Settings_WindowTitle" xml:space="preserve">
+    <value>Kleio Settings</value>
+  </data>
+  <data name="Settings_AppTitle.Text" xml:space="preserve">
+    <value>Kleio Settings</value>
+  </data>
+  <data name="Settings_NavGeneral.Content" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_NavGeneral.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="General_Header.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_NavStorage.Content" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="Settings_NavStorage.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="Storage_Header.Text" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="Settings_NavAppearance.Content" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Settings_NavAppearance.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Appearance_Header.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Settings_NavIgnore.Content" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="Settings_NavIgnore.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="Ignore_Header.Text" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="Settings_NavAdvanced.Content" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Settings_NavAdvanced.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Advanced_Header.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Settings_NavAbout.Content" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="About_Header.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Settings_Shortcut" xml:space="preserve">
+    <value>Shortcut</value>
+    <comment>Spoken name of a shortcut field without its own name.</comment>
+  </data>
+  <data name="Settings_NameValue" xml:space="preserve">
+    <value>{0}: {1}</value>
+    <comment>Spoken name and value of a shortcut field. {0} = field name, {1} = shortcut.</comment>
+  </data>
+  <data name="Settings_ClearNamed" xml:space="preserve">
+    <value>Clear {0}</value>
+    <comment>Spoken name of the button that clears a shortcut. {0} = field name, e.g. "Pin shortcut".</comment>
+  </data>
+  <data name="Settings_IncludeModifier" xml:space="preserve">
+    <value>Include {0}, {1} or {2}</value>
+    <comment>{0}, {1}, {2} = key names Ctrl, Alt, Win.</comment>
+  </data>
+  <data name="Settings_PressShortcut" xml:space="preserve">
+    <value>Press a shortcut…</value>
+  </data>
+  <data name="Settings_Recording" xml:space="preserve">
+    <value>Recording. Press a shortcut, Esc to cancel, Backspace to clear</value>
+  </data>
+  <data name="Settings_NotSet" xml:space="preserve">
+    <value>Not set</value>
+  </data>
+  <data name="Recorder_Edit.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Select to record a new shortcut. Esc cancels, Backspace clears.</value>
+  </data>
+  <data name="Recorder_Status.Text" xml:space="preserve">
+    <value>Not set</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clear shortcut</value>
+  </data>
+  <data name="Recorder_Clear.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Clear shortcut</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Header" xml:space="preserve">
+    <value>Launch at login</value>
+  </data>
+  <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
+    <value>Start Kleio automatically when you sign in to Windows.</value>
+  </data>
+  <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Launch at login</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Title" xml:space="preserve">
+    <value>Launch at login is turned off by Windows</value>
+  </data>
+  <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
+    <value>Kleio was disabled in Task Manager &gt; Startup apps (or Settings &gt; Apps &gt; Startup). Turn it on there to launch Kleio at login.</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
+    <value>Check for updates automatically</value>
+  </data>
+  <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
+    <value>Look for a newer Kleio release on GitHub once a day and offer to install it.</value>
+  </data>
+  <data name="General_CheckNow.Content" xml:space="preserve">
+    <value>Check now</value>
+  </data>
+  <data name="General_CheckNow.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Check for updates now</value>
+  </data>
+  <data name="General_CheckForUpdatesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Check for updates automatically</value>
+  </data>
+  <data name="General_LanguageCard.Header" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="General_LanguageCard.Description" xml:space="preserve">
+    <value>The language of Kleio's menus, settings and messages.</value>
+  </data>
+  <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="General_LanguageDefault" xml:space="preserve">
+    <value>Windows default</value>
+    <comment>Language choice that follows the Windows display language.</comment>
+  </data>
+  <data name="General_LanguageInfoBar.Message" xml:space="preserve">
+    <value>Restart Kleio to use the new language.</value>
+  </data>
+  <data name="General_LanguageRestart.Content" xml:space="preserve">
+    <value>Restart now</value>
+  </data>
+  <data name="General_ShortcutsSection.Text" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <data name="General_OpenCard.Header" xml:space="preserve">
+    <value>Open Kleio</value>
+  </data>
+  <data name="General_OpenDescription.Text" xml:space="preserve">
+    <value>Global shortcut key to open application. A repeated press of the main key while holding modifiers will select the next item in the list. In this mode, releasing modifier keys will confirm selection and close the popup. Default: Win+Shift+C.</value>
+  </data>
+  <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open Kleio shortcut</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
+    <value>Couldn't register the shortcut</value>
+  </data>
+  <data name="General_HotKeyInfoBar.Message" xml:space="preserve">
+    <value>This shortcut is used by another app. Choose a different one.</value>
+  </data>
+  <data name="General_PinCard.Header" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="General_PinCard.Description" xml:space="preserve">
+    <value>Shortcut key to pin history item. Default: Alt+P.</value>
+  </data>
+  <data name="General_PinRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pin shortcut</value>
+  </data>
+  <data name="General_DeleteCard.Header" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="General_DeleteCard.Description" xml:space="preserve">
+    <value>Shortcut key to delete history item. Default: Alt+Delete.</value>
+  </data>
+  <data name="General_DeleteRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Delete shortcut</value>
+  </data>
+  <data name="General_PreviewCard.Header" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="General_PreviewCard.Description" xml:space="preserve">
+    <value>Show preview with additional information. Default: Ctrl+Space.</value>
+  </data>
+  <data name="General_PreviewRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Preview shortcut</value>
+  </data>
+  <data name="General_SearchSection.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="General_SearchModeCard.Header" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="General_SearchModeCard.Description" xml:space="preserve">
+    <value>How the text you type in the search field is matched against history items.</value>
+  </data>
+  <data name="General_SearchModeCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="General_SearchExact.Content" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="General_SearchFuzzy.Content" xml:space="preserve">
+    <value>Fuzzy</value>
+  </data>
+  <data name="General_SearchRegex.Content" xml:space="preserve">
+    <value>Regular expressions</value>
+  </data>
+  <data name="General_SearchMixed.Content" xml:space="preserve">
+    <value>Mixed</value>
+  </data>
+  <data name="General_BehaviorSection.Text" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Header" xml:space="preserve">
+    <value>Paste automatically</value>
+  </data>
+  <data name="General_PasteAutomaticallyCard.Description" xml:space="preserve">
+    <value>Paste the selected item into the active app instead of only copying it.</value>
+  </data>
+  <data name="General_PasteAutomaticallyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paste automatically</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Header" xml:space="preserve">
+    <value>Paste without formatting</value>
+  </data>
+  <data name="General_RemoveFormattingCard.Description" xml:space="preserve">
+    <value>Remove fonts, colors and other formatting from the selected item.</value>
+  </data>
+  <data name="General_RemoveFormattingToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paste without formatting</value>
+  </data>
+  <data name="General_Modifiers" xml:space="preserve">
+    <value>Customize the behavior when selecting item:
+• Select with {0} pressed to copy item.
+• Select with {1} pressed to copy and paste item.
+• Select with {2} pressed to copy, clear formatting, and paste item.</value>
+    <comment>{0}, {1}, {2} = modifier keys, e.g. Ctrl, Alt, Alt+Shift.</comment>
+  </data>
+  <data name="General_WindowsClipboardSection.Text" xml:space="preserve">
+    <value>Windows clipboard</value>
+  </data>
+  <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
+    <value>Windows has its own clipboard history, opened with Win+V. Kleio can take over that shortcut while it is running, without changing any Windows settings.</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
+    <value>Replace Win+V</value>
+  </data>
+  <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
+    <value>Win+V opens Kleio instead of the Windows clipboard history while Kleio is running. Windows settings are not changed.</value>
+  </data>
+  <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Replace Win+V</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
+    <value>Windows clipboard settings</value>
+  </data>
+  <data name="General_ClipboardSettingsCard.Description" xml:space="preserve">
+    <value>Turn the Windows clipboard history on or off, or clear it, in Settings &gt; System &gt; Clipboard.</value>
+  </data>
+  <data name="General_ClipboardSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open Windows clipboard settings</value>
+  </data>
+  <data name="General_ClipboardSettingsOpen.Text" xml:space="preserve">
+    <value>Open</value>
+    <comment>Link that opens a Windows Settings page.</comment>
+  </data>
+  <data name="General_NotificationsSection.Text" xml:space="preserve">
+    <value>Notifications and sounds</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Header" xml:space="preserve">
+    <value>Show notifications</value>
+  </data>
+  <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
+    <value>Show a notification with the item when Kleio copies an item or saves a new copy.</value>
+  </data>
+  <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show notifications</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Title" xml:space="preserve">
+    <value>Notifications are turned off in Windows</value>
+  </data>
+  <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
+    <value>Turn on notifications for Kleio in Windows notification settings to see them.</value>
+  </data>
+  <data name="General_PlaySoundsCard.Header" xml:space="preserve">
+    <value>Play sounds</value>
+  </data>
+  <data name="General_PlaySoundsCard.Description" xml:space="preserve">
+    <value>Play a sound when Kleio copies an item or saves a new copy.</value>
+  </data>
+  <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Play sounds</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Header" xml:space="preserve">
+    <value>Windows notification settings</value>
+  </data>
+  <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
+    <value>Choose how Kleio's notifications appear, or turn them off, in Settings &gt; System &gt; Notifications.</value>
+  </data>
+  <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open Windows notification settings</value>
+  </data>
+  <data name="General_NotificationSettingsOpen.Text" xml:space="preserve">
+    <value>Open</value>
+    <comment>Link that opens a Windows Settings page.</comment>
+  </data>
+  <data name="Storage_SaveSection.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Storage_SaveDescription.Text" xml:space="preserve">
+    <value>Change what types of copied content should be stored.</value>
+  </data>
+  <data name="Storage_FilesCard.Header" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Storage_FilesCard.Description" xml:space="preserve">
+    <value>Files and folders copied in File Explorer and other apps.</value>
+  </data>
+  <data name="Storage_FilesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save files</value>
+  </data>
+  <data name="Storage_ImagesCard.Header" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Storage_ImagesCard.Description" xml:space="preserve">
+    <value>Pictures and screenshots.</value>
+  </data>
+  <data name="Storage_ImagesToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save images</value>
+  </data>
+  <data name="Storage_TextCard.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Storage_TextCard.Description" xml:space="preserve">
+    <value>Plain text, rich text and HTML.</value>
+  </data>
+  <data name="Storage_TextToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save text</value>
+  </data>
+  <data name="Storage_HistorySection.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="Storage_SizeCard.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Storage_SizeCard.Description" xml:space="preserve">
+    <value>Number of history items to keep. Default: 200.</value>
+  </data>
+  <data name="Storage_DatabaseSize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Current size on disk.</value>
+  </data>
+  <data name="Storage_HistorySize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>History size</value>
+  </data>
+  <data name="Storage_SortByCard.Header" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="Storage_SortByCard.Description" xml:space="preserve">
+    <value>Order of the items in the history. Default: Time of last copy.</value>
+  </data>
+  <data name="Storage_SortByCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="Storage_SortLastCopied.Content" xml:space="preserve">
+    <value>Time of last copy</value>
+  </data>
+  <data name="Storage_SortFirstCopied.Content" xml:space="preserve">
+    <value>Time of first copy</value>
+  </data>
+  <data name="Storage_SortCopies.Content" xml:space="preserve">
+    <value>Number of copies</value>
+  </data>
+  <data name="Appearance_PopupSection.Text" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Header" xml:space="preserve">
+    <value>Popup at</value>
+  </data>
+  <data name="Appearance_PopupAtCard.Description" xml:space="preserve">
+    <value>Change the location where popup appears. Default: Cursor.</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reset position</value>
+  </data>
+  <data name="Appearance_ResetPosition.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Move the popup back to its default position</value>
+  </data>
+  <data name="Appearance_ResetPositionText.Text" xml:space="preserve">
+    <value>Reset position</value>
+  </data>
+  <data name="Appearance_PopupScreenCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Appearance_PopupAtCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Popup at</value>
+  </data>
+  <data name="Appearance_PopupAtCursor.Content" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="Appearance_PopupAtTrayIcon.Content" xml:space="preserve">
+    <value>Tray icon</value>
+  </data>
+  <data name="Appearance_PopupAtWindowCenter.Content" xml:space="preserve">
+    <value>Window center</value>
+  </data>
+  <data name="Appearance_PopupAtScreenCenter.Content" xml:space="preserve">
+    <value>Screen center</value>
+  </data>
+  <data name="Appearance_PopupAtLastPosition.Content" xml:space="preserve">
+    <value>Last position</value>
+  </data>
+  <data name="Appearance_ActiveScreen" xml:space="preserve">
+    <value>Active screen</value>
+  </data>
+  <data name="Appearance_Display" xml:space="preserve">
+    <value>Display {0}</value>
+    <comment>Name of a monitor without a friendly name. {0} = number.</comment>
+  </data>
+  <data name="Appearance_DisplayNotConnected" xml:space="preserve">
+    <value>Display {0} (not connected)</value>
+    <comment>{0} = number.</comment>
+  </data>
+  <data name="Appearance_PinToCard.Header" xml:space="preserve">
+    <value>Pin to</value>
+  </data>
+  <data name="Appearance_PinToCard.Description" xml:space="preserve">
+    <value>Change the location of pinned items. Default: Top.</value>
+  </data>
+  <data name="Appearance_PinToCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pin to</value>
+  </data>
+  <data name="Appearance_PinToTop.Content" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Appearance_PinToBottom.Content" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Header" xml:space="preserve">
+    <value>Image height</value>
+  </data>
+  <data name="Appearance_ImageHeightCard.Description" xml:space="preserve">
+    <value>Maximum image preview height. Default: 40. Hint: Set to 16 to look like text items.</value>
+  </data>
+  <data name="Appearance_ImageHeightBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Image height</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Header" xml:space="preserve">
+    <value>Open preview automatically</value>
+  </data>
+  <data name="Appearance_OpenPreviewCard.Description" xml:space="preserve">
+    <value>Show a preview with additional information about the selected item after a delay.</value>
+  </data>
+  <data name="Appearance_OpenPreviewToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open preview automatically</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Header" xml:space="preserve">
+    <value>Preview delay</value>
+  </data>
+  <data name="Appearance_PreviewDelayCard.Description" xml:space="preserve">
+    <value>Delay in milliseconds until a preview popup is shown. Default: 1500.</value>
+  </data>
+  <data name="Appearance_PreviewDelayBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Preview delay in milliseconds</value>
+  </data>
+  <data name="Appearance_HighlightCard.Header" xml:space="preserve">
+    <value>Highlight matches</value>
+  </data>
+  <data name="Appearance_HighlightCard.Description" xml:space="preserve">
+    <value>Change the highlighting style for search matches. Default: Bold.</value>
+  </data>
+  <data name="Appearance_HighlightCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Highlight matches</value>
+  </data>
+  <data name="Appearance_HighlightBold.Content" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="Appearance_HighlightItalic.Content" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Appearance_HighlightUnderline.Content" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="Appearance_HighlightColor.Content" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Appearance_HighlightNone.Content" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Header" xml:space="preserve">
+    <value>Show special symbols</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsCard.Description" xml:space="preserve">
+    <value>Show newlines, tabs, leading and trailing spaces via special symbols.</value>
+  </data>
+  <data name="Appearance_SpecialSymbolsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show special symbols</value>
+  </data>
+  <data name="Appearance_NotificationAreaSection.Text" xml:space="preserve">
+    <value>Notification area</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Header" xml:space="preserve">
+    <value>Show tray icon</value>
+  </data>
+  <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
+    <value>Show the Kleio icon in the notification area of the taskbar.</value>
+  </data>
+  <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show tray icon</value>
+  </data>
+  <data name="Appearance_TrayIconCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tray icon style</value>
+  </data>
+  <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logo</value>
+  </data>
+  <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="Appearance_TrayIconClipboardText.Text" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclip.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paperclip</value>
+  </data>
+  <data name="Appearance_TrayIconPaperclipText.Text" xml:space="preserve">
+    <value>Paperclip</value>
+  </data>
+  <data name="Appearance_TrayIconScissors.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Scissors</value>
+  </data>
+  <data name="Appearance_TrayIconScissorsText.Text" xml:space="preserve">
+    <value>Scissors</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Header" xml:space="preserve">
+    <value>Show recent copy in tray icon tooltip</value>
+  </data>
+  <data name="Appearance_RecentCopyCard.Description" xml:space="preserve">
+    <value>Show the most recent copy when you point at the tray icon.</value>
+  </data>
+  <data name="Appearance_RecentCopyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show recent copy in tray icon tooltip</value>
+  </data>
+  <data name="Appearance_PopupLayoutSection.Text" xml:space="preserve">
+    <value>Popup layout</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Header" xml:space="preserve">
+    <value>Show search field</value>
+  </data>
+  <data name="Appearance_ShowSearchCard.Description" xml:space="preserve">
+    <value>Show the search field always, or only once you start typing.</value>
+  </data>
+  <data name="Appearance_ShowSearchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show search field</value>
+  </data>
+  <data name="Appearance_SearchVisibilityCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Search field visibility</value>
+  </data>
+  <data name="Appearance_SearchAlways.Content" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="Appearance_SearchDuringSearch.Content" xml:space="preserve">
+    <value>During search</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
+    <value>Show title before search field</value>
+  </data>
+  <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
+    <value>Show “Kleio” to the left of the search field.</value>
+  </data>
+  <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show title before search field</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
+    <value>Show application icons</value>
+  </data>
+  <data name="Appearance_AppIconsCard.Description" xml:space="preserve">
+    <value>Show the icon of the app each item was copied from.</value>
+  </data>
+  <data name="Appearance_AppIconsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show application icons</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Header" xml:space="preserve">
+    <value>Show hex color swatch</value>
+  </data>
+  <data name="Appearance_ColorSwatchCard.Description" xml:space="preserve">
+    <value>Show color swatch next to hex color codes.</value>
+  </data>
+  <data name="Appearance_ColorSwatchToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show hex color swatch</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Header" xml:space="preserve">
+    <value>Show footer</value>
+  </data>
+  <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
+    <value>Show the Clear, Settings, About and Quit commands at the bottom of the popup.</value>
+  </data>
+  <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Show footer</value>
+  </data>
+  <data name="Appearance_FooterInfoBar.Message" xml:space="preserve">
+    <value>Without the footer, open Settings from the tray icon menu or with Ctrl+, in the popup.</value>
+  </data>
+  <data name="Ignore_SectionBar.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignore sections</value>
+  </data>
+  <data name="Ignore_AppsSectionItem.Text" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Ignore_FormatsSectionItem.Text" xml:space="preserve">
+    <value>Clipboard formats</value>
+  </data>
+  <data name="Ignore_RegexSectionItem.Text" xml:space="preserve">
+    <value>Regular expressions</value>
+  </data>
+  <data name="Ignore_AppsDescription.Text" xml:space="preserve">
+    <value>Copies coming from certain applications can be ignored. Please note that this is not bullet-proof: Windows does not say which app copied something, so Kleio checks the app that owns the clipboard or is in the foreground. Prefer clipboard formats when possible.</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
+    <value>Ignore all applications except listed</value>
+  </data>
+  <data name="Ignore_AllExceptCard.Description" xml:space="preserve">
+    <value>Only save copies made in the applications listed below.</value>
+  </data>
+  <data name="Ignore_AllExceptToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ignore all applications except listed</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Header" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Ignore_AppsHeaderCard.Description" xml:space="preserve">
+    <value>Copies made in these applications are not saved.</value>
+  </data>
+  <data name="Ignore_RunningAppsButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Add a running app</value>
+  </data>
+  <data name="Ignore_RunningAppsText.Text" xml:space="preserve">
+    <value>Add running app</value>
+  </data>
+  <data name="Ignore_AddAppButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Add an app by choosing its program file</value>
+  </data>
+  <data name="Ignore_AddAppText.Text" xml:space="preserve">
+    <value>Add app…</value>
+  </data>
+  <data name="Ignore_NoApps.Text" xml:space="preserve">
+    <value>No applications are ignored.</value>
+  </data>
+  <data name="Ignore_FormatsDescription.Text" xml:space="preserve">
+    <value>Copies containing any of these clipboard formats are not saved. By default, Kleio.Transient is listed; you can remove it and add any custom formats you want.</value>
+  </data>
+  <data name="Ignore_FormatsHelp.Text" xml:space="preserve">
+    <value>To find the name of a format, copy something in the app and look at the clipboard with a clipboard viewer such as NirSoft InsideClipboard. Only registered formats (names, not numbers) can be listed.</value>
+  </data>
+  <data name="Ignore_AddFormatCard.Header" xml:space="preserve">
+    <value>Add a clipboard format</value>
+  </data>
+  <data name="Ignore_FormatTextBox.PlaceholderText" xml:space="preserve">
+    <value>Format name, e.g. Kleio.Transient</value>
+  </data>
+  <data name="Ignore_FormatTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clipboard format name</value>
+  </data>
+  <data name="Ignore_AddFormatButton.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Ignore_AddFormatButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Add clipboard format</value>
+  </data>
+  <data name="Ignore_NoFormats.Text" xml:space="preserve">
+    <value>No clipboard formats are ignored.</value>
+  </data>
+  <data name="Ignore_ResetFormats.Content" xml:space="preserve">
+    <value>Reset to defaults</value>
+  </data>
+  <data name="Ignore_ResetFormats.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Reset clipboard formats to defaults</value>
+  </data>
+  <data name="Ignore_RegexDescription.Text" xml:space="preserve">
+    <value>Copies whose text matches any of these regular expressions are not saved. Expressions use the ECMAScript (JavaScript) syntax and can match anywhere in the text; use ^ and $ to match the whole text.</value>
+  </data>
+  <data name="Ignore_Examples.Text" xml:space="preserve">
+    <value>Examples</value>
+  </data>
+  <data name="Ignore_ExampleToken.Text" xml:space="preserve">
+    <value>50 letters or digits, like many API keys and tokens</value>
+  </data>
+  <data name="Ignore_ExampleCode.Text" xml:space="preserve">
+    <value>6-digit one-time codes</value>
+  </data>
+  <data name="Ignore_ExampleCard.Text" xml:space="preserve">
+    <value>Payment card numbers</value>
+  </data>
+  <data name="Ignore_AddRegexCard.Header" xml:space="preserve">
+    <value>Add a regular expression</value>
+  </data>
+  <data name="Ignore_RegexTextBox.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="Ignore_AddRegexButton.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Ignore_AddRegexButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Add regular expression</value>
+  </data>
+  <data name="Ignore_RegexInfoBar.Title" xml:space="preserve">
+    <value>Invalid regular expression</value>
+  </data>
+  <data name="Ignore_NoRegex.Text" xml:space="preserve">
+    <value>No regular expressions are defined.</value>
+  </data>
+  <data name="Ignore_AlwaysIgnored" xml:space="preserve">
+    <value>Kleio always ignores copies marked with “{0}” or “{1}”: the Windows conventions password managers and other apps use to keep sensitive data out of clipboard managers.</value>
+    <comment>{0}, {1} = clipboard format names.</comment>
+  </data>
+  <data name="Ignore_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Ignore_RemoveNamed" xml:space="preserve">
+    <value>Remove {0}</value>
+    <comment>{0} = app, format or expression.</comment>
+  </data>
+  <data name="Ignore_ExecutableName" xml:space="preserve">
+    <value>Executable name</value>
+  </data>
+  <data name="Ignore_NoRunningApps" xml:space="preserve">
+    <value>No running apps found</value>
+  </data>
+  <data name="Ignore_InvalidRegex" xml:space="preserve">
+    <value>“{0}” is not a valid ECMAScript regular expression.</value>
+    <comment>{0} = the expression.</comment>
+  </data>
+  <data name="Advanced_PauseSection.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Advanced_PauseCard.Header" xml:space="preserve">
+    <value>Pause Kleio</value>
+  </data>
+  <data name="Advanced_PauseCard.Description" xml:space="preserve">
+    <value>Temporarily ignore all new copies. Useful to keep Kleio from recording while you copy sensitive data.</value>
+  </data>
+  <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pause Kleio</value>
+  </data>
+  <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
+    <value>You are likely to use this from scripts. Pause Kleio from the command line while copying sensitive data:</value>
+  </data>
+  <data name="Advanced_PauseScript.Text" xml:space="preserve">
+    <value>kleio.exe --pause
+… copy data …
+kleio.exe --resume</value>
+    <comment>Translate only "copy data".</comment>
+  </data>
+  <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --pause, copy data, then kleio.exe --resume</value>
+    <comment>Keep the commands as is.</comment>
+  </data>
+  <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
+    <value>To ignore only the next copy:</value>
+  </data>
+  <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
+    <value>kleio.exe --ignore-next
+… copy data …</value>
+    <comment>Translate only "copy data".</comment>
+  </data>
+  <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>kleio.exe --ignore-next, then copy data</value>
+    <comment>Keep the command as is.</comment>
+  </data>
+  <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
+    <value>You can also Alt+click the tray icon to pause or resume Kleio. To ignore only the next copy, Alt+Shift+click it.</value>
+  </data>
+  <data name="Advanced_ClearingSection.Text" xml:space="preserve">
+    <value>Clearing</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Header" xml:space="preserve">
+    <value>Clear history on quit</value>
+  </data>
+  <data name="Advanced_ClearOnQuitCard.Description" xml:space="preserve">
+    <value>Automatically remove all unpinned items before quitting the application.</value>
+  </data>
+  <data name="Advanced_ClearOnQuitToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clear history on quit</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Header" xml:space="preserve">
+    <value>Clear the system clipboard too</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardCard.Description" xml:space="preserve">
+    <value>When enabled, clearing the history would also clear the current system clipboard.</value>
+  </data>
+  <data name="Advanced_ClearSystemClipboardToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clear the system clipboard too</value>
+  </data>
+  <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio logo</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version {0}</value>
+    <comment>{0} = version number.</comment>
+  </data>
+  <data name="About_Description.Text" xml:space="preserve">
+    <value>Clipboard manager for Windows</value>
+    <comment>Package description and About page.</comment>
+  </data>
+  <data name="About_CheckUpdatesButton.Content" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="About_CheckUpdatesButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="About_CreditsSection.Text" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="About_MaccyCard.Header" xml:space="preserve">
+    <value>Kleio is a port of Maccy by Alex Rodionov</value>
+  </data>
+  <data name="About_MaccyCard.Description" xml:space="preserve">
+    <value>Maccy is a lightweight clipboard manager for macOS. Kleio brings its features and layout to Windows 11.</value>
+  </data>
+  <data name="About_MaccyWebsite.Content" xml:space="preserve">
+    <value>Maccy website</value>
+  </data>
+  <data name="About_MaccyWebsite.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy website</value>
+  </data>
+  <data name="About_MaccyGitHub.Content" xml:space="preserve">
+    <value>Maccy on GitHub</value>
+  </data>
+  <data name="About_MaccyGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maccy on GitHub</value>
+  </data>
+  <data name="About_SourceCard.Header" xml:space="preserve">
+    <value>Source code</value>
+  </data>
+  <data name="About_SourceCard.Description" xml:space="preserve">
+    <value>Report issues, suggest features and contribute on GitHub.</value>
+  </data>
+  <data name="About_KleioGitHub.Content" xml:space="preserve">
+    <value>Kleio on GitHub</value>
+  </data>
+  <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kleio on GitHub</value>
+  </data>
+  <data name="About_Support.Content" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="About_Support.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Support: report an issue on GitHub</value>
+  </data>
+  <data name="About_LicenseCard.Header" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="About_LicenseCard.Description" xml:space="preserve">
+    <value>Kleio and Maccy are free software released under the MIT License.</value>
+  </data>
+  <data name="About_MitLicenseLink.Content" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="About_MitLicenseLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+</root>

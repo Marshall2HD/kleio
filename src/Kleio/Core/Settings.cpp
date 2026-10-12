@@ -777,4 +777,7 @@ namespace Kleio
     void Settings::LastUpdateCheck(double value) { SetDouble(kLastUpdateCheck, value, 0.0); }
     std::wstring Settings::SkippedUpdateVersion() const { return ReadRaw(kSkippedUpdateVersion).value_or(std::wstring{}); }
     void Settings::SkippedUpdateVersion(std::wstring const& value) { WriteRaw(kSkippedUpdateVersion, value, SkippedUpdateVersion()); }
+
+    std::wstring Settings::Language() const { return ReadRaw(kLanguage).value_or(std::wstring{}); }
+    void Settings::Language(std::wstring const& value) { WriteRaw(kLanguage, value, Language()); }
 }

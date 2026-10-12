@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "HistoryItemViewModel.h"
+#include "Strings.h"
 #if __has_include("HistoryItemViewModel.g.cpp")
 #include "HistoryItemViewModel.g.cpp"
 #endif
@@ -24,7 +25,7 @@ namespace winrt::Kleio::implementation
         }
         if (m_title.empty() && m_isImage)
         {
-            return L"Image";
+            return hstring{ ::Kleio::Strings::Get(L"Image") };
         }
         return hstring{ m_title };
     }
@@ -95,27 +96,28 @@ namespace winrt::Kleio::implementation
         if (m_isImage)
         {
             const auto size = ImagePixelSize();
-            label = size.IsEmpty() ? std::wstring{ L"Image" }
-                                   : L"Image, " + std::to_wstring(size.width) + L"x" + std::to_wstring(size.height);
+            label = size.IsEmpty() ? ::Kleio::Strings::Get(L"Image")
+                                   : ::Kleio::Strings::Format(L"ImageWithSize", std::to_wstring(size.width), std::to_wstring(size.height));
         }
         else
         {
             label = m_title;
         }
+        auto const separator = ::Kleio::Strings::Get(L"ListSeparator");
         if (!m_application.empty())
         {
             if (auto const& name = ::Kleio::PopupImages::AppName(m_application); !name.empty())
             {
-                label += L", " + name;
+                label += separator + name;
             }
         }
         if (IsPinned())
         {
-            label += L", Pinned";
+            label += separator + ::Kleio::Strings::Get(L"Pinned");
         }
         if (selectionCount > 0 && IsSelected())
         {
-            label += L", Selected, " + std::to_wstring(m_selectionIndex + 1) + L" of " + std::to_wstring(selectionCount);
+            label += separator + ::Kleio::Strings::Format(L"SelectedOf", std::to_wstring(m_selectionIndex + 1), std::to_wstring(selectionCount));
         }
         return label;
     }
@@ -126,17 +128,18 @@ namespace winrt::Kleio::implementation
         {
             return {};
         }
-        std::wstring text = m_isImage ? std::wstring{ L"Image" } : m_title;
+        std::wstring text = m_isImage ? ::Kleio::Strings::Get(L"Image") : m_title;
+        auto const separator = ::Kleio::Strings::Get(L"ListSeparator");
         if (!m_application.empty())
         {
             if (auto const& name = ::Kleio::PopupImages::AppName(m_application); !name.empty())
             {
-                text += L", " + name;
+                text += separator + name;
             }
         }
         if (IsPinned())
         {
-            text += L", Pinned";
+            text += separator + ::Kleio::Strings::Get(L"Pinned");
         }
         return text;
     }

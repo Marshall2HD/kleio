@@ -7,6 +7,7 @@
 #include "HistoryItemViewModel.h"
 #include "PopupImages.h"
 #include "PopupUiState.h"
+#include "Strings.h"
 
 #include <cmath>
 
@@ -223,7 +224,7 @@ namespace winrt::Kleio::implementation
                 std::wstring const& title = vm->DisplayTitle();
                 if (title.empty() && vm->IsImage())
                 {
-                    ApplyTitle(L"Image", {});
+                    ApplyTitle(::Kleio::Strings::Get(L"Image"), {});
                 }
                 else
                 {
@@ -458,7 +459,7 @@ namespace winrt::Kleio::implementation
                     text = item->PreviewableText();
                     if (text.empty())
                     {
-                        text = vm->IsImage() ? L"Image" : item->title;
+                        text = vm->IsImage() ? ::Kleio::Strings::Get(L"Image") : item->title;
                     }
                 }
             }

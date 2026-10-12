@@ -10,6 +10,7 @@
 #include "HistoryItemViewModel.h"
 #include "PopupImages.h"
 #include "PopupUiState.h"
+#include "Strings.h"
 
 #include <winrt/Windows.ApplicationModel.DataTransfer.h>
 
@@ -184,7 +185,7 @@ namespace winrt::Kleio::implementation
 
         std::wstring ShortcutText(::Kleio::KeyShortcut const& shortcut)
         {
-            return shortcut.IsEmpty() ? std::wstring{} : shortcut.ToString();
+            return ::Kleio::Strings::ShortcutText(shortcut);
         }
 
         int ClampInt(int value, int low, int high) noexcept
@@ -366,6 +367,10 @@ namespace winrt::Kleio::implementation
         PopupWindowT<PopupWindow>::InitializeComponent();
 
         Guard([&] { ConfigureWindow(); });
+        // Right-to-left languages mirror the list and the preview, not the window layout (the preview
+        // side is chosen from the screen geometry).
+        ContentPanel().FlowDirection(::Kleio::Strings::FlowDirection());
+        PreviewPanel().FlowDirection(::Kleio::Strings::FlowDirection());
 
         m_pinnedSource = winrt::single_threaded_observable_vector<IInspectable>();
         m_unpinnedSource = winrt::single_threaded_observable_vector<IInspectable>();
@@ -596,14 +601,15 @@ namespace winrt::Kleio::implementation
         };
 
         // Maccy Footer: clear (Opt+Cmd+Delete), clear all (Shift+Opt+Cmd+Delete), preferences (Cmd+,), about, quit (Cmd+Q).
-        setup(FooterClearRow(), 0, L"Clear", ShortcutText(MakeShortcut(Modifiers::Ctrl | Modifiers::Alt, VK_BACK)),
-              L"Clear unpinned items.\nHold Shift to clear all.");
-        setup(FooterClearAllRow(), 1, L"Clear all", ShortcutText(MakeShortcut(kModifierMask, VK_BACK)),
-              L"Clear all items, including pinned ones.");
-        setup(FooterSettingsRow(), 2, L"Settings\u2026", ShortcutText(MakeShortcut(Modifiers::Ctrl, VK_OEM_COMMA)),
-              L"Open Kleio settings.");
-        setup(FooterAboutRow(), 3, L"About Kleio", L"", L"Read more about the application.");
-        setup(FooterQuitRow(), 4, L"Quit", ShortcutText(MakeShortcut(Modifiers::Ctrl, 'Q')), L"Quit the application.");
+        using ::Kleio::Strings::Get;
+        setup(FooterClearRow(), 0, Get(L"Clear"), ShortcutText(MakeShortcut(Modifiers::Ctrl | Modifiers::Alt, VK_BACK)),
+              Get(L"Popup_ClearTooltip"));
+        setup(FooterClearAllRow(), 1, Get(L"ClearAll"), ShortcutText(MakeShortcut(kModifierMask, VK_BACK)),
+              Get(L"Popup_ClearAllTooltip"));
+        setup(FooterSettingsRow(), 2, Get(L"SettingsEllipsis"), ShortcutText(MakeShortcut(Modifiers::Ctrl, VK_OEM_COMMA)),
+              Get(L"Popup_SettingsTooltip"));
+        setup(FooterAboutRow(), 3, Get(L"AboutKleio"), L"", Get(L"Popup_AboutTooltip"));
+        setup(FooterQuitRow(), 4, Get(L"Quit"), ShortcutText(MakeShortcut(Modifiers::Ctrl, 'Q')), Get(L"Popup_QuitTooltip"));
     }
 
     void PopupWindow::SetupPreviewToolbar()
@@ -614,9 +620,9 @@ namespace winrt::Kleio::implementation
         PreviewDeleteButton().Click([this](auto&&, auto&&) { Guard([&] { DeleteSelection(); FocusSearch(); }); });
         PreviewStopStackButton().Click([this](auto&&, auto&&) { Guard([&] { StopPasteStack(); FocusSearch(); }); });
 
-        SetToolTip(PreviewCopyTextButton(), L"Copy the text recognized in the image");
-        SetToolTip(PreviewEditButton(), L"Edit item");
-        SetToolTip(PreviewStopStackButton(), L"Stop paste stack");
+        SetToolTip(PreviewCopyTextButton(), ::Kleio::Strings::Get(L"Popup_CopyExtractedText"));
+        SetToolTip(PreviewEditButton(), ::Kleio::Strings::Get(L"EditItem"));
+        SetToolTip(PreviewStopStackButton(), ::Kleio::Strings::Get(L"StopPasteStack"));
     }
 
     void PopupWindow::SetupSplitter()
@@ -1438,7 +1444,7 @@ namespace winrt::Kleio::implementation
 
         if (historyEmpty && !pinsVisible)
         {
-            EmptyText().Text(m_query.empty() ? L"Copy something to see it here." : L"No results");
+            EmptyText().Text(::Kleio::Strings::Get(m_query.empty() ? L"Popup_Empty" : L"Popup_NoResults"));
             EmptyText().Visibility(xaml::Visibility::Visible);
         }
         else
@@ -1460,11 +1466,11 @@ namespace winrt::Kleio::implementation
         std::wstring text;
         if (shortcut.empty())
         {
-            text = m_previewOpen ? L"Hide preview" : L"Show preview";
+            text = ::Kleio::Strings::Get(m_previewOpen ? L"Popup_HidePreview" : L"Popup_ShowPreview");
         }
         else
         {
-            text = L"Press " + shortcut + (m_previewOpen ? L" to hide preview." : L" to show preview.");
+            text = ::Kleio::Strings::Format(m_previewOpen ? L"Popup_PressToHidePreview" : L"Popup_PressToShowPreview", shortcut);
         }
         SetToolTip(PreviewToggleButton(), text);
     }
@@ -1788,7 +1794,7 @@ namespace winrt::Kleio::implementation
         if (visible)
         {
             const std::size_t count = stack->items.size();
-            PasteStackTitle().Text(L"Paste stack \u00B7 " + std::to_wstring(count) + (count == 1 ? L" item" : L" items"));
+            PasteStackTitle().Text(::Kleio::Strings::Format(count == 1 ? L"Popup_PasteStackCountOne" : L"Popup_PasteStackCountOther", std::to_wstring(count)));
             for (std::size_t i = 0; i < count && i < kPasteStackMaxRows; ++i)
             {
                 if (!stack->items[i])
@@ -3087,31 +3093,31 @@ namespace winrt::Kleio::implementation
             });
             menu.Items().Append(entry);
         };
-        auto enterHint = [](Modifiers modifiers) { return MakeShortcut(modifiers, VK_RETURN).ToString(); };
+        auto enterHint = [](Modifiers modifiers) { return ShortcutText(MakeShortcut(modifiers, VK_RETURN)); };
 
         const Modifiers copyModifiers = ui.ModifiersFor(::Kleio::ItemAction::Copy);
         const Modifiers pasteModifiers = ui.ModifiersFor(::Kleio::ItemAction::Paste);
         const Modifiers plainModifiers = ui.ModifiersFor(::Kleio::ItemAction::PasteWithoutFormatting);
         if (copyModifiers != Modifiers::None)
         {
-            add(L"Copy", L"\uE8C8", enterHint(copyModifiers), [item, copyModifiers](PopupWindow& self) { self.SelectWithModifiers(item, copyModifiers); });
+            add(::Kleio::Strings::Get(L"Popup_Copy"), L"\uE8C8", enterHint(copyModifiers), [item, copyModifiers](PopupWindow& self) { self.SelectWithModifiers(item, copyModifiers); });
         }
         if (pasteModifiers != Modifiers::None)
         {
-            add(L"Paste", L"\uE77F", enterHint(pasteModifiers), [item, pasteModifiers](PopupWindow& self) { self.SelectWithModifiers(item, pasteModifiers); });
+            add(::Kleio::Strings::Get(L"Popup_Paste"), L"\uE77F", enterHint(pasteModifiers), [item, pasteModifiers](PopupWindow& self) { self.SelectWithModifiers(item, pasteModifiers); });
         }
         if (plainModifiers != Modifiers::None)
         {
-            add(L"Paste without formatting", nullptr, enterHint(plainModifiers), [item, plainModifiers](PopupWindow& self) { self.SelectWithModifiers(item, plainModifiers); });
+            add(::Kleio::Strings::Get(L"Popup_PasteWithoutFormatting"), nullptr, enterHint(plainModifiers), [item, plainModifiers](PopupWindow& self) { self.SelectWithModifiers(item, plainModifiers); });
         }
         menu.Items().Append(controls::MenuFlyoutSeparator{});
-        add(item->IsPinned() ? L"Unpin" : L"Pin", item->IsPinned() ? L"\uE77A" : L"\uE718", ShortcutText(settings.PinShortcut()),
+        add(::Kleio::Strings::Get(item->IsPinned() ? L"Unpin" : L"Pin"), item->IsPinned() ? L"\uE77A" : L"\uE718", ShortcutText(settings.PinShortcut()),
             [](PopupWindow& self) { self.TogglePinSelection(); });
         if (!item->IsImage())
         {
-            add(L"Edit\u2026", L"\uE70F", L"", [viewModel](PopupWindow& self) { self.OpenEditor(viewModel); });
+            add(::Kleio::Strings::Get(L"Popup_Edit"), L"\uE70F", L"", [viewModel](PopupWindow& self) { self.OpenEditor(viewModel); });
         }
-        add(L"Delete", L"\uE74D", ShortcutText(settings.DeleteShortcut()), [](PopupWindow& self) { self.DeleteSelection(); });
+        add(::Kleio::Strings::Get(L"Delete"), L"\uE74D", ShortcutText(settings.DeleteShortcut()), [](PopupWindow& self) { self.DeleteSelection(); });
 
         menu.Closed([weak](auto&&, auto&&) {
             if (auto self = weak.get())
@@ -3159,6 +3165,7 @@ namespace winrt::Kleio::implementation
     void PopupWindow::PrepareDialog(controls::ContentDialog const& dialog)
     {
         dialog.XamlRoot(Content().XamlRoot());
+        dialog.FlowDirection(::Kleio::Strings::FlowDirection());
         try
         {
             auto style = xaml::Application::Current().Resources().Lookup(winrt::box_value(L"DefaultContentDialogStyle"));
@@ -3234,21 +3241,20 @@ namespace winrt::Kleio::implementation
             // Maccy ConfirmationView with clear_alert_* strings and the dialog suppression toggle.
             controls::ContentDialog dialog;
             PrepareDialog(dialog);
-            dialog.Title(winrt::box_value(winrt::hstring{ all ? L"Clear all history?" : L"Clear history?" }));
+            dialog.Title(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(all ? L"Popup_ClearAllTitle" : L"Popup_ClearTitle") }));
 
             controls::StackPanel panel;
             panel.Spacing(12);
             controls::TextBlock message;
             message.TextWrapping(xaml::TextWrapping::Wrap);
-            message.Text(all ? L"Are you sure you want to clear the history, including pinned items? You can't undo this action."
-                             : L"Are you sure you want to clear the history? Pinned items are kept. You can't undo this action.");
+            message.Text(::Kleio::Strings::Get(all ? L"Popup_ClearAllMessage" : L"Popup_ClearMessage"));
             controls::CheckBox dontAsk;
-            dontAsk.Content(winrt::box_value(winrt::hstring{ L"Don't ask again" }));
+            dontAsk.Content(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Popup_DontAskAgain") }));
             panel.Children().Append(message);
             panel.Children().Append(dontAsk);
             dialog.Content(panel);
-            dialog.PrimaryButtonText(all ? L"Clear all" : L"Clear");
-            dialog.CloseButtonText(L"Cancel");
+            dialog.PrimaryButtonText(::Kleio::Strings::Get(all ? L"ClearAll" : L"Clear"));
+            dialog.CloseButtonText(::Kleio::Strings::Get(L"Cancel"));
             dialog.DefaultButton(controls::ContentDialogButton::Primary);
 
             BeginDialog(400, 300);
@@ -3315,7 +3321,7 @@ namespace winrt::Kleio::implementation
             panel.MinWidth(320);
 
             controls::TextBox alias;
-            alias.Header(winrt::box_value(winrt::hstring{ L"Alias" }));
+            alias.Header(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Popup_EditorTitle") }));
             alias.Text(winrt::hstring{ originalTitle });
             alias.IsEnabled(!isImage);
             alias.IsSpellCheckEnabled(false);
@@ -3330,7 +3336,7 @@ namespace winrt::Kleio::implementation
                 std::sort(pins.begin(), pins.end());
                 pins.erase(std::unique(pins.begin(), pins.end()), pins.end());
                 keyBox = controls::ComboBox{};
-                keyBox.Header(winrt::box_value(winrt::hstring{ L"Key" }));
+                keyBox.Header(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Popup_EditorKey") }));
                 int selectedIndex = -1;
                 for (std::size_t i = 0; i < pins.size(); ++i)
                 {
@@ -3345,7 +3351,7 @@ namespace winrt::Kleio::implementation
             }
 
             controls::TextBox content;
-            content.Header(winrt::box_value(winrt::hstring{ L"Content" }));
+            content.Header(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Popup_EditorContent") }));
             content.AcceptsReturn(true);
             content.TextWrapping(xaml::TextWrapping::Wrap);
             content.IsSpellCheckEnabled(false);
@@ -3357,7 +3363,7 @@ namespace winrt::Kleio::implementation
             }
             else
             {
-                content.Text(tooLarge ? L"This text is too long to edit." : L"The content of this item is not text and can't be edited.");
+                content.Text(::Kleio::Strings::Get(tooLarge ? L"Popup_EditorTooLong" : L"Popup_EditorNotText"));
                 content.IsEnabled(false);
             }
             panel.Children().Append(content);
@@ -3366,17 +3372,17 @@ namespace winrt::Kleio::implementation
             {
                 controls::TextBlock warning;
                 warning.TextWrapping(xaml::TextWrapping::Wrap);
-                warning.Text(L"Saving changed content keeps only the plain text; the formatting is removed.");
+                warning.Text(::Kleio::Strings::Get(L"Popup_EditorRichText"));
                 warning.Opacity(0.7);
                 panel.Children().Append(warning);
             }
 
             controls::ContentDialog dialog;
             PrepareDialog(dialog);
-            dialog.Title(winrt::box_value(winrt::hstring{ L"Edit item" }));
+            dialog.Title(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"EditItem") }));
             dialog.Content(panel);
-            dialog.PrimaryButtonText(L"Save");
-            dialog.CloseButtonText(L"Cancel");
+            dialog.PrimaryButtonText(::Kleio::Strings::Get(L"Popup_EditorSave"));
+            dialog.CloseButtonText(::Kleio::Strings::Get(L"Cancel"));
             dialog.DefaultButton(controls::ContentDialogButton::Primary);
 
             BeginDialog(480, 520);
@@ -3568,9 +3574,9 @@ namespace winrt::Kleio::implementation
         PreviewPinButton().IsEnabled(!(anyPinned && !allPinned));
         const auto pinShortcut = ShortcutText(settings.PinShortcut());
         const auto deleteShortcut = ShortcutText(settings.DeleteShortcut());
-        SetToolTip(PreviewPinButton(), pinShortcut.empty() ? std::wstring{ allPinned ? L"Unpin" : L"Pin" }
-                                                           : L"Press " + pinShortcut + (allPinned ? L" to unpin." : L" to pin."));
-        SetToolTip(PreviewDeleteButton(), deleteShortcut.empty() ? std::wstring{ L"Delete" } : L"Press " + deleteShortcut + L" to delete.");
+        SetToolTip(PreviewPinButton(), pinShortcut.empty() ? ::Kleio::Strings::Get(allPinned ? L"Unpin" : L"Pin")
+                                                           : ::Kleio::Strings::Format(allPinned ? L"Popup_PressToUnpin" : L"Popup_PressToPin", pinShortcut));
+        SetToolTip(PreviewDeleteButton(), deleteShortcut.empty() ? ::Kleio::Strings::Get(L"Delete") : ::Kleio::Strings::Format(L"Popup_PressToDelete", deleteShortcut));
 
         ::Kleio::HistoryItemPtr item = m_lead ? Impl(m_lead)->Item() : nullptr;
         PreviewEditButton().IsEnabled(m_selection.size() == 1 && item && !item->IsImage());
@@ -3598,7 +3604,7 @@ namespace winrt::Kleio::implementation
                 {
                     PreviewImage().MaxWidth(pixels.width / m_scale);
                     PreviewImage().MaxHeight(pixels.height / m_scale);
-                    PreviewDimensions().Text(L"Dimensions: " + std::to_wstring(pixels.width) + L"\u00D7" + std::to_wstring(pixels.height));
+                    PreviewDimensions().Text(::Kleio::Strings::Format(L"Popup_Dimensions", std::to_wstring(pixels.width), std::to_wstring(pixels.height)));
                 }
                 PreviewDimensions().Visibility(VisibleIf(!pixels.IsEmpty()));
                 PreviewImage().Visibility(xaml::Visibility::Visible);
@@ -3627,9 +3633,9 @@ namespace winrt::Kleio::implementation
             {
                 PreviewAppRow().Visibility(xaml::Visibility::Collapsed);
             }
-            PreviewFirstCopy().Text(L"First copy time: " + ::Kleio::PopupText::FormatTimestamp(item->firstCopiedAt));
-            PreviewLastCopy().Text(L"Last copy time: " + ::Kleio::PopupText::FormatTimestamp(item->lastCopiedAt));
-            PreviewCopies().Text(L"Number of copies: " + std::to_wstring(item->numberOfCopies));
+            PreviewFirstCopy().Text(::Kleio::Strings::Format(L"Popup_FirstCopyTime", ::Kleio::PopupText::FormatTimestamp(item->firstCopiedAt)));
+            PreviewLastCopy().Text(::Kleio::Strings::Format(L"Popup_LastCopyTime", ::Kleio::PopupText::FormatTimestamp(item->lastCopiedAt)));
+            PreviewCopies().Text(::Kleio::Strings::Format(L"Popup_NumberOfCopies", std::to_wstring(item->numberOfCopies)));
 
             if (pinShortcut.empty())
             {
@@ -3637,7 +3643,7 @@ namespace winrt::Kleio::implementation
             }
             else
             {
-                PreviewPinHint().Text(L"Press " + pinShortcut + (item->IsPinned() ? L" to unpin." : L" to pin."));
+                PreviewPinHint().Text(::Kleio::Strings::Format(item->IsPinned() ? L"Popup_PressToUnpin" : L"Popup_PressToPin", pinShortcut));
                 PreviewPinHint().Visibility(xaml::Visibility::Visible);
             }
             if (deleteShortcut.empty())
@@ -3646,7 +3652,7 @@ namespace winrt::Kleio::implementation
             }
             else
             {
-                PreviewDeleteHint().Text(L"Press " + deleteShortcut + L" to delete.");
+                PreviewDeleteHint().Text(::Kleio::Strings::Format(L"Popup_PressToDelete", deleteShortcut));
                 PreviewDeleteHint().Visibility(xaml::Visibility::Visible);
             }
             PreviewInfo().Visibility(xaml::Visibility::Visible);
@@ -3663,7 +3669,7 @@ namespace winrt::Kleio::implementation
             {
                 // Maccy PasteStackPreviewView: the queued items in paste order.
                 auto const& stack = Controller().CurrentPasteStack();
-                text = L"Paste stack \u2014 each paste puts the next item on the clipboard.\n\n";
+                text = ::Kleio::Strings::Get(L"Popup_PasteStackPreview") + L"\n\n";
                 std::size_t number = 1;
                 for (auto const& entry : stack->items)
                 {
@@ -3671,7 +3677,7 @@ namespace winrt::Kleio::implementation
                     {
                         continue;
                     }
-                    std::wstring title = entry->IsImage() && entry->title.empty() ? std::wstring{ L"Image" } : entry->title;
+                    std::wstring title = entry->IsImage() && entry->title.empty() ? ::Kleio::Strings::Get(L"Image") : entry->title;
                     text += std::to_wstring(number++) + L". " + ::Kleio::PopupText::Truncate(title, 200) + L"\n";
                 }
             }

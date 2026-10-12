@@ -18,48 +18,48 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Text="Storage" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+        <TextBlock x:Uid="Storage_Header" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
 
         <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
             <StackPanel Style="{StaticResource SettingsPageContentStyle}">
 
                 <!-- ===== Save ===== -->
-                <TextBlock Text="Save" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
-                <TextBlock Style="{StaticResource SettingsParagraphTextStyle}" Text="Change what types of copied content should be stored." />
-                <local:SettingsCard Header="Files" Glyph="&#xE8B7;" Description="Files and folders copied in File Explorer and other apps.">
-                    <ToggleSwitch x:Name="SaveFilesToggle" AutomationProperties.Name="Save files" Toggled="SaveFilesToggle_Toggled" />
+                <TextBlock x:Uid="Storage_SaveSection" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
+                <TextBlock x:Uid="Storage_SaveDescription" Style="{StaticResource SettingsParagraphTextStyle}" />
+                <local:SettingsCard x:Uid="Storage_FilesCard" Glyph="&#xE8B7;">
+                    <ToggleSwitch x:Name="SaveFilesToggle" x:Uid="Storage_FilesToggle" Toggled="SaveFilesToggle_Toggled" />
                 </local:SettingsCard>
-                <local:SettingsCard Header="Images" Glyph="&#xEB9F;" Description="Pictures and screenshots.">
-                    <ToggleSwitch x:Name="SaveImagesToggle" AutomationProperties.Name="Save images" Toggled="SaveImagesToggle_Toggled" />
+                <local:SettingsCard x:Uid="Storage_ImagesCard" Glyph="&#xEB9F;">
+                    <ToggleSwitch x:Name="SaveImagesToggle" x:Uid="Storage_ImagesToggle" Toggled="SaveImagesToggle_Toggled" />
                 </local:SettingsCard>
-                <local:SettingsCard Header="Text" Glyph="&#xE8A5;" Description="Plain text, rich text and HTML.">
-                    <ToggleSwitch x:Name="SaveTextToggle" AutomationProperties.Name="Save text" Toggled="SaveTextToggle_Toggled" />
+                <local:SettingsCard x:Uid="Storage_TextCard" Glyph="&#xE8A5;">
+                    <ToggleSwitch x:Name="SaveTextToggle" x:Uid="Storage_TextToggle" Toggled="SaveTextToggle_Toggled" />
                 </local:SettingsCard>
 
                 <!-- ===== History ===== -->
-                <TextBlock Text="History" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
-                <local:SettingsCard Header="Size" Glyph="&#xE81C;" Description="Number of history items to keep. Default: 200.">
+                <TextBlock x:Uid="Storage_HistorySection" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard x:Uid="Storage_SizeCard" Glyph="&#xE81C;">
                     <StackPanel Orientation="Horizontal" Spacing="16">
                         <TextBlock
                             x:Name="DatabaseSizeText"
+                            x:Uid="Storage_DatabaseSize"
                             VerticalAlignment="Center"
-                            Style="{StaticResource SettingsDescriptionTextStyle}"
-                            ToolTipService.ToolTip="Current size on disk." />
+                            Style="{StaticResource SettingsDescriptionTextStyle}" />
                         <NumberBox
                             x:Name="HistorySizeBox"
+                            x:Uid="Storage_HistorySize"
                             Minimum="1"
                             Maximum="999"
                             SmallChange="1"
                             LargeChange="10"
-                            AutomationProperties.Name="History size"
                             ValueChanged="HistorySizeBox_ValueChanged" />
                     </StackPanel>
                 </local:SettingsCard>
-                <local:SettingsCard Header="Sort by" Glyph="&#xE8CB;" Description="Order of the items in the history. Default: Time of last copy.">
-                    <ComboBox x:Name="SortByCombo" AutomationProperties.Name="Sort by" SelectionChanged="SortByCombo_SelectionChanged">
-                        <ComboBoxItem Content="Time of last copy" />
-                        <ComboBoxItem Content="Time of first copy" />
-                        <ComboBoxItem Content="Number of copies" />
+                <local:SettingsCard x:Uid="Storage_SortByCard" Glyph="&#xE8CB;">
+                    <ComboBox x:Name="SortByCombo" x:Uid="Storage_SortByCombo" SelectionChanged="SortByCombo_SelectionChanged">
+                        <ComboBoxItem x:Uid="Storage_SortLastCopied" />
+                        <ComboBoxItem x:Uid="Storage_SortFirstCopied" />
+                        <ComboBoxItem x:Uid="Storage_SortCopies" />
                     </ComboBox>
                 </local:SettingsCard>
             </StackPanel>

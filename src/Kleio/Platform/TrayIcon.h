@@ -51,6 +51,8 @@ namespace Kleio
         // Called on right click / context menu key to obtain the menu, which TrayIcon then shows with
         // TrackPopupMenuEx (dark mode aware) and dispatches.
         std::function<std::vector<MenuItem>()> MenuProvider;
+        // Lay the context menu out right to left (Arabic, Hebrew, ... user interface).
+        bool MenuRightToLeft = false;
 
     private:
         std::optional<LRESULT> OnMessage(UINT message, WPARAM wParam, LPARAM lParam);

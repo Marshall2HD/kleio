@@ -6,6 +6,7 @@
 
 #include "Core/Settings.h"
 #include "SettingsHelpers.h"
+#include "Strings.h"
 
 #include <cmath>
 
@@ -100,7 +101,7 @@ namespace winrt::Kleio::implementation
         {
             auto items = PopupScreenCombo().Items();
             items.Clear();
-            items.Append(winrt::box_value(L"Active screen"));
+            items.Append(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Appearance_ActiveScreen") }));
             for (auto const& name : m_monitors)
             {
                 items.Append(winrt::box_value(winrt::hstring{ name }));
@@ -112,7 +113,7 @@ namespace winrt::Kleio::implementation
             {
                 for (auto index = static_cast<std::int32_t>(m_monitors.size()) + 1; index <= screen; ++index)
                 {
-                    items.Append(winrt::box_value(winrt::hstring{ L"Display " + std::to_wstring(index) + L" (not connected)" }));
+                    items.Append(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Format(L"Appearance_DisplayNotConnected", std::to_wstring(index)) }));
                 }
             }
         }

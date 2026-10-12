@@ -109,8 +109,13 @@ namespace Kleio
         static constexpr std::wstring_view kShowNotifications = L"showNotifications";
         static constexpr std::wstring_view kLastUpdateCheck = L"lastUpdateCheck";
         static constexpr std::wstring_view kSkippedUpdateVersion = L"skippedUpdateVersion";
+        static constexpr std::wstring_view kLanguage = L"language";
 
         // ---- General ----
+        // BCP-47 tag of the user interface language (a folder under Strings/), or "" to follow the
+        // Windows display language. Applied as the app's PrimaryLanguageOverride at startup.
+        std::wstring Language() const;                   // default ""
+        void Language(std::wstring const& value);
         bool CheckForUpdates() const;                    // default true
         void CheckForUpdates(bool value);
         KeyShortcut PopupShortcut() const;               // default Win+Shift+C (empty = disabled)

@@ -98,12 +98,10 @@
         <Setter Property="Margin" Value="2,0,4,0" />
     </Style>
 
-    <!-- Toggle switches inside cards: no 154px minimum width, "On"/"Off" labels. Pages apply it as
-         an implicit style in their own resources (BasedOn this one). -->
+    <!-- Toggle switches inside cards: no 154px minimum width. The "On"/"Off" labels are WinUI's own,
+         localized by WinUI. Pages apply it as an implicit style in their own resources (BasedOn this one). -->
     <Style x:Key="SettingsToggleSwitchStyle" TargetType="ToggleSwitch">
         <Setter Property="MinWidth" Value="0" />
-        <Setter Property="OnContent" Value="On" />
-        <Setter Property="OffContent" Value="Off" />
         <Setter Property="HorizontalAlignment" Value="Right" />
         <Setter Property="VerticalAlignment" Value="Center" />
     </Style>

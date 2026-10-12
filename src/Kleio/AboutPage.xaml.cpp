@@ -6,6 +6,7 @@
 
 #include "Platform/SystemIntegration.h"
 #include "SettingsHelpers.h"
+#include "Strings.h"
 
 namespace winrt
 {
@@ -18,9 +19,7 @@ namespace winrt::Kleio::implementation
     {
         try
         {
-            std::wstring version = L"Version ";
-            version += ::Kleio::SystemIntegration::AppVersion().c_str();
-            VersionText().Text(version);
+            VersionText().Text(::Kleio::Strings::Format(L"About_Version", ::Kleio::SystemIntegration::AppVersion()));
         }
         catch (...)
         {

@@ -69,9 +69,8 @@
                          Grid.Column="1"
                          VerticalAlignment="Center"
                          Padding="34,5,6,6"
-                         PlaceholderText="Type to search&#x2026;"
-                         IsSpellCheckEnabled="False"
-                         AutomationProperties.Name="Search clipboard history" />
+                         x:Uid="Popup_Search"
+                         IsSpellCheckEnabled="False" />
                 <FontIcon Grid.Column="1"
                           Margin="12,0,0,0"
                           HorizontalAlignment="Left"
@@ -84,8 +83,8 @@
                 <Button x:Name="PreviewToggleButton"
                         Grid.Column="2"
                         Margin="4,0,0,0"
-                        Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Toggle preview">
+                        x:Uid="Popup_PreviewToggle"
+                        Style="{StaticResource PopupToolbarButtonStyle}">
                     <FontIcon x:Name="PreviewToggleIcon" FontSize="16" Glyph="&#xE90D;" />
                 </Button>
             </Grid>
@@ -123,14 +122,14 @@
                         <TextBlock x:Name="PasteStackTitle"
                                    Grid.Column="1"
                                    VerticalAlignment="Center"
-                                   TextTrimming="CharacterEllipsis"
-                                   Text="Paste stack" />
+                                   x:Uid="Popup_PasteStackTitle"
+                                   TextTrimming="CharacterEllipsis" />
                         <Button x:Name="PasteStackStopButton"
                                 Grid.Column="2"
                                 Style="{StaticResource PopupToolbarButtonStyle}"
                                 Width="30"
                                 Height="30"
-                                AutomationProperties.Name="Stop paste stack">
+                                x:Uid="Popup_PasteStackStop">
                             <FontIcon FontSize="12" Glyph="&#xE711;" />
                         </Button>
                     </Grid>
@@ -151,7 +150,7 @@
                       ScrollViewer.VerticalScrollBarVisibility="Disabled"
                       ItemTemplate="{StaticResource HistoryRowTemplate}"
                       ItemContainerStyle="{StaticResource PopupListViewItemStyle}"
-                      AutomationProperties.Name="Pinned items" />
+                      x:Uid="Popup_PinnedList" />
 
             <Rectangle x:Name="TopSeparator" Grid.Row="3" Style="{StaticResource PopupSeparatorStyle}" Visibility="Collapsed" />
 
@@ -163,7 +162,7 @@
                       IsItemClickEnabled="True"
                       ItemTemplate="{StaticResource HistoryRowTemplate}"
                       ItemContainerStyle="{StaticResource PopupListViewItemStyle}"
-                      AutomationProperties.Name="Clipboard history">
+                      x:Uid="Popup_HistoryList">
                 <ListView.ItemContainerTransitions>
                     <TransitionCollection />
                 </ListView.ItemContainerTransitions>
@@ -211,29 +210,29 @@
             <!-- Toolbar (Maccy ToolbarView) -->
             <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="2">
                 <Button x:Name="PreviewCopyTextButton"
+                        x:Uid="Popup_PreviewCopyText"
                         Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Copy text recognized in the image"
                         Visibility="Collapsed">
                     <FontIcon FontSize="14" Glyph="&#xE8C8;" />
                 </Button>
                 <Button x:Name="PreviewPinButton"
-                        Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Pin">
+                        x:Uid="Popup_PreviewPin"
+                        Style="{StaticResource PopupToolbarButtonStyle}">
                     <FontIcon x:Name="PreviewPinIcon" FontSize="14" Glyph="&#xE718;" />
                 </Button>
                 <Button x:Name="PreviewEditButton"
-                        Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Edit item">
+                        x:Uid="Popup_PreviewEdit"
+                        Style="{StaticResource PopupToolbarButtonStyle}">
                     <FontIcon FontSize="14" Glyph="&#xE70F;" />
                 </Button>
                 <Button x:Name="PreviewDeleteButton"
-                        Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Delete">
+                        x:Uid="Popup_PreviewDelete"
+                        Style="{StaticResource PopupToolbarButtonStyle}">
                     <FontIcon FontSize="14" Glyph="&#xE74D;" />
                 </Button>
                 <Button x:Name="PreviewStopStackButton"
+                        x:Uid="Popup_PreviewStopStack"
                         Style="{StaticResource PopupToolbarButtonStyle}"
-                        AutomationProperties.Name="Stop paste stack"
                         Visibility="Collapsed">
                     <FontIcon FontSize="14" Glyph="&#xE71A;" />
                 </Button>
@@ -259,7 +258,7 @@
 
             <StackPanel x:Name="PreviewInfo" Grid.Row="3" Padding="4,0,8,0" Spacing="2">
                 <StackPanel x:Name="PreviewAppRow" Orientation="Horizontal" Spacing="4">
-                    <TextBlock Style="{StaticResource PopupSecondaryTextStyle}" Text="Application:" />
+                    <TextBlock x:Uid="Popup_PreviewApplication" Style="{StaticResource PopupSecondaryTextStyle}" />
                     <Image x:Name="PreviewAppIcon" Width="14" Height="14" VerticalAlignment="Center" />
                     <TextBlock x:Name="PreviewAppName" Style="{StaticResource PopupSecondaryTextStyle}" />
                 </StackPanel>

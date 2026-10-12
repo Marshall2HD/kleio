@@ -583,6 +583,10 @@ namespace Kleio
         SetForegroundWindow(hwnd);
         UINT flags = TPM_RETURNCMD | TPM_RIGHTBUTTON | TPM_NONOTIFY | TPM_BOTTOMALIGN;
         flags |= GetSystemMetrics(SM_MENUDROPALIGNMENT) ? TPM_RIGHTALIGN : TPM_LEFTALIGN;
+        if (MenuRightToLeft)
+        {
+            flags |= TPM_LAYOUTRTL;
+        }
         const UINT command = static_cast<UINT>(TrackPopupMenuEx(menu.get(), flags, x, y, hwnd, nullptr));
         PostMessageW(hwnd, WM_NULL, 0, 0);
 

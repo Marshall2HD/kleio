@@ -4,6 +4,7 @@
 #include "Platform/AppInfo.h"
 #include "Platform/SystemIntegration.h"
 #include "Platform/UpdateChecker.h"
+#include "Strings.h"
 #include "Core/Settings.h"
 
 namespace winrt
@@ -20,7 +21,7 @@ namespace Kleio::SettingsUi
     std::wstring FormatModifiers(Modifiers modifiers)
     {
         std::wstring text;
-        auto append = [&](Modifiers flag, wchar_t const* name) {
+        auto append = [&](Modifiers flag, std::wstring const& name) {
             if (HasFlag(modifiers, flag))
             {
                 if (!text.empty())
@@ -30,11 +31,12 @@ namespace Kleio::SettingsUi
                 text += name;
             }
         };
-        append(Modifiers::Ctrl, L"Ctrl");
-        append(Modifiers::Alt, L"Alt");
-        append(Modifiers::Shift, L"Shift");
-        append(Modifiers::Win, L"Win");
-        return text.empty() ? std::wstring{ L"no modifier" } : text;
+        // Ctrl, Alt, Shift order like Maccy's modifier descriptions (⌘, ⌥, ⇧).
+        append(Modifiers::Ctrl, Strings::ModifierName(Modifiers::Ctrl));
+        append(Modifiers::Alt, Strings::ModifierName(Modifiers::Alt));
+        append(Modifiers::Shift, Strings::ModifierName(Modifiers::Shift));
+        append(Modifiers::Win, Strings::ModifierName(Modifiers::Win));
+        return text;
     }
 
     std::wstring FormatBytes(std::uint64_t bytes)
@@ -44,7 +46,7 @@ namespace Kleio::SettingsUi
         {
             return buffer;
         }
-        return std::to_wstring(bytes) + L" bytes";
+        return std::to_wstring(bytes) + L" B";
     }
 
     namespace
@@ -92,7 +94,7 @@ namespace Kleio::SettingsUi
             infoBar.IsOpen(true);
         }
 
-        winrt::HyperlinkButton Link(wchar_t const* text, std::wstring const& uri)
+        winrt::HyperlinkButton Link(std::wstring const& text, std::wstring const& uri)
         {
             winrt::HyperlinkButton link;
             link.Content(winrt::box_value(winrt::hstring{ text }));
@@ -104,8 +106,8 @@ namespace Kleio::SettingsUi
         void InstallFromInfoBar(winrt::InfoBar infoBar, winrt::Button checkButton, Kleio::UpdateInfo update)
         {
             checkButton.IsEnabled(false);
-            ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, L"Installing update",
-                     L"Downloading Kleio " + update.version + L". Kleio restarts when the update is installed.", nullptr);
+            ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, Strings::Get(L"Update_InstallingTitle"),
+                     Strings::Format(L"Update_Downloading", update.version), nullptr);
             Kleio::InstallUpdate(update, [infoBar, checkButton, update](std::wstring const& error, std::wstring const& package) {
                 try
                 {
@@ -114,15 +116,15 @@ namespace Kleio::SettingsUi
                     if (!package.empty())
                     {
                         winrt::Button open;
-                        open.Content(winrt::box_value(L"Open in App Installer"));
+                        open.Content(winrt::box_value(winrt::hstring{ Strings::Get(L"Update_OpenInAppInstaller") }));
                         open.Click([package](auto&&, auto&&) { Kleio::OpenPackageInstaller(package); });
                         action = open;
                     }
                     else
                     {
-                        action = Link(L"Download", update.releaseUrl.empty() ? std::wstring{ Kleio::ReleasesUrl } : update.releaseUrl);
+                        action = Link(Strings::Get(L"Update_Download"), update.releaseUrl.empty() ? std::wstring{ Kleio::ReleasesUrl } : update.releaseUrl);
                     }
-                    ShowInfo(infoBar, winrt::InfoBarSeverity::Error, L"Couldn't install the update", error, action);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Error, Strings::Get(L"Update_InstallFailed"), error, action);
                 }
                 catch (...)
                 {
@@ -152,38 +154,37 @@ namespace Kleio::SettingsUi
                 case Kleio::UpdateCheckStatus::Available:
                 {
                     auto const update = result.update;
-                    std::wstring message = L"Kleio " + update.version + L" is available. You have " +
-                        std::wstring{ Kleio::SystemIntegration::AppVersion() } + L".";
+                    std::wstring message = Strings::Format(L"Update_Available", update.version, Kleio::SystemIntegration::AppVersion());
                     winrt::ButtonBase action{ nullptr };
                     if (!update.packageUrl.empty())
                     {
                         winrt::Button install;
-                        install.Content(winrt::box_value(L"Install update"));
+                        install.Content(winrt::box_value(winrt::hstring{ Strings::Get(L"Update_Install") }));
                         install.Click([infoBar, button, update](auto&&, auto&&) { InstallFromInfoBar(infoBar, button, update); });
                         action = install;
                     }
                     else
                     {
-                        action = Link(L"Download", update.releaseUrl);
+                        action = Link(Strings::Get(L"Update_Download"), update.releaseUrl);
                     }
-                    ShowInfo(infoBar, winrt::InfoBarSeverity::Success, L"Update available", message, action);
-                    infoBar.Content(Link(L"Release notes", update.releaseUrl));
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Success, Strings::Get(L"Update_AvailableTitle"), message, action);
+                    infoBar.Content(Link(Strings::Get(L"Update_ReleaseNotes"), update.releaseUrl));
                     break;
                 }
                 case Kleio::UpdateCheckStatus::UpToDate:
                     infoBar.Content(nullptr);
-                    ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, L"You're up to date",
-                             L"Kleio " + std::wstring{ Kleio::SystemIntegration::AppVersion() } + L" is the latest version.", nullptr);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Informational, Strings::Get(L"Update_UpToDateTitle"),
+                             Strings::Format(L"Update_UpToDate", Kleio::SystemIntegration::AppVersion()), nullptr);
                     break;
                 case Kleio::UpdateCheckStatus::NoRelease:
                     infoBar.Content(nullptr);
-                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, L"Couldn't check for updates",
-                             L"No published Kleio release was found.", Link(L"Releases", Kleio::ReleasesUrl));
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, Strings::Get(L"Update_CheckFailed"),
+                             Strings::Get(L"Update_NoRelease"), Link(Strings::Get(L"Update_Releases"), Kleio::ReleasesUrl));
                     break;
                 default:
                     infoBar.Content(nullptr);
-                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, L"Couldn't check for updates",
-                             L"Check your internet connection and try again.", nullptr);
+                    ShowInfo(infoBar, winrt::InfoBarSeverity::Warning, Strings::Get(L"Update_CheckFailed"),
+                             Strings::Get(L"Update_CheckConnection"), nullptr);
                     break;
                 }
             }
@@ -269,7 +270,7 @@ namespace Kleio::SettingsUi
         for (std::size_t i = 0; i < devices.size(); ++i)
         {
             auto const found = friendly.find(devices[i]);
-            names.push_back(found != friendly.end() ? found->second : L"Display " + std::to_wstring(i + 1));
+            names.push_back(found != friendly.end() ? found->second : Strings::Format(L"Appearance_Display", std::to_wstring(i + 1)));
         }
         // Disambiguate identical models ("DELL U2720Q (2)").
         for (std::size_t i = 0; i < names.size(); ++i)
@@ -355,6 +356,7 @@ namespace Kleio::SettingsUi
     void PrepareDialog(winrt::ContentDialog const& dialog, winrt::XamlRoot const& root)
     {
         dialog.XamlRoot(root);
+        dialog.FlowDirection(Strings::FlowDirection());
         if (auto style = FindResource(L"DefaultContentDialogStyle").try_as<winrt::Style>())
         {
             dialog.Style(style);

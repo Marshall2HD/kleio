@@ -16,16 +16,15 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Text="Advanced" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+        <TextBlock x:Uid="Advanced_Header" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
 
         <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
             <StackPanel Style="{StaticResource SettingsPageContentStyle}">
 
                 <!-- ===== Pause ===== -->
-                <TextBlock Text="Pause" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
-                <local:SettingsCard Header="Pause Kleio" Glyph="&#xE769;"
-                                    Description="Temporarily ignore all new copies. Useful to keep Kleio from recording while you copy sensitive data.">
-                    <ToggleSwitch x:Name="PauseToggle" AutomationProperties.Name="Pause Kleio" Toggled="PauseToggle_Toggled" />
+                <TextBlock x:Uid="Advanced_PauseSection" Style="{StaticResource SettingsSectionHeaderTextStyle}" Margin="1,0,0,4" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard x:Uid="Advanced_PauseCard" Glyph="&#xE769;">
+                    <ToggleSwitch x:Name="PauseToggle" x:Uid="Advanced_PauseToggle" Toggled="PauseToggle_Toggled" />
                 </local:SettingsCard>
                 <Border Style="{StaticResource SettingsCardBorderStyle}" MinHeight="0">
                     <Grid ColumnSpacing="16">
@@ -35,24 +34,22 @@
                         </Grid.ColumnDefinitions>
                         <FontIcon Glyph="&#xE756;" Style="{StaticResource SettingsCardIconStyle}" VerticalAlignment="Top" Margin="2,2,4,0" />
                         <StackPanel Grid.Column="1" Spacing="8">
-                            <TextBlock Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14">You are likely to use this from scripts. Pause Kleio from the command line while copying sensitive data:</TextBlock>
-                            <TextBlock Style="{StaticResource SettingsMonospaceTextStyle}" AutomationProperties.Name="kleio.exe --pause, copy data, then kleio.exe --resume">kleio.exe --pause<LineBreak />&#x2026; copy data &#x2026;<LineBreak />kleio.exe --resume</TextBlock>
-                            <TextBlock Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14">To ignore only the next copy:</TextBlock>
-                            <TextBlock Style="{StaticResource SettingsMonospaceTextStyle}" AutomationProperties.Name="kleio.exe --ignore-next, then copy data">kleio.exe --ignore-next<LineBreak />&#x2026; copy data &#x2026;</TextBlock>
-                            <TextBlock Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14">You can also Alt+click the tray icon to pause or resume Kleio. To ignore only the next copy, Alt+Shift+click it.</TextBlock>
+                            <TextBlock x:Uid="Advanced_ScriptsIntro" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" />
+                            <TextBlock x:Uid="Advanced_PauseScript" Style="{StaticResource SettingsMonospaceTextStyle}" />
+                            <TextBlock x:Uid="Advanced_IgnoreNextIntro" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" />
+                            <TextBlock x:Uid="Advanced_IgnoreNextScript" Style="{StaticResource SettingsMonospaceTextStyle}" />
+                            <TextBlock x:Uid="Advanced_TrayIconHint" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" />
                         </StackPanel>
                     </Grid>
                 </Border>
 
                 <!-- ===== Clearing ===== -->
-                <TextBlock Text="Clearing" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
-                <local:SettingsCard Header="Clear history on quit" Glyph="&#xE74D;"
-                                    Description="Automatically remove all unpinned items before quitting Kleio.">
-                    <ToggleSwitch x:Name="ClearOnQuitToggle" AutomationProperties.Name="Clear history on quit" Toggled="ClearOnQuitToggle_Toggled" />
+                <TextBlock x:Uid="Advanced_ClearingSection" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard x:Uid="Advanced_ClearOnQuitCard" Glyph="&#xE74D;">
+                    <ToggleSwitch x:Name="ClearOnQuitToggle" x:Uid="Advanced_ClearOnQuitToggle" Toggled="ClearOnQuitToggle_Toggled" />
                 </local:SettingsCard>
-                <local:SettingsCard Header="Clear the system clipboard too" Glyph="&#xE77F;"
-                                    Description="When enabled, clearing the history also clears the current Windows clipboard.">
-                    <ToggleSwitch x:Name="ClearSystemClipboardToggle" AutomationProperties.Name="Clear the system clipboard too" Toggled="ClearSystemClipboardToggle_Toggled" />
+                <local:SettingsCard x:Uid="Advanced_ClearSystemClipboardCard" Glyph="&#xE77F;">
+                    <ToggleSwitch x:Name="ClearSystemClipboardToggle" x:Uid="Advanced_ClearSystemClipboardToggle" Toggled="ClearSystemClipboardToggle_Toggled" />
                 </local:SettingsCard>
             </StackPanel>
         </ScrollViewer>

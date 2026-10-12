@@ -9,6 +9,7 @@
 #include "Core/Settings.h"
 #include "Platform/SystemIntegration.h"
 #include "SettingsHelpers.h"
+#include "Strings.h"
 
 namespace winrt
 {
@@ -42,6 +43,17 @@ namespace winrt::Kleio::implementation
         PinRecorder().ShortcutChanged(handler);
         DeleteRecorder().ShortcutChanged(handler);
         PreviewRecorder().ShortcutChanged(handler);
+
+        // "Windows default", then every language Kleio is translated into, by its own name.
+        auto items = LanguageCombo().Items();
+        items.Append(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"General_LanguageDefault") }));
+        for (auto const& language : ::Kleio::Strings::Languages())
+        {
+            winrt::ComboBoxItem item;
+            item.Content(winrt::box_value(winrt::hstring{ language.name }));
+            item.Language(winrt::hstring{ language.tag });
+            items.Append(item);
+        }
     }
 
     void GeneralSettingsPage::Page_Loaded(winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&)
@@ -111,6 +123,17 @@ namespace winrt::Kleio::implementation
         try
         {
             CheckForUpdatesToggle().IsOn(settings.CheckForUpdates());
+            int32_t languageIndex = 0;
+            auto const languages = ::Kleio::Strings::Languages();
+            for (std::size_t i = 0; i < languages.size(); ++i)
+            {
+                if (languages[i].tag == settings.Language())
+                {
+                    languageIndex = static_cast<int32_t>(i + 1);
+                }
+            }
+            LanguageCombo().SelectedIndex(languageIndex);
+            LanguageInfoBar().IsOpen(settings.Language() != ::Kleio::Strings::InitialLanguage());
             SearchModeCombo().SelectedIndex(static_cast<int32_t>(settings.SearchMode()));
             PasteAutomaticallyToggle().IsOn(settings.PasteByDefault());
             RemoveFormattingToggle().IsOn(settings.RemoveFormattingByDefault());
@@ -149,11 +172,7 @@ namespace winrt::Kleio::implementation
         auto const pasteText = ::Kleio::SettingsUi::FormatModifiers(::Kleio::ModifiersForAction(ItemAction::Paste, paste, plain));
         auto const plainText = ::Kleio::SettingsUi::FormatModifiers(::Kleio::ModifiersForAction(ItemAction::PasteWithoutFormatting, paste, plain));
 
-        std::wstring text = L"Customize what happens when you select an item with Enter or a click:\n";
-        text += L"• Hold " + copyText + L" (" + copyText + L"+Enter or " + copyText + L"+click) to copy the item.\n";
-        text += L"• Hold " + pasteText + L" (" + pasteText + L"+Enter or " + pasteText + L"+click) to copy and paste the item.\n";
-        text += L"• Hold " + plainText + L" (" + plainText + L"+Enter or " + plainText + L"+click) to copy, remove formatting and paste the item.";
-        ModifiersDescription().Text(text);
+        ModifiersDescription().Text(::Kleio::Strings::Format(L"General_Modifiers", copyText, pasteText, plainText));
     }
 
     winrt::fire_and_forget GeneralSettingsPage::LoadLaunchAtLoginAsync()
@@ -337,5 +356,36 @@ namespace winrt::Kleio::implementation
     {
         bool const ok = ::Kleio::AppController::Current().ApplyHotKeys();
         HotKeyInfoBar().IsOpen(!ok);
+    }
+
+    void GeneralSettingsPage::LanguageCombo_SelectionChanged(winrt::Windows::Foundation::IInspectable const&, winrt::SelectionChangedEventArgs const&)
+    {
+        if (m_loading)
+        {
+            return;
+        }
+        auto const index = LanguageCombo().SelectedIndex();
+        auto const languages = ::Kleio::Strings::Languages();
+        if (index < 0 || index > static_cast<int32_t>(languages.size()))
+        {
+            return;
+        }
+        std::wstring const tag = index == 0 ? std::wstring{} : std::wstring{ languages[index - 1].tag };
+        ::Kleio::Settings::Instance().Language(tag);
+        ::Kleio::Strings::SetLanguageOverride(tag);
+        // Strings are loaded when windows are created; the new language applies after a restart.
+        LanguageInfoBar().IsOpen(tag != ::Kleio::Strings::InitialLanguage());
+    }
+
+    void GeneralSettingsPage::LanguageRestart_Click(winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&)
+    {
+        try
+        {
+            // Comes back with Settings open (App::OnActivated handles --settings).
+            winrt::Microsoft::Windows::AppLifecycle::AppInstance::Restart(L"--settings");
+        }
+        catch (...)
+        {
+        }
     }
 }

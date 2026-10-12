@@ -12,6 +12,7 @@
 #include "Core/Settings.h"
 #include "Platform/AppInfo.h"
 #include "SettingsHelpers.h"
+#include "Strings.h"
 
 namespace winrt
 {
@@ -66,21 +67,8 @@ namespace winrt::Kleio::implementation
     {
         try
         {
-            std::wstring always = L"Kleio always ignores copies marked with ";
-            bool first = true;
-            for (auto const format : ::Kleio::AlwaysIgnoredFormats)
-            {
-                if (!first)
-                {
-                    always += L" or ";
-                }
-                always += L"“";
-                always += format;
-                always += L"”";
-                first = false;
-            }
-            always += L": the Windows conventions password managers and other apps use to keep sensitive data out of clipboard managers.";
-            AlwaysIgnoredText().Text(always);
+            static_assert(std::size(::Kleio::AlwaysIgnoredFormats) == 2, "Ignore_AlwaysIgnored names two formats");
+            AlwaysIgnoredText().Text(::Kleio::Strings::Format(L"Ignore_AlwaysIgnored", ::Kleio::AlwaysIgnoredFormats[0], ::Kleio::AlwaysIgnoredFormats[1]));
 
             LoadValues();
             if (!m_settingsToken)
@@ -176,8 +164,8 @@ namespace winrt::Kleio::implementation
         button.Width(40);
         button.Height(32);
         button.Padding(winrt::Thickness{ 0, 0, 0, 0 });
-        winrt::Microsoft::UI::Xaml::Automation::AutomationProperties::SetName(button, winrt::hstring{ L"Remove " + label });
-        winrt::ToolTipService::SetToolTip(button, winrt::box_value(L"Remove"));
+        winrt::Microsoft::UI::Xaml::Automation::AutomationProperties::SetName(button, winrt::hstring{ ::Kleio::Strings::Format(L"Ignore_RemoveNamed", label) });
+        winrt::ToolTipService::SetToolTip(button, winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Ignore_Remove") }));
         button.Click([onRemove = std::move(onRemove)](winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&) {
             try
             {
@@ -229,7 +217,7 @@ namespace winrt::Kleio::implementation
                 }
                 else
                 {
-                    card.Description(winrt::box_value(L"Executable name"));
+                    card.Description(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"Ignore_ExecutableName") }));
                     card.Glyph(L"");
                 }
                 card.Header(winrt::box_value(winrt::hstring{ name }));
@@ -323,7 +311,7 @@ namespace winrt::Kleio::implementation
             if (items.Size() == 0)
             {
                 winrt::MenuFlyoutItem none;
-                none.Text(L"No running apps found");
+                none.Text(::Kleio::Strings::Get(L"Ignore_NoRunningApps"));
                 none.IsEnabled(false);
                 items.Append(none);
             }
@@ -543,7 +531,7 @@ namespace winrt::Kleio::implementation
         }
         catch (std::regex_error const&)
         {
-            RegexInfoBar().Message(winrt::hstring{ L"“" + regex + L"” is not a valid ECMAScript regular expression." });
+            RegexInfoBar().Message(winrt::hstring{ ::Kleio::Strings::Format(L"Ignore_InvalidRegex", regex) });
             RegexInfoBar().IsOpen(true);
             return;
         }

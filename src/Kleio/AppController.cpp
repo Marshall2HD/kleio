@@ -9,6 +9,7 @@
 #include "Platform/UpdateChecker.h"
 #include "PopupWindow.xaml.h"
 #include "SettingsWindow.xaml.h"
+#include "Strings.h"
 
 #include <winrt/Microsoft.Windows.AppNotifications.h>
 #include <winrt/Microsoft.Windows.AppNotifications.Builder.h>
@@ -84,7 +85,7 @@ namespace Kleio
             std::wstring text = item.title;
             if (text.empty())
             {
-                text = item.IsImage() ? L"Image" : (!item.Files().empty() ? L"Files" : L"Clipboard item");
+                text = Strings::Get(item.IsImage() ? L"Image" : (!item.Files().empty() ? L"Files" : L"ClipboardItem"));
             }
             if (text.size() > 250)
             {
@@ -164,23 +165,24 @@ namespace Kleio
                 TogglePopup();
             }
         });
+        m_tray->MenuRightToLeft = Strings::IsRightToLeft();
         m_tray->MenuProvider = [this] {
             auto& s = Settings::Instance();
-            std::wstring open = L"Open Kleio";
+            std::wstring open = Strings::Get(L"OpenKleio");
             if (auto const shortcut = s.PopupShortcut(); !shortcut.IsEmpty())
             {
-                open += L"\t" + shortcut.ToString();
+                open += L"\t" + Strings::ShortcutText(shortcut);
             }
             return std::vector<Kleio::TrayIcon::MenuItem>{
                 { open, [this] { ShowPopup(); } },
                 { L"", nullptr },
-                { L"Pause Kleio", [this] { TogglePause(); }, s.IgnoreEvents() && !s.IgnoreOnlyNextEvent() },
-                { L"Ignore next copy", [this] { IgnoreNextCopy(); }, s.IgnoreEvents() && s.IgnoreOnlyNextEvent() },
+                { Strings::Get(L"PauseKleio"), [this] { TogglePause(); }, s.IgnoreEvents() && !s.IgnoreOnlyNextEvent() },
+                { Strings::Get(L"IgnoreNextCopy"), [this] { IgnoreNextCopy(); }, s.IgnoreEvents() && s.IgnoreOnlyNextEvent() },
                 { L"", nullptr },
-                { L"Settings…", [this] { OpenSettings(); } },
-                { L"About Kleio", [this] { OpenAbout(); } },
+                { Strings::Get(L"SettingsEllipsis"), [this] { OpenSettings(); } },
+                { Strings::Get(L"AboutKleio"), [this] { OpenAbout(); } },
                 { L"", nullptr },
-                { L"Quit Kleio", [this] { Quit(); } },
+                { Strings::Get(L"QuitKleio"), [this] { Quit(); } },
             };
         };
 
@@ -617,11 +619,11 @@ namespace Kleio
         std::wstring tooltip = L"Kleio";
         if (s.IgnoreEvents())
         {
-            tooltip += s.IgnoreOnlyNextEvent() ? L" (ignoring next copy)" : L" (paused)";
+            tooltip = Strings::Get(s.IgnoreOnlyNextEvent() ? L"Tray_IgnoringNext" : L"Tray_Paused");
         }
         else if (IsRecordingDisabled())
         {
-            tooltip += L" (not saving any type)";
+            tooltip = Strings::Get(L"Tray_NotSaving");
         }
         if (s.ShowRecentCopyInTray() && m_history)
         {
@@ -743,23 +745,22 @@ namespace Kleio
         {
             winrt::AppNotificationBuilder builder;
             builder.AddArgument(L"action", L"showUpdate");
-            builder.AddText(L"A new version of Kleio is available!");
-            builder.AddText(L"Kleio " + update.version + L" is now available. You have " +
-                            std::wstring{ SystemIntegration::AppVersion() } + L".");
+            builder.AddText(Strings::Get(L"Update_NotificationTitle"));
+            builder.AddText(Strings::Format(L"Update_Available", update.version, SystemIntegration::AppVersion()));
             if (!update.packageUrl.empty())
             {
-                builder.AddButton(winrt::AppNotificationButton(L"Install update")
+                builder.AddButton(winrt::AppNotificationButton(Strings::Get(L"Update_Install"))
                                       .AddArgument(L"action", L"installUpdate")
                                       .AddArgument(L"version", update.version)
                                       .AddArgument(L"package", update.packageUrl)
                                       .AddArgument(L"release", update.releaseUrl));
             }
-            builder.AddButton(winrt::AppNotificationButton(L"Skip this version")
+            builder.AddButton(winrt::AppNotificationButton(Strings::Get(L"Update_Skip"))
                                   .AddArgument(L"action", L"skipUpdate")
                                   .AddArgument(L"version", update.version));
             if (!update.releaseUrl.empty())
             {
-                builder.AddButton(winrt::AppNotificationButton(update.packageUrl.empty() ? L"Download" : L"Release notes")
+                builder.AddButton(winrt::AppNotificationButton(Strings::Get(update.packageUrl.empty() ? L"Update_Download" : L"Update_ReleaseNotes"))
                                       .SetInvokeUri(winrt::Uri{ update.releaseUrl }));
             }
             auto notification = builder.BuildNotification();
@@ -778,15 +779,15 @@ namespace Kleio
         try
         {
             winrt::AppNotificationBuilder builder;
-            builder.AddText(L"Couldn't install Kleio " + update.version);
+            builder.AddText(Strings::Format(L"Update_InstallFailedTitle", update.version));
             builder.AddText(error);
             if (!package.empty())
             {
-                builder.AddButton(winrt::AppNotificationButton(L"Open in App Installer")
+                builder.AddButton(winrt::AppNotificationButton(Strings::Get(L"Update_OpenInAppInstaller"))
                                       .AddArgument(L"action", L"openPackage")
                                       .AddArgument(L"package", package));
             }
-            builder.AddButton(winrt::AppNotificationButton(L"Download")
+            builder.AddButton(winrt::AppNotificationButton(Strings::Get(L"Update_Download"))
                                   .SetInvokeUri(winrt::Uri{ update.releaseUrl.empty() ? std::wstring{ ReleasesUrl } : update.releaseUrl }));
             auto notification = builder.BuildNotification();
             notification.Tag(L"update");
@@ -804,8 +805,8 @@ namespace Kleio
         try
         {
             auto notification = winrt::AppNotificationBuilder()
-                .AddText(L"Installing Kleio " + update.version)
-                .AddText(L"Kleio restarts when the update is installed.")
+                .AddText(Strings::Format(L"Update_Installing", update.version))
+                .AddText(Strings::Get(L"Update_RestartsWhenInstalled"))
                 .MuteAudio()
                 .BuildNotification();
             notification.Tag(L"update");
@@ -832,10 +833,10 @@ namespace Kleio
         using namespace Scripting;
         if (!m_history)
         {
-            return Result{ Unavailable, L"Kleio isn't ready yet.", {} };
+            return Result{ Unavailable, Strings::Get(L"Script_NotReady"), {} };
         }
         // Maccy's AppIntentError.notFound.
-        Result const notFound{ NotFound, L"Clipboard item not found", {} };
+        Result const notFound{ NotFound, Strings::Get(L"Script_NotFound"), {} };
         // Maccy indexes History.items: pinned and unpinned items in PinTo order, 1-based.
         auto const items = m_history->AllItems();
 
@@ -867,7 +868,7 @@ namespace Kleio
             auto payload = Extract(*item, command.format);
             if (!payload)
             {
-                return Result{ NotFound, L"The clipboard item has no " + std::wstring{ FormatName(command.format) } + L" content", {} };
+                return Result{ NotFound, Strings::Format(L"Script_NoFormat", FormatName(command.format)), {} };
             }
             Result result;
             result.payload = std::move(*payload);
@@ -906,19 +907,19 @@ namespace Kleio
             // Maccy's Clear intent asks for confirmation unless the clear alert is suppressed.
             if (!Settings::Instance().SuppressClearAlert() && !command.yes)
             {
-                int const answer = ::MessageBoxW(nullptr,
-                    L"Are you sure you want to clear the history?\n\nPinned items are kept. You can't undo this action.",
-                    L"Kleio", MB_OKCANCEL | MB_ICONWARNING | MB_DEFBUTTON2 | MB_SETFOREGROUND | MB_TOPMOST);
+                UINT const direction = Strings::IsRightToLeft() ? MB_RTLREADING | MB_RIGHT : 0;
+                int const answer = ::MessageBoxW(nullptr, Strings::Get(L"Popup_ClearMessage").c_str(),
+                    L"Kleio", MB_OKCANCEL | MB_ICONWARNING | MB_DEFBUTTON2 | MB_SETFOREGROUND | MB_TOPMOST | direction);
                 if (answer != IDOK)
                 {
-                    return Result{ Cancelled, L"Cancelled", {} };
+                    return Result{ Cancelled, Strings::Get(L"Script_Cancelled"), {} };
                 }
             }
             Clear();
             return {};
         }
         default:
-            return Result{ UsageError, L"Unknown command", {} };
+            return Result{ UsageError, Strings::Get(L"Script_UnknownCommand"), {} };
         }
     }
 }

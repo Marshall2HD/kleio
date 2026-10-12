@@ -11,7 +11,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Text="About" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
+        <TextBlock x:Uid="About_Header" Style="{StaticResource SettingsPageHeaderTextStyle}" AutomationProperties.HeadingLevel="Level1" />
 
         <ScrollViewer Grid.Row="1" Style="{StaticResource SettingsPageScrollViewerStyle}">
             <StackPanel Style="{StaticResource SettingsPageContentStyle}">
@@ -26,39 +26,37 @@
                             Height="96"
                             VerticalAlignment="Top"
                             Source="ms-appx:///Assets/Square150x150Logo.png"
-                            AutomationProperties.Name="Kleio logo" />
+                            x:Uid="About_Logo" />
                         <StackPanel Grid.Column="1" Spacing="4" VerticalAlignment="Center">
                             <TextBlock Text="Kleio" Style="{StaticResource TitleTextBlockStyle}" />
                             <TextBlock x:Name="VersionText" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" IsTextSelectionEnabled="True" />
-                            <TextBlock Text="A clipboard manager for Windows" Style="{StaticResource BodyTextBlockStyle}" Margin="0,4,0,0" />
+                            <TextBlock x:Uid="About_Description" Style="{StaticResource BodyTextBlockStyle}" Margin="0,4,0,0" />
                             <Button
                                 x:Name="CheckUpdatesButton"
+                                x:Uid="About_CheckUpdatesButton"
                                 Margin="0,12,0,0"
-                                Content="Check for updates"
                                 Click="CheckUpdatesButton_Click"
-                                Style="{StaticResource AccentButtonStyle}"
-                                AutomationProperties.Name="Check for updates" />
+                                Style="{StaticResource AccentButtonStyle}" />
                         </StackPanel>
                     </Grid>
                 </Border>
                 <InfoBar x:Name="UpdateInfoBar" IsClosable="True" />
 
-                <TextBlock Text="Credits" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
-                <local:SettingsCard Header="Kleio is a port of Maccy by Alex Rodionov" Glyph="&#xE734;"
-                                    Description="Maccy is a lightweight clipboard manager for macOS. Kleio brings its features and layout to Windows 11.">
+                <TextBlock x:Uid="About_CreditsSection" Style="{StaticResource SettingsSectionHeaderTextStyle}" AutomationProperties.HeadingLevel="Level2" />
+                <local:SettingsCard x:Uid="About_MaccyCard" Glyph="&#xE734;">
                     <StackPanel Orientation="Horizontal" Spacing="4">
-                        <HyperlinkButton Content="Maccy website" NavigateUri="https://maccy.app" AutomationProperties.Name="Maccy website" />
-                        <HyperlinkButton Content="Maccy on GitHub" NavigateUri="https://github.com/p0deje/Maccy" AutomationProperties.Name="Maccy on GitHub" />
+                        <HyperlinkButton x:Uid="About_MaccyWebsite" NavigateUri="https://maccy.app" />
+                        <HyperlinkButton x:Uid="About_MaccyGitHub" NavigateUri="https://github.com/p0deje/Maccy" />
                     </StackPanel>
                 </local:SettingsCard>
-                <local:SettingsCard Header="Source code" Glyph="&#xE943;" Description="Report issues, suggest features and contribute on GitHub.">
+                <local:SettingsCard x:Uid="About_SourceCard" Glyph="&#xE943;">
                     <StackPanel Orientation="Horizontal" Spacing="4">
-                        <HyperlinkButton Content="Kleio on GitHub" NavigateUri="https://github.com/Marshall2HD/kleio" AutomationProperties.Name="Kleio on GitHub" />
-                        <HyperlinkButton Content="Support" NavigateUri="https://github.com/Marshall2HD/kleio/issues" AutomationProperties.Name="Support: report an issue on GitHub" />
+                        <HyperlinkButton x:Uid="About_KleioGitHub" NavigateUri="https://github.com/Marshall2HD/kleio" />
+                        <HyperlinkButton x:Uid="About_Support" NavigateUri="https://github.com/Marshall2HD/kleio/issues" />
                     </StackPanel>
                 </local:SettingsCard>
-                <local:SettingsCard Header="License" Glyph="&#xE8A5;" Description="Kleio and Maccy are free software released under the MIT License.">
-                    <HyperlinkButton Content="MIT License" NavigateUri="https://github.com/Marshall2HD/kleio/blob/HEAD/LICENSE" AutomationProperties.Name="MIT License" />
+                <local:SettingsCard x:Uid="About_LicenseCard" Glyph="&#xE8A5;">
+                    <HyperlinkButton x:Uid="About_MitLicenseLink" NavigateUri="https://github.com/Marshall2HD/kleio/blob/HEAD/LICENSE" />
                 </local:SettingsCard>
             </StackPanel>
         </ScrollViewer>

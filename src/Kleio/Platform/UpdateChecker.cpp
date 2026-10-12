@@ -1,5 +1,7 @@
 #include "pch.h"
 #include "Platform/UpdateChecker.h"
+
+#include "Strings.h"
 #include "Platform/SystemIntegration.h"
 
 #include "Core/Settings.h"
@@ -230,7 +232,7 @@ namespace Kleio
         {
             if (update.packageUrl.empty())
             {
-                error = L"The release has no installer package for this PC.";
+                error = Strings::Get(L"Update_NoPackage");
             }
             else
             {
@@ -240,7 +242,7 @@ namespace Kleio
                 const auto response = co_await client.GetAsync(winrt::Windows::Foundation::Uri{ update.packageUrl });
                 if (!response.IsSuccessStatusCode())
                 {
-                    error = L"The download failed (HTTP " + std::to_wstring(static_cast<int>(response.StatusCode())) + L").";
+                    error = Strings::Format(L"Update_DownloadFailed", std::to_wstring(static_cast<int>(response.StatusCode())));
                 }
                 else
                 {
@@ -255,7 +257,7 @@ namespace Kleio
                         DWORD written = 0;
                         if (!file || !::WriteFile(file.get(), buffer.data(), buffer.Length(), &written, nullptr) || written != buffer.Length())
                         {
-                            error = L"Couldn't save the downloaded package.";
+                            error = Strings::Get(L"Update_SaveFailed");
                         }
                     }
                     if (error.empty())
@@ -288,7 +290,7 @@ namespace Kleio
         }
         catch (...)
         {
-            error = L"The update couldn't be installed.";
+            error = Strings::Get(L"Update_NotInstalled");
         }
 
         if (dispatcher)
@@ -306,12 +308,12 @@ namespace Kleio
             catch (...)
             {
             }
-            error = L"Kleio " + update.version + L" was installed. Quit and reopen Kleio to use it.";
+            error = Strings::Format(L"Update_InstalledRestart", update.version);
         }
         ::UnregisterApplicationRestart();
         if (error.empty())
         {
-            error = L"The update couldn't be installed.";
+            error = Strings::Get(L"Update_NotInstalled");
         }
         Log(error);
         try

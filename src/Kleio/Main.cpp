@@ -10,6 +10,7 @@
 
 #include "Core/Scripting.h"
 #include "Platform/ScriptingPipe.h"
+#include "Strings.h"
 
 #include <thread>
 
@@ -69,6 +70,8 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
     }
 
     winrt::init_apartment(winrt::apartment_type::single_threaded);
+    // Before anything loads a resource: the Language setting decides which strings are used.
+    Kleio::Strings::Initialize();
 
     auto const script = Kleio::Scripting::Parse(CommandLineArguments());
     if (!script.error.empty())

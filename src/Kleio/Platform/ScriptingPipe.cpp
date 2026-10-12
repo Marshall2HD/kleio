@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "Platform/ScriptingPipe.h"
 
+#include "Strings.h"
+
 #include <appmodel.h>
 #include <sddl.h>
 #include <shobjidl.h>
@@ -386,7 +388,7 @@ namespace Kleio::ScriptingPipe
                 if (::GetTickCount64() > deadline)
                 {
                     exitCode = Unavailable;
-                    error = launched ? L"Kleio didn't respond after starting." : L"Kleio isn't responding.";
+                    error = Strings::Get(launched ? L"Script_NoResponseAfterStart" : L"Script_NotResponding");
                     return {};
                 }
                 if (lastError == ERROR_PIPE_BUSY)
@@ -401,7 +403,7 @@ namespace Kleio::ScriptingPipe
                     if (!LaunchKleio())
                     {
                         exitCode = Unavailable;
-                        error = L"Couldn't start Kleio.";
+                        error = Strings::Get(L"Script_CouldNotStart");
                         return {};
                     }
                     launched = true;
@@ -544,11 +546,11 @@ namespace Kleio::ScriptingPipe
         else
         {
             result.exitCode = UsageError;
-            result.error = L"Kleio didn't understand the request. Is the running Kleio the same version?";
+            result.error = Strings::Get(L"Script_BadRequest");
         }
         if (result.payload.bytes.size() > MaxPayloadSize)
         {
-            result = Result{ NotFound, L"The item is too large.", {} };
+            result = Result{ NotFound, Strings::Get(L"Script_TooLarge"), {} };
         }
         const std::string header = SerializeResultHeader(result);
         if (WriteFrame(transfer, AsBytes(header)))
@@ -570,19 +572,19 @@ namespace Kleio::ScriptingPipe
             }
             catch (...)
             {
-                result = Result{ Unavailable, L"Kleio couldn't run the command.", {} };
+                result = Result{ Unavailable, Strings::Get(L"Script_CouldNotRun"), {} };
             }
             promise->set_value(std::move(result));
         });
         if (!queued)
         {
-            return Result{ Unavailable, L"Kleio is quitting.", {} };
+            return Result{ Unavailable, Strings::Get(L"Script_Quitting"), {} };
         }
         while (future.wait_for(std::chrono::milliseconds(100)) != std::future_status::ready)
         {
             if (m_stopping)
             {
-                return Result{ Unavailable, L"Kleio is quitting.", {} };
+                return Result{ Unavailable, Strings::Get(L"Script_Quitting"), {} };
             }
         }
         return future.get();
@@ -598,7 +600,7 @@ namespace Kleio::ScriptingPipe
 
     int PrintUsageError(std::wstring const& error)
     {
-        return Fail(UsageError, error + L" Run \"kleio --help\" for usage.");
+        return Fail(UsageError, Strings::Format(L"Script_SeeHelp", error));
     }
 
     int RunClient(Command const& command)
@@ -626,24 +628,25 @@ namespace Kleio::ScriptingPipe
         const std::string request = SerializeCommand(command);
         if (!WriteFrame(transfer, AsBytes(request)))
         {
-            return Fail(Unavailable, L"Couldn't send the command to Kleio.");
+            return Fail(Unavailable, Strings::Get(L"Script_SendFailed"));
         }
         auto header = ReadFrame(transfer, MaxRequestSize);
         auto payload = header ? ReadFrame(transfer, MaxPayloadSize) : std::nullopt;
         if (!header || !payload)
         {
-            return Fail(Unavailable, L"Kleio didn't answer.");
+            return Fail(Unavailable, Strings::Get(L"Script_NoAnswer"));
         }
 
         JsonObject json{ nullptr };
         if (!JsonObject::TryParse(AsWide(*header), json) || !json)
         {
-            return Fail(Unavailable, L"Kleio sent an invalid answer.");
+            return Fail(Unavailable, Strings::Get(L"Script_InvalidAnswer"));
         }
         int const code = static_cast<int>(json.GetNamedNumber(L"exitCode", Unavailable));
         if (code != Success)
         {
-            return Fail(code, std::wstring{ json.GetNamedString(L"error", L"Failed.") });
+            auto const error = json.GetNamedString(L"error", L"");
+            return Fail(code, error.empty() ? Strings::Get(L"Script_Failed") : std::wstring{ error });
         }
         Format const format = FormatFromName(json.GetNamedString(L"format", L"text")).value_or(Format::Text);
 
@@ -663,7 +666,7 @@ namespace Kleio::ScriptingPipe
                     file.reset();
                     ::DeleteFileW(path.c_str());
                 }
-                return Fail(UsageError, L"Couldn't write " + path.wstring() + L".");
+                return Fail(UsageError, Strings::Format(L"Script_WriteFailed", path.wstring()));
             }
             WriteText(STD_OUTPUT_HANDLE, path.wstring());
             return Success;
