@@ -106,6 +106,9 @@ namespace Kleio
         static constexpr std::wstring_view kSuppressClearAlert = L"suppressClearAlert";
         static constexpr std::wstring_view kPinOrder = L"pinOrder";
         static constexpr std::wstring_view kPlaySounds = L"playSounds";
+        static constexpr std::wstring_view kShowNotifications = L"showNotifications";
+        static constexpr std::wstring_view kLastUpdateCheck = L"lastUpdateCheck";
+        static constexpr std::wstring_view kSkippedUpdateVersion = L"skippedUpdateVersion";
 
         // ---- General ----
         bool CheckForUpdates() const;                    // default true
@@ -130,6 +133,11 @@ namespace Kleio
         void ReplaceWinV(bool value);
         bool PlaySounds() const;                         // default false (Maccy's copy "knock"/"write" sounds)
         void PlaySounds(bool value);
+        // Maccy's Notifier: an app notification with the item title when Kleio copies an item and
+        // when a new item is recorded. macOS asks for permission first; Windows doesn't, so this
+        // is an opt-in setting. Default false.
+        bool ShowNotifications() const;
+        void ShowNotifications(bool value);
 
         // ---- Storage ----
         bool SaveFiles() const;                          // default true
@@ -220,6 +228,12 @@ namespace Kleio
         void SuppressClearAlert(bool value);
         std::vector<std::wstring> PinOrder() const;      // pin letters, in user-defined order
         void PinOrder(std::vector<std::wstring> const& value);
+        // Sparkle's SULastCheckTime: seconds since the Unix epoch of the last update check. default 0
+        double LastUpdateCheck() const;
+        void LastUpdateCheck(double value);
+        // Sparkle's SUSkippedVersion: release the user chose to skip ("1.2.3"). default ""
+        std::wstring SkippedUpdateVersion() const;
+        void SkippedUpdateVersion(std::wstring const& value);
 
     private:
         Settings() = default;
