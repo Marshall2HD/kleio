@@ -718,6 +718,15 @@ Hammasini tozalash uchun Shift bosing.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V ni almashtirish</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C ni bloklash</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio ishlayotganda Win+C hech narsa qilmaydi. Windows uni Copilot uchun ishlatadi va o‘chirish imkonini bermaydi. Windows sozlamalari o‘zgartirilmaydi.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C ni bloklash</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows bufer sozlamalari</value>
   </data>

@@ -718,6 +718,15 @@ Selecione com Shift para limpar tudo.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Substituir Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Bloquear Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C não faz nada enquanto o Kleio estiver em execução. O Windows o usa para o Copilot e não oferece como desativá-lo. As configurações do Windows não são alteradas.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bloquear Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Configurações da área de transferência do Windows</value>
   </data>

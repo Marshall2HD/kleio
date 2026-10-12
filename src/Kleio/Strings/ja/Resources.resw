@@ -718,6 +718,15 @@ Shift を押しながら選択すると全てクリアします。</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V を置き換える</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C をブロック</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio の実行中は Win+C を押しても何も起きません。Windows はこのキーを Copilot に使っており、オフにする方法がありません。Windows の設定は変更されません。</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C をブロック</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows のクリップボード設定</value>
   </data>

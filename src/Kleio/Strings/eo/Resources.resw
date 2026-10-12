@@ -718,6 +718,15 @@ Elekti per Shift por forigi ĉion.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Anstataŭigi Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Bloki Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C faras nenion dum Kleio funkcias. Vindozo uzas ĝin por Copilot kaj ne permesas malŝalti ĝin. Agordoj de Vindozo ne ŝanĝiĝas.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bloki Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Agordoj de la tondujo de Windows</value>
   </data>

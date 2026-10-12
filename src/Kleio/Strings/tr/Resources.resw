@@ -718,6 +718,15 @@ Hepsini temizlemek için Shift ile seçin.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V kısayolunu değiştir</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C’yi engelle</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio çalışırken Win+C hiçbir şey yapmaz. Windows bunu Copilot için kullanır ve kapatmanın bir yolunu sunmaz. Windows ayarları değiştirilmez.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C’yi engelle</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows pano ayarları</value>
   </data>

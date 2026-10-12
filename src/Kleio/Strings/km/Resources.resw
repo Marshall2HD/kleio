@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ជំនួស Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>ទប់ស្កាត់ Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C មិនធ្វើអ្វីទេ ពេល Kleio កំពុងដំណើរការ។ Windows ប្រើវាសម្រាប់ Copilot ហើយមិនមានវិធីបិទវាទេ។ ការកំណត់ Windows មិនត្រូវបានផ្លាស់ប្តូរទេ។</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ទប់ស្កាត់ Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>ការកំណត់ក្ដារចម្លង Windows</value>
   </data>

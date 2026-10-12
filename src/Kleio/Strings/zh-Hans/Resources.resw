@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>替换 Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>屏蔽 Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio 运行时，Win+C 不执行任何操作。Windows 将它用于 Copilot，且无法关闭。不会更改 Windows 设置。</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>屏蔽 Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows 剪贴板设置</value>
   </data>

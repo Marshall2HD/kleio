@@ -108,6 +108,9 @@
                 <local:SettingsCard x:Uid="General_ReplaceWinVCard" Glyph="&#xE8C8;">
                     <ToggleSwitch x:Name="ReplaceWinVToggle" x:Uid="General_ReplaceWinVToggle" Toggled="ReplaceWinVToggle_Toggled" />
                 </local:SettingsCard>
+                <local:SettingsCard x:Uid="General_BlockWinCCard" Glyph="&#xE8F8;">
+                    <ToggleSwitch x:Name="BlockWinCToggle" x:Uid="General_BlockWinCToggle" Toggled="BlockWinCToggle_Toggled" />
+                </local:SettingsCard>
                 <local:SettingsCard x:Uid="General_ClipboardSettingsCard" Glyph="&#xE81C;">
                     <HyperlinkButton x:Name="ClipboardSettingsLink" x:Uid="General_ClipboardSettingsLink" Click="ClipboardSettingsLink_Click">
                         <StackPanel Orientation="Horizontal" Spacing="8">

@@ -718,6 +718,15 @@ Selectează cu Shift pentru a șterge tot.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Înlocuiește Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blochează Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C nu face nimic cât timp Kleio rulează. Windows îl folosește pentru Copilot și nu oferă o modalitate de a-l dezactiva. Setările Windows nu sunt modificate.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blochează Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Setările clipboardului Windows</value>
   </data>

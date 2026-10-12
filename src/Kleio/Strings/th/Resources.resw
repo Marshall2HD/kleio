@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>แทนที่ Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>บล็อก Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C จะไม่ทำอะไรขณะที่ Kleio ทำงานอยู่ Windows ใช้ปุ่มนี้สำหรับ Copilot และไม่มีวิธีปิด การตั้งค่า Windows จะไม่เปลี่ยนแปลง</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>บล็อก Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>การตั้งค่าคลิปบอร์ดของ Windows</value>
   </data>

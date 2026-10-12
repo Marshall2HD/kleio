@@ -718,6 +718,15 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Aizstāt Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Bloķēt Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kamēr darbojas Kleio, Win+C neko nedara. Windows to izmanto Copilot un neļauj to izslēgt. Windows iestatījumi netiek mainīti.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bloķēt Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows starpliktuves iestatījumi</value>
   </data>

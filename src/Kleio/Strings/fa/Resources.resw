@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>جایگزینی Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>مسدود کردن Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>تا وقتی Kleio در حال اجراست، Win+C کاری انجام نمی‌دهد. Windows از آن برای Copilot استفاده می‌کند و راهی برای خاموش کردنش ندارد. تنظیمات Windows تغییر نمی‌کند.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>مسدود کردن Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>تنظیمات کلیپ‌بورد Windows</value>
   </data>

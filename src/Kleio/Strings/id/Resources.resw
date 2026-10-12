@@ -718,6 +718,15 @@ Klik item dengan Shift untuk bersihkan.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ganti Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blokir Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C tidak melakukan apa pun selama Kleio berjalan. Windows menggunakannya untuk Copilot dan tidak menyediakan cara untuk mematikannya. Pengaturan Windows tidak diubah.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blokir Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Pengaturan papan klip Windows</value>
   </data>

@@ -718,6 +718,15 @@ Selecteer met Shift om alles te wissen.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V vervangen</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C blokkeren</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C doet niets zolang Kleio actief is. Windows gebruikt deze toets voor Copilot en biedt geen manier om die uit te schakelen. Windows-instellingen worden niet gewijzigd.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C blokkeren</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Klembordinstellingen van Windows</value>
   </data>

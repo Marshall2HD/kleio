@@ -13,7 +13,8 @@ namespace Kleio
     //  * Win-key shortcuts that Windows keeps for itself (Win+V, Win+Shift+C, ...): each shortcut
     //    set with SetShortcuts is swallowed (and the Start menu suppressed on Win key release by
     //    injecting a dummy VK 0xE8 key) and ShortcutPressed is raised instead, so Kleio opens
-    //    instead of the Windows feature.
+    //    instead of the Windows feature. Shortcuts set with SetBlockedShortcuts are swallowed the
+    //    same way without raising anything (Block Win+C).
     //  * Paste detection for the paste stack: PasteDetected is raised when the user presses Ctrl+V
     //    or Shift+Insert anywhere (raised on key up, like Maccy). Injected input (LLKHF_INJECTED,
     //    i.e. Kleio's own paste) is ignored.
@@ -26,6 +27,7 @@ namespace Kleio
 
         // Win-key shortcuts to intercept (empty = none). Each must include Modifiers::Win.
         void SetShortcuts(std::vector<KeyShortcut> shortcuts);
+        void SetBlockedShortcuts(std::vector<KeyShortcut> shortcuts);
         void EnablePasteDetection(bool enable);
 
         Event<> ShortcutPressed;
@@ -38,6 +40,7 @@ namespace Kleio
 
         HHOOK m_hook = nullptr;
         std::vector<KeyShortcut> m_shortcuts;
+        std::vector<KeyShortcut> m_blocked;
         bool m_detectPaste = false;
     };
 }

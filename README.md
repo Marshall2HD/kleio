@@ -85,6 +85,10 @@ Windows has its own clipboard history on <kbd>Win</kbd> + <kbd>V</kbd>. Enable *
 *Settings → General* and, while Kleio runs, <kbd>Win</kbd> + <kbd>V</kbd> opens Kleio instead. Kleio
 doesn't change any Windows settings: turn the option off, or quit Kleio, and Windows behaves as before.
 
+<kbd>Win</kbd> + <kbd>C</kbd> belongs to Windows' Copilot key setting, which can't be turned off (it opens
+Settings when no Copilot app is installed). Enable **Block Win+C** in *Settings → General* and, while
+Kleio runs, <kbd>Win</kbd> + <kbd>C</kbd> does nothing.
+
 ## Advanced
 
 ### Script Kleio from the command line

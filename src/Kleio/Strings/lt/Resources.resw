@@ -718,6 +718,15 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Pakeisti Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blokuoti Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kol veikia Kleio, Win+C nieko nedaro. „Windows“ jį naudoja „Copilot“ ir neleidžia jo išjungti. „Windows“ nuostatos nekeičiamos.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blokuoti Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>„Windows“ iškarpinės parametrai</value>
   </data>

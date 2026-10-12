@@ -630,6 +630,8 @@ namespace Kleio
     void Settings::RemoveFormattingByDefault(bool value) { SetBool(kRemoveFormattingByDefault, value, false); }
     bool Settings::ReplaceWinV() const { return GetBool(kReplaceWinV, false); }
     void Settings::ReplaceWinV(bool value) { SetBool(kReplaceWinV, value, false); }
+    bool Settings::BlockWinC() const { return GetBool(kBlockWinC, false); }
+    void Settings::BlockWinC(bool value) { SetBool(kBlockWinC, value, false); }
     bool Settings::PlaySounds() const { return GetBool(kPlaySounds, false); }
     void Settings::PlaySounds(bool value) { SetBool(kPlaySounds, value, false); }
     bool Settings::ShowNotifications() const { return GetBool(kShowNotifications, false); }

@@ -718,6 +718,15 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Korvaa Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Estä Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C ei tee mitään, kun Kleio on käynnissä. Windows käyttää sitä Copilotille eikä tarjoa tapaa poistaa sitä käytöstä. Windowsin asetuksia ei muuteta.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Estä Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windowsin leikepöytäasetukset</value>
   </data>

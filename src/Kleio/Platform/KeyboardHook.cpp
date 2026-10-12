@@ -95,6 +95,16 @@ namespace Kleio
         return instance;
     }
 
+    void KeyboardHook::SetBlockedShortcuts(std::vector<KeyShortcut> shortcuts)
+    {
+        if (m_blocked == shortcuts)
+        {
+            return;
+        }
+        m_blocked = std::move(shortcuts);
+        UpdateHook();
+    }
+
     void KeyboardHook::SetShortcuts(std::vector<KeyShortcut> shortcuts)
     {
         if (m_shortcuts == shortcuts)
@@ -124,7 +134,7 @@ namespace Kleio
 
     void KeyboardHook::UpdateHook()
     {
-        const bool needed = !m_shortcuts.empty() || m_detectPaste;
+        const bool needed = !m_shortcuts.empty() || !m_blocked.empty() || m_detectPaste;
         if (needed && !m_hook)
         {
             try
@@ -190,7 +200,7 @@ namespace Kleio
                         }
                         return 1; // auto-repeat or release of a swallowed shortcut key
                     }
-                    if (down && !self.m_shortcuts.empty())
+                    if (down && (!self.m_shortcuts.empty() || !self.m_blocked.empty()))
                     {
                         const bool win = g_leftWinDown || g_rightWinDown || IsDown(VK_LWIN) || IsDown(VK_RWIN);
                         if (win)
@@ -198,17 +208,34 @@ namespace Kleio
                             const bool ctrl = IsDown(VK_CONTROL);
                             const bool alt = IsDown(VK_MENU);
                             const bool shift = IsDown(VK_SHIFT);
+                            auto matches = [&](KeyShortcut const& shortcut) {
+                                return shortcut.key == vk &&
+                                       HasFlag(shortcut.modifiers, Modifiers::Ctrl) == ctrl &&
+                                       HasFlag(shortcut.modifiers, Modifiers::Alt) == alt &&
+                                       HasFlag(shortcut.modifiers, Modifiers::Shift) == shift;
+                            };
+                            auto swallow = [&](bool raise) {
+                                g_swallowingKey = vk;
+                                g_suppressStart = true;
+                                InjectDummyKey(); // while Win is still held: Start stays closed on release
+                                if (raise)
+                                {
+                                    RaiseLater(HookEvent::Shortcut);
+                                }
+                            };
                             for (auto const& shortcut : self.m_shortcuts)
                             {
-                                if (shortcut.key == vk &&
-                                    HasFlag(shortcut.modifiers, Modifiers::Ctrl) == ctrl &&
-                                    HasFlag(shortcut.modifiers, Modifiers::Alt) == alt &&
-                                    HasFlag(shortcut.modifiers, Modifiers::Shift) == shift)
+                                if (matches(shortcut))
                                 {
-                                    g_swallowingKey = vk;
-                                    g_suppressStart = true;
-                                    InjectDummyKey(); // while Win is still held: Start stays closed on release
-                                    RaiseLater(HookEvent::Shortcut);
+                                    swallow(true);
+                                    return 1;
+                                }
+                            }
+                            for (auto const& shortcut : self.m_blocked)
+                            {
+                                if (matches(shortcut))
+                                {
+                                    swallow(false);
                                     return 1;
                                 }
                             }

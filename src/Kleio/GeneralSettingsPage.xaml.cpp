@@ -138,6 +138,7 @@ namespace winrt::Kleio::implementation
             PasteAutomaticallyToggle().IsOn(settings.PasteByDefault());
             RemoveFormattingToggle().IsOn(settings.RemoveFormattingByDefault());
             ReplaceWinVToggle().IsOn(settings.ReplaceWinV());
+            BlockWinCToggle().IsOn(settings.BlockWinC());
             PlaySoundsToggle().IsOn(settings.PlaySounds());
             ShowNotificationsToggle().IsOn(settings.ShowNotifications());
             NotificationsInfoBar().IsOpen(settings.ShowNotifications() && !::Kleio::SystemIntegration::AreAppNotificationsEnabled());
@@ -289,6 +290,16 @@ namespace winrt::Kleio::implementation
             return;
         }
         ::Kleio::Settings::Instance().ReplaceWinV(ReplaceWinVToggle().IsOn());
+        ApplyHotKeysAndReport();
+    }
+
+    void GeneralSettingsPage::BlockWinCToggle_Toggled(winrt::Windows::Foundation::IInspectable const&, winrt::RoutedEventArgs const&)
+    {
+        if (m_loading)
+        {
+            return;
+        }
+        ::Kleio::Settings::Instance().BlockWinC(BlockWinCToggle().IsOn());
         ApplyHotKeysAndReport();
     }
 

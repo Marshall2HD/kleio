@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V প্রতিস্থাপন করুন</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C ব্লক করুন</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio চলার সময় Win+C কিছুই করে না। Windows এটি Copilot-এর জন্য ব্যবহার করে এবং বন্ধ করার কোনো উপায় দেয় না। Windows সেটিংস পরিবর্তন করা হয় না।</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C ব্লক করুন</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows ক্লিপবোর্ড সেটিংস</value>
   </data>

@@ -718,6 +718,15 @@ Seleziona con Maiusc per eliminarli tutti.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Sostituisci Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blocca Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C non fa nulla mentre Kleio è in esecuzione. Windows lo usa per Copilot e non consente di disattivarlo. Le impostazioni di Windows non vengono modificate.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blocca Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Impostazioni degli Appunti di Windows</value>
   </data>

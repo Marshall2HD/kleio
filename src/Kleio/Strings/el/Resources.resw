@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Αντικατάσταση του Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Αποκλεισμός Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Το Win+C δεν κάνει τίποτα όσο εκτελείται το Kleio. Τα Windows το χρησιμοποιούν για το Copilot και δεν επιτρέπουν την απενεργοποίησή του. Οι ρυθμίσεις των Windows δεν αλλάζουν.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Αποκλεισμός Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Ρυθμίσεις Προχείρου των Windows</value>
   </data>

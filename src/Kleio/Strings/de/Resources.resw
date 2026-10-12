@@ -718,6 +718,15 @@ Halte zusätzlich Umschalt gedrückt, um alle Einträge zu löschen.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V ersetzen</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C blockieren</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C bewirkt nichts, solange Kleio läuft. Windows verwendet die Tastenkombination für Copilot und bietet keine Möglichkeit, sie abzuschalten. Windows-Einstellungen werden nicht geändert.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C blockieren</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Einstellungen der Windows-Zwischenablage</value>
   </data>

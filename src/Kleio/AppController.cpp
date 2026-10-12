@@ -236,6 +236,7 @@ namespace Kleio
         }
         auto& hook = KeyboardHook::Instance();
         hook.SetShortcuts({});
+        hook.SetBlockedShortcuts({});
         hook.EnablePasteDetection(false);
         if (m_hotKeys)
         {
@@ -548,6 +549,13 @@ namespace Kleio
             }
         }
         KeyboardHook::Instance().SetShortcuts(std::move(hooked));
+        // Block Win+C: swallowed without an action (Windows' Copilot shortcut; can't be turned off there).
+        std::vector<KeyShortcut> blocked;
+        if (!m_hotKeysSuspended && s.BlockWinC())
+        {
+            blocked.push_back(KeyShortcut{ Modifiers::Win, 'C' });
+        }
+        KeyboardHook::Instance().SetBlockedShortcuts(std::move(blocked));
         return ok;
     }
 
@@ -584,7 +592,7 @@ namespace Kleio
 
     void AppController::OnSettingChanged(std::wstring_view key)
     {
-        if (key == Settings::kPopupShortcut || key == Settings::kReplaceWinV)
+        if (key == Settings::kPopupShortcut || key == Settings::kReplaceWinV || key == Settings::kBlockWinC)
         {
             ApplyHotKeys();
         }

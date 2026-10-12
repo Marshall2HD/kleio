@@ -718,6 +718,15 @@ Wybierz z Shift aby wyczyścić wszystkie.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zastąp Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blokuj Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C nic nie robi, gdy Kleio jest uruchomiony. Windows używa tego skrótu dla Copilota i nie pozwala go wyłączyć. Ustawienia systemu Windows nie są zmieniane.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blokuj Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Ustawienia schowka systemu Windows</value>
   </data>

@@ -68,6 +68,7 @@ namespace Kleio
         static constexpr std::wstring_view kPasteByDefault = L"pasteByDefault";
         static constexpr std::wstring_view kRemoveFormattingByDefault = L"removeFormattingByDefault";
         static constexpr std::wstring_view kReplaceWinV = L"replaceWinV";
+        static constexpr std::wstring_view kBlockWinC = L"blockWinC";
         static constexpr std::wstring_view kSaveFiles = L"saveFiles";
         static constexpr std::wstring_view kSaveImages = L"saveImages";
         static constexpr std::wstring_view kSaveText = L"saveText";
@@ -136,6 +137,9 @@ namespace Kleio
         // instead of the Windows clipboard history. Default false.
         bool ReplaceWinV() const;
         void ReplaceWinV(bool value);
+        // Swallow Win+C (Windows' Copilot shortcut) while Kleio runs. Default false.
+        bool BlockWinC() const;
+        void BlockWinC(bool value);
         bool PlaySounds() const;                         // default false (Maccy's copy "knock"/"write" sounds)
         void PlaySounds(bool value);
         // Maccy's Notifier: an app notification with the item title when Kleio copies an item and

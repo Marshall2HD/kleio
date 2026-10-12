@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V ஐ மாற்று</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C ஐத் தடு</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio இயங்கும்போது Win+C எதுவும் செய்யாது. Windows இதை Copilot-க்குப் பயன்படுத்துகிறது, அதை முடக்க வழியில்லை. Windows அமைப்புகள் மாற்றப்படாது.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C ஐத் தடு</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows கிளிப்போர்டு அமைப்புகள்</value>
   </data>

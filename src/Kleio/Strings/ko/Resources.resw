@@ -718,6 +718,15 @@ Shift 와 함께 선택시 모두 지웁니다.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V 대체</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C 차단</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Kleio가 실행 중일 때 Win+C는 아무 동작도 하지 않습니다. Windows는 이 키를 Copilot에 사용하며 끌 수 있는 방법을 제공하지 않습니다. Windows 설정은 변경되지 않습니다.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C 차단</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows 클립보드 설정</value>
   </data>

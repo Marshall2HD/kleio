@@ -20,6 +20,7 @@ TEST(Settings_Defaults)
     CHECK_EQ(s.PasteByDefault(), false);
     CHECK_EQ(s.RemoveFormattingByDefault(), false);
     CHECK_EQ(s.ReplaceWinV(), false);
+    CHECK_EQ(s.BlockWinC(), false);
     CHECK_EQ(s.PlaySounds(), false);
     CHECK_EQ(s.SaveFiles(), true);
     CHECK_EQ(s.SaveImages(), true);

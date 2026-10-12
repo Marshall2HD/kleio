@@ -718,6 +718,15 @@
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>گۆڕینی Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>بلۆککردنی Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>کاتێک Kleio کاردەکات Win+C هیچ ناکات. Windows بۆ Copilot بەکاری دەهێنێت و ڕێگایەک بۆ کوژاندنەوەی نییە. ڕێکخستنەکانی Windows ناگۆڕدرێن.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>بلۆککردنی Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>ڕێکخستنەکانی کلیپبۆردی Windows</value>
   </data>

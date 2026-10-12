@@ -718,6 +718,15 @@ Izbriši sve pomoću tipke Shift.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zamijeni Win+V</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Blokiraj Win+C</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>Win+C ne radi ništa dok je Kleio pokrenut. Windows ga koristi za Copilot i ne nudi način da se isključi. Postavke sustava Windows ne mijenjaju se.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Blokiraj Win+C</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Postavke međuspremnika sustava Windows</value>
   </data>

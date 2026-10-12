@@ -718,6 +718,15 @@ Válassz a Shift-el az összes törléséhez.</value>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V lecserélése</value>
   </data>
+  <data name="General_BlockWinCCard.Header" xml:space="preserve">
+    <value>Win+C letiltása</value>
+  </data>
+  <data name="General_BlockWinCCard.Description" xml:space="preserve">
+    <value>A Win+C nem csinál semmit, amíg a Kleio fut. A Windows a Copilothoz használja, és nem lehet kikapcsolni. A Windows beállításai nem változnak.</value>
+  </data>
+  <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Win+C letiltása</value>
+  </data>
   <data name="General_ClipboardSettingsCard.Header" xml:space="preserve">
     <value>Windows vágólap-beállításai</value>
   </data>
