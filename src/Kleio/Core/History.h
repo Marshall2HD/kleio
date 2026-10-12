@@ -63,9 +63,10 @@ namespace Kleio
         HistoryItemPtr FindById(std::int64_t id) const;
         HistoryItemPtr MostRecent() const;                 // most recently copied item (any)
 
-        // Letters usable as pins: b..y minus a, c, q, v, w, x, y, z (reserved for select all/copy/
-        // quit/paste/close/cut/redo/undo) minus the letters used by the pin/delete/preview shortcuts,
-        // minus pins already in use.
+        // Letters usable as pins: a..z minus a, c, q, v, w, x, y, z (reserved for select all/copy/
+        // quit/paste/close/cut/redo/undo), minus h, j, k, n, p, u (Maccy's Emacs-style popup keys,
+        // Ctrl+H/J/K/N/P/U/W), minus the letters used by the pin/delete/preview shortcuts, minus
+        // pins already in use. Load() moves stored pins that use a reserved letter to a free one.
         std::vector<std::wstring> AvailablePins() const;
 
         // Runs the configured search over pinned and unpinned items separately.
@@ -88,6 +89,7 @@ namespace Kleio
         void SortPinned();                                  // by PinOrder, stable
         void ReconcilePinOrder();                           // drop unused pins, append missing ones
         void RemovePinFromOrderIfUnused(std::wstring const& pin);
+        void ReassignReservedPins();                        // on Load: pins on reserved letters
         std::vector<std::wstring> SupportedPins() const;
         void OnSettingChanged(std::wstring_view key);
 

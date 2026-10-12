@@ -321,22 +321,71 @@ TEST(History_MovingPinsUpdatesPinOrder)
 TEST(History_AvailablePins)
 {
     Fixture f;
-    const std::vector<std::wstring> defaults{ L"b", L"d", L"e", L"f", L"g", L"h", L"i", L"j", L"k", L"l", L"m", L"n", L"o", L"r", L"s", L"t", L"u" };
-    CHECK_EQ(f.history->AvailablePins(), defaults);   // "p" is taken by the Alt+P pin shortcut
+    // a, c, q, v, w, x, y, z are reserved for Windows editing / window commands and h, j, k, n, p, u
+    // for the Emacs-style popup keys (Ctrl+H/J/K/N/P/U); "p" is also the Alt+P pin shortcut.
+    const std::vector<std::wstring> defaults{ L"b", L"d", L"e", L"f", L"g", L"i", L"l", L"m", L"o", L"r", L"s", L"t" };
+    CHECK_EQ(f.history->AvailablePins(), defaults);
 
-    Settings::Instance().PinShortcut(KeyShortcut{ Modifiers::Alt, 'K' });
+    Settings::Instance().PinShortcut(KeyShortcut{ Modifiers::Alt, 'B' });
     Settings::Instance().DeleteShortcut(KeyShortcut{ Modifiers::Alt, 'D' });
     auto pins = f.history->AvailablePins();
-    CHECK(std::find(pins.begin(), pins.end(), L"p") != pins.end());
-    CHECK(std::find(pins.begin(), pins.end(), L"k") == pins.end());
+    CHECK(std::find(pins.begin(), pins.end(), L"p") == pins.end());   // still an Emacs key (Ctrl+P)
+    CHECK(std::find(pins.begin(), pins.end(), L"b") == pins.end());
     CHECK(std::find(pins.begin(), pins.end(), L"d") == pins.end());
+    for (auto const* reserved : { L"h", L"j", L"k", L"n", L"u", L"w" })
+    {
+        CHECK(std::find(pins.begin(), pins.end(), reserved) == pins.end());
+    }
 
     auto item = f.history->Add(MakeTextItem(L"foo"));
-    f.history->UpdatePin(item, L"b");
-    CHECK_EQ(item->pin, std::wstring{ L"b" });
+    f.history->UpdatePin(item, L"e");
+    CHECK_EQ(item->pin, std::wstring{ L"e" });
     pins = f.history->AvailablePins();
-    CHECK(std::find(pins.begin(), pins.end(), L"b") == pins.end());
+    CHECK(std::find(pins.begin(), pins.end(), L"e") == pins.end());
     CHECK(std::is_sorted(pins.begin(), pins.end()));
+
+    f.history->UpdatePin(item, L"n");     // reserved for Ctrl+N -> ignored
+    CHECK_EQ(item->pin, std::wstring{ L"e" });
+}
+
+TEST(History_LoadReassignsPinsOnReservedLetters)
+{
+    Fixture f;
+    auto kept = f.history->Add(MakeTextItem(L"kept"));
+    f.history->UpdatePin(kept, L"e");
+    auto moved = f.history->Add(MakeTextItem(L"moved"));
+    f.history->UpdatePin(moved, L"f");
+
+    // Simulate pins stored by a version that still allowed "n" (now Ctrl+N).
+    moved->pin = L"n";
+    f.storage->Update(*moved);
+    Settings::Instance().PinOrder({ L"n", L"e" });
+
+    History reloaded(*f.storage, Settings::Instance());
+    reloaded.Load();
+    auto const& pinned = reloaded.PinnedItems();
+    CHECK_EQ(pinned.size(), std::size_t{ 2 });
+    if (pinned.size() == 2)
+    {
+        // Same position in the pin order, new letter from the supported set.
+        CHECK_EQ(pinned[0]->id, moved->id);
+        CHECK_EQ(pinned[1]->id, kept->id);
+        CHECK_EQ(pinned[1]->pin, std::wstring{ L"e" });
+        const std::wstring newPin = pinned[0]->pin;
+        CHECK(!newPin.empty() && newPin != L"n" && newPin != L"e");
+        const std::vector<std::wstring> defaults{ L"b", L"d", L"f", L"g", L"i", L"l", L"m", L"o", L"r", L"s", L"t" };
+        CHECK(std::find(defaults.begin(), defaults.end(), newPin) != defaults.end());
+        CHECK_EQ(Settings::Instance().PinOrder(), (std::vector<std::wstring>{ newPin, L"e" }));
+
+        // Persisted.
+        for (auto const& stored : f.storage->LoadAll())
+        {
+            if (stored->id == moved->id)
+            {
+                CHECK_EQ(stored->pin, newPin);
+            }
+        }
+    }
 }
 
 TEST(History_UpdatePin)
@@ -355,8 +404,11 @@ TEST(History_UpdatePin)
     f.history->UpdatePin(second, L"p");   // used by the pin shortcut -> ignored
     CHECK_EQ(second->pin, std::wstring{ L"g" });
 
-    f.history->UpdatePin(first, L"h");    // replaces "e" in place
-    CHECK_EQ(Settings::Instance().PinOrder(), (std::vector<std::wstring>{ L"h", L"g" }));
+    f.history->UpdatePin(second, L"k");   // reserved for Ctrl+K -> ignored
+    CHECK_EQ(second->pin, std::wstring{ L"g" });
+
+    f.history->UpdatePin(first, L"i");    // replaces "e" in place
+    CHECK_EQ(Settings::Instance().PinOrder(), (std::vector<std::wstring>{ L"i", L"g" }));
     CHECK(f.history->PinnedItems() == (std::vector<HistoryItemPtr>{ first, second }));
 }
 

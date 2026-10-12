@@ -10,10 +10,18 @@ namespace Kleio
     namespace
     {
         // Maccy's HistoryItem.supportedPins with the Windows reservations documented in History.h:
-        // a (select all), c (copy), q (quit), v (paste), w (close), x (cut), y (redo), z (undo).
+        // a (select all), c (copy), q (quit), v (paste), w (close), x (cut), y (redo), z (undo), and
+        // the letters of Maccy's Emacs-style popup keys (KeyChord): h (delete a character), j / n
+        // (next), k / p (previous), u (clear the search), w (delete a word). Maccy can keep those
+        // letters because its pins use Cmd while the Emacs keys use Control; Kleio maps both to Ctrl.
         constexpr std::wstring_view kBasePins[] = {
-            L"b", L"d", L"e", L"f", L"g", L"h", L"i", L"j", L"k", L"l", L"m", L"n", L"o", L"p", L"r", L"s", L"t", L"u",
+            L"b", L"d", L"e", L"f", L"g", L"i", L"l", L"m", L"o", L"r", L"s", L"t",
         };
+
+        bool IsBasePin(std::wstring const& pin)
+        {
+            return std::find(std::begin(kBasePins), std::end(kBasePins), pin) != std::end(kBasePins);
+        }
 
         bool Erase(std::vector<HistoryItemPtr>& items, HistoryItemPtr const& item)
         {
@@ -95,10 +103,47 @@ namespace Kleio
                 m_unpinned.push_back(std::move(item));
             }
         }
+        ReassignReservedPins();
         ReconcilePinOrder();
         SortPinned();
         Trim();
         Changed();
+    }
+
+    void History::ReassignReservedPins()
+    {
+        // Pins stored by an older version may use a letter that is reserved now (e.g. "n", taken by
+        // Ctrl+N). Give such items a random free letter, keeping their place in the pin order; when
+        // no letter is free the old one is kept (the reserved key wins, the item stays pinned).
+        for (auto const& item : m_pinned)
+        {
+            if (item->pin.empty() || IsBasePin(item->pin))
+            {
+                continue;
+            }
+            const auto pins = AvailablePins();
+            if (pins.empty())
+            {
+                return;
+            }
+            std::uniform_int_distribution<std::size_t> distribution(0, pins.size() - 1);
+            const std::wstring oldPin = item->pin;
+            item->pin = pins[distribution(RandomEngine())];
+
+            // PinOrder.replace(oldPin, with: pin)
+            auto order = UniquePins(m_settings.PinOrder());
+            std::erase(order, item->pin);
+            if (auto it = std::find(order.begin(), order.end(), oldPin); it != order.end())
+            {
+                *it = item->pin;
+            }
+            else
+            {
+                order.push_back(item->pin);
+            }
+            m_settings.PinOrder(order);
+            m_storage.Update(*item);
+        }
     }
 
     HistoryItemPtr History::Add(HistoryItemPtr item)
