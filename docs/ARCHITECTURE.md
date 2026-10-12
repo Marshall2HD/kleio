@@ -17,13 +17,16 @@ src/Kleio/                     the app (single-project MSIX)
   Core/                        platform-neutral logic: settings, model, storage, search, sorting
   Platform/                    Win32 integration: clipboard, hot keys, hook, tray, paste, OCR, ...
   Assets/                      logos, Kleio.ico, Sounds/*.wav
-  Strings/en-US/*.resw         (future) localized strings
+  Strings/<lang>/Resources.resw  user-visible strings, en-US + 42 translations (MRT Core)
+  Strings.h/.cpp               string lookup (Get/Format), localized key names, Language setting
 tests/Kleio.Core.Tests/        console test runner for Core (built and run in CI)
 tools/generate_assets.py       regenerates the logo PNGs/ICO
+tools/check_translations.py    checks the .resw files against en-US, the XAML and the code
 ```
 
 The vcxproj picks files up by glob, so adding a file to the right folder is enough:
-`*.h/*.cpp` in root, `Core/`, `Platform/`; `*.idl` and `*.xaml` in root; `Themes/*.xaml`.
+`*.h/*.cpp` in root, `Core/`, `Platform/`; `*.idl` and `*.xaml` in root; `Themes/*.xaml`;
+`Strings/**/*.resw`.
 Exception: a runtime class *without* XAML that is used in markup (e.g. `SettingsCard`) needs an
 explicit `ClInclude`/`ClCompile` entry with `<DependentUpon>Foo.idl</DependentUpon>` in the vcxproj,
 or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cpp`.
@@ -49,6 +52,37 @@ or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cp
   instead of hard-coded colours, 8px corner radius (`OverlayCornerRadius`/`ControlCornerRadius`), keyboard
   shortcuts written as `Ctrl+Shift+C`.
 
+## Localization
+
+Maccy's `*.lproj/*.strings` become MRT Core resources: `Strings/<lang>/Resources.resw`, one file per
+language, compiled into `resources.pri` (the manifest's `x-generate` lists the languages). Folder
+names are the BCP-47 tags Windows uses (`zh-Hans`, `pt-PT`, `nb-NO`, `ku-Arab` for Maccy's `ckb`,
+`uz-Latn` for `uz`).
+
+* **XAML** sets text with `x:Uid="Area_Name"` and keys `Area_Name.Text`, `.Content`, `.Header`,
+  `.Description` (SettingsCard), `.PlaceholderText`, `.Title`/`.Message` (InfoBar),
+  `.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name` and
+  `.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip`. Windows aren't DependencyObjects,
+  so window titles are set in code.
+* **Code** calls `Strings::Get(L"Key")` or `Strings::Format(L"Key", args...)` (`Strings.h`): one
+  cached `ResourceLoader`, `{0}`-style placeholders that translations may reorder, never
+  concatenated sentence parts. Counts use separate keys (`...CountOne` / `...CountOther`); languages
+  with more plural forms phrase *Other* so that it fits every number.
+* **Core** has no WinRT: `Core/Localization` takes a lookup that `Strings::Initialize` installs at
+  startup and falls back to the English text (so the unit tests see English). The CLI's parse
+  errors use it; the `--help` text stays English.
+* **Shortcuts** are stored with `KeyShortcut::ToString` (English, layout independent) and shown with
+  `Strings::ShortcutText`, which uses the `Key_*` resources (`Strg`, `Entf`, ...).
+* **Language**: `Strings::Initialize` (in `wWinMain`, before any resource is loaded) applies the
+  *Language* setting as `Microsoft.Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride`
+  ("" = Windows display language). Strings are loaded when windows are created, so a change needs a
+  restart (`AppInstance::Restart(L"--settings")`).
+* **Right to left**: each language's `FlowDirection` resource (`RightToLeft` for ar, fa, he, ku-Arab)
+  mirrors the Settings pages, the popup's list and preview, dialogs, the tray menu
+  (`TPM_LAYOUTRTL`) and message boxes.
+* `tools/check_translations.py` keeps the files consistent; `README.md#translations` explains how
+  to contribute.
+
 ## macOS → Windows mapping
 
 | Maccy | Kleio |
@@ -69,6 +103,8 @@ or the XAML compiler can't find its implementation header for `XamlTypeInfo.g.cp
 | LaunchAtLogin | MSIX `StartupTask` |
 | Sparkle (daily check, Install / Skip this version) | `UpdateScheduler` (daily GitHub Releases check) + `InstallUpdate` (download `.msix`, `PackageManager.AddPackageAsync`, restart) |
 | App Intents (Get, Select, Delete, Clear) | `kleio --get/--select/--delete/--clear` over a named pipe (`Platform/ScriptingPipe`) |
+| `*.lproj/*.strings` (Weblate) | `Strings/<lang>/Resources.resw` (MRT Core), translations taken from Maccy's |
+| Per-app language (System Settings) | *Settings → General → Language* (`PrimaryLanguageOverride`) |
 | `Notifier` (UNUserNotificationCenter, opt-in via permission prompt) | App notifications (`Microsoft.Windows.AppNotifications`), opt-in *Show notifications* setting |
 | Accessibility permission (to paste) | not needed: `SendInput` |
 | `defaults write ignoreEvents` | `kleio.exe --pause` / `--resume` / `--ignore-next` (app execution alias) |
