@@ -106,6 +106,74 @@ namespace winrt::Kleio::implementation
             }
         }
 
+        // Maccy Popup.allModifiersReleased, read from the asynchronous key state: the popup may not
+        // see the key-up (e.g. it is released before the popup is focused, or Win goes to the shell).
+        bool AllModifiersReleased() noexcept
+        {
+            for (int key : { VK_SHIFT, VK_CONTROL, VK_MENU, VK_LWIN, VK_RWIN })
+            {
+                if ((GetAsyncKeyState(key) & 0x8000) != 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        // AltGr arrives as Ctrl+Alt. A Ctrl+Alt chord whose key types a character with AltGr on the
+        // current layout (e.g. AltGr+N = "ń" on Polish) is text, not a Ctrl+Alt shortcut.
+        bool IsAltGrCharacter(uint32_t key) noexcept
+        {
+            if ((GetKeyState(VK_RMENU) & 0x8000) == 0)
+            {
+                return false;
+            }
+            BYTE state[256]{};
+            state[VK_CONTROL] = state[VK_LCONTROL] = 0x80;
+            state[VK_MENU] = state[VK_RMENU] = 0x80;
+            if ((GetKeyState(VK_SHIFT) & 0x8000) != 0)
+            {
+                state[VK_SHIFT] = 0x80;
+            }
+            HKL const layout = GetKeyboardLayout(0);
+            UINT const scanCode = MapVirtualKeyExW(key, MAPVK_VK_TO_VSC, layout);
+            wchar_t buffer[8]{};
+            // Flag 0x4: don't change the keyboard (dead key) state.
+            return ToUnicodeEx(key, scanCode, state, buffer, 8, 0x4, layout) != 0;
+        }
+
+        // Maccy KeyHandlingView.deleteLastWordFromSearch: split on spaces (empty parts dropped), drop
+        // the last word, join with spaces and keep a trailing space.
+        std::wstring DropLastWord(std::wstring const& query)
+        {
+            std::vector<std::wstring> words;
+            std::size_t start = 0;
+            while (start <= query.size())
+            {
+                std::size_t end = query.find(L' ', start);
+                if (end == std::wstring::npos)
+                {
+                    end = query.size();
+                }
+                if (end > start)
+                {
+                    words.push_back(query.substr(start, end - start));
+                }
+                start = end + 1;
+            }
+            if (!words.empty())
+            {
+                words.pop_back();
+            }
+            std::wstring result;
+            for (auto const& word : words)
+            {
+                result += word;
+                result += L' ';
+            }
+            return result;
+        }
+
         ::Kleio::KeyShortcut MakeShortcut(Modifiers modifiers, uint32_t key)
         {
             ::Kleio::KeyShortcut shortcut;
@@ -313,6 +381,12 @@ namespace winrt::Kleio::implementation
         m_previewTimer = queue.CreateTimer();
         m_previewTimer.IsRepeating(false);
         m_previewTimer.Tick([this](auto&&, auto&&) { Guard([&] { HandleAutoOpenTick(); }); });
+
+        // Watches for the release of the popup shortcut's modifiers (Maccy Popup.handleFlagsChanged).
+        m_modifierTimer = queue.CreateTimer();
+        m_modifierTimer.Interval(std::chrono::milliseconds(15));
+        m_modifierTimer.IsRepeating(true);
+        m_modifierTimer.Tick([this](auto&&, auto&&) { Guard([&] { CheckShortcutModifiers(); }); });
 
         Activated({ this, &PopupWindow::HandleActivated });
 
@@ -674,6 +748,7 @@ namespace winrt::Kleio::implementation
                 ApplySettings();
             }
 
+            ResetShortcutState();
             m_searchTimer.Stop();
             m_previewTimer.Stop();
             m_previewOpen = false;
@@ -730,6 +805,7 @@ namespace winrt::Kleio::implementation
         m_shown = false;
 
         Guard([&] {
+            ResetShortcutState();   // Maccy Popup.reset (panel close)
             m_searchTimer.Stop();
             m_previewTimer.Stop();
             m_previewOpen = false;
@@ -752,6 +828,90 @@ namespace winrt::Kleio::implementation
     bool PopupWindow::WasAutoHiddenWithin(uint32_t milliseconds) const noexcept
     {
         return m_autoHiddenAt != 0 && GetTickCount64() - m_autoHiddenAt <= milliseconds;
+    }
+
+    // =====================================================================================
+    // Popup shortcut (Maccy Popup.handleFirstKeyDown / handleKeyDown / handleFlagsChanged)
+    // =====================================================================================
+
+    void PopupWindow::OpenedByShortcut()
+    {
+        if (!m_shown || !m_modifierTimer)
+        {
+            return;
+        }
+        m_shortcutState = ShortcutState::Opening;
+        m_modifierTimer.Start();
+        CheckShortcutModifiers();   // already released (e.g. a very short press): toggle mode
+    }
+
+    bool PopupWindow::HandleShortcutPressed(::Kleio::KeyShortcut const& shortcut)
+    {
+        if (!m_shown)
+        {
+            return false;
+        }
+        if (m_dialogOpen)
+        {
+            return true;   // Maccy: ignored while editing an item
+        }
+
+        // A pinned item whose shortcut is the popup's main key (Maccy: pressedShortcutItem first).
+        if (!shortcut.IsEmpty())
+        {
+            if (auto viewModel = PressedShortcutItem(shortcut.key, shortcut.modifiers))
+            {
+                ResetShortcutState();
+                SelectItem(viewModel, true);
+                SelectWithModifiers(Impl(viewModel)->Item(), shortcut.modifiers);
+                return true;
+            }
+        }
+
+        if (m_shortcutState == ShortcutState::Opening)
+        {
+            m_shortcutState = ShortcutState::Cycle;
+        }
+        if (m_shortcutState == ShortcutState::Cycle)
+        {
+            KeyboardNext(true);
+            return true;
+        }
+        return false;   // toggle: close
+    }
+
+    void PopupWindow::CheckShortcutModifiers()
+    {
+        if (m_shortcutState == ShortcutState::Toggle)
+        {
+            m_modifierTimer.Stop();
+            return;
+        }
+        if (!m_shown)
+        {
+            ResetShortcutState();
+            return;
+        }
+        if (!AllModifiersReleased())
+        {
+            return;
+        }
+        const bool cycle = m_shortcutState == ShortcutState::Cycle;
+        ResetShortcutState();
+        if (cycle && !m_dialogOpen)
+        {
+            // Releasing the modifiers in cycle mode selects (the default action, no modifiers held).
+            ActivateSelection(Modifiers::None);
+        }
+    }
+
+    void PopupWindow::ResetShortcutState()
+    {
+        m_shortcutState = ShortcutState::Toggle;
+        if (m_modifierTimer)
+        {
+            m_modifierTimer.Stop();
+        }
     }
 
     void PopupWindow::RequestHide()
@@ -1961,13 +2121,14 @@ namespace winrt::Kleio::implementation
         }
     }
 
-    void PopupWindow::KeyboardNext()
+    void PopupWindow::KeyboardNext(bool allowCycle)
     {
-        m_keyboardNavigating = true;
-        m_manualMulti = false;
+        // Maccy NavigationManager.highlightNext(allowCycle:).
         const auto footer = FooterItems();
         if (m_lead)
         {
+            m_keyboardNavigating = true;
+            m_manualMulti = false;
             const int index = VisibleIndex(m_lead);
             if (index >= 0 && static_cast<std::size_t>(index) + 1 < m_visible.size())
             {
@@ -1977,6 +2138,10 @@ namespace winrt::Kleio::implementation
             {
                 SelectFooter(footer.front());
             }
+            else if (allowCycle)
+            {
+                KeyboardFirst();
+            }
             else if (IsMultiSelect())
             {
                 SelectItem(m_lead, true);
@@ -1984,23 +2149,27 @@ namespace winrt::Kleio::implementation
         }
         else if (m_footerSelection >= 0)
         {
+            m_keyboardNavigating = true;
+            m_manualMulti = false;
             auto it = std::find(footer.begin(), footer.end(), m_footerSelection);
             if (it != footer.end() && it + 1 != footer.end())
             {
                 SelectFooter(*(it + 1));
             }
-        }
-        else
-        {
-            // Nothing or the paste stack selected: go to the first item.
-            if (!m_visible.empty())
+            else if (allowCycle)
             {
-                SelectItem(m_visible.front(), true);
+                // End of the footer while cycling with the popup shortcut: back to the first item
+                // (Maccy's intent; its code wraps within the footer before reaching this branch).
+                KeyboardFirst();
             }
             else if (!footer.empty())
             {
-                SelectFooter(footer.front());
+                SelectFooter(footer.front());   // Maccy: Down on the last footer item wraps to the first
             }
+        }
+        else if (PasteStackSelected())
+        {
+            KeyboardFirst();
         }
     }
 
@@ -2199,7 +2368,16 @@ namespace winrt::Kleio::implementation
         {
             return;
         }
-        if (!PointerReallyMoved(args) || IsMultiSelect())
+        if (!PointerReallyMoved(args))
+        {
+            return;
+        }
+        // Maccy FooterItemView.onHover: hovering a footer item closes the preview.
+        if (m_previewOpen)
+        {
+            TogglePreview(true);
+        }
+        if (IsMultiSelect())
         {
             return;
         }
@@ -2298,6 +2476,7 @@ namespace winrt::Kleio::implementation
             if (IsModifierKey(static_cast<uint32_t>(args.Key())))
             {
                 UpdateModifiers();
+                CheckShortcutModifiers();
             }
         });
     }
@@ -2351,7 +2530,6 @@ namespace winrt::Kleio::implementation
     bool PopupWindow::HandleKey(uint32_t key, Modifiers modifiers)
     {
         auto& settings = Controller().Settings();
-        auto& ui = ::Kleio::PopupUiState::Get();
         const auto pressed = MakeShortcut(modifiers, key);
         auto matches = [&](::Kleio::KeyShortcut const& shortcut) { return !shortcut.IsEmpty() && shortcut == pressed; };
 
@@ -2366,6 +2544,12 @@ namespace winrt::Kleio::implementation
             RequestClear(true);
             return true;
         }
+        // Maccy KeyChord.clearSearch (Control+U).
+        if (key == 'U' && modifiers == Modifiers::Ctrl)
+        {
+            SetSearchQuery(L"");
+            return true;
+        }
         if (matches(settings.DeleteShortcut()))
         {
             if (PasteStackSelected())
@@ -2378,6 +2562,71 @@ namespace winrt::Kleio::implementation
             }
             return true;
         }
+
+        // Maccy KeyChord Emacs-style keys (Control -> Ctrl, Option -> Alt). Their letters are never
+        // pin letters (History::AvailablePins), so they don't shadow pinned items.
+        if (key == 'H' && modifiers == Modifiers::Ctrl)
+        {
+            // deleteOneCharFromSearch (whole query, like Maccy's searchQuery.popLast()).
+            FocusSearch();
+            std::wstring query{ SearchBox().Text() };
+            if (!query.empty())
+            {
+                const bool pair = query.size() >= 2 && IS_LOW_SURROGATE(query.back()) && IS_HIGH_SURROGATE(query[query.size() - 2]);
+                query.resize(query.size() - (pair ? 2 : 1));
+                SetSearchQuery(query);
+            }
+            return true;
+        }
+        if (key == 'W' && modifiers == Modifiers::Ctrl)
+        {
+            // deleteLastWordFromSearch.
+            FocusSearch();
+            SetSearchQuery(DropLastWord(std::wstring{ SearchBox().Text() }));
+            return true;
+        }
+        const bool ctrlAlt = ::Kleio::HasFlag(modifiers, Modifiers::Ctrl) && ::Kleio::HasFlag(modifiers, Modifiers::Alt);
+        if ((key == 'N' || key == 'P') && !(ctrlAlt && IsAltGrCharacter(key)))
+        {
+            const bool next = key == 'N';
+            if (modifiers == Modifiers::Ctrl)
+            {
+                next ? KeyboardNext() : KeyboardPrevious();               // moveToNext / moveToPrevious
+                return true;
+            }
+            if (modifiers == (Modifiers::Ctrl | Modifiers::Shift))
+            {
+                ExtendNext(next);                                         // extendToNext / extendToPrevious
+                return true;
+            }
+            if (modifiers == (Modifiers::Ctrl | Modifiers::Alt))
+            {
+                next ? KeyboardLast() : KeyboardFirst();                  // moveToLast / moveToFirst
+                return true;
+            }
+            if (modifiers == kModifierMask)
+            {
+                ExtendRange(next);                                        // extendToLast / extendToFirst
+                return true;
+            }
+        }
+        if (key == 'J' && modifiers == Modifiers::Ctrl)
+        {
+            KeyboardNext();
+            return true;
+        }
+        if (key == 'K' && modifiers == Modifiers::Ctrl)
+        {
+            // Maccy issue #1055: on the first item Ctrl+K is left to the search field.
+            const bool firstHighlighted = m_visible.empty() ? !m_lead : m_lead == m_visible.front();
+            if (!firstHighlighted)
+            {
+                KeyboardPrevious();
+                return true;
+            }
+            return false;
+        }
+
         if (matches(settings.PinShortcut()))
         {
             TogglePinSelection();
@@ -2456,14 +2705,7 @@ namespace winrt::Kleio::implementation
             ActivateSelection(modifiers);
             return true;
         case VK_ESCAPE:
-            if (!m_query.empty() || !SearchBox().Text().empty())
-            {
-                SetQueryNow(L"");
-            }
-            else
-            {
-                RequestHide();
-            }
+            RequestHide();   // Maccy KeyChord.close
             return true;
         case VK_APPS:
             OpenContextMenuForLead();
@@ -2491,36 +2733,58 @@ namespace winrt::Kleio::implementation
         }
 
         // Maccy History.pressedShortcutItem: Ctrl/Alt(+Shift) + 1..9 or + pin letter.
-        if (modifiers != Modifiers::None &&
-            ::Kleio::ActionForModifiers(modifiers, ui.pasteByDefault, ui.removeFormattingByDefault) != ::Kleio::ItemAction::Unknown)
+        if (auto viewModel = PressedShortcutItem(key, modifiers))
         {
-            std::wstring shortcutKey;
-            if (key >= '1' && key <= '9')
-            {
-                shortcutKey.assign(1, static_cast<wchar_t>(key));
-            }
-            else if (key >= VK_NUMPAD1 && key <= VK_NUMPAD9)
-            {
-                shortcutKey.assign(1, static_cast<wchar_t>(L'1' + (key - VK_NUMPAD1)));
-            }
-            else if (key >= 'A' && key <= 'Z')
-            {
-                shortcutKey.assign(1, static_cast<wchar_t>(L'a' + (key - 'A')));
-            }
-            if (!shortcutKey.empty())
-            {
-                for (auto const& viewModel : m_visible)
-                {
-                    if (Impl(viewModel)->ShortcutKey() == shortcutKey)
-                    {
-                        SelectItem(viewModel, true);
-                        SelectWithModifiers(Impl(viewModel)->Item(), modifiers);
-                        return true;
-                    }
-                }
-            }
+            SelectItem(viewModel, true);
+            SelectWithModifiers(Impl(viewModel)->Item(), modifiers);
+            return true;
         }
         return false;
+    }
+
+    winrt::Kleio::HistoryItemViewModel PopupWindow::PressedShortcutItem(uint32_t key, Modifiers modifiers) const
+    {
+        auto const& ui = ::Kleio::PopupUiState::Get();
+        if (modifiers == Modifiers::None ||
+            ::Kleio::ActionForModifiers(modifiers, ui.pasteByDefault, ui.removeFormattingByDefault) == ::Kleio::ItemAction::Unknown)
+        {
+            return nullptr;
+        }
+        std::wstring shortcutKey;
+        if (key >= '1' && key <= '9')
+        {
+            shortcutKey.assign(1, static_cast<wchar_t>(key));
+        }
+        else if (key >= VK_NUMPAD1 && key <= VK_NUMPAD9)
+        {
+            shortcutKey.assign(1, static_cast<wchar_t>(L'1' + (key - VK_NUMPAD1)));
+        }
+        else if (key >= 'A' && key <= 'Z')
+        {
+            shortcutKey.assign(1, static_cast<wchar_t>(L'a' + (key - 'A')));
+        }
+        if (shortcutKey.empty())
+        {
+            return nullptr;
+        }
+        for (auto const& viewModel : m_visible)
+        {
+            if (Impl(viewModel)->ShortcutKey() == shortcutKey)
+            {
+                return viewModel;
+            }
+        }
+        return nullptr;
+    }
+
+    void PopupWindow::SetSearchQuery(std::wstring const& text)
+    {
+        // Maccy assigns searchQuery; the caret ends up after the text.
+        if (std::wstring{ SearchBox().Text() } != text || m_query != text)
+        {
+            SetQueryNow(text);
+        }
+        SearchBox().Select(static_cast<int32_t>(text.size()), 0);
     }
 
     // =====================================================================================

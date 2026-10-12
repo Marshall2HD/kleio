@@ -142,7 +142,7 @@ namespace Kleio
         m_hotKeys = std::make_unique<HotKeyService>(*m_messageWindow);
 
         auto& hook = KeyboardHook::Instance();
-        hook.ShortcutPressed.Add([this] { TogglePopup(); });
+        hook.ShortcutPressed.Add([this] { HandlePopupShortcut({}); });
         hook.PasteDetected.Add([this] { OnPasteDetected(); });
 
         m_tray = std::make_unique<Kleio::TrayIcon>(*m_messageWindow);
@@ -255,6 +255,24 @@ namespace Kleio
         else
         {
             ShowPopup();
+        }
+    }
+
+    void AppController::HandlePopupShortcut(KeyShortcut const& shortcut)
+    {
+        // Maccy Popup.handleFirstKeyDown: open (and watch for cycling), else let the popup decide.
+        if (!IsPopupVisible())
+        {
+            ShowPopup();
+            if (m_popup && m_popup.IsShown())
+            {
+                winrt::get_self<winrt::Kleio::implementation::PopupWindow>(m_popup)->OpenedByShortcut();
+            }
+            return;
+        }
+        if (!winrt::get_self<winrt::Kleio::implementation::PopupWindow>(m_popup)->HandleShortcutPressed(shortcut))
+        {
+            HidePopup();
         }
     }
 
@@ -497,7 +515,7 @@ namespace Kleio
         {
             m_hotKeys->Unregister(HotKeyService::PopupHotKeyId);
         }
-        else if (!m_hotKeys->Register(HotKeyService::PopupHotKeyId, shortcut, [this] { TogglePopup(); }))
+        else if (!m_hotKeys->Register(HotKeyService::PopupHotKeyId, shortcut, [this, shortcut] { HandlePopupShortcut(shortcut); }))
         {
             if (HasFlag(shortcut.modifiers, Modifiers::Win))
             {

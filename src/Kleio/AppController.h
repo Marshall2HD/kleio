@@ -49,6 +49,10 @@ namespace Kleio
 
         // ---- Popup ----
         void TogglePopup();
+        // The global popup shortcut (hot key or keyboard hook) was pressed: opens the popup, or
+        // cycles / closes it like Maccy's Popup (toggle, opening and cycle states). `shortcut` is
+        // the pressed shortcut, empty when unknown.
+        void HandlePopupShortcut(KeyShortcut const& shortcut);
         void ShowPopup();
         void HidePopup();
         bool IsPopupVisible() const;

@@ -37,7 +37,23 @@ namespace winrt::Kleio::implementation
         bool IsShown() const noexcept { return m_shown; }
         bool WasAutoHiddenWithin(uint32_t milliseconds) const noexcept;
 
+        // ---- popup shortcut (Maccy Popup: PopupState toggle / opening / cycle) ----
+        // Call right after ShowPopup() when the global popup shortcut opened the popup: the popup
+        // enters the "opening" state until every modifier key is released.
+        void OpenedByShortcut();
+        // The global popup shortcut was pressed again while the popup is shown. In the opening or
+        // cycle state this highlights the next item (cycle); releasing the modifiers then selects it
+        // and closes the popup. Returns false in the toggle state: the caller closes the popup.
+        // `shortcut` is the pressed shortcut (empty when unknown).
+        bool HandleShortcutPressed(::Kleio::KeyShortcut const& shortcut);
+
     private:
+        enum class ShortcutState
+        {
+            Toggle,    // default; the shortcut toggles the popup
+            Opening,   // opened by the shortcut, its modifiers still held: toggle or cycle?
+            Cycle,     // the shortcut was pressed again: each press highlights the next item
+        };
         using ViewModel = winrt::Kleio::HistoryItemViewModel;
         using SourceVector = winrt::Windows::Foundation::Collections::IObservableVector<winrt::Windows::Foundation::IInspectable>;
 
@@ -80,6 +96,10 @@ namespace winrt::Kleio::implementation
         void UpdateModifiers();
         void SetModifiers(::Kleio::Modifiers modifiers);
         void UpdateClearAll();
+        ViewModel PressedShortcutItem(uint32_t key, ::Kleio::Modifiers modifiers) const;
+        void SetSearchQuery(std::wstring const& text);
+        void CheckShortcutModifiers();
+        void ResetShortcutState();
 
         // ---- settings / chrome ----
         void ApplySettings();
@@ -123,7 +143,7 @@ namespace winrt::Kleio::implementation
         void UpdateFooterSelection();
         void KeyboardFirst();
         void KeyboardLast();
-        void KeyboardNext();
+        void KeyboardNext(bool allowCycle = false);
         void KeyboardPrevious();
         void ExtendNext(bool forward);
         void ExtendRange(bool toLast);
@@ -201,6 +221,9 @@ namespace winrt::Kleio::implementation
         bool m_footerVisible = true;
         bool m_headerVisible = true;
         bool m_showClearAll = false;
+
+        ShortcutState m_shortcutState = ShortcutState::Toggle;
+        winrt::Microsoft::UI::Dispatching::DispatcherQueueTimer m_modifierTimer{ nullptr };
 
         bool m_keyboardNavigating = true;
         bool m_hasPointerPosition = false;
