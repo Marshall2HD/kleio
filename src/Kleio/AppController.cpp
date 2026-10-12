@@ -4,6 +4,7 @@
 #include "Core/ItemAction.h"
 #include "Platform/KeyboardHook.h"
 #include "Platform/Ocr.h"
+#include "Platform/ScriptingPipe.h"
 #include "Platform/SystemIntegration.h"
 #include "Platform/UpdateChecker.h"
 #include "PopupWindow.xaml.h"
@@ -91,6 +92,19 @@ namespace Kleio
                 text.push_back(L'…');
             }
             return text;
+        }
+
+        // Modifier keys held right now (Maccy's Select intent passes .currentModifierFlags). The
+        // keyboard state of Kleio's UI thread is stale while another app has focus, so this uses
+        // the asynchronous state.
+        Modifiers HeldModifiers() noexcept
+        {
+            auto down = [](int vk) noexcept { return (::GetAsyncKeyState(vk) & 0x8000) != 0; };
+            Modifiers result = Modifiers::None;
+            if (down(VK_CONTROL)) result |= Modifiers::Ctrl;
+            if (down(VK_MENU)) result |= Modifiers::Alt;
+            if (down(VK_SHIFT)) result |= Modifiers::Shift;
+            return result;
         }
     }
 
@@ -192,6 +206,15 @@ namespace Kleio
         UpdateTray();
         ApplyHotKeys();
 
+        try
+        {
+            m_scripting = std::make_unique<ScriptingPipe::Server>([this](Scripting::Command const& command) { return RunScript(command); });
+        }
+        catch (...)
+        {
+            Log(L"Scripting is unavailable");
+        }
+
         auto& updates = UpdateScheduler::Instance();
         updates.UpdateFound.Add([this](UpdateInfo const& update) { ShowUpdateNotification(update); });
         updates.Start();
@@ -200,6 +223,7 @@ namespace Kleio
     void AppController::Shutdown()
     {
         UpdateScheduler::Instance().Stop();
+        m_scripting.reset();
         if (m_history && Settings::Instance().ClearOnQuit())
         {
             m_history->Clear();
@@ -772,5 +796,107 @@ namespace Kleio
         ::Kleio::InstallUpdate(update, [this, update](std::wstring const& error, std::wstring const& package) {
             ShowUpdateFailedNotification(error, package, update);
         });
+    }
+
+    // ---- Scripting (Maccy's App Intents) ----
+
+    void AppController::SetSelectedItem(HistoryItemPtr const& item)
+    {
+        m_selectedItem = item;
+    }
+
+    Scripting::Result AppController::RunScript(Scripting::Command const& command)
+    {
+        using namespace Scripting;
+        if (!m_history)
+        {
+            return Result{ Unavailable, L"Kleio isn't ready yet.", {} };
+        }
+        // Maccy's AppIntentError.notFound.
+        Result const notFound{ NotFound, L"Clipboard item not found", {} };
+        // Maccy indexes History.items: pinned and unpinned items in PinTo order, 1-based.
+        auto const items = m_history->AllItems();
+
+        switch (command.verb)
+        {
+        case Verb::Get:
+        {
+            HistoryItemPtr item;
+            if (command.number)
+            {
+                item = ItemAt(items, *command.number);
+            }
+            else
+            {
+                item = m_selectedItem.lock();
+                if (item && std::find(items.begin(), items.end(), item) == items.end())
+                {
+                    item = nullptr;
+                }
+                if (!item && !m_history->UnpinnedItems().empty())
+                {
+                    item = m_history->UnpinnedItems().front();
+                }
+            }
+            if (!item)
+            {
+                return notFound;
+            }
+            auto payload = Extract(*item, command.format);
+            if (!payload)
+            {
+                return Result{ NotFound, L"The clipboard item has no " + std::wstring{ FormatName(command.format) } + L" content", {} };
+            }
+            Result result;
+            result.payload = std::move(*payload);
+            return result;
+        }
+        case Verb::Select:
+        {
+            auto item = ItemAt(items, command.number.value_or(1));
+            if (!item)
+            {
+                return notFound;
+            }
+            Result result;
+            const std::string title = ToUtf8(item->title);
+            result.payload.bytes.assign(title.begin(), title.end());
+            // Paste (when enabled) goes to the app in front, as with Maccy's intent.
+            if (!IsPopupVisible())
+            {
+                m_paste.RememberForegroundWindow();
+            }
+            Select(item, HeldModifiers());
+            return result;
+        }
+        case Verb::Delete:
+        {
+            auto item = ItemAt(items, command.number.value_or(1));
+            if (!item)
+            {
+                return notFound;
+            }
+            m_history->Delete(item);
+            return {};
+        }
+        case Verb::Clear:
+        {
+            // Maccy's Clear intent asks for confirmation unless the clear alert is suppressed.
+            if (!Settings::Instance().SuppressClearAlert() && !command.yes)
+            {
+                int const answer = ::MessageBoxW(nullptr,
+                    L"Are you sure you want to clear the history?\n\nPinned items are kept. You can't undo this action.",
+                    L"Kleio", MB_OKCANCEL | MB_ICONWARNING | MB_DEFBUTTON2 | MB_SETFOREGROUND | MB_TOPMOST);
+                if (answer != IDOK)
+                {
+                    return Result{ Cancelled, L"Cancelled", {} };
+                }
+            }
+            Clear();
+            return {};
+        }
+        default:
+            return Result{ UsageError, L"Unknown command", {} };
+        }
     }
 }

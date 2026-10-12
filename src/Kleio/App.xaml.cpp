@@ -109,8 +109,10 @@ namespace winrt::Kleio::implementation
             return;
         }
 
-        // Started with Windows or after an update (--updated): stay in the notification area.
-        if (args.Kind() == ExtendedActivationKind::StartupTask || Contains(arguments, L"--updated"))
+        // Started with Windows, by a scripting command (kleio --get ... starts Kleio with
+        // --background) or after an update (--updated): stay in the notification area.
+        if (args.Kind() == ExtendedActivationKind::StartupTask || Contains(arguments, L"--background") ||
+            Contains(arguments, L"--updated"))
         {
             return;
         }

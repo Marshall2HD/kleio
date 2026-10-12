@@ -16,8 +16,9 @@ namespace winrt::Kleio::implementation
         void OnActivated(winrt::Windows::Foundation::IInspectable const&,
                          Microsoft::Windows::AppLifecycle::AppActivationArguments const& args);
         // Applies "--pause", "--resume", "--ignore-next", "--settings", "--quit", notification clicks;
-        // "--updated" and startup-task launches stay hidden; with no recognised
+        // "--background"/"--updated" and startup-task launches stay hidden; with no recognised
         // argument toggles the popup (like reopening Maccy). `initial` = first launch of the process.
+        // (--get/--select/--delete/--clear never get here: see Main.cpp and Platform/ScriptingPipe.)
         void HandleActivation(Microsoft::Windows::AppLifecycle::AppActivationArguments const& args, bool initial);
 
         Microsoft::UI::Dispatching::DispatcherQueue m_dispatcher{ nullptr };

@@ -4,6 +4,7 @@
 #include "Core/History.h"
 #include "Core/HistoryItem.h"
 #include "Core/KeyShortcut.h"
+#include "Core/Scripting.h"
 #include "Core/Settings.h"
 #include "Core/Storage.h"
 #include "Platform/ClipboardService.h"
@@ -21,6 +22,11 @@
 
 namespace Kleio
 {
+    namespace ScriptingPipe
+    {
+        class Server;
+    }
+
     // Paste stack (Maccy's PasteStack): several items selected and "pasted" in sequence. After each
     // detected user paste (Ctrl+V) the next item is put on the clipboard.
     struct PasteStack
@@ -89,6 +95,15 @@ namespace Kleio
         // Shown by Settings when RegisterHotKey fails, etc.
         Event<winrt::hstring> HotKeyRegistrationFailed;
 
+        // ---- Scripting (Maccy's App Intents: Get, Select, Delete, Clear) ----
+        // Runs a command received from `kleio --get/--select/--delete/--clear` (Platform/ScriptingPipe).
+        Scripting::Result RunScript(Scripting::Command const& command);
+        // The item selected in the popup (first of a multi-selection); `kleio --get` without a number
+        // returns it, like Maccy's Get intent with "Selected". The popup should report changes here.
+        // Until it does (or after the item is deleted), the item the popup selects when it opens,
+        // the first unpinned one, is used.
+        void SetSelectedItem(HistoryItemPtr const& item);
+
         // ---- App notifications (Maccy's Notifier) ----
         // Button/body clicks of Kleio's notifications, from NotificationInvoked or from a launch by
         // a notification (App::HandleActivation).
@@ -126,6 +141,8 @@ namespace Kleio
         Kleio::PasteService m_paste;
         std::optional<PasteStack> m_pasteStack;
         bool m_hotKeysSuspended = false;
+        std::unique_ptr<ScriptingPipe::Server> m_scripting;
+        std::weak_ptr<HistoryItem> m_selectedItem;
 
         winrt::Kleio::PopupWindow m_popup{ nullptr };
         winrt::Kleio::SettingsWindow m_settingsWindow{ nullptr };

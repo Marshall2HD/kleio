@@ -1,8 +1,15 @@
 // Custom entry point (DISABLE_XAML_GENERATED_MAIN) so that Kleio stays single-instance: a second
 // launch (Start menu, "kleio.exe --pause" alias, startup task) is redirected to the running instance,
 // which handles it in App::OnActivated.
+//
+// Scripting verbs (--get, --select, --delete, --clear, --help) are not redirected: they need a
+// reply, so the alias process talks to the running instance over a named pipe
+// (Platform/ScriptingPipe), prints the result and exits with its exit code.
 #include "pch.h"
 #include "App.xaml.h"
+
+#include "Core/Scripting.h"
+#include "Platform/ScriptingPipe.h"
 
 #include <thread>
 
@@ -29,6 +36,21 @@ namespace
         });
         worker.join();
     }
+
+    std::vector<std::wstring> CommandLineArguments()
+    {
+        std::vector<std::wstring> arguments;
+        int count = 0;
+        if (LPWSTR* argv = ::CommandLineToArgvW(::GetCommandLineW(), &count))
+        {
+            for (int i = 1; i < count; ++i)
+            {
+                arguments.emplace_back(argv[i]);
+            }
+            ::LocalFree(argv);
+        }
+        return arguments;
+    }
 }
 
 int WINAPI wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
@@ -45,6 +67,16 @@ int WINAPI wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
     }
 
     winrt::init_apartment(winrt::apartment_type::single_threaded);
+
+    auto const script = Kleio::Scripting::Parse(CommandLineArguments());
+    if (!script.error.empty())
+    {
+        return Kleio::ScriptingPipe::PrintUsageError(script.error);
+    }
+    if (script.command)
+    {
+        return Kleio::ScriptingPipe::RunClient(*script.command);
+    }
 
     auto const args = AppInstance::GetCurrent().GetActivatedEventArgs();
     auto const keyInstance = AppInstance::FindOrRegisterForKey(InstanceKey);
