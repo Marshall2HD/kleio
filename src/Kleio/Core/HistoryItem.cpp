@@ -16,13 +16,25 @@ namespace Kleio
         constexpr wchar_t kObjectReplacement = L'\uFFFC';   // OBJECT REPLACEMENT CHARACTER
         constexpr std::size_t kTitleMaxLength = 1000;
 
-        // Maccy's transient pasteboard types, mapped to Kleio's markers: they describe *how* the
-        // data got onto the clipboard rather than the data itself and are ignored when looking
-        // for duplicates.
-        bool IsTransientType(std::wstring_view type) noexcept
+        // Registered clipboard format names are case-insensitive.
+        bool EqualsIgnoreAsciiCase(std::wstring_view a, std::wstring_view b) noexcept
         {
-            return type == ContentType::FromKleio || type == ContentType::CanIncludeInClipboardHistory ||
-                   type.starts_with(L"Kleio.");
+            if (a.size() != b.size())
+            {
+                return false;
+            }
+            for (std::size_t i = 0; i < a.size(); ++i)
+            {
+                wchar_t x = a[i];
+                wchar_t y = b[i];
+                if (x >= L'A' && x <= L'Z') x = static_cast<wchar_t>(x - L'A' + L'a');
+                if (y >= L'A' && y <= L'Z') y = static_cast<wchar_t>(y - L'A' + L'a');
+                if (x != y)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         bool IsHighSurrogate(wchar_t c) noexcept
@@ -434,6 +446,32 @@ namespace Kleio
     }
 
     // ------------------------------------------------------------------ HistoryItem
+
+    bool IsTransientType(std::wstring_view type) noexcept
+    {
+        // Maccy's HistoryItem.transientTypes with their Windows counterparts.
+        static constexpr std::wstring_view kTransientTypes[] = {
+            ContentType::Modified,                      // x.nspasteboard.ModifiedType
+            ContentType::FromKleio,                     // org.p0deje.Maccy
+            ContentType::CanIncludeInClipboardHistory,  // clipboard policy markers (Windows)
+            ContentType::CanUploadToCloudClipboard,
+            L"Chromium internal source URL",            // org.chromium.source-url
+            L"Chromium Web Custom MIME Data Format",    // org.chromium.web-custom-data
+            L"text/x-moz-url-priv",                     // Firefox's source page URL
+        };
+        if (type.size() >= 6 && EqualsIgnoreAsciiCase(type.substr(0, 6), L"Kleio."))
+        {
+            return true;
+        }
+        for (auto transient : kTransientTypes)
+        {
+            if (EqualsIgnoreAsciiCase(type, transient))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 
     bool HistoryItem::Supersedes(HistoryItem const& other) const
     {

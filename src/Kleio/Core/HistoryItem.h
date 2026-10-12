@@ -16,6 +16,8 @@ namespace Kleio
     //   Rtf   -> "Rich Text Format" bytes
     //   Files -> UTF-16LE, absolute paths separated by '\n' (from/to CF_HDROP)
     //   Png   -> PNG encoded image (from "PNG", CF_DIBV5 or CF_DIB)
+    // Every other persistable clipboard format is stored as its raw bytes under its format name
+    // ("CF_*" for predefined formats, the registered name otherwise; see Core/ClipboardFormats.h).
     // Marker types carry no meaningful payload (may be empty).
     namespace ContentType
     {
@@ -29,7 +31,18 @@ namespace Kleio
         // Windows convention: a DWORD 0 under this format means "do not put this into clipboard
         // history"; such copies (from password managers etc.) are ignored. Kleio never writes it.
         inline constexpr std::wstring_view CanIncludeInClipboardHistory = L"CanIncludeInClipboardHistory";
+        // Windows convention: DWORD 0 = keep this copy out of the cloud clipboard. Stored and
+        // restored, but describes the copy rather than its data (transient).
+        inline constexpr std::wstring_view CanUploadToCloudClipboard = L"CanUploadToCloudClipboard";
+        // nspasteboard.org "modified" marker (Maccy's .modified): an app that rewrites a copy right
+        // after it was made puts the clipboard change count (GetClipboardSequenceNumber) of the
+        // original copy here, as decimal text. History merges the rewritten copy into the original.
+        inline constexpr std::wstring_view Modified = L"x.nspasteboard.ModifiedType";
     }
+
+    // True for content types that describe how data got onto the clipboard rather than the data
+    // itself (Maccy's HistoryItem.transientTypes); they are ignored when looking for duplicates.
+    bool IsTransientType(std::wstring_view type) noexcept;
 
     struct HistoryItemContent
     {

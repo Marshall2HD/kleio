@@ -190,6 +190,29 @@ TEST(History_DifferentItemsAreNotMerged)
     CHECK_EQ(f.Items().size(), std::size_t{ 2 });
 }
 
+TEST(History_DuplicateWithAllFormatsKeepsOriginalContents)
+{
+    // A FromKleio copy reads back every format Kleio wrote; it must merge into the original.
+    Fixture f;
+    const std::vector<HistoryItemContent> office{
+        Text(L"cell"),
+        { std::wstring{ ContentType::Html }, Bytes("<td>cell</td>") },
+        { L"Biff12", Bytes("sheet") },
+        { L"CF_ENHMETAFILE", Bytes("emf") },
+        { L"CanUploadToCloudClipboard", { 1, 0, 0, 0 } },
+    };
+    f.history->Add(ItemWithContents(office, L"EXCEL.EXE"));
+    std::vector<HistoryItemContent> readBack{ office.rbegin(), office.rend() };
+    readBack.push_back({ std::wstring{ ContentType::FromKleio }, {} });
+    auto copy = f.history->Add(ItemWithContents(readBack, L"Kleio.exe"));
+
+    CHECK(f.Items() == (std::vector<HistoryItemPtr>{ copy }));
+    CHECK(copy->contents == office);
+    CHECK_EQ(copy->numberOfCopies, 2);
+    CHECK_EQ(copy->application, std::wstring{ L"EXCEL.EXE" });
+    CHECK_EQ(f.StoredContents(), office.size());
+}
+
 TEST(History_ClearingUnpinned)
 {
     Fixture f;
@@ -583,5 +606,48 @@ TEST(Storage_RoundTripAndSize)
         storage.Insert(pinned);
         storage.RemoveAll();
         CHECK(storage.LoadAll().empty());
+    }
+}
+
+TEST(Storage_ArbitraryFormatNames)
+{
+    KleioTests::TempDatabase database;
+    Storage storage(database.Path());
+    HistoryItem item;
+    item.contents.push_back(Text(L"text"));
+    item.contents.push_back({ L"Art::GVML ClipFormat", Bytes("gvml") });
+    item.contents.push_back({ L"CF_ENHMETAFILE", std::vector<std::uint8_t>(70000, 0x5A) });
+    item.contents.push_back({ L"Format \u00E9\u4E2D", { 0x00, 0x01, 0x00 } });
+    item.contents.push_back({ L"x.nspasteboard.ModifiedType", Bytes("12") });
+    storage.Insert(item);
+    const auto loaded = storage.LoadAll();
+    CHECK(loaded.size() == 1 && loaded[0]->contents == item.contents);
+}
+
+TEST(Storage_RemovingUnpersistableContents)
+{
+    // Port of Maccy's testRemovingUnpersistableContents (runs when the database is opened).
+    KleioTests::TempDatabase database;
+    HistoryItem item;
+    item.contents.push_back(Text(L"live"));
+    item.contents.push_back({ L"Ole Private Data", Bytes("ole") });
+    item.contents.push_back({ L"CF_DIB", Bytes("dib") });
+    item.contents.push_back({ L"Biff12", Bytes("sheet") });
+    item.contents.push_back({ std::wstring{ ContentType::FromKleio }, {} });
+    {
+        Storage storage(database.Path());
+        storage.Insert(item);
+        CHECK_EQ(storage.RemoveUnpersistableContents(), 2);
+        CHECK_EQ(storage.RemoveUnpersistableContents(), 0);
+        const auto loaded = storage.LoadAll();
+        CHECK(loaded.size() == 1 && loaded[0]->contents.size() == 3);
+        storage.Insert(item);
+    }
+    Storage reopened(database.Path());
+    for (auto const& stored : reopened.LoadAll())
+    {
+        CHECK_EQ(stored->contents.size(), std::size_t{ 3 });
+        CHECK(!stored->Has(L"Ole Private Data") && !stored->Has(L"CF_DIB"));
+        CHECK(stored->Has(L"Biff12") && stored->Has(ContentType::FromKleio) && stored->Has(ContentType::Text));
     }
 }
