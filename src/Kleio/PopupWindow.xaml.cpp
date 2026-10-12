@@ -419,6 +419,19 @@ namespace winrt::Kleio::implementation
         });
 
         SearchBox().TextChanged([this](auto&&, auto&&) { Guard([&] { HandleSearchTextChanged(); }); });
+        // The context-menu key (or Shift+F10) arrives as ContextRequested on the focused search box,
+        // which would open its Cut/Copy/Paste menu: show the selected item's menu instead. A right
+        // click on the search box keeps the text menu.
+        SearchBox().ContextRequested([this](IInspectable const&, xaml::Input::ContextRequestedEventArgs const& args) {
+            Guard([&] {
+                winrt::Windows::Foundation::Point point{};
+                if (!args.TryGetPosition(nullptr, point) && m_lead)
+                {
+                    args.Handled(true);
+                    OpenContextMenuForLead();
+                }
+            });
+        });
         // On the very first show the tree loads after Activate(); focus the search box once it exists.
         SearchBox().Loaded([this](auto&&, auto&&) {
             Guard([&] {

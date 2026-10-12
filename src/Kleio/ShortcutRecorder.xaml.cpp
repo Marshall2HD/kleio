@@ -58,7 +58,8 @@ namespace
     std::vector<std::wstring> ModifierNames(Kleio::Modifiers modifiers)
     {
         std::vector<std::wstring> names;
-        for (auto const flag : { Kleio::Modifiers::Ctrl, Kleio::Modifiers::Alt, Kleio::Modifiers::Shift, Kleio::Modifiers::Win })
+        // Windows order (and KeyShortcut::ToString's): Win, Ctrl, Alt, Shift.
+        for (auto const flag : { Kleio::Modifiers::Win, Kleio::Modifiers::Ctrl, Kleio::Modifiers::Alt, Kleio::Modifiers::Shift })
         {
             if (Kleio::HasFlag(modifiers, flag))
             {
