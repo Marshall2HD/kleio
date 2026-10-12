@@ -40,7 +40,7 @@ namespace winrt::Kleio::implementation
         constexpr double kSplitterWidth = 9.0;
         constexpr double kMinContentWidth = 200.0;
         constexpr double kMinPreviewWidth = 200.0;
-        constexpr double kMinPreviewHeight = 320.0;
+        constexpr double kMinPreviewHeight = 150.0;   // Maccy Popup.minimumPreviewHeight
         constexpr double kMinWindowHeight = 120.0;
         constexpr std::size_t kPreviewTextLimit = 20000;
         constexpr std::size_t kEditorTextLimit = 200000;
