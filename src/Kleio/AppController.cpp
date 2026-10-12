@@ -213,6 +213,10 @@ namespace Kleio
         if (m_history && Settings::Instance().ClearOnQuit())
         {
             m_history->Clear();
+            if (m_clipboard)
+            {
+                m_clipboard->ClearIfEnabled();   // Maccy's History.clear() -> Clipboard.clear()
+            }
         }
         auto& hook = KeyboardHook::Instance();
         hook.SetShortcuts({});
