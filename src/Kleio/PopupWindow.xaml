@@ -192,7 +192,11 @@
         </Grid>
 
         <!-- ================= Preview (Maccy SlideoutView / PreviewItemView) ================= -->
-        <local:PopupSplitter x:Name="PreviewSplitter" Grid.Column="1" Visibility="Collapsed" />
+        <!-- Divider between the list and the preview. Not draggable: the popup width is fixed. -->
+        <Grid x:Name="PreviewSplitter" Grid.Column="1" Width="9" Visibility="Collapsed">
+            <Rectangle Width="1" Margin="0,12,0,12" HorizontalAlignment="Center" VerticalAlignment="Stretch"
+                       Fill="{ThemeResource DividerStrokeColorDefaultBrush}" />
+        </Grid>
 
         <Grid x:Name="PreviewPanel"
               Grid.Column="2"

@@ -73,7 +73,6 @@ namespace winrt::Kleio::implementation
         void EnsureInitialized();
         void SetupFooter();
         void SetupPreviewToolbar();
-        void SetupSplitter();
         static LRESULT CALLBACK SubclassProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam, UINT_PTR id, DWORD_PTR data);
 
         // ---- events ----
@@ -247,9 +246,6 @@ namespace winrt::Kleio::implementation
         std::int64_t m_previewImageId = 0;
         winrt::Microsoft::UI::Xaml::Media::Imaging::BitmapImage m_previewBitmap{ nullptr };
 
-        bool m_splitterDragging = false;
-        double m_splitterStartX = 0;
-        double m_splitterStartWidth = 0;
 
         double m_scale = 1.0;
         bool m_anchorBottom = false;

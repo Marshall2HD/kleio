@@ -523,7 +523,6 @@ namespace winrt::Kleio::implementation
 
         SetupFooter();
         SetupPreviewToolbar();
-        SetupSplitter();
 
         auto weak = get_weak();
         auto& ui = ::Kleio::PopupUiState::Get();
@@ -655,66 +654,6 @@ namespace winrt::Kleio::implementation
         SetToolTip(PreviewStopStackButton(), ::Kleio::Strings::Get(L"StopPasteStack"));
     }
 
-    void PopupWindow::SetupSplitter()
-    {
-        auto splitter = PreviewSplitter();
-        splitter.PointerPressed([this](IInspectable const&, xaml::Input::PointerRoutedEventArgs const& args) {
-            Guard([&] {
-                auto point = args.GetCurrentPoint(nullptr);
-                if (!point.Properties().IsLeftButtonPressed() || !m_previewOpen)
-                {
-                    return;
-                }
-                m_splitterDragging = true;
-                m_splitterStartX = point.Position().X;
-                m_splitterStartWidth = PreviewPanel().ActualWidth();
-                m_previewTimer.Stop();
-                PreviewSplitter().CapturePointer(args.Pointer());
-                args.Handled(true);
-            });
-        });
-        splitter.PointerMoved([this](IInspectable const&, xaml::Input::PointerRoutedEventArgs const& args) {
-            Guard([&] {
-                if (!m_splitterDragging)
-                {
-                    return;
-                }
-                const double x = args.GetCurrentPoint(nullptr).Position().X;
-                const double delta = x - m_splitterStartX;
-                const double total = RootGrid().ActualWidth();
-                double width = m_splitterStartWidth + (m_placementLeft ? delta : -delta);
-                width = std::clamp(width, kMinPreviewWidth, std::max(kMinPreviewWidth, total - kMinContentWidth - kSplitterWidth));
-                PreviewPanel().Width(width);
-                args.Handled(true);
-            });
-        });
-        auto finish = [this]() {
-            if (!m_splitterDragging)
-            {
-                return;
-            }
-            m_splitterDragging = false;
-            auto& settings = Controller().Settings();
-            const double width = PreviewPanel().Width();
-            const double total = RootGrid().ActualWidth();
-            settings.PreviewWidth(width);
-            if (total > 0)
-            {
-                settings.WindowWidth(std::max(kMinContentWidth, total - width - kSplitterWidth));
-            }
-            UpdateThumbnailWidth();
-        };
-        splitter.PointerReleased([this, finish](IInspectable const&, xaml::Input::PointerRoutedEventArgs const& args) {
-            Guard([&] {
-                finish();
-                PreviewSplitter().ReleasePointerCapture(args.Pointer());
-            });
-        });
-        splitter.PointerCaptureLost([finish](IInspectable const&, xaml::Input::PointerRoutedEventArgs const&) {
-            Guard([&] { finish(); });
-        });
-    }
-
     LRESULT CALLBACK PopupWindow::SubclassProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam, UINT_PTR id, DWORD_PTR data)
     {
         auto* self = reinterpret_cast<PopupWindow*>(data);
@@ -749,6 +688,38 @@ namespace winrt::Kleio::implementation
             self->m_inSizeMove = false;
             Guard([&] { self->HandleSizeMoveEnded(); });
             break;
+        case WM_NCHITTEST:
+        {
+            // Like Maccy's panel only the height can be dragged: side edges and corners become plain
+            // border or top/bottom edges.
+            const LRESULT hit = DefSubclassProc(hwnd, message, wParam, lParam);
+            switch (hit)
+            {
+            case HTLEFT:
+            case HTRIGHT:
+                return HTBORDER;
+            case HTTOPLEFT:
+            case HTTOPRIGHT:
+                return HTTOP;
+            case HTBOTTOMLEFT:
+            case HTBOTTOMRIGHT:
+                return HTBOTTOM;
+            default:
+                return hit;
+            }
+        }
+        case WM_SIZING:
+        {
+            // Keyboard sizing (Alt+Space, Size) can still pick a side edge: keep the width.
+            auto* rect = reinterpret_cast<RECT*>(lParam);
+            RECT current{};
+            if (rect && GetWindowRect(hwnd, &current))
+            {
+                rect->left = current.left;
+                rect->right = current.right;
+            }
+            return TRUE;
+        }
         case WM_GETMINMAXINFO:
         {
             const LRESULT result = DefSubclassProc(hwnd, message, wParam, lParam);
@@ -793,7 +764,6 @@ namespace winrt::Kleio::implementation
             m_hasPointerPosition = false;
             m_manualMulti = false;
             m_dragInProgress = false;
-            m_splitterDragging = false;
             m_query.clear();
             if (!SearchBox().Text().empty())
             {
@@ -847,7 +817,6 @@ namespace winrt::Kleio::implementation
             m_searchTimer.Stop();
             m_previewTimer.Stop();
             m_previewOpen = false;
-            m_splitterDragging = false;
             m_dragInProgress = false;
             m_manualMulti = false;
             AppWindow().Hide();
@@ -967,7 +936,7 @@ namespace winrt::Kleio::implementation
                 SetModifiers(Modifiers::None);
                 // Maccy's FloatingPanel.resignKey: close when focus moves elsewhere, unless a modal
                 // interaction of the popup is in progress.
-                if (m_shown && !m_dialogOpen && !m_flyoutOpen && !m_dragInProgress && !m_inSizeMove && !m_splitterDragging)
+                if (m_shown && !m_dialogOpen && !m_flyoutOpen && !m_dragInProgress && !m_inSizeMove)
                 {
                     m_autoHiddenAt = GetTickCount64();
                     RequestHide();
@@ -2417,7 +2386,7 @@ namespace winrt::Kleio::implementation
 
     void PopupWindow::HandleRowPointerMoved(HistoryItemRow& row, xaml::Input::PointerRoutedEventArgs const& args)
     {
-        if (!m_shown || m_dialogOpen || m_flyoutOpen || m_dragInProgress || m_splitterDragging)
+        if (!m_shown || m_dialogOpen || m_flyoutOpen || m_dragInProgress)
         {
             return;
         }
@@ -2443,7 +2412,7 @@ namespace winrt::Kleio::implementation
 
     void PopupWindow::HandleFooterPointerMoved(int index, xaml::Input::PointerRoutedEventArgs const& args)
     {
-        if (!m_shown || m_dialogOpen || m_flyoutOpen || m_dragInProgress || m_splitterDragging)
+        if (!m_shown || m_dialogOpen || m_flyoutOpen || m_dragInProgress)
         {
             return;
         }
