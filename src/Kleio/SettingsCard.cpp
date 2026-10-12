@@ -120,6 +120,7 @@ namespace winrt::Kleio::implementation
             m_wrapApplied = true;
             winrt::Grid::SetRow(presenter, wrap ? 1 : 0);
             winrt::Grid::SetColumn(presenter, wrap ? 1 : 2);
+            winrt::Grid::SetColumnSpan(presenter, wrap ? 2 : 1);
             presenter.Margin(wrap ? winrt::Thickness{ 0, 8, 0, 0 } : winrt::Thickness{});
             presenter.HorizontalAlignment(wrap ? winrt::HorizontalAlignment::Left : HorizontalContentAlignment());
         }
