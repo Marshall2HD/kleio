@@ -51,7 +51,7 @@ $packages | Where-Object DirectoryName -like '*Dependencies*' | ForEach-Object {
 $packages | Where-Object Name -like 'Kleio_*' | ForEach-Object { Add-AppxPackage $_.FullName }
 ```
 
-Windows 11 (build 22000) or later is required.
+Windows 10 version 2004 (build 19041) or later is required. Kleio is designed for Windows 11; on Windows 10 the popup and Settings use the Windows 10 fallbacks (no Mica or rounded corners, Segoe MDL2 icons).
 
 ## Usage
 
