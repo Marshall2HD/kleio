@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kleio for Windows</title>
-<meta name="description" content="Kleio is a free, open-source clipboard manager for Windows 11, ported from Maccy. Press Win+Shift+C, type, paste.">
+<meta name="description" content="Kleio is a free, open-source clipboard manager for Windows 11. Press Win+Shift+C, type, paste.">
 <meta property="og:title" content="Kleio, clipboard history for Windows 11">
-<meta property="og:description" content="Everything you copy, one shortcut away. A faithful Windows port of Maccy.">
+<meta property="og:description" content="Everything you copy, one shortcut away. Free and open source.">
 <meta property="og:image" content="https://marshall2hd.github.io/kleio/assets/poster.jpg">
 <meta property="og:url" content="https://marshall2hd.github.io/kleio/">
 <meta name="twitter:card" content="summary_large_image">
@@ -106,7 +106,7 @@ h2 { font: 800 clamp(1.8rem, 3.4vw, 2.5rem)/1.1 var(--display); letter-spacing: 
 #features .grid p { margin: 0; color: var(--muted); max-width: 40ch; }
 #features code, #install code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 0.9em; background: var(--sheet); border: 1px solid var(--rule); padding: 0.05em 0.35em; border-radius: 5px; color: var(--ink); }
 
-#screenshot picture img { display: block; width: 100%; max-width: 900px; height: auto; border-radius: 12px; }
+#screenshot img { display: block; width: 100%; max-width: 900px; height: auto; border-radius: 12px; }
 
 #install ol { margin: 0; padding-left: 1.3em; display: grid; gap: 10px; max-width: 62ch; }
 #install li::marker { font-weight: 600; color: var(--accent); }
@@ -142,7 +142,7 @@ footer.site a { color: var(--muted); }
     <section id="hero">
       <div class="hero-copy">
         <h1>Everything you copy, one shortcut away.</h1>
-        <p class="lede">Kleio keeps your clipboard history on Windows&nbsp;11. Press the shortcut, type a few letters, paste. It is a faithful port of Maccy, the Mac clipboard manager.</p>
+        <p class="lede">Kleio keeps your clipboard history on Windows&nbsp;11. Press the shortcut, type a few letters, paste. Free, open source, and native to Windows.</p>
         <p class="chord" aria-label="Shortcut: Windows key plus Shift plus C"><kbd>Win</kbd><span class="plus" aria-hidden="true">+</span><kbd>Shift</kbd><span class="plus" aria-hidden="true">+</span><kbd>C</kbd></p>
         <div class="actions">
           <a class="button primary" href="https://github.com/Marshall2HD/kleio/releases/latest">Download for Windows</a>
@@ -173,24 +173,21 @@ footer.site a { color: var(--muted); }
 
     <section class="band" id="features">
       <h2>Small, native, private</h2>
-      <p class="intro">Kleio keeps Maccy's layout and behaviour and adopts Windows conventions where they differ.</p>
+      <p class="intro">A native app that follows Windows conventions and stays out of the way.</p>
       <div class="grid">
         <div><h3>Native Windows 11</h3><p>WinUI 3 and C++/WinRT. Acrylic popup, Mica settings, light and dark theme, Segoe Fluent icons.</p></div>
         <div><h3>Stays on your PC</h3><p>History lives in a local SQLite file. Copies that password managers mark as private are never recorded.</p></div>
         <div><h3>Light on resources</h3><p>Event-driven clipboard monitoring, no polling. It sits in the notification area until you need it.</p></div>
         <div><h3>Scriptable</h3><p><code>kleio --get 3</code>, <code>--select</code>, <code>--delete</code> and <code>--clear</code> work from PowerShell and scripts.</p></div>
         <div><h3>Ignore rules</h3><p>Skip copies by app, by clipboard format, or by pattern, such as six-digit one-time codes.</p></div>
-        <div><h3>43 languages</h3><p>The same translations Maccy ships, plus auto-updates from GitHub Releases.</p></div>
+        <div><h3>43 languages</h3><p>Translated into 43 languages, with auto-updates from GitHub Releases.</p></div>
       </div>
     </section>
 
     <section class="band" id="screenshot">
       <h2>Looks like it belongs</h2>
-      <p class="intro">The popup with the preview pane open, in your current theme.</p>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/kleio-dark.png">
-        <img src="assets/kleio-light.png" alt="Kleio popup listing clipboard history next to a preview of the selected item" width="1207" height="644">
-      </picture>
+      <p class="intro">Your recent copies, numbered for quick access, in a Fluent popup that follows your light or dark theme.</p>
+      <img src="assets/kleio-popup.png" alt="Kleio popup listing recent clipboard items over the Windows 11 desktop" width="1200" height="640">
     </section>
 
     <section class="band" id="install">
@@ -202,14 +199,10 @@ footer.site a { color: var(--muted); }
       </ol>
     </section>
 
-    <section class="band" id="credits">
-      <h2>Thanks, Maccy</h2>
-      <p>Kleio is a port of <a href="https://github.com/p0deje/Maccy">Maccy</a> by <a href="https://github.com/p0deje">Alex Rodionov</a>, also MIT licensed. The only deliberate changes are Windows ones: Fluent design, a notification-area icon instead of a menu bar item, and Windows key bindings.</p>
-    </section>
   </main>
 
   <footer class="site">
-    <span>Kleio is free software under the MIT license.</span>
+    <span>Kleio is free software under the MIT license. Based on <a href="https://github.com/p0deje/Maccy">Maccy</a> by Alex Rodionov.</span>
     <span><a href="https://github.com/Marshall2HD/kleio">Source</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/issues">Report an issue</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/blob/main/docs/faq.md">FAQ</a></span>
   </footer>
 </div>
