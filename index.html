@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kleio for Windows</title>
+<meta name="description" content="Kleio is a free, open-source clipboard manager for Windows 11, ported from Maccy. Press Win+Shift+C, type, paste.">
+<meta property="og:title" content="Kleio, clipboard history for Windows 11">
+<meta property="og:description" content="Everything you copy, one shortcut away. A faithful Windows port of Maccy.">
+<meta property="og:image" content="https://marshall2hd.github.io/kleio/assets/poster.jpg">
+<meta property="og:url" content="https://marshall2hd.github.io/kleio/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: one left-aligned column; the hero pairs the headline and real keycaps with the screen recording, then a keycap reference sheet carries the rest. */
+:root {
+  --paper: #edf0f6;      /* cool Mica grey */
+  --sheet: #f8f9fc;      /* raised surfaces */
+  --ink: #1c1f3a;        /* indigo ink from the logo */
+  --muted: #565d78;
+  --accent: #4b55e8;     /* logo indigo */
+  --on-accent: #ffffff;
+  --key: #ffffff;
+  --key-edge: #c3c9da;
+  --key-text: #1c1f3a;
+  --rule: #d6dbe8;
+  --display: "Bricolage Grotesque", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  --body: "Instrument Sans", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14162a; --sheet: #1b1e36; --ink: #e9ebf8; --muted: #a2a8c6; --accent: #949bff; --on-accent: #14162a;
+    --key: #2a2e4d; --key-edge: #070818; --key-text: #eef0ff; --rule: #2c3052;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 400 1.0625rem/1.6 var(--body);
+}
+a { color: var(--accent); text-underline-offset: 0.18em; }
+a:focus-visible, .button:focus-visible, video:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+.wrap { width: 100%; max-width: 1140px; margin-inline: auto; padding-inline: max(20px, env(safe-area-inset-left, 0px)); }
+
+header.site { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 22px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font: 800 1.35rem/1 var(--display); }
+.brand img { width: 34px; height: 34px; }
+header nav { display: flex; gap: 22px; font-weight: 500; }
+header nav a { color: var(--ink); text-decoration: none; }
+header nav a:hover { text-decoration: underline; }
+
+#hero { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 7fr); gap: clamp(28px, 5vw, 64px); align-items: center; padding-block: clamp(24px, 6vw, 72px) clamp(40px, 7vw, 88px); }
+h1 { font: 800 clamp(2.5rem, 5vw, 3.8rem)/1.02 var(--display); letter-spacing: -0.025em; margin: 0 0 20px; text-wrap: balance; }
+.lede { font-size: 1.2rem; line-height: 1.55; color: var(--muted); max-width: 34ch; margin: 0 0 30px; }
+
+.chord { display: flex; align-items: center; gap: 12px; margin: 0 0 32px; flex-wrap: wrap; }
+.chord .plus { font: 600 1.4rem/1 var(--display); color: var(--muted); }
+kbd {
+  display: inline-grid; place-items: center; min-width: 2.2em; padding: 0.28em 0.6em 0.34em;
+  font: 600 0.82em/1 var(--body); color: var(--key-text); background: var(--key);
+  border: 1px solid var(--key-edge); border-bottom-width: 3px; border-radius: 7px; white-space: nowrap;
+}
+.chord kbd { font-size: clamp(1.25rem, 2.4vw, 1.6rem); min-width: 2.6em; padding: 0.5em 0.75em 0.55em; border-radius: 12px; border-bottom-width: 6px; }
+@media (prefers-reduced-motion: no-preference) {
+  .chord kbd { animation: press 0.5s ease-out both; }
+  .chord kbd:nth-of-type(1) { animation-delay: 0.45s; }
+  .chord kbd:nth-of-type(2) { animation-delay: 0.6s; }
+  .chord kbd:nth-of-type(3) { animation-delay: 0.75s; }
+}
+@keyframes press {
+  0%, 100% { transform: none; border-bottom-width: 6px; }
+  35% { transform: translateY(4px); border-bottom-width: 2px; }
+}
+
+.actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.button { display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; border-radius: 10px; font-weight: 600; text-decoration: none; }
+.button.primary { background: var(--accent); color: var(--on-accent); }
+.button.primary:hover { filter: brightness(1.08); }
+.button.secondary { color: var(--ink); border: 1.5px solid var(--key-edge); }
+.button.secondary:hover { border-color: var(--ink); }
+.fine { margin: 18px 0 0; font-size: 0.92rem; color: var(--muted); }
+
+#demo { margin: 0; }
+#demo video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 12px; background: #9fb8de; box-shadow: 0 1px 0 var(--key-edge), 0 24px 60px -28px rgba(28, 31, 58, 0.45); }
+#demo figcaption { margin-top: 12px; font-size: 0.9rem; color: var(--muted); }
+
+section.band { padding-block: clamp(48px, 8vw, 96px); border-top: 1px solid var(--rule); }
+h2 { font: 800 clamp(1.8rem, 3.4vw, 2.5rem)/1.1 var(--display); letter-spacing: -0.015em; margin: 0 0 12px; text-wrap: balance; }
+.intro { color: var(--muted); max-width: 60ch; margin: 0 0 36px; }
+
+#shortcuts dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; margin: 0; }
+#shortcuts .row { display: grid; grid-template-columns: 11.5rem minmax(0, 1fr); gap: 16px; align-items: baseline; padding-block: 16px; border-bottom: 1px solid var(--rule); }
+#shortcuts dt { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+#shortcuts dt span { color: var(--muted); font-size: 0.9rem; }
+#shortcuts dd { margin: 0; }
+#shortcuts dd b { font-weight: 600; }
+
+#features .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 48px; }
+#features h3 { font: 600 1.15rem/1.3 var(--display); margin: 0 0 6px; }
+#features .grid p { margin: 0; color: var(--muted); max-width: 40ch; }
+#features code, #install code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 0.9em; background: var(--sheet); border: 1px solid var(--rule); padding: 0.05em 0.35em; border-radius: 5px; color: var(--ink); }
+
+#screenshot picture img { display: block; width: 100%; max-width: 900px; height: auto; border-radius: 12px; }
+
+#install ol { margin: 0; padding-left: 1.3em; display: grid; gap: 10px; max-width: 62ch; }
+#install li::marker { font-weight: 600; color: var(--accent); }
+
+#credits p { max-width: 62ch; margin: 0; }
+footer.site { padding-block: 32px 48px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.92rem; display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; }
+footer.site a { color: var(--muted); }
+
+@media (max-width: 900px) {
+  #hero { grid-template-columns: 1fr; }
+  .lede { max-width: 46ch; }
+  #shortcuts dl { grid-template-columns: 1fr; }
+  #features .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  header nav a.docs { display: none; }
+  #features .grid { grid-template-columns: 1fr; }
+  #shortcuts .row { grid-template-columns: 1fr; gap: 6px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="./"><img src="assets/logo.png" alt="" width="34" height="34">Kleio</a>
+    <nav aria-label="Site">
+      <a class="docs" href="https://github.com/Marshall2HD/kleio/blob/main/docs/usage.md">Usage guide</a>
+      <a href="https://github.com/Marshall2HD/kleio">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-copy">
+        <h1>Everything you copy, one shortcut away.</h1>
+        <p class="lede">Kleio keeps your clipboard history on Windows&nbsp;11. Press the shortcut, type a few letters, paste. It is a faithful port of Maccy, the Mac clipboard manager.</p>
+        <p class="chord" aria-label="Shortcut: Windows key plus Shift plus C"><kbd>Win</kbd><span class="plus" aria-hidden="true">+</span><kbd>Shift</kbd><span class="plus" aria-hidden="true">+</span><kbd>C</kbd></p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Marshall2HD/kleio/releases/latest">Download for Windows</a>
+          <a class="button secondary" href="https://github.com/Marshall2HD/kleio">Source on GitHub</a>
+        </div>
+        <p class="fine">Free and MIT licensed. Windows 10 2004 or later; built for Windows 11. x64 and ARM64.</p>
+      </div>
+      <figure id="demo">
+        <video src="assets/kleio.mp4" poster="assets/poster.jpg" width="1280" height="720" autoplay muted loop playsinline controls preload="metadata" aria-label="Kleio opening over Notepad, filtering history by typing github, pasting the link, then previewing a SQL snippet"></video>
+        <figcaption>Recorded in a Windows 11 VM: search, paste with Alt+Enter, preview with Ctrl+Space.</figcaption>
+      </figure>
+    </section>
+
+    <section class="band" id="shortcuts">
+      <h2>Your hands stay on the keyboard</h2>
+      <p class="intro">Every action has a key. These are the defaults; the open, pin, delete and preview shortcuts can be changed in Settings.</p>
+      <dl>
+        <div class="row"><dt><kbd>Win</kbd><kbd>Shift</kbd><kbd>C</kbd></dt><dd><b>Open Kleio</b> wherever you are. Optionally take over <kbd>Win</kbd><kbd>V</kbd>.</dd></div>
+        <div class="row"><dt><span>Just type</span></dt><dd><b>Search</b> exact, fuzzy, by regular expression, or mixed.</dd></div>
+        <div class="row"><dt><kbd>Enter</kbd></dt><dd><b>Copy</b> the selected item back to the clipboard.</dd></div>
+        <div class="row"><dt><kbd>Alt</kbd><kbd>Enter</kbd></dt><dd><b>Paste</b> it straight into the app you came from.</dd></div>
+        <div class="row"><dt><kbd>Ctrl</kbd><kbd>Space</kbd></dt><dd><b>Preview</b> the full text, source app and copy times.</dd></div>
+        <div class="row"><dt><kbd>Alt</kbd><kbd>P</kbd></dt><dd><b>Pin</b> an item to the top with its own letter.</dd></div>
+        <div class="row"><dt><kbd>Shift</kbd><kbd>↑</kbd><kbd>↓</kbd></dt><dd><b>Paste stack:</b> select several, then each <kbd>Ctrl</kbd><kbd>V</kbd> pastes the next.</dd></div>
+        <div class="row"><dt><kbd>Ctrl</kbd><kbd>1</kbd>…<kbd>9</kbd></dt><dd><b>Copy by number,</b> or hold <kbd>Alt</kbd> instead to paste.</dd></div>
+      </dl>
+    </section>
+
+    <section class="band" id="features">
+      <h2>Small, native, private</h2>
+      <p class="intro">Kleio keeps Maccy's layout and behaviour and adopts Windows conventions where they differ.</p>
+      <div class="grid">
+        <div><h3>Native Windows 11</h3><p>WinUI 3 and C++/WinRT. Acrylic popup, Mica settings, light and dark theme, Segoe Fluent icons.</p></div>
+        <div><h3>Stays on your PC</h3><p>History lives in a local SQLite file. Copies that password managers mark as private are never recorded.</p></div>
+        <div><h3>Light on resources</h3><p>Event-driven clipboard monitoring, no polling. It sits in the notification area until you need it.</p></div>
+        <div><h3>Scriptable</h3><p><code>kleio --get 3</code>, <code>--select</code>, <code>--delete</code> and <code>--clear</code> work from PowerShell and scripts.</p></div>
+        <div><h3>Ignore rules</h3><p>Skip copies by app, by clipboard format, or by pattern, such as six-digit one-time codes.</p></div>
+        <div><h3>43 languages</h3><p>The same translations Maccy ships, plus auto-updates from GitHub Releases.</p></div>
+      </div>
+    </section>
+
+    <section class="band" id="screenshot">
+      <h2>Looks like it belongs</h2>
+      <p class="intro">The popup with the preview pane open, in your current theme.</p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/kleio-dark.png">
+        <img src="assets/kleio-light.png" alt="Kleio popup listing clipboard history next to a preview of the selected item" width="1207" height="644">
+      </picture>
+    </section>
+
+    <section class="band" id="install">
+      <h2>Install</h2>
+      <ol>
+        <li>Download the <code>.msix</code> for your PC, x64 or ARM64, from <a href="https://github.com/Marshall2HD/kleio/releases/latest">GitHub Releases</a>.</li>
+        <li>Open it and choose Install.</li>
+        <li>Press <kbd>Win</kbd><kbd>Shift</kbd><kbd>C</kbd> and copy something.</li>
+      </ol>
+    </section>
+
+    <section class="band" id="credits">
+      <h2>Thanks, Maccy</h2>
+      <p>Kleio is a port of <a href="https://github.com/p0deje/Maccy">Maccy</a> by <a href="https://github.com/p0deje">Alex Rodionov</a>, also MIT licensed. The only deliberate changes are Windows ones: Fluent design, a notification-area icon instead of a menu bar item, and Windows key bindings.</p>
+    </section>
+  </main>
+
+  <footer class="site">
+    <span>Kleio is free software under the MIT license.</span>
+    <span><a href="https://github.com/Marshall2HD/kleio">Source</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/issues">Report an issue</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/blob/main/docs/faq.md">FAQ</a></span>
+  </footer>
+</div>
+</body>
+</html>
