@@ -1,13 +1,13 @@
 # Third-party notices
 
-Kleio is licensed under the MIT License (see `LICENSE`). It incorporates or is derived from the
+Locket is licensed under the MIT License (see `LICENSE`). It incorporates or is derived from the
 following third-party works.
 
 ## Maccy
 
 <https://github.com/p0deje/Maccy>
 
-Kleio is a port of Maccy, the macOS clipboard manager. Its design, behaviour and much of its logic
+Locket is a port of Maccy, the macOS clipboard manager. Its design, behaviour and much of its logic
 (clipboard monitoring and filtering, history model, search, sorting, paste stack, settings) are
 ported from Maccy's Swift sources. The sounds in `src/Kleio/Assets/Sounds/` (`Knock.wav`,
 `Write.wav`) are Maccy's `Knock.caf` and `Write.caf` converted to WAV.
@@ -40,7 +40,7 @@ THE SOFTWARE.
 
 <https://github.com/krisk/fuse-swift>
 
-Kleio's fuzzy search (`src/Kleio/Core/Search.*`) is a C++ port of the Bitap-based fuzzy matching
+Locket's fuzzy search (`src/Kleio/Core/Search.*`) is a C++ port of the Bitap-based fuzzy matching
 of Fuse-swift 1.4.0, which Maccy uses.
 
 ```
@@ -69,11 +69,11 @@ THE SOFTWARE.
 
 <https://www.sqlite.org/>
 
-Kleio stores its history with SQLite through `winsqlite3`, the copy of SQLite that ships with
+Locket stores its history with SQLite through `winsqlite3`, the copy of SQLite that ships with
 Windows. SQLite is in the public domain; no license is required.
 
 ## Other components
 
-Kleio is built on the Windows App SDK / WinUI 3, C++/WinRT and the Windows Implementation
+Locket is built on the Windows App SDK / WinUI 3, C++/WinRT and the Windows Implementation
 Libraries (WIL), all published by Microsoft under the MIT License. They are consumed as NuGet
 packages and are not redistributed in source form in this repository.

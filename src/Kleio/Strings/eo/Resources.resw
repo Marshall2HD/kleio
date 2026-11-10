@@ -61,22 +61,22 @@
     <value>Agordoj…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Pri Kleio</value>
+    <value>Pri Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Forlasi</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Malfermi Kleion</value>
+    <value>Malfermi Locket-on</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Paŭzigi Kleion</value>
+    <value>Paŭzigi Locket-on</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignori la sekvan kopion</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Forlasi Kleion</value>
+    <value>Forlasi Locket-on</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Haltigi la algluan stakon</value>
@@ -191,7 +191,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Forigi ĉiujn erojn.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Malfermi la agordojn de Kleio.</value>
+    <value>Malfermi la agordojn de Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Ekscii pli pri la aplikaĵo.</value>
@@ -296,19 +296,19 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Nombro de kopioj: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (paŭzita)</value>
+    <value>Locket (paŭzita)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignoras la sekvan kopion)</value>
+    <value>Locket (ignoras la sekvan kopion)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (konservas neniun tipon)</value>
+    <value>Locket (konservas neniun tipon)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Nova versio de Kleio disponeblas!</value>
+    <value>Nova versio de Locket disponeblas!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} nun disponeblas. Vi havas {1}.</value>
+    <value>Locket {0} nun disponeblas. Vi havas {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instali la ĝisdatigon</value>
@@ -323,22 +323,22 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Eldonaj notoj</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Ne eblis instali Kleion {0}</value>
+    <value>Ne eblis instali Locket-on {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Malfermi en App Installer</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Instalante Kleion {0}</value>
+    <value>Instalante Locket-on {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio rekomenciĝos post la instalo de la ĝisdatigo.</value>
+    <value>Locket rekomenciĝos post la instalo de la ĝisdatigo.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Instalante la ĝisdatigon</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Elŝutante Kleion {0}. Kleio rekomenciĝos post la instalo de la ĝisdatigo.</value>
+    <value>Elŝutante Locket-on {0}. Locket rekomenciĝos post la instalo de la ĝisdatigo.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Ne eblis instali la ĝisdatigon</value>
@@ -347,16 +347,16 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Ĝisdatigo disponeblas</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio estas ĝisdata</value>
+    <value>Locket estas ĝisdata</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} estas la plej nova versio.</value>
+    <value>Locket {0} estas la plej nova versio.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Ne eblis kontroli ĝisdatigojn</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Neniu publikigita eldono de Kleio troviĝis.</value>
+    <value>Neniu publikigita eldono de Locket troviĝis.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Eldonoj</value>
@@ -377,10 +377,10 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Ne eblis instali la ĝisdatigon.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} estas instalita. Forlasu kaj remalfermu Kleion por uzi ĝin.</value>
+    <value>Locket {0} estas instalita. Forlasu kaj remalfermu Locket-on por uzi ĝin.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio ankoraŭ ne pretas.</value>
+    <value>Locket ankoraŭ ne pretas.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Ero de la tondujo ne troviĝis</value>
@@ -395,37 +395,37 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Nekonata komando</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio ne respondis post la lanĉo.</value>
+    <value>Locket ne respondis post la lanĉo.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio ne respondas.</value>
+    <value>Locket ne respondas.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Ne eblis lanĉi Kleion.</value>
+    <value>Ne eblis lanĉi Locket-on.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio ne komprenis la peton. Ĉu la rulanta Kleio estas la sama versio?</value>
+    <value>Locket ne komprenis la peton. Ĉu la rulanta Locket estas la sama versio?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>La ero estas tro granda.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio ne povis plenumi la komandon.</value>
+    <value>Locket ne povis plenumi la komandon.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio fermiĝas.</value>
+    <value>Locket fermiĝas.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Rulu "kleio --help" por la uzado.</value>
+    <value>{0} Rulu "locket --help" por la uzado.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Ne eblis sendi la komandon al Kleio.</value>
+    <value>Ne eblis sendi la komandon al Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio ne respondis.</value>
+    <value>Locket ne respondis.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio sendis nevalidan respondon.</value>
+    <value>Locket sendis nevalidan respondon.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Malsukcesis.</value>
@@ -467,10 +467,10 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Nekonata opcio: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Agordoj de Kleio</value>
+    <value>Agordoj de Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Agordoj de Kleio</value>
+    <value>Agordoj de Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Ĝenerale</value>
@@ -563,7 +563,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Lanĉi dum ensaluto</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Aŭtomate lanĉi Kleion kiam vi ensalutas en Windows.</value>
+    <value>Aŭtomate lanĉi Locket-on kiam vi ensalutas en Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Lanĉi dum ensaluto</value>
@@ -572,13 +572,13 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Windows malŝaltis la lanĉon dum ensaluto</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio estis malŝaltita en Task Manager &gt; Startup apps (aŭ Settings &gt; Apps &gt; Startup). Ŝaltu ĝin tie por lanĉi Kleion dum ensaluto.</value>
+    <value>Locket estis malŝaltita en Task Manager &gt; Startup apps (aŭ Settings &gt; Apps &gt; Startup). Ŝaltu ĝin tie por lanĉi Locket-on dum ensaluto.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Serĉi ĝisdatigojn aŭtomate</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Unufoje tage serĉi pli novan eldonon de Kleio en GitHub kaj proponi instali ĝin.</value>
+    <value>Unufoje tage serĉi pli novan eldonon de Locket en GitHub kaj proponi instali ĝin.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Kontroli nun</value>
@@ -593,7 +593,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Lingvo</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>La lingvo de la menuoj, agordoj kaj mesaĝoj de Kleio.</value>
+    <value>La lingvo de la menuoj, agordoj kaj mesaĝoj de Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Lingvo</value>
@@ -602,7 +602,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Laŭ Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Rekomencu Kleion por uzi la novan lingvon.</value>
+    <value>Rekomencu Locket-on por uzi la novan lingvon.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Rekomenci nun</value>
@@ -611,13 +611,13 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Fulmoklavoj</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Malfermi Kleion</value>
+    <value>Malfermi Locket-on</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Ĝenerala fulmoklavo por malfermi la aplikaĵon. Ripetita premo de la ĉefa klavo dum tenado de modifaj klavoj elektos la sekvan eron en la listo. En ĉi tiu reĝimo, liberigo de la modifaj klavoj konfirmos la elekton kaj fermos la ŝprucfenestron. Defaŭlta: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Fulmoklavo por malfermi Kleion</value>
+    <value>Fulmoklavo por malfermi Locket-on</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Ne eblis registri la fulmoklavon</value>
@@ -707,13 +707,13 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Tondujo de Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows havas propran historion de la tondujo, malfermatan per Win+V. Kleio povas transpreni tiun fulmoklavon dum ĝi funkcias, sen ŝanĝi iujn ajn agordojn de Windows.</value>
+    <value>Windows havas propran historion de la tondujo, malfermatan per Win+V. Locket povas transpreni tiun fulmoklavon dum ĝi funkcias, sen ŝanĝi iujn ajn agordojn de Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Anstataŭigi Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Dum Kleio funkcias, Win+V malfermas Kleion anstataŭ la historion de la tondujo de Windows. La agordoj de Windows ne ŝanĝiĝas.</value>
+    <value>Dum Locket funkcias, Win+V malfermas Locket-on anstataŭ la historion de la tondujo de Windows. La agordoj de Windows ne ŝanĝiĝas.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Anstataŭigi Win+V</value>
@@ -722,7 +722,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Bloki Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C faras nenion dum Kleio funkcias. Vindozo uzas ĝin por Copilot kaj ne permesas malŝalti ĝin. Agordoj de Vindozo ne ŝanĝiĝas.</value>
+    <value>Win+C faras nenion dum Locket funkcias. Vindozo uzas ĝin por Copilot kaj ne permesas malŝalti ĝin. Agordoj de Vindozo ne ŝanĝiĝas.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bloki Win+C</value>
@@ -746,7 +746,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Montri sciigojn</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Montri sciigon kun la ero, kiam Kleio kopias eron aŭ konservas novan kopion.</value>
+    <value>Montri sciigon kun la ero, kiam Locket kopias eron aŭ konservas novan kopion.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Montri sciigojn</value>
@@ -755,13 +755,13 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Sciigoj estas malŝaltitaj en Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Ŝaltu sciigojn por Kleio en la sciigaj agordoj de Windows por vidi ilin.</value>
+    <value>Ŝaltu sciigojn por Locket en la sciigaj agordoj de Windows por vidi ilin.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Ludi sonojn</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Ludi sonon, kiam Kleio kopias eron aŭ konservas novan kopion.</value>
+    <value>Ludi sonon, kiam Locket kopias eron aŭ konservas novan kopion.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ludi sonojn</value>
@@ -770,7 +770,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Sciigaj agordoj de Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Elektu, kiel aperas la sciigoj de Kleio, aŭ malŝaltu ilin, en Settings &gt; System &gt; Notifications.</value>
+    <value>Elektu, kiel aperas la sciigoj de Locket, aŭ malŝaltu ilin, en Settings &gt; System &gt; Notifications.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Malfermi la sciigajn agordojn de Windows</value>
@@ -974,7 +974,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Montri piktogramon en la sciiga areo</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Montri la piktogramon de Kleio en la sciiga areo de la taskopleto.</value>
+    <value>Montri la piktogramon de Locket en la sciiga areo de la taskopleto.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Montri piktogramon en la sciiga areo</value>
@@ -983,7 +983,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Stilo de la piktogramo en la sciiga areo</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Emblemo de Kleio</value>
+    <value>Emblemo de Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tondujo</value>
@@ -1037,7 +1037,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Montri la titolon antaŭ la serĉujo</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Montri “Kleio” maldekstre de la serĉujo.</value>
+    <value>Montri “Locket” maldekstre de la serĉujo.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Montri la titolon antaŭ la serĉujo</value>
@@ -1085,7 +1085,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Regulaj esprimoj</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Eblas ignori kopiojn el certaj aplikaĵoj. Rimarku, ke tio ne estas tute fidinda: Windows ne diras, kiu aplikaĵo kopiis ion, do Kleio kontrolas la aplikaĵon, kiu posedas la tondujon aŭ estas malfone. Prefere uzu formatojn de la tondujo, kiam eblas.</value>
+    <value>Eblas ignori kopiojn el certaj aplikaĵoj. Rimarku, ke tio ne estas tute fidinda: Windows ne diras, kiu aplikaĵo kopiis ion, do Locket kontrolas la aplikaĵon, kiu posedas la tondujon aŭ estas malfone. Prefere uzu formatojn de la tondujo, kiam eblas.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignori ĉiujn aplikaĵojn krom la listigitajn</value>
@@ -1181,7 +1181,7 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Neniu regulesprimo estas difinita.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio ĉiam ignoras kopiojn markitajn per “{0}” aŭ “{1}”: la konvencioj de Windows, per kiuj pasvortadministriloj kaj aliaj aplikaĵoj tenas sentemajn datumojn for de tondujaj administriloj.</value>
+    <value>Locket ĉiam ignoras kopiojn markitajn per “{0}” aŭ “{1}”: la konvencioj de Windows, per kiuj pasvortadministriloj kaj aliaj aplikaĵoj tenas sentemajn datumojn for de tondujaj administriloj.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Forigi</value>
@@ -1202,37 +1202,37 @@ Elekti per Shift por forigi ĉion.</value>
     <value>Paŭzo</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Paŭzigi Kleion</value>
+    <value>Paŭzigi Locket-on</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Provizore ignori ĉiujn novajn kopiojn. Utila por ke Kleio nenion registru, dum vi kopias sentemajn datumojn.</value>
+    <value>Provizore ignori ĉiujn novajn kopiojn. Utila por ke Locket nenion registru, dum vi kopias sentemajn datumojn.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Paŭzigi Kleion</value>
+    <value>Paŭzigi Locket-on</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Vi verŝajne uzos tion el skriptoj. Paŭzigu Kleion el la komandlinio dum vi kopias sentemajn datumojn:</value>
+    <value>Vi verŝajne uzos tion el skriptoj. Paŭzigu Locket-on el la komandlinio dum vi kopias sentemajn datumojn:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopii datumojn …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopii datumojn, poste kleio.exe --resume</value>
+    <value>locket.exe --pause, kopii datumojn, poste locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Por ignori nur la sekvan kopion:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopii datumojn …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, poste kopii datumojn</value>
+    <value>locket.exe --ignore-next, poste kopii datumojn</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Vi ankaŭ povas Alt+alklaki la piktogramon en la sciiga areo por paŭzigi aŭ daŭrigi Kleion. Por ignori nur la sekvan kopion, Alt+Shift+alklaku ĝin.</value>
+    <value>Vi ankaŭ povas Alt+alklaki la piktogramon en la sciiga areo por paŭzigi aŭ daŭrigi Locket-on. Por ignori nur la sekvan kopion, Alt+Shift+alklaku ĝin.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Forigado</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Forigi ankaŭ la sisteman tondujon</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Emblemo de Kleio</value>
+    <value>Emblemo de Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versio {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Dankoj</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio estas transporto de Maccy de Alex Rodionov</value>
+    <value>Locket estas transporto de Maccy de Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy estas malpeza administrilo de tondujo por macOS. Kleio portas ĝiajn funkciojn kaj aranĝon al Windows 11.</value>
+    <value>Maccy estas malpeza administrilo de tondujo por macOS. Locket portas ĝiajn funkciojn kaj aranĝon al Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Retejo de Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Raportu problemojn, proponu funkciojn kaj kontribuu en GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio en GitHub</value>
+    <value>Locket en GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio en GitHub</value>
+    <value>Locket en GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Subteno</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Permesilo</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio kaj Maccy estas libera programaro eldonita laŭ la permesilo MIT.</value>
+    <value>Locket kaj Maccy estas libera programaro eldonita laŭ la permesilo MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Permesilo MIT</value>

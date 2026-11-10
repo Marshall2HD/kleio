@@ -61,22 +61,22 @@
     <value>Instellingen…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Over Kleio</value>
+    <value>Over Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Sluit</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio openen</value>
+    <value>Locket openen</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio pauzeren</value>
+    <value>Locket pauzeren</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Volgende kopie negeren</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Kleio afsluiten</value>
+    <value>Locket afsluiten</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Plakstapel stoppen</value>
@@ -191,7 +191,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Wis alle items.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Open de instellingen van Kleio.</value>
+    <value>Open de instellingen van Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Lees meer over de app.</value>
@@ -296,19 +296,19 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Aantal kopieën: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (gepauzeerd)</value>
+    <value>Locket (gepauzeerd)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (negeert de volgende kopie)</value>
+    <value>Locket (negeert de volgende kopie)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (slaat geen enkel type op)</value>
+    <value>Locket (slaat geen enkel type op)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Er is een nieuwe versie van Kleio beschikbaar!</value>
+    <value>Er is een nieuwe versie van Locket beschikbaar!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} is nu beschikbaar. Je hebt {1}.</value>
+    <value>Locket {0} is nu beschikbaar. Je hebt {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Update installeren</value>
@@ -323,22 +323,22 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Release-opmerkingen</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kan Kleio {0} niet installeren</value>
+    <value>Kan Locket {0} niet installeren</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Openen in App Installer</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} installeren</value>
+    <value>Locket {0} installeren</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio start opnieuw wanneer de update is geïnstalleerd.</value>
+    <value>Locket start opnieuw wanneer de update is geïnstalleerd.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Update installeren</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} downloaden. Kleio start opnieuw wanneer de update is geïnstalleerd.</value>
+    <value>Locket {0} downloaden. Locket start opnieuw wanneer de update is geïnstalleerd.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Kan de update niet installeren</value>
@@ -347,16 +347,16 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Update beschikbaar</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio is up-to-date</value>
+    <value>Locket is up-to-date</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} is de nieuwste versie.</value>
+    <value>Locket {0} is de nieuwste versie.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Kan niet controleren op updates</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Er is geen gepubliceerde versie van Kleio gevonden.</value>
+    <value>Er is geen gepubliceerde versie van Locket gevonden.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Releases</value>
@@ -377,10 +377,10 @@ Selecteer met Shift om alles te wissen.</value>
     <value>De update kon niet worden geïnstalleerd.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} is geïnstalleerd. Sluit Kleio af en open het opnieuw om de nieuwe versie te gebruiken.</value>
+    <value>Locket {0} is geïnstalleerd. Sluit Locket af en open het opnieuw om de nieuwe versie te gebruiken.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio is nog niet klaar.</value>
+    <value>Locket is nog niet klaar.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Klembord-item niet gevonden</value>
@@ -395,37 +395,37 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Onbekende opdracht</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio reageerde niet na het starten.</value>
+    <value>Locket reageerde niet na het starten.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio reageert niet.</value>
+    <value>Locket reageert niet.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kan Kleio niet starten.</value>
+    <value>Kan Locket niet starten.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio begreep het verzoek niet. Is de actieve Kleio dezelfde versie?</value>
+    <value>Locket begreep het verzoek niet. Is de actieve Locket dezelfde versie?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Het item is te groot.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio kon de opdracht niet uitvoeren.</value>
+    <value>Locket kon de opdracht niet uitvoeren.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio wordt afgesloten.</value>
+    <value>Locket wordt afgesloten.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Voer "kleio --help" uit voor het gebruik.</value>
+    <value>{0} Voer "locket --help" uit voor het gebruik.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Kan de opdracht niet naar Kleio sturen.</value>
+    <value>Kan de opdracht niet naar Locket sturen.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio gaf geen antwoord.</value>
+    <value>Locket gaf geen antwoord.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio stuurde een ongeldig antwoord.</value>
+    <value>Locket stuurde een ongeldig antwoord.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Mislukt.</value>
@@ -467,10 +467,10 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Onbekende optie: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio-instellingen</value>
+    <value>Locket-instellingen</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio-instellingen</value>
+    <value>Locket-instellingen</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Algemeen</value>
@@ -563,7 +563,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Start bij inloggen</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Kleio automatisch starten wanneer je je aanmeldt bij Windows.</value>
+    <value>Locket automatisch starten wanneer je je aanmeldt bij Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Start bij inloggen</value>
@@ -572,13 +572,13 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Start bij inloggen is uitgeschakeld door Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio is uitgeschakeld in Taakbeheer &gt; Opstart-apps (of Instellingen &gt; Apps &gt; Opstarten). Schakel het daar in om Kleio bij het inloggen te starten.</value>
+    <value>Locket is uitgeschakeld in Taakbeheer &gt; Opstart-apps (of Instellingen &gt; Apps &gt; Opstarten). Schakel het daar in om Locket bij het inloggen te starten.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Controleer automatisch op updates</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Eén keer per dag op GitHub naar een nieuwere Kleio-release zoeken en aanbieden die te installeren.</value>
+    <value>Eén keer per dag op GitHub naar een nieuwere Locket-release zoeken en aanbieden die te installeren.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Controleer nu</value>
@@ -593,7 +593,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Taal</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>De taal van de menu's, instellingen en meldingen van Kleio.</value>
+    <value>De taal van de menu's, instellingen en meldingen van Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Taal</value>
@@ -602,7 +602,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Windows-standaard</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Start Kleio opnieuw om de nieuwe taal te gebruiken.</value>
+    <value>Start Locket opnieuw om de nieuwe taal te gebruiken.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Nu opnieuw starten</value>
@@ -611,13 +611,13 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Sneltoetsen</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio openen</value>
+    <value>Locket openen</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Algemene sneltoets om de applicatie te openen. Een herhaalde druk op de hoofdtoets terwijl de modificatietoetsen ingedrukt worden gehouden, selecteert het volgende item in de lijst. In deze modus zal het loslaten van de modificatietoetsen de selectie bevestigen en het popupvenster sluiten. Standaard: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Sneltoets om Kleio te openen</value>
+    <value>Sneltoets om Locket te openen</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Kan de sneltoets niet registreren</value>
@@ -707,13 +707,13 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Windows-klembord</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows heeft een eigen klembordgeschiedenis, die je opent met Win+V. Kleio kan die sneltoets overnemen zolang het actief is, zonder Windows-instellingen te wijzigen.</value>
+    <value>Windows heeft een eigen klembordgeschiedenis, die je opent met Win+V. Locket kan die sneltoets overnemen zolang het actief is, zonder Windows-instellingen te wijzigen.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V vervangen</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Win+V opent Kleio in plaats van de klembordgeschiedenis van Windows zolang Kleio actief is. Windows-instellingen worden niet gewijzigd.</value>
+    <value>Win+V opent Locket in plaats van de klembordgeschiedenis van Windows zolang Locket actief is. Windows-instellingen worden niet gewijzigd.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V vervangen</value>
@@ -722,7 +722,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Win+C blokkeren</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C doet niets zolang Kleio actief is. Windows gebruikt deze toets voor Copilot en biedt geen manier om die uit te schakelen. Windows-instellingen worden niet gewijzigd.</value>
+    <value>Win+C doet niets zolang Locket actief is. Windows gebruikt deze toets voor Copilot en biedt geen manier om die uit te schakelen. Windows-instellingen worden niet gewijzigd.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C blokkeren</value>
@@ -746,7 +746,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Meldingen tonen</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Een melding met het item tonen wanneer Kleio een item kopieert of een nieuwe kopie opslaat.</value>
+    <value>Een melding met het item tonen wanneer Locket een item kopieert of een nieuwe kopie opslaat.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Meldingen tonen</value>
@@ -755,13 +755,13 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Meldingen zijn uitgeschakeld in Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Schakel meldingen voor Kleio in via de meldingsinstellingen van Windows om ze te zien.</value>
+    <value>Schakel meldingen voor Locket in via de meldingsinstellingen van Windows om ze te zien.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Geluiden afspelen</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Een geluid afspelen wanneer Kleio een item kopieert of een nieuwe kopie opslaat.</value>
+    <value>Een geluid afspelen wanneer Locket een item kopieert of een nieuwe kopie opslaat.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Geluiden afspelen</value>
@@ -770,7 +770,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Meldingsinstellingen van Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Kies hoe meldingen van Kleio worden weergegeven, of schakel ze uit, via Instellingen &gt; Systeem &gt; Meldingen.</value>
+    <value>Kies hoe meldingen van Locket worden weergegeven, of schakel ze uit, via Instellingen &gt; Systeem &gt; Meldingen.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Meldingsinstellingen van Windows openen</value>
@@ -974,7 +974,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Systeemvakpictogram tonen</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Het Kleio-pictogram in het systeemvak van de taakbalk tonen.</value>
+    <value>Het Locket-pictogram in het systeemvak van de taakbalk tonen.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Systeemvakpictogram tonen</value>
@@ -983,7 +983,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Stijl van het systeemvakpictogram</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio-logo</value>
+    <value>Locket-logo</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Klembord</value>
@@ -1037,7 +1037,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Toon titel voor zoekveld</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>„Kleio” links van het zoekveld tonen.</value>
+    <value>„Locket” links van het zoekveld tonen.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Toon titel voor zoekveld</value>
@@ -1085,7 +1085,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Reguliere expressies</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Kopieën uit bepaalde applicaties kunnen worden genegeerd. Houd er rekening mee dat dit niet waterdicht is: Windows laat niet weten welke app iets heeft gekopieerd, dus Kleio controleert de app die eigenaar is van het klembord of op de voorgrond staat. Gebruik zo mogelijk klembordindelingen.</value>
+    <value>Kopieën uit bepaalde applicaties kunnen worden genegeerd. Houd er rekening mee dat dit niet waterdicht is: Windows laat niet weten welke app iets heeft gekopieerd, dus Locket controleert de app die eigenaar is van het klembord of op de voorgrond staat. Gebruik zo mogelijk klembordindelingen.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Negeer alle apps behalve de vermelde</value>
@@ -1181,7 +1181,7 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Er zijn geen reguliere expressies ingesteld.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio negeert altijd kopieën die gemarkeerd zijn met „{0}” of „{1}”: de Windows-conventies waarmee wachtwoordbeheerders en andere apps gevoelige gegevens buiten klembordbeheerders houden.</value>
+    <value>Locket negeert altijd kopieën die gemarkeerd zijn met „{0}” of „{1}”: de Windows-conventies waarmee wachtwoordbeheerders en andere apps gevoelige gegevens buiten klembordbeheerders houden.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Verwijderen</value>
@@ -1202,37 +1202,37 @@ Selecteer met Shift om alles te wissen.</value>
     <value>Pauzeren</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio pauzeren</value>
+    <value>Locket pauzeren</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Alle nieuwe kopieën tijdelijk negeren. Handig om te voorkomen dat Kleio iets vastlegt terwijl je gevoelige gegevens kopieert.</value>
+    <value>Alle nieuwe kopieën tijdelijk negeren. Handig om te voorkomen dat Locket iets vastlegt terwijl je gevoelige gegevens kopieert.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio pauzeren</value>
+    <value>Locket pauzeren</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Je gebruikt dit waarschijnlijk vanuit scripts. Pauzeer Kleio via de opdrachtregel terwijl je gevoelige gegevens kopieert:</value>
+    <value>Je gebruikt dit waarschijnlijk vanuit scripts. Pauzeer Locket via de opdrachtregel terwijl je gevoelige gegevens kopieert:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … gegevens kopiëren …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, gegevens kopiëren, daarna kleio.exe --resume</value>
+    <value>locket.exe --pause, gegevens kopiëren, daarna locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Om alleen de volgende kopie te negeren:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … gegevens kopiëren …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, daarna gegevens kopiëren</value>
+    <value>locket.exe --ignore-next, daarna gegevens kopiëren</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Je kunt Kleio ook pauzeren of hervatten met Alt+klik op het systeemvakpictogram. Om alleen de volgende kopie te negeren, klik je met Alt+Shift.</value>
+    <value>Je kunt Locket ook pauzeren of hervatten met Alt+klik op het systeemvakpictogram. Om alleen de volgende kopie te negeren, klik je met Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Wissen</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Wis ook het systeemklembord</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio-logo</value>
+    <value>Locket-logo</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versie {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Met dank aan</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio is een port van Maccy door Alex Rodionov</value>
+    <value>Locket is een port van Maccy door Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy is een lichtgewicht klembordbeheerder voor macOS. Kleio brengt de functies en de indeling ervan naar Windows 11.</value>
+    <value>Maccy is een lichtgewicht klembordbeheerder voor macOS. Locket brengt de functies en de indeling ervan naar Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Website van Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Meld problemen, stel functies voor en draag bij op GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio op GitHub</value>
+    <value>Locket op GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio op GitHub</value>
+    <value>Locket op GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Ondersteuning</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licentie</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio en Maccy zijn vrije software, uitgebracht onder de MIT-licentie.</value>
+    <value>Locket en Maccy zijn vrije software, uitgebracht onder de MIT-licentie.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT-licentie</value>

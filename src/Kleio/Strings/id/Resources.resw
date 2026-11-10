@@ -61,22 +61,22 @@
     <value>Pengaturan…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Tentang Kleio</value>
+    <value>Tentang Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Keluar</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Buka Kleio</value>
+    <value>Buka Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Jeda Kleio</value>
+    <value>Jeda Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Abaikan salinan berikutnya</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Keluar dari Kleio</value>
+    <value>Keluar dari Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Hentikan tumpukan tempel</value>
@@ -191,7 +191,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Bersihkan semuanya.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Buka pengaturan Kleio.</value>
+    <value>Buka pengaturan Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Baca selengkapnya mengenai aplikasi.</value>
@@ -296,19 +296,19 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Jumlah salinan: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (dijeda)</value>
+    <value>Locket (dijeda)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (mengabaikan salinan berikutnya)</value>
+    <value>Locket (mengabaikan salinan berikutnya)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (tidak menyimpan jenis apa pun)</value>
+    <value>Locket (tidak menyimpan jenis apa pun)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Versi baru Kleio tersedia!</value>
+    <value>Versi baru Locket tersedia!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} kini tersedia. Anda memiliki {1}.</value>
+    <value>Locket {0} kini tersedia. Anda memiliki {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instal pembaruan</value>
@@ -323,22 +323,22 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Catatan rilis</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Tidak dapat menginstal Kleio {0}</value>
+    <value>Tidak dapat menginstal Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Buka di Penginstal Aplikasi</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Menginstal Kleio {0}</value>
+    <value>Menginstal Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio akan dimulai ulang setelah pembaruan terinstal.</value>
+    <value>Locket akan dimulai ulang setelah pembaruan terinstal.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Menginstal pembaruan</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Mengunduh Kleio {0}. Kleio akan dimulai ulang setelah pembaruan terinstal.</value>
+    <value>Mengunduh Locket {0}. Locket akan dimulai ulang setelah pembaruan terinstal.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Tidak dapat menginstal pembaruan</value>
@@ -347,16 +347,16 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Pembaruan tersedia</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio sudah yang terbaru</value>
+    <value>Locket sudah yang terbaru</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} adalah versi terbaru.</value>
+    <value>Locket {0} adalah versi terbaru.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Tidak dapat memeriksa pembaruan</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Tidak ditemukan rilis Kleio yang dipublikasikan.</value>
+    <value>Tidak ditemukan rilis Locket yang dipublikasikan.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Rilis</value>
@@ -377,10 +377,10 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Pembaruan tidak dapat diinstal.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} telah diinstal. Keluar lalu buka kembali Kleio untuk menggunakannya.</value>
+    <value>Locket {0} telah diinstal. Keluar lalu buka kembali Locket untuk menggunakannya.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio belum siap.</value>
+    <value>Locket belum siap.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Item papan klip tidak ditemukan</value>
@@ -395,37 +395,37 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Perintah tidak dikenal</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio tidak merespons setelah dimulai.</value>
+    <value>Locket tidak merespons setelah dimulai.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio tidak merespons.</value>
+    <value>Locket tidak merespons.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Tidak dapat memulai Kleio.</value>
+    <value>Tidak dapat memulai Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio tidak memahami permintaan. Apakah Kleio yang berjalan versinya sama?</value>
+    <value>Locket tidak memahami permintaan. Apakah Locket yang berjalan versinya sama?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Item terlalu besar.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio tidak dapat menjalankan perintah.</value>
+    <value>Locket tidak dapat menjalankan perintah.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio sedang ditutup.</value>
+    <value>Locket sedang ditutup.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Jalankan "kleio --help" untuk cara penggunaan.</value>
+    <value>{0} Jalankan "locket --help" untuk cara penggunaan.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Tidak dapat mengirim perintah ke Kleio.</value>
+    <value>Tidak dapat mengirim perintah ke Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio tidak menjawab.</value>
+    <value>Locket tidak menjawab.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio mengirim jawaban yang tidak valid.</value>
+    <value>Locket mengirim jawaban yang tidak valid.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Gagal.</value>
@@ -467,10 +467,10 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Opsi tidak dikenal: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Pengaturan Kleio</value>
+    <value>Pengaturan Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Pengaturan Kleio</value>
+    <value>Pengaturan Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Umum</value>
@@ -563,7 +563,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Luncurkan saat masuk</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Mulai Kleio secara otomatis saat Anda masuk ke Windows.</value>
+    <value>Mulai Locket secara otomatis saat Anda masuk ke Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Luncurkan saat masuk</value>
@@ -572,13 +572,13 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Luncurkan saat masuk dinonaktifkan oleh Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio dinonaktifkan di Pengelola Tugas &gt; Aplikasi startup (atau Pengaturan &gt; Aplikasi &gt; Startup). Aktifkan di sana agar Kleio diluncurkan saat masuk.</value>
+    <value>Locket dinonaktifkan di Pengelola Tugas &gt; Aplikasi startup (atau Pengaturan &gt; Aplikasi &gt; Startup). Aktifkan di sana agar Locket diluncurkan saat masuk.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Periksa pembaruan otomatis</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Cari rilis Kleio yang lebih baru di GitHub sekali sehari dan tawarkan untuk menginstalnya.</value>
+    <value>Cari rilis Locket yang lebih baru di GitHub sekali sehari dan tawarkan untuk menginstalnya.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Periksa sekarang</value>
@@ -593,7 +593,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Bahasa</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Bahasa menu, pengaturan, dan pesan Kleio.</value>
+    <value>Bahasa menu, pengaturan, dan pesan Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bahasa</value>
@@ -602,7 +602,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Bawaan Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Mulai ulang Kleio untuk menggunakan bahasa baru.</value>
+    <value>Mulai ulang Locket untuk menggunakan bahasa baru.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Mulai ulang sekarang</value>
@@ -611,13 +611,13 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Pintasan</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Buka Kleio</value>
+    <value>Buka Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Tombol pintasan global untuk membuka aplikasi. Tekan berulang kali tombol utama sambil menahan tombol modifikasi akan memilih item berikutnya dalam daftar. Dalam mode ini, melepaskan tombol modifikasi akan mengonfirmasi pemilihan dan menutup popup. Default: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pintasan untuk membuka Kleio</value>
+    <value>Pintasan untuk membuka Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Tidak dapat mendaftarkan pintasan</value>
@@ -707,13 +707,13 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Papan klip Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows memiliki riwayat papan klip sendiri yang dibuka dengan Win+V. Kleio dapat mengambil alih pintasan itu selama berjalan, tanpa mengubah pengaturan Windows apa pun.</value>
+    <value>Windows memiliki riwayat papan klip sendiri yang dibuka dengan Win+V. Locket dapat mengambil alih pintasan itu selama berjalan, tanpa mengubah pengaturan Windows apa pun.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Ganti Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Selama Kleio berjalan, Win+V membuka Kleio, bukan riwayat papan klip Windows. Pengaturan Windows tidak diubah.</value>
+    <value>Selama Locket berjalan, Win+V membuka Locket, bukan riwayat papan klip Windows. Pengaturan Windows tidak diubah.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ganti Win+V</value>
@@ -722,7 +722,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Blokir Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C tidak melakukan apa pun selama Kleio berjalan. Windows menggunakannya untuk Copilot dan tidak menyediakan cara untuk mematikannya. Pengaturan Windows tidak diubah.</value>
+    <value>Win+C tidak melakukan apa pun selama Locket berjalan. Windows menggunakannya untuk Copilot dan tidak menyediakan cara untuk mematikannya. Pengaturan Windows tidak diubah.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blokir Win+C</value>
@@ -746,7 +746,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Tampilkan pemberitahuan</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Tampilkan pemberitahuan berisi item saat Kleio menyalin item atau menyimpan salinan baru.</value>
+    <value>Tampilkan pemberitahuan berisi item saat Locket menyalin item atau menyimpan salinan baru.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tampilkan pemberitahuan</value>
@@ -755,13 +755,13 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Pemberitahuan dinonaktifkan di Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Aktifkan pemberitahuan untuk Kleio di pengaturan pemberitahuan Windows agar dapat melihatnya.</value>
+    <value>Aktifkan pemberitahuan untuk Locket di pengaturan pemberitahuan Windows agar dapat melihatnya.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Putar suara</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Putar suara saat Kleio menyalin item atau menyimpan salinan baru.</value>
+    <value>Putar suara saat Locket menyalin item atau menyimpan salinan baru.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Putar suara</value>
@@ -770,7 +770,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Pengaturan pemberitahuan Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Pilih cara pemberitahuan Kleio ditampilkan, atau nonaktifkan, di Pengaturan &gt; Sistem &gt; Pemberitahuan.</value>
+    <value>Pilih cara pemberitahuan Locket ditampilkan, atau nonaktifkan, di Pengaturan &gt; Sistem &gt; Pemberitahuan.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Buka pengaturan pemberitahuan Windows</value>
@@ -974,7 +974,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Tampilkan ikon di area pemberitahuan</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Tampilkan ikon Kleio di area pemberitahuan pada bilah tugas.</value>
+    <value>Tampilkan ikon Locket di area pemberitahuan pada bilah tugas.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tampilkan ikon di area pemberitahuan</value>
@@ -983,7 +983,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Gaya ikon area pemberitahuan</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logo Kleio</value>
+    <value>Logo Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Papan klip</value>
@@ -1037,7 +1037,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Tampilkan judul sebelum kolom pencarian</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Tampilkan “Kleio” di sebelah kiri kolom pencarian.</value>
+    <value>Tampilkan “Locket” di sebelah kiri kolom pencarian.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tampilkan judul sebelum kolom pencarian</value>
@@ -1085,7 +1085,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Ekspresi reguler</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Salinan dari aplikasi tertentu dapat diabaikan. Perlu diingat bahwa ini tidak sepenuhnya andal: Windows tidak memberi tahu aplikasi mana yang menyalin sesuatu, jadi Kleio memeriksa aplikasi pemilik papan klip atau yang ada di latar depan. Sebisa mungkin gunakan format papan klip.</value>
+    <value>Salinan dari aplikasi tertentu dapat diabaikan. Perlu diingat bahwa ini tidak sepenuhnya andal: Windows tidak memberi tahu aplikasi mana yang menyalin sesuatu, jadi Locket memeriksa aplikasi pemilik papan klip atau yang ada di latar depan. Sebisa mungkin gunakan format papan klip.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Mengabaikan semua aplikasi kecuali yang terdaftar</value>
@@ -1181,7 +1181,7 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Tidak ada ekspresi reguler yang ditentukan.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio selalu mengabaikan salinan yang ditandai dengan “{0}” atau “{1}”: konvensi Windows yang digunakan pengelola kata sandi dan aplikasi lain untuk menjauhkan data sensitif dari pengelola papan klip.</value>
+    <value>Locket selalu mengabaikan salinan yang ditandai dengan “{0}” atau “{1}”: konvensi Windows yang digunakan pengelola kata sandi dan aplikasi lain untuk menjauhkan data sensitif dari pengelola papan klip.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Hapus</value>
@@ -1202,37 +1202,37 @@ Klik item dengan Shift untuk bersihkan.</value>
     <value>Jeda</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Jeda Kleio</value>
+    <value>Jeda Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Abaikan semua salinan baru untuk sementara. Berguna agar Kleio tidak merekam saat Anda menyalin data sensitif.</value>
+    <value>Abaikan semua salinan baru untuk sementara. Berguna agar Locket tidak merekam saat Anda menyalin data sensitif.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Jeda Kleio</value>
+    <value>Jeda Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Anda kemungkinan akan menggunakannya dari skrip. Jeda Kleio dari baris perintah saat menyalin data sensitif:</value>
+    <value>Anda kemungkinan akan menggunakannya dari skrip. Jeda Locket dari baris perintah saat menyalin data sensitif:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … salin data …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, salin data, lalu kleio.exe --resume</value>
+    <value>locket.exe --pause, salin data, lalu locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Untuk mengabaikan salinan berikutnya saja:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … salin data …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, lalu salin data</value>
+    <value>locket.exe --ignore-next, lalu salin data</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Anda juga dapat Alt+klik ikon area pemberitahuan untuk menjeda atau melanjutkan Kleio. Untuk mengabaikan salinan berikutnya saja, Alt+Shift+klik ikon tersebut.</value>
+    <value>Anda juga dapat Alt+klik ikon area pemberitahuan untuk menjeda atau melanjutkan Locket. Untuk mengabaikan salinan berikutnya saja, Alt+Shift+klik ikon tersebut.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Pembersihan</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Juga hapus papan klip sistem</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logo Kleio</value>
+    <value>Logo Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versi {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Kredit</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio adalah porting Maccy karya Alex Rodionov</value>
+    <value>Locket adalah porting Maccy karya Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy adalah pengelola papan klip ringan untuk macOS. Kleio membawa fitur dan tata letaknya ke Windows 11.</value>
+    <value>Maccy adalah pengelola papan klip ringan untuk macOS. Locket membawa fitur dan tata letaknya ke Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Situs web Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Laporkan masalah, sarankan fitur, dan berkontribusi di GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio di GitHub</value>
+    <value>Locket di GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio di GitHub</value>
+    <value>Locket di GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Dukungan</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Lisensi</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio dan Maccy adalah perangkat lunak bebas yang dirilis dengan Lisensi MIT.</value>
+    <value>Locket dan Maccy adalah perangkat lunak bebas yang dirilis dengan Lisensi MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Lisensi MIT</value>

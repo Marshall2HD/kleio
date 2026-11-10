@@ -61,22 +61,22 @@
     <value>Configuració…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Quant al Kleio</value>
+    <value>Quant al Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Tanca</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Obre el Kleio</value>
+    <value>Obre el Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Posa en pausa el Kleio</value>
+    <value>Posa en pausa el Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignora la còpia següent</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Surt del Kleio</value>
+    <value>Surt del Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Atura la pila d'enganxat</value>
@@ -191,7 +191,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Neteja tots els elements.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Obre la configuració del Kleio.</value>
+    <value>Obre la configuració del Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Llegeix més sobre l'aplicació.</value>
@@ -296,19 +296,19 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Nombre de còpies: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (en pausa)</value>
+    <value>Locket (en pausa)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignora la còpia següent)</value>
+    <value>Locket (ignora la còpia següent)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (no desa cap tipus)</value>
+    <value>Locket (no desa cap tipus)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Hi ha una versió nova del Kleio!</value>
+    <value>Hi ha una versió nova del Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>El Kleio {0} ja està disponible. Teniu la versió {1}.</value>
+    <value>El Locket {0} ja està disponible. Teniu la versió {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instal·la l'actualització</value>
@@ -323,22 +323,22 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Notes de la versió</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>No s'ha pogut instal·lar el Kleio {0}</value>
+    <value>No s'ha pogut instal·lar el Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Obre a l'Instal·lador d'aplicacions</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>S'està instal·lant el Kleio {0}</value>
+    <value>S'està instal·lant el Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>El Kleio es reiniciarà quan s'hagi instal·lat l'actualització.</value>
+    <value>El Locket es reiniciarà quan s'hagi instal·lat l'actualització.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>S'està instal·lant l'actualització</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>S'està baixant el Kleio {0}. El Kleio es reiniciarà quan s'hagi instal·lat l'actualització.</value>
+    <value>S'està baixant el Locket {0}. El Locket es reiniciarà quan s'hagi instal·lat l'actualització.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>No s'ha pogut instal·lar l'actualització</value>
@@ -347,16 +347,16 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Hi ha una actualització disponible</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>El Kleio està actualitzat</value>
+    <value>El Locket està actualitzat</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>El Kleio {0} és la versió més recent.</value>
+    <value>El Locket {0} és la versió més recent.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>No s'han pogut cercar actualitzacions</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>No s'ha trobat cap versió publicada del Kleio.</value>
+    <value>No s'ha trobat cap versió publicada del Locket.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Versions</value>
@@ -377,10 +377,10 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>No s'ha pogut instal·lar l'actualització.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>S'ha instal·lat el Kleio {0}. Sortiu del Kleio i torneu-lo a obrir per fer-lo servir.</value>
+    <value>S'ha instal·lat el Locket {0}. Sortiu del Locket i torneu-lo a obrir per fer-lo servir.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>El Kleio encara no està preparat.</value>
+    <value>El Locket encara no està preparat.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>No s'ha trobat l'element del porta-retalls</value>
@@ -395,37 +395,37 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Ordre desconeguda</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>El Kleio no ha respost després d'iniciar-se.</value>
+    <value>El Locket no ha respost després d'iniciar-se.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>El Kleio no respon.</value>
+    <value>El Locket no respon.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>No s'ha pogut iniciar el Kleio.</value>
+    <value>No s'ha pogut iniciar el Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>El Kleio no ha entès la sol·licitud. El Kleio en execució és la mateixa versió?</value>
+    <value>El Locket no ha entès la sol·licitud. El Locket en execució és la mateixa versió?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>L'element és massa gran.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>El Kleio no ha pogut executar l'ordre.</value>
+    <value>El Locket no ha pogut executar l'ordre.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>El Kleio s'està tancant.</value>
+    <value>El Locket s'està tancant.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Executeu "kleio --help" per veure'n l'ús.</value>
+    <value>{0} Executeu "locket --help" per veure'n l'ús.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>No s'ha pogut enviar l'ordre al Kleio.</value>
+    <value>No s'ha pogut enviar l'ordre al Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>El Kleio no ha respost.</value>
+    <value>El Locket no ha respost.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>El Kleio ha enviat una resposta no vàlida.</value>
+    <value>El Locket ha enviat una resposta no vàlida.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Ha fallat.</value>
@@ -467,10 +467,10 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Opció desconeguda: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Configuració del Kleio</value>
+    <value>Configuració del Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Configuració del Kleio</value>
+    <value>Configuració del Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>General</value>
@@ -563,7 +563,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Obre en iniciar la sessió</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Inicia el Kleio automàticament quan inicieu la sessió al Windows.</value>
+    <value>Inicia el Locket automàticament quan inicieu la sessió al Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Obre en iniciar la sessió</value>
@@ -572,13 +572,13 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>El Windows ha desactivat l'obertura en iniciar la sessió</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>El Kleio s'ha desactivat a l'Administrador de tasques &gt; Aplicacions d'inici (o a Configuració &gt; Aplicacions &gt; Inici). Activeu-lo allà perquè el Kleio s'obri en iniciar la sessió.</value>
+    <value>El Locket s'ha desactivat a l'Administrador de tasques &gt; Aplicacions d'inici (o a Configuració &gt; Aplicacions &gt; Inici). Activeu-lo allà perquè el Locket s'obri en iniciar la sessió.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Cerca actualitzacions automàticament</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Cerca una vegada al dia una versió més nova del Kleio a GitHub i ofereix instal·lar-la.</value>
+    <value>Cerca una vegada al dia una versió més nova del Locket a GitHub i ofereix instal·lar-la.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Comprova-ho ara</value>
@@ -593,7 +593,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Idioma</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>L'idioma dels menús, la configuració i els missatges del Kleio.</value>
+    <value>L'idioma dels menús, la configuració i els missatges del Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Idioma</value>
@@ -602,7 +602,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Idioma del Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Reinicieu el Kleio per fer servir l'idioma nou.</value>
+    <value>Reinicieu el Locket per fer servir l'idioma nou.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Reinicia ara</value>
@@ -611,13 +611,13 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Dreceres</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Obre el Kleio</value>
+    <value>Obre el Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Drecera global per obrir l'aplicació. Si torneu a prémer la tecla principal mentre manteniu premudes les tecles modificadores, se selecciona l'element següent de la llista. En aquest mode, en deixar anar les tecles modificadores es confirma la selecció i es tanca la finestra emergent. Per defecte: Win+Maj+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Drecera per obrir el Kleio</value>
+    <value>Drecera per obrir el Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>No s'ha pogut registrar la drecera</value>
@@ -707,13 +707,13 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Porta-retalls del Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>El Windows té el seu propi historial del porta-retalls, que s'obre amb Win+V. El Kleio pot fer servir aquesta drecera mentre s'executa, sense canviar cap configuració del Windows.</value>
+    <value>El Windows té el seu propi historial del porta-retalls, que s'obre amb Win+V. El Locket pot fer servir aquesta drecera mentre s'executa, sense canviar cap configuració del Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Substitueix Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Mentre el Kleio s'executa, Win+V obre el Kleio en lloc de l'historial del porta-retalls del Windows. No es canvia la configuració del Windows.</value>
+    <value>Mentre el Locket s'executa, Win+V obre el Locket en lloc de l'historial del porta-retalls del Windows. No es canvia la configuració del Windows.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Substitueix Win+V</value>
@@ -722,7 +722,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Bloca Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C no fa res mentre el Kleio s’executa. El Windows el fa servir per al Copilot i no permet desactivar-lo. No es canvia cap paràmetre del Windows.</value>
+    <value>Win+C no fa res mentre el Locket s’executa. El Windows el fa servir per al Copilot i no permet desactivar-lo. No es canvia cap paràmetre del Windows.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bloca Win+C</value>
@@ -746,7 +746,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Mostra notificacions</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Mostra una notificació amb l'element quan el Kleio copia un element o desa una còpia nova.</value>
+    <value>Mostra una notificació amb l'element quan el Locket copia un element o desa una còpia nova.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostra notificacions</value>
@@ -755,13 +755,13 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Les notificacions estan desactivades al Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Activeu les notificacions del Kleio a la configuració de notificacions del Windows per veure-les.</value>
+    <value>Activeu les notificacions del Locket a la configuració de notificacions del Windows per veure-les.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Reprodueix sons</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Reprodueix un so quan el Kleio copia un element o desa una còpia nova.</value>
+    <value>Reprodueix un so quan el Locket copia un element o desa una còpia nova.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Reprodueix sons</value>
@@ -770,7 +770,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Configuració de notificacions del Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Trieu com apareixen les notificacions del Kleio, o desactiveu-les, a Configuració &gt; Sistema &gt; Notificacions.</value>
+    <value>Trieu com apareixen les notificacions del Locket, o desactiveu-les, a Configuració &gt; Sistema &gt; Notificacions.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Obre la configuració de notificacions del Windows</value>
@@ -974,7 +974,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Mostra la icona a l'àrea de notificació</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Mostra la icona del Kleio a l'àrea de notificació de la barra de tasques.</value>
+    <value>Mostra la icona del Locket a l'àrea de notificació de la barra de tasques.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostra la icona a l'àrea de notificació</value>
@@ -983,7 +983,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Estil de la icona de l'àrea de notificació</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotip del Kleio</value>
+    <value>Logotip del Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Porta-retalls</value>
@@ -1037,7 +1037,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Mostra el títol abans del camp de cerca</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Mostra «Kleio» a l'esquerra del camp de cerca.</value>
+    <value>Mostra «Locket» a l'esquerra del camp de cerca.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostra el títol abans del camp de cerca</value>
@@ -1085,7 +1085,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Expressions regulars</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Es poden ignorar les còpies que provenen de determinades aplicacions. Tingueu en compte que no és infal·lible: el Windows no diu quina aplicació ha copiat res, de manera que el Kleio comprova l'aplicació propietària del porta-retalls o la que és en primer pla. Si és possible, és millor fer servir formats del porta-retalls.</value>
+    <value>Es poden ignorar les còpies que provenen de determinades aplicacions. Tingueu en compte que no és infal·lible: el Windows no diu quina aplicació ha copiat res, de manera que el Locket comprova l'aplicació propietària del porta-retalls o la que és en primer pla. Si és possible, és millor fer servir formats del porta-retalls.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignora totes les aplicacions excepte les de la llista</value>
@@ -1181,7 +1181,7 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>No hi ha cap expressió regular definida.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>El Kleio sempre ignora les còpies marcades amb «{0}» o «{1}»: les convencions del Windows que fan servir els gestors de contrasenyes i altres aplicacions per mantenir les dades confidencials fora dels gestors del porta-retalls.</value>
+    <value>El Locket sempre ignora les còpies marcades amb «{0}» o «{1}»: les convencions del Windows que fan servir els gestors de contrasenyes i altres aplicacions per mantenir les dades confidencials fora dels gestors del porta-retalls.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Treu</value>
@@ -1202,37 +1202,37 @@ Selecciona amb Maj per netejar tots els elements.</value>
     <value>Pausa</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Posa en pausa el Kleio</value>
+    <value>Posa en pausa el Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Ignora temporalment totes les còpies noves. Útil perquè el Kleio no enregistri res mentre copieu dades confidencials.</value>
+    <value>Ignora temporalment totes les còpies noves. Útil perquè el Locket no enregistri res mentre copieu dades confidencials.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Posa en pausa el Kleio</value>
+    <value>Posa en pausa el Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Probablement ho fareu servir des de scripts. Poseu en pausa el Kleio des de la línia d'ordres mentre copieu dades confidencials:</value>
+    <value>Probablement ho fareu servir des de scripts. Poseu en pausa el Locket des de la línia d'ordres mentre copieu dades confidencials:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … copia les dades …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, copia les dades i després kleio.exe --resume</value>
+    <value>locket.exe --pause, copia les dades i després locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Per ignorar només la còpia següent:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … copia les dades …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next i després copia les dades</value>
+    <value>locket.exe --ignore-next i després copia les dades</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>També podeu fer Alt+clic a la icona de l'àrea de notificació per posar en pausa o reprendre el Kleio. Per ignorar només la còpia següent, feu-hi Alt+Maj+clic.</value>
+    <value>També podeu fer Alt+clic a la icona de l'àrea de notificació per posar en pausa o reprendre el Locket. Per ignorar només la còpia següent, feu-hi Alt+Maj+clic.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Neteja</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Neteja també el porta-retalls del sistema</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotip del Kleio</value>
+    <value>Logotip del Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versió {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Crèdits</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>El Kleio és una adaptació del Maccy, d'Alex Rodionov</value>
+    <value>El Locket és una adaptació del Maccy, d'Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>El Maccy és un gestor del porta-retalls lleuger per al macOS. El Kleio porta les seves funcions i la seva disposició al Windows 11.</value>
+    <value>El Maccy és un gestor del porta-retalls lleuger per al macOS. El Locket porta les seves funcions i la seva disposició al Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Lloc web del Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Informeu de problemes, suggeriu funcions i contribuïu a GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>El Kleio a GitHub</value>
+    <value>El Locket a GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>El Kleio a GitHub</value>
+    <value>El Locket a GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Assistència</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Llicència</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>El Kleio i el Maccy són programari lliure publicat amb la llicència MIT.</value>
+    <value>El Locket i el Maccy són programari lliure publicat amb la llicència MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Llicència MIT</value>

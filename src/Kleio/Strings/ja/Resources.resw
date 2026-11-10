@@ -61,22 +61,22 @@
     <value>設定…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Kleio について</value>
+    <value>Locket について</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>終了</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio を開く</value>
+    <value>Locket を開く</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio を一時停止</value>
+    <value>Locket を一時停止</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>次のコピーを無視</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Kleio を終了</value>
+    <value>Locket を終了</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>ペーストスタックを停止</value>
@@ -191,7 +191,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>全ての項目をクリアします。</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Kleio の設定を開きます。</value>
+    <value>Locket の設定を開きます。</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>アプリケーションについての詳細を表示します。</value>
@@ -296,19 +296,19 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>コピー回数: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (一時停止中)</value>
+    <value>Locket (一時停止中)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (次のコピーを無視)</value>
+    <value>Locket (次のコピーを無視)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (保存する種類なし)</value>
+    <value>Locket (保存する種類なし)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleio の新しいバージョンがあります!</value>
+    <value>Locket の新しいバージョンがあります!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} が利用可能です。現在のバージョンは {1} です。</value>
+    <value>Locket {0} が利用可能です。現在のバージョンは {1} です。</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>アップデートをインストール</value>
@@ -323,22 +323,22 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>リリース ノート</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0} をインストールできませんでした</value>
+    <value>Locket {0} をインストールできませんでした</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>アプリ インストーラーで開く</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} をインストールしています</value>
+    <value>Locket {0} をインストールしています</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>アップデートのインストール後に Kleio が再起動します。</value>
+    <value>アップデートのインストール後に Locket が再起動します。</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>アップデートをインストールしています</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} をダウンロードしています。アップデートのインストール後に Kleio が再起動します。</value>
+    <value>Locket {0} をダウンロードしています。アップデートのインストール後に Locket が再起動します。</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>アップデートをインストールできませんでした</value>
@@ -347,16 +347,16 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>アップデートがあります</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio は最新です</value>
+    <value>Locket は最新です</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} は最新バージョンです。</value>
+    <value>Locket {0} は最新バージョンです。</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>アップデートを確認できませんでした</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>公開されている Kleio のリリースが見つかりませんでした。</value>
+    <value>公開されている Locket のリリースが見つかりませんでした。</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>リリース</value>
@@ -377,10 +377,10 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>アップデートをインストールできませんでした。</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} をインストールしました。使用するには Kleio を終了して再度開いてください。</value>
+    <value>Locket {0} をインストールしました。使用するには Locket を終了して再度開いてください。</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio の準備ができていません。</value>
+    <value>Locket の準備ができていません。</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>クリップボードの項目が見つかりません</value>
@@ -395,37 +395,37 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>不明なコマンドです</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio が起動後に応答しませんでした。</value>
+    <value>Locket が起動後に応答しませんでした。</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio が応答していません。</value>
+    <value>Locket が応答していません。</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio を起動できませんでした。</value>
+    <value>Locket を起動できませんでした。</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio が要求を理解できませんでした。実行中の Kleio は同じバージョンですか?</value>
+    <value>Locket が要求を理解できませんでした。実行中の Locket は同じバージョンですか?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>項目が大きすぎます。</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio はコマンドを実行できませんでした。</value>
+    <value>Locket はコマンドを実行できませんでした。</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio は終了中です。</value>
+    <value>Locket は終了中です。</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} 使い方は "kleio --help" を実行してください。</value>
+    <value>{0} 使い方は "locket --help" を実行してください。</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Kleio にコマンドを送信できませんでした。</value>
+    <value>Locket にコマンドを送信できませんでした。</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio が応答しませんでした。</value>
+    <value>Locket が応答しませんでした。</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio が無効な応答を返しました。</value>
+    <value>Locket が無効な応答を返しました。</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>失敗しました。</value>
@@ -467,10 +467,10 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>不明なオプション: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio の設定</value>
+    <value>Locket の設定</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio の設定</value>
+    <value>Locket の設定</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>一般</value>
@@ -518,13 +518,13 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>詳細</value>
   </data>
   <data name="Settings_NavAbout.Content" xml:space="preserve">
-    <value>Kleioについて</value>
+    <value>Locketについて</value>
   </data>
   <data name="Settings_NavAbout.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleioについて</value>
+    <value>Locketについて</value>
   </data>
   <data name="About_Header.Text" xml:space="preserve">
-    <value>Kleioについて</value>
+    <value>Locketについて</value>
   </data>
   <data name="Settings_Shortcut" xml:space="preserve">
     <value>ショートカット</value>
@@ -563,7 +563,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>ログイン時に実行</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Windows にサインインしたときに Kleio を自動的に起動します。</value>
+    <value>Windows にサインインしたときに Locket を自動的に起動します。</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ログイン時に実行</value>
@@ -572,13 +572,13 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>ログイン時の実行が Windows によってオフにされています</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio はタスク マネージャー &gt; スタートアップ アプリ (または 設定 &gt; アプリ &gt; スタートアップ) で無効になっています。ログイン時に Kleio を起動するには、そこでオンにしてください。</value>
+    <value>Locket はタスク マネージャー &gt; スタートアップ アプリ (または 設定 &gt; アプリ &gt; スタートアップ) で無効になっています。ログイン時に Locket を起動するには、そこでオンにしてください。</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>自動的にアップデートを確認</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>1 日に 1 回 GitHub で新しい Kleio のリリースを探し、インストールを提案します。</value>
+    <value>1 日に 1 回 GitHub で新しい Locket のリリースを探し、インストールを提案します。</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>今確認する</value>
@@ -593,7 +593,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>言語</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio のメニュー、設定、メッセージの言語です。</value>
+    <value>Locket のメニュー、設定、メッセージの言語です。</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>言語</value>
@@ -602,7 +602,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>Windows の既定</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>新しい言語を使用するには Kleio を再起動してください。</value>
+    <value>新しい言語を使用するには Locket を再起動してください。</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>今すぐ再起動</value>
@@ -611,13 +611,13 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>ショートカット</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio を開く</value>
+    <value>Locket を開く</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>アプリケーションを開くグローバルショートカットキー。修飾キーを押しながらメインキーを繰り返し押すと、リストの次の項目が選択されます。このモードでは、修飾キーを離すと選択が確定し、ポップアップが閉じます。デフォルト：Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio を開くショートカット</value>
+    <value>Locket を開くショートカット</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>ショートカットを登録できませんでした</value>
@@ -707,13 +707,13 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>Windows のクリップボード</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows には Win+V で開く独自のクリップボード履歴があります。Kleio は実行中、Windows の設定を変更せずにこのショートカットを引き継ぐことができます。</value>
+    <value>Windows には Win+V で開く独自のクリップボード履歴があります。Locket は実行中、Windows の設定を変更せずにこのショートカットを引き継ぐことができます。</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V を置き換える</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kleio の実行中は、Win+V で Windows のクリップボード履歴の代わりに Kleio が開きます。Windows の設定は変更されません。</value>
+    <value>Locket の実行中は、Win+V で Windows のクリップボード履歴の代わりに Locket が開きます。Windows の設定は変更されません。</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V を置き換える</value>
@@ -722,7 +722,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>Win+C をブロック</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kleio の実行中は Win+C を押しても何も起きません。Windows はこのキーを Copilot に使っており、オフにする方法がありません。Windows の設定は変更されません。</value>
+    <value>Locket の実行中は Win+C を押しても何も起きません。Windows はこのキーを Copilot に使っており、オフにする方法がありません。Windows の設定は変更されません。</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C をブロック</value>
@@ -746,7 +746,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>通知を表示</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Kleio が項目をコピーしたときや新しいコピーを保存したときに、項目を含む通知を表示します。</value>
+    <value>Locket が項目をコピーしたときや新しいコピーを保存したときに、項目を含む通知を表示します。</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>通知を表示</value>
@@ -755,13 +755,13 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>Windows で通知がオフになっています</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>通知を表示するには、Windows の通知設定で Kleio の通知をオンにしてください。</value>
+    <value>通知を表示するには、Windows の通知設定で Locket の通知をオンにしてください。</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>サウンドを再生</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Kleio が項目をコピーしたときや新しいコピーを保存したときにサウンドを再生します。</value>
+    <value>Locket が項目をコピーしたときや新しいコピーを保存したときにサウンドを再生します。</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>サウンドを再生</value>
@@ -770,7 +770,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>Windows の通知設定</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Kleio の通知の表示方法の選択やオフは、設定 &gt; システム &gt; 通知 で行います。</value>
+    <value>Locket の通知の表示方法の選択やオフは、設定 &gt; システム &gt; 通知 で行います。</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Windows の通知設定を開く</value>
@@ -974,7 +974,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>通知領域にアイコンを表示</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>タスク バーの通知領域に Kleio のアイコンを表示します。</value>
+    <value>タスク バーの通知領域に Locket のアイコンを表示します。</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>通知領域にアイコンを表示</value>
@@ -983,7 +983,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>通知領域のアイコンのスタイル</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio のロゴ</value>
+    <value>Locket のロゴ</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>クリップボード</value>
@@ -1037,7 +1037,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>検索フィールドの前にタイトル表示</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>検索フィールドの左に「Kleio」を表示します。</value>
+    <value>検索フィールドの左に「Locket」を表示します。</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>検索フィールドの前にタイトル表示</value>
@@ -1064,7 +1064,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>フッター表示</value>
   </data>
   <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
-    <value>ポップアップの下部に クリア、設定、Kleio について、終了 のコマンドを表示します。</value>
+    <value>ポップアップの下部に クリア、設定、Locket について、終了 のコマンドを表示します。</value>
   </data>
   <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>フッター表示</value>
@@ -1085,7 +1085,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>正規表現</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>特定のアプリケーションからのコピーを無視できます。ただし完全ではありません。Windows は何をどのアプリがコピーしたかを知らせないため、Kleio はクリップボードを所有しているアプリか前面にあるアプリを確認します。可能であればクリップボード形式を使用してください。</value>
+    <value>特定のアプリケーションからのコピーを無視できます。ただし完全ではありません。Windows は何をどのアプリがコピーしたかを知らせないため、Locket はクリップボードを所有しているアプリか前面にあるアプリを確認します。可能であればクリップボード形式を使用してください。</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>リストされているものを除くすべてのアプリケーションを無視する</value>
@@ -1181,7 +1181,7 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>正規表現は定義されていません。</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio は「{0}」または「{1}」が付いたコピーを常に無視します。これらは、パスワード マネージャーなどのアプリが機密データをクリップボード マネージャーに渡さないために使う Windows の規約です。</value>
+    <value>Locket は「{0}」または「{1}」が付いたコピーを常に無視します。これらは、パスワード マネージャーなどのアプリが機密データをクリップボード マネージャーに渡さないために使う Windows の規約です。</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>削除</value>
@@ -1202,37 +1202,37 @@ Shift を押しながら選択すると全てクリアします。</value>
     <value>一時停止</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio を一時停止</value>
+    <value>Locket を一時停止</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>新しいコピーを一時的にすべて無視します。機密データをコピーする間 Kleio に記録させないのに便利です。</value>
+    <value>新しいコピーを一時的にすべて無視します。機密データをコピーする間 Locket に記録させないのに便利です。</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio を一時停止</value>
+    <value>Locket を一時停止</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>スクリプトから使用することが多いでしょう。機密データをコピーする間、コマンド ラインから Kleio を一時停止します:</value>
+    <value>スクリプトから使用することが多いでしょう。機密データをコピーする間、コマンド ラインから Locket を一時停止します:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … データをコピー …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause、データをコピー、その後 kleio.exe --resume</value>
+    <value>locket.exe --pause、データをコピー、その後 locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>次のコピーだけを無視するには:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … データをコピー …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next、その後データをコピー</value>
+    <value>locket.exe --ignore-next、その後データをコピー</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>通知領域のアイコンを Alt+クリックして Kleio を一時停止または再開することもできます。次のコピーだけを無視するには Alt+Shift+クリックします。</value>
+    <value>通知領域のアイコンを Alt+クリックして Locket を一時停止または再開することもできます。次のコピーだけを無視するには Alt+Shift+クリックします。</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>クリア</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>システムのクリップボードもクリア</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio のロゴ</value>
+    <value>Locket のロゴ</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>バージョン {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>クレジット</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio は Alex Rodionov 氏の Maccy の移植版です</value>
+    <value>Locket は Alex Rodionov 氏の Maccy の移植版です</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy は macOS 用の軽量なクリップボード マネージャーです。Kleio はその機能とレイアウトを Windows 11 にもたらします。</value>
+    <value>Maccy は macOS 用の軽量なクリップボード マネージャーです。Locket はその機能とレイアウトを Windows 11 にもたらします。</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy の Web サイト</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>GitHub で問題の報告、機能の提案、貢献ができます。</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>GitHub の Kleio</value>
+    <value>GitHub の Locket</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>GitHub の Kleio</value>
+    <value>GitHub の Locket</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>サポート</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>ライセンス</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio と Maccy は MIT ライセンスで公開されているフリー ソフトウェアです。</value>
+    <value>Locket と Maccy は MIT ライセンスで公開されているフリー ソフトウェアです。</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT ライセンス</value>

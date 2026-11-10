@@ -8,13 +8,13 @@
   IgnorableNamespaces="uap uap5 desktop rescap">
 
   <Identity
-    Name="Kleio.ClipboardManager"
-    Publisher="CN=Kleio"
-    Version="0.1.8.0" />
+    Name="MarshallHD.Locket"
+    Publisher="CN=217334B3-10EF-48F6-BB35-BA93F82D16F3"
+    Version="1.0.8.0" />
 
   <Properties>
-    <DisplayName>Kleio</DisplayName>
-    <PublisherDisplayName>Kleio contributors</PublisherDisplayName>
+    <DisplayName>Locket</DisplayName>
+    <PublisherDisplayName>MarshallHD</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -31,7 +31,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="Kleio"
+        DisplayName="Locket"
         Description="ms-resource:AppDescription"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
@@ -41,11 +41,11 @@
       </uap:VisualElements>
       <Extensions>
         <uap5:Extension Category="windows.startupTask">
-          <uap5:StartupTask TaskId="KleioStartup" Enabled="false" DisplayName="Kleio" />
+          <uap5:StartupTask TaskId="KleioStartup" Enabled="false" DisplayName="Locket" />
         </uap5:Extension>
         <uap5:Extension Category="windows.appExecutionAlias">
           <uap5:AppExecutionAlias>
-            <uap5:ExecutionAlias Alias="kleio.exe" />
+            <uap5:ExecutionAlias Alias="locket.exe" />
           </uap5:AppExecutionAlias>
         </uap5:Extension>
       </Extensions>

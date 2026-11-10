@@ -61,22 +61,22 @@
     <value>設定…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>關於 Kleio</value>
+    <value>關於 Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>結束</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>開啟 Kleio</value>
+    <value>開啟 Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>暫停 Kleio</value>
+    <value>暫停 Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>忽略下一次複製</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>結束 Kleio</value>
+    <value>結束 Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>停止貼上堆疊</value>
@@ -191,7 +191,7 @@
     <value>清除全部項目。</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>開啟 Kleio 設定。</value>
+    <value>開啟 Locket 設定。</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>了解應用程式詳情。</value>
@@ -296,19 +296,19 @@
     <value>拷貝次數: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (已暫停)</value>
+    <value>Locket (已暫停)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio（忽略下一次複製）</value>
+    <value>Locket（忽略下一次複製）</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio（不儲存任何類型）</value>
+    <value>Locket（不儲存任何類型）</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleio 有新版本可用！</value>
+    <value>Locket 有新版本可用！</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} 現已推出。你目前的版本是 {1}。</value>
+    <value>Locket {0} 現已推出。你目前的版本是 {1}。</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>安裝更新</value>
@@ -323,22 +323,22 @@
     <value>版本資訊</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>無法安裝 Kleio {0}</value>
+    <value>無法安裝 Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>在應用程式安裝程式中開啟</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>正在安裝 Kleio {0}</value>
+    <value>正在安裝 Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>更新安裝完成後 Kleio 會重新啟動。</value>
+    <value>更新安裝完成後 Locket 會重新啟動。</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>正在安裝更新</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>正在下載 Kleio {0}。更新安裝完成後 Kleio 會重新啟動。</value>
+    <value>正在下載 Locket {0}。更新安裝完成後 Locket 會重新啟動。</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>無法安裝更新</value>
@@ -347,16 +347,16 @@
     <value>有可用的更新</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio 已是最新版本</value>
+    <value>Locket 已是最新版本</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} 是最新版本。</value>
+    <value>Locket {0} 是最新版本。</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>無法檢查更新</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>找不到已發佈的 Kleio 版本。</value>
+    <value>找不到已發佈的 Locket 版本。</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>版本發佈</value>
@@ -377,10 +377,10 @@
     <value>無法安裝更新。</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>已安裝 Kleio {0}。請結束並重新開啟 Kleio 以使用新版本。</value>
+    <value>已安裝 Locket {0}。請結束並重新開啟 Locket 以使用新版本。</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio 尚未就緒。</value>
+    <value>Locket 尚未就緒。</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>找不到剪貼簿項目</value>
@@ -395,37 +395,37 @@
     <value>未知的命令</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio 啟動後沒有回應。</value>
+    <value>Locket 啟動後沒有回應。</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio 沒有回應。</value>
+    <value>Locket 沒有回應。</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>無法啟動 Kleio。</value>
+    <value>無法啟動 Locket。</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio 無法理解該要求。正在執行的 Kleio 是同一個版本嗎？</value>
+    <value>Locket 無法理解該要求。正在執行的 Locket 是同一個版本嗎？</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>項目太大。</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio 無法執行該命令。</value>
+    <value>Locket 無法執行該命令。</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio 正在結束。</value>
+    <value>Locket 正在結束。</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} 執行 "kleio --help" 以檢視用法。</value>
+    <value>{0} 執行 "locket --help" 以檢視用法。</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>無法將命令傳送給 Kleio。</value>
+    <value>無法將命令傳送給 Locket。</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio 沒有回應。</value>
+    <value>Locket 沒有回應。</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio 傳回了無效的回應。</value>
+    <value>Locket 傳回了無效的回應。</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>失敗。</value>
@@ -467,10 +467,10 @@
     <value>未知的選項：{0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio 設定</value>
+    <value>Locket 設定</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio 設定</value>
+    <value>Locket 設定</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>一般</value>
@@ -563,7 +563,7 @@
     <value>登入時啟動</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>登入 Windows 時自動啟動 Kleio。</value>
+    <value>登入 Windows 時自動啟動 Locket。</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>登入時啟動</value>
@@ -572,13 +572,13 @@
     <value>登入時啟動已被 Windows 關閉</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio 已在工作管理員 &gt; 啟動應用程式（或設定 &gt; 應用程式 &gt; 啟動）中停用。請在該處啟用，讓 Kleio 在登入時啟動。</value>
+    <value>Locket 已在工作管理員 &gt; 啟動應用程式（或設定 &gt; 應用程式 &gt; 啟動）中停用。請在該處啟用，讓 Locket 在登入時啟動。</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>自動檢查更新</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>每天在 GitHub 上尋找一次較新的 Kleio 版本，並提供安裝。</value>
+    <value>每天在 GitHub 上尋找一次較新的 Locket 版本，並提供安裝。</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>立即檢查</value>
@@ -593,7 +593,7 @@
     <value>語言</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio 選單、設定和訊息使用的語言。</value>
+    <value>Locket 選單、設定和訊息使用的語言。</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>語言</value>
@@ -602,7 +602,7 @@
     <value>Windows 預設</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>重新啟動 Kleio 以使用新語言。</value>
+    <value>重新啟動 Locket 以使用新語言。</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>立即重新啟動</value>
@@ -611,13 +611,13 @@
     <value>快速鍵</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>開啟 Kleio</value>
+    <value>開啟 Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>全局快捷键，用于打开应用程序。在按住修改器的同时重复按下主键将选择列表中的下一个项目。在此模式下，鬆開變量鍵將確認選擇並關閉彈出窗口。預設：Win+Shift+C。</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>開啟 Kleio 的快速鍵</value>
+    <value>開啟 Locket 的快速鍵</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>無法註冊快速鍵</value>
@@ -707,13 +707,13 @@
     <value>Windows 剪貼簿</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows 有自己的剪貼簿歷史，以 Win+V 開啟。Kleio 執行時可以接管此快速鍵，而不變更任何 Windows 設定。</value>
+    <value>Windows 有自己的剪貼簿歷史，以 Win+V 開啟。Locket 執行時可以接管此快速鍵，而不變更任何 Windows 設定。</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>取代 Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kleio 執行時，Win+V 會開啟 Kleio 而非 Windows 剪貼簿歷史。不會變更 Windows 設定。</value>
+    <value>Locket 執行時，Win+V 會開啟 Locket 而非 Windows 剪貼簿歷史。不會變更 Windows 設定。</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>取代 Win+V</value>
@@ -722,7 +722,7 @@
     <value>封鎖 Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kleio 執行時，Win+C 不會執行任何動作。Windows 將它用於 Copilot，且無法關閉。不會變更 Windows 設定。</value>
+    <value>Locket 執行時，Win+C 不會執行任何動作。Windows 將它用於 Copilot，且無法關閉。不會變更 Windows 設定。</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>封鎖 Win+C</value>
@@ -746,7 +746,7 @@
     <value>顯示通知</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Kleio 複製項目或儲存新複本時，顯示包含該項目的通知。</value>
+    <value>Locket 複製項目或儲存新複本時，顯示包含該項目的通知。</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>顯示通知</value>
@@ -755,13 +755,13 @@
     <value>Windows 中已關閉通知</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>請在 Windows 通知設定中為 Kleio 開啟通知，以便看到通知。</value>
+    <value>請在 Windows 通知設定中為 Locket 開啟通知，以便看到通知。</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>播放音效</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Kleio 複製項目或儲存新複本時播放音效。</value>
+    <value>Locket 複製項目或儲存新複本時播放音效。</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>播放音效</value>
@@ -770,7 +770,7 @@
     <value>Windows 通知設定</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>在「設定 &gt; 系統 &gt; 通知」中選擇 Kleio 通知的顯示方式或將其關閉。</value>
+    <value>在「設定 &gt; 系統 &gt; 通知」中選擇 Locket 通知的顯示方式或將其關閉。</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>開啟 Windows 通知設定</value>
@@ -974,7 +974,7 @@
     <value>在通知區域顯示圖示</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>在工作列的通知區域顯示 Kleio 圖示。</value>
+    <value>在工作列的通知區域顯示 Locket 圖示。</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>在通知區域顯示圖示</value>
@@ -983,7 +983,7 @@
     <value>通知區域圖示樣式</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio 標誌</value>
+    <value>Locket 標誌</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>剪貼簿</value>
@@ -1034,13 +1034,13 @@
     <value>搜尋期間</value>
   </data>
   <data name="Appearance_ShowTitleCard.Header" xml:space="preserve">
-    <value>搜尋列旁顯示 Kleio</value>
+    <value>搜尋列旁顯示 Locket</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>在搜尋欄位左側顯示「Kleio」。</value>
+    <value>在搜尋欄位左側顯示「Locket」。</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>搜尋列旁顯示 Kleio</value>
+    <value>搜尋列旁顯示 Locket</value>
   </data>
   <data name="Appearance_AppIconsCard.Header" xml:space="preserve">
     <value>顯示應用程式圖示</value>
@@ -1085,7 +1085,7 @@
     <value>正規表示式</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>可以忽略來自特定應用程式的複製。請注意這並非萬無一失：Windows 不會告知是哪個應用程式複製了內容，因此 Kleio 會檢查擁有剪貼簿或位於前景的應用程式。可能的話，請改用剪貼簿格式。</value>
+    <value>可以忽略來自特定應用程式的複製。請注意這並非萬無一失：Windows 不會告知是哪個應用程式複製了內容，因此 Locket 會檢查擁有剪貼簿或位於前景的應用程式。可能的話，請改用剪貼簿格式。</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>忽略除了列表中的所有應用程式</value>
@@ -1181,7 +1181,7 @@
     <value>尚未定義規則運算式。</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio 一律忽略標示為「{0}」或「{1}」的複製：這是密碼管理員和其他應用程式用來讓敏感資料遠離剪貼簿管理員的 Windows 慣例。</value>
+    <value>Locket 一律忽略標示為「{0}」或「{1}」的複製：這是密碼管理員和其他應用程式用來讓敏感資料遠離剪貼簿管理員的 Windows 慣例。</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>移除</value>
@@ -1202,37 +1202,37 @@
     <value>暫停</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>暫停 Kleio</value>
+    <value>暫停 Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>暫時忽略所有新的複製。適合在複製敏感資料時防止 Kleio 記錄。</value>
+    <value>暫時忽略所有新的複製。適合在複製敏感資料時防止 Locket 記錄。</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>暫停 Kleio</value>
+    <value>暫停 Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>你很可能會從指令碼使用此功能。複製敏感資料時，從命令列暫停 Kleio：</value>
+    <value>你很可能會從指令碼使用此功能。複製敏感資料時，從命令列暫停 Locket：</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … 複製資料 …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause，複製資料，然後 kleio.exe --resume</value>
+    <value>locket.exe --pause，複製資料，然後 locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>只忽略下一次複製：</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … 複製資料 …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next，然後複製資料</value>
+    <value>locket.exe --ignore-next，然後複製資料</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>也可以按住 Alt 並按一下通知區域圖示來暫停或繼續 Kleio。若只要忽略下一次複製，請按住 Alt+Shift 並按一下。</value>
+    <value>也可以按住 Alt 並按一下通知區域圖示來暫停或繼續 Locket。若只要忽略下一次複製，請按住 Alt+Shift 並按一下。</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>清除</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>同時清除系統剪貼簿</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio 標誌</value>
+    <value>Locket 標誌</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>版本 {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>致謝</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio 是 Alex Rodionov 所開發 Maccy 的移植版</value>
+    <value>Locket 是 Alex Rodionov 所開發 Maccy 的移植版</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy 是適用於 macOS 的輕量剪貼簿管理員。Kleio 將它的功能和版面配置帶到 Windows 11。</value>
+    <value>Maccy 是適用於 macOS 的輕量剪貼簿管理員。Locket 將它的功能和版面配置帶到 Windows 11。</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy 網站</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>在 GitHub 上回報問題、建議功能並參與貢獻。</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>GitHub 上的 Kleio</value>
+    <value>GitHub 上的 Locket</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>GitHub 上的 Kleio</value>
+    <value>GitHub 上的 Locket</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>支援</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>授權</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio 和 Maccy 是以 MIT 授權發佈的自由軟體。</value>
+    <value>Locket 和 Maccy 是以 MIT 授權發佈的自由軟體。</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT 授權</value>

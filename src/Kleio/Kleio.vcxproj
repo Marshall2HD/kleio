@@ -169,4 +169,15 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <!-- Package files are named after the product (Locket_<version>_<platform>.msix), not the project. -->
+  <Target Name="LocketPackageName" BeforeTargets="_ComputeAppxPackageOutput">
+    <PropertyGroup>
+      <AppxPackageName>Locket_$(AppxManifestIdentityVersion)_$(Platform)$(_AppxPackageConfiguration)</AppxPackageName>
+    </PropertyGroup>
+  </Target>
+  <Target Name="LocketBundleName" AfterTargets="_ComputeAppxPackageOutput">
+    <PropertyGroup>
+      <AppxPackageNameNeutral>Locket_$(AppxManifestIdentityVersion)</AppxPackageNameNeutral>
+    </PropertyGroup>
+  </Target>
 </Project>

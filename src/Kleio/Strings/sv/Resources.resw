@@ -61,22 +61,22 @@
     <value>Inställningar…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Om Kleio</value>
+    <value>Om Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Avsluta</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Öppna Kleio</value>
+    <value>Öppna Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Pausa Kleio</value>
+    <value>Pausa Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignorera nästa kopiering</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Avsluta Kleio</value>
+    <value>Avsluta Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Stoppa inklistringsstacken</value>
@@ -191,7 +191,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Rensa alla objekt.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Öppna inställningarna för Kleio.</value>
+    <value>Öppna inställningarna för Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Läs mer om programmet.</value>
@@ -296,19 +296,19 @@ Välj med Skift för att rensa allt.</value>
     <value>Antal kopior: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (pausad)</value>
+    <value>Locket (pausad)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignorerar nästa kopiering)</value>
+    <value>Locket (ignorerar nästa kopiering)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (sparar ingen typ)</value>
+    <value>Locket (sparar ingen typ)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>En ny version av Kleio finns!</value>
+    <value>En ny version av Locket finns!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} finns nu. Du har {1}.</value>
+    <value>Locket {0} finns nu. Du har {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Installera uppdatering</value>
@@ -323,22 +323,22 @@ Välj med Skift för att rensa allt.</value>
     <value>Versionsinformation</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Det gick inte att installera Kleio {0}</value>
+    <value>Det gick inte att installera Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Öppna i Appinstallationsprogrammet</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Installerar Kleio {0}</value>
+    <value>Installerar Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio startas om när uppdateringen har installerats.</value>
+    <value>Locket startas om när uppdateringen har installerats.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Installerar uppdatering</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Laddar ned Kleio {0}. Kleio startas om när uppdateringen har installerats.</value>
+    <value>Laddar ned Locket {0}. Locket startas om när uppdateringen har installerats.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Det gick inte att installera uppdateringen</value>
@@ -347,16 +347,16 @@ Välj med Skift för att rensa allt.</value>
     <value>Uppdatering tillgänglig</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio är uppdaterat</value>
+    <value>Locket är uppdaterat</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} är den senaste versionen.</value>
+    <value>Locket {0} är den senaste versionen.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Det gick inte att söka efter uppdateringar</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Ingen publicerad version av Kleio hittades.</value>
+    <value>Ingen publicerad version av Locket hittades.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Versioner</value>
@@ -377,10 +377,10 @@ Välj med Skift för att rensa allt.</value>
     <value>Uppdateringen kunde inte installeras.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} har installerats. Avsluta och öppna Kleio igen för att använda det.</value>
+    <value>Locket {0} har installerats. Avsluta och öppna Locket igen för att använda det.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio är inte klart än.</value>
+    <value>Locket är inte klart än.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Urklippsobjektet hittades inte</value>
@@ -395,37 +395,37 @@ Välj med Skift för att rensa allt.</value>
     <value>Okänt kommando</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio svarade inte efter start.</value>
+    <value>Locket svarade inte efter start.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio svarar inte.</value>
+    <value>Locket svarar inte.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Det gick inte att starta Kleio.</value>
+    <value>Det gick inte att starta Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio förstod inte begäran. Är det körande Kleio samma version?</value>
+    <value>Locket förstod inte begäran. Är det körande Locket samma version?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Objektet är för stort.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio kunde inte köra kommandot.</value>
+    <value>Locket kunde inte köra kommandot.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio avslutas.</value>
+    <value>Locket avslutas.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Kör "kleio --help" för att se användning.</value>
+    <value>{0} Kör "locket --help" för att se användning.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Det gick inte att skicka kommandot till Kleio.</value>
+    <value>Det gick inte att skicka kommandot till Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio svarade inte.</value>
+    <value>Locket svarade inte.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio skickade ett ogiltigt svar.</value>
+    <value>Locket skickade ett ogiltigt svar.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Misslyckades.</value>
@@ -467,10 +467,10 @@ Välj med Skift för att rensa allt.</value>
     <value>Okänt alternativ: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Inställningar för Kleio</value>
+    <value>Inställningar för Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Inställningar för Kleio</value>
+    <value>Inställningar för Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Allmänt</value>
@@ -563,7 +563,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Starta vid inloggning</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Starta Kleio automatiskt när du loggar in i Windows.</value>
+    <value>Starta Locket automatiskt när du loggar in i Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Starta vid inloggning</value>
@@ -572,13 +572,13 @@ Välj med Skift för att rensa allt.</value>
     <value>Start vid inloggning har stängts av av Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio har inaktiverats i Aktivitetshanteraren &gt; Autostartade appar (eller Inställningar &gt; Appar &gt; Autostart). Aktivera det där för att starta Kleio vid inloggning.</value>
+    <value>Locket har inaktiverats i Aktivitetshanteraren &gt; Autostartade appar (eller Inställningar &gt; Appar &gt; Autostart). Aktivera det där för att starta Locket vid inloggning.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Kontrollera efter uppdateringar automatiskt</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Leta efter en nyare version av Kleio på GitHub en gång om dagen och erbjud att installera den.</value>
+    <value>Leta efter en nyare version av Locket på GitHub en gång om dagen och erbjud att installera den.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Kontrollera nu</value>
@@ -593,7 +593,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Språk</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Språket i Kleios menyer, inställningar och meddelanden.</value>
+    <value>Språket i Lockets menyer, inställningar och meddelanden.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Språk</value>
@@ -602,7 +602,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Windows-standard</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Starta om Kleio för att använda det nya språket.</value>
+    <value>Starta om Locket för att använda det nya språket.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Starta om nu</value>
@@ -611,13 +611,13 @@ Välj med Skift för att rensa allt.</value>
     <value>Kortkommandon</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Öppna Kleio</value>
+    <value>Öppna Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Globalt kortkommando för att öppna applikationen. Förval: Win+Skift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kortkommando för att öppna Kleio</value>
+    <value>Kortkommando för att öppna Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Det gick inte att registrera kortkommandot</value>
@@ -707,13 +707,13 @@ Välj med Skift för att rensa allt.</value>
     <value>Urklipp i Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows har en egen urklippshistorik som öppnas med Win+V. Kleio kan ta över det kortkommandot medan det körs, utan att ändra några Windows-inställningar.</value>
+    <value>Windows har en egen urklippshistorik som öppnas med Win+V. Locket kan ta över det kortkommandot medan det körs, utan att ändra några Windows-inställningar.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Ersätt Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Win+V öppnar Kleio i stället för urklippshistoriken i Windows medan Kleio körs. Windows-inställningarna ändras inte.</value>
+    <value>Win+V öppnar Locket i stället för urklippshistoriken i Windows medan Locket körs. Windows-inställningarna ändras inte.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ersätt Win+V</value>
@@ -722,7 +722,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Blockera Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C gör ingenting medan Kleio körs. Windows använder kortkommandot för Copilot och har inget sätt att stänga av det. Windows-inställningarna ändras inte.</value>
+    <value>Win+C gör ingenting medan Locket körs. Windows använder kortkommandot för Copilot och har inget sätt att stänga av det. Windows-inställningarna ändras inte.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blockera Win+C</value>
@@ -746,7 +746,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Visa meddelanden</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Visa ett meddelande med objektet när Kleio kopierar ett objekt eller sparar en ny kopia.</value>
+    <value>Visa ett meddelande med objektet när Locket kopierar ett objekt eller sparar en ny kopia.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Visa meddelanden</value>
@@ -755,13 +755,13 @@ Välj med Skift för att rensa allt.</value>
     <value>Meddelanden är avstängda i Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Aktivera meddelanden för Kleio i meddelandeinställningarna i Windows för att se dem.</value>
+    <value>Aktivera meddelanden för Locket i meddelandeinställningarna i Windows för att se dem.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Spela upp ljud</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Spela upp ett ljud när Kleio kopierar ett objekt eller sparar en ny kopia.</value>
+    <value>Spela upp ett ljud när Locket kopierar ett objekt eller sparar en ny kopia.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Spela upp ljud</value>
@@ -770,7 +770,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Meddelandeinställningar i Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Välj hur meddelanden från Kleio visas, eller stäng av dem, under Inställningar &gt; System &gt; Meddelanden.</value>
+    <value>Välj hur meddelanden från Locket visas, eller stäng av dem, under Inställningar &gt; System &gt; Meddelanden.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Öppna meddelandeinställningarna i Windows</value>
@@ -974,7 +974,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Visa ikon i meddelandefältet</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Visa Kleios ikon i meddelandefältet i aktivitetsfältet.</value>
+    <value>Visa Lockets ikon i meddelandefältet i aktivitetsfältet.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Visa ikon i meddelandefältet</value>
@@ -983,7 +983,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Stil för ikonen i meddelandefältet</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleios logotyp</value>
+    <value>Lockets logotyp</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Urklipp</value>
@@ -1037,7 +1037,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Visa titel före sökfältet</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Visa ”Kleio” till vänster om sökfältet.</value>
+    <value>Visa ”Locket” till vänster om sökfältet.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Visa titel före sökfältet</value>
@@ -1085,7 +1085,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Reguljära uttryck</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Kopior från vissa appar kan ignoreras. Observera att detta inte är helt säkert: Windows talar inte om vilken app som kopierade något, så Kleio kontrollerar appen som äger Urklipp eller är i förgrunden. Använd hellre urklippsformat när det går.</value>
+    <value>Kopior från vissa appar kan ignoreras. Observera att detta inte är helt säkert: Windows talar inte om vilken app som kopierade något, så Locket kontrollerar appen som äger Urklipp eller är i förgrunden. Använd hellre urklippsformat när det går.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignorera alla appar utom de som listas</value>
@@ -1181,7 +1181,7 @@ Välj med Skift för att rensa allt.</value>
     <value>Inga reguljära uttryck har angetts.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio ignorerar alltid kopior som är märkta med ”{0}” eller ”{1}”: Windows-konventionerna som lösenordshanterare och andra appar använder för att hålla känsliga data borta från urklippshanterare.</value>
+    <value>Locket ignorerar alltid kopior som är märkta med ”{0}” eller ”{1}”: Windows-konventionerna som lösenordshanterare och andra appar använder för att hålla känsliga data borta från urklippshanterare.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Ta bort</value>
@@ -1202,37 +1202,37 @@ Välj med Skift för att rensa allt.</value>
     <value>Paus</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Pausa Kleio</value>
+    <value>Pausa Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Ignorera tillfälligt alla nya kopior. Användbart för att hindra Kleio från att spela in medan du kopierar känsliga data.</value>
+    <value>Ignorera tillfälligt alla nya kopior. Användbart för att hindra Locket från att spela in medan du kopierar känsliga data.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pausa Kleio</value>
+    <value>Pausa Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Du kommer troligen att använda detta från skript. Pausa Kleio från kommandoraden medan du kopierar känsliga data:</value>
+    <value>Du kommer troligen att använda detta från skript. Pausa Locket från kommandoraden medan du kopierar känsliga data:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopiera data …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopiera data, sedan kleio.exe --resume</value>
+    <value>locket.exe --pause, kopiera data, sedan locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Så här ignorerar du bara nästa kopiering:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopiera data …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, sedan kopiera data</value>
+    <value>locket.exe --ignore-next, sedan kopiera data</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Du kan också Alt+klicka på ikonen i meddelandefältet för att pausa eller återuppta Kleio. Om du bara vill ignorera nästa kopiering Alt+Skift+klickar du på den.</value>
+    <value>Du kan också Alt+klicka på ikonen i meddelandefältet för att pausa eller återuppta Locket. Om du bara vill ignorera nästa kopiering Alt+Skift+klickar du på den.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Rensning</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Rensa även systemets Urklipp</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleios logotyp</value>
+    <value>Lockets logotyp</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Version {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Tack till</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio är en portering av Maccy av Alex Rodionov</value>
+    <value>Locket är en portering av Maccy av Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy är en lättviktig urklippshanterare för macOS. Kleio för över dess funktioner och layout till Windows 11.</value>
+    <value>Maccy är en lättviktig urklippshanterare för macOS. Locket för över dess funktioner och layout till Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccys webbplats</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Rapportera problem, föreslå funktioner och bidra på GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio på GitHub</value>
+    <value>Locket på GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio på GitHub</value>
+    <value>Locket på GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Support</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licens</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio och Maccy är fri programvara som släpps under MIT-licensen.</value>
+    <value>Locket och Maccy är fri programvara som släpps under MIT-licensen.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT-licens</value>

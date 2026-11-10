@@ -61,22 +61,22 @@
     <value>அமைப்புகள்…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Kleio பற்றி</value>
+    <value>Locket பற்றி</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>வெளியேறு</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio-ஐத் திற</value>
+    <value>Locket-ஐத் திற</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio-ஐ இடைநிறுத்து</value>
+    <value>Locket-ஐ இடைநிறுத்து</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>அடுத்த நகலைப் புறக்கணி</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Kleio-இலிருந்து வெளியேறு</value>
+    <value>Locket-இலிருந்து வெளியேறு</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>ஒட்டுதல் அடுக்கை நிறுத்து</value>
@@ -191,7 +191,7 @@
     <value>எல்லா பொருட்களையும் அழிக்கவும்.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Kleio அமைப்புகளைத் திற.</value>
+    <value>Locket அமைப்புகளைத் திற.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>பயன்பாடு பற்றி மேலும் வாசிக்க.</value>
@@ -296,19 +296,19 @@
     <value>பிரதிகளின் எண்ணிக்கை: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (இடைநிறுத்தப்பட்டது)</value>
+    <value>Locket (இடைநிறுத்தப்பட்டது)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (அடுத்த நகலைப் புறக்கணிக்கிறது)</value>
+    <value>Locket (அடுத்த நகலைப் புறக்கணிக்கிறது)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (எந்த வகையையும் சேமிக்கவில்லை)</value>
+    <value>Locket (எந்த வகையையும் சேமிக்கவில்லை)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleio-இன் புதிய பதிப்பு கிடைக்கிறது!</value>
+    <value>Locket-இன் புதிய பதிப்பு கிடைக்கிறது!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} இப்போது கிடைக்கிறது. உங்களிடம் {1} உள்ளது.</value>
+    <value>Locket {0} இப்போது கிடைக்கிறது. உங்களிடம் {1} உள்ளது.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>புதுப்பிப்பை நிறுவு</value>
@@ -323,22 +323,22 @@
     <value>வெளியீட்டுக் குறிப்புகள்</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0}-ஐ நிறுவ முடியவில்லை</value>
+    <value>Locket {0}-ஐ நிறுவ முடியவில்லை</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>பயன்பாட்டு நிறுவியில் திற</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} நிறுவப்படுகிறது</value>
+    <value>Locket {0} நிறுவப்படுகிறது</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>புதுப்பிப்பு நிறுவப்பட்டதும் Kleio மீண்டும் தொடங்கும்.</value>
+    <value>புதுப்பிப்பு நிறுவப்பட்டதும் Locket மீண்டும் தொடங்கும்.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>புதுப்பிப்பு நிறுவப்படுகிறது</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} பதிவிறக்கப்படுகிறது. புதுப்பிப்பு நிறுவப்பட்டதும் Kleio மீண்டும் தொடங்கும்.</value>
+    <value>Locket {0} பதிவிறக்கப்படுகிறது. புதுப்பிப்பு நிறுவப்பட்டதும் Locket மீண்டும் தொடங்கும்.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>புதுப்பிப்பை நிறுவ முடியவில்லை</value>
@@ -347,16 +347,16 @@
     <value>புதுப்பிப்பு கிடைக்கிறது</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio புதுப்பித்த நிலையில் உள்ளது</value>
+    <value>Locket புதுப்பித்த நிலையில் உள்ளது</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} சமீபத்திய பதிப்பு.</value>
+    <value>Locket {0} சமீபத்திய பதிப்பு.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>புதுப்பிப்புகளைச் சரிபார்க்க முடியவில்லை</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>வெளியிடப்பட்ட Kleio பதிப்பு எதுவும் கிடைக்கவில்லை.</value>
+    <value>வெளியிடப்பட்ட Locket பதிப்பு எதுவும் கிடைக்கவில்லை.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>வெளியீடுகள்</value>
@@ -377,10 +377,10 @@
     <value>புதுப்பிப்பை நிறுவ முடியவில்லை.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} நிறுவப்பட்டது. அதைப் பயன்படுத்த Kleio-இலிருந்து வெளியேறி மீண்டும் திறக்கவும்.</value>
+    <value>Locket {0} நிறுவப்பட்டது. அதைப் பயன்படுத்த Locket-இலிருந்து வெளியேறி மீண்டும் திறக்கவும்.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio இன்னும் தயாராகவில்லை.</value>
+    <value>Locket இன்னும் தயாராகவில்லை.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>கிளிப்போர்டு உருப்படி கிடைக்கவில்லை</value>
@@ -395,37 +395,37 @@
     <value>தெரியாத கட்டளை</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>தொடங்கிய பிறகு Kleio பதிலளிக்கவில்லை.</value>
+    <value>தொடங்கிய பிறகு Locket பதிலளிக்கவில்லை.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio பதிலளிக்கவில்லை.</value>
+    <value>Locket பதிலளிக்கவில்லை.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio-ஐத் தொடங்க முடியவில்லை.</value>
+    <value>Locket-ஐத் தொடங்க முடியவில்லை.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio-க்குக் கோரிக்கை புரியவில்லை. இயங்கும் Kleio அதே பதிப்பா?</value>
+    <value>Locket-க்குக் கோரிக்கை புரியவில்லை. இயங்கும் Locket அதே பதிப்பா?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>உருப்படி மிகப் பெரியது.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio-ஆல் கட்டளையை இயக்க முடியவில்லை.</value>
+    <value>Locket-ஆல் கட்டளையை இயக்க முடியவில்லை.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio வெளியேறுகிறது.</value>
+    <value>Locket வெளியேறுகிறது.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} பயன்பாட்டுக்கு "kleio --help" ஐ இயக்கவும்.</value>
+    <value>{0} பயன்பாட்டுக்கு "locket --help" ஐ இயக்கவும்.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>கட்டளையை Kleio-க்கு அனுப்ப முடியவில்லை.</value>
+    <value>கட்டளையை Locket-க்கு அனுப்ப முடியவில்லை.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio பதிலளிக்கவில்லை.</value>
+    <value>Locket பதிலளிக்கவில்லை.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio தவறான பதிலை அனுப்பியது.</value>
+    <value>Locket தவறான பதிலை அனுப்பியது.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>தோல்வியடைந்தது.</value>
@@ -467,10 +467,10 @@
     <value>தெரியாத விருப்பம்: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio அமைப்புகள்</value>
+    <value>Locket அமைப்புகள்</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio அமைப்புகள்</value>
+    <value>Locket அமைப்புகள்</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>பொது</value>
@@ -563,7 +563,7 @@
     <value>உள்நுழைவில் தொடங்கவும்</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Windows-இல் உள்நுழையும்போது Kleio-ஐத் தானாகத் தொடங்கு.</value>
+    <value>Windows-இல் உள்நுழையும்போது Locket-ஐத் தானாகத் தொடங்கு.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>உள்நுழைவில் தொடங்கவும்</value>
@@ -572,13 +572,13 @@
     <value>உள்நுழைவில் தொடங்குதலை Windows முடக்கியுள்ளது</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>பணி நிர்வாகி &gt; தொடக்கப் பயன்பாடுகள் (அல்லது அமைப்புகள் &gt; பயன்பாடுகள் &gt; தொடக்கம்) இல் Kleio முடக்கப்பட்டுள்ளது. உள்நுழைவில் Kleio-ஐத் தொடங்க அங்கே அதை இயக்கவும்.</value>
+    <value>பணி நிர்வாகி &gt; தொடக்கப் பயன்பாடுகள் (அல்லது அமைப்புகள் &gt; பயன்பாடுகள் &gt; தொடக்கம்) இல் Locket முடக்கப்பட்டுள்ளது. உள்நுழைவில் Locket-ஐத் தொடங்க அங்கே அதை இயக்கவும்.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>புதுப்பிப்புகளை தானாக சரிபார்க்கவும்</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>நாளுக்கு ஒருமுறை GitHub-இல் புதிய Kleio வெளியீட்டைத் தேடி, அதை நிறுவப் பரிந்துரைக்கவும்.</value>
+    <value>நாளுக்கு ஒருமுறை GitHub-இல் புதிய Locket வெளியீட்டைத் தேடி, அதை நிறுவப் பரிந்துரைக்கவும்.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>இப்போது சரிபார்க்க</value>
@@ -593,7 +593,7 @@
     <value>மொழி</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio-இன் மெனுக்கள், அமைப்புகள், செய்திகளின் மொழி.</value>
+    <value>Locket-இன் மெனுக்கள், அமைப்புகள், செய்திகளின் மொழி.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>மொழி</value>
@@ -602,7 +602,7 @@
     <value>Windows இயல்புநிலை</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>புதிய மொழியைப் பயன்படுத்த Kleio-ஐ மீண்டும் தொடங்கவும்.</value>
+    <value>புதிய மொழியைப் பயன்படுத்த Locket-ஐ மீண்டும் தொடங்கவும்.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>இப்போது மீண்டும் தொடங்கு</value>
@@ -611,13 +611,13 @@
     <value>குறுக்குவிசைகள்</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio-ஐத் திற</value>
+    <value>Locket-ஐத் திற</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>திறந்த பயன்பாட்டிற்கு உலகளாவிய குறுக்குவழி விசை. இயல்புநிலை: Win+Shift+C c.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio-ஐத் திறக்கும் குறுக்குவிசை</value>
+    <value>Locket-ஐத் திறக்கும் குறுக்குவிசை</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>குறுக்குவிசையைப் பதிவுசெய்ய முடியவில்லை</value>
@@ -707,13 +707,13 @@
     <value>Windows கிளிப்போர்டு</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows-க்குச் சொந்தக் கிளிப்போர்டு வரலாறு உள்ளது, அது Win+V மூலம் திறக்கும். Kleio இயங்கும்போது Windows அமைப்புகள் எதையும் மாற்றாமல் அந்தக் குறுக்குவிசையை எடுத்துக்கொள்ள முடியும்.</value>
+    <value>Windows-க்குச் சொந்தக் கிளிப்போர்டு வரலாறு உள்ளது, அது Win+V மூலம் திறக்கும். Locket இயங்கும்போது Windows அமைப்புகள் எதையும் மாற்றாமல் அந்தக் குறுக்குவிசையை எடுத்துக்கொள்ள முடியும்.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V ஐ மாற்று</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kleio இயங்கும்போது Win+V ஆனது Windows கிளிப்போர்டு வரலாற்றுக்குப் பதிலாக Kleio-ஐத் திறக்கும். Windows அமைப்புகள் மாற்றப்படாது.</value>
+    <value>Locket இயங்கும்போது Win+V ஆனது Windows கிளிப்போர்டு வரலாற்றுக்குப் பதிலாக Locket-ஐத் திறக்கும். Windows அமைப்புகள் மாற்றப்படாது.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V ஐ மாற்று</value>
@@ -722,7 +722,7 @@
     <value>Win+C ஐத் தடு</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kleio இயங்கும்போது Win+C எதுவும் செய்யாது. Windows இதை Copilot-க்குப் பயன்படுத்துகிறது, அதை முடக்க வழியில்லை. Windows அமைப்புகள் மாற்றப்படாது.</value>
+    <value>Locket இயங்கும்போது Win+C எதுவும் செய்யாது. Windows இதை Copilot-க்குப் பயன்படுத்துகிறது, அதை முடக்க வழியில்லை. Windows அமைப்புகள் மாற்றப்படாது.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C ஐத் தடு</value>
@@ -746,7 +746,7 @@
     <value>அறிவிப்புகளைக் காட்டு</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Kleio ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது உருப்படியுடன் அறிவிப்பைக் காட்டு.</value>
+    <value>Locket ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது உருப்படியுடன் அறிவிப்பைக் காட்டு.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>அறிவிப்புகளைக் காட்டு</value>
@@ -755,13 +755,13 @@
     <value>Windows-இல் அறிவிப்புகள் முடக்கப்பட்டுள்ளன</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>அறிவிப்புகளைப் பார்க்க Windows அறிவிப்பு அமைப்புகளில் Kleio-க்கான அறிவிப்புகளை இயக்கவும்.</value>
+    <value>அறிவிப்புகளைப் பார்க்க Windows அறிவிப்பு அமைப்புகளில் Locket-க்கான அறிவிப்புகளை இயக்கவும்.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>ஒலிகளை இயக்கு</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Kleio ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது ஒலியை இயக்கு.</value>
+    <value>Locket ஒரு உருப்படியை நகலெடுக்கும்போது அல்லது புதிய நகலைச் சேமிக்கும்போது ஒலியை இயக்கு.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>ஒலிகளை இயக்கு</value>
@@ -770,7 +770,7 @@
     <value>Windows அறிவிப்பு அமைப்புகள்</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>அமைப்புகள் &gt; கணினி &gt; அறிவிப்புகள் இல் Kleio அறிவிப்புகள் எவ்வாறு தோன்ற வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும் அல்லது அவற்றை முடக்கவும்.</value>
+    <value>அமைப்புகள் &gt; கணினி &gt; அறிவிப்புகள் இல் Locket அறிவிப்புகள் எவ்வாறு தோன்ற வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும் அல்லது அவற்றை முடக்கவும்.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Windows அறிவிப்பு அமைப்புகளைத் திற</value>
@@ -974,7 +974,7 @@
     <value>அறிவிப்புப் பகுதியில் ஐகானைக் காட்டு</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>பணிப்பட்டியின் அறிவிப்புப் பகுதியில் Kleio ஐகானைக் காட்டு.</value>
+    <value>பணிப்பட்டியின் அறிவிப்புப் பகுதியில் Locket ஐகானைக் காட்டு.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>அறிவிப்புப் பகுதியில் ஐகானைக் காட்டு</value>
@@ -983,7 +983,7 @@
     <value>அறிவிப்புப் பகுதி ஐகானின் பாணி</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio லோகோ</value>
+    <value>Locket லோகோ</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>கிளிப்போர்டு</value>
@@ -1037,7 +1037,7 @@
     <value>தேடல் புலத்துக்கு முன் தலைப்பைக் காட்டு</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>தேடல் புலத்தின் இடப்பக்கம் “Kleio” என்பதைக் காட்டு.</value>
+    <value>தேடல் புலத்தின் இடப்பக்கம் “Locket” என்பதைக் காட்டு.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>தேடல் புலத்துக்கு முன் தலைப்பைக் காட்டு</value>
@@ -1085,7 +1085,7 @@
     <value>வழக்கமான வெளிப்பாடுகள்</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>குறிப்பிட்ட பயன்பாடுகளிலிருந்து வரும் நகல்களைப் புறக்கணிக்கலாம். இது முழுமையாக நம்பகமானதல்ல: எந்தப் பயன்பாடு நகலெடுத்தது என்பதை Windows சொல்வதில்லை, எனவே Kleio கிளிப்போர்டுக்கு உரிமையான அல்லது முன்புலத்தில் உள்ள பயன்பாட்டைச் சரிபார்க்கிறது. முடிந்தால் கிளிப்போர்டு வடிவங்களைப் பயன்படுத்தவும்.</value>
+    <value>குறிப்பிட்ட பயன்பாடுகளிலிருந்து வரும் நகல்களைப் புறக்கணிக்கலாம். இது முழுமையாக நம்பகமானதல்ல: எந்தப் பயன்பாடு நகலெடுத்தது என்பதை Windows சொல்வதில்லை, எனவே Locket கிளிப்போர்டுக்கு உரிமையான அல்லது முன்புலத்தில் உள்ள பயன்பாட்டைச் சரிபார்க்கிறது. முடிந்தால் கிளிப்போர்டு வடிவங்களைப் பயன்படுத்தவும்.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>பட்டியலிடப்பட்டதைத் தவிர அனைத்து பயன்பாடுகளையும் புறக்கணிக்கவும்</value>
@@ -1181,7 +1181,7 @@
     <value>ரெகுலர் எக்ஸ்பிரஷன்கள் எதுவும் வரையறுக்கப்படவில்லை.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>“{0}” அல்லது “{1}” எனக் குறிக்கப்பட்ட நகல்களை Kleio எப்போதும் புறக்கணிக்கும்: கடவுச்சொல் நிர்வாகிகளும் பிற பயன்பாடுகளும் உணர்திறன் வாய்ந்த தரவைக் கிளிப்போர்டு மேலாளர்களிடமிருந்து விலக்கி வைக்கப் பயன்படுத்தும் Windows மரபுகள் இவை.</value>
+    <value>“{0}” அல்லது “{1}” எனக் குறிக்கப்பட்ட நகல்களை Locket எப்போதும் புறக்கணிக்கும்: கடவுச்சொல் நிர்வாகிகளும் பிற பயன்பாடுகளும் உணர்திறன் வாய்ந்த தரவைக் கிளிப்போர்டு மேலாளர்களிடமிருந்து விலக்கி வைக்கப் பயன்படுத்தும் Windows மரபுகள் இவை.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>அகற்று</value>
@@ -1202,37 +1202,37 @@
     <value>இடைநிறுத்தம்</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio-ஐ இடைநிறுத்து</value>
+    <value>Locket-ஐ இடைநிறுத்து</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>எல்லாப் புதிய நகல்களையும் தற்காலிகமாகப் புறக்கணி. உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது Kleio பதிவுசெய்யாமல் இருக்கப் பயனுள்ளது.</value>
+    <value>எல்லாப் புதிய நகல்களையும் தற்காலிகமாகப் புறக்கணி. உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது Locket பதிவுசெய்யாமல் இருக்கப் பயனுள்ளது.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio-ஐ இடைநிறுத்து</value>
+    <value>Locket-ஐ இடைநிறுத்து</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>இதை ஸ்கிரிப்ட்களில் பயன்படுத்துவீர்கள். உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது கட்டளை வரியிலிருந்து Kleio-ஐ இடைநிறுத்தவும்:</value>
+    <value>இதை ஸ்கிரிப்ட்களில் பயன்படுத்துவீர்கள். உணர்திறன் வாய்ந்த தரவை நகலெடுக்கும்போது கட்டளை வரியிலிருந்து Locket-ஐ இடைநிறுத்தவும்:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … தரவை நகலெடு …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, தரவை நகலெடு, பிறகு kleio.exe --resume</value>
+    <value>locket.exe --pause, தரவை நகலெடு, பிறகு locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>அடுத்த நகலை மட்டும் புறக்கணிக்க:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … தரவை நகலெடு …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, பிறகு தரவை நகலெடு</value>
+    <value>locket.exe --ignore-next, பிறகு தரவை நகலெடு</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio-ஐ இடைநிறுத்த அல்லது தொடர அறிவிப்புப் பகுதி ஐகானில் Alt+கிளிக் செய்யலாம். அடுத்த நகலை மட்டும் புறக்கணிக்க அதில் Alt+Shift+கிளிக் செய்யவும்.</value>
+    <value>Locket-ஐ இடைநிறுத்த அல்லது தொடர அறிவிப்புப் பகுதி ஐகானில் Alt+கிளிக் செய்யலாம். அடுத்த நகலை மட்டும் புறக்கணிக்க அதில் Alt+Shift+கிளிக் செய்யவும்.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>அழித்தல்</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>கணினி கிளிப்போர்டையும் அழிக்கவும்</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio லோகோ</value>
+    <value>Locket லோகோ</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>பதிப்பு {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>நன்றி</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio என்பது Alex Rodionov உருவாக்கிய Maccy-இன் போர்ட்</value>
+    <value>Locket என்பது Alex Rodionov உருவாக்கிய Maccy-இன் போர்ட்</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy என்பது macOS-க்கான இலகுவான கிளிப்போர்டு மேலாளர். Kleio அதன் அம்சங்களையும் தளவமைப்பையும் Windows 11-க்குக் கொண்டுவருகிறது.</value>
+    <value>Maccy என்பது macOS-க்கான இலகுவான கிளிப்போர்டு மேலாளர். Locket அதன் அம்சங்களையும் தளவமைப்பையும் Windows 11-க்குக் கொண்டுவருகிறது.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy இணையதளம்</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>GitHub-இல் சிக்கல்களைப் புகாரளிக்கவும், அம்சங்களைப் பரிந்துரைக்கவும், பங்களிக்கவும்.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>GitHub-இல் Kleio</value>
+    <value>GitHub-இல் Locket</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>GitHub-இல் Kleio</value>
+    <value>GitHub-இல் Locket</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>ஆதரவு</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>உரிமம்</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio மற்றும் Maccy ஆகியவை MIT உரிமத்தின் கீழ் வெளியிடப்பட்ட கட்டற்ற மென்பொருள்.</value>
+    <value>Locket மற்றும் Maccy ஆகியவை MIT உரிமத்தின் கீழ் வெளியிடப்பட்ட கட்டற்ற மென்பொருள்.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT உரிமம்</value>

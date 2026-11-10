@@ -61,22 +61,22 @@
     <value>Iestatījumi…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Par Kleio</value>
+    <value>Par Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Iziet</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Atvērt Kleio</value>
+    <value>Atvērt Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Pauzēt Kleio</value>
+    <value>Pauzēt Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignorēt nākamo kopēšanu</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Iziet no Kleio</value>
+    <value>Iziet no Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Apturēt ielīmēšanas steku</value>
@@ -191,7 +191,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Notīrīt visus vienumus.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Atvērt Kleio iestatījumus.</value>
+    <value>Atvērt Locket iestatījumus.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Lasīt vairāk par lietotni.</value>
@@ -296,19 +296,19 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Kopiju skaits: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (apturēts)</value>
+    <value>Locket (apturēts)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignorē nākamo kopēšanu)</value>
+    <value>Locket (ignorē nākamo kopēšanu)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (nesaglabā nevienu tipu)</value>
+    <value>Locket (nesaglabā nevienu tipu)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Ir pieejama jauna Kleio versija!</value>
+    <value>Ir pieejama jauna Locket versija!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} tagad ir pieejama. Jums ir {1}.</value>
+    <value>Locket {0} tagad ir pieejama. Jums ir {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instalēt atjauninājumu</value>
@@ -323,22 +323,22 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Laidiena piezīmes</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Neizdevās instalēt Kleio {0}</value>
+    <value>Neizdevās instalēt Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Atvērt programmu instalētājā</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Notiek Kleio {0} instalēšana</value>
+    <value>Notiek Locket {0} instalēšana</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio tiks restartēta, kad atjauninājums būs instalēts.</value>
+    <value>Locket tiks restartēta, kad atjauninājums būs instalēts.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Notiek atjauninājuma instalēšana</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Notiek Kleio {0} lejupielāde. Kleio tiks restartēta, kad atjauninājums būs instalēts.</value>
+    <value>Notiek Locket {0} lejupielāde. Locket tiks restartēta, kad atjauninājums būs instalēts.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Neizdevās instalēt atjauninājumu</value>
@@ -347,16 +347,16 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Pieejams atjauninājums</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio ir atjaunināta</value>
+    <value>Locket ir atjaunināta</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} ir jaunākā versija.</value>
+    <value>Locket {0} ir jaunākā versija.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Neizdevās pārbaudīt atjauninājumus</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Netika atrasts neviens publicēts Kleio laidiens.</value>
+    <value>Netika atrasts neviens publicēts Locket laidiens.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Laidieni</value>
@@ -377,10 +377,10 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Atjauninājumu nevarēja instalēt.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} ir instalēta. Izejiet un atkal atveriet Kleio, lai to izmantotu.</value>
+    <value>Locket {0} ir instalēta. Izejiet un atkal atveriet Locket, lai to izmantotu.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio vēl nav gatava.</value>
+    <value>Locket vēl nav gatava.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Starpliktuves vienums netika atrasts</value>
@@ -395,37 +395,37 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Nezināma komanda</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio neatbildēja pēc palaišanas.</value>
+    <value>Locket neatbildēja pēc palaišanas.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio nereaģē.</value>
+    <value>Locket nereaģē.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Neizdevās palaist Kleio.</value>
+    <value>Neizdevās palaist Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio nesaprata pieprasījumu. Vai darbojas tā pati Kleio versija?</value>
+    <value>Locket nesaprata pieprasījumu. Vai darbojas tā pati Locket versija?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Vienums ir pārāk liels.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio nevarēja izpildīt komandu.</value>
+    <value>Locket nevarēja izpildīt komandu.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio tiek aizvērta.</value>
+    <value>Locket tiek aizvērta.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Lietošanas informācija: "kleio --help".</value>
+    <value>{0} Lietošanas informācija: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Neizdevās nosūtīt komandu uz Kleio.</value>
+    <value>Neizdevās nosūtīt komandu uz Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio neatbildēja.</value>
+    <value>Locket neatbildēja.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio nosūtīja nederīgu atbildi.</value>
+    <value>Locket nosūtīja nederīgu atbildi.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Neizdevās.</value>
@@ -467,10 +467,10 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Nezināma opcija: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio iestatījumi</value>
+    <value>Locket iestatījumi</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio iestatījumi</value>
+    <value>Locket iestatījumi</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Vispārīgi</value>
@@ -563,7 +563,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Palaist lietotni pieteikšanās laikā</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Automātiski palaist Kleio, kad piesakāties sistēmā Windows.</value>
+    <value>Automātiski palaist Locket, kad piesakāties sistēmā Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Palaist lietotni pieteikšanās laikā</value>
@@ -572,13 +572,13 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Windows izslēdza palaišanu pieteikšanās laikā</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio tika atspējota uzdevumu pārvaldniekā &gt; Startēšanas programmas (vai Iestatījumi &gt; Programmas &gt; Startēšana). Ieslēdziet to tur, lai Kleio tiktu palaista pieteikšanās laikā.</value>
+    <value>Locket tika atspējota uzdevumu pārvaldniekā &gt; Startēšanas programmas (vai Iestatījumi &gt; Programmas &gt; Startēšana). Ieslēdziet to tur, lai Locket tiktu palaista pieteikšanās laikā.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Automātiski pārbaudīt, vai nav atjauninājumu</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Reizi dienā meklēt jaunāku Kleio laidienu vietnē GitHub un piedāvāt to instalēt.</value>
+    <value>Reizi dienā meklēt jaunāku Locket laidienu vietnē GitHub un piedāvāt to instalēt.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Pārbaudīt tagad</value>
@@ -593,7 +593,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Valoda</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio izvēlņu, iestatījumu un ziņojumu valoda.</value>
+    <value>Locket izvēlņu, iestatījumu un ziņojumu valoda.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Valoda</value>
@@ -602,7 +602,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Windows noklusējums</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Restartējiet Kleio, lai izmantotu jauno valodu.</value>
+    <value>Restartējiet Locket, lai izmantotu jauno valodu.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Restartēt tūlīt</value>
@@ -611,13 +611,13 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Īsinājumtaustiņi</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Atvērt Kleio</value>
+    <value>Atvērt Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Globālais īsceļu taustiņš, lai atvērtu programmu. Pakāpeniski nospiežot galveno taustiņu, vienlaikus turot modifikatorus, tiek atlasīts nākamais elements sarakstā. Šajā režīmā, atlaižot modifikatoru taustiņus, tiks apstiprināta izvēle un aizvērts uznirstošais logs. No noklusējuma: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio atvēršanas īsinājumtaustiņš</value>
+    <value>Locket atvēršanas īsinājumtaustiņš</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Neizdevās reģistrēt īsinājumtaustiņu</value>
@@ -707,13 +707,13 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Windows starpliktuve</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Sistēmai Windows ir sava starpliktuves vēsture, ko atver ar Win+V. Kamēr Kleio darbojas, tā var pārņemt šo īsinājumtaustiņu, nemainot nevienu Windows iestatījumu.</value>
+    <value>Sistēmai Windows ir sava starpliktuves vēsture, ko atver ar Win+V. Kamēr Locket darbojas, tā var pārņemt šo īsinājumtaustiņu, nemainot nevienu Windows iestatījumu.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Aizstāt Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kamēr Kleio darbojas, Win+V atver Kleio Windows starpliktuves vēstures vietā. Windows iestatījumi netiek mainīti.</value>
+    <value>Kamēr Locket darbojas, Win+V atver Locket Windows starpliktuves vēstures vietā. Windows iestatījumi netiek mainīti.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Aizstāt Win+V</value>
@@ -722,7 +722,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Bloķēt Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kamēr darbojas Kleio, Win+C neko nedara. Windows to izmanto Copilot un neļauj to izslēgt. Windows iestatījumi netiek mainīti.</value>
+    <value>Kamēr darbojas Locket, Win+C neko nedara. Windows to izmanto Copilot un neļauj to izslēgt. Windows iestatījumi netiek mainīti.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bloķēt Win+C</value>
@@ -746,7 +746,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Rādīt paziņojumus</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Rādīt paziņojumu ar vienumu, kad Kleio kopē vienumu vai saglabā jaunu kopiju.</value>
+    <value>Rādīt paziņojumu ar vienumu, kad Locket kopē vienumu vai saglabā jaunu kopiju.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rādīt paziņojumus</value>
@@ -755,13 +755,13 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Paziņojumi sistēmā Windows ir izslēgti</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Lai tos redzētu, ieslēdziet Kleio paziņojumus Windows paziņojumu iestatījumos.</value>
+    <value>Lai tos redzētu, ieslēdziet Locket paziņojumus Windows paziņojumu iestatījumos.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Atskaņot skaņas</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Atskaņot skaņu, kad Kleio kopē vienumu vai saglabā jaunu kopiju.</value>
+    <value>Atskaņot skaņu, kad Locket kopē vienumu vai saglabā jaunu kopiju.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Atskaņot skaņas</value>
@@ -770,7 +770,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Windows paziņojumu iestatījumi</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Izvēlieties, kā tiek rādīti Kleio paziņojumi, vai izslēdziet tos sadaļā Iestatījumi &gt; Sistēma &gt; Paziņojumi.</value>
+    <value>Izvēlieties, kā tiek rādīti Locket paziņojumi, vai izslēdziet tos sadaļā Iestatījumi &gt; Sistēma &gt; Paziņojumi.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Atvērt Windows paziņojumu iestatījumus</value>
@@ -974,7 +974,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Rādīt ikonu paziņojumu apgabalā</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Rādīt Kleio ikonu uzdevumjoslas paziņojumu apgabalā.</value>
+    <value>Rādīt Locket ikonu uzdevumjoslas paziņojumu apgabalā.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rādīt ikonu paziņojumu apgabalā</value>
@@ -983,7 +983,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Paziņojumu apgabala ikonas stils</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logotips</value>
+    <value>Locket logotips</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Starpliktuve</value>
@@ -1037,7 +1037,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Rādīt virsrakstu pirms meklēšanas lauka</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Rādīt “Kleio” pa kreisi no meklēšanas lauka.</value>
+    <value>Rādīt “Locket” pa kreisi no meklēšanas lauka.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rādīt virsrakstu pirms meklēšanas lauka</value>
@@ -1085,7 +1085,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Regulārās izteiksmes</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Kopijas no noteiktām lietojumprogrammām var ignorēt. Ņemiet vērā, ka tas nav pilnīgi drošs: Windows nepasaka, kura programma kaut ko nokopēja, tāpēc Kleio pārbauda programmu, kurai pieder starpliktuve vai kura ir priekšplānā. Ja iespējams, izmantojiet starpliktuves formātus.</value>
+    <value>Kopijas no noteiktām lietojumprogrammām var ignorēt. Ņemiet vērā, ka tas nav pilnīgi drošs: Windows nepasaka, kura programma kaut ko nokopēja, tāpēc Locket pārbauda programmu, kurai pieder starpliktuve vai kura ir priekšplānā. Ja iespējams, izmantojiet starpliktuves formātus.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignorēt visas lietojumprogrammas, izņemot norādītās</value>
@@ -1181,7 +1181,7 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Nav definētu regulāro izteiksmju.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio vienmēr ignorē kopijas, kas atzīmētas ar “{0}” vai “{1}”: tās ir Windows konvencijas, ar kurām paroļu pārvaldnieki un citas programmas sargā sensitīvus datus no starpliktuves pārvaldniekiem.</value>
+    <value>Locket vienmēr ignorē kopijas, kas atzīmētas ar “{0}” vai “{1}”: tās ir Windows konvencijas, ar kurām paroļu pārvaldnieki un citas programmas sargā sensitīvus datus no starpliktuves pārvaldniekiem.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Noņemt</value>
@@ -1202,37 +1202,37 @@ Atlasiet ar Shift, lai notīrītu visus.</value>
     <value>Pauze</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Pauzēt Kleio</value>
+    <value>Pauzēt Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Īslaicīgi ignorēt visas jaunās kopijas. Noderīgi, lai Kleio neko neierakstītu, kamēr kopējat sensitīvus datus.</value>
+    <value>Īslaicīgi ignorēt visas jaunās kopijas. Noderīgi, lai Locket neko neierakstītu, kamēr kopējat sensitīvus datus.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pauzēt Kleio</value>
+    <value>Pauzēt Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Visticamāk, jūs to izmantosiet skriptos. Kopējot sensitīvus datus, pauzējiet Kleio no komandrindas:</value>
+    <value>Visticamāk, jūs to izmantosiet skriptos. Kopējot sensitīvus datus, pauzējiet Locket no komandrindas:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … datu kopēšana …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, datu kopēšana, pēc tam kleio.exe --resume</value>
+    <value>locket.exe --pause, datu kopēšana, pēc tam locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Lai ignorētu tikai nākamo kopēšanu:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … datu kopēšana …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, pēc tam datu kopēšana</value>
+    <value>locket.exe --ignore-next, pēc tam datu kopēšana</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio var pauzēt vai atsākt arī ar Alt+klikšķi uz paziņojumu apgabala ikonas. Lai ignorētu tikai nākamo kopēšanu, noklikšķiniet ar Alt+Shift.</value>
+    <value>Locket var pauzēt vai atsākt arī ar Alt+klikšķi uz paziņojumu apgabala ikonas. Lai ignorētu tikai nākamo kopēšanu, noklikšķiniet ar Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Tīrīšana</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Notīrīt arī sistēmas starpliktuvi</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logotips</value>
+    <value>Locket logotips</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versija {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Pateicības</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio ir Aleksa Rodionova programmas Maccy pārnesums</value>
+    <value>Locket ir Aleksa Rodionova programmas Maccy pārnesums</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy ir viegls starpliktuves pārvaldnieks operētājsistēmai macOS. Kleio pārnes tā funkcijas un izkārtojumu uz Windows 11.</value>
+    <value>Maccy ir viegls starpliktuves pārvaldnieks operētājsistēmai macOS. Locket pārnes tā funkcijas un izkārtojumu uz Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy tīmekļa vietne</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Ziņojiet par problēmām, iesakiet funkcijas un piedalieties vietnē GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio vietnē GitHub</value>
+    <value>Locket vietnē GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio vietnē GitHub</value>
+    <value>Locket vietnē GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Atbalsts</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licence</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio un Maccy ir brīva programmatūra, kas izlaista ar MIT licenci.</value>
+    <value>Locket un Maccy ir brīva programmatūra, kas izlaista ar MIT licenci.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT licence</value>

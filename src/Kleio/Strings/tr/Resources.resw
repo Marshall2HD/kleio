@@ -61,22 +61,22 @@
     <value>Ayarlar…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Kleio hakkında</value>
+    <value>Locket hakkında</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Çık</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio'yu aç</value>
+    <value>Locket'i aç</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio'yu duraklat</value>
+    <value>Locket'i duraklat</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Sonraki kopyalamayı yok say</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Kleio'dan çık</value>
+    <value>Locket'ten çık</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Yapıştırma yığınını durdur</value>
@@ -191,7 +191,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Tüm ögeleri temizle.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Kleio ayarlarını aç.</value>
+    <value>Locket ayarlarını aç.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Uygulama hakkında daha fazla bilgi edinin.</value>
@@ -296,19 +296,19 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Kopya sayısı: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (duraklatıldı)</value>
+    <value>Locket (duraklatıldı)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (sonraki kopyalama yok sayılıyor)</value>
+    <value>Locket (sonraki kopyalama yok sayılıyor)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (hiçbir tür kaydedilmiyor)</value>
+    <value>Locket (hiçbir tür kaydedilmiyor)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleio'nun yeni bir sürümü var!</value>
+    <value>Locket'in yeni bir sürümü var!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} artık kullanılabilir. Sizdeki sürüm: {1}.</value>
+    <value>Locket {0} artık kullanılabilir. Sizdeki sürüm: {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Güncellemeyi yükle</value>
@@ -323,22 +323,22 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Sürüm notları</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0} yüklenemedi</value>
+    <value>Locket {0} yüklenemedi</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Uygulama Yükleyicisi'nde aç</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} yükleniyor</value>
+    <value>Locket {0} yükleniyor</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Güncelleme yüklendiğinde Kleio yeniden başlar.</value>
+    <value>Güncelleme yüklendiğinde Locket yeniden başlar.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Güncelleme yükleniyor</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} indiriliyor. Güncelleme yüklendiğinde Kleio yeniden başlar.</value>
+    <value>Locket {0} indiriliyor. Güncelleme yüklendiğinde Locket yeniden başlar.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Güncelleme yüklenemedi</value>
@@ -347,16 +347,16 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Güncelleme var</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio güncel</value>
+    <value>Locket güncel</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} en son sürüm.</value>
+    <value>Locket {0} en son sürüm.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Güncellemeler denetlenemedi</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Yayımlanmış bir Kleio sürümü bulunamadı.</value>
+    <value>Yayımlanmış bir Locket sürümü bulunamadı.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Sürümler</value>
@@ -377,10 +377,10 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Güncelleme yüklenemedi.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} yüklendi. Kullanmak için Kleio'dan çıkıp yeniden açın.</value>
+    <value>Locket {0} yüklendi. Kullanmak için Locket'ten çıkıp yeniden açın.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio henüz hazır değil.</value>
+    <value>Locket henüz hazır değil.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Pano ögesi bulunamadı</value>
@@ -395,37 +395,37 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bilinmeyen komut</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio başlatıldıktan sonra yanıt vermedi.</value>
+    <value>Locket başlatıldıktan sonra yanıt vermedi.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio yanıt vermiyor.</value>
+    <value>Locket yanıt vermiyor.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio başlatılamadı.</value>
+    <value>Locket başlatılamadı.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio isteği anlamadı. Çalışan Kleio aynı sürüm mü?</value>
+    <value>Locket isteği anlamadı. Çalışan Locket aynı sürüm mü?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Öge çok büyük.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio komutu çalıştıramadı.</value>
+    <value>Locket komutu çalıştıramadı.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio kapanıyor.</value>
+    <value>Locket kapanıyor.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Kullanım için "kleio --help" komutunu çalıştırın.</value>
+    <value>{0} Kullanım için "locket --help" komutunu çalıştırın.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Komut Kleio'ya gönderilemedi.</value>
+    <value>Komut Locket'e gönderilemedi.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio yanıt vermedi.</value>
+    <value>Locket yanıt vermedi.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio geçersiz bir yanıt gönderdi.</value>
+    <value>Locket geçersiz bir yanıt gönderdi.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Başarısız.</value>
@@ -467,10 +467,10 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bilinmeyen seçenek: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio Ayarları</value>
+    <value>Locket Ayarları</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio Ayarları</value>
+    <value>Locket Ayarları</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Genel</value>
@@ -563,7 +563,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Girişte başlat</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Windows'ta oturum açtığınızda Kleio'yu otomatik olarak başlat.</value>
+    <value>Windows'ta oturum açtığınızda Locket'i otomatik olarak başlat.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Girişte başlat</value>
@@ -572,13 +572,13 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Girişte başlatma Windows tarafından kapatıldı</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio, Görev Yöneticisi &gt; Başlangıç uygulamaları (veya Ayarlar &gt; Uygulamalar &gt; Başlangıç) bölümünde devre dışı bırakıldı. Kleio'nun oturum açılışında başlaması için orada açın.</value>
+    <value>Locket, Görev Yöneticisi &gt; Başlangıç uygulamaları (veya Ayarlar &gt; Uygulamalar &gt; Başlangıç) bölümünde devre dışı bırakıldı. Locket'in oturum açılışında başlaması için orada açın.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Güncellemeleri otomatik olarak denetle</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Günde bir kez GitHub'da daha yeni bir Kleio sürümü ara ve yüklemeyi öner.</value>
+    <value>Günde bir kez GitHub'da daha yeni bir Locket sürümü ara ve yüklemeyi öner.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Şimdi denetle</value>
@@ -593,7 +593,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Dil</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio'nun menülerinin, ayarlarının ve iletilerinin dili.</value>
+    <value>Locket'in menülerinin, ayarlarının ve iletilerinin dili.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Dil</value>
@@ -602,7 +602,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Windows varsayılanı</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Yeni dili kullanmak için Kleio'yu yeniden başlatın.</value>
+    <value>Yeni dili kullanmak için Locket'i yeniden başlatın.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Şimdi yeniden başlat</value>
@@ -611,13 +611,13 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Kısayollar</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio'yu aç</value>
+    <value>Locket'i aç</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Uygulamayı açmak için global kısayol tuşu. Değiştiricileri basılı tutarken ana tuşa tekrar basmak listedeki bir sonraki öğeyi seçecektir. Bu modda, değiştirici tuşların bırakılması seçimi onaylayacak ve açılır pencereyi kapatacaktır. Varsayılan: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio'yu açma kısayolu</value>
+    <value>Locket'i açma kısayolu</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Kısayol kaydedilemedi</value>
@@ -707,13 +707,13 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Windows panosu</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows'un Win+V ile açılan kendi pano geçmişi vardır. Kleio, çalıştığı sürece hiçbir Windows ayarını değiştirmeden bu kısayolu devralabilir.</value>
+    <value>Windows'un Win+V ile açılan kendi pano geçmişi vardır. Locket, çalıştığı sürece hiçbir Windows ayarını değiştirmeden bu kısayolu devralabilir.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V kısayolunu değiştir</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kleio çalışırken Win+V, Windows pano geçmişi yerine Kleio'yu açar. Windows ayarları değiştirilmez.</value>
+    <value>Locket çalışırken Win+V, Windows pano geçmişi yerine Locket'i açar. Windows ayarları değiştirilmez.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V kısayolunu değiştir</value>
@@ -722,7 +722,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Win+C’yi engelle</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kleio çalışırken Win+C hiçbir şey yapmaz. Windows bunu Copilot için kullanır ve kapatmanın bir yolunu sunmaz. Windows ayarları değiştirilmez.</value>
+    <value>Locket çalışırken Win+C hiçbir şey yapmaz. Windows bunu Copilot için kullanır ve kapatmanın bir yolunu sunmaz. Windows ayarları değiştirilmez.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C’yi engelle</value>
@@ -746,7 +746,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bildirimleri göster</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Kleio bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ögeyle birlikte bildirim göster.</value>
+    <value>Locket bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ögeyle birlikte bildirim göster.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bildirimleri göster</value>
@@ -755,13 +755,13 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bildirimler Windows'ta kapalı</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Bildirimleri görmek için Windows bildirim ayarlarında Kleio bildirimlerini açın.</value>
+    <value>Bildirimleri görmek için Windows bildirim ayarlarında Locket bildirimlerini açın.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Ses çal</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Kleio bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ses çal.</value>
+    <value>Locket bir ögeyi kopyaladığında veya yeni bir kopya kaydettiğinde ses çal.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ses çal</value>
@@ -770,7 +770,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Windows bildirim ayarları</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Kleio bildirimlerinin nasıl görüneceğini Ayarlar &gt; Sistem &gt; Bildirimler bölümünden seçin veya kapatın.</value>
+    <value>Locket bildirimlerinin nasıl görüneceğini Ayarlar &gt; Sistem &gt; Bildirimler bölümünden seçin veya kapatın.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Windows bildirim ayarlarını aç</value>
@@ -974,7 +974,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bildirim alanında simge göster</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Kleio simgesini görev çubuğunun bildirim alanında göster.</value>
+    <value>Locket simgesini görev çubuğunun bildirim alanında göster.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bildirim alanında simge göster</value>
@@ -983,7 +983,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Bildirim alanı simgesinin stili</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logosu</value>
+    <value>Locket logosu</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Pano</value>
@@ -1037,7 +1037,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Arama alanı öncesi başlığı göster</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Arama alanının solunda “Kleio” yazısını göster.</value>
+    <value>Arama alanının solunda “Locket” yazısını göster.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Arama alanı öncesi başlığı göster</value>
@@ -1085,7 +1085,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Düzenli ifadeler</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Belirli uygulamalardan gelen kopyalar yok sayılabilir. Bunun kusursuz olmadığını unutmayın: Windows bir şeyi hangi uygulamanın kopyaladığını söylemez, bu yüzden Kleio panonun sahibi olan veya ön planda olan uygulamayı denetler. Mümkün olduğunda pano biçimlerini tercih edin.</value>
+    <value>Belirli uygulamalardan gelen kopyalar yok sayılabilir. Bunun kusursuz olmadığını unutmayın: Windows bir şeyi hangi uygulamanın kopyaladığını söylemez, bu yüzden Locket panonun sahibi olan veya ön planda olan uygulamayı denetler. Mümkün olduğunda pano biçimlerini tercih edin.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Listelenenler dışındaki tüm uygulamaları yoksay</value>
@@ -1181,7 +1181,7 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Tanımlı normal ifade yok.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio, “{0}” veya “{1}” ile işaretlenmiş kopyaları her zaman yok sayar: bunlar parola yöneticilerinin ve diğer uygulamaların hassas verileri pano yöneticilerinden uzak tutmak için kullandığı Windows kurallarıdır.</value>
+    <value>Locket, “{0}” veya “{1}” ile işaretlenmiş kopyaları her zaman yok sayar: bunlar parola yöneticilerinin ve diğer uygulamaların hassas verileri pano yöneticilerinden uzak tutmak için kullandığı Windows kurallarıdır.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Kaldır</value>
@@ -1202,37 +1202,37 @@ Hepsini temizlemek için Shift ile seçin.</value>
     <value>Duraklat</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio'yu duraklat</value>
+    <value>Locket'i duraklat</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Tüm yeni kopyaları geçici olarak yok say. Hassas verileri kopyalarken Kleio'nun kayıt yapmasını önlemek için kullanışlıdır.</value>
+    <value>Tüm yeni kopyaları geçici olarak yok say. Hassas verileri kopyalarken Locket'in kayıt yapmasını önlemek için kullanışlıdır.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio'yu duraklat</value>
+    <value>Locket'i duraklat</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Bunu büyük olasılıkla betiklerden kullanacaksınız. Hassas verileri kopyalarken Kleio'yu komut satırından duraklatın:</value>
+    <value>Bunu büyük olasılıkla betiklerden kullanacaksınız. Hassas verileri kopyalarken Locket'i komut satırından duraklatın:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … verileri kopyala …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, verileri kopyala, ardından kleio.exe --resume</value>
+    <value>locket.exe --pause, verileri kopyala, ardından locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Yalnızca sonraki kopyalamayı yok saymak için:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … verileri kopyala …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, ardından verileri kopyala</value>
+    <value>locket.exe --ignore-next, ardından verileri kopyala</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio'yu duraklatmak veya sürdürmek için bildirim alanı simgesine Alt+tıklama da yapabilirsiniz. Yalnızca sonraki kopyalamayı yok saymak için Alt+Shift+tıklayın.</value>
+    <value>Locket'i duraklatmak veya sürdürmek için bildirim alanı simgesine Alt+tıklama da yapabilirsiniz. Yalnızca sonraki kopyalamayı yok saymak için Alt+Shift+tıklayın.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Temizleme</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Sistem panosunu da temizle</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logosu</value>
+    <value>Locket logosu</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Sürüm {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Emeği geçenler</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio, Alex Rodionov'un Maccy uygulamasının bir uyarlamasıdır</value>
+    <value>Locket, Alex Rodionov'un Maccy uygulamasının bir uyarlamasıdır</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy, macOS için hafif bir pano yöneticisidir. Kleio onun özelliklerini ve düzenini Windows 11'e taşır.</value>
+    <value>Maccy, macOS için hafif bir pano yöneticisidir. Locket onun özelliklerini ve düzenini Windows 11'e taşır.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy web sitesi</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>GitHub'da sorun bildirin, özellik önerin ve katkıda bulunun.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>GitHub'da Kleio</value>
+    <value>GitHub'da Locket</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>GitHub'da Kleio</value>
+    <value>GitHub'da Locket</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Destek</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Lisans</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio ve Maccy, MIT Lisansı altında yayımlanan özgür yazılımlardır.</value>
+    <value>Locket ve Maccy, MIT Lisansı altında yayımlanan özgür yazılımlardır.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT Lisansı</value>

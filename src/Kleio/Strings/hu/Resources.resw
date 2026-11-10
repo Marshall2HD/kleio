@@ -61,16 +61,16 @@
     <value>Beállítások…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>A Kleio névjegye</value>
+    <value>A Locket névjegye</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Bezárás</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio megnyitása</value>
+    <value>Locket megnyitása</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio szüneteltetése</value>
+    <value>Locket szüneteltetése</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Következő másolás mellőzése</value>
@@ -191,7 +191,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Minden elem törlése.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>A Kleio beállításainak megnyitása.</value>
+    <value>A Locket beállításainak megnyitása.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Tudj meg többet az alkalmazásról.</value>
@@ -296,19 +296,19 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Másolások száma: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (szüneteltetve)</value>
+    <value>Locket (szüneteltetve)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (a következő másolást mellőzi)</value>
+    <value>Locket (a következő másolást mellőzi)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (egyetlen típust sem tárol)</value>
+    <value>Locket (egyetlen típust sem tárol)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Elérhető a Kleio új verziója!</value>
+    <value>Elérhető a Locket új verziója!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Elérhető a Kleio {0}. A te verziód: {1}.</value>
+    <value>Elérhető a Locket {0}. A te verziód: {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Frissítés telepítése</value>
@@ -323,22 +323,22 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Kiadási megjegyzések</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Nem sikerült telepíteni: Kleio {0}</value>
+    <value>Nem sikerült telepíteni: Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Megnyitás az Alkalmazástelepítőben</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Telepítés: Kleio {0}</value>
+    <value>Telepítés: Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>A Kleio a frissítés telepítése után újraindul.</value>
+    <value>A Locket a frissítés telepítése után újraindul.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Frissítés telepítése</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Letöltés: Kleio {0}. A Kleio a frissítés telepítése után újraindul.</value>
+    <value>Letöltés: Locket {0}. A Locket a frissítés telepítése után újraindul.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Nem sikerült telepíteni a frissítést</value>
@@ -347,16 +347,16 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Frissítés érhető el</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>A Kleio naprakész</value>
+    <value>A Locket naprakész</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>A Kleio {0} a legújabb verzió.</value>
+    <value>A Locket {0} a legújabb verzió.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Nem sikerült frissítéseket keresni</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Nem található közzétett Kleio-kiadás.</value>
+    <value>Nem található közzétett Locket-kiadás.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Kiadások</value>
@@ -377,10 +377,10 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>A frissítést nem sikerült telepíteni.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>A Kleio {0} telepítve. Lépj ki, majd nyisd meg újra a Kleiót a használatához.</value>
+    <value>A Locket {0} telepítve. Lépj ki, majd nyisd meg újra a Kleiót a használatához.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>A Kleio még nem áll készen.</value>
+    <value>A Locket még nem áll készen.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>A vágólapelem nem található</value>
@@ -395,37 +395,37 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Ismeretlen parancs</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>A Kleio nem válaszolt az indítás után.</value>
+    <value>A Locket nem válaszolt az indítás után.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>A Kleio nem válaszol.</value>
+    <value>A Locket nem válaszol.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
     <value>Nem sikerült elindítani a Kleiót.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>A Kleio nem értette a kérést. Ugyanaz a Kleio-verzió fut?</value>
+    <value>A Locket nem értette a kérést. Ugyanaz a Locket-verzió fut?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Az elem túl nagy.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>A Kleio nem tudta végrehajtani a parancsot.</value>
+    <value>A Locket nem tudta végrehajtani a parancsot.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>A Kleio kilép.</value>
+    <value>A Locket kilép.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} A használathoz futtasd: "kleio --help".</value>
+    <value>{0} A használathoz futtasd: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
     <value>Nem sikerült elküldeni a parancsot a Kleiónak.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>A Kleio nem válaszolt.</value>
+    <value>A Locket nem válaszolt.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>A Kleio érvénytelen választ küldött.</value>
+    <value>A Locket érvénytelen választ küldött.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Sikertelen.</value>
@@ -467,10 +467,10 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Ismeretlen kapcsoló: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio beállításai</value>
+    <value>Locket beállításai</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio beállításai</value>
+    <value>Locket beállításai</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Általános</value>
@@ -563,7 +563,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Indítás a bejelentkezéssel együtt</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>A Kleio automatikus indítása, amikor bejelentkezel a Windowsba.</value>
+    <value>A Locket automatikus indítása, amikor bejelentkezel a Windowsba.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Indítás a bejelentkezéssel együtt</value>
@@ -572,13 +572,13 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>A Windows kikapcsolta az indítást bejelentkezéskor</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>A Kleio le van tiltva a Feladatkezelő &gt; Indítási alkalmazások (vagy a Beállítások &gt; Alkalmazások &gt; Indítás) helyen. Kapcsold be ott, hogy a Kleio bejelentkezéskor elinduljon.</value>
+    <value>A Locket le van tiltva a Feladatkezelő &gt; Indítási alkalmazások (vagy a Beállítások &gt; Alkalmazások &gt; Indítás) helyen. Kapcsold be ott, hogy a Locket bejelentkezéskor elinduljon.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Frissítések automatikus keresése</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Naponta egyszer újabb Kleio-kiadás keresése a GitHubon, és telepítés felajánlása.</value>
+    <value>Naponta egyszer újabb Locket-kiadás keresése a GitHubon, és telepítés felajánlása.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Ellenőrzés most</value>
@@ -593,7 +593,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Nyelv</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>A Kleio menüinek, beállításainak és üzeneteinek nyelve.</value>
+    <value>A Locket menüinek, beállításainak és üzeneteinek nyelve.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Nyelv</value>
@@ -611,13 +611,13 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Billentyűparancsok</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio megnyitása</value>
+    <value>Locket megnyitása</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Globális gyorsbillentyű az alkalmazás megnyitásához. A fő billentyű ismételt lenyomása a módosítók lenyomva tartása mellett a következő elemet választja ki a listában. Ebben az üzemmódban a módosító billentyűk elengedése megerősíti a kiválasztást és bezárja a felugró ablakot. Egyértelmezett: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>A Kleio megnyitásának billentyűparancsa</value>
+    <value>A Locket megnyitásának billentyűparancsa</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Nem sikerült regisztrálni a billentyűparancsot</value>
@@ -707,13 +707,13 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Windows vágólap</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>A Windowsnak saját vágólapelőzményei vannak, amelyek a Win+V billentyűkkel nyílnak meg. A Kleio futás közben átveheti ezt a billentyűparancsot anélkül, hogy bármilyen Windows-beállítást módosítana.</value>
+    <value>A Windowsnak saját vágólapelőzményei vannak, amelyek a Win+V billentyűkkel nyílnak meg. A Locket futás közben átveheti ezt a billentyűparancsot anélkül, hogy bármilyen Windows-beállítást módosítana.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V lecserélése</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Amíg a Kleio fut, a Win+V a Kleiót nyitja meg a Windows vágólapelőzményei helyett. A Windows beállításai nem módosulnak.</value>
+    <value>Amíg a Locket fut, a Win+V a Kleiót nyitja meg a Windows vágólapelőzményei helyett. A Windows beállításai nem módosulnak.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V lecserélése</value>
@@ -722,7 +722,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Win+C letiltása</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>A Win+C nem csinál semmit, amíg a Kleio fut. A Windows a Copilothoz használja, és nem lehet kikapcsolni. A Windows beállításai nem változnak.</value>
+    <value>A Win+C nem csinál semmit, amíg a Locket fut. A Windows a Copilothoz használja, és nem lehet kikapcsolni. A Windows beállításai nem változnak.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C letiltása</value>
@@ -746,7 +746,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Értesítések megjelenítése</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Értesítés megjelenítése az elemmel, amikor a Kleio másol egy elemet vagy új másolatot ment.</value>
+    <value>Értesítés megjelenítése az elemmel, amikor a Locket másol egy elemet vagy új másolatot ment.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Értesítések megjelenítése</value>
@@ -755,13 +755,13 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Az értesítések ki vannak kapcsolva a Windowsban</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Kapcsold be a Kleio értesítéseit a Windows értesítési beállításaiban, hogy lásd őket.</value>
+    <value>Kapcsold be a Locket értesítéseit a Windows értesítési beállításaiban, hogy lásd őket.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Hangok lejátszása</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Hang lejátszása, amikor a Kleio másol egy elemet vagy új másolatot ment.</value>
+    <value>Hang lejátszása, amikor a Locket másol egy elemet vagy új másolatot ment.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Hangok lejátszása</value>
@@ -770,7 +770,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Windows értesítési beállításai</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Válaszd ki, hogyan jelenjenek meg a Kleio értesítései, vagy kapcsold ki őket a Beállítások &gt; Rendszer &gt; Értesítések helyen.</value>
+    <value>Válaszd ki, hogyan jelenjenek meg a Locket értesítései, vagy kapcsold ki őket a Beállítások &gt; Rendszer &gt; Értesítések helyen.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>A Windows értesítési beállításainak megnyitása</value>
@@ -974,7 +974,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Ikon megjelenítése az értesítési területen</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>A Kleio ikonjának megjelenítése a tálca értesítési területén.</value>
+    <value>A Locket ikonjának megjelenítése a tálca értesítési területén.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ikon megjelenítése az értesítési területen</value>
@@ -983,7 +983,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Az értesítési területen lévő ikon stílusa</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio embléma</value>
+    <value>Locket embléma</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Vágólap</value>
@@ -1037,7 +1037,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Cím megjelenítése a keresőmező előtt</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>„Kleio” megjelenítése a keresőmezőtől balra.</value>
+    <value>„Locket” megjelenítése a keresőmezőtől balra.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Cím megjelenítése a keresőmező előtt</value>
@@ -1085,7 +1085,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Reguláris kifejezés</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Bizonyos alkalmazásokból származó másolatok mellőzhetők. Ez nem tökéletesen megbízható: a Windows nem árulja el, melyik alkalmazás másolt valamit, ezért a Kleio a vágólap tulajdonosát vagy az előtérben lévő alkalmazást ellenőrzi. Ha lehet, inkább vágólapformátumokat használj.</value>
+    <value>Bizonyos alkalmazásokból származó másolatok mellőzhetők. Ez nem tökéletesen megbízható: a Windows nem árulja el, melyik alkalmazás másolt valamit, ezért a Locket a vágólap tulajdonosát vagy az előtérben lévő alkalmazást ellenőrzi. Ha lehet, inkább vágólapformátumokat használj.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Az összes alkalmazás figyelmen kívül hagyása kivéve a listázottakat</value>
@@ -1181,7 +1181,7 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Nincsenek megadott reguláris kifejezések.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>A Kleio mindig mellőzi a „{0}” vagy „{1}” jelöléssel ellátott másolatokat: ezek azok a Windows-konvenciók, amelyekkel a jelszókezelők és más alkalmazások távol tartják a bizalmas adatokat a vágólapkezelőktől.</value>
+    <value>A Locket mindig mellőzi a „{0}” vagy „{1}” jelöléssel ellátott másolatokat: ezek azok a Windows-konvenciók, amelyekkel a jelszókezelők és más alkalmazások távol tartják a bizalmas adatokat a vágólapkezelőktől.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Eltávolítás</value>
@@ -1202,34 +1202,34 @@ Válassz a Shift-el az összes törléséhez.</value>
     <value>Szüneteltetés</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio szüneteltetése</value>
+    <value>Locket szüneteltetése</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Minden új másolat ideiglenes mellőzése. Hasznos, hogy a Kleio ne rögzítsen semmit, amíg bizalmas adatokat másolsz.</value>
+    <value>Minden új másolat ideiglenes mellőzése. Hasznos, hogy a Locket ne rögzítsen semmit, amíg bizalmas adatokat másolsz.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio szüneteltetése</value>
+    <value>Locket szüneteltetése</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
     <value>Valószínűleg szkriptekből fogod használni. Szüneteltesd a Kleiót a parancssorból, amíg bizalmas adatokat másolsz:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … adatok másolása …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, adatok másolása, majd kleio.exe --resume</value>
+    <value>locket.exe --pause, adatok másolása, majd locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Csak a következő másolás mellőzéséhez:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … adatok másolása …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, majd adatok másolása</value>
+    <value>locket.exe --ignore-next, majd adatok másolása</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
     <value>A Kleiót az értesítési terület ikonjára Alt+kattintással is szüneteltetheted vagy folytathatod. Csak a következő másolás mellőzéséhez kattints Alt+Shift lenyomásával.</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>A rendszer vágólapjának is a törlése</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio embléma</value>
+    <value>Locket embléma</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Verzió: {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Köszönetnyilvánítás</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>A Kleio Alex Rodionov Maccy alkalmazásának átirata</value>
+    <value>A Locket Alex Rodionov Maccy alkalmazásának átirata</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>A Maccy egy könnyű vágólapkezelő macOS-re. A Kleio a funkcióit és az elrendezését hozza el Windows 11-re.</value>
+    <value>A Maccy egy könnyű vágólapkezelő macOS-re. A Locket a funkcióit és az elrendezését hozza el Windows 11-re.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>A Maccy webhelye</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Jelents hibákat, javasolj funkciókat, és működj közre a GitHubon.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio a GitHubon</value>
+    <value>Locket a GitHubon</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio a GitHubon</value>
+    <value>Locket a GitHubon</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Támogatás</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licenc</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>A Kleio és a Maccy MIT-licenc alatt kiadott szabad szoftver.</value>
+    <value>A Locket és a Maccy MIT-licenc alatt kiadott szabad szoftver.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT-licenc</value>

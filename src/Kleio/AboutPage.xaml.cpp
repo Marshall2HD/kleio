@@ -20,6 +20,10 @@ namespace winrt::Kleio::implementation
         try
         {
             VersionText().Text(::Kleio::Strings::Format(L"About_Version", ::Kleio::SystemIntegration::AppVersion()));
+            if (::Kleio::SystemIntegration::InstalledFromStore())
+            {
+                CheckUpdatesButton().Visibility(winrt::Visibility::Collapsed);
+            }
         }
         catch (...)
         {

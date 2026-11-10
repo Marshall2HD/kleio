@@ -61,22 +61,22 @@
     <value>Asetukset…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Tietoja Kleiosta</value>
+    <value>Tietoja Locketista</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Lopeta</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Avaa Kleio</value>
+    <value>Avaa Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Keskeytä Kleio</value>
+    <value>Keskeytä Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ohita seuraava kopiointi</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Lopeta Kleio</value>
+    <value>Lopeta Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Pysäytä liittämispino</value>
@@ -191,7 +191,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Tyhjennä kaikki kohteet.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Avaa Kleion asetukset.</value>
+    <value>Avaa Locketin asetukset.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Lue lisää sovelluksesta.</value>
@@ -296,19 +296,19 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Kopiointikertoja: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (keskeytetty)</value>
+    <value>Locket (keskeytetty)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ohittaa seuraavan kopioinnin)</value>
+    <value>Locket (ohittaa seuraavan kopioinnin)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (ei tallenna mitään tyyppiä)</value>
+    <value>Locket (ei tallenna mitään tyyppiä)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleiosta on saatavilla uusi versio!</value>
+    <value>Locketista on saatavilla uusi versio!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} on nyt saatavilla. Sinulla on {1}.</value>
+    <value>Locket {0} on nyt saatavilla. Sinulla on {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Asenna päivitys</value>
@@ -323,22 +323,22 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Julkaisutiedot</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0}:n asentaminen epäonnistui</value>
+    <value>Locket {0}:n asentaminen epäonnistui</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Avaa sovellusten asennusohjelmassa</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Asennetaan Kleio {0}</value>
+    <value>Asennetaan Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio käynnistyy uudelleen, kun päivitys on asennettu.</value>
+    <value>Locket käynnistyy uudelleen, kun päivitys on asennettu.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Asennetaan päivitystä</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Ladataan Kleio {0}. Kleio käynnistyy uudelleen, kun päivitys on asennettu.</value>
+    <value>Ladataan Locket {0}. Locket käynnistyy uudelleen, kun päivitys on asennettu.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Päivityksen asentaminen epäonnistui</value>
@@ -347,16 +347,16 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Päivitys saatavilla</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio on ajan tasalla</value>
+    <value>Locket on ajan tasalla</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} on uusin versio.</value>
+    <value>Locket {0} on uusin versio.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Päivitysten tarkistaminen epäonnistui</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Julkaistua Kleio-versiota ei löytynyt.</value>
+    <value>Julkaistua Locket-versiota ei löytynyt.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Julkaisut</value>
@@ -377,10 +377,10 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Päivitystä ei voitu asentaa.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} on asennettu. Lopeta Kleio ja avaa se uudelleen, niin voit käyttää sitä.</value>
+    <value>Locket {0} on asennettu. Lopeta Locket ja avaa se uudelleen, niin voit käyttää sitä.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio ei ole vielä valmis.</value>
+    <value>Locket ei ole vielä valmis.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Leikepöydän kohdetta ei löytynyt</value>
@@ -395,37 +395,37 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Tuntematon komento</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio ei vastannut käynnistyksen jälkeen.</value>
+    <value>Locket ei vastannut käynnistyksen jälkeen.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio ei vastaa.</value>
+    <value>Locket ei vastaa.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleion käynnistäminen epäonnistui.</value>
+    <value>Locketin käynnistäminen epäonnistui.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio ei ymmärtänyt pyyntöä. Onko käynnissä oleva Kleio samaa versiota?</value>
+    <value>Locket ei ymmärtänyt pyyntöä. Onko käynnissä oleva Locket samaa versiota?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Kohde on liian suuri.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio ei voinut suorittaa komentoa.</value>
+    <value>Locket ei voinut suorittaa komentoa.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio on sulkeutumassa.</value>
+    <value>Locket on sulkeutumassa.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Käyttöohjeet: "kleio --help".</value>
+    <value>{0} Käyttöohjeet: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Komennon lähettäminen Kleiolle epäonnistui.</value>
+    <value>Komennon lähettäminen Locketille epäonnistui.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio ei vastannut.</value>
+    <value>Locket ei vastannut.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio lähetti virheellisen vastauksen.</value>
+    <value>Locket lähetti virheellisen vastauksen.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Epäonnistui.</value>
@@ -467,10 +467,10 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Tuntematon valitsin: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleion asetukset</value>
+    <value>Locketin asetukset</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleion asetukset</value>
+    <value>Locketin asetukset</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Yleiset</value>
@@ -563,7 +563,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Käynnistä kirjauduttaessa</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Käynnistä Kleio automaattisesti, kun kirjaudut Windowsiin.</value>
+    <value>Käynnistä Locket automaattisesti, kun kirjaudut Windowsiin.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Käynnistä kirjauduttaessa</value>
@@ -572,13 +572,13 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Windows on poistanut käynnistyksen kirjauduttaessa käytöstä</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio on poistettu käytöstä Tehtävienhallinnan kohdassa Käynnistyssovellukset (tai Asetukset &gt; Sovellukset &gt; Käynnistys). Ota se siellä käyttöön, jotta Kleio käynnistyy kirjauduttaessa.</value>
+    <value>Locket on poistettu käytöstä Tehtävienhallinnan kohdassa Käynnistyssovellukset (tai Asetukset &gt; Sovellukset &gt; Käynnistys). Ota se siellä käyttöön, jotta Locket käynnistyy kirjauduttaessa.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Tarkista päivitykset automaattisesti</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Etsi kerran päivässä GitHubista uudempaa Kleio-julkaisua ja tarjoa sen asentamista.</value>
+    <value>Etsi kerran päivässä GitHubista uudempaa Locket-julkaisua ja tarjoa sen asentamista.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Tarkista nyt</value>
@@ -593,7 +593,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Kieli</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleion valikoiden, asetusten ja viestien kieli.</value>
+    <value>Locketin valikoiden, asetusten ja viestien kieli.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Kieli</value>
@@ -602,7 +602,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Windowsin oletus</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Käynnistä Kleio uudelleen, niin uusi kieli otetaan käyttöön.</value>
+    <value>Käynnistä Locket uudelleen, niin uusi kieli otetaan käyttöön.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Käynnistä uudelleen nyt</value>
@@ -611,13 +611,13 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Pikanäppäimet</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Avaa Kleio</value>
+    <value>Avaa Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Yleinen pikanäppäin sovelluksen avaamiseen. Kun painat päänäppäintä uudelleen muokkausnäppäimiä pitäen, luettelon seuraava kohde valitaan. Tässä tilassa muokkausnäppäinten vapauttaminen vahvistaa valinnan ja sulkee ponnahdusikkunan. Oletus: Win+Vaihto+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleion avaamisen pikanäppäin</value>
+    <value>Locketin avaamisen pikanäppäin</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Pikanäppäimen rekisteröinti epäonnistui</value>
@@ -707,13 +707,13 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Windowsin leikepöytä</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windowsissa on oma leikepöydän historia, joka avataan näppäinyhdistelmällä Win+V. Kleio voi ottaa tämän pikanäppäimen käyttöön ollessaan käynnissä muuttamatta Windowsin asetuksia.</value>
+    <value>Windowsissa on oma leikepöydän historia, joka avataan näppäinyhdistelmällä Win+V. Locket voi ottaa tämän pikanäppäimen käyttöön ollessaan käynnissä muuttamatta Windowsin asetuksia.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Korvaa Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kun Kleio on käynnissä, Win+V avaa Kleion Windowsin leikepöydän historian sijaan. Windowsin asetuksia ei muuteta.</value>
+    <value>Kun Locket on käynnissä, Win+V avaa Locketin Windowsin leikepöydän historian sijaan. Windowsin asetuksia ei muuteta.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Korvaa Win+V</value>
@@ -722,7 +722,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Estä Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C ei tee mitään, kun Kleio on käynnissä. Windows käyttää sitä Copilotille eikä tarjoa tapaa poistaa sitä käytöstä. Windowsin asetuksia ei muuteta.</value>
+    <value>Win+C ei tee mitään, kun Locket on käynnissä. Windows käyttää sitä Copilotille eikä tarjoa tapaa poistaa sitä käytöstä. Windowsin asetuksia ei muuteta.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Estä Win+C</value>
@@ -746,7 +746,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Näytä ilmoitukset</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Näytä ilmoitus kohteesta, kun Kleio kopioi kohteen tai tallentaa uuden kopion.</value>
+    <value>Näytä ilmoitus kohteesta, kun Locket kopioi kohteen tai tallentaa uuden kopion.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Näytä ilmoitukset</value>
@@ -755,13 +755,13 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Ilmoitukset on poistettu käytöstä Windowsissa</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Ota Kleion ilmoitukset käyttöön Windowsin ilmoitusasetuksissa, niin näet ne.</value>
+    <value>Ota Locketin ilmoitukset käyttöön Windowsin ilmoitusasetuksissa, niin näet ne.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Toista äänet</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Toista ääni, kun Kleio kopioi kohteen tai tallentaa uuden kopion.</value>
+    <value>Toista ääni, kun Locket kopioi kohteen tai tallentaa uuden kopion.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Toista äänet</value>
@@ -770,7 +770,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Windowsin ilmoitusasetukset</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Valitse, miten Kleion ilmoitukset näytetään, tai poista ne käytöstä kohdassa Asetukset &gt; Järjestelmä &gt; Ilmoitukset.</value>
+    <value>Valitse, miten Locketin ilmoitukset näytetään, tai poista ne käytöstä kohdassa Asetukset &gt; Järjestelmä &gt; Ilmoitukset.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Avaa Windowsin ilmoitusasetukset</value>
@@ -974,7 +974,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Näytä kuvake ilmaisinalueella</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Näytä Kleion kuvake tehtäväpalkin ilmaisinalueella.</value>
+    <value>Näytä Locketin kuvake tehtäväpalkin ilmaisinalueella.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Näytä kuvake ilmaisinalueella</value>
@@ -983,7 +983,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Ilmaisinalueen kuvakkeen tyyli</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleion logo</value>
+    <value>Locketin logo</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Leikepöytä</value>
@@ -1037,7 +1037,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Näytä otsikko ennen hakukenttää</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Näytä ”Kleio” hakukentän vasemmalla puolella.</value>
+    <value>Näytä ”Locket” hakukentän vasemmalla puolella.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Näytä otsikko ennen hakukenttää</value>
@@ -1085,7 +1085,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Säännölliset lausekkeet</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Tietyistä sovelluksista tulevat kopiot voidaan ohittaa. Huomaa, että tämä ei ole täysin luotettavaa: Windows ei kerro, mikä sovellus kopioi jotain, joten Kleio tarkistaa sovelluksen, joka omistaa leikepöydän tai on etualalla. Käytä mieluummin leikepöytämuotoja, kun se on mahdollista.</value>
+    <value>Tietyistä sovelluksista tulevat kopiot voidaan ohittaa. Huomaa, että tämä ei ole täysin luotettavaa: Windows ei kerro, mikä sovellus kopioi jotain, joten Locket tarkistaa sovelluksen, joka omistaa leikepöydän tai on etualalla. Käytä mieluummin leikepöytämuotoja, kun se on mahdollista.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ohita kaikki sovellukset paitsi luetellut</value>
@@ -1181,7 +1181,7 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Säännöllisiä lausekkeita ei ole määritetty.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio ohittaa aina kopiot, jotka on merkitty muodolla ”{0}” tai ”{1}”: näillä Windowsin käytännöillä salasanojen hallintaohjelmat ja muut sovellukset pitävät arkaluonteiset tiedot poissa leikepöydän hallintaohjelmista.</value>
+    <value>Locket ohittaa aina kopiot, jotka on merkitty muodolla ”{0}” tai ”{1}”: näillä Windowsin käytännöillä salasanojen hallintaohjelmat ja muut sovellukset pitävät arkaluonteiset tiedot poissa leikepöydän hallintaohjelmista.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Poista</value>
@@ -1202,37 +1202,37 @@ Valitse Vaihto-näppäin painettuna tyhjentääksesi kaikki.</value>
     <value>Tauko</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Keskeytä Kleio</value>
+    <value>Keskeytä Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Ohita tilapäisesti kaikki uudet kopiot. Hyödyllistä, jotta Kleio ei tallenna mitään, kun kopioit arkaluonteisia tietoja.</value>
+    <value>Ohita tilapäisesti kaikki uudet kopiot. Hyödyllistä, jotta Locket ei tallenna mitään, kun kopioit arkaluonteisia tietoja.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Keskeytä Kleio</value>
+    <value>Keskeytä Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Käytät tätä todennäköisesti komentosarjoista. Keskeytä Kleio komentoriviltä arkaluonteisten tietojen kopioinnin ajaksi:</value>
+    <value>Käytät tätä todennäköisesti komentosarjoista. Keskeytä Locket komentoriviltä arkaluonteisten tietojen kopioinnin ajaksi:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopioi tiedot …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopioi tiedot, sitten kleio.exe --resume</value>
+    <value>locket.exe --pause, kopioi tiedot, sitten locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Vain seuraavan kopioinnin ohittaminen:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopioi tiedot …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, sitten kopioi tiedot</value>
+    <value>locket.exe --ignore-next, sitten kopioi tiedot</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Voit myös keskeyttää Kleion tai jatkaa sitä napsauttamalla ilmaisinalueen kuvaketta Alt-näppäin painettuna. Jos haluat ohittaa vain seuraavan kopioinnin, napsauta Alt+Vaihto painettuna.</value>
+    <value>Voit myös keskeyttää Locketin tai jatkaa sitä napsauttamalla ilmaisinalueen kuvaketta Alt-näppäin painettuna. Jos haluat ohittaa vain seuraavan kopioinnin, napsauta Alt+Vaihto painettuna.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Tyhjennys</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Tyhjennä myös järjestelmän leikepöytä</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleion logo</value>
+    <value>Locketin logo</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versio {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Tekijät</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio on Alex Rodionovin Maccyn sovitus</value>
+    <value>Locket on Alex Rodionovin Maccyn sovitus</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy on kevyt leikepöydän hallintaohjelma macOS:lle. Kleio tuo sen ominaisuudet ja asettelun Windows 11:een.</value>
+    <value>Maccy on kevyt leikepöydän hallintaohjelma macOS:lle. Locket tuo sen ominaisuudet ja asettelun Windows 11:een.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccyn verkkosivusto</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Ilmoita ongelmista, ehdota ominaisuuksia ja osallistu GitHubissa.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio GitHubissa</value>
+    <value>Locket GitHubissa</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio GitHubissa</value>
+    <value>Locket GitHubissa</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Tuki</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Käyttöoikeus</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio ja Maccy ovat vapaita ohjelmistoja, jotka on julkaistu MIT-lisenssillä.</value>
+    <value>Locket ja Maccy ovat vapaita ohjelmistoja, jotka on julkaistu MIT-lisenssillä.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT-lisenssi</value>

@@ -61,22 +61,22 @@
     <value>Nastavení…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>O aplikaci Kleio</value>
+    <value>O aplikaci Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Ukončit</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Otevřít Kleio</value>
+    <value>Otevřít Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Pozastavit Kleio</value>
+    <value>Pozastavit Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignorovat další kopii</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Ukončit Kleio</value>
+    <value>Ukončit Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Zastavit zásobník vložení</value>
@@ -191,7 +191,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Odebrat všechny položky.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Otevřít nastavení Kleio.</value>
+    <value>Otevřít nastavení Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Přečíst si víc o aplikaci.</value>
@@ -296,19 +296,19 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Počet kopírování: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (pozastaveno)</value>
+    <value>Locket (pozastaveno)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignoruje další kopii)</value>
+    <value>Locket (ignoruje další kopii)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (neukládá žádný typ)</value>
+    <value>Locket (neukládá žádný typ)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Je k dispozici nová verze Kleio!</value>
+    <value>Je k dispozici nová verze Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} je nyní k dispozici. Máš verzi {1}.</value>
+    <value>Locket {0} je nyní k dispozici. Máš verzi {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Nainstalovat aktualizaci</value>
@@ -323,22 +323,22 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Poznámky k verzi</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0} se nepodařilo nainstalovat</value>
+    <value>Locket {0} se nepodařilo nainstalovat</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Otevřít v Instalační službě aplikací</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Instaluje se Kleio {0}</value>
+    <value>Instaluje se Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio se po instalaci aktualizace restartuje.</value>
+    <value>Locket se po instalaci aktualizace restartuje.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Instaluje se aktualizace</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Stahuje se Kleio {0}. Kleio se po instalaci aktualizace restartuje.</value>
+    <value>Stahuje se Locket {0}. Locket se po instalaci aktualizace restartuje.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Aktualizaci se nepodařilo nainstalovat</value>
@@ -350,13 +350,13 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Máš nejnovější verzi</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} je nejnovější verze.</value>
+    <value>Locket {0} je nejnovější verze.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Aktualizace se nepodařilo zkontrolovat</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Nebyla nalezena žádná zveřejněná verze Kleio.</value>
+    <value>Nebyla nalezena žádná zveřejněná verze Locket.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Vydání</value>
@@ -377,10 +377,10 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Aktualizaci nebylo možné nainstalovat.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} bylo nainstalováno. Ukonči a znovu otevři Kleio, abys ho mohl(a) používat.</value>
+    <value>Locket {0} bylo nainstalováno. Ukonči a znovu otevři Locket, abys ho mohl(a) používat.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio ještě není připraveno.</value>
+    <value>Locket ještě není připraveno.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Položka schránky nebyla nalezena</value>
@@ -395,37 +395,37 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Neznámý příkaz</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio po spuštění neodpovědělo.</value>
+    <value>Locket po spuštění neodpovědělo.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio neodpovídá.</value>
+    <value>Locket neodpovídá.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio se nepodařilo spustit.</value>
+    <value>Locket se nepodařilo spustit.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio nerozumělo požadavku. Je spuštěné Kleio ve stejné verzi?</value>
+    <value>Locket nerozumělo požadavku. Je spuštěné Locket ve stejné verzi?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Položka je příliš velká.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio nemohlo spustit příkaz.</value>
+    <value>Locket nemohlo spustit příkaz.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio se ukončuje.</value>
+    <value>Locket se ukončuje.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Nápovědu zobrazíš příkazem "kleio --help".</value>
+    <value>{0} Nápovědu zobrazíš příkazem "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Příkaz se nepodařilo odeslat do Kleio.</value>
+    <value>Příkaz se nepodařilo odeslat do Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio neodpovědělo.</value>
+    <value>Locket neodpovědělo.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio poslalo neplatnou odpověď.</value>
+    <value>Locket poslalo neplatnou odpověď.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Nezdařilo se.</value>
@@ -467,10 +467,10 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Neznámá volba: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Nastavení Kleio</value>
+    <value>Nastavení Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Nastavení Kleio</value>
+    <value>Nastavení Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Obecné</value>
@@ -563,7 +563,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Spustit při přihlášení</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Automaticky spouštět Kleio po přihlášení do Windows.</value>
+    <value>Automaticky spouštět Locket po přihlášení do Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Spustit při přihlášení</value>
@@ -572,13 +572,13 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Spouštění při přihlášení vypnul systém Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio bylo zakázáno ve Správci úloh &gt; Aplikace po spuštění (nebo v Nastavení &gt; Aplikace &gt; Po spuštění). Povol ho tam, aby se Kleio spouštělo při přihlášení.</value>
+    <value>Locket bylo zakázáno ve Správci úloh &gt; Aplikace po spuštění (nebo v Nastavení &gt; Aplikace &gt; Po spuštění). Povol ho tam, aby se Locket spouštělo při přihlášení.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Automaticky kontrolovat aktualizace</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Jednou denně hledat novější verzi Kleio na GitHubu a nabídnout její instalaci.</value>
+    <value>Jednou denně hledat novější verzi Locket na GitHubu a nabídnout její instalaci.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Zkontrolovat teď</value>
@@ -593,7 +593,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Jazyk</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Jazyk nabídek, nastavení a zpráv Kleio.</value>
+    <value>Jazyk nabídek, nastavení a zpráv Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Jazyk</value>
@@ -602,7 +602,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Podle Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Restartuj Kleio, aby se použil nový jazyk.</value>
+    <value>Restartuj Locket, aby se použil nový jazyk.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Restartovat</value>
@@ -611,13 +611,13 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Klávesové zkratky</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Otevřít Kleio</value>
+    <value>Otevřít Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Globální klávesová zkratka pro otevření aplikace. Pakliže opakovaně stisknete hlavní klávesu a podržíte modifikátory, vyberete další položku v seznamu. V tomto režimu uvolnění modifikátorových kláves potvrdí výběr a zavře vyskakovací okno. Výchozí: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Klávesová zkratka pro otevření Kleio</value>
+    <value>Klávesová zkratka pro otevření Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Klávesovou zkratku se nepodařilo zaregistrovat</value>
@@ -707,13 +707,13 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Schránka Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows má vlastní historii schránky, která se otevírá klávesami Win+V. Kleio může tuto zkratku převzít, dokud běží, aniž by měnilo jakékoli nastavení Windows.</value>
+    <value>Windows má vlastní historii schránky, která se otevírá klávesami Win+V. Locket může tuto zkratku převzít, dokud běží, aniž by měnilo jakékoli nastavení Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Nahradit Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Dokud Kleio běží, Win+V otevírá Kleio místo historie schránky Windows. Nastavení Windows se nemění.</value>
+    <value>Dokud Locket běží, Win+V otevírá Locket místo historie schránky Windows. Nastavení Windows se nemění.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Nahradit Win+V</value>
@@ -722,7 +722,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Blokovat Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C nedělá nic, dokud běží Kleio. Windows ji používá pro Copilot a neumožňuje ji vypnout. Nastavení Windows se nemění.</value>
+    <value>Win+C nedělá nic, dokud běží Locket. Windows ji používá pro Copilot a neumožňuje ji vypnout. Nastavení Windows se nemění.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blokovat Win+C</value>
@@ -746,7 +746,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Zobrazovat oznámení</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Zobrazit oznámení s položkou, když Kleio zkopíruje položku nebo uloží novou kopii.</value>
+    <value>Zobrazit oznámení s položkou, když Locket zkopíruje položku nebo uloží novou kopii.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zobrazovat oznámení</value>
@@ -755,13 +755,13 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Oznámení jsou ve Windows vypnutá</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Aby se oznámení zobrazovala, zapni je pro Kleio v nastavení oznámení Windows.</value>
+    <value>Aby se oznámení zobrazovala, zapni je pro Locket v nastavení oznámení Windows.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Přehrávat zvuky</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Přehrát zvuk, když Kleio zkopíruje položku nebo uloží novou kopii.</value>
+    <value>Přehrát zvuk, když Locket zkopíruje položku nebo uloží novou kopii.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Přehrávat zvuky</value>
@@ -770,7 +770,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Nastavení oznámení Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Vyber, jak se oznámení Kleio zobrazují, nebo je vypni v Nastavení &gt; Systém &gt; Oznámení.</value>
+    <value>Vyber, jak se oznámení Locket zobrazují, nebo je vypni v Nastavení &gt; Systém &gt; Oznámení.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Otevřít nastavení oznámení Windows</value>
@@ -974,7 +974,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Zobrazovat ikonu v oznamovací oblasti</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Zobrazovat ikonu Kleio v oznamovací oblasti hlavního panelu.</value>
+    <value>Zobrazovat ikonu Locket v oznamovací oblasti hlavního panelu.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zobrazovat ikonu v oznamovací oblasti</value>
@@ -983,7 +983,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Styl ikony v oznamovací oblasti</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logo Kleio</value>
+    <value>Logo Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Schránka</value>
@@ -1037,7 +1037,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Zobrazovat název aplikace před vyhledávacím polem</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Zobrazovat „Kleio“ vlevo od pole hledání.</value>
+    <value>Zobrazovat „Locket“ vlevo od pole hledání.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zobrazovat název aplikace před vyhledávacím polem</value>
@@ -1085,7 +1085,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Regulární výrazy</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Kopie z určitých aplikací lze ignorovat. Upozorňujeme, že to není neprůstřelné: Windows neříká, která aplikace něco zkopírovala, takže Kleio kontroluje aplikaci, které patří schránka nebo která je v popředí. Pokud to jde, používej raději formáty schránky.</value>
+    <value>Kopie z určitých aplikací lze ignorovat. Upozorňujeme, že to není neprůstřelné: Windows neříká, která aplikace něco zkopírovala, takže Locket kontroluje aplikaci, které patří schránka nebo která je v popředí. Pokud to jde, používej raději formáty schránky.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignorovat všechny aplikace kromě zalistovaných</value>
@@ -1181,7 +1181,7 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Nejsou definovány žádné regulární výrazy.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio vždy ignoruje kopie označené „{0}“ nebo „{1}“: konvence Windows, kterými správci hesel a jiné aplikace chrání citlivá data před správci schránky.</value>
+    <value>Locket vždy ignoruje kopie označené „{0}“ nebo „{1}“: konvence Windows, kterými správci hesel a jiné aplikace chrání citlivá data před správci schránky.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Odebrat</value>
@@ -1202,37 +1202,37 @@ Vyber s Shift pro odebrání všech.</value>
     <value>Pozastavení</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Pozastavit Kleio</value>
+    <value>Pozastavit Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Dočasně ignorovat všechny nové kopie. Hodí se, aby Kleio nic nezaznamenávalo, zatímco kopíruješ citlivá data.</value>
+    <value>Dočasně ignorovat všechny nové kopie. Hodí se, aby Locket nic nezaznamenávalo, zatímco kopíruješ citlivá data.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pozastavit Kleio</value>
+    <value>Pozastavit Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Nejspíš to budeš používat ve skriptech. Pozastav Kleio z příkazového řádku, zatímco kopíruješ citlivá data:</value>
+    <value>Nejspíš to budeš používat ve skriptech. Pozastav Locket z příkazového řádku, zatímco kopíruješ citlivá data:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopírování dat …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopírování dat, potom kleio.exe --resume</value>
+    <value>locket.exe --pause, kopírování dat, potom locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Pro ignorování jen další kopie:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopírování dat …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, potom kopírování dat</value>
+    <value>locket.exe --ignore-next, potom kopírování dat</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio můžeš také pozastavit nebo obnovit kliknutím na ikonu v oznamovací oblasti s klávesou Alt. Pro ignorování jen další kopie na ni klikni s Alt+Shift.</value>
+    <value>Locket můžeš také pozastavit nebo obnovit kliknutím na ikonu v oznamovací oblasti s klávesou Alt. Pro ignorování jen další kopie na ni klikni s Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Mazání</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Vymazat taky systémovou schránku</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logo Kleio</value>
+    <value>Logo Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Verze {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Poděkování</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio je port aplikace Maccy od Alexe Rodionova</value>
+    <value>Locket je port aplikace Maccy od Alexe Rodionova</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy je odlehčený správce schránky pro macOS. Kleio přináší jeho funkce a rozložení do Windows 11.</value>
+    <value>Maccy je odlehčený správce schránky pro macOS. Locket přináší jeho funkce a rozložení do Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Web Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Hlas problémy, navrhuj funkce a přispívej na GitHubu.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio na GitHubu</value>
+    <value>Locket na GitHubu</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio na GitHubu</value>
+    <value>Locket na GitHubu</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Podpora</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licence</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio a Maccy jsou svobodný software vydaný pod licencí MIT.</value>
+    <value>Locket a Maccy jsou svobodný software vydaný pod licencí MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Licence MIT</value>

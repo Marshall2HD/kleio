@@ -103,7 +103,7 @@ namespace Kleio
             return 0;
         }
 
-        // The release asset to install: "Kleio_1.2.3.0_x64.msix" for this architecture, else a
+        // The release asset to install: "Locket_1.2.3.0_x64.msix" for this architecture, else a
         // bundle (which carries every architecture).
         std::wstring PackageAssetUrl(winrt::Windows::Data::Json::JsonObject const& release)
         {
@@ -250,7 +250,7 @@ namespace Kleio
 
                     wchar_t temp[MAX_PATH + 1]{};
                     const DWORD length = ::GetTempPathW(ARRAYSIZE(temp), temp);
-                    package = std::wstring{ temp, length } + L"Kleio-" + update.version + L"-" + Architecture +
+                    package = std::wstring{ temp, length } + L"Locket-" + update.version + L"-" + Architecture +
                         (update.packageUrl.ends_with(L".msixbundle") ? L".msixbundle" : L".msix");
                     {
                         wil::unique_hfile file{ ::CreateFileW(package.c_str(), GENERIC_WRITE, 0, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr) };
@@ -346,6 +346,10 @@ namespace Kleio
 
     void UpdateScheduler::Start()
     {
+        if (SystemIntegration::InstalledFromStore())
+        {
+            return;
+        }
         if (!m_timer)
         {
             auto dispatcher = winrt::Microsoft::UI::Dispatching::DispatcherQueue::GetForCurrentThread();

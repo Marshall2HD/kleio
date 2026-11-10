@@ -44,6 +44,11 @@ namespace winrt::Kleio::implementation
         DeleteRecorder().ShortcutChanged(handler);
         PreviewRecorder().ShortcutChanged(handler);
 
+        if (::Kleio::SystemIntegration::InstalledFromStore())
+        {
+            CheckForUpdatesCard().Visibility(winrt::Visibility::Collapsed);
+        }
+
         // "Windows default", then every language Kleio is translated into, by its own name.
         auto items = LanguageCombo().Items();
         items.Append(winrt::box_value(winrt::hstring{ ::Kleio::Strings::Get(L"General_LanguageDefault") }));

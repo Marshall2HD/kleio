@@ -1,6 +1,6 @@
-# Kleio architecture
+# Locket architecture
 
-Kleio is a port of [Maccy](https://github.com/p0deje/Maccy) (macOS clipboard manager) to Windows 11:
+Locket is a port of [Maccy](https://github.com/p0deje/Maccy) (macOS clipboard manager) to Windows 11:
 WinUI 3 (Windows App SDK 2.5), C++20 with C++/WinRT 3.0, packaged as MSIX. Layout and features follow
 Maccy; look and feel follow the Windows 11 / Fluent design guidelines.
 
@@ -85,7 +85,7 @@ names are the BCP-47 tags Windows uses (`zh-Hans`, `pt-PT`, `nb-NO`, `ku-Arab` f
 
 ## macOS → Windows mapping
 
-| Maccy | Kleio |
+| Maccy | Locket |
 |---|---|
 | Menu bar status item | Notification-area (tray) icon; left click opens the popup, right click shows a context menu |
 | `⇧⌘C` global shortcut | `Win+Shift+C` (configurable). Optional *Replace Win+V* takes over the Windows clipboard shortcut |
@@ -101,20 +101,20 @@ names are the BCP-47 tags Windows uses (`zh-Hans`, `pt-PT`, `nb-NO`, `ku-Arab` f
 | UserDefaults | `ApplicationData.LocalSettings` |
 | Vision OCR for image titles | `Windows.Media.Ocr` |
 | LaunchAtLogin | MSIX `StartupTask` |
-| Sparkle (daily check, Install / Skip this version) | `UpdateScheduler` (daily GitHub Releases check) + `InstallUpdate` (download `.msix`, `PackageManager.AddPackageAsync`, restart) |
-| App Intents (Get, Select, Delete, Clear) | `kleio --get/--select/--delete/--clear` over a named pipe (`Platform/ScriptingPipe`) |
+| Sparkle (daily check, Install / Skip this version) | `UpdateScheduler` (daily GitHub Releases check; off for Store installs, which the Store updates) + `InstallUpdate` (download `.msix`, `PackageManager.AddPackageAsync`, restart) |
+| App Intents (Get, Select, Delete, Clear) | `locket --get/--select/--delete/--clear` over a named pipe (`Platform/ScriptingPipe`) |
 | `*.lproj/*.strings` (Weblate) | `Strings/<lang>/Resources.resw` (MRT Core), translations taken from Maccy's |
 | Per-app language (System Settings) | *Settings → General → Language* (`PrimaryLanguageOverride`) |
 | `Notifier` (UNUserNotificationCenter, opt-in via permission prompt) | App notifications (`Microsoft.Windows.AppNotifications`), opt-in *Show notifications* setting |
 | Accessibility permission (to paste) | not needed: `SendInput` |
-| `defaults write ignoreEvents` | `kleio.exe --pause` / `--resume` / `--ignore-next` (app execution alias) |
+| `defaults write ignoreEvents` | `locket.exe --pause` / `--resume` / `--ignore-next` (app execution alias) |
 | Status item `appearsDisabled` (paused or no Save type) | Tray icon drawn at half opacity (`TrayIcon::SetDisabled`) |
 
 ### Windows clipboard conflicts
 
-Kleio does not change any Windows settings. The only integration is **Replace Win+V**
-(Settings → General): while Kleio runs, a low-level keyboard hook intercepts `Win+V` and opens
-Kleio's popup instead of the Windows clipboard history. Turning it off (or quitting Kleio) restores
+Locket does not change any Windows settings. The only integration is **Replace Win+V**
+(Settings → General): while Locket runs, a low-level keyboard hook intercepts `Win+V` and opens
+Locket's popup instead of the Windows clipboard history. Turning it off (or quitting Locket) restores
 the Windows behaviour immediately. A link opens *Settings → System → Clipboard* for users who also
 want to turn off the built-in history themselves.
 
@@ -126,7 +126,7 @@ App ──► AppController ──► Settings (LocalSettings)            Core
                      ├──► MessageWindow ◄── ClipboardService, HotKeyService, TrayIcon   Platform
                      ├──► KeyboardHook (Win+V, paste-stack Ctrl+V detection)
                      ├──► PasteService (SendInput Ctrl+V)
-                     ├──► ScriptingPipe::Server ◄── kleio --get/--select/... (Main.cpp → RunClient)
+                     ├──► ScriptingPipe::Server ◄── locket --get/--select/... (Main.cpp → RunClient)
                      ├──► UpdateScheduler / InstallUpdate (GitHub releases, PackageManager)
                      ├──► PopupWindow ──► HistoryItemViewModel / HistoryItemRow       UI
                      └──► SettingsWindow ──► *SettingsPage, ShortcutRecorder
@@ -139,9 +139,9 @@ refreshes; image items get an OCR title asynchronously via `History::UpdateTitle
 Select flow: popup → `AppController::Select(item, modifiers)` → hide popup →
 `CopyItem` (`ClipboardService::Copy`, sound, notification) → (optionally) `PasteService::RestoreForegroundWindow` + `Paste`.
 
-Scripting flow: `kleio --get 2` → `Main.cpp` parses it (`Core/Scripting`) instead of redirecting the
+Scripting flow: `locket --get 2` → `Main.cpp` parses it (`Core/Scripting`) instead of redirecting the
 activation → `ScriptingPipe::RunClient` connects to `\\.\pipe\Kleio.Scripting.<SID>.<session>`
-(starting Kleio with `--background` if no instance is registered) → the running instance's
+(starting Locket with `--background` if no instance is registered) → the running instance's
 `ScriptingPipe::Server` thread hands the command to `AppController::RunScript` on the UI thread →
 the result (exit code, error, payload) goes back over the pipe and the client prints it to its
 standard handles or the parent console (`AttachConsole(ATTACH_PARENT_PROCESS)`).

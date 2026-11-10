@@ -61,22 +61,22 @@
     <value>الإعدادات…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>حول Kleio</value>
+    <value>حول Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>إغلاق</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>فتح Kleio</value>
+    <value>فتح Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>إيقاف Kleio مؤقتًا</value>
+    <value>إيقاف Locket مؤقتًا</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>تجاهل النسخة التالية</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>إغلاق Kleio</value>
+    <value>إغلاق Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>إيقاف مكدس اللصق</value>
@@ -191,7 +191,7 @@
     <value>مسح كافة العناصر.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>فتح إعدادات Kleio.</value>
+    <value>فتح إعدادات Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>اقرأ المزيد عن التطبيق.</value>
@@ -296,19 +296,19 @@
     <value>عدد النسخ: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (متوقف مؤقتًا)</value>
+    <value>Locket (متوقف مؤقتًا)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (يتجاهل النسخة التالية)</value>
+    <value>Locket (يتجاهل النسخة التالية)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (لا يحفظ أي نوع)</value>
+    <value>Locket (لا يحفظ أي نوع)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>يتوفر إصدار جديد من Kleio!</value>
+    <value>يتوفر إصدار جديد من Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>يتوفر الآن Kleio {0}. لديك الإصدار {1}.</value>
+    <value>يتوفر الآن Locket {0}. لديك الإصدار {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>تثبيت التحديث</value>
@@ -323,22 +323,22 @@
     <value>ملاحظات الإصدار</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>تعذّر تثبيت Kleio {0}</value>
+    <value>تعذّر تثبيت Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>فتح في مثبّت التطبيقات</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>جارٍ تثبيت Kleio {0}</value>
+    <value>جارٍ تثبيت Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>سيُعاد تشغيل Kleio عند اكتمال تثبيت التحديث.</value>
+    <value>سيُعاد تشغيل Locket عند اكتمال تثبيت التحديث.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>جارٍ تثبيت التحديث</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>جارٍ تنزيل Kleio {0}. سيُعاد تشغيل Kleio عند اكتمال تثبيت التحديث.</value>
+    <value>جارٍ تنزيل Locket {0}. سيُعاد تشغيل Locket عند اكتمال تثبيت التحديث.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>تعذّر تثبيت التحديث</value>
@@ -347,16 +347,16 @@
     <value>يتوفر تحديث</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio محدّث</value>
+    <value>Locket محدّث</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} هو أحدث إصدار.</value>
+    <value>Locket {0} هو أحدث إصدار.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>تعذّر التحقق من وجود تحديثات</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>لم يتم العثور على أي إصدار منشور من Kleio.</value>
+    <value>لم يتم العثور على أي إصدار منشور من Locket.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>الإصدارات</value>
@@ -377,10 +377,10 @@
     <value>تعذّر تثبيت التحديث.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>تم تثبيت Kleio {0}. أغلق Kleio وافتحه من جديد لاستخدامه.</value>
+    <value>تم تثبيت Locket {0}. أغلق Locket وافتحه من جديد لاستخدامه.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio ليس جاهزًا بعد.</value>
+    <value>Locket ليس جاهزًا بعد.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>لم يتم العثور على عنصر الحافظة</value>
@@ -395,37 +395,37 @@
     <value>أمر غير معروف</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>لم يستجب Kleio بعد بدء تشغيله.</value>
+    <value>لم يستجب Locket بعد بدء تشغيله.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio لا يستجيب.</value>
+    <value>Locket لا يستجيب.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>تعذّر بدء تشغيل Kleio.</value>
+    <value>تعذّر بدء تشغيل Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>لم يفهم Kleio الطلب. هل Kleio قيد التشغيل بالإصدار نفسه؟</value>
+    <value>لم يفهم Locket الطلب. هل Locket قيد التشغيل بالإصدار نفسه؟</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>العنصر كبير جدًا.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>تعذّر على Kleio تنفيذ الأمر.</value>
+    <value>تعذّر على Locket تنفيذ الأمر.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>يتم إغلاق Kleio.</value>
+    <value>يتم إغلاق Locket.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} شغّل "kleio --help" لمعرفة طريقة الاستخدام.</value>
+    <value>{0} شغّل "locket --help" لمعرفة طريقة الاستخدام.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>تعذّر إرسال الأمر إلى Kleio.</value>
+    <value>تعذّر إرسال الأمر إلى Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>لم يرد Kleio.</value>
+    <value>لم يرد Locket.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>أرسل Kleio ردًا غير صالح.</value>
+    <value>أرسل Locket ردًا غير صالح.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>فشل.</value>
@@ -467,10 +467,10 @@
     <value>خيار غير معروف: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>إعدادات Kleio</value>
+    <value>إعدادات Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>إعدادات Kleio</value>
+    <value>إعدادات Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>عام</value>
@@ -563,7 +563,7 @@
     <value>التشغيل عند تسجيل الدخول</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>تشغيل Kleio تلقائيًا عند تسجيل الدخول إلى Windows.</value>
+    <value>تشغيل Locket تلقائيًا عند تسجيل الدخول إلى Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>التشغيل عند تسجيل الدخول</value>
@@ -572,13 +572,13 @@
     <value>أوقف Windows التشغيل عند تسجيل الدخول</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>تم تعطيل Kleio في إدارة المهام &gt; تطبيقات بدء التشغيل (أو الإعدادات &gt; التطبيقات &gt; بدء التشغيل). شغّله هناك ليبدأ Kleio عند تسجيل الدخول.</value>
+    <value>تم تعطيل Locket في إدارة المهام &gt; تطبيقات بدء التشغيل (أو الإعدادات &gt; التطبيقات &gt; بدء التشغيل). شغّله هناك ليبدأ Locket عند تسجيل الدخول.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>التحقق من التحديثات تلقائيًا</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>البحث مرة يوميًا عن إصدار أحدث من Kleio على GitHub وعرض تثبيته.</value>
+    <value>البحث مرة يوميًا عن إصدار أحدث من Locket على GitHub وعرض تثبيته.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>التحقق الآن</value>
@@ -593,7 +593,7 @@
     <value>اللغة</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>لغة قوائم Kleio وإعداداته ورسائله.</value>
+    <value>لغة قوائم Locket وإعداداته ورسائله.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>اللغة</value>
@@ -602,7 +602,7 @@
     <value>افتراضي Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>أعد تشغيل Kleio لاستخدام اللغة الجديدة.</value>
+    <value>أعد تشغيل Locket لاستخدام اللغة الجديدة.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>إعادة التشغيل الآن</value>
@@ -611,13 +611,13 @@
     <value>الاختصارات</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>فتح Kleio</value>
+    <value>فتح Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>مفتاح الاختصار العام لفتح التطبيق. سيؤدي الضغط المتكرر على المفتاح الرئيسي أثناء الضغط باستمرار على مفاتيح التعديل إلى تحديد العنصر التالي في القائمة. في هذا الوضع، سيؤدي تحرير مفاتيح التعديل إلى تأكيد التحديد وإغلاق النافذة المنبثقة. الوضع الافتراضي: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>اختصار فتح Kleio</value>
+    <value>اختصار فتح Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>تعذّر تسجيل الاختصار</value>
@@ -707,13 +707,13 @@
     <value>حافظة Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>يحتوي Windows على سجل حافظة خاص به يُفتح باستخدام Win+V. يمكن لـ Kleio تولي هذا الاختصار أثناء تشغيله، دون تغيير أي إعدادات في Windows.</value>
+    <value>يحتوي Windows على سجل حافظة خاص به يُفتح باستخدام Win+V. يمكن لـ Locket تولي هذا الاختصار أثناء تشغيله، دون تغيير أي إعدادات في Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>استبدال Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>أثناء تشغيل Kleio، يفتح Win+V تطبيق Kleio بدلاً من سجل حافظة Windows. لا يتم تغيير إعدادات Windows.</value>
+    <value>أثناء تشغيل Locket، يفتح Win+V تطبيق Locket بدلاً من سجل حافظة Windows. لا يتم تغيير إعدادات Windows.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>استبدال Win+V</value>
@@ -722,7 +722,7 @@
     <value>حظر Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>لا يفعل Win+C شيئًا أثناء تشغيل Kleio. يستخدمه Windows لـ Copilot ولا يوفر طريقة لإيقافه. لا يتم تغيير إعدادات Windows.</value>
+    <value>لا يفعل Win+C شيئًا أثناء تشغيل Locket. يستخدمه Windows لـ Copilot ولا يوفر طريقة لإيقافه. لا يتم تغيير إعدادات Windows.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>حظر Win+C</value>
@@ -746,7 +746,7 @@
     <value>إظهار الإعلامات</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>إظهار إعلام بالعنصر عندما ينسخ Kleio عنصرًا أو يحفظ نسخة جديدة.</value>
+    <value>إظهار إعلام بالعنصر عندما ينسخ Locket عنصرًا أو يحفظ نسخة جديدة.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>إظهار الإعلامات</value>
@@ -755,13 +755,13 @@
     <value>الإعلامات متوقفة في Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>شغّل إعلامات Kleio في إعدادات الإعلامات في Windows لتراها.</value>
+    <value>شغّل إعلامات Locket في إعدادات الإعلامات في Windows لتراها.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>تشغيل الأصوات</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>تشغيل صوت عندما ينسخ Kleio عنصرًا أو يحفظ نسخة جديدة.</value>
+    <value>تشغيل صوت عندما ينسخ Locket عنصرًا أو يحفظ نسخة جديدة.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>تشغيل الأصوات</value>
@@ -770,7 +770,7 @@
     <value>إعدادات الإعلامات في Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>اختر طريقة ظهور إعلامات Kleio أو أوقفها من الإعدادات &gt; النظام &gt; الإعلامات.</value>
+    <value>اختر طريقة ظهور إعلامات Locket أو أوقفها من الإعدادات &gt; النظام &gt; الإعلامات.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>فتح إعدادات الإعلامات في Windows</value>
@@ -974,7 +974,7 @@
     <value>إظهار الأيقونة في منطقة الإعلامات</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>إظهار أيقونة Kleio في منطقة الإعلامات بشريط المهام.</value>
+    <value>إظهار أيقونة Locket في منطقة الإعلامات بشريط المهام.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>إظهار الأيقونة في منطقة الإعلامات</value>
@@ -983,7 +983,7 @@
     <value>نمط أيقونة منطقة الإعلامات</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>شعار Kleio</value>
+    <value>شعار Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>الحافظة</value>
@@ -1037,7 +1037,7 @@
     <value>إظهار العنوان قبل حقل البحث</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>إظهار "Kleio" بجوار حقل البحث.</value>
+    <value>إظهار "Locket" بجوار حقل البحث.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>إظهار العنوان قبل حقل البحث</value>
@@ -1085,7 +1085,7 @@
     <value>التعبيرات العادية</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>يمكن تجاهل النسخ الواردة من تطبيقات معيّنة. لاحظ أن هذا ليس مضمونًا تمامًا: لا يخبر Windows بالتطبيق الذي نسخ شيئًا، لذا يتحقق Kleio من التطبيق الذي يملك الحافظة أو الموجود في المقدمة. يُفضّل استخدام تنسيقات الحافظة متى أمكن.</value>
+    <value>يمكن تجاهل النسخ الواردة من تطبيقات معيّنة. لاحظ أن هذا ليس مضمونًا تمامًا: لا يخبر Windows بالتطبيق الذي نسخ شيئًا، لذا يتحقق Locket من التطبيق الذي يملك الحافظة أو الموجود في المقدمة. يُفضّل استخدام تنسيقات الحافظة متى أمكن.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>تجاهل جميع التطبيقات ما عدا المُدرجة</value>
@@ -1181,7 +1181,7 @@
     <value>لا توجد تعبيرات نمطية معرّفة.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>يتجاهل Kleio دائمًا النسخ الموسومة بـ "{0}" أو "{1}": وهي اصطلاحات Windows التي تستخدمها برامج إدارة كلمات المرور والتطبيقات الأخرى لإبعاد البيانات الحساسة عن مديري الحافظة.</value>
+    <value>يتجاهل Locket دائمًا النسخ الموسومة بـ "{0}" أو "{1}": وهي اصطلاحات Windows التي تستخدمها برامج إدارة كلمات المرور والتطبيقات الأخرى لإبعاد البيانات الحساسة عن مديري الحافظة.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>إزالة</value>
@@ -1202,37 +1202,37 @@
     <value>إيقاف مؤقت</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>إيقاف Kleio مؤقتًا</value>
+    <value>إيقاف Locket مؤقتًا</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>تجاهل كل النسخ الجديدة مؤقتًا. مفيد لمنع Kleio من التسجيل أثناء نسخ بيانات حساسة.</value>
+    <value>تجاهل كل النسخ الجديدة مؤقتًا. مفيد لمنع Locket من التسجيل أثناء نسخ بيانات حساسة.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>إيقاف Kleio مؤقتًا</value>
+    <value>إيقاف Locket مؤقتًا</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>غالبًا ستستخدم هذا من البرامج النصية. أوقف Kleio مؤقتًا من سطر الأوامر أثناء نسخ البيانات الحساسة:</value>
+    <value>غالبًا ستستخدم هذا من البرامج النصية. أوقف Locket مؤقتًا من سطر الأوامر أثناء نسخ البيانات الحساسة:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … نسخ البيانات …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause، ثم نسخ البيانات، ثم kleio.exe --resume</value>
+    <value>locket.exe --pause، ثم نسخ البيانات، ثم locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>لتجاهل النسخة التالية فقط:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … نسخ البيانات …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next، ثم نسخ البيانات</value>
+    <value>locket.exe --ignore-next، ثم نسخ البيانات</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>يمكنك أيضًا النقر على أيقونة منطقة الإعلامات مع الضغط على Alt لإيقاف Kleio مؤقتًا أو استئنافه. لتجاهل النسخة التالية فقط، انقر مع الضغط على Alt+Shift.</value>
+    <value>يمكنك أيضًا النقر على أيقونة منطقة الإعلامات مع الضغط على Alt لإيقاف Locket مؤقتًا أو استئنافه. لتجاهل النسخة التالية فقط، انقر مع الضغط على Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>المسح</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>مسح حافظة النظام أيضًا</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>شعار Kleio</value>
+    <value>شعار Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>الإصدار {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>الشكر والتقدير</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio نسخة منقولة من Maccy من تطوير Alex Rodionov</value>
+    <value>Locket نسخة منقولة من Maccy من تطوير Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy مدير حافظة خفيف لنظام macOS. ينقل Kleio ميزاته وتخطيطه إلى Windows 11.</value>
+    <value>Maccy مدير حافظة خفيف لنظام macOS. ينقل Locket ميزاته وتخطيطه إلى Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>موقع Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>أبلغ عن المشكلات واقترح الميزات وساهم على GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio على GitHub</value>
+    <value>Locket على GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio على GitHub</value>
+    <value>Locket على GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>الدعم</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>الترخيص</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio وMaccy برنامجان حران صادران بموجب ترخيص MIT.</value>
+    <value>Locket وMaccy برنامجان حران صادران بموجب ترخيص MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>ترخيص MIT</value>

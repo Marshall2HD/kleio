@@ -624,7 +624,7 @@ namespace Kleio
         // Maccy's isStatusItemDisabled: dimmed while paused or when nothing would be saved.
         m_tray->SetDisabled(IsRecordingDisabled());
 
-        std::wstring tooltip = L"Kleio";
+        std::wstring tooltip = L"Locket";
         if (s.IgnoreEvents())
         {
             tooltip = Strings::Get(s.IgnoreOnlyNextEvent() ? L"Tray_IgnoringNext" : L"Tray_Paused");
@@ -917,7 +917,7 @@ namespace Kleio
             {
                 UINT const direction = Strings::IsRightToLeft() ? MB_RTLREADING | MB_RIGHT : 0;
                 int const answer = ::MessageBoxW(nullptr, Strings::Get(L"Popup_ClearMessage").c_str(),
-                    L"Kleio", MB_OKCANCEL | MB_ICONWARNING | MB_DEFBUTTON2 | MB_SETFOREGROUND | MB_TOPMOST | direction);
+                    L"Locket", MB_OKCANCEL | MB_ICONWARNING | MB_DEFBUTTON2 | MB_SETFOREGROUND | MB_TOPMOST | direction);
                 if (answer != IDOK)
                 {
                     return Result{ Cancelled, Strings::Get(L"Script_Cancelled"), {} };

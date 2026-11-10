@@ -61,22 +61,22 @@
     <value>Configurações…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Sobre o Kleio</value>
+    <value>Sobre o Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Sair</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Abrir o Kleio</value>
+    <value>Abrir o Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Pausar o Kleio</value>
+    <value>Pausar o Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignorar a próxima cópia</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Sair do Kleio</value>
+    <value>Sair do Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Parar pilha de colagem</value>
@@ -191,7 +191,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Limpar todos os itens.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Abrir as configurações do Kleio.</value>
+    <value>Abrir as configurações do Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Ler mais sobre o aplicativo.</value>
@@ -296,19 +296,19 @@ Selecione com Shift para limpar tudo.</value>
     <value>Número de cópias: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (pausado)</value>
+    <value>Locket (pausado)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignorando a próxima cópia)</value>
+    <value>Locket (ignorando a próxima cópia)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (não está salvando nenhum tipo)</value>
+    <value>Locket (não está salvando nenhum tipo)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Uma nova versão do Kleio está disponível!</value>
+    <value>Uma nova versão do Locket está disponível!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>O Kleio {0} já está disponível. Você tem a versão {1}.</value>
+    <value>O Locket {0} já está disponível. Você tem a versão {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instalar atualização</value>
@@ -323,22 +323,22 @@ Selecione com Shift para limpar tudo.</value>
     <value>Notas da versão</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Não foi possível instalar o Kleio {0}</value>
+    <value>Não foi possível instalar o Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Abrir no Instalador de Aplicativo</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Instalando o Kleio {0}</value>
+    <value>Instalando o Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>O Kleio será reiniciado quando a atualização for instalada.</value>
+    <value>O Locket será reiniciado quando a atualização for instalada.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Instalando a atualização</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Baixando o Kleio {0}. O Kleio será reiniciado quando a atualização for instalada.</value>
+    <value>Baixando o Locket {0}. O Locket será reiniciado quando a atualização for instalada.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Não foi possível instalar a atualização</value>
@@ -347,16 +347,16 @@ Selecione com Shift para limpar tudo.</value>
     <value>Atualização disponível</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>O Kleio está atualizado</value>
+    <value>O Locket está atualizado</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>O Kleio {0} é a versão mais recente.</value>
+    <value>O Locket {0} é a versão mais recente.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Não foi possível verificar se há atualizações</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Nenhuma versão publicada do Kleio foi encontrada.</value>
+    <value>Nenhuma versão publicada do Locket foi encontrada.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Versões</value>
@@ -377,10 +377,10 @@ Selecione com Shift para limpar tudo.</value>
     <value>Não foi possível instalar a atualização.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>O Kleio {0} foi instalado. Saia e abra o Kleio novamente para usá-lo.</value>
+    <value>O Locket {0} foi instalado. Saia e abra o Locket novamente para usá-lo.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>O Kleio ainda não está pronto.</value>
+    <value>O Locket ainda não está pronto.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Item da área de transferência não encontrado</value>
@@ -395,37 +395,37 @@ Selecione com Shift para limpar tudo.</value>
     <value>Comando desconhecido</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>O Kleio não respondeu depois de iniciar.</value>
+    <value>O Locket não respondeu depois de iniciar.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>O Kleio não está respondendo.</value>
+    <value>O Locket não está respondendo.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Não foi possível iniciar o Kleio.</value>
+    <value>Não foi possível iniciar o Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>O Kleio não entendeu a solicitação. O Kleio em execução é da mesma versão?</value>
+    <value>O Locket não entendeu a solicitação. O Locket em execução é da mesma versão?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>O item é grande demais.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>O Kleio não conseguiu executar o comando.</value>
+    <value>O Locket não conseguiu executar o comando.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>O Kleio está saindo.</value>
+    <value>O Locket está saindo.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Execute "kleio --help" para ver o uso.</value>
+    <value>{0} Execute "locket --help" para ver o uso.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Não foi possível enviar o comando ao Kleio.</value>
+    <value>Não foi possível enviar o comando ao Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>O Kleio não respondeu.</value>
+    <value>O Locket não respondeu.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>O Kleio enviou uma resposta inválida.</value>
+    <value>O Locket enviou uma resposta inválida.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Falha.</value>
@@ -467,10 +467,10 @@ Selecione com Shift para limpar tudo.</value>
     <value>Opção desconhecida: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Configurações do Kleio</value>
+    <value>Configurações do Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Configurações do Kleio</value>
+    <value>Configurações do Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Geral</value>
@@ -563,7 +563,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Iniciar no login</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Iniciar o Kleio automaticamente quando você entrar no Windows.</value>
+    <value>Iniciar o Locket automaticamente quando você entrar no Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Iniciar no login</value>
@@ -572,13 +572,13 @@ Selecione com Shift para limpar tudo.</value>
     <value>Iniciar no login foi desativado pelo Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>O Kleio foi desabilitado no Gerenciador de Tarefas &gt; Aplicativos de inicialização (ou Configurações &gt; Aplicativos &gt; Inicialização). Ative-o lá para iniciar o Kleio no login.</value>
+    <value>O Locket foi desabilitado no Gerenciador de Tarefas &gt; Aplicativos de inicialização (ou Configurações &gt; Aplicativos &gt; Inicialização). Ative-o lá para iniciar o Locket no login.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Verificar atualizações automaticamente</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Procurar uma versão mais recente do Kleio no GitHub uma vez por dia e oferecer a instalação.</value>
+    <value>Procurar uma versão mais recente do Locket no GitHub uma vez por dia e oferecer a instalação.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Verificar agora</value>
@@ -593,7 +593,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Idioma</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>O idioma dos menus, configurações e mensagens do Kleio.</value>
+    <value>O idioma dos menus, configurações e mensagens do Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Idioma</value>
@@ -602,7 +602,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Padrão do Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Reinicie o Kleio para usar o novo idioma.</value>
+    <value>Reinicie o Locket para usar o novo idioma.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Reiniciar agora</value>
@@ -611,13 +611,13 @@ Selecione com Shift para limpar tudo.</value>
     <value>Atalhos</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Abrir o Kleio</value>
+    <value>Abrir o Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Tecla de atalho global para abrir a aplicação. Uma pressão repetida da tecla principal enquanto mantém as teclas modificadoras premidas irá selecionar o item seguinte na lista. Neste modo, soltar as teclas modificadoras confirmará a seleção e fechará o pop-up. Padrão: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Atalho para abrir o Kleio</value>
+    <value>Atalho para abrir o Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Não foi possível registrar o atalho</value>
@@ -707,13 +707,13 @@ Selecione com Shift para limpar tudo.</value>
     <value>Área de transferência do Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>O Windows tem seu próprio histórico da área de transferência, aberto com Win+V. O Kleio pode assumir esse atalho enquanto estiver em execução, sem alterar nenhuma configuração do Windows.</value>
+    <value>O Windows tem seu próprio histórico da área de transferência, aberto com Win+V. O Locket pode assumir esse atalho enquanto estiver em execução, sem alterar nenhuma configuração do Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Substituir Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Win+V abre o Kleio em vez do histórico da área de transferência do Windows enquanto o Kleio estiver em execução. As configurações do Windows não são alteradas.</value>
+    <value>Win+V abre o Locket em vez do histórico da área de transferência do Windows enquanto o Locket estiver em execução. As configurações do Windows não são alteradas.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Substituir Win+V</value>
@@ -722,7 +722,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Bloquear Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C não faz nada enquanto o Kleio estiver em execução. O Windows o usa para o Copilot e não oferece como desativá-lo. As configurações do Windows não são alteradas.</value>
+    <value>Win+C não faz nada enquanto o Locket estiver em execução. O Windows o usa para o Copilot e não oferece como desativá-lo. As configurações do Windows não são alteradas.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bloquear Win+C</value>
@@ -746,7 +746,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Mostrar notificações</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Mostrar uma notificação com o item quando o Kleio copia um item ou salva uma nova cópia.</value>
+    <value>Mostrar uma notificação com o item quando o Locket copia um item ou salva uma nova cópia.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostrar notificações</value>
@@ -755,13 +755,13 @@ Selecione com Shift para limpar tudo.</value>
     <value>As notificações estão desativadas no Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Ative as notificações do Kleio nas configurações de notificação do Windows para vê-las.</value>
+    <value>Ative as notificações do Locket nas configurações de notificação do Windows para vê-las.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Reproduzir sons</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Reproduzir um som quando o Kleio copia um item ou salva uma nova cópia.</value>
+    <value>Reproduzir um som quando o Locket copia um item ou salva uma nova cópia.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Reproduzir sons</value>
@@ -770,7 +770,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Configurações de notificação do Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Escolha como as notificações do Kleio aparecem, ou desative-as, em Configurações &gt; Sistema &gt; Notificações.</value>
+    <value>Escolha como as notificações do Locket aparecem, ou desative-as, em Configurações &gt; Sistema &gt; Notificações.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Abrir as configurações de notificação do Windows</value>
@@ -974,7 +974,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Mostrar ícone na área de notificação</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Mostrar o ícone do Kleio na área de notificação da barra de tarefas.</value>
+    <value>Mostrar o ícone do Locket na área de notificação da barra de tarefas.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostrar ícone na área de notificação</value>
@@ -983,7 +983,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Estilo do ícone da área de notificação</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotipo do Kleio</value>
+    <value>Logotipo do Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Área de transferência</value>
@@ -1037,7 +1037,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Mostrar título antes do campo de pesquisa</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Mostrar “Kleio” à esquerda do campo de pesquisa.</value>
+    <value>Mostrar “Locket” à esquerda do campo de pesquisa.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mostrar título antes do campo de pesquisa</value>
@@ -1085,7 +1085,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Expressões regulares</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>É possível ignorar cópias vindas de determinados aplicativos. Observe que isso não é infalível: o Windows não informa qual aplicativo copiou algo, então o Kleio verifica o aplicativo que é dono da área de transferência ou que está em primeiro plano. Prefira formatos da área de transferência quando possível.</value>
+    <value>É possível ignorar cópias vindas de determinados aplicativos. Observe que isso não é infalível: o Windows não informa qual aplicativo copiou algo, então o Locket verifica o aplicativo que é dono da área de transferência ou que está em primeiro plano. Prefira formatos da área de transferência quando possível.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignorar todos os aplicativos exceto os listados</value>
@@ -1181,7 +1181,7 @@ Selecione com Shift para limpar tudo.</value>
     <value>Nenhuma expressão regular foi definida.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>O Kleio sempre ignora as cópias marcadas com “{0}” ou “{1}”: as convenções do Windows que os gerenciadores de senhas e outros aplicativos usam para manter dados confidenciais fora dos gerenciadores da área de transferência.</value>
+    <value>O Locket sempre ignora as cópias marcadas com “{0}” ou “{1}”: as convenções do Windows que os gerenciadores de senhas e outros aplicativos usam para manter dados confidenciais fora dos gerenciadores da área de transferência.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Remover</value>
@@ -1202,37 +1202,37 @@ Selecione com Shift para limpar tudo.</value>
     <value>Pausa</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Pausar o Kleio</value>
+    <value>Pausar o Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Ignorar temporariamente todas as novas cópias. Útil para impedir que o Kleio registre enquanto você copia dados confidenciais.</value>
+    <value>Ignorar temporariamente todas as novas cópias. Útil para impedir que o Locket registre enquanto você copia dados confidenciais.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pausar o Kleio</value>
+    <value>Pausar o Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Provavelmente você vai usar isso em scripts. Pause o Kleio pela linha de comando enquanto copia dados confidenciais:</value>
+    <value>Provavelmente você vai usar isso em scripts. Pause o Locket pela linha de comando enquanto copia dados confidenciais:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … copiar dados …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, copiar dados e depois kleio.exe --resume</value>
+    <value>locket.exe --pause, copiar dados e depois locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Para ignorar apenas a próxima cópia:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … copiar dados …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next e depois copiar dados</value>
+    <value>locket.exe --ignore-next e depois copiar dados</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Você também pode usar Alt+clique no ícone da área de notificação para pausar ou retomar o Kleio. Para ignorar apenas a próxima cópia, use Alt+Shift+clique.</value>
+    <value>Você também pode usar Alt+clique no ícone da área de notificação para pausar ou retomar o Locket. Para ignorar apenas a próxima cópia, use Alt+Shift+clique.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Limpeza</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Limpar também a área de transferência do sistema</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotipo do Kleio</value>
+    <value>Logotipo do Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versão {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Créditos</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>O Kleio é uma adaptação do Maccy, de Alex Rodionov</value>
+    <value>O Locket é uma adaptação do Maccy, de Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>O Maccy é um gerenciador da área de transferência leve para macOS. O Kleio traz os recursos e o layout dele para o Windows 11.</value>
+    <value>O Maccy é um gerenciador da área de transferência leve para macOS. O Locket traz os recursos e o layout dele para o Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Site do Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Relate problemas, sugira recursos e contribua no GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio no GitHub</value>
+    <value>Locket no GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio no GitHub</value>
+    <value>Locket no GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Suporte</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licença</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>O Kleio e o Maccy são software livre lançado sob a licença MIT.</value>
+    <value>O Locket e o Maccy são software livre lançado sob a licença MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Licença MIT</value>

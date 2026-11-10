@@ -266,7 +266,7 @@ namespace Kleio::ScriptingPipe
 
         int Fail(int exitCode, std::wstring const& message)
         {
-            WriteText(STD_ERROR_HANDLE, L"kleio: " + message + L"\r\n");
+            WriteText(STD_ERROR_HANDLE, L"locket: " + message + L"\r\n");
             return exitCode;
         }
 

@@ -22,6 +22,9 @@ namespace Kleio::SystemIntegration
     void OpenUri(wchar_t const* uri);
     // Package version "1.2.3" (from Package::Current().Id().Version()).
     winrt::hstring AppVersion();
+    // True when the package was installed from the Microsoft Store (signed by the Store), which
+    // updates the app itself: the GitHub update checker is then off and its UI hidden.
+    bool InstalledFromStore();
     // Plays Assets\Sounds\<name>.wav asynchronously (PlaySoundW, SND_ASYNC|SND_FILENAME).
     void PlaySoundNamed(wchar_t const* name);
 }

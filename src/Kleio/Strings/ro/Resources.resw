@@ -61,22 +61,22 @@
     <value>Setări…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Despre Kleio</value>
+    <value>Despre Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Închide</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Deschide Kleio</value>
+    <value>Deschide Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Întrerupe Kleio</value>
+    <value>Întrerupe Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ignoră următoarea copiere</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Închide Kleio</value>
+    <value>Închide Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Oprește stiva de lipire</value>
@@ -191,7 +191,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Șterge tot.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Deschide setările Kleio.</value>
+    <value>Deschide setările Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Citește mai mult despre aplicație.</value>
@@ -296,19 +296,19 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Numărul de copii: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (în pauză)</value>
+    <value>Locket (în pauză)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ignoră următoarea copiere)</value>
+    <value>Locket (ignoră următoarea copiere)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (nu stochează niciun tip)</value>
+    <value>Locket (nu stochează niciun tip)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Este disponibilă o versiune nouă de Kleio!</value>
+    <value>Este disponibilă o versiune nouă de Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} este acum disponibil. Ai versiunea {1}.</value>
+    <value>Locket {0} este acum disponibil. Ai versiunea {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Instalează actualizarea</value>
@@ -323,22 +323,22 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Note de lansare</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0} nu a putut fi instalat</value>
+    <value>Locket {0} nu a putut fi instalat</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Deschide în Programul de instalare a aplicațiilor</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Se instalează Kleio {0}</value>
+    <value>Se instalează Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio repornește după instalarea actualizării.</value>
+    <value>Locket repornește după instalarea actualizării.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Se instalează actualizarea</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Se descarcă Kleio {0}. Kleio repornește după instalarea actualizării.</value>
+    <value>Se descarcă Locket {0}. Locket repornește după instalarea actualizării.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Actualizarea nu a putut fi instalată</value>
@@ -347,16 +347,16 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Actualizare disponibilă</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio este la zi</value>
+    <value>Locket este la zi</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} este cea mai recentă versiune.</value>
+    <value>Locket {0} este cea mai recentă versiune.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Nu s-au putut căuta actualizări</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Nu s-a găsit nicio versiune publicată de Kleio.</value>
+    <value>Nu s-a găsit nicio versiune publicată de Locket.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Versiuni</value>
@@ -377,10 +377,10 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Actualizarea nu a putut fi instalată.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} a fost instalat. Închide și redeschide Kleio pentru a-l folosi.</value>
+    <value>Locket {0} a fost instalat. Închide și redeschide Locket pentru a-l folosi.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio nu este încă pregătit.</value>
+    <value>Locket nu este încă pregătit.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Elementul din clipboard nu a fost găsit</value>
@@ -395,37 +395,37 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Comandă necunoscută</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio nu a răspuns după pornire.</value>
+    <value>Locket nu a răspuns după pornire.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio nu răspunde.</value>
+    <value>Locket nu răspunde.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio nu a putut fi pornit.</value>
+    <value>Locket nu a putut fi pornit.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio nu a înțeles cererea. Kleio care rulează are aceeași versiune?</value>
+    <value>Locket nu a înțeles cererea. Locket care rulează are aceeași versiune?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Elementul este prea mare.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio nu a putut executa comanda.</value>
+    <value>Locket nu a putut executa comanda.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio se închide.</value>
+    <value>Locket se închide.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Rulează "kleio --help" pentru utilizare.</value>
+    <value>{0} Rulează "locket --help" pentru utilizare.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Comanda nu a putut fi trimisă către Kleio.</value>
+    <value>Comanda nu a putut fi trimisă către Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio nu a răspuns.</value>
+    <value>Locket nu a răspuns.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio a trimis un răspuns nevalid.</value>
+    <value>Locket a trimis un răspuns nevalid.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Eșec.</value>
@@ -467,10 +467,10 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Opțiune necunoscută: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Setări Kleio</value>
+    <value>Setări Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Setări Kleio</value>
+    <value>Setări Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>General</value>
@@ -563,7 +563,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Deschide la login</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Pornește Kleio automat când te conectezi la Windows.</value>
+    <value>Pornește Locket automat când te conectezi la Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Deschide la login</value>
@@ -572,13 +572,13 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Pornirea la conectare a fost dezactivată de Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio a fost dezactivat în Manager activități &gt; Aplicații de pornire (sau Setări &gt; Aplicații &gt; Pornire). Activează-l acolo pentru ca Kleio să pornească la conectare.</value>
+    <value>Locket a fost dezactivat în Manager activități &gt; Aplicații de pornire (sau Setări &gt; Aplicații &gt; Pornire). Activează-l acolo pentru ca Locket să pornească la conectare.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Verifică actualizările automat</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Caută o dată pe zi o versiune mai nouă de Kleio pe GitHub și oferă instalarea ei.</value>
+    <value>Caută o dată pe zi o versiune mai nouă de Locket pe GitHub și oferă instalarea ei.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Verifică acum</value>
@@ -593,7 +593,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Limbă</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Limba meniurilor, setărilor și mesajelor Kleio.</value>
+    <value>Limba meniurilor, setărilor și mesajelor Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Limbă</value>
@@ -602,7 +602,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Limba Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Repornește Kleio pentru a folosi noua limbă.</value>
+    <value>Repornește Locket pentru a folosi noua limbă.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Repornește acum</value>
@@ -611,13 +611,13 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Comenzi rapide</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Deschide Kleio</value>
+    <value>Deschide Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Tastă globală de comandă rapidă pentru a deschide aplicația. O apăsare repetată a tastei principale, în timp ce taste "modifier" sunt menținute apăsate, va selecta următorul element din listă. Eliberare unei taste "modifier" va confirma selecția și va închide fereastra popup. Implicit: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Comandă rapidă pentru deschiderea Kleio</value>
+    <value>Comandă rapidă pentru deschiderea Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Comanda rapidă nu a putut fi înregistrată</value>
@@ -707,13 +707,13 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Clipboardul Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows are propriul istoric al clipboardului, deschis cu Win+V. Kleio poate prelua această comandă rapidă cât timp rulează, fără a modifica nicio setare Windows.</value>
+    <value>Windows are propriul istoric al clipboardului, deschis cu Win+V. Locket poate prelua această comandă rapidă cât timp rulează, fără a modifica nicio setare Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Înlocuiește Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Cât timp Kleio rulează, Win+V deschide Kleio în locul istoricului clipboardului Windows. Setările Windows nu sunt modificate.</value>
+    <value>Cât timp Locket rulează, Win+V deschide Locket în locul istoricului clipboardului Windows. Setările Windows nu sunt modificate.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Înlocuiește Win+V</value>
@@ -722,7 +722,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Blochează Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C nu face nimic cât timp Kleio rulează. Windows îl folosește pentru Copilot și nu oferă o modalitate de a-l dezactiva. Setările Windows nu sunt modificate.</value>
+    <value>Win+C nu face nimic cât timp Locket rulează. Windows îl folosește pentru Copilot și nu oferă o modalitate de a-l dezactiva. Setările Windows nu sunt modificate.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blochează Win+C</value>
@@ -746,7 +746,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Afișează notificări</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Afișează o notificare cu elementul când Kleio copiază un element sau salvează o copie nouă.</value>
+    <value>Afișează o notificare cu elementul când Locket copiază un element sau salvează o copie nouă.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Afișează notificări</value>
@@ -755,13 +755,13 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Notificările sunt dezactivate în Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Activează notificările pentru Kleio în setările de notificare Windows pentru a le vedea.</value>
+    <value>Activează notificările pentru Locket în setările de notificare Windows pentru a le vedea.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Redă sunete</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Redă un sunet când Kleio copiază un element sau salvează o copie nouă.</value>
+    <value>Redă un sunet când Locket copiază un element sau salvează o copie nouă.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Redă sunete</value>
@@ -770,7 +770,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Setările de notificare Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Alege cum apar notificările Kleio sau dezactivează-le în Setări &gt; Sistem &gt; Notificări.</value>
+    <value>Alege cum apar notificările Locket sau dezactivează-le în Setări &gt; Sistem &gt; Notificări.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Deschide setările de notificare Windows</value>
@@ -974,7 +974,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Afișează pictograma în zona de notificare</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Afișează pictograma Kleio în zona de notificare a barei de activități.</value>
+    <value>Afișează pictograma Locket în zona de notificare a barei de activități.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Afișează pictograma în zona de notificare</value>
@@ -983,7 +983,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Stilul pictogramei din zona de notificare</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Sigla Kleio</value>
+    <value>Sigla Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Clipboard</value>
@@ -1037,7 +1037,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Afișează titlul înaintea câmpului de căutare</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Afișează „Kleio” în stânga câmpului de căutare.</value>
+    <value>Afișează „Locket” în stânga câmpului de căutare.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Afișează titlul înaintea câmpului de căutare</value>
@@ -1085,7 +1085,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Expresii regulate</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Copiile provenite din anumite aplicații pot fi ignorate. Reține că metoda nu este infailibilă: Windows nu spune ce aplicație a copiat ceva, așa că Kleio verifică aplicația care deține clipboardul sau care este în prim-plan. Folosește formatele de clipboard când este posibil.</value>
+    <value>Copiile provenite din anumite aplicații pot fi ignorate. Reține că metoda nu este infailibilă: Windows nu spune ce aplicație a copiat ceva, așa că Locket verifică aplicația care deține clipboardul sau care este în prim-plan. Folosește formatele de clipboard când este posibil.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ignoră toate aplicațiile cu excepția celor din listă</value>
@@ -1181,7 +1181,7 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Nu sunt definite expresii regulate.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio ignoră întotdeauna copiile marcate cu „{0}” sau „{1}”: convențiile Windows prin care managerii de parole și alte aplicații țin datele sensibile departe de managerii de clipboard.</value>
+    <value>Locket ignoră întotdeauna copiile marcate cu „{0}” sau „{1}”: convențiile Windows prin care managerii de parole și alte aplicații țin datele sensibile departe de managerii de clipboard.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Elimină</value>
@@ -1202,37 +1202,37 @@ Selectează cu Shift pentru a șterge tot.</value>
     <value>Întrerupere</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Întrerupe Kleio</value>
+    <value>Întrerupe Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Ignoră temporar toate copiile noi. Util ca Kleio să nu înregistreze nimic cât timp copiezi date sensibile.</value>
+    <value>Ignoră temporar toate copiile noi. Util ca Locket să nu înregistreze nimic cât timp copiezi date sensibile.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Întrerupe Kleio</value>
+    <value>Întrerupe Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Probabil vei folosi asta din scripturi. Întrerupe Kleio din linia de comandă cât timp copiezi date sensibile:</value>
+    <value>Probabil vei folosi asta din scripturi. Întrerupe Locket din linia de comandă cât timp copiezi date sensibile:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … copierea datelor …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, copierea datelor, apoi kleio.exe --resume</value>
+    <value>locket.exe --pause, copierea datelor, apoi locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Pentru a ignora doar următoarea copiere:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … copierea datelor …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, apoi copierea datelor</value>
+    <value>locket.exe --ignore-next, apoi copierea datelor</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Poți și să faci Alt+clic pe pictograma din zona de notificare pentru a întrerupe sau relua Kleio. Pentru a ignora doar următoarea copiere, fă Alt+Shift+clic.</value>
+    <value>Poți și să faci Alt+clic pe pictograma din zona de notificare pentru a întrerupe sau relua Locket. Pentru a ignora doar următoarea copiere, fă Alt+Shift+clic.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Ștergere</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Șterge și clipboard-ul sistemului</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Sigla Kleio</value>
+    <value>Sigla Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versiunea {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Mulțumiri</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio este o adaptare a Maccy de Alex Rodionov</value>
+    <value>Locket este o adaptare a Maccy de Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy este un manager de clipboard ușor pentru macOS. Kleio aduce funcțiile și aspectul său pe Windows 11.</value>
+    <value>Maccy este un manager de clipboard ușor pentru macOS. Locket aduce funcțiile și aspectul său pe Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Site-ul Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Raportează probleme, sugerează funcții și contribuie pe GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio pe GitHub</value>
+    <value>Locket pe GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio pe GitHub</value>
+    <value>Locket pe GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Asistență</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licență</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio și Maccy sunt software liber publicat sub licența MIT.</value>
+    <value>Locket și Maccy sunt software liber publicat sub licența MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Licența MIT</value>

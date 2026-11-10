@@ -61,22 +61,22 @@
     <value>Nastavitve…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>O programu Kleio</value>
+    <value>O programu Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Zapri</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Odpri Kleio</value>
+    <value>Odpri Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Začasno ustavi Kleio</value>
+    <value>Začasno ustavi Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Prezri naslednje kopiranje</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Zapri Kleio</value>
+    <value>Zapri Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Ustavi sklad za lepljenje</value>
@@ -191,7 +191,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Počisti vse elemente.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Odpri nastavitve programa Kleio.</value>
+    <value>Odpri nastavitve programa Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Preberite več o aplikaciji.</value>
@@ -296,19 +296,19 @@ Izberite z Shift, da počistite vse.</value>
     <value>Število kopiranj: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (začasno ustavljeno)</value>
+    <value>Locket (začasno ustavljeno)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (prezre naslednje kopiranje)</value>
+    <value>Locket (prezre naslednje kopiranje)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (ne shranjuje nobene vrste)</value>
+    <value>Locket (ne shranjuje nobene vrste)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Na voljo je nova različica programa Kleio!</value>
+    <value>Na voljo je nova različica programa Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} je zdaj na voljo. Imate različico {1}.</value>
+    <value>Locket {0} je zdaj na voljo. Imate različico {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Namesti posodobitev</value>
@@ -323,22 +323,22 @@ Izberite z Shift, da počistite vse.</value>
     <value>Opombe ob izdaji</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Programa Kleio {0} ni bilo mogoče namestiti</value>
+    <value>Programa Locket {0} ni bilo mogoče namestiti</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Odpri v namestitvenem programu za aplikacije</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Nameščanje programa Kleio {0}</value>
+    <value>Nameščanje programa Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio se bo znova zagnal, ko bo posodobitev nameščena.</value>
+    <value>Locket se bo znova zagnal, ko bo posodobitev nameščena.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Nameščanje posodobitve</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Prenašanje programa Kleio {0}. Kleio se bo znova zagnal, ko bo posodobitev nameščena.</value>
+    <value>Prenašanje programa Locket {0}. Locket se bo znova zagnal, ko bo posodobitev nameščena.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Posodobitve ni bilo mogoče namestiti</value>
@@ -347,16 +347,16 @@ Izberite z Shift, da počistite vse.</value>
     <value>Na voljo je posodobitev</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio je posodobljen</value>
+    <value>Locket je posodobljen</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} je najnovejša različica.</value>
+    <value>Locket {0} je najnovejša različica.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Posodobitev ni bilo mogoče preveriti</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Objavljene izdaje programa Kleio ni bilo mogoče najti.</value>
+    <value>Objavljene izdaje programa Locket ni bilo mogoče najti.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Izdaje</value>
@@ -377,10 +377,10 @@ Izberite z Shift, da počistite vse.</value>
     <value>Posodobitve ni bilo mogoče namestiti.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} je nameščen. Zaprite in znova odprite Kleio, da ga boste uporabljali.</value>
+    <value>Locket {0} je nameščen. Zaprite in znova odprite Locket, da ga boste uporabljali.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio še ni pripravljen.</value>
+    <value>Locket še ni pripravljen.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Elementa odložišča ni mogoče najti</value>
@@ -395,37 +395,37 @@ Izberite z Shift, da počistite vse.</value>
     <value>Neznan ukaz</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio se po zagonu ni odzval.</value>
+    <value>Locket se po zagonu ni odzval.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio se ne odziva.</value>
+    <value>Locket se ne odziva.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Programa Kleio ni bilo mogoče zagnati.</value>
+    <value>Programa Locket ni bilo mogoče zagnati.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio ni razumel zahteve. Ali je zagnani Kleio enake različice?</value>
+    <value>Locket ni razumel zahteve. Ali je zagnani Locket enake različice?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Element je prevelik.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio ukaza ni mogel izvesti.</value>
+    <value>Locket ukaza ni mogel izvesti.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio se zapira.</value>
+    <value>Locket se zapira.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Za navodila zaženite "kleio --help".</value>
+    <value>{0} Za navodila zaženite "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Ukaza ni bilo mogoče poslati programu Kleio.</value>
+    <value>Ukaza ni bilo mogoče poslati programu Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio ni odgovoril.</value>
+    <value>Locket ni odgovoril.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio je poslal neveljaven odgovor.</value>
+    <value>Locket je poslal neveljaven odgovor.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Ni uspelo.</value>
@@ -467,10 +467,10 @@ Izberite z Shift, da počistite vse.</value>
     <value>Neznana možnost: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Nastavitve programa Kleio</value>
+    <value>Nastavitve programa Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Nastavitve programa Kleio</value>
+    <value>Nastavitve programa Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Splošno</value>
@@ -563,7 +563,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Zaženi ob prijavi</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Samodejno zaženi Kleio, ko se prijavite v Windows.</value>
+    <value>Samodejno zaženi Locket, ko se prijavite v Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zaženi ob prijavi</value>
@@ -572,13 +572,13 @@ Izberite z Shift, da počistite vse.</value>
     <value>Windows je izklopil zagon ob prijavi</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio je bil onemogočen v upravitelju opravil &gt; Zagonske aplikacije (ali v Nastavitve &gt; Aplikacije &gt; Zagon). Tam ga vklopite, da se Kleio zažene ob prijavi.</value>
+    <value>Locket je bil onemogočen v upravitelju opravil &gt; Zagonske aplikacije (ali v Nastavitve &gt; Aplikacije &gt; Zagon). Tam ga vklopite, da se Locket zažene ob prijavi.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Samodejno preverite, ali so na voljo posodobitve</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Enkrat na dan na GitHubu poišči novejšo izdajo programa Kleio in ponudi namestitev.</value>
+    <value>Enkrat na dan na GitHubu poišči novejšo izdajo programa Locket in ponudi namestitev.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Preverite zdaj</value>
@@ -593,7 +593,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Jezik</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Jezik menijev, nastavitev in sporočil programa Kleio.</value>
+    <value>Jezik menijev, nastavitev in sporočil programa Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Jezik</value>
@@ -602,7 +602,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Privzeto v sistemu Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Znova zaženite Kleio, da uporabite nov jezik.</value>
+    <value>Znova zaženite Locket, da uporabite nov jezik.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Znova zaženi zdaj</value>
@@ -611,13 +611,13 @@ Izberite z Shift, da počistite vse.</value>
     <value>Bližnjice</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Odpri Kleio</value>
+    <value>Odpri Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Globalna bližnjična tipka za odpiranje aplikacije. Ponavljajoč pritisk glavne tipke, medtem ko držite modifikatorje, izberete naslednjo postavko na seznamu. V tem načinu boste s sprostitvijo modifikacijskih tipk potrdili izbiro in zaprli pojavno okno. Privzeto: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Bližnjica za odpiranje programa Kleio</value>
+    <value>Bližnjica za odpiranje programa Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Bližnjice ni bilo mogoče registrirati</value>
@@ -707,13 +707,13 @@ Izberite z Shift, da počistite vse.</value>
     <value>Odložišče sistema Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows ima svojo zgodovino odložišča, ki se odpre z Win+V. Kleio lahko med delovanjem prevzame to bližnjico, ne da bi spremenil nastavitve sistema Windows.</value>
+    <value>Windows ima svojo zgodovino odložišča, ki se odpre z Win+V. Locket lahko med delovanjem prevzame to bližnjico, ne da bi spremenil nastavitve sistema Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Zamenjaj Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Med delovanjem programa Kleio Win+V odpre Kleio namesto zgodovine odložišča sistema Windows. Nastavitve sistema Windows se ne spremenijo.</value>
+    <value>Med delovanjem programa Locket Win+V odpre Locket namesto zgodovine odložišča sistema Windows. Nastavitve sistema Windows se ne spremenijo.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Zamenjaj Win+V</value>
@@ -722,7 +722,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Blokiraj Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C ne naredi ničesar, dokler se izvaja Kleio. Windows ga uporablja za Copilot in ga ni mogoče izklopiti. Nastavitve sistema Windows se ne spremenijo.</value>
+    <value>Win+C ne naredi ničesar, dokler se izvaja Locket. Windows ga uporablja za Copilot in ga ni mogoče izklopiti. Nastavitve sistema Windows se ne spremenijo.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blokiraj Win+C</value>
@@ -746,7 +746,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Prikaži obvestila</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Prikaži obvestilo z elementom, ko Kleio kopira element ali shrani novo kopijo.</value>
+    <value>Prikaži obvestilo z elementom, ko Locket kopira element ali shrani novo kopijo.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Prikaži obvestila</value>
@@ -755,13 +755,13 @@ Izberite z Shift, da počistite vse.</value>
     <value>Obvestila so v sistemu Windows izklopljena</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Če jih želite videti, vklopite obvestila za Kleio v nastavitvah obvestil sistema Windows.</value>
+    <value>Če jih želite videti, vklopite obvestila za Locket v nastavitvah obvestil sistema Windows.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Predvajaj zvoke</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Predvajaj zvok, ko Kleio kopira element ali shrani novo kopijo.</value>
+    <value>Predvajaj zvok, ko Locket kopira element ali shrani novo kopijo.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Predvajaj zvoke</value>
@@ -770,7 +770,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Nastavitve obvestil sistema Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Izberite, kako se prikazujejo obvestila programa Kleio, ali jih izklopite v Nastavitve &gt; Sistem &gt; Obvestila.</value>
+    <value>Izberite, kako se prikazujejo obvestila programa Locket, ali jih izklopite v Nastavitve &gt; Sistem &gt; Obvestila.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Odpri nastavitve obvestil sistema Windows</value>
@@ -974,7 +974,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Prikaži ikono v območju za obvestila</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Prikaži ikono programa Kleio v območju za obvestila v opravilni vrstici.</value>
+    <value>Prikaži ikono programa Locket v območju za obvestila v opravilni vrstici.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Prikaži ikono v območju za obvestila</value>
@@ -983,7 +983,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Slog ikone v območju za obvestila</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotip Kleio</value>
+    <value>Logotip Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Odložišče</value>
@@ -1037,7 +1037,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Prikaži naslov pred poljem za iskanje</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Prikaži »Kleio« levo od polja za iskanje.</value>
+    <value>Prikaži »Locket« levo od polja za iskanje.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Prikaži naslov pred poljem za iskanje</value>
@@ -1085,7 +1085,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Regularni izrazi - Regex</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Kopije iz določenih aplikacij je mogoče prezreti. Upoštevajte, da to ni zanesljivo: Windows ne pove, katera aplikacija je nekaj kopirala, zato Kleio preveri aplikacijo, ki ima v lasti odložišče ali je v ospredju. Kadar je mogoče, raje uporabite oblike odložišča.</value>
+    <value>Kopije iz določenih aplikacij je mogoče prezreti. Upoštevajte, da to ni zanesljivo: Windows ne pove, katera aplikacija je nekaj kopirala, zato Locket preveri aplikacijo, ki ima v lasti odložišče ali je v ospredju. Kadar je mogoče, raje uporabite oblike odložišča.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Prezri vse aplikacije razen navedenih</value>
@@ -1181,7 +1181,7 @@ Izberite z Shift, da počistite vse.</value>
     <value>Ni določenih regularnih izrazov.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio vedno prezre kopije, označene z »{0}« ali »{1}«: to so dogovori sistema Windows, s katerimi upravitelji gesel in druge aplikacije ohranjajo občutljive podatke zunaj upraviteljev odložišča.</value>
+    <value>Locket vedno prezre kopije, označene z »{0}« ali »{1}«: to so dogovori sistema Windows, s katerimi upravitelji gesel in druge aplikacije ohranjajo občutljive podatke zunaj upraviteljev odložišča.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Odstrani</value>
@@ -1202,37 +1202,37 @@ Izberite z Shift, da počistite vse.</value>
     <value>Premor</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Začasno ustavi Kleio</value>
+    <value>Začasno ustavi Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Začasno prezri vse nove kopije. Uporabno, da Kleio ne beleži ničesar, medtem ko kopirate občutljive podatke.</value>
+    <value>Začasno prezri vse nove kopije. Uporabno, da Locket ne beleži ničesar, medtem ko kopirate občutljive podatke.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Začasno ustavi Kleio</value>
+    <value>Začasno ustavi Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>To boste najverjetneje uporabljali v skriptih. Začasno ustavite Kleio iz ukazne vrstice, medtem ko kopirate občutljive podatke:</value>
+    <value>To boste najverjetneje uporabljali v skriptih. Začasno ustavite Locket iz ukazne vrstice, medtem ko kopirate občutljive podatke:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopiranje podatkov …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopiranje podatkov, nato kleio.exe --resume</value>
+    <value>locket.exe --pause, kopiranje podatkov, nato locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Če želite prezreti samo naslednje kopiranje:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopiranje podatkov …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, nato kopiranje podatkov</value>
+    <value>locket.exe --ignore-next, nato kopiranje podatkov</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio lahko začasno ustavite ali nadaljujete tudi z Alt+klikom na ikono v območju za obvestila. Če želite prezreti samo naslednje kopiranje, kliknite z Alt+Shift.</value>
+    <value>Locket lahko začasno ustavite ali nadaljujete tudi z Alt+klikom na ikono v območju za obvestila. Če želite prezreti samo naslednje kopiranje, kliknite z Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Brisanje</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Počistite tudi sistemsko odložišče</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Logotip Kleio</value>
+    <value>Logotip Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Različica {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Zahvale</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio je priredba programa Maccy avtorja Alexa Rodionova</value>
+    <value>Locket je priredba programa Maccy avtorja Alexa Rodionova</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy je lahek upravitelj odložišča za macOS. Kleio prinaša njegove funkcije in postavitev v Windows 11.</value>
+    <value>Maccy je lahek upravitelj odložišča za macOS. Locket prinaša njegove funkcije in postavitev v Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Spletno mesto Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Prijavite težave, predlagajte funkcije in prispevajte na GitHubu.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio na GitHubu</value>
+    <value>Locket na GitHubu</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio na GitHubu</value>
+    <value>Locket na GitHubu</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Podpora</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licenca</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio in Maccy sta prosto programje, izdano pod licenco MIT.</value>
+    <value>Locket in Maccy sta prosto programje, izdano pod licenco MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Licenca MIT</value>

@@ -61,22 +61,22 @@
     <value>Sozlamalar…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Kleio haqida</value>
+    <value>Locket haqida</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Chiqish</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Kleio’ni ochish</value>
+    <value>Locket’ni ochish</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Kleio’ni pauza qilish</value>
+    <value>Locket’ni pauza qilish</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Keyingi nusxani e’tiborsiz qoldirish</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Kleio’dan chiqish</value>
+    <value>Locket’dan chiqish</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Joylashtirish to‘plamini to‘xtatish</value>
@@ -191,7 +191,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Barcha elementlarni tozlash.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Kleio sozlamalarini ochish.</value>
+    <value>Locket sozlamalarini ochish.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Ilova haqida ko'proq o'qish.</value>
@@ -296,19 +296,19 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Nusxalar jami soni: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (pauza qilingan)</value>
+    <value>Locket (pauza qilingan)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (keyingi nusxa e’tiborsiz qoldiriladi)</value>
+    <value>Locket (keyingi nusxa e’tiborsiz qoldiriladi)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (hech qanday tur saqlanmaydi)</value>
+    <value>Locket (hech qanday tur saqlanmaydi)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Kleio’ning yangi versiyasi chiqdi!</value>
+    <value>Locket’ning yangi versiyasi chiqdi!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} endi mavjud. Sizda {1} versiyasi.</value>
+    <value>Locket {0} endi mavjud. Sizda {1} versiyasi.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Yangilanishni o‘rnatish</value>
@@ -323,22 +323,22 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Reliz qaydlari</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Kleio {0} o‘rnatilmadi</value>
+    <value>Locket {0} o‘rnatilmadi</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Ilovalar o‘rnatuvchisida ochish</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} o‘rnatilmoqda</value>
+    <value>Locket {0} o‘rnatilmoqda</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Yangilanish o‘rnatilgach, Kleio qayta ishga tushadi.</value>
+    <value>Yangilanish o‘rnatilgach, Locket qayta ishga tushadi.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Yangilanish o‘rnatilmoqda</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} yuklab olinmoqda. Yangilanish o‘rnatilgach, Kleio qayta ishga tushadi.</value>
+    <value>Locket {0} yuklab olinmoqda. Yangilanish o‘rnatilgach, Locket qayta ishga tushadi.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Yangilanish o‘rnatilmadi</value>
@@ -347,16 +347,16 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Yangilanish mavjud</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio yangilangan</value>
+    <value>Locket yangilangan</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} eng so‘nggi versiya.</value>
+    <value>Locket {0} eng so‘nggi versiya.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Yangilanishlarni tekshirib bo‘lmadi</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Kleio’ning e’lon qilingan relizi topilmadi.</value>
+    <value>Locket’ning e’lon qilingan relizi topilmadi.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Relizlar</value>
@@ -377,10 +377,10 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Yangilanishni o‘rnatib bo‘lmadi.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} o‘rnatildi. Undan foydalanish uchun Kleio’dan chiqib, qayta oching.</value>
+    <value>Locket {0} o‘rnatildi. Undan foydalanish uchun Locket’dan chiqib, qayta oching.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio hali tayyor emas.</value>
+    <value>Locket hali tayyor emas.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Bufer elementi topilmadi</value>
@@ -395,37 +395,37 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Noma’lum buyruq</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio ishga tushgandan keyin javob bermadi.</value>
+    <value>Locket ishga tushgandan keyin javob bermadi.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio javob bermayapti.</value>
+    <value>Locket javob bermayapti.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Kleio’ni ishga tushirib bo‘lmadi.</value>
+    <value>Locket’ni ishga tushirib bo‘lmadi.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio so‘rovni tushunmadi. Ishlab turgan Kleio xuddi shu versiyami?</value>
+    <value>Locket so‘rovni tushunmadi. Ishlab turgan Locket xuddi shu versiyami?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Element juda katta.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio buyruqni bajara olmadi.</value>
+    <value>Locket buyruqni bajara olmadi.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio yopilmoqda.</value>
+    <value>Locket yopilmoqda.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Foydalanish bo‘yicha: "kleio --help".</value>
+    <value>{0} Foydalanish bo‘yicha: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Buyruqni Kleio’ga yuborib bo‘lmadi.</value>
+    <value>Buyruqni Locket’ga yuborib bo‘lmadi.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio javob bermadi.</value>
+    <value>Locket javob bermadi.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio noto‘g‘ri javob yubordi.</value>
+    <value>Locket noto‘g‘ri javob yubordi.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Muvaffaqiyatsiz.</value>
@@ -467,10 +467,10 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Noma’lum parametr: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Kleio sozlamalari</value>
+    <value>Locket sozlamalari</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Kleio sozlamalari</value>
+    <value>Locket sozlamalari</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Asosiy</value>
@@ -563,7 +563,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Kirish paytida ishga tushirish</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Windows’ga kirganingizda Kleio’ni avtomatik ishga tushirish.</value>
+    <value>Windows’ga kirganingizda Locket’ni avtomatik ishga tushirish.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Kirish paytida ishga tushirish</value>
@@ -572,13 +572,13 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Kirishda ishga tushirish Windows tomonidan o‘chirilgan</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio Vazifalar dispetcheri &gt; Ishga tushish ilovalari (yoki Sozlamalar &gt; Ilovalar &gt; Ishga tushish) bo‘limida o‘chirilgan. Kleio kirishda ishga tushishi uchun uni o‘sha yerda yoqing.</value>
+    <value>Locket Vazifalar dispetcheri &gt; Ishga tushish ilovalari (yoki Sozlamalar &gt; Ilovalar &gt; Ishga tushish) bo‘limida o‘chirilgan. Locket kirishda ishga tushishi uchun uni o‘sha yerda yoqing.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Yangilanishlarni avtomatik ravishda tekshirish</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Kuniga bir marta GitHub’dan Kleio’ning yangiroq relizini qidirish va o‘rnatishni taklif qilish.</value>
+    <value>Kuniga bir marta GitHub’dan Locket’ning yangiroq relizini qidirish va o‘rnatishni taklif qilish.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Hozir tekshir</value>
@@ -593,7 +593,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Til</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Kleio menyulari, sozlamalari va xabarlari tili.</value>
+    <value>Locket menyulari, sozlamalari va xabarlari tili.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Til</value>
@@ -602,7 +602,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Windows standarti</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Yangi tildan foydalanish uchun Kleio’ni qayta ishga tushiring.</value>
+    <value>Yangi tildan foydalanish uchun Locket’ni qayta ishga tushiring.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Hozir qayta ishga tushirish</value>
@@ -611,13 +611,13 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Tezkor tugmalar</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Kleio’ni ochish</value>
+    <value>Locket’ni ochish</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Ilovani ochish uchun global yorliq. Oʻzgartirgichlarni ushlab turganda asosiy tugmani qayta-qayta bosish roʻyxatdagi keyingi elementni tanlaydi. Bu rejimda modifikator tugmachalarini bo‘shatish tanlovni tasdiqlaydi va qalqib chiquvchi oynani yopadi. Standart: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio’ni ochish tezkor tugmasi</value>
+    <value>Locket’ni ochish tezkor tugmasi</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Tezkor tugmani ro‘yxatdan o‘tkazib bo‘lmadi</value>
@@ -707,13 +707,13 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Windows buferi</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows’ning Win+V bilan ochiladigan o‘z bufer tarixi bor. Kleio ishlayotganda Windows sozlamalarini o‘zgartirmasdan bu tezkor tugmani o‘z zimmasiga olishi mumkin.</value>
+    <value>Windows’ning Win+V bilan ochiladigan o‘z bufer tarixi bor. Locket ishlayotganda Windows sozlamalarini o‘zgartirmasdan bu tezkor tugmani o‘z zimmasiga olishi mumkin.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Win+V ni almashtirish</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kleio ishlayotganda Win+V Windows bufer tarixi o‘rniga Kleio’ni ochadi. Windows sozlamalari o‘zgartirilmaydi.</value>
+    <value>Locket ishlayotganda Win+V Windows bufer tarixi o‘rniga Locket’ni ochadi. Windows sozlamalari o‘zgartirilmaydi.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+V ni almashtirish</value>
@@ -722,7 +722,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Win+C ni bloklash</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kleio ishlayotganda Win+C hech narsa qilmaydi. Windows uni Copilot uchun ishlatadi va o‘chirish imkonini bermaydi. Windows sozlamalari o‘zgartirilmaydi.</value>
+    <value>Locket ishlayotganda Win+C hech narsa qilmaydi. Windows uni Copilot uchun ishlatadi va o‘chirish imkonini bermaydi. Windows sozlamalari o‘zgartirilmaydi.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Win+C ni bloklash</value>
@@ -746,7 +746,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Bildirishnomalarni ko‘rsatish</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Kleio elementdan nusxa olganda yoki yangi nusxani saqlaganda element bilan bildirishnoma ko‘rsatish.</value>
+    <value>Locket elementdan nusxa olganda yoki yangi nusxani saqlaganda element bilan bildirishnoma ko‘rsatish.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bildirishnomalarni ko‘rsatish</value>
@@ -755,13 +755,13 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Windows’da bildirishnomalar o‘chirilgan</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Ularni ko‘rish uchun Windows bildirishnoma sozlamalarida Kleio uchun bildirishnomalarni yoqing.</value>
+    <value>Ularni ko‘rish uchun Windows bildirishnoma sozlamalarida Locket uchun bildirishnomalarni yoqing.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Tovushlarni ijro etish</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Kleio elementdan nusxa olganda yoki yangi nusxani saqlaganda tovush ijro etish.</value>
+    <value>Locket elementdan nusxa olganda yoki yangi nusxani saqlaganda tovush ijro etish.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Tovushlarni ijro etish</value>
@@ -770,7 +770,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Windows bildirishnoma sozlamalari</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Kleio bildirishnomalari qanday ko‘rinishini Sozlamalar &gt; Tizim &gt; Bildirishnomalar bo‘limida tanlang yoki ularni o‘chiring.</value>
+    <value>Locket bildirishnomalari qanday ko‘rinishini Sozlamalar &gt; Tizim &gt; Bildirishnomalar bo‘limida tanlang yoki ularni o‘chiring.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Windows bildirishnoma sozlamalarini ochish</value>
@@ -974,7 +974,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Bildirishnomalar sohasida belgini ko‘rsatish</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Kleio belgisini vazifalar panelining bildirishnomalar sohasida ko‘rsatish.</value>
+    <value>Locket belgisini vazifalar panelining bildirishnomalar sohasida ko‘rsatish.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bildirishnomalar sohasida belgini ko‘rsatish</value>
@@ -983,7 +983,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Bildirishnomalar sohasidagi belgi uslubi</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logotipi</value>
+    <value>Locket logotipi</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bufer</value>
@@ -1037,7 +1037,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Qidiruv maydonidan oldin sarlavhani ko'rsatish</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Qidiruv maydonining chap tomonida “Kleio” yozuvini ko‘rsatish.</value>
+    <value>Qidiruv maydonining chap tomonida “Locket” yozuvini ko‘rsatish.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Qidiruv maydonidan oldin sarlavhani ko'rsatish</value>
@@ -1085,7 +1085,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Muntazam ifodalar</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Muayyan ilovalardan kelgan nusxalarni e’tiborsiz qoldirish mumkin. Bu to‘liq ishonchli emas: Windows nimani qaysi ilova nusxalaganini aytmaydi, shuning uchun Kleio buferga egalik qiluvchi yoki oldingi planda turgan ilovani tekshiradi. Iloji bo‘lsa, bufer formatlaridan foydalaning.</value>
+    <value>Muayyan ilovalardan kelgan nusxalarni e’tiborsiz qoldirish mumkin. Bu to‘liq ishonchli emas: Windows nimani qaysi ilova nusxalaganini aytmaydi, shuning uchun Locket buferga egalik qiluvchi yoki oldingi planda turgan ilovani tekshiradi. Iloji bo‘lsa, bufer formatlaridan foydalaning.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ro'yxatdagilardan tashqari barcha ilovalarga e'tibor bermang</value>
@@ -1181,7 +1181,7 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Muntazam ifodalar belgilanmagan.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio “{0}” yoki “{1}” bilan belgilangan nusxalarni doim e’tiborsiz qoldiradi: bular parol menejerlari va boshqa ilovalar maxfiy ma’lumotlarni bufer menejerlaridan uzoq tutish uchun foydalanadigan Windows qoidalari.</value>
+    <value>Locket “{0}” yoki “{1}” bilan belgilangan nusxalarni doim e’tiborsiz qoldiradi: bular parol menejerlari va boshqa ilovalar maxfiy ma’lumotlarni bufer menejerlaridan uzoq tutish uchun foydalanadigan Windows qoidalari.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Olib tashlash</value>
@@ -1202,37 +1202,37 @@ Hammasini tozalash uchun Shift bosing.</value>
     <value>Pauza</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Kleio’ni pauza qilish</value>
+    <value>Locket’ni pauza qilish</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Barcha yangi nusxalarni vaqtincha e’tiborsiz qoldirish. Maxfiy ma’lumotlardan nusxa olayotganingizda Kleio hech narsani yozib olmasligi uchun foydali.</value>
+    <value>Barcha yangi nusxalarni vaqtincha e’tiborsiz qoldirish. Maxfiy ma’lumotlardan nusxa olayotganingizda Locket hech narsani yozib olmasligi uchun foydali.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio’ni pauza qilish</value>
+    <value>Locket’ni pauza qilish</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Ehtimol, buni skriptlardan ishlatasiz. Maxfiy ma’lumotlardan nusxa olayotganda Kleio’ni buyruq satridan pauza qiling:</value>
+    <value>Ehtimol, buni skriptlardan ishlatasiz. Maxfiy ma’lumotlardan nusxa olayotganda Locket’ni buyruq satridan pauza qiling:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … ma’lumotlardan nusxa olish …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, ma’lumotlardan nusxa olish, keyin kleio.exe --resume</value>
+    <value>locket.exe --pause, ma’lumotlardan nusxa olish, keyin locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Faqat keyingi nusxani e’tiborsiz qoldirish uchun:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … ma’lumotlardan nusxa olish …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, keyin ma’lumotlardan nusxa olish</value>
+    <value>locket.exe --ignore-next, keyin ma’lumotlardan nusxa olish</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Kleio’ni pauza qilish yoki davom ettirish uchun bildirishnomalar sohasidagi belgini Alt+bosish ham mumkin. Faqat keyingi nusxani e’tiborsiz qoldirish uchun uni Alt+Shift+bosing.</value>
+    <value>Locket’ni pauza qilish yoki davom ettirish uchun bildirishnomalar sohasidagi belgini Alt+bosish ham mumkin. Faqat keyingi nusxani e’tiborsiz qoldirish uchun uni Alt+Shift+bosing.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Tozalash</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Operatsion tizim buferini ham tozalang</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio logotipi</value>
+    <value>Locket logotipi</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versiya {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Minnatdorchilik</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio — Alex Rodionov yaratgan Maccy’ning porti</value>
+    <value>Locket — Alex Rodionov yaratgan Maccy’ning porti</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy — macOS uchun yengil bufer menejeri. Kleio uning funksiyalari va tartibini Windows 11 ga olib keladi.</value>
+    <value>Maccy — macOS uchun yengil bufer menejeri. Locket uning funksiyalari va tartibini Windows 11 ga olib keladi.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Maccy veb-sayti</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>GitHub’da muammolar haqida xabar bering, funksiyalar taklif qiling va hissa qo‘shing.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>GitHub’da Kleio</value>
+    <value>GitHub’da Locket</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>GitHub’da Kleio</value>
+    <value>GitHub’da Locket</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Yordam</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Litsenziya</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio va Maccy MIT litsenziyasi ostida chiqarilgan erkin dasturlardir.</value>
+    <value>Locket va Maccy MIT litsenziyasi ostida chiqarilgan erkin dasturlardir.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT litsenziyasi</value>

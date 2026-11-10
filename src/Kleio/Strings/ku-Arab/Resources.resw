@@ -61,22 +61,22 @@
     <value>رێکخستنەکان…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>دەربارەی Kleio</value>
+    <value>دەربارەی Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>چوونە دەرەوە</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>کردنەوەی Kleio</value>
+    <value>کردنەوەی Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>وەستاندنی کاتیی Kleio</value>
+    <value>وەستاندنی کاتیی Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>پشتگوێخستنی کۆپیی داهاتوو</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>داخستنی Kleio</value>
+    <value>داخستنی Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>وەستاندنی کۆمەڵەی لکاندن</value>
@@ -191,7 +191,7 @@
     <value>پاککردنەوەی هەموو ئایتەمەکان.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>کردنەوەی ڕێکخستنەکانی Kleio.</value>
+    <value>کردنەوەی ڕێکخستنەکانی Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>زیاتر بخوێنەرەوە دەربارەی ئەپلیکەیشنەکە.</value>
@@ -296,19 +296,19 @@
     <value>ژمارەی کۆپییەکان: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (ڕاگیراوە)</value>
+    <value>Locket (ڕاگیراوە)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (کۆپیی داهاتوو پشتگوێ دەخات)</value>
+    <value>Locket (کۆپیی داهاتوو پشتگوێ دەخات)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (هیچ جۆرێک پاشەکەوت ناکات)</value>
+    <value>Locket (هیچ جۆرێک پاشەکەوت ناکات)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>وەشانێکی نوێی Kleio بەردەستە!</value>
+    <value>وەشانێکی نوێی Locket بەردەستە!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} ئێستا بەردەستە. وەشانی تۆ {1}ە.</value>
+    <value>Locket {0} ئێستا بەردەستە. وەشانی تۆ {1}ە.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>دامەزراندنی نوێکردنەوە</value>
@@ -323,22 +323,22 @@
     <value>تێبینییەکانی وەشان</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>نەتوانرا Kleio {0} دابمەزرێت</value>
+    <value>نەتوانرا Locket {0} دابمەزرێت</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>کردنەوە لە دامەزرێنەری ئەپ</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Kleio {0} دادەمەزرێت</value>
+    <value>Locket {0} دادەمەزرێت</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>دوای دامەزراندنی نوێکردنەوەکە Kleio دووبارە دەکرێتەوە.</value>
+    <value>دوای دامەزراندنی نوێکردنەوەکە Locket دووبارە دەکرێتەوە.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>نوێکردنەوە دادەمەزرێت</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Kleio {0} دادەگیرێت. دوای دامەزراندنی نوێکردنەوەکە Kleio دووبارە دەکرێتەوە.</value>
+    <value>Locket {0} دادەگیرێت. دوای دامەزراندنی نوێکردنەوەکە Locket دووبارە دەکرێتەوە.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>نەتوانرا نوێکردنەوەکە دابمەزرێت</value>
@@ -347,16 +347,16 @@
     <value>نوێکردنەوە بەردەستە</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio نوێیە</value>
+    <value>Locket نوێیە</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} نوێترین وەشانە.</value>
+    <value>Locket {0} نوێترین وەشانە.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>نەتوانرا نوێکردنەوەکان بپشکنرێن</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>هیچ وەشانێکی بڵاوکراوەی Kleio نەدۆزرایەوە.</value>
+    <value>هیچ وەشانێکی بڵاوکراوەی Locket نەدۆزرایەوە.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>وەشانەکان</value>
@@ -377,10 +377,10 @@
     <value>نوێکردنەوەکە دانەمەزرا.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} دامەزرا. بۆ بەکارهێنانی، Kleio دابخە و دووبارە بیکەرەوە.</value>
+    <value>Locket {0} دامەزرا. بۆ بەکارهێنانی، Locket دابخە و دووبارە بیکەرەوە.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio هێشتا ئامادە نییە.</value>
+    <value>Locket هێشتا ئامادە نییە.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>ئایتەمی کلیپبۆرد نەدۆزرایەوە</value>
@@ -395,37 +395,37 @@
     <value>فەرمانی نەناسراو</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio دوای دەستپێکردن وەڵامی نەدایەوە.</value>
+    <value>Locket دوای دەستپێکردن وەڵامی نەدایەوە.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio وەڵام ناداتەوە.</value>
+    <value>Locket وەڵام ناداتەوە.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>نەتوانرا Kleio دەست پێ بکات.</value>
+    <value>نەتوانرا Locket دەست پێ بکات.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio داواکارییەکەی تێنەگەیشت. ئایا Kleioی کارپێکراو هەمان وەشانە؟</value>
+    <value>Locket داواکارییەکەی تێنەگەیشت. ئایا Locketی کارپێکراو هەمان وەشانە؟</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>ئایتەمەکە زۆر گەورەیە.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio نەیتوانی فەرمانەکە جێبەجێ بکات.</value>
+    <value>Locket نەیتوانی فەرمانەکە جێبەجێ بکات.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio دادەخرێت.</value>
+    <value>Locket دادەخرێت.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} بۆ ڕێنمایی بەکارهێنان "kleio --help" جێبەجێ بکە.</value>
+    <value>{0} بۆ ڕێنمایی بەکارهێنان "locket --help" جێبەجێ بکە.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>نەتوانرا فەرمانەکە بۆ Kleio بنێردرێت.</value>
+    <value>نەتوانرا فەرمانەکە بۆ Locket بنێردرێت.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio وەڵامی نەدایەوە.</value>
+    <value>Locket وەڵامی نەدایەوە.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio وەڵامێکی نادروستی نارد.</value>
+    <value>Locket وەڵامێکی نادروستی نارد.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>سەرکەوتوو نەبوو.</value>
@@ -467,10 +467,10 @@
     <value>هەڵبژاردەی نەناسراو: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>ڕێکخستنەکانی Kleio</value>
+    <value>ڕێکخستنەکانی Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>ڕێکخستنەکانی Kleio</value>
+    <value>ڕێکخستنەکانی Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>گشتی</value>
@@ -563,7 +563,7 @@
     <value>کارپێکردن لەکاتی چوونەژوورەوەدا</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Kleio بە شێوەی خۆکار دەست پێ بکات کاتێک دەچیتە ناو Windows.</value>
+    <value>Locket بە شێوەی خۆکار دەست پێ بکات کاتێک دەچیتە ناو Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کارپێکردن لەکاتی چوونەژوورەوەدا</value>
@@ -572,13 +572,13 @@
     <value>Windows کارپێکردن لە کاتی چوونەژوورەوەی کوژاندەوە</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio لە بەڕێوەبەری ئەرکەکان &gt; ئەپەکانی دەستپێکردن (یان ڕێکخستنەکان &gt; ئەپەکان &gt; دەستپێکردن) ناچالاک کراوە. لەوێ چالاکی بکە بۆ ئەوەی Kleio لە کاتی چوونەژوورەوە دەست پێ بکات.</value>
+    <value>Locket لە بەڕێوەبەری ئەرکەکان &gt; ئەپەکانی دەستپێکردن (یان ڕێکخستنەکان &gt; ئەپەکان &gt; دەستپێکردن) ناچالاک کراوە. لەوێ چالاکی بکە بۆ ئەوەی Locket لە کاتی چوونەژوورەوە دەست پێ بکات.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>پشکنینی خۆکارانە بۆ نوێکارییەکان</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>ڕۆژانە جارێک لە GitHub بەدوای وەشانێکی نوێتری Kleio بگەڕێ و پێشنیاری دامەزراندنی بکە.</value>
+    <value>ڕۆژانە جارێک لە GitHub بەدوای وەشانێکی نوێتری Locket بگەڕێ و پێشنیاری دامەزراندنی بکە.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>ئێستا بپشکنە</value>
@@ -593,7 +593,7 @@
     <value>زمان</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>زمانی لیست، ڕێکخستن و پەیامەکانی Kleio.</value>
+    <value>زمانی لیست، ڕێکخستن و پەیامەکانی Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>زمان</value>
@@ -602,7 +602,7 @@
     <value>بنەڕەتی Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Kleio دووبارە دەست پێ بکەرەوە بۆ بەکارهێنانی زمانە نوێیەکە.</value>
+    <value>Locket دووبارە دەست پێ بکەرەوە بۆ بەکارهێنانی زمانە نوێیەکە.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>ئێستا دووبارە دەستپێکردنەوە</value>
@@ -611,13 +611,13 @@
     <value>کورتەڕێکان</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>کردنەوەی Kleio</value>
+    <value>کردنەوەی Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>کورتەدوگمەی گشتی بۆ کردنەوەی بەرنامەکە. داگرتنی دووبارەی دوگمە سەرەکییەکە لەکاتی هێشتنەوەی دوگمە یارمەتیدەرەکان، ئایتەمی دواتر لە لیستەکەدا دیاری دەکات. لەم حاڵەتەدا، بەردانی دوگمە یارمەتیدەرەکان دیاریکردنەکە پشتڕاست دەکاتەوە و پۆپئەپەکە دادەخات. بنەڕەت: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>کورتەڕێی کردنەوەی Kleio</value>
+    <value>کورتەڕێی کردنەوەی Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>نەتوانرا کورتەڕێکە تۆمار بکرێت</value>
@@ -707,13 +707,13 @@
     <value>کلیپبۆردی Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows مێژووی کلیپبۆردی تایبەتی خۆی هەیە کە بە Win+V دەکرێتەوە. Kleio دەتوانێت لە کاتی کارکردندا ئەو کورتەڕێیە بەکاربهێنێت، بێ گۆڕینی هیچ ڕێکخستنێکی Windows.</value>
+    <value>Windows مێژووی کلیپبۆردی تایبەتی خۆی هەیە کە بە Win+V دەکرێتەوە. Locket دەتوانێت لە کاتی کارکردندا ئەو کورتەڕێیە بەکاربهێنێت، بێ گۆڕینی هیچ ڕێکخستنێکی Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>گۆڕینی Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>لە کاتی کارکردنی Kleio، ‏Win+V لەجیاتی مێژووی کلیپبۆردی Windows، ‏Kleio دەکاتەوە. ڕێکخستنەکانی Windows ناگۆڕدرێن.</value>
+    <value>لە کاتی کارکردنی Locket، ‏Win+V لەجیاتی مێژووی کلیپبۆردی Windows، ‏Locket دەکاتەوە. ڕێکخستنەکانی Windows ناگۆڕدرێن.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>گۆڕینی Win+V</value>
@@ -722,7 +722,7 @@
     <value>بلۆککردنی Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>کاتێک Kleio کاردەکات Win+C هیچ ناکات. Windows بۆ Copilot بەکاری دەهێنێت و ڕێگایەک بۆ کوژاندنەوەی نییە. ڕێکخستنەکانی Windows ناگۆڕدرێن.</value>
+    <value>کاتێک Locket کاردەکات Win+C هیچ ناکات. Windows بۆ Copilot بەکاری دەهێنێت و ڕێگایەک بۆ کوژاندنەوەی نییە. ڕێکخستنەکانی Windows ناگۆڕدرێن.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>بلۆککردنی Win+C</value>
@@ -746,7 +746,7 @@
     <value>پیشاندانی ئاگادارکردنەوەکان</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>کاتێک Kleio ئایتەمێک کۆپی دەکات یان کۆپییەکی نوێ پاشەکەوت دەکات، ئاگادارکردنەوەیەک لەگەڵ ئایتەمەکە پیشان بدە.</value>
+    <value>کاتێک Locket ئایتەمێک کۆپی دەکات یان کۆپییەکی نوێ پاشەکەوت دەکات، ئاگادارکردنەوەیەک لەگەڵ ئایتەمەکە پیشان بدە.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>پیشاندانی ئاگادارکردنەوەکان</value>
@@ -755,13 +755,13 @@
     <value>ئاگادارکردنەوەکان لە Windows کوژاونەتەوە</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>بۆ بینینیان، ئاگادارکردنەوەکانی Kleio لە ڕێکخستنەکانی ئاگادارکردنەوەی Windows چالاک بکە.</value>
+    <value>بۆ بینینیان، ئاگادارکردنەوەکانی Locket لە ڕێکخستنەکانی ئاگادارکردنەوەی Windows چالاک بکە.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>لێدانی دەنگ</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>کاتێک Kleio ئایتەمێک کۆپی دەکات یان کۆپییەکی نوێ پاشەکەوت دەکات، دەنگێک لێبدە.</value>
+    <value>کاتێک Locket ئایتەمێک کۆپی دەکات یان کۆپییەکی نوێ پاشەکەوت دەکات، دەنگێک لێبدە.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>لێدانی دەنگ</value>
@@ -770,7 +770,7 @@
     <value>ڕێکخستنەکانی ئاگادارکردنەوەی Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>لە ڕێکخستنەکان &gt; سیستەم &gt; ئاگادارکردنەوەکان هەڵبژێرە ئاگادارکردنەوەکانی Kleio چۆن دەردەکەون، یان بیانکوژێنەوە.</value>
+    <value>لە ڕێکخستنەکان &gt; سیستەم &gt; ئاگادارکردنەوەکان هەڵبژێرە ئاگادارکردنەوەکانی Locket چۆن دەردەکەون، یان بیانکوژێنەوە.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کردنەوەی ڕێکخستنەکانی ئاگادارکردنەوەی Windows</value>
@@ -974,7 +974,7 @@
     <value>پیشاندانی ئایکۆن لە ناوچەی ئاگادارکردنەوە</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>ئایکۆنی Kleio لە ناوچەی ئاگادارکردنەوەی شریتی ئەرکەکان پیشان بدە.</value>
+    <value>ئایکۆنی Locket لە ناوچەی ئاگادارکردنەوەی شریتی ئەرکەکان پیشان بدە.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>پیشاندانی ئایکۆن لە ناوچەی ئاگادارکردنەوە</value>
@@ -983,7 +983,7 @@
     <value>شێوازی ئایکۆنی ناوچەی ئاگادارکردنەوە</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>لۆگۆی Kleio</value>
+    <value>لۆگۆی Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کلیپبۆرد</value>
@@ -1037,7 +1037,7 @@
     <value>پیشاندانی ناونیشان پێش خانەی گەڕان</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>پیشاندانی «Kleio» لە تەنیشت خانەی گەڕان.</value>
+    <value>پیشاندانی «Locket» لە تەنیشت خانەی گەڕان.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>پیشاندانی ناونیشان پێش خانەی گەڕان</value>
@@ -1085,7 +1085,7 @@
     <value>ڕێجێکسەکان</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>دەتوانرێت کۆپییەکانی هەندێک بەرنامە پشتگوێ بخرێن. ئاگاداربە کە ئەمە تەواو متمانەپێکراو نییە: Windows نالێت کام ئەپ شتێکی کۆپی کردووە، بۆیە Kleio ئەو ئەپە دەپشکنێت کە خاوەنی کلیپبۆردە یان لە پێشەوەیە. ئەگەر دەکرێت فۆرماتەکانی کلیپبۆرد بەکاربهێنە.</value>
+    <value>دەتوانرێت کۆپییەکانی هەندێک بەرنامە پشتگوێ بخرێن. ئاگاداربە کە ئەمە تەواو متمانەپێکراو نییە: Windows نالێت کام ئەپ شتێکی کۆپی کردووە، بۆیە Locket ئەو ئەپە دەپشکنێت کە خاوەنی کلیپبۆردە یان لە پێشەوەیە. ئەگەر دەکرێت فۆرماتەکانی کلیپبۆرد بەکاربهێنە.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>پشتگوێخستنی هەموو بەرنامەکان جگە لەوانەی لیستکراون</value>
@@ -1181,7 +1181,7 @@
     <value>هیچ دەربڕینێکی ڕێکخراو دیاری نەکراوە.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio هەمیشە ئەو کۆپییانە پشتگوێ دەخات کە بە «{0}» یان «{1}» نیشانە کراون: ئەمانە ڕێسا باوەکانی Windowsن کە بەڕێوەبەرانی وشەی نهێنی و ئەپەکانی تر بەکاریان دەهێنن بۆ دوورخستنەوەی زانیاریی هەستیار لە بەڕێوەبەرانی کلیپبۆرد.</value>
+    <value>Locket هەمیشە ئەو کۆپییانە پشتگوێ دەخات کە بە «{0}» یان «{1}» نیشانە کراون: ئەمانە ڕێسا باوەکانی Windowsن کە بەڕێوەبەرانی وشەی نهێنی و ئەپەکانی تر بەکاریان دەهێنن بۆ دوورخستنەوەی زانیاریی هەستیار لە بەڕێوەبەرانی کلیپبۆرد.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>لابردن</value>
@@ -1202,37 +1202,37 @@
     <value>وەستاندنی کاتی</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>وەستاندنی کاتیی Kleio</value>
+    <value>وەستاندنی کاتیی Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>بە کاتی هەموو کۆپییە نوێکان پشتگوێ بخە. سوودی هەیە بۆ ئەوەی Kleio هیچ تۆمار نەکات کاتێک زانیاریی هەستیار کۆپی دەکەیت.</value>
+    <value>بە کاتی هەموو کۆپییە نوێکان پشتگوێ بخە. سوودی هەیە بۆ ئەوەی Locket هیچ تۆمار نەکات کاتێک زانیاریی هەستیار کۆپی دەکەیت.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>وەستاندنی کاتیی Kleio</value>
+    <value>وەستاندنی کاتیی Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>لەوانەیە ئەمە لە سکریپتەکانەوە بەکاربهێنیت. کاتێک زانیاریی هەستیار کۆپی دەکەیت، Kleio لە هێڵی فەرمانەوە بە کاتی بوەستێنە:</value>
+    <value>لەوانەیە ئەمە لە سکریپتەکانەوە بەکاربهێنیت. کاتێک زانیاریی هەستیار کۆپی دەکەیت، Locket لە هێڵی فەرمانەوە بە کاتی بوەستێنە:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … کۆپیکردنی زانیاری …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause، کۆپیکردنی زانیاری، پاشان kleio.exe --resume</value>
+    <value>locket.exe --pause، کۆپیکردنی زانیاری، پاشان locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>بۆ پشتگوێخستنی تەنها کۆپیی داهاتوو:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … کۆپیکردنی زانیاری …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next، پاشان کۆپیکردنی زانیاری</value>
+    <value>locket.exe --ignore-next، پاشان کۆپیکردنی زانیاری</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>هەروەها دەتوانیت بە Alt+کرتە لەسەر ئایکۆنی ناوچەی ئاگادارکردنەوە، Kleio بە کاتی بوەستێنیت یان درێژەی پێ بدەیت. بۆ پشتگوێخستنی تەنها کۆپیی داهاتوو، Alt+Shift+کرتە بکە.</value>
+    <value>هەروەها دەتوانیت بە Alt+کرتە لەسەر ئایکۆنی ناوچەی ئاگادارکردنەوە، Locket بە کاتی بوەستێنیت یان درێژەی پێ بدەیت. بۆ پشتگوێخستنی تەنها کۆپیی داهاتوو، Alt+Shift+کرتە بکە.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>پاککردنەوە</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>سڕینەوەی کلیپبۆردی سیستەمیش</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>لۆگۆی Kleio</value>
+    <value>لۆگۆی Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>وەشانی {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>سوپاس</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio گواستنەوەی Maccyی Alex Rodionovە</value>
+    <value>Locket گواستنەوەی Maccyی Alex Rodionovە</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy بەڕێوەبەرێکی سووکی کلیپبۆردە بۆ macOS. Kleio تایبەتمەندی و ڕێکخستنەکانی دەهێنێتە سەر Windows 11.</value>
+    <value>Maccy بەڕێوەبەرێکی سووکی کلیپبۆردە بۆ macOS. Locket تایبەتمەندی و ڕێکخستنەکانی دەهێنێتە سەر Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>ماڵپەڕی Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>لە GitHub کێشەکان ڕاپۆرت بکە، تایبەتمەندی پێشنیار بکە و بەشداری بکە.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio لە GitHub</value>
+    <value>Locket لە GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio لە GitHub</value>
+    <value>Locket لە GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>پشتگیری</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>مۆڵەت</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio و Maccy نەرمەکاڵای ئازادن کە بە مۆڵەتی MIT بڵاوکراونەتەوە.</value>
+    <value>Locket و Maccy نەرمەکاڵای ئازادن کە بە مۆڵەتی MIT بڵاوکراونەتەوە.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>مۆڵەتی MIT</value>

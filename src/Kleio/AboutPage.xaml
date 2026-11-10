@@ -28,7 +28,7 @@
                             Source="ms-appx:///Assets/Square150x150Logo.png"
                             x:Uid="About_Logo" />
                         <StackPanel Grid.Column="1" Spacing="4" VerticalAlignment="Center">
-                            <TextBlock Text="Kleio" Style="{StaticResource TitleTextBlockStyle}" />
+                            <TextBlock Text="Locket" Style="{StaticResource TitleTextBlockStyle}" />
                             <TextBlock x:Name="VersionText" Style="{StaticResource SettingsDescriptionTextStyle}" FontSize="14" IsTextSelectionEnabled="True" />
                             <TextBlock x:Uid="About_Description" Style="{StaticResource BodyTextBlockStyle}" Margin="0,4,0,0" />
                             <Button

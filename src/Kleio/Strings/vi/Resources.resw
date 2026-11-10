@@ -61,22 +61,22 @@
     <value>Cài đặt…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Giới thiệu về Kleio</value>
+    <value>Giới thiệu về Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Thoát</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Mở Kleio</value>
+    <value>Mở Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Tạm dừng Kleio</value>
+    <value>Tạm dừng Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Bỏ qua lần sao chép tiếp theo</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Thoát Kleio</value>
+    <value>Thoát Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Dừng ngăn xếp dán</value>
@@ -191,7 +191,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Xóa tất cả các mục.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Mở cài đặt Kleio.</value>
+    <value>Mở cài đặt Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Đọc thêm thông tin về ứng dụng.</value>
@@ -296,19 +296,19 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Số lần sao chép: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (đã tạm dừng)</value>
+    <value>Locket (đã tạm dừng)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (đang bỏ qua lần sao chép tiếp theo)</value>
+    <value>Locket (đang bỏ qua lần sao chép tiếp theo)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (không lưu loại nào)</value>
+    <value>Locket (không lưu loại nào)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Đã có phiên bản Kleio mới!</value>
+    <value>Đã có phiên bản Locket mới!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} hiện đã có. Bạn đang dùng {1}.</value>
+    <value>Locket {0} hiện đã có. Bạn đang dùng {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Cài đặt bản cập nhật</value>
@@ -323,22 +323,22 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Ghi chú phát hành</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Không thể cài đặt Kleio {0}</value>
+    <value>Không thể cài đặt Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Mở trong Trình cài đặt ứng dụng</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Đang cài đặt Kleio {0}</value>
+    <value>Đang cài đặt Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
+    <value>Locket sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Đang cài đặt bản cập nhật</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Đang tải xuống Kleio {0}. Kleio sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
+    <value>Đang tải xuống Locket {0}. Locket sẽ khởi động lại khi bản cập nhật được cài đặt.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Không thể cài đặt bản cập nhật</value>
@@ -347,16 +347,16 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Có bản cập nhật</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio đã được cập nhật</value>
+    <value>Locket đã được cập nhật</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} là phiên bản mới nhất.</value>
+    <value>Locket {0} là phiên bản mới nhất.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Không thể kiểm tra bản cập nhật</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Không tìm thấy bản phát hành Kleio nào.</value>
+    <value>Không tìm thấy bản phát hành Locket nào.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Bản phát hành</value>
@@ -377,10 +377,10 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Không thể cài đặt bản cập nhật.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Đã cài đặt Kleio {0}. Hãy thoát và mở lại Kleio để sử dụng.</value>
+    <value>Đã cài đặt Locket {0}. Hãy thoát và mở lại Locket để sử dụng.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio chưa sẵn sàng.</value>
+    <value>Locket chưa sẵn sàng.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Không tìm thấy mục bảng nhớ tạm</value>
@@ -395,37 +395,37 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Lệnh không xác định</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio không phản hồi sau khi khởi động.</value>
+    <value>Locket không phản hồi sau khi khởi động.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio không phản hồi.</value>
+    <value>Locket không phản hồi.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Không thể khởi động Kleio.</value>
+    <value>Không thể khởi động Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio không hiểu yêu cầu. Kleio đang chạy có cùng phiên bản không?</value>
+    <value>Locket không hiểu yêu cầu. Locket đang chạy có cùng phiên bản không?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Mục quá lớn.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio không thể chạy lệnh.</value>
+    <value>Locket không thể chạy lệnh.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio đang thoát.</value>
+    <value>Locket đang thoát.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Chạy "kleio --help" để xem cách dùng.</value>
+    <value>{0} Chạy "locket --help" để xem cách dùng.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Không thể gửi lệnh tới Kleio.</value>
+    <value>Không thể gửi lệnh tới Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio không trả lời.</value>
+    <value>Locket không trả lời.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio đã gửi câu trả lời không hợp lệ.</value>
+    <value>Locket đã gửi câu trả lời không hợp lệ.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Không thành công.</value>
@@ -467,10 +467,10 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Tùy chọn không xác định: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Cài đặt Kleio</value>
+    <value>Cài đặt Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Cài đặt Kleio</value>
+    <value>Cài đặt Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Cài đặt chung</value>
@@ -563,7 +563,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Khởi động khi đăng nhập</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Tự động khởi động Kleio khi bạn đăng nhập vào Windows.</value>
+    <value>Tự động khởi động Locket khi bạn đăng nhập vào Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Khởi động khi đăng nhập</value>
@@ -572,13 +572,13 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Windows đã tắt tính năng khởi động khi đăng nhập</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio đã bị tắt trong Trình quản lý tác vụ &gt; Ứng dụng khởi động (hoặc Cài đặt &gt; Ứng dụng &gt; Khởi động). Hãy bật lại ở đó để Kleio khởi động khi đăng nhập.</value>
+    <value>Locket đã bị tắt trong Trình quản lý tác vụ &gt; Ứng dụng khởi động (hoặc Cài đặt &gt; Ứng dụng &gt; Khởi động). Hãy bật lại ở đó để Locket khởi động khi đăng nhập.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Kiểm tra cập nhật tự động</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Mỗi ngày một lần tìm bản phát hành Kleio mới hơn trên GitHub và đề nghị cài đặt.</value>
+    <value>Mỗi ngày một lần tìm bản phát hành Locket mới hơn trên GitHub và đề nghị cài đặt.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Kiểm tra ngay</value>
@@ -593,7 +593,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Ngôn ngữ</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Ngôn ngữ của menu, cài đặt và thông báo của Kleio.</value>
+    <value>Ngôn ngữ của menu, cài đặt và thông báo của Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Ngôn ngữ</value>
@@ -602,7 +602,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Mặc định của Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Hãy khởi động lại Kleio để dùng ngôn ngữ mới.</value>
+    <value>Hãy khởi động lại Locket để dùng ngôn ngữ mới.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Khởi động lại ngay</value>
@@ -611,13 +611,13 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Phím tắt</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Mở Kleio</value>
+    <value>Mở Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Phím tắt mở ứng dụng. Nhấn giữ phím chính cùng với các phím sửa đổi sẽ chọn mục tiếp theo trong danh sách. Trong chế độ này, thả các phím sửa đổi sẽ xác nhận lựa chọn và đóng cửa sổ popup. Mặc định: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Phím tắt mở Kleio</value>
+    <value>Phím tắt mở Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Không thể đăng ký phím tắt</value>
@@ -707,13 +707,13 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Bảng nhớ tạm của Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows có lịch sử bảng nhớ tạm riêng, mở bằng Win+V. Kleio có thể dùng phím tắt đó khi đang chạy mà không thay đổi cài đặt nào của Windows.</value>
+    <value>Windows có lịch sử bảng nhớ tạm riêng, mở bằng Win+V. Locket có thể dùng phím tắt đó khi đang chạy mà không thay đổi cài đặt nào của Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Thay thế Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Khi Kleio đang chạy, Win+V mở Kleio thay vì lịch sử bảng nhớ tạm của Windows. Cài đặt Windows không bị thay đổi.</value>
+    <value>Khi Locket đang chạy, Win+V mở Locket thay vì lịch sử bảng nhớ tạm của Windows. Cài đặt Windows không bị thay đổi.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Thay thế Win+V</value>
@@ -722,7 +722,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Chặn Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C không làm gì khi Kleio đang chạy. Windows dùng phím này cho Copilot và không cho phép tắt. Cài đặt Windows không bị thay đổi.</value>
+    <value>Win+C không làm gì khi Locket đang chạy. Windows dùng phím này cho Copilot và không cho phép tắt. Cài đặt Windows không bị thay đổi.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Chặn Win+C</value>
@@ -746,7 +746,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Hiện thông báo</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Hiện thông báo kèm mục khi Kleio sao chép một mục hoặc lưu một bản sao mới.</value>
+    <value>Hiện thông báo kèm mục khi Locket sao chép một mục hoặc lưu một bản sao mới.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Hiện thông báo</value>
@@ -755,13 +755,13 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Thông báo đang tắt trong Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Hãy bật thông báo cho Kleio trong cài đặt thông báo của Windows để xem chúng.</value>
+    <value>Hãy bật thông báo cho Locket trong cài đặt thông báo của Windows để xem chúng.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Phát âm thanh</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Phát âm thanh khi Kleio sao chép một mục hoặc lưu một bản sao mới.</value>
+    <value>Phát âm thanh khi Locket sao chép một mục hoặc lưu một bản sao mới.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Phát âm thanh</value>
@@ -770,7 +770,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Cài đặt thông báo của Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Chọn cách hiển thị thông báo của Kleio hoặc tắt chúng trong Cài đặt &gt; Hệ thống &gt; Thông báo.</value>
+    <value>Chọn cách hiển thị thông báo của Locket hoặc tắt chúng trong Cài đặt &gt; Hệ thống &gt; Thông báo.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Mở cài đặt thông báo của Windows</value>
@@ -974,7 +974,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Hiện biểu tượng trong vùng thông báo</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Hiện biểu tượng Kleio trong vùng thông báo của thanh tác vụ.</value>
+    <value>Hiện biểu tượng Locket trong vùng thông báo của thanh tác vụ.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Hiện biểu tượng trong vùng thông báo</value>
@@ -983,7 +983,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Kiểu biểu tượng vùng thông báo</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Biểu trưng Kleio</value>
+    <value>Biểu trưng Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Bảng nhớ tạm</value>
@@ -1037,7 +1037,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Hiển thị tiêu đề trước ô tìm kiếm</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Hiện “Kleio” ở bên trái ô tìm kiếm.</value>
+    <value>Hiện “Locket” ở bên trái ô tìm kiếm.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Hiển thị tiêu đề trước ô tìm kiếm</value>
@@ -1085,7 +1085,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Biểu thức chính quy</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Có thể bỏ qua các bản sao đến từ một số ứng dụng nhất định. Xin lưu ý rằng cách này không hoàn toàn chắc chắn: Windows không cho biết ứng dụng nào đã sao chép, vì vậy Kleio kiểm tra ứng dụng sở hữu bảng nhớ tạm hoặc đang ở nền trước. Hãy ưu tiên dùng định dạng bảng nhớ tạm khi có thể.</value>
+    <value>Có thể bỏ qua các bản sao đến từ một số ứng dụng nhất định. Xin lưu ý rằng cách này không hoàn toàn chắc chắn: Windows không cho biết ứng dụng nào đã sao chép, vì vậy Locket kiểm tra ứng dụng sở hữu bảng nhớ tạm hoặc đang ở nền trước. Hãy ưu tiên dùng định dạng bảng nhớ tạm khi có thể.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Loại trừ tất cả các ứng dụng trừ những ứng dụng được liệt kê</value>
@@ -1181,7 +1181,7 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Chưa có biểu thức chính quy nào.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio luôn bỏ qua các bản sao được đánh dấu bằng “{0}” hoặc “{1}”: đây là quy ước của Windows mà trình quản lý mật khẩu và các ứng dụng khác dùng để giữ dữ liệu nhạy cảm tránh xa trình quản lý bảng nhớ tạm.</value>
+    <value>Locket luôn bỏ qua các bản sao được đánh dấu bằng “{0}” hoặc “{1}”: đây là quy ước của Windows mà trình quản lý mật khẩu và các ứng dụng khác dùng để giữ dữ liệu nhạy cảm tránh xa trình quản lý bảng nhớ tạm.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Xóa</value>
@@ -1202,37 +1202,37 @@ Chọn với Shift để xóa tất cả.</value>
     <value>Tạm dừng</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Tạm dừng Kleio</value>
+    <value>Tạm dừng Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Tạm thời bỏ qua mọi bản sao mới. Hữu ích để Kleio không ghi lại khi bạn sao chép dữ liệu nhạy cảm.</value>
+    <value>Tạm thời bỏ qua mọi bản sao mới. Hữu ích để Locket không ghi lại khi bạn sao chép dữ liệu nhạy cảm.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Tạm dừng Kleio</value>
+    <value>Tạm dừng Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Bạn có thể sẽ dùng tính năng này từ script. Hãy tạm dừng Kleio từ dòng lệnh trong khi sao chép dữ liệu nhạy cảm:</value>
+    <value>Bạn có thể sẽ dùng tính năng này từ script. Hãy tạm dừng Locket từ dòng lệnh trong khi sao chép dữ liệu nhạy cảm:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … sao chép dữ liệu …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, sao chép dữ liệu, rồi kleio.exe --resume</value>
+    <value>locket.exe --pause, sao chép dữ liệu, rồi locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Để chỉ bỏ qua lần sao chép tiếp theo:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … sao chép dữ liệu …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, rồi sao chép dữ liệu</value>
+    <value>locket.exe --ignore-next, rồi sao chép dữ liệu</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Bạn cũng có thể Alt+nhấp vào biểu tượng vùng thông báo để tạm dừng hoặc tiếp tục Kleio. Để chỉ bỏ qua lần sao chép tiếp theo, hãy Alt+Shift+nhấp vào biểu tượng.</value>
+    <value>Bạn cũng có thể Alt+nhấp vào biểu tượng vùng thông báo để tạm dừng hoặc tiếp tục Locket. Để chỉ bỏ qua lần sao chép tiếp theo, hãy Alt+Shift+nhấp vào biểu tượng.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Dọn dẹp</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Xóa cả bảng nhớ tạm của hệ thống nữa</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Biểu trưng Kleio</value>
+    <value>Biểu trưng Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Phiên bản {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Ghi công</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio là bản chuyển thể từ Maccy của Alex Rodionov</value>
+    <value>Locket là bản chuyển thể từ Maccy của Alex Rodionov</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy là trình quản lý bảng nhớ tạm gọn nhẹ cho macOS. Kleio mang các tính năng và bố cục của nó lên Windows 11.</value>
+    <value>Maccy là trình quản lý bảng nhớ tạm gọn nhẹ cho macOS. Locket mang các tính năng và bố cục của nó lên Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Trang web Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Báo cáo sự cố, đề xuất tính năng và đóng góp trên GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio trên GitHub</value>
+    <value>Locket trên GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio trên GitHub</value>
+    <value>Locket trên GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Hỗ trợ</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Giấy phép</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio và Maccy là phần mềm tự do được phát hành theo Giấy phép MIT.</value>
+    <value>Locket và Maccy là phần mềm tự do được phát hành theo Giấy phép MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Giấy phép MIT</value>

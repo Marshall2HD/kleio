@@ -32,7 +32,7 @@
                     Severity="Warning"
                     IsClosable="True" />
 
-                <local:SettingsCard x:Uid="General_CheckForUpdatesCard" Glyph="&#xE895;">
+                <local:SettingsCard x:Name="CheckForUpdatesCard" x:Uid="General_CheckForUpdatesCard" Glyph="&#xE895;">
                     <StackPanel Orientation="Horizontal" Spacing="16">
                         <Button x:Name="CheckNowButton" x:Uid="General_CheckNow" Click="CheckNowButton_Click" />
                         <ToggleSwitch x:Name="CheckForUpdatesToggle" x:Uid="General_CheckForUpdatesToggle" Toggled="CheckForUpdatesToggle_Toggled" />

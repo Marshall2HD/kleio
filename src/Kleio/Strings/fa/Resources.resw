@@ -61,22 +61,22 @@
     <value>تنظیمات…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>درباره Kleio</value>
+    <value>درباره Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>خروج</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>باز کردن Kleio</value>
+    <value>باز کردن Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>توقف موقت Kleio</value>
+    <value>توقف موقت Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>نادیده گرفتن کپی بعدی</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>خروج از Kleio</value>
+    <value>خروج از Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>توقف پشتهٔ جای‌گذاری</value>
@@ -191,7 +191,7 @@
     <value>پاک کردن همه ی موارد</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>باز کردن تنظیمات Kleio.</value>
+    <value>باز کردن تنظیمات Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>اطلاعات بیشتری دربارهٔ برنامه بخوانید.</value>
@@ -296,19 +296,19 @@
     <value>تعداد کپی‌ها: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (مکث‌شده)</value>
+    <value>Locket (مکث‌شده)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (کپی بعدی نادیده گرفته می‌شود)</value>
+    <value>Locket (کپی بعدی نادیده گرفته می‌شود)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (هیچ نوعی ذخیره نمی‌شود)</value>
+    <value>Locket (هیچ نوعی ذخیره نمی‌شود)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>نسخه جدیدی از Kleio در دسترس است!</value>
+    <value>نسخه جدیدی از Locket در دسترس است!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Kleio {0} اکنون در دسترس است. نسخه شما {1} است.</value>
+    <value>Locket {0} اکنون در دسترس است. نسخه شما {1} است.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>نصب به‌روزرسانی</value>
@@ -323,22 +323,22 @@
     <value>یادداشت‌های انتشار</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>نصب Kleio {0} ممکن نشد</value>
+    <value>نصب Locket {0} ممکن نشد</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>باز کردن در نصب‌کننده برنامه</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>در حال نصب Kleio {0}</value>
+    <value>در حال نصب Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>پس از نصب به‌روزرسانی، Kleio دوباره راه‌اندازی می‌شود.</value>
+    <value>پس از نصب به‌روزرسانی، Locket دوباره راه‌اندازی می‌شود.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>در حال نصب به‌روزرسانی</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>در حال بارگیری Kleio {0}. پس از نصب به‌روزرسانی، Kleio دوباره راه‌اندازی می‌شود.</value>
+    <value>در حال بارگیری Locket {0}. پس از نصب به‌روزرسانی، Locket دوباره راه‌اندازی می‌شود.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>نصب به‌روزرسانی ممکن نشد</value>
@@ -347,16 +347,16 @@
     <value>به‌روزرسانی در دسترس است</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>Kleio به‌روز است</value>
+    <value>Locket به‌روز است</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} جدیدترین نسخه است.</value>
+    <value>Locket {0} جدیدترین نسخه است.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>بررسی به‌روزرسانی‌ها ممکن نشد</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>هیچ نسخه منتشرشده‌ای از Kleio یافت نشد.</value>
+    <value>هیچ نسخه منتشرشده‌ای از Locket یافت نشد.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>نسخه‌ها</value>
@@ -377,10 +377,10 @@
     <value>به‌روزرسانی نصب نشد.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} نصب شد. برای استفاده، از Kleio خارج شوید و دوباره آن را باز کنید.</value>
+    <value>Locket {0} نصب شد. برای استفاده، از Locket خارج شوید و دوباره آن را باز کنید.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio هنوز آماده نیست.</value>
+    <value>Locket هنوز آماده نیست.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>مورد کلیپ‌بورد یافت نشد</value>
@@ -395,37 +395,37 @@
     <value>فرمان ناشناخته</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio پس از راه‌اندازی پاسخ نداد.</value>
+    <value>Locket پس از راه‌اندازی پاسخ نداد.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio پاسخ نمی‌دهد.</value>
+    <value>Locket پاسخ نمی‌دهد.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>راه‌اندازی Kleio ممکن نشد.</value>
+    <value>راه‌اندازی Locket ممکن نشد.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio درخواست را متوجه نشد. آیا Kleio در حال اجرا همان نسخه است؟</value>
+    <value>Locket درخواست را متوجه نشد. آیا Locket در حال اجرا همان نسخه است؟</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>مورد خیلی بزرگ است.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio نتوانست فرمان را اجرا کند.</value>
+    <value>Locket نتوانست فرمان را اجرا کند.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio در حال خروج است.</value>
+    <value>Locket در حال خروج است.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} برای راهنمای استفاده "kleio --help" را اجرا کنید.</value>
+    <value>{0} برای راهنمای استفاده "locket --help" را اجرا کنید.</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>ارسال فرمان به Kleio ممکن نشد.</value>
+    <value>ارسال فرمان به Locket ممکن نشد.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio پاسخ نداد.</value>
+    <value>Locket پاسخ نداد.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio پاسخ نامعتبری فرستاد.</value>
+    <value>Locket پاسخ نامعتبری فرستاد.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>ناموفق.</value>
@@ -467,10 +467,10 @@
     <value>گزینه ناشناخته: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>تنظیمات Kleio</value>
+    <value>تنظیمات Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>تنظیمات Kleio</value>
+    <value>تنظیمات Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>عمومی</value>
@@ -563,7 +563,7 @@
     <value>باز شدن هنگام ورود</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>هنگام ورود به Windows، ‏Kleio به‌طور خودکار اجرا شود.</value>
+    <value>هنگام ورود به Windows، ‏Locket به‌طور خودکار اجرا شود.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>باز شدن هنگام ورود</value>
@@ -572,13 +572,13 @@
     <value>Windows باز شدن هنگام ورود را خاموش کرده است</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio در مدیر وظیفه &gt; برنامه‌های راه‌اندازی (یا تنظیمات &gt; برنامه‌ها &gt; راه‌اندازی) غیرفعال شده است. برای اجرای Kleio هنگام ورود، آن را در آنجا روشن کنید.</value>
+    <value>Locket در مدیر وظیفه &gt; برنامه‌های راه‌اندازی (یا تنظیمات &gt; برنامه‌ها &gt; راه‌اندازی) غیرفعال شده است. برای اجرای Locket هنگام ورود، آن را در آنجا روشن کنید.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>بررسی خودکار به روز رسانی</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>روزی یک بار در GitHub به دنبال نسخه جدیدتر Kleio بگرد و نصب آن را پیشنهاد کن.</value>
+    <value>روزی یک بار در GitHub به دنبال نسخه جدیدتر Locket بگرد و نصب آن را پیشنهاد کن.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>بررسی کن</value>
@@ -593,7 +593,7 @@
     <value>زبان</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>زبان منوها، تنظیمات و پیام‌های Kleio.</value>
+    <value>زبان منوها، تنظیمات و پیام‌های Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>زبان</value>
@@ -602,7 +602,7 @@
     <value>پیش‌فرض Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>برای استفاده از زبان جدید، Kleio را دوباره راه‌اندازی کنید.</value>
+    <value>برای استفاده از زبان جدید، Locket را دوباره راه‌اندازی کنید.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>راه‌اندازی دوباره اکنون</value>
@@ -611,13 +611,13 @@
     <value>میان‌برها</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>باز کردن Kleio</value>
+    <value>باز کردن Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>میانبر سراسری برای باز کردن برنامه. با نگه داشتن کلیدهای تغییر (modifiers) و فشار دادن دوباره کلید اصلی، مورد بعدی در فهرست انتخاب می‌شود. در این حالت، رها کردن کلیدهای تغییر، انتخاب را تأیید کرده و پنجرهٔ بازشو را می‌بندد. مقدار پیش‌فرض: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>میان‌بر باز کردن Kleio</value>
+    <value>میان‌بر باز کردن Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>ثبت میان‌بر ممکن نشد</value>
@@ -707,13 +707,13 @@
     <value>کلیپ‌بورد Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows تاریخچه کلیپ‌بورد خودش را دارد که با Win+V باز می‌شود. ‏Kleio می‌تواند تا وقتی در حال اجراست این میان‌بر را در اختیار بگیرد، بدون اینکه تنظیمی از Windows را تغییر دهد.</value>
+    <value>Windows تاریخچه کلیپ‌بورد خودش را دارد که با Win+V باز می‌شود. ‏Locket می‌تواند تا وقتی در حال اجراست این میان‌بر را در اختیار بگیرد، بدون اینکه تنظیمی از Windows را تغییر دهد.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>جایگزینی Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>تا وقتی Kleio در حال اجراست، ‏Win+V به‌جای تاریخچه کلیپ‌بورد Windows، ‏Kleio را باز می‌کند. تنظیمات Windows تغییر نمی‌کند.</value>
+    <value>تا وقتی Locket در حال اجراست، ‏Win+V به‌جای تاریخچه کلیپ‌بورد Windows، ‏Locket را باز می‌کند. تنظیمات Windows تغییر نمی‌کند.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>جایگزینی Win+V</value>
@@ -722,7 +722,7 @@
     <value>مسدود کردن Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>تا وقتی Kleio در حال اجراست، Win+C کاری انجام نمی‌دهد. Windows از آن برای Copilot استفاده می‌کند و راهی برای خاموش کردنش ندارد. تنظیمات Windows تغییر نمی‌کند.</value>
+    <value>تا وقتی Locket در حال اجراست، Win+C کاری انجام نمی‌دهد. Windows از آن برای Copilot استفاده می‌کند و راهی برای خاموش کردنش ندارد. تنظیمات Windows تغییر نمی‌کند.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>مسدود کردن Win+C</value>
@@ -746,7 +746,7 @@
     <value>نمایش اعلان‌ها</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>وقتی Kleio موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، اعلانی همراه با آن مورد نمایش داده شود.</value>
+    <value>وقتی Locket موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، اعلانی همراه با آن مورد نمایش داده شود.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>نمایش اعلان‌ها</value>
@@ -755,13 +755,13 @@
     <value>اعلان‌ها در Windows خاموش هستند</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>برای دیدن اعلان‌ها، اعلان‌های Kleio را در تنظیمات اعلان Windows روشن کنید.</value>
+    <value>برای دیدن اعلان‌ها، اعلان‌های Locket را در تنظیمات اعلان Windows روشن کنید.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>پخش صدا</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>وقتی Kleio موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، صدایی پخش شود.</value>
+    <value>وقتی Locket موردی را کپی می‌کند یا کپی جدیدی ذخیره می‌کند، صدایی پخش شود.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>پخش صدا</value>
@@ -770,7 +770,7 @@
     <value>تنظیمات اعلان Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>نحوه نمایش اعلان‌های Kleio را در تنظیمات &gt; سیستم &gt; اعلان‌ها انتخاب یا آن‌ها را خاموش کنید.</value>
+    <value>نحوه نمایش اعلان‌های Locket را در تنظیمات &gt; سیستم &gt; اعلان‌ها انتخاب یا آن‌ها را خاموش کنید.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>باز کردن تنظیمات اعلان Windows</value>
@@ -974,7 +974,7 @@
     <value>نمایش نماد در ناحیه اعلان</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>نماد Kleio در ناحیه اعلان نوار وظیفه نمایش داده شود.</value>
+    <value>نماد Locket در ناحیه اعلان نوار وظیفه نمایش داده شود.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>نمایش نماد در ناحیه اعلان</value>
@@ -983,7 +983,7 @@
     <value>سبک نماد ناحیه اعلان</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نشان Kleio</value>
+    <value>نشان Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>کلیپ‌بورد</value>
@@ -1037,7 +1037,7 @@
     <value>نمایش عنوان پیش از کادر جستجو</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>نمایش «Kleio» کنار کادر جستجو.</value>
+    <value>نمایش «Locket» کنار کادر جستجو.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>نمایش عنوان پیش از کادر جستجو</value>
@@ -1085,7 +1085,7 @@
     <value>عبارات منظم</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>می‌توان کپی‌های برخی برنامه‌ها را نادیده گرفت. توجه کنید که این روش بی‌نقص نیست: Windows نمی‌گوید کدام برنامه چیزی را کپی کرده است، پس Kleio برنامه‌ای را بررسی می‌کند که مالک کلیپ‌بورد است یا در پیش‌زمینه قرار دارد. در صورت امکان از قالب‌های کلیپ‌بورد استفاده کنید.</value>
+    <value>می‌توان کپی‌های برخی برنامه‌ها را نادیده گرفت. توجه کنید که این روش بی‌نقص نیست: Windows نمی‌گوید کدام برنامه چیزی را کپی کرده است، پس Locket برنامه‌ای را بررسی می‌کند که مالک کلیپ‌بورد است یا در پیش‌زمینه قرار دارد. در صورت امکان از قالب‌های کلیپ‌بورد استفاده کنید.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>تمام برنامه‌ها را نادیده بگیر، مگر آن‌هایی که در لیست هستند</value>
@@ -1181,7 +1181,7 @@
     <value>هیچ عبارت باقاعده‌ای تعریف نشده است.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio همیشه کپی‌هایی را که با «{0}» یا «{1}» علامت‌گذاری شده‌اند نادیده می‌گیرد: قراردادهای Windows که مدیران گذرواژه و برنامه‌های دیگر برای دور نگه داشتن داده‌های حساس از مدیران کلیپ‌بورد به کار می‌برند.</value>
+    <value>Locket همیشه کپی‌هایی را که با «{0}» یا «{1}» علامت‌گذاری شده‌اند نادیده می‌گیرد: قراردادهای Windows که مدیران گذرواژه و برنامه‌های دیگر برای دور نگه داشتن داده‌های حساس از مدیران کلیپ‌بورد به کار می‌برند.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>حذف</value>
@@ -1202,37 +1202,37 @@
     <value>توقف موقت</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>توقف موقت Kleio</value>
+    <value>توقف موقت Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>همه کپی‌های جدید موقتاً نادیده گرفته شوند. برای اینکه Kleio هنگام کپی داده‌های حساس چیزی ثبت نکند مفید است.</value>
+    <value>همه کپی‌های جدید موقتاً نادیده گرفته شوند. برای اینکه Locket هنگام کپی داده‌های حساس چیزی ثبت نکند مفید است.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>توقف موقت Kleio</value>
+    <value>توقف موقت Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>احتمالاً از این در اسکریپت‌ها استفاده می‌کنید. هنگام کپی داده‌های حساس، Kleio را از خط فرمان موقتاً متوقف کنید:</value>
+    <value>احتمالاً از این در اسکریپت‌ها استفاده می‌کنید. هنگام کپی داده‌های حساس، Locket را از خط فرمان موقتاً متوقف کنید:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … کپی داده‌ها …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause، کپی داده‌ها، سپس kleio.exe --resume</value>
+    <value>locket.exe --pause، کپی داده‌ها، سپس locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>برای نادیده گرفتن فقط کپی بعدی:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … کپی داده‌ها …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next، سپس کپی داده‌ها</value>
+    <value>locket.exe --ignore-next، سپس کپی داده‌ها</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>همچنین می‌توانید با Alt+کلیک روی نماد ناحیه اعلان، Kleio را موقتاً متوقف یا ادامه دهید. برای نادیده گرفتن فقط کپی بعدی، Alt+Shift+کلیک کنید.</value>
+    <value>همچنین می‌توانید با Alt+کلیک روی نماد ناحیه اعلان، Locket را موقتاً متوقف یا ادامه دهید. برای نادیده گرفتن فقط کپی بعدی، Alt+Shift+کلیک کنید.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>پاک کردن</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>کلیپ‌بورد سیستم هم پاک شود</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>نشان Kleio</value>
+    <value>نشان Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>نسخه {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>سپاسگزاری</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio نسخه منتقل‌شده Maccy ساخته Alex Rodionov است</value>
+    <value>Locket نسخه منتقل‌شده Maccy ساخته Alex Rodionov است</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy یک مدیر کلیپ‌بورد سبک برای macOS است. Kleio ویژگی‌ها و چیدمان آن را به Windows 11 می‌آورد.</value>
+    <value>Maccy یک مدیر کلیپ‌بورد سبک برای macOS است. Locket ویژگی‌ها و چیدمان آن را به Windows 11 می‌آورد.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>وب‌سایت Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>در GitHub مشکلات را گزارش دهید، ویژگی پیشنهاد کنید و مشارکت کنید.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio در GitHub</value>
+    <value>Locket در GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio در GitHub</value>
+    <value>Locket در GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>پشتیبانی</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>مجوز</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio و Maccy نرم‌افزار آزاد هستند و با مجوز MIT منتشر شده‌اند.</value>
+    <value>Locket و Maccy نرم‌افزار آزاد هستند و با مجوز MIT منتشر شده‌اند.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>مجوز MIT</value>

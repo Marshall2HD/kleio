@@ -61,22 +61,22 @@
     <value>Parametrai…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Apie „Kleio“</value>
+    <value>Apie „Locket“</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Uždaryti</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Atidaryti „Kleio“</value>
+    <value>Atidaryti „Locket“</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Pristabdyti „Kleio“</value>
+    <value>Pristabdyti „Locket“</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Nepaisyti kito kopijavimo</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Uždaryti „Kleio“</value>
+    <value>Uždaryti „Locket“</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Sustabdyti įklijavimo rietuvę</value>
@@ -191,7 +191,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Išvalyti visus elementus.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Atidaryti „Kleio“ parametrus.</value>
+    <value>Atidaryti „Locket“ parametrus.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Sužinokite daugiau apie programą.</value>
@@ -296,19 +296,19 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Kopijų skaičius: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (pristabdyta)</value>
+    <value>Locket (pristabdyta)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>„Kleio“ (nepaiso kito kopijavimo)</value>
+    <value>„Locket“ (nepaiso kito kopijavimo)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>„Kleio“ (neišsaugo jokio tipo)</value>
+    <value>„Locket“ (neišsaugo jokio tipo)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Yra nauja „Kleio“ versija!</value>
+    <value>Yra nauja „Locket“ versija!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Jau galima gauti „Kleio“ {0}. Jūsų versija – {1}.</value>
+    <value>Jau galima gauti „Locket“ {0}. Jūsų versija – {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Įdiegti naujinimą</value>
@@ -323,22 +323,22 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Leidimo pastabos</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Nepavyko įdiegti „Kleio“ {0}</value>
+    <value>Nepavyko įdiegti „Locket“ {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Atidaryti programėlių diegimo programoje</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Diegiama „Kleio“ {0}</value>
+    <value>Diegiama „Locket“ {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Įdiegus naujinimą „Kleio“ pasileis iš naujo.</value>
+    <value>Įdiegus naujinimą „Locket“ pasileis iš naujo.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Diegiamas naujinimas</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Atsisiunčiama „Kleio“ {0}. Įdiegus naujinimą „Kleio“ pasileis iš naujo.</value>
+    <value>Atsisiunčiama „Locket“ {0}. Įdiegus naujinimą „Locket“ pasileis iš naujo.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Nepavyko įdiegti naujinimo</value>
@@ -347,16 +347,16 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Yra naujinimas</value>
   </data>
   <data name="Update_UpToDateTitle" xml:space="preserve">
-    <value>„Kleio“ yra naujausia</value>
+    <value>„Locket“ yra naujausia</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>„Kleio“ {0} yra naujausia versija.</value>
+    <value>„Locket“ {0} yra naujausia versija.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Nepavyko patikrinti naujinimų</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Nerasta jokio paskelbto „Kleio“ leidimo.</value>
+    <value>Nerasta jokio paskelbto „Locket“ leidimo.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Leidimai</value>
@@ -377,10 +377,10 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Naujinimo įdiegti nepavyko.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>„Kleio“ {0} įdiegta. Uždarykite ir vėl atidarykite „Kleio“, kad galėtumėte ja naudotis.</value>
+    <value>„Locket“ {0} įdiegta. Uždarykite ir vėl atidarykite „Locket“, kad galėtumėte ja naudotis.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>„Kleio“ dar neparengta.</value>
+    <value>„Locket“ dar neparengta.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Iškarpinės elementas nerastas</value>
@@ -395,37 +395,37 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Nežinoma komanda</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>„Kleio“ neatsakė po paleidimo.</value>
+    <value>„Locket“ neatsakė po paleidimo.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>„Kleio“ nereaguoja.</value>
+    <value>„Locket“ nereaguoja.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Nepavyko paleisti „Kleio“.</value>
+    <value>Nepavyko paleisti „Locket“.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>„Kleio“ nesuprato užklausos. Ar veikia ta pati „Kleio“ versija?</value>
+    <value>„Locket“ nesuprato užklausos. Ar veikia ta pati „Locket“ versija?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Elementas per didelis.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>„Kleio“ nepavyko įvykdyti komandos.</value>
+    <value>„Locket“ nepavyko įvykdyti komandos.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>„Kleio“ uždaroma.</value>
+    <value>„Locket“ uždaroma.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Naudojimo informacija: "kleio --help".</value>
+    <value>{0} Naudojimo informacija: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Nepavyko nusiųsti komandos į „Kleio“.</value>
+    <value>Nepavyko nusiųsti komandos į „Locket“.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>„Kleio“ neatsakė.</value>
+    <value>„Locket“ neatsakė.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>„Kleio“ atsiuntė netinkamą atsakymą.</value>
+    <value>„Locket“ atsiuntė netinkamą atsakymą.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Nepavyko.</value>
@@ -467,10 +467,10 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Nežinoma parinktis: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>„Kleio“ parametrai</value>
+    <value>„Locket“ parametrai</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>„Kleio“ parametrai</value>
+    <value>„Locket“ parametrai</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Bendra</value>
@@ -563,7 +563,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Paleisti prisijungus</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Automatiškai paleisti „Kleio“, kai prisijungiate prie „Windows“.</value>
+    <value>Automatiškai paleisti „Locket“, kai prisijungiate prie „Windows“.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Paleisti prisijungus</value>
@@ -572,13 +572,13 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>„Windows“ išjungė paleidimą prisijungus</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>„Kleio“ išjungta užduočių tvarkytuvėje &gt; Paleisties programėlės (arba Parametrai &gt; Programėlės &gt; Paleistis). Įjunkite ją ten, kad „Kleio“ pasileistų prisijungus.</value>
+    <value>„Locket“ išjungta užduočių tvarkytuvėje &gt; Paleisties programėlės (arba Parametrai &gt; Programėlės &gt; Paleistis). Įjunkite ją ten, kad „Locket“ pasileistų prisijungus.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Automatiškai tikrinti, ar yra atnaujinimų</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Kartą per dieną ieškoti naujesnio „Kleio“ leidimo „GitHub“ ir pasiūlyti jį įdiegti.</value>
+    <value>Kartą per dieną ieškoti naujesnio „Locket“ leidimo „GitHub“ ir pasiūlyti jį įdiegti.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Patikrinti dabar</value>
@@ -593,7 +593,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Kalba</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>„Kleio“ meniu, parametrų ir pranešimų kalba.</value>
+    <value>„Locket“ meniu, parametrų ir pranešimų kalba.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Kalba</value>
@@ -602,7 +602,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>„Windows“ numatytoji</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Paleiskite „Kleio“ iš naujo, kad būtų naudojama nauja kalba.</value>
+    <value>Paleiskite „Locket“ iš naujo, kad būtų naudojama nauja kalba.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Paleisti iš naujo dabar</value>
@@ -611,13 +611,13 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Spartieji klavišai</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Atidaryti „Kleio“</value>
+    <value>Atidaryti „Locket“</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Pasaulinis spartusis klavišas programai atidaryti. Pakartotinai paspaudus pagrindinį klavišą ir laikant modifikatorių, bus pasirinktas kitas sąrašo elementas. Šiuo režimu atleidus modifikavimo klavišus bus patvirtintas pasirinkimas ir uždarytas iškylantysis langas. Numatytasis: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>„Kleio“ atidarymo spartusis klavišas</value>
+    <value>„Locket“ atidarymo spartusis klavišas</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Nepavyko užregistruoti sparčiojo klavišo</value>
@@ -707,13 +707,13 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>„Windows“ iškarpinė</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>„Windows“ turi savo iškarpinės istoriją, atidaromą klavišais Win+V. Kol veikia, „Kleio“ gali perimti šį spartųjį klavišą nekeisdama jokių „Windows“ parametrų.</value>
+    <value>„Windows“ turi savo iškarpinės istoriją, atidaromą klavišais Win+V. Kol veikia, „Locket“ gali perimti šį spartųjį klavišą nekeisdama jokių „Windows“ parametrų.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Pakeisti Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Kol veikia „Kleio“, Win+V atidaro „Kleio“ vietoj „Windows“ iškarpinės istorijos. „Windows“ parametrai nekeičiami.</value>
+    <value>Kol veikia „Locket“, Win+V atidaro „Locket“ vietoj „Windows“ iškarpinės istorijos. „Windows“ parametrai nekeičiami.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Pakeisti Win+V</value>
@@ -722,7 +722,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Blokuoti Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Kol veikia Kleio, Win+C nieko nedaro. „Windows“ jį naudoja „Copilot“ ir neleidžia jo išjungti. „Windows“ nuostatos nekeičiamos.</value>
+    <value>Kol veikia Locket, Win+C nieko nedaro. „Windows“ jį naudoja „Copilot“ ir neleidžia jo išjungti. „Windows“ nuostatos nekeičiamos.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Blokuoti Win+C</value>
@@ -746,7 +746,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Rodyti pranešimus</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Rodyti pranešimą su elementu, kai „Kleio“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
+    <value>Rodyti pranešimą su elementu, kai „Locket“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rodyti pranešimus</value>
@@ -755,13 +755,13 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Pranešimai „Windows“ išjungti</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Kad juos matytumėte, įjunkite „Kleio“ pranešimus „Windows“ pranešimų parametruose.</value>
+    <value>Kad juos matytumėte, įjunkite „Locket“ pranešimus „Windows“ pranešimų parametruose.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Leisti garsus</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Leisti garsą, kai „Kleio“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
+    <value>Leisti garsą, kai „Locket“ nukopijuoja elementą arba išsaugo naują kopiją.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Leisti garsus</value>
@@ -770,7 +770,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>„Windows“ pranešimų parametrai</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Pasirinkite, kaip rodomi „Kleio“ pranešimai, arba juos išjunkite skiltyje Parametrai &gt; Sistema &gt; Pranešimai.</value>
+    <value>Pasirinkite, kaip rodomi „Locket“ pranešimai, arba juos išjunkite skiltyje Parametrai &gt; Sistema &gt; Pranešimai.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Atidaryti „Windows“ pranešimų parametrus</value>
@@ -974,7 +974,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Rodyti piktogramą pranešimų srityje</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Rodyti „Kleio“ piktogramą užduočių juostos pranešimų srityje.</value>
+    <value>Rodyti „Locket“ piktogramą užduočių juostos pranešimų srityje.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rodyti piktogramą pranešimų srityje</value>
@@ -983,7 +983,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Pranešimų srities piktogramos stilius</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>„Kleio“ logotipas</value>
+    <value>„Locket“ logotipas</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Iškarpinė</value>
@@ -1037,7 +1037,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Rodyti pavadinimą prieš paieškos laukelį</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Rodyti „Kleio“ paieškos lauko kairėje.</value>
+    <value>Rodyti „Locket“ paieškos lauko kairėje.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Rodyti pavadinimą prieš paieškos laukelį</value>
@@ -1085,7 +1085,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Reguliarios išraiškos</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Galima nepaisyti kopijų iš tam tikrų programų. Atkreipkite dėmesį, kad tai nėra visiškai patikima: „Windows“ nepraneša, kuri programėlė ką nors nukopijavo, todėl „Kleio“ tikrina programėlę, kuriai priklauso iškarpinė arba kuri yra priekiniame plane. Kai įmanoma, verčiau naudokite iškarpinės formatus.</value>
+    <value>Galima nepaisyti kopijų iš tam tikrų programų. Atkreipkite dėmesį, kad tai nėra visiškai patikima: „Windows“ nepraneša, kuri programėlė ką nors nukopijavo, todėl „Locket“ tikrina programėlę, kuriai priklauso iškarpinė arba kuri yra priekiniame plane. Kai įmanoma, verčiau naudokite iškarpinės formatus.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Nepaisyti visų programų, išskyrus įtrauktas</value>
@@ -1181,7 +1181,7 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Reguliariųjų reiškinių nenustatyta.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>„Kleio“ visada nepaiso kopijų, pažymėtų „{0}“ arba „{1}“: tai „Windows“ susitarimai, kuriais slaptažodžių tvarkytuvės ir kitos programėlės apsaugo slaptus duomenis nuo iškarpinės tvarkytuvių.</value>
+    <value>„Locket“ visada nepaiso kopijų, pažymėtų „{0}“ arba „{1}“: tai „Windows“ susitarimai, kuriais slaptažodžių tvarkytuvės ir kitos programėlės apsaugo slaptus duomenis nuo iškarpinės tvarkytuvių.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Šalinti</value>
@@ -1202,37 +1202,37 @@ Pasirinkite su Shift, kad išvalytumėte visus.</value>
     <value>Pristabdymas</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Pristabdyti „Kleio“</value>
+    <value>Pristabdyti „Locket“</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Laikinai nepaisyti visų naujų kopijų. Naudinga, kad „Kleio“ nieko neįrašytų, kol kopijuojate slaptus duomenis.</value>
+    <value>Laikinai nepaisyti visų naujų kopijų. Naudinga, kad „Locket“ nieko neįrašytų, kol kopijuojate slaptus duomenis.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Pristabdyti „Kleio“</value>
+    <value>Pristabdyti „Locket“</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Tikriausiai tai naudosite scenarijuose. Kopijuodami slaptus duomenis pristabdykite „Kleio“ iš komandų eilutės:</value>
+    <value>Tikriausiai tai naudosite scenarijuose. Kopijuodami slaptus duomenis pristabdykite „Locket“ iš komandų eilutės:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … kopijuojami duomenys …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, kopijuojami duomenys, tada kleio.exe --resume</value>
+    <value>locket.exe --pause, kopijuojami duomenys, tada locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Kad būtų nepaisoma tik kito kopijavimo:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … kopijuojami duomenys …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, tada kopijuojami duomenys</value>
+    <value>locket.exe --ignore-next, tada kopijuojami duomenys</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>„Kleio“ taip pat galite pristabdyti arba tęsti spustelėję pranešimų srities piktogramą laikydami Alt. Kad būtų nepaisoma tik kito kopijavimo, spustelėkite laikydami Alt+Shift.</value>
+    <value>„Locket“ taip pat galite pristabdyti arba tęsti spustelėję pranešimų srities piktogramą laikydami Alt. Kad būtų nepaisoma tik kito kopijavimo, spustelėkite laikydami Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Valymas</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Taip pat išvalyti sistemos iškarpinę</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>„Kleio“ logotipas</value>
+    <value>„Locket“ logotipas</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Versija {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Padėkos</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>„Kleio“ – tai Alexo Rodionovo „Maccy“ perkėlimas</value>
+    <value>„Locket“ – tai Alexo Rodionovo „Maccy“ perkėlimas</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>„Maccy“ – lengva iškarpinės tvarkytuvė, skirta „macOS“. „Kleio“ perkelia jos funkcijas ir išdėstymą į „Windows 11“.</value>
+    <value>„Maccy“ – lengva iškarpinės tvarkytuvė, skirta „macOS“. „Locket“ perkelia jos funkcijas ir išdėstymą į „Windows 11“.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>„Maccy“ svetainė</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Praneškite apie problemas, siūlykite funkcijas ir prisidėkite „GitHub“.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>„Kleio“ „GitHub“</value>
+    <value>„Locket“ „GitHub“</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>„Kleio“ „GitHub“</value>
+    <value>„Locket“ „GitHub“</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Pagalba</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Licencija</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>„Kleio“ ir „Maccy“ yra laisvoji programinė įranga, išleista pagal MIT licenciją.</value>
+    <value>„Locket“ ir „Maccy“ yra laisvoji programinė įranga, išleista pagal MIT licenciją.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>MIT licencija</value>

@@ -61,22 +61,22 @@
     <value>Налаштування…</value>
   </data>
   <data name="AboutKleio" xml:space="preserve">
-    <value>Про Kleio</value>
+    <value>Про Locket</value>
   </data>
   <data name="Quit" xml:space="preserve">
     <value>Вийти</value>
   </data>
   <data name="OpenKleio" xml:space="preserve">
-    <value>Відкрити Kleio</value>
+    <value>Відкрити Locket</value>
   </data>
   <data name="PauseKleio" xml:space="preserve">
-    <value>Призупинити Kleio</value>
+    <value>Призупинити Locket</value>
   </data>
   <data name="IgnoreNextCopy" xml:space="preserve">
     <value>Ігнорувати наступне копіювання</value>
   </data>
   <data name="QuitKleio" xml:space="preserve">
-    <value>Вийти з Kleio</value>
+    <value>Вийти з Locket</value>
   </data>
   <data name="StopPasteStack" xml:space="preserve">
     <value>Зупинити стос вставлення</value>
@@ -191,7 +191,7 @@
     <value>Очистити всі елементи.</value>
   </data>
   <data name="Popup_SettingsTooltip" xml:space="preserve">
-    <value>Відкрити налаштування Kleio.</value>
+    <value>Відкрити налаштування Locket.</value>
   </data>
   <data name="Popup_AboutTooltip" xml:space="preserve">
     <value>Докладніше про додаток.</value>
@@ -296,19 +296,19 @@
     <value>Кількість копій: {0}</value>
   </data>
   <data name="Tray_Paused" xml:space="preserve">
-    <value>Kleio (призупинено)</value>
+    <value>Locket (призупинено)</value>
   </data>
   <data name="Tray_IgnoringNext" xml:space="preserve">
-    <value>Kleio (ігнорує наступне копіювання)</value>
+    <value>Locket (ігнорує наступне копіювання)</value>
   </data>
   <data name="Tray_NotSaving" xml:space="preserve">
-    <value>Kleio (не зберігає жодного типу)</value>
+    <value>Locket (не зберігає жодного типу)</value>
   </data>
   <data name="Update_NotificationTitle" xml:space="preserve">
-    <value>Доступна нова версія Kleio!</value>
+    <value>Доступна нова версія Locket!</value>
   </data>
   <data name="Update_Available" xml:space="preserve">
-    <value>Доступна версія Kleio {0}. У вас встановлено {1}.</value>
+    <value>Доступна версія Locket {0}. У вас встановлено {1}.</value>
   </data>
   <data name="Update_Install" xml:space="preserve">
     <value>Установити оновлення</value>
@@ -323,22 +323,22 @@
     <value>Примітки до випуску</value>
   </data>
   <data name="Update_InstallFailedTitle" xml:space="preserve">
-    <value>Не вдалося встановити Kleio {0}</value>
+    <value>Не вдалося встановити Locket {0}</value>
   </data>
   <data name="Update_OpenInAppInstaller" xml:space="preserve">
     <value>Відкрити в інсталяторі програм</value>
   </data>
   <data name="Update_Installing" xml:space="preserve">
-    <value>Встановлення Kleio {0}</value>
+    <value>Встановлення Locket {0}</value>
   </data>
   <data name="Update_RestartsWhenInstalled" xml:space="preserve">
-    <value>Kleio перезапуститься після встановлення оновлення.</value>
+    <value>Locket перезапуститься після встановлення оновлення.</value>
   </data>
   <data name="Update_InstallingTitle" xml:space="preserve">
     <value>Встановлення оновлення</value>
   </data>
   <data name="Update_Downloading" xml:space="preserve">
-    <value>Завантаження Kleio {0}. Kleio перезапуститься після встановлення оновлення.</value>
+    <value>Завантаження Locket {0}. Locket перезапуститься після встановлення оновлення.</value>
   </data>
   <data name="Update_InstallFailed" xml:space="preserve">
     <value>Не вдалося встановити оновлення</value>
@@ -350,13 +350,13 @@
     <value>У вас остання версія</value>
   </data>
   <data name="Update_UpToDate" xml:space="preserve">
-    <value>Kleio {0} — остання версія.</value>
+    <value>Locket {0} — остання версія.</value>
   </data>
   <data name="Update_CheckFailed" xml:space="preserve">
     <value>Не вдалося перевірити оновлення</value>
   </data>
   <data name="Update_NoRelease" xml:space="preserve">
-    <value>Не знайдено опублікованого випуску Kleio.</value>
+    <value>Не знайдено опублікованого випуску Locket.</value>
   </data>
   <data name="Update_Releases" xml:space="preserve">
     <value>Випуски</value>
@@ -377,10 +377,10 @@
     <value>Не вдалося встановити оновлення.</value>
   </data>
   <data name="Update_InstalledRestart" xml:space="preserve">
-    <value>Kleio {0} встановлено. Закрийте та знову відкрийте Kleio, щоб користуватися новою версією.</value>
+    <value>Locket {0} встановлено. Закрийте та знову відкрийте Locket, щоб користуватися новою версією.</value>
   </data>
   <data name="Script_NotReady" xml:space="preserve">
-    <value>Kleio ще не готовий.</value>
+    <value>Locket ще не готовий.</value>
   </data>
   <data name="Script_NotFound" xml:space="preserve">
     <value>Елемент буфера обміну не знайдено</value>
@@ -395,37 +395,37 @@
     <value>Невідома команда</value>
   </data>
   <data name="Script_NoResponseAfterStart" xml:space="preserve">
-    <value>Kleio не відповів після запуску.</value>
+    <value>Locket не відповів після запуску.</value>
   </data>
   <data name="Script_NotResponding" xml:space="preserve">
-    <value>Kleio не відповідає.</value>
+    <value>Locket не відповідає.</value>
   </data>
   <data name="Script_CouldNotStart" xml:space="preserve">
-    <value>Не вдалося запустити Kleio.</value>
+    <value>Не вдалося запустити Locket.</value>
   </data>
   <data name="Script_BadRequest" xml:space="preserve">
-    <value>Kleio не зрозумів запит. Чи запущено ту саму версію Kleio?</value>
+    <value>Locket не зрозумів запит. Чи запущено ту саму версію Locket?</value>
   </data>
   <data name="Script_TooLarge" xml:space="preserve">
     <value>Елемент завеликий.</value>
   </data>
   <data name="Script_CouldNotRun" xml:space="preserve">
-    <value>Kleio не зміг виконати команду.</value>
+    <value>Locket не зміг виконати команду.</value>
   </data>
   <data name="Script_Quitting" xml:space="preserve">
-    <value>Kleio завершує роботу.</value>
+    <value>Locket завершує роботу.</value>
   </data>
   <data name="Script_SeeHelp" xml:space="preserve">
-    <value>{0} Довідка з використання: "kleio --help".</value>
+    <value>{0} Довідка з використання: "locket --help".</value>
   </data>
   <data name="Script_SendFailed" xml:space="preserve">
-    <value>Не вдалося надіслати команду до Kleio.</value>
+    <value>Не вдалося надіслати команду до Locket.</value>
   </data>
   <data name="Script_NoAnswer" xml:space="preserve">
-    <value>Kleio не відповів.</value>
+    <value>Locket не відповів.</value>
   </data>
   <data name="Script_InvalidAnswer" xml:space="preserve">
-    <value>Kleio надіслав неприпустиму відповідь.</value>
+    <value>Locket надіслав неприпустиму відповідь.</value>
   </data>
   <data name="Script_Failed" xml:space="preserve">
     <value>Помилка.</value>
@@ -467,10 +467,10 @@
     <value>Невідомий параметр: {0}</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Налаштування Kleio</value>
+    <value>Налаштування Locket</value>
   </data>
   <data name="Settings_AppTitle.Text" xml:space="preserve">
-    <value>Налаштування Kleio</value>
+    <value>Налаштування Locket</value>
   </data>
   <data name="Settings_NavGeneral.Content" xml:space="preserve">
     <value>Загальні</value>
@@ -563,7 +563,7 @@
     <value>Запуск при вході</value>
   </data>
   <data name="General_LaunchAtLoginCard.Description" xml:space="preserve">
-    <value>Автоматично запускати Kleio під час входу в Windows.</value>
+    <value>Автоматично запускати Locket під час входу в Windows.</value>
   </data>
   <data name="General_LaunchAtLoginToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Запуск при вході</value>
@@ -572,13 +572,13 @@
     <value>Запуск під час входу вимкнено Windows</value>
   </data>
   <data name="General_LaunchAtLoginInfoBar.Message" xml:space="preserve">
-    <value>Kleio вимкнено в диспетчері завдань &gt; Програми автозавантаження (або Настройки &gt; Програми &gt; Автозавантаження). Увімкніть його там, щоб Kleio запускався під час входу.</value>
+    <value>Locket вимкнено в диспетчері завдань &gt; Програми автозавантаження (або Настройки &gt; Програми &gt; Автозавантаження). Увімкніть його там, щоб Locket запускався під час входу.</value>
   </data>
   <data name="General_CheckForUpdatesCard.Header" xml:space="preserve">
     <value>Автоматично перевіряти наявність оновлень</value>
   </data>
   <data name="General_CheckForUpdatesCard.Description" xml:space="preserve">
-    <value>Раз на день шукати новий випуск Kleio на GitHub і пропонувати його встановити.</value>
+    <value>Раз на день шукати новий випуск Locket на GitHub і пропонувати його встановити.</value>
   </data>
   <data name="General_CheckNow.Content" xml:space="preserve">
     <value>Перевірити зараз</value>
@@ -593,7 +593,7 @@
     <value>Мова</value>
   </data>
   <data name="General_LanguageCard.Description" xml:space="preserve">
-    <value>Мова меню, налаштувань і повідомлень Kleio.</value>
+    <value>Мова меню, налаштувань і повідомлень Locket.</value>
   </data>
   <data name="General_LanguageCombo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Мова</value>
@@ -602,7 +602,7 @@
     <value>Як у Windows</value>
   </data>
   <data name="General_LanguageInfoBar.Message" xml:space="preserve">
-    <value>Перезапустіть Kleio, щоб використовувати нову мову.</value>
+    <value>Перезапустіть Locket, щоб використовувати нову мову.</value>
   </data>
   <data name="General_LanguageRestart.Content" xml:space="preserve">
     <value>Перезапустити</value>
@@ -611,13 +611,13 @@
     <value>Сполучення клавіш</value>
   </data>
   <data name="General_OpenCard.Header" xml:space="preserve">
-    <value>Відкрити Kleio</value>
+    <value>Відкрити Locket</value>
   </data>
   <data name="General_OpenDescription.Text" xml:space="preserve">
     <value>Глобальна клавіша швидкого виклику програми. Повторне натискання основної клавіші з утриманням клавіш-модифікаторів призведе до вибору наступного елемента у списку. У цьому режимі відпускання клавіш-модифікаторів підтверджує вибір і закриває спливаюче вікно. За замовчуванням: Win+Shift+C.</value>
   </data>
   <data name="General_PopupRecorder.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Сполучення клавіш для відкриття Kleio</value>
+    <value>Сполучення клавіш для відкриття Locket</value>
   </data>
   <data name="General_HotKeyInfoBar.Title" xml:space="preserve">
     <value>Не вдалося зареєструвати сполучення клавіш</value>
@@ -707,13 +707,13 @@
     <value>Буфер обміну Windows</value>
   </data>
   <data name="General_WindowsClipboardIntro.Text" xml:space="preserve">
-    <value>Windows має власну історію буфера обміну, яка відкривається за допомогою Win+V. Kleio може перехоплювати це сполучення клавіш, поки працює, не змінюючи настройок Windows.</value>
+    <value>Windows має власну історію буфера обміну, яка відкривається за допомогою Win+V. Locket може перехоплювати це сполучення клавіш, поки працює, не змінюючи настройок Windows.</value>
   </data>
   <data name="General_ReplaceWinVCard.Header" xml:space="preserve">
     <value>Замінити Win+V</value>
   </data>
   <data name="General_ReplaceWinVCard.Description" xml:space="preserve">
-    <value>Поки Kleio працює, Win+V відкриває Kleio замість історії буфера обміну Windows. Настройки Windows не змінюються.</value>
+    <value>Поки Locket працює, Win+V відкриває Locket замість історії буфера обміну Windows. Настройки Windows не змінюються.</value>
   </data>
   <data name="General_ReplaceWinVToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Замінити Win+V</value>
@@ -722,7 +722,7 @@
     <value>Блокувати Win+C</value>
   </data>
   <data name="General_BlockWinCCard.Description" xml:space="preserve">
-    <value>Win+C нічого не робить, поки працює Kleio. Windows використовує це сполучення для Copilot і не дає його вимкнути. Параметри Windows не змінюються.</value>
+    <value>Win+C нічого не робить, поки працює Locket. Windows використовує це сполучення для Copilot і не дає його вимкнути. Параметри Windows не змінюються.</value>
   </data>
   <data name="General_BlockWinCToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Блокувати Win+C</value>
@@ -746,7 +746,7 @@
     <value>Показувати сповіщення</value>
   </data>
   <data name="General_ShowNotificationsCard.Description" xml:space="preserve">
-    <value>Показувати сповіщення з елементом, коли Kleio копіює елемент або зберігає нову копію.</value>
+    <value>Показувати сповіщення з елементом, коли Locket копіює елемент або зберігає нову копію.</value>
   </data>
   <data name="General_ShowNotificationsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Показувати сповіщення</value>
@@ -755,13 +755,13 @@
     <value>Сповіщення вимкнено у Windows</value>
   </data>
   <data name="General_NotificationsInfoBar.Message" xml:space="preserve">
-    <value>Щоб бачити сповіщення, увімкніть їх для Kleio в настройках сповіщень Windows.</value>
+    <value>Щоб бачити сповіщення, увімкніть їх для Locket в настройках сповіщень Windows.</value>
   </data>
   <data name="General_PlaySoundsCard.Header" xml:space="preserve">
     <value>Відтворювати звуки</value>
   </data>
   <data name="General_PlaySoundsCard.Description" xml:space="preserve">
-    <value>Відтворювати звук, коли Kleio копіює елемент або зберігає нову копію.</value>
+    <value>Відтворювати звук, коли Locket копіює елемент або зберігає нову копію.</value>
   </data>
   <data name="General_PlaySoundsToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Відтворювати звуки</value>
@@ -770,7 +770,7 @@
     <value>Настройки сповіщень Windows</value>
   </data>
   <data name="General_NotificationSettingsCard.Description" xml:space="preserve">
-    <value>Виберіть, як з'являються сповіщення Kleio, або вимкніть їх у розділі Настройки &gt; Система &gt; Сповіщення.</value>
+    <value>Виберіть, як з'являються сповіщення Locket, або вимкніть їх у розділі Настройки &gt; Система &gt; Сповіщення.</value>
   </data>
   <data name="General_NotificationSettingsLink.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Відкрити настройки сповіщень Windows</value>
@@ -974,7 +974,7 @@
     <value>Показувати значок в області сповіщень</value>
   </data>
   <data name="Appearance_ShowTrayIconCard.Description" xml:space="preserve">
-    <value>Показувати значок Kleio в області сповіщень панелі завдань.</value>
+    <value>Показувати значок Locket в області сповіщень панелі завдань.</value>
   </data>
   <data name="Appearance_ShowTrayIconToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Показувати значок в області сповіщень</value>
@@ -983,7 +983,7 @@
     <value>Стиль значка в області сповіщень</value>
   </data>
   <data name="Appearance_TrayIconKleio.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Логотип Kleio</value>
+    <value>Логотип Locket</value>
   </data>
   <data name="Appearance_TrayIconClipboard.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Буфер обміну</value>
@@ -1037,7 +1037,7 @@
     <value>Показати назву перед полем пошуку</value>
   </data>
   <data name="Appearance_ShowTitleCard.Description" xml:space="preserve">
-    <value>Показувати «Kleio» ліворуч від поля пошуку.</value>
+    <value>Показувати «Locket» ліворуч від поля пошуку.</value>
   </data>
   <data name="Appearance_ShowTitleToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Показати назву перед полем пошуку</value>
@@ -1064,7 +1064,7 @@
     <value>Показати нижній колонтитул</value>
   </data>
   <data name="Appearance_ShowFooterCard.Description" xml:space="preserve">
-    <value>Показувати команди «Очистити», «Налаштування», «Про Kleio» і «Вийти» внизу спливаючого вікна.</value>
+    <value>Показувати команди «Очистити», «Налаштування», «Про Locket» і «Вийти» внизу спливаючого вікна.</value>
   </data>
   <data name="Appearance_ShowFooterToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Показати нижній колонтитул</value>
@@ -1085,7 +1085,7 @@
     <value>Регулярні вирази</value>
   </data>
   <data name="Ignore_AppsDescription.Text" xml:space="preserve">
-    <value>Копії з певних програм можна ігнорувати. Зауважте, що це не завжди надійно: Windows не повідомляє, яка програма щось скопіювала, тому Kleio перевіряє програму, якій належить буфер обміну або яка на передньому плані. За можливості використовуйте формати буфера обміну.</value>
+    <value>Копії з певних програм можна ігнорувати. Зауважте, що це не завжди надійно: Windows не повідомляє, яка програма щось скопіювала, тому Locket перевіряє програму, якій належить буфер обміну або яка на передньому плані. За можливості використовуйте формати буфера обміну.</value>
   </data>
   <data name="Ignore_AllExceptCard.Header" xml:space="preserve">
     <value>Ігнорувати всі програми, окрім перелічених</value>
@@ -1181,7 +1181,7 @@
     <value>Регулярні вирази не задано.</value>
   </data>
   <data name="Ignore_AlwaysIgnored" xml:space="preserve">
-    <value>Kleio завжди ігнорує копії, позначені «{0}» або «{1}»: це домовленості Windows, за допомогою яких менеджери паролів та інші програми приховують конфіденційні дані від менеджерів буфера обміну.</value>
+    <value>Locket завжди ігнорує копії, позначені «{0}» або «{1}»: це домовленості Windows, за допомогою яких менеджери паролів та інші програми приховують конфіденційні дані від менеджерів буфера обміну.</value>
   </data>
   <data name="Ignore_Remove" xml:space="preserve">
     <value>Видалити</value>
@@ -1202,37 +1202,37 @@
     <value>Пауза</value>
   </data>
   <data name="Advanced_PauseCard.Header" xml:space="preserve">
-    <value>Призупинити Kleio</value>
+    <value>Призупинити Locket</value>
   </data>
   <data name="Advanced_PauseCard.Description" xml:space="preserve">
-    <value>Тимчасово ігнорувати всі нові копії. Корисно, щоб Kleio нічого не записував, поки ви копіюєте конфіденційні дані.</value>
+    <value>Тимчасово ігнорувати всі нові копії. Корисно, щоб Locket нічого не записував, поки ви копіюєте конфіденційні дані.</value>
   </data>
   <data name="Advanced_PauseToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Призупинити Kleio</value>
+    <value>Призупинити Locket</value>
   </data>
   <data name="Advanced_ScriptsIntro.Text" xml:space="preserve">
-    <value>Найімовірніше, ви використовуватимете це у скриптах. Призупиніть Kleio з командного рядка на час копіювання конфіденційних даних:</value>
+    <value>Найімовірніше, ви використовуватимете це у скриптах. Призупиніть Locket з командного рядка на час копіювання конфіденційних даних:</value>
   </data>
   <data name="Advanced_PauseScript.Text" xml:space="preserve">
-    <value>kleio.exe --pause
+    <value>locket.exe --pause
 … копіювання даних …
-kleio.exe --resume</value>
+locket.exe --resume</value>
   </data>
   <data name="Advanced_PauseScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --pause, копіювання даних, потім kleio.exe --resume</value>
+    <value>locket.exe --pause, копіювання даних, потім locket.exe --resume</value>
   </data>
   <data name="Advanced_IgnoreNextIntro.Text" xml:space="preserve">
     <value>Щоб ігнорувати лише наступне копіювання:</value>
   </data>
   <data name="Advanced_IgnoreNextScript.Text" xml:space="preserve">
-    <value>kleio.exe --ignore-next
+    <value>locket.exe --ignore-next
 … копіювання даних …</value>
   </data>
   <data name="Advanced_IgnoreNextScript.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>kleio.exe --ignore-next, потім копіювання даних</value>
+    <value>locket.exe --ignore-next, потім копіювання даних</value>
   </data>
   <data name="Advanced_TrayIconHint.Text" xml:space="preserve">
-    <value>Також можна клацнути значок в області сповіщень з Alt, щоб призупинити або відновити Kleio. Щоб ігнорувати лише наступне копіювання, клацніть з Alt+Shift.</value>
+    <value>Також можна клацнути значок в області сповіщень з Alt, щоб призупинити або відновити Locket. Щоб ігнорувати лише наступне копіювання, клацніть з Alt+Shift.</value>
   </data>
   <data name="Advanced_ClearingSection.Text" xml:space="preserve">
     <value>Очищення</value>
@@ -1256,7 +1256,7 @@ kleio.exe --resume</value>
     <value>Також очистіть системний буфер обміну</value>
   </data>
   <data name="About_Logo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Логотип Kleio</value>
+    <value>Логотип Locket</value>
   </data>
   <data name="About_Version" xml:space="preserve">
     <value>Версія {0}</value>
@@ -1274,10 +1274,10 @@ kleio.exe --resume</value>
     <value>Подяки</value>
   </data>
   <data name="About_MaccyCard.Header" xml:space="preserve">
-    <value>Kleio — це порт Maccy від Алекса Родіонова</value>
+    <value>Locket — це порт Maccy від Алекса Родіонова</value>
   </data>
   <data name="About_MaccyCard.Description" xml:space="preserve">
-    <value>Maccy — легкий менеджер буфера обміну для macOS. Kleio переносить його функції та інтерфейс у Windows 11.</value>
+    <value>Maccy — легкий менеджер буфера обміну для macOS. Locket переносить його функції та інтерфейс у Windows 11.</value>
   </data>
   <data name="About_MaccyWebsite.Content" xml:space="preserve">
     <value>Сайт Maccy</value>
@@ -1298,10 +1298,10 @@ kleio.exe --resume</value>
     <value>Повідомляйте про проблеми, пропонуйте функції та долучайтеся до розробки на GitHub.</value>
   </data>
   <data name="About_KleioGitHub.Content" xml:space="preserve">
-    <value>Kleio на GitHub</value>
+    <value>Locket на GitHub</value>
   </data>
   <data name="About_KleioGitHub.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
-    <value>Kleio на GitHub</value>
+    <value>Locket на GitHub</value>
   </data>
   <data name="About_Support.Content" xml:space="preserve">
     <value>Підтримка</value>
@@ -1313,7 +1313,7 @@ kleio.exe --resume</value>
     <value>Ліцензія</value>
   </data>
   <data name="About_LicenseCard.Description" xml:space="preserve">
-    <value>Kleio і Maccy — вільне програмне забезпечення під ліцензією MIT.</value>
+    <value>Locket і Maccy — вільне програмне забезпечення під ліцензією MIT.</value>
   </data>
   <data name="About_MitLicenseLink.Content" xml:space="preserve">
     <value>Ліцензія MIT</value>

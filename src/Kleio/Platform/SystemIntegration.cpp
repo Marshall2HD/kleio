@@ -138,6 +138,19 @@ namespace Kleio::SystemIntegration
         }
     }
 
+    bool InstalledFromStore()
+    {
+        try
+        {
+            return winrt::Windows::ApplicationModel::Package::Current().SignatureKind() ==
+                winrt::Windows::ApplicationModel::PackageSignatureKind::Store;
+        }
+        catch (...)
+        {
+            return false;
+        }
+    }
+
     void PlaySoundNamed(wchar_t const* name)
     {
         try

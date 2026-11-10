@@ -432,20 +432,20 @@ namespace Kleio::Scripting
 
     std::wstring Usage()
     {
-        return LR"(Usage: kleio [command]
+        return LR"(Usage: locket [command]
 
-History (positions count from 1 and include pinned items, as listed in Kleio):
+History (positions count from 1 and include pinned items, as listed in Locket):
   --get [n] [--format f] [--output path]
                     Print the selected item, or the n-th item. Formats: text, html, rtf,
                     image, files (one path per line). Without --format the first available
                     of text, files, image, html, rtf is used. Images are printed as base64
                     unless --output is given; --output writes the content to a file and
                     prints its path.
-  --select [n]      Copy the n-th item (default 1), like choosing it in Kleio. Pastes too
+  --select [n]      Copy the n-th item (default 1), like choosing it in Locket. Pastes too
                     when "Paste automatically" is on. Prints the item's title.
   --delete [n]      Delete the n-th item (default 1).
   --clear [--yes]   Clear the history except pinned items. Asks first unless --yes is given
-                    or "Don't ask again" was chosen in Kleio.
+                    or "Don't ask again" was chosen in Locket.
 
 Recording:
   --pause           Ignore all new copies.
@@ -454,10 +454,10 @@ Recording:
 
 App:
   --settings        Open Settings.
-  --quit            Quit Kleio.
+  --quit            Quit Locket.
   --help            Show this help.
 
-Exit codes: 0 success, 1 item or format not found, 2 invalid arguments, 3 Kleio not
+Exit codes: 0 success, 1 item or format not found, 2 invalid arguments, 3 Locket not
 reachable, 4 cancelled.
 )";
     }
