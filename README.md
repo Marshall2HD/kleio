@@ -46,6 +46,11 @@ Windows 10 version 2004 (build 19041) or later. Locket is designed for Windows 1
 Install Locket from the Microsoft Store. The Store installs the right build for your PC (x64 or ARM64)
 and keeps it up to date.
 
+Locket is also a free download from [GitHub Releases](https://github.com/Marshall2HD/locket/releases/latest):
+take the x64 zip (ARM64 for Snapdragon PCs), extract it and double-click `Install.cmd`. Windows asks
+for permission to trust Locket's signing certificate, then Locket installs and starts in the
+notification area.
+
 #### CI builds
 
 Development builds from CI (the `Locket-x64` / `Locket-ARM64` artifacts of the *Build* workflow) are
