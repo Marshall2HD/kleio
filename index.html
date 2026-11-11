@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kleio for Windows</title>
-<meta name="description" content="Kleio is a free, open-source clipboard manager for Windows 11. Press Win+Shift+C, type, paste.">
-<meta property="og:title" content="Kleio, clipboard history for Windows 11">
+<title>Locket for Windows</title>
+<meta name="description" content="Locket is a free, open-source clipboard manager for Windows 11. Press Win+Shift+C, type, paste.">
+<meta property="og:title" content="Locket, clipboard history for Windows 11">
 <meta property="og:description" content="Everything you copy, one shortcut away. Free and open source.">
-<meta property="og:image" content="https://marshall2hd.github.io/kleio/assets/poster.jpg">
-<meta property="og:url" content="https://marshall2hd.github.io/kleio/">
+<meta property="og:image" content="https://marshall2hd.github.io/locket/assets/poster.jpg">
+<meta property="og:url" content="https://marshall2hd.github.io/locket/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -131,10 +131,10 @@ footer.site a { color: var(--muted); }
 <body>
 <div class="wrap">
   <header class="site">
-    <a class="brand" href="./"><img src="assets/logo.png" alt="" width="34" height="34">Kleio</a>
+    <a class="brand" href="./"><img src="assets/logo.png" alt="" width="34" height="34">Locket</a>
     <nav aria-label="Site">
-      <a class="docs" href="https://github.com/Marshall2HD/kleio/blob/main/docs/usage.md">Usage guide</a>
-      <a href="https://github.com/Marshall2HD/kleio">GitHub</a>
+      <a class="docs" href="https://github.com/Marshall2HD/locket/blob/main/docs/usage.md">Usage guide</a>
+      <a href="https://github.com/Marshall2HD/locket">GitHub</a>
     </nav>
   </header>
 
@@ -142,16 +142,16 @@ footer.site a { color: var(--muted); }
     <section id="hero">
       <div class="hero-copy">
         <h1>Everything you copy, one shortcut away.</h1>
-        <p class="lede">Kleio keeps your clipboard history on Windows&nbsp;11. Press the shortcut, type a few letters, paste. Free, open source, and native to Windows.</p>
+        <p class="lede">Locket keeps your clipboard history on Windows&nbsp;11. Press the shortcut, type a few letters, paste. Free, open source, and native to Windows.</p>
         <p class="chord" aria-label="Shortcut: Windows key plus Shift plus C"><kbd>Win</kbd><span class="plus" aria-hidden="true">+</span><kbd>Shift</kbd><span class="plus" aria-hidden="true">+</span><kbd>C</kbd></p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/Marshall2HD/kleio/releases/latest">Download for Windows</a>
-          <a class="button secondary" href="https://github.com/Marshall2HD/kleio">Source on GitHub</a>
+          <a class="button primary" href="https://github.com/Marshall2HD/locket/releases/latest">Download for Windows</a>
+          <a class="button secondary" href="https://github.com/Marshall2HD/locket">Source on GitHub</a>
         </div>
         <p class="fine">Free and MIT licensed. Windows 10 2004 or later; built for Windows 11. x64 and ARM64.</p>
       </div>
       <figure id="demo">
-        <video src="assets/kleio.mp4" poster="assets/poster.jpg" width="1280" height="720" autoplay muted loop playsinline controls preload="metadata" aria-label="Kleio opening over Notepad, filtering history by typing github, pasting the link, then previewing a SQL snippet"></video>
+        <video src="assets/kleio.mp4" poster="assets/poster.jpg" width="1280" height="720" autoplay muted loop playsinline controls preload="metadata" aria-label="Locket opening over Notepad, filtering history by typing github, pasting the link, then previewing a SQL snippet"></video>
         <figcaption>Recorded in a Windows 11 VM: search, paste with Alt+Enter, preview with Ctrl+Space.</figcaption>
       </figure>
     </section>
@@ -160,7 +160,7 @@ footer.site a { color: var(--muted); }
       <h2>Your hands stay on the keyboard</h2>
       <p class="intro">Every action has a key. These are the defaults; the open, pin, delete and preview shortcuts can be changed in Settings.</p>
       <dl>
-        <div class="row"><dt><kbd>Win</kbd><kbd>Shift</kbd><kbd>C</kbd></dt><dd><b>Open Kleio</b> wherever you are. Optionally take over <kbd>Win</kbd><kbd>V</kbd>.</dd></div>
+        <div class="row"><dt><kbd>Win</kbd><kbd>Shift</kbd><kbd>C</kbd></dt><dd><b>Open Locket</b> wherever you are. Optionally take over <kbd>Win</kbd><kbd>V</kbd>.</dd></div>
         <div class="row"><dt><span>Just type</span></dt><dd><b>Search</b> exact, fuzzy, by regular expression, or mixed.</dd></div>
         <div class="row"><dt><kbd>Enter</kbd></dt><dd><b>Copy</b> the selected item back to the clipboard.</dd></div>
         <div class="row"><dt><kbd>Alt</kbd><kbd>Enter</kbd></dt><dd><b>Paste</b> it straight into the app you came from.</dd></div>
@@ -178,7 +178,7 @@ footer.site a { color: var(--muted); }
         <div><h3>Native Windows 11</h3><p>WinUI 3 and C++/WinRT. Acrylic popup, Mica settings, light and dark theme, Segoe Fluent icons.</p></div>
         <div><h3>Stays on your PC</h3><p>History lives in a local SQLite file. Copies that password managers mark as private are never recorded.</p></div>
         <div><h3>Light on resources</h3><p>Event-driven clipboard monitoring, no polling. It sits in the notification area until you need it.</p></div>
-        <div><h3>Scriptable</h3><p><code>kleio --get 3</code>, <code>--select</code>, <code>--delete</code> and <code>--clear</code> work from PowerShell and scripts.</p></div>
+        <div><h3>Scriptable</h3><p><code>locket --get 3</code>, <code>--select</code>, <code>--delete</code> and <code>--clear</code> work from PowerShell and scripts.</p></div>
         <div><h3>Ignore rules</h3><p>Skip copies by app, by clipboard format, or by pattern, such as six-digit one-time codes.</p></div>
         <div><h3>43 languages</h3><p>Translated into 43 languages, with auto-updates from GitHub Releases.</p></div>
       </div>
@@ -187,13 +187,13 @@ footer.site a { color: var(--muted); }
     <section class="band" id="screenshot">
       <h2>Looks like it belongs</h2>
       <p class="intro">Your recent copies, numbered for quick access, in a Fluent popup that follows your light or dark theme.</p>
-      <img src="assets/kleio-popup.png" alt="Kleio popup listing recent clipboard items over the Windows 11 desktop" width="1200" height="640">
+      <img src="assets/locket-popup.png" alt="Locket popup listing recent clipboard items" width="1254" height="554">
     </section>
 
     <section class="band" id="install">
       <h2>Install</h2>
       <ol>
-        <li>Download the <code>.msix</code> for your PC, x64 or ARM64, from <a href="https://github.com/Marshall2HD/kleio/releases/latest">GitHub Releases</a>.</li>
+        <li>Download the <code>.msix</code> for your PC, x64 or ARM64, from <a href="https://github.com/Marshall2HD/locket/releases/latest">GitHub Releases</a>.</li>
         <li>Open it and choose Install.</li>
         <li>Press <kbd>Win</kbd><kbd>Shift</kbd><kbd>C</kbd> and copy something.</li>
       </ol>
@@ -202,8 +202,8 @@ footer.site a { color: var(--muted); }
   </main>
 
   <footer class="site">
-    <span>Kleio is free software under the MIT license. Based on <a href="https://github.com/p0deje/Maccy">Maccy</a> by Alex Rodionov.</span>
-    <span><a href="https://github.com/Marshall2HD/kleio">Source</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/issues">Report an issue</a>&emsp;<a href="https://github.com/Marshall2HD/kleio/blob/main/docs/faq.md">FAQ</a></span>
+    <span>Locket is free software under the MIT license. Based on <a href="https://github.com/p0deje/Maccy">Maccy</a> by Alex Rodionov.</span>
+    <span><a href="https://github.com/Marshall2HD/locket">Source</a>&emsp;<a href="https://github.com/Marshall2HD/locket/issues">Report an issue</a>&emsp;<a href="https://github.com/Marshall2HD/locket/blob/main/docs/faq.md">FAQ</a></span>
   </footer>
 </div>
 </body>
