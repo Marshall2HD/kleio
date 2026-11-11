@@ -51,12 +51,12 @@
                 </local:SettingsCard>
                 <local:SettingsCard x:Uid="About_SourceCard" Glyph="&#xE943;">
                     <StackPanel Orientation="Horizontal" Spacing="4">
-                        <HyperlinkButton x:Uid="About_KleioGitHub" NavigateUri="https://github.com/Marshall2HD/kleio" />
-                        <HyperlinkButton x:Uid="About_Support" NavigateUri="https://github.com/Marshall2HD/kleio/issues" />
+                        <HyperlinkButton x:Uid="About_KleioGitHub" NavigateUri="https://github.com/Marshall2HD/locket" />
+                        <HyperlinkButton x:Uid="About_Support" NavigateUri="https://github.com/Marshall2HD/locket/issues" />
                     </StackPanel>
                 </local:SettingsCard>
                 <local:SettingsCard x:Uid="About_LicenseCard" Glyph="&#xE8A5;">
-                    <HyperlinkButton x:Uid="About_MitLicenseLink" NavigateUri="https://github.com/Marshall2HD/kleio/blob/HEAD/LICENSE" />
+                    <HyperlinkButton x:Uid="About_MitLicenseLink" NavigateUri="https://github.com/Marshall2HD/locket/blob/HEAD/LICENSE" />
                 </local:SettingsCard>
             </StackPanel>
         </ScrollViewer>

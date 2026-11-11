@@ -720,7 +720,7 @@ namespace Kleio
         {
             UpdateInfo update{ get(L"version"), get(L"package"), get(L"release") };
             // Only Kleio's own release assets.
-            if (!update.packageUrl.starts_with(L"https://github.com/Marshall2HD/kleio/releases/download/"))
+            if (!update.packageUrl.starts_with(L"https://github.com/Marshall2HD/locket/releases/download/"))
             {
                 update.packageUrl.clear();
             }

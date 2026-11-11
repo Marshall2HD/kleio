@@ -20,7 +20,7 @@ icon's menu, then enable *Show footer* in *Appearance*.
 
 The Microsoft Store updates Locket like any other Store app. Builds installed outside the Store
 (CI or GitHub release packages) update themselves instead: with *Check for updates automatically* on
-(*Settings → General*), Locket looks for a new [release](https://github.com/Marshall2HD/kleio/releases)
+(*Settings → General*), Locket looks for a new [release](https://github.com/Marshall2HD/locket/releases)
 once a day. When there is one, a
 notification offers to install it or skip that version. *Check now* (also in *About*) checks
 right away. Installing downloads the `.msix` for your PC and updates Locket, which then restarts.

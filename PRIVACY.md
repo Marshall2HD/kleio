@@ -31,4 +31,4 @@ Links in *About* open in your browser only when you click them.
 
 ## Contact
 
-Questions about this policy: open an issue at <https://github.com/Marshall2HD/kleio/issues>.
+Questions about this policy: open an issue at <https://github.com/Marshall2HD/locket/issues>.

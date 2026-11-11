@@ -3,7 +3,7 @@
   &nbsp;Locket
 </h1>
 
-![Build](https://github.com/Marshall2HD/kleio/actions/workflows/build.yml/badge.svg)
+![Build](https://github.com/Marshall2HD/locket/actions/workflows/build.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Locket is a lightweight clipboard manager for Windows 11. It keeps the history of what you copy and lets you quickly navigate, search, and use previous clipboard contents.

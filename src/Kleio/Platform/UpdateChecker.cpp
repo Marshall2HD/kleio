@@ -12,7 +12,7 @@ namespace Kleio
 {
     namespace
     {
-        constexpr wchar_t LatestReleaseApi[] = L"https://api.github.com/repos/Marshall2HD/kleio/releases/latest";
+        constexpr wchar_t LatestReleaseApi[] = L"https://api.github.com/repos/Marshall2HD/locket/releases/latest";
 
 #if defined(_M_ARM64)
         constexpr wchar_t Architecture[] = L"arm64";

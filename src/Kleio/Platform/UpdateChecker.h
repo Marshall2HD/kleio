@@ -11,7 +11,7 @@
 namespace Kleio
 {
     // Port of Maccy's SoftwareUpdater (Sparkle). Sparkle reads an appcast; Kleio reads the latest
-    // GitHub release of Marshall2HD/kleio (https://api.github.com/repos/Marshall2HD/kleio/releases/latest,
+    // GitHub release of Marshall2HD/locket (https://api.github.com/repos/Marshall2HD/locket/releases/latest,
     // tag "vX.Y.Z") and installs its .msix asset for the running architecture.
 
     struct UpdateInfo
@@ -38,7 +38,7 @@ namespace Kleio
     // Sparkle's default SUScheduledCheckInterval (86400 s); Maccy's Info.plist doesn't override it.
     inline constexpr std::chrono::seconds UpdateCheckInterval{ 24 * 60 * 60 };
 
-    inline constexpr wchar_t ReleasesUrl[] = L"https://github.com/Marshall2HD/kleio/releases/latest";
+    inline constexpr wchar_t ReleasesUrl[] = L"https://github.com/Marshall2HD/locket/releases/latest";
 
     // Queries GitHub off the UI thread; `done` runs on the calling (UI) thread. Never throws.
     winrt::fire_and_forget CheckForUpdate(std::function<void(UpdateCheckResult const&)> done);
